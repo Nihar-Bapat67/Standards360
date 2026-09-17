@@ -1,0 +1,826 @@
+<title>Standards360 Walkthrough</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400&display=swap">
+<style>
+  :root{
+    --ground:#F1F3F7; --surface:#FFFFFF; --surface-2:#E9ECF3;
+    --ink:#141922; --muted:#5B6577; --rule:#D5DAE3;
+    --accent:#1B3A6B; --kg:#2E6BC4; --amber:#B3690A; --green:#1C6B47; --red:#9C2C2C;
+    --display:'Archivo','Helvetica Neue',Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,serif;
+    --mono:'IBM Plex Mono',Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:#0D1016; --surface:#151A22; --surface-2:#1C222C;
+      --ink:#E5E9F0; --muted:#8F9BAF; --rule:#242B38;
+      --accent:#7BA7E8; --kg:#5E9BF0; --amber:#DFA54C; --green:#4CB183; --red:#E08585;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0D1016; --surface:#151A22; --surface-2:#1C222C;
+    --ink:#E5E9F0; --muted:#8F9BAF; --rule:#242B38;
+    --accent:#7BA7E8; --kg:#5E9BF0; --amber:#DFA54C; --green:#4CB183; --red:#E08585;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--ground);color:var(--ink);font-family:var(--serif);font-size:16px;line-height:1.6}
+
+  .app{min-height:100vh;display:flex;flex-direction:column}
+
+  .top{display:flex;align-items:center;justify-content:space-between;gap:16px;
+       padding:16px 28px;border-bottom:1px solid var(--rule);flex:none}
+  .brand{font-family:var(--display);font-weight:700;font-size:16px;letter-spacing:-.01em}
+  .brand span{color:var(--muted);font-weight:500;margin-left:10px;font-size:12px;font-family:var(--mono);letter-spacing:.1em;text-transform:uppercase}
+  .count{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+  .stage{flex:1;display:grid;place-items:center;padding:28px;overflow:auto;position:relative}
+  .scene{display:none;width:100%;max-width:1080px}
+  .scene.is-active{display:block}
+  .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
+  .grid.wide{grid-template-columns:1fr}
+  @media(max-width:860px){.grid{grid-template-columns:1fr;gap:28px}}
+
+  .eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--kg);margin:0 0 10px;font-weight:600}
+  h2{font-family:var(--display);font-weight:600;font-size:clamp(24px,3.2vw,34px);letter-spacing:-.02em;line-height:1.14;margin:0 0 18px;text-wrap:balance}
+  .say ul{margin:0;padding:0;list-style:none}
+  .say li{position:relative;padding-left:20px;margin-bottom:11px;font-size:15.5px;line-height:1.55;max-width:46ch}
+  .say li::before{content:"";position:absolute;left:0;top:10px;width:8px;height:1.5px;background:var(--muted)}
+  .say li b{font-family:var(--display);font-weight:600}
+  .say li code{font-family:var(--mono);font-size:.85em;background:var(--surface-2);padding:1px 5px}
+
+  .viz{background:var(--surface);border:1px solid var(--rule);padding:22px;min-height:260px;display:grid;place-items:center}
+  .viz svg{display:block;width:100%;height:auto;color:var(--ink)}
+
+  /* reveal */
+  .rv{opacity:0;transform:translateY(9px)}
+  .is-active .rv{animation:rv .5s cubic-bezier(.2,.7,.3,1) forwards;animation-delay:calc(var(--i,0)*.11s)}
+  @keyframes rv{to{opacity:1;transform:none}}
+  .draw{stroke-dasharray:700;stroke-dashoffset:700}
+  .is-active .draw{animation:dr .7s ease forwards;animation-delay:calc(var(--i,0)*.11s)}
+  @keyframes dr{to{stroke-dashoffset:0}}
+  .grow{transform:scaleX(0);transform-origin:left center}
+  .is-active .grow{animation:gw .7s cubic-bezier(.2,.7,.3,1) forwards;animation-delay:calc(var(--i,0)*.11s)}
+  @keyframes gw{to{transform:scaleX(1)}}
+  @media (prefers-reduced-motion:reduce){
+    .rv,.draw,.grow{opacity:1;transform:none;stroke-dashoffset:0;animation:none!important}
+  }
+
+  /* svg atoms */
+  .nb{fill:var(--surface);stroke:currentColor;stroke-width:1.2}
+  .na{fill:var(--surface);stroke:var(--kg);stroke-width:1.8}
+  .nd{fill:var(--surface-2);stroke:currentColor;stroke-width:1}
+  .th{font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;fill:currentColor;letter-spacing:.03em}
+  .ta{font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;fill:var(--kg);letter-spacing:.03em}
+  .ts{font-family:'Archivo',sans-serif;font-size:10px;fill:var(--muted)}
+  .te{font-family:'IBM Plex Mono',monospace;font-size:9.5px;fill:var(--muted)}
+  .ln{stroke:currentColor;stroke-width:1.1;fill:none}
+  .la{stroke:var(--kg);stroke-width:1.5;fill:none}
+
+  /* html atoms */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);width:100%}
+  .stat{background:var(--surface);padding:16px 18px}
+  .stat b{display:block;font-family:var(--display);font-weight:700;font-size:30px;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1.1}
+  .stat span{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:block;margin-top:5px}
+
+  .rows{width:100%;display:flex;flex-direction:column;gap:9px}
+  .row{display:flex;align-items:center;gap:12px;background:var(--surface-2);padding:9px 13px;border-left:2px solid var(--rule)}
+  .row.hot{border-left-color:var(--kg)}
+  .row .tag{font-family:var(--mono);font-size:10.5px;font-weight:600;color:var(--kg);flex:none;width:26px}
+  .row .txt{font-family:var(--display);font-size:12.5px;line-height:1.4;flex:1}
+  .row .mods{font-family:var(--mono);font-size:10px;color:var(--muted);flex:none;text-align:right}
+
+  .chips{display:flex;flex-wrap:wrap;gap:7px;width:100%}
+  .chip{font-family:var(--mono);font-size:11px;font-weight:600;padding:6px 10px;border:1px solid var(--rule);background:var(--surface);color:var(--muted)}
+  .chip.done{border-color:var(--green);color:var(--green)}
+  .chip.part{border-color:var(--amber);color:var(--amber)}
+  .chip.none{border-color:var(--rule);color:var(--muted);opacity:.55}
+  .chip.hot{border-color:var(--kg);color:var(--kg)}
+
+  .bars{width:100%;display:flex;flex-direction:column;gap:14px}
+  .bar{display:grid;grid-template-columns:118px 1fr;gap:12px;align-items:center}
+  .bar .bl{font-family:var(--mono);font-size:10.5px;color:var(--muted);text-align:right}
+  .bar .bt{height:30px;background:var(--surface-2);position:relative;overflow:hidden}
+  .bar .bf{position:absolute;inset:0 auto 0 0;background:var(--kg);opacity:.22}
+  .bar .bv{position:absolute;left:10px;top:50%;transform:translateY(-50%);font-family:var(--mono);font-size:11px;font-weight:600;color:var(--ink)}
+
+  .depth{width:100%;display:flex;flex-direction:column;gap:12px}
+  .dep{display:grid;grid-template-columns:130px 1fr;gap:12px;align-items:center}
+  .dep .dl{font-family:var(--mono);font-size:10.5px;color:var(--muted);text-align:right;line-height:1.4}
+  .dep .dr{display:flex;gap:4px}
+  .seg{font-family:var(--mono);font-size:10px;font-weight:600;padding:9px 8px;border:1px solid var(--rule);background:var(--surface);white-space:nowrap}
+  .seg.p{border-color:var(--kg);color:var(--kg)}
+
+  .trace{width:100%;font-family:var(--mono);font-size:11.5px;line-height:1.75;background:var(--surface);border-left:3px solid var(--kg);padding:16px 18px;overflow-x:auto}
+  .trace div{white-space:pre}
+  .trace b{color:var(--kg);font-weight:600}
+  .trace .ok{color:var(--green);font-weight:600}
+  .trace .bad{color:var(--red);font-weight:600}
+
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);width:100%}
+  .two > div{background:var(--surface);padding:18px 20px}
+  .two h4{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 10px;font-weight:600}
+  .two ul{margin:0;padding-left:16px;font-family:var(--display);font-size:13px;line-height:1.65}
+  .two li{margin-bottom:4px}
+  .two .g h4{color:var(--green)} .two .r h4{color:var(--muted)}
+  @media(max-width:700px){.two{grid-template-columns:1fr}}
+
+  .team{width:100%;display:flex;flex-direction:column;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+  .tm{background:var(--surface);padding:12px 16px;display:grid;grid-template-columns:130px 150px 1fr;gap:14px;align-items:center}
+  .tm .who{font-family:var(--display);font-weight:600;font-size:13px}
+  .tm .mm{font-family:var(--mono);font-size:11px;color:var(--kg)}
+  .tm .tk{font-family:var(--display);font-size:12.5px;color:var(--muted);line-height:1.4}
+  @media(max-width:760px){.tm{grid-template-columns:1fr;gap:3px}}
+
+  .days{width:100%;display:flex;flex-direction:column;gap:7px}
+  .day{display:grid;grid-template-columns:78px 1fr;gap:12px;font-size:13px;font-family:var(--display);
+       padding:7px 0;border-bottom:1px solid var(--rule)}
+  .day b{font-family:var(--mono);font-size:11px;color:var(--kg);font-weight:600}
+
+  .three{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);width:100%}
+  .three > div{background:var(--surface);padding:20px}
+  .three .n{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--kg);display:block;margin-bottom:8px}
+  .three h4{font-family:var(--display);font-size:14.5px;margin:0 0 7px;font-weight:600}
+  .three p{margin:0;font-size:13px;color:var(--muted);line-height:1.55}
+  @media(max-width:760px){.three{grid-template-columns:1fr}}
+
+  /* controls */
+  .ctl{flex:none;border-top:1px solid var(--rule);background:var(--surface);
+       display:flex;align-items:center;gap:16px;padding:11px 20px}
+  .btn{font-family:var(--mono);font-size:12px;font-weight:600;background:none;border:1px solid var(--rule);
+       color:var(--ink);padding:7px 12px;cursor:pointer;line-height:1}
+  .btn:hover{border-color:var(--kg);color:var(--kg)}
+  .btn:focus-visible{outline:2px solid var(--kg);outline-offset:2px}
+  .rail{flex:1;display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+  .pip{width:100%;max-width:26px;height:4px;background:var(--rule);border:0;padding:0;cursor:pointer;flex:1}
+  .pip.on{background:var(--kg)}
+  .pip:focus-visible{outline:2px solid var(--kg);outline-offset:3px}
+  .now{font-family:var(--mono);font-size:11px;color:var(--muted);flex:none;max-width:280px;
+       overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  @media(max-width:700px){.now{display:none}}
+</style>
+
+<div class="app">
+  <div class="top">
+    <div class="brand">Standards360 <span>PS 26108 · team walkthrough</span></div>
+    <div class="count"><span id="cn">01</span> / 17</div>
+  </div>
+
+  <div class="stage" id="stage">
+
+    <!-- 1 -->
+    <section class="scene is-active" data-dur="11000" data-title="The problem">
+      <div class="grid">
+        <div class="viz">
+          <div class="stats">
+            <div class="stat rv" style="--i:0"><b data-count="22689">0</b><span>standards in force</span></div>
+            <div class="stat rv" style="--i:1"><b data-count="187">0</b><span>quality control orders</span></div>
+            <div class="stat rv" style="--i:2"><b data-count="769">0</b><span>products, certification compulsory</span></div>
+            <div class="stat rv" style="--i:3"><b>0</b><span>officers who can track this</span></div>
+          </div>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">The problem</p>
+          <h2 class="rv" style="--i:1">A tender is only as good as the standards it names</h2>
+          <ul>
+            <li class="rv" style="--i:2">The officer drafting it is an engineer or a stores officer, <b>not a standards expert</b></li>
+            <li class="rv" style="--i:3">Scopes overlap, revisions are frequent, and allied standards are buried inside Clause 2 of each document</li>
+            <li class="rv" style="--i:4">So today they copy last year's tender, ask a senior, or <b>ask the vendor</b></li>
+            <li class="rv" style="--i:5">The result is omitted standards, outdated citations and incomplete requirements — which becomes disputes, rejected bids and poor quality</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 -->
+    <section class="scene" data-dur="11000" data-title="Two stakeholders, one engine">
+      <div class="grid">
+        <div class="viz">
+          <svg viewBox="0 0 460 320" role="img" aria-label="Two personas converge into one shared engine and then diverge into two document templates.">
+            <rect class="nb rv" style="--i:0" x="20" y="16" width="190" height="46"/>
+            <text class="th rv" style="--i:0" x="115" y="38" text-anchor="middle">PROCUREMENT</text>
+            <text class="ts rv" style="--i:0" x="115" y="53" text-anchor="middle">drafting a tender</text>
+            <rect class="nb rv" style="--i:1" x="250" y="16" width="190" height="46"/>
+            <text class="th rv" style="--i:1" x="345" y="38" text-anchor="middle">MANUFACTURER</text>
+            <text class="ts rv" style="--i:1" x="345" y="53" text-anchor="middle">checking compliance</text>
+
+            <polyline class="ln draw" style="--i:2" points="115,62 115,82 230,82 230,100"/>
+            <polyline class="ln draw" style="--i:2" points="345,62 345,82 230,82"/>
+
+            <rect class="na rv" style="--i:3" x="20" y="104" width="420" height="88"/>
+            <text class="ta rv" style="--i:3" x="230" y="130" text-anchor="middle">B1–B5   ·   C1–C5</text>
+            <text class="ts rv" style="--i:4" x="230" y="150" text-anchor="middle">the same retrieval, the same graph, the same warnings,</text>
+            <text class="ts rv" style="--i:4" x="230" y="166" text-anchor="middle">the same certification lookup, the same confidence</text>
+            <text class="te rv" style="--i:5" x="230" y="184" text-anchor="middle">seventeen of nineteen modules are shared</text>
+
+            <polyline class="ln draw" style="--i:6" points="230,192 230,212 115,212 115,234"/>
+            <polyline class="ln draw" style="--i:6" points="230,192 230,212 345,212 345,234"/>
+
+            <rect class="nb rv" style="--i:7" x="20" y="238" width="190" height="62"/>
+            <text class="th rv" style="--i:7" x="115" y="260" text-anchor="middle">TENDER TEMPLATE</text>
+            <text class="ts rv" style="--i:7" x="115" y="276" text-anchor="middle">"bidders must hold</text>
+            <text class="ts rv" style="--i:7" x="115" y="290" text-anchor="middle">a valid BIS licence"</text>
+            <rect class="nb rv" style="--i:8" x="250" y="238" width="190" height="62"/>
+            <text class="th rv" style="--i:8" x="345" y="260" text-anchor="middle">COMPLIANCE SHEET</text>
+            <text class="ts rv" style="--i:8" x="345" y="276" text-anchor="middle">"you must obtain a licence</text>
+            <text class="ts rv" style="--i:8" x="345" y="290" text-anchor="middle">before you can sell"</text>
+          </svg>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">Who uses it</p>
+          <h2 class="rv" style="--i:1">Two people, two questions, one engine</h2>
+          <ul>
+            <li class="rv" style="--i:2"><b>Procurement official:</b> which standards must I cite, and are my citations current?</li>
+            <li class="rv" style="--i:3"><b>Manufacturer:</b> which standards must my product comply with, and what licence do I need?</li>
+            <li class="rv" style="--i:4">Identical facts reach both. Only the <b>wording in D2</b> and the <b>template in D3</b> differ</li>
+            <li class="rv" style="--i:5">Which is why the second persona costs about one extra day. <b>Build them in sequence, never in parallel</b></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 -->
+    <section class="scene" data-dur="13000" data-title="Five ways input arrives">
+      <div class="grid">
+        <div class="viz">
+          <div class="rows">
+            <div class="row rv" style="--i:0"><span class="tag">S1</span><span class="txt">Tender PDF with <b>no standards at all</b></span><span class="mods">B1 B3 → C → D</span></div>
+            <div class="row hot rv" style="--i:1"><span class="tag">S2</span><span class="txt">Tender PDF <b>with guessed standards</b> from a senior or last year</span><span class="mods">+ B4</span></div>
+            <div class="row rv" style="--i:2"><span class="tag">S3</span><span class="txt">Pasted text, or a <b>screenshot</b> of a spec</span><span class="mods">B1 OCR</span></div>
+            <div class="row rv" style="--i:3"><span class="tag">S4</span><span class="txt">Just a <b>product name</b> — "steel tubes"</span><span class="mods">+ B5</span></div>
+            <div class="row hot rv" style="--i:4"><span class="tag">S5</span><span class="txt">Any of the above, but <b>too thin to be confident</b></span><span class="mods">B5 + C5</span></div>
+          </div>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">Input</p>
+          <h2 class="rv" style="--i:1">Five real situations, one pipeline</h2>
+          <ul>
+            <li class="rv" style="--i:2">All five route through the same modules. What changes is which ones do the work</li>
+            <li class="rv" style="--i:3"><b>S2 is our strongest demo.</b> It is how procurement actually works today, and judging someone's existing citations is far more impressive than answering a blank query</li>
+            <li class="rv" style="--i:4"><b>S5 shapes the interface.</b> A system that asks a clarifying question needs somewhere to ask it — which is why intake is chat-shaped</li>
+            <li class="rv" style="--i:5">Conversation in, <b>document out</b>. Not a chatbot: an intake interview that ends in a deliverable</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 -->
+    <section class="scene" data-dur="11000" data-title="Four stages, nineteen modules">
+      <div class="grid">
+        <div class="viz">
+          <svg viewBox="0 0 460 300" role="img" aria-label="Stage A runs offline and writes the stores. Stages B, C and D run per request and read them.">
+            <rect class="nd rv" style="--i:0" x="16" y="14" width="428" height="54"/>
+            <text class="te rv" style="--i:0" x="28" y="32">A · BUILD THE KNOWLEDGE BASE — OFFLINE</text>
+            <rect class="nb rv" style="--i:1" x="28" y="38" width="96" height="22"/><text class="th rv" style="--i:1" x="76" y="53" text-anchor="middle">A1</text>
+            <rect class="nb rv" style="--i:1" x="132" y="38" width="96" height="22"/><text class="th rv" style="--i:1" x="180" y="53" text-anchor="middle">A2</text>
+            <rect class="na rv" style="--i:2" x="236" y="38" width="96" height="22"/><text class="ta rv" style="--i:2" x="284" y="53" text-anchor="middle">A3</text>
+            <rect class="nb rv" style="--i:2" x="340" y="38" width="96" height="22"/><text class="th rv" style="--i:2" x="388" y="53" text-anchor="middle">A4</text>
+
+            <line class="ln draw" style="--i:3" x1="230" y1="68" x2="230" y2="92"/>
+            <text class="te rv" style="--i:3" x="238" y="84">writes</text>
+
+            <rect class="nd rv" style="--i:4" x="16" y="96" width="428" height="52"/>
+            <text class="te rv" style="--i:4" x="28" y="114">KNOWLEDGE STORES</text>
+            <rect class="nb rv" style="--i:5" x="28" y="120" width="128" height="20"/><text class="th rv" style="--i:5" x="92" y="134" text-anchor="middle">CATALOGUE</text>
+            <rect class="na rv" style="--i:5" x="164" y="120" width="128" height="20"/><text class="ta rv" style="--i:5" x="228" y="134" text-anchor="middle">EDGES</text>
+            <rect class="nb rv" style="--i:5" x="300" y="120" width="136" height="20"/><text class="th rv" style="--i:5" x="368" y="134" text-anchor="middle">INDEXES</text>
+
+            <line class="ln draw" style="--i:6" x1="230" y1="176" x2="230" y2="152"/>
+            <text class="te rv" style="--i:6" x="238" y="170">reads</text>
+
+            <rect class="nd rv" style="--i:7" x="16" y="180" width="428" height="104"/>
+            <text class="te rv" style="--i:7" x="28" y="198">B → C → D · ONE REQUEST — ONLINE</text>
+            <rect class="nb rv" style="--i:8" x="28" y="206" width="408" height="22"/><text class="th rv" style="--i:8" x="232" y="221" text-anchor="middle">B · UNDERSTAND — B1 … B5</text>
+            <rect class="na rv" style="--i:9" x="28" y="232" width="408" height="22"/><text class="ta rv" style="--i:9" x="232" y="247" text-anchor="middle">C · FIND &amp; CHECK — C1 … C5</text>
+            <rect class="nb rv" style="--i:10" x="28" y="258" width="408" height="22"/><text class="th rv" style="--i:10" x="232" y="273" text-anchor="middle">D · DELIVER — D1 … D5</text>
+          </svg>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">How it is organised</p>
+          <h2 class="rv" style="--i:1">The letter is the stage, the number is the position</h2>
+          <ul>
+            <li class="rv" style="--i:2"><code>C3</code> means the third module of the find-and-check stage. That is the whole naming scheme</li>
+            <li class="rv" style="--i:3"><b>A runs offline</b>, before any user arrives, and produces files</li>
+            <li class="rv" style="--i:4"><b>B, C and D run per request</b> and only read those files</li>
+            <li class="rv" style="--i:5">The two halves share no code path and meet only at the stores. So the corpus can be rebuilt while the service answers — and <b>the demo runs with no internet</b></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 -->
+    <section class="scene" data-dur="13000" data-title="Stage A — build the knowledge base">
+      <div class="grid">
+        <div class="viz">
+          <svg viewBox="0 0 460 250" role="img" aria-label="Four ingestion modules in sequence writing into three stores.">
+            <rect class="nb rv" style="--i:0" x="14" y="20" width="98" height="52"/>
+            <text class="th rv" style="--i:0" x="63" y="42" text-anchor="middle">A1</text><text class="ts rv" style="--i:0" x="63" y="58" text-anchor="middle">collect</text>
+            <rect class="nb rv" style="--i:1" x="130" y="20" width="98" height="52"/>
+            <text class="th rv" style="--i:1" x="179" y="42" text-anchor="middle">A2</text><text class="ts rv" style="--i:1" x="179" y="58" text-anchor="middle">clauses</text>
+            <rect class="na rv" style="--i:2" x="246" y="20" width="98" height="52"/>
+            <text class="ta rv" style="--i:2" x="295" y="42" text-anchor="middle">A3</text><text class="ts rv" style="--i:2" x="295" y="58" text-anchor="middle">Clause 2 refs</text>
+            <rect class="nb rv" style="--i:3" x="362" y="20" width="84" height="52"/>
+            <text class="th rv" style="--i:3" x="404" y="42" text-anchor="middle">A4</text><text class="ts rv" style="--i:3" x="404" y="58" text-anchor="middle">index</text>
+            <line class="ln draw" style="--i:1" x1="114" y1="46" x2="126" y2="46"/>
+            <line class="ln draw" style="--i:2" x1="230" y1="46" x2="242" y2="46"/>
+            <line class="ln draw" style="--i:3" x1="346" y1="46" x2="358" y2="46"/>
+
+            <line class="ln draw" style="--i:4" x1="63" y1="72" x2="63" y2="130"/>
+            <line class="ln draw" style="--i:5" x1="295" y1="72" x2="230" y2="130"/>
+            <line class="ln draw" style="--i:6" x1="404" y1="72" x2="392" y2="130"/>
+
+            <rect class="nb rv" style="--i:7" x="14" y="134" width="112" height="46"/>
+            <text class="th rv" style="--i:7" x="70" y="154" text-anchor="middle">CATALOGUE</text>
+            <text class="ts rv" style="--i:7" x="70" y="170" text-anchor="middle">22,689 records</text>
+            <rect class="na rv" style="--i:8" x="172" y="134" width="120" height="46"/>
+            <text class="ta rv" style="--i:8" x="232" y="154" text-anchor="middle">EDGE TABLE</text>
+            <text class="ts rv" style="--i:8" x="232" y="170" text-anchor="middle">from · relation · to</text>
+            <rect class="nb rv" style="--i:9" x="332" y="134" width="114" height="46"/>
+            <text class="th rv" style="--i:9" x="389" y="154" text-anchor="middle">INDEXES</text>
+            <text class="ts rv" style="--i:9" x="389" y="170" text-anchor="middle">faiss · bm25 · id_map</text>
+
+            <text class="te rv" style="--i:10" x="230" y="216" text-anchor="middle">run once, refresh monthly · produces files, not a service</text>
+            <text class="te rv" style="--i:10" x="230" y="234" text-anchor="middle">everything else in the project waits on this</text>
+          </svg>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">Stage A · Developer 1</p>
+          <h2 class="rv" style="--i:1">Build the knowledge base once</h2>
+          <ul>
+            <li class="rv" style="--i:2"><b>A1</b> collects metadata for all ~22,689 standards — status, supersession, amendments — plus the QCO list and the recognised-lab list</li>
+            <li class="rv" style="--i:3"><b>A2</b> splits each PDF into <b>numbered clauses</b>, not arbitrary chunks, so we can later quote the exact clause that justified a recommendation</li>
+            <li class="rv" style="--i:4"><b>A3</b> reads Clause 2 and records <b>typed relationships</b> — test method, terminology, safety, installation. This is the module no competing system has</li>
+            <li class="rv" style="--i:5"><b>A4</b> builds the two search indexes and the lookup table</li>
+            <li class="rv" style="--i:6">This starts on Day 1. It is also the biggest risk, so the data spike happens before any model code</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 -->
+    <section class="scene" data-dur="13000" data-title="Stage B — understand the input">
+      <div class="grid">
+        <div class="viz">
+          <div class="rows">
+            <div class="row rv" style="--i:0"><span class="tag">B1</span><span class="txt">PDF · text · <b>screenshot</b> · bare product name → one text payload</span></div>
+            <div class="row rv" style="--i:1"><span class="tag">B2</span><span class="txt">Detect language, translate to English, <b>remember the original</b> for the reply</span></div>
+            <div class="row rv" style="--i:2"><span class="tag">B3</span><span class="txt">Structured facts <b>and what was never specified</b></span></div>
+            <div class="row hot rv" style="--i:3"><span class="tag">B4</span><span class="txt">Judge each cited standard: <b>exists · current · relevant</b></span></div>
+            <div class="row hot rv" style="--i:4"><span class="tag">B5</span><span class="txt">Enough to answer? If not, <b>ask a specific question</b></span></div>
+          </div>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">Stage B · Person 1</p>
+          <h2 class="rv" style="--i:1">Understand what actually arrived</h2>
+          <ul>
+            <li class="rv" style="--i:2">B3 uses an LLM with a <b>fixed JSON schema</b>, not a trained NER model. In ten days prompting beats training, and the schema keeps output machine-readable</li>
+            <li class="rv" style="--i:3"><b>B4 is the S2 demo.</b> "Three of your five citations are fine, one is superseded, one belongs to a different product, and you are missing two test methods"</li>
+            <li class="rv" style="--i:4"><b>B5 never guesses.</b> A per-category table says cement needs grade and application; LED needs wattage, IP rating and mounting</li>
+            <li class="rv" style="--i:5">Everything below B5 receives a requirement object it can trust, which is why no later module has to hedge</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 -->
+    <section class="scene" data-dur="14000" data-title="C1 — the retrieval funnel">
+      <div class="grid">
+        <div class="viz">
+          <svg viewBox="0 0 460 280" role="img" aria-label="A funnel narrowing from fifty thousand clauses to twenty-five candidates to three standards.">
+            <rect class="nd rv" style="--i:0" x="20" y="18" width="420" height="34"/>
+            <text class="th rv" style="--i:0" x="230" y="40" text-anchor="middle">50,000 CLAUSES</text>
+            <polyline class="ln draw" style="--i:1" points="20,52 150,104"/>
+            <polyline class="ln draw" style="--i:1" points="440,52 310,104"/>
+
+            <rect class="na rv" style="--i:2" x="60" y="70" width="160" height="30"/>
+            <text class="ta rv" style="--i:2" x="140" y="90" text-anchor="middle">C1.2 DENSE · 25</text>
+            <rect class="nb rv" style="--i:2" x="240" y="70" width="160" height="30"/>
+            <text class="th rv" style="--i:2" x="320" y="90" text-anchor="middle">C1.3 BM25 · 25</text>
+            <text class="te rv" style="--i:3" x="230" y="64" text-anchor="middle">both at the same time</text>
+
+            <rect class="nb rv" style="--i:4" x="150" y="108" width="160" height="30"/>
+            <text class="th rv" style="--i:4" x="230" y="128" text-anchor="middle">C1.4 MERGE · 25</text>
+            <text class="te rv" style="--i:5" x="318" y="128">by rank position</text>
+
+            <rect class="na rv" style="--i:6" x="150" y="146" width="160" height="30"/>
+            <text class="ta rv" style="--i:6" x="230" y="166" text-anchor="middle">C1.5 RERANK</text>
+            <text class="te rv" style="--i:7" x="318" y="166">reads both together</text>
+
+            <rect class="nb rv" style="--i:8" x="150" y="184" width="160" height="30"/>
+            <text class="th rv" style="--i:8" x="230" y="204" text-anchor="middle">C1.6 ROLL UP</text>
+            <text class="te rv" style="--i:9" x="318" y="204">clause → standard</text>
+
+            <text class="ta rv" style="--i:10" x="230" y="240" text-anchor="middle">IS 269:2015 · 0.94 · Clause 1, Scope</text>
+            <text class="te rv" style="--i:10" x="230" y="258" text-anchor="middle">the winning clause becomes the evidence quoted in the PDF</text>
+          </svg>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">Stage C · Person 2</p>
+          <h2 class="rv" style="--i:1">C1 — narrow fifty thousand down to three</h2>
+          <ul>
+            <li class="rv" style="--i:2"><b>C1.1</b> builds a clean query from B3's fields and <b>drops quantity and delivery terms</b>, which only pull the search toward clauses mentioning tonnage</li>
+            <li class="rv" style="--i:3"><b>C1.6 takes the maximum clause score</b>, never the mean. One perfect scope clause beats forty irrelevant test-procedure clauses in the same document</li>
+            <li class="rv" style="--i:4">This stack is public prior art with published results. <b>Get it working by Day 4 and then leave it alone</b></li>
+            <li class="rv" style="--i:5">It is one module out of nineteen. The other eighteen are what make the answer trustworthy</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 -->
+    <section class="scene" data-dur="13000" data-title="C2 — allied standards from the graph">
+      <div class="grid">
+        <div class="viz">
+          <svg viewBox="0 0 460 250" role="img" aria-label="One seed standard expands along typed edges to test methods, terminology and a related product standard.">
+            <rect class="na rv" style="--i:0" x="24" y="98" width="130" height="46"/>
+            <text class="ts rv" style="--i:0" x="89" y="118" text-anchor="middle">SEED · 0.94</text>
+            <text class="ta rv" style="--i:0" x="89" y="136" text-anchor="middle">IS 269:2015</text>
+
+            <polyline class="la draw" style="--i:1" points="154,121 186,121 186,34 224,34"/>
+            <polyline class="la draw" style="--i:2" points="186,121 186,88 224,88"/>
+            <polyline class="la draw" style="--i:3" points="186,121 186,152 224,152"/>
+            <polyline class="la draw" style="--i:4" points="186,121 186,210 224,210"/>
+
+            <rect class="nb rv" style="--i:1" x="224" y="14" width="140" height="40"/>
+            <text class="ts rv" style="--i:1" x="294" y="31" text-anchor="middle">TEST METHOD</text>
+            <text class="th rv" style="--i:1" x="294" y="47" text-anchor="middle">IS 4031</text>
+            <rect class="nb rv" style="--i:2" x="224" y="68" width="140" height="40"/>
+            <text class="ts rv" style="--i:2" x="294" y="85" text-anchor="middle">TEST METHOD</text>
+            <text class="th rv" style="--i:2" x="294" y="101" text-anchor="middle">IS 4032</text>
+            <rect class="nb rv" style="--i:3" x="224" y="132" width="140" height="40"/>
+            <text class="ts rv" style="--i:3" x="294" y="149" text-anchor="middle">TERMINOLOGY</text>
+            <text class="th rv" style="--i:3" x="294" y="165" text-anchor="middle">IS 3535</text>
+            <rect class="nb rv" style="--i:4" x="224" y="190" width="140" height="40"/>
+            <text class="ts rv" style="--i:4" x="294" y="207" text-anchor="middle">RELATED PRODUCT</text>
+            <text class="th rv" style="--i:4" x="294" y="223" text-anchor="middle">IS 1489</text>
+
+            <text class="te rv" style="--i:5" x="382" y="34">hop 1</text>
+            <text class="te rv" style="--i:5" x="382" y="210">weight 0.60</text>
+          </svg>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">Stage C · the differentiator</p>
+          <h2 class="rv" style="--i:1">C2 — allied standards are a traversal, not a search</h2>
+          <ul>
+            <li class="rv" style="--i:2"><b>C2.1</b> expands only from seeds above 0.80. A weak seed turns one mistake into five</li>
+            <li class="rv" style="--i:3"><b>C2.3</b> goes two hops with a 0.5 decay, then stops. Hop three routinely pulls in a hundred unrelated standards</li>
+            <li class="rv" style="--i:4"><b>C2.4</b> weights by relation type, so test methods outrank related products</li>
+            <li class="rv" style="--i:5">Every edge carries the clause it came from, which is the audit trail an auditor would ask for</li>
+            <li class="rv" style="--i:6"><b>A similarity search cannot compute this.</b> A transitive closure is not a nearest-neighbour query</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9 -->
+    <section class="scene" data-dur="13000" data-title="C3 and C4 — current and legal">
+      <div class="grid">
+        <div class="viz">
+          <svg viewBox="0 0 460 250" role="img" aria-label="A superseded standard resolving to the current one, and a certification panel.">
+            <rect class="nb rv" style="--i:0" x="20" y="24" width="150" height="46"/>
+            <text class="ts rv" style="--i:0" x="95" y="43" text-anchor="middle">CITED IN TENDER</text>
+            <text class="th rv" style="--i:0" x="95" y="60" text-anchor="middle">IS 8112:1989</text>
+            <line class="ln draw" style="--i:1" x1="170" y1="47" x2="230" y2="47"/>
+            <text class="te rv" style="--i:1" x="200" y="38" text-anchor="middle">superseded_by</text>
+            <rect class="na rv" style="--i:2" x="232" y="24" width="150" height="46"/>
+            <text class="ts rv" style="--i:2" x="307" y="43" text-anchor="middle">CURRENT</text>
+            <text class="ta rv" style="--i:2" x="307" y="60" text-anchor="middle">IS 269:2015</text>
+            <text class="te rv" style="--i:3" x="307" y="86" text-anchor="middle">+ Amendment 1</text>
+
+            <rect class="nd rv" style="--i:4" x="20" y="108" width="420" height="120"/>
+            <text class="te rv" style="--i:4" x="34" y="128">C4 · CERTIFICATION</text>
+            <text class="th rv" style="--i:5" x="34" y="152">Category   cement</text>
+            <text class="th rv" style="--i:6" x="34" y="172">QCO        applicable</text>
+            <text class="th rv" style="--i:7" x="34" y="192">Scheme     ISI Mark</text>
+            <text class="th rv" style="--i:8" x="34" y="212">Labs       14 recognised</text>
+            <text class="te rv" style="--i:9" x="426" y="212" text-anchor="end">runs in parallel with C1</text>
+          </svg>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">Stage C · no machine learning here</p>
+          <h2 class="rv" style="--i:1">C3 and C4 — is it current, and is it legal</h2>
+          <ul>
+            <li class="rv" style="--i:2"><b>C3.1 normalises identifiers first.</b> Tenders write <code>IS 269</code>, <code>IS-269</code>, <code>IS 269 : 2015</code>, <code>I.S. 269</code>. Everything downstream depends on this and it is the step teams skip</li>
+            <li class="rv" style="--i:3"><b>C3.3</b> follows supersession chains to the end, because a withdrawn standard can point at another that was itself later merged</li>
+            <li class="rv" style="--i:4"><b>C4 only needs the product category</b>, so fire it at the same instant as C1. The certification panel is ready before the standards are</li>
+            <li class="rv" style="--i:5">Both are database lookups and date comparisons. <b>That is precisely why they are reliable</b></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10 -->
+    <section class="scene" data-dur="13000" data-title="C5 — honest confidence">
+      <div class="grid">
+        <div class="viz">
+          <div class="bars">
+            <div class="bar rv" style="--i:0"><span class="bl">s1 rerank score</span><span class="bt"><span class="bf grow" style="--i:0;width:94%"></span><span class="bv">0.94 × 0.45</span></span></div>
+            <div class="bar rv" style="--i:1"><span class="bl">s2 margin over #2</span><span class="bt"><span class="bf grow" style="--i:1;width:50%"></span><span class="bv">0.50 × 0.20</span></span></div>
+            <div class="bar rv" style="--i:2"><span class="bl">s3 fields present</span><span class="bt"><span class="bf grow" style="--i:2;width:100%"></span><span class="bv">1.00 × 0.25</span></span></div>
+            <div class="bar rv" style="--i:3"><span class="bl">s4 graph agrees</span><span class="bt"><span class="bf grow" style="--i:3;width:100%"></span><span class="bv">1.00 × 0.10</span></span></div>
+            <div class="bar rv" style="--i:5"><span class="bl"><b>confidence</b></span><span class="bt" style="height:38px"><span class="bf grow" style="--i:5;width:87%;opacity:.42"></span><span class="bv" style="font-size:14px">0.87 — band: high</span></span></div>
+          </div>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">Stage C · drives B5 and every number shown</p>
+          <h2 class="rv" style="--i:1">C5 — say how sure we are, honestly</h2>
+          <ul>
+            <li class="rv" style="--i:2">A raw similarity score is <b>not a probability</b>. Showing one to a government user as though it were is dishonest</li>
+            <li class="rv" style="--i:3"><b>s2 is the signal most teams omit and the most informative one.</b> 0.94 against 0.93 means we are guessing between two standards; 0.94 against 0.62 is decisive</li>
+            <li class="rv" style="--i:4">Bands: high ≥ 0.75, medium 0.50–0.75, low below. <b>B5 asks a question below 0.60</b> or when a required field is missing</li>
+            <li class="rv" style="--i:5">Weights are starting points. <b>Tune them on the fifty-pair gold set and write down what you chose</b></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11 -->
+    <section class="scene" data-dur="16000" data-title="One tender, all the way through">
+      <div class="grid wide">
+        <div class="say" style="text-align:center;margin-bottom:6px">
+          <p class="eyebrow rv" style="--i:0">Scenario S2 · live trace</p>
+          <h2 class="rv" style="--i:1">500 MT of 43 grade OPC for RCC work, as per IS 8112:1989</h2>
+        </div>
+        <div class="trace">
+          <div class="rv" style="--i:2"><b>C1.1</b>  query = "Ordinary Portland Cement 43 grade RCC structural work"</div>
+          <div class="rv" style="--i:3"><b>C1.2</b>  dense → 25 clauses      <b>C1.3</b> bm25 → 25 clauses    (concurrent)</div>
+          <div class="rv" style="--i:4"><b>C1.4</b>  fuse → 31 unique, keep 25    <b>C1.5</b> cross-encoder reorders</div>
+          <div class="rv" style="--i:5"><b>C1.6</b>  IS 269:2015  0.94  Clause 1 Scope</div>
+          <div class="rv" style="--i:5">       IS 456:2000  0.79  Clause 5.1</div>
+          <div class="rv" style="--i:6"><b>C4</b>    (already finished — ran in parallel)  QCO · ISI Mark · 14 labs</div>
+          <div class="rv" style="--i:7"><b>C2</b>    seeds = [IS 269:2015]  → IS 4031 · IS 4032 · IS 3535</div>
+          <div class="rv" style="--i:8"><b>C3</b>    <span class="bad">IS 8112:1989 superseded → replace with IS 269:2015</span></div>
+          <div class="rv" style="--i:9"><b>C5</b>    0.45(0.94) + 0.20(0.50) + 0.25(1.00) + 0.10(1.00) = <span class="ok">0.87 high</span></div>
+          <div class="rv" style="--i:10"><b>B5</b>    above 0.60 — asks nothing, straight through</div>
+          <div class="rv" style="--i:11"><b>D1</b>    all five IS numbers exist in the catalogue</div>
+          <div class="rv" style="--i:12"><b>D3</b>    <span class="ok">Annexure A appended · completed_tender.pdf</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12 -->
+    <section class="scene" data-dur="13000" data-title="Stage D — deliver">
+      <div class="grid">
+        <div class="viz">
+          <div class="rows">
+            <div class="row hot rv" style="--i:0"><span class="tag">D1</span><span class="txt"><b>Guard.</b> Any IS number not in the catalogue is deleted from generated prose</span></div>
+            <div class="row rv" style="--i:1"><span class="tag">D2</span><span class="txt">One answer at <b>three citation depths</b>, each with confidence</span></div>
+            <div class="row rv" style="--i:2"><span class="tag">D3</span><span class="txt">The <b>PDF</b> — completed tender, or a standalone report</span></div>
+            <div class="row hot rv" style="--i:3"><span class="tag">D4</span><span class="txt"><b>The API</b> — built before the website</span></div>
+            <div class="row rv" style="--i:4"><span class="tag">D5</span><span class="txt">The website — two front doors, chat intake, findings panel</span></div>
+          </div>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">Stage D · Person 3 and Developer 2</p>
+          <h2 class="rv" style="--i:1">Deliver something they can actually file</h2>
+          <ul>
+            <li class="rv" style="--i:2"><b>D1 only ever inspects generated prose.</b> The recommended standards came out of a database, so by construction they cannot be invented. D1 firing never leaves a gap</li>
+            <li class="rv" style="--i:3"><b>D4 before D5.</b> If the website comes first and the API is bolted on later, portal integration becomes a rewrite</li>
+            <li class="rv" style="--i:4"><b>D3 appends an annexure</b> rather than editing their PDF in place. That is how government tenders actually carry this information, and it cannot break their layout</li>
+            <li class="rv" style="--i:5">A ten-line demo of an external page calling our endpoint beats any slide about integration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13 -->
+    <section class="scene" data-dur="12000" data-title="One answer, three depths">
+      <div class="grid">
+        <div class="viz">
+          <div class="depth">
+            <div class="dep rv" style="--i:0"><span class="dl">A · MINIMUM<br>legally required</span>
+              <span class="dr"><span class="seg p">IS 269:2015</span></span></div>
+            <div class="dep rv" style="--i:1"><span class="dl">B · RECOMMENDED<br>the default</span>
+              <span class="dr"><span class="seg p">IS 269:2015</span><span class="seg">IS 4031</span><span class="seg">IS 4032</span><span class="seg">IS 3535</span></span></div>
+            <div class="dep rv" style="--i:2"><span class="dl">C · COMPREHENSIVE<br>high-value tenders</span>
+              <span class="dr"><span class="seg p">IS 269:2015</span><span class="seg">IS 4031</span><span class="seg">IS 4032</span><span class="seg">IS 3535</span><span class="seg">IS 456</span></span></div>
+          </div>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">D2 · the part that is easy to misread</p>
+          <h2 class="rv" style="--i:1">Three depths, not three guesses</h2>
+          <ul>
+            <li class="rv" style="--i:2"><b>Every depth names the same primary standard</b>, with identical confidence and identical evidence</li>
+            <li class="rv" style="--i:3">What changes is how many allied standards travel with it</li>
+            <li class="rv" style="--i:4">That is a <b>policy question about the tender</b> — a five lakh purchase or a fifty crore one — not uncertainty in the engine</li>
+            <li class="rv" style="--i:5">Build it as a slider or a cite-less / cite-more toggle. <b>Three cards side by side reads as "the system is not sure"</b></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14 -->
+    <section class="scene" data-dur="14000" data-title="What the prior art already solved">
+      <div class="grid">
+        <div class="viz">
+          <div class="chips">
+            <span class="chip none rv" style="--i:0">A1</span><span class="chip part rv" style="--i:0">A2</span>
+            <span class="chip part rv" style="--i:0">A3</span><span class="chip done rv" style="--i:1">A4</span>
+            <span class="chip part rv" style="--i:1">B1</span><span class="chip none rv" style="--i:1">B2</span>
+            <span class="chip none rv" style="--i:2">B3</span><span class="chip none rv" style="--i:2">B4</span>
+            <span class="chip none rv" style="--i:2">B5</span><span class="chip done rv" style="--i:3">C1</span>
+            <span class="chip none rv" style="--i:3">C2</span><span class="chip none rv" style="--i:3">C3</span>
+            <span class="chip none rv" style="--i:4">C4</span><span class="chip part rv" style="--i:4">C5</span>
+            <span class="chip done rv" style="--i:4">D1</span><span class="chip none rv" style="--i:5">D2</span>
+            <span class="chip none rv" style="--i:5">D3</span><span class="chip part rv" style="--i:5">D4</span>
+            <span class="chip part rv" style="--i:5">D5</span>
+          </div>
+          <div class="stats rv" style="--i:7;margin-top:18px">
+            <div class="stat"><b style="color:var(--green)">3</b><span>done</span></div>
+            <div class="stat"><b style="color:var(--amber)">6</b><span>partial</span></div>
+            <div class="stat"><b>10</b><span>absent</span></div>
+          </div>
+        </div>
+        <div class="say">
+          <p class="eyebrow rv" style="--i:0">Prior art · BIS-COMPASS</p>
+          <h2 class="rv" style="--i:1">The finished parts are the parts that were never the differentiator</h2>
+          <ul>
+            <li class="rv" style="--i:2">It reports <b>Hit@3 100%, MRR@5 0.93 at 0.45 seconds</b> on 559 standards. Flat retrieval is a solved, commoditised problem</li>
+            <li class="rv" style="--i:3">Absent entirely: <b>version resolution, QCO, citation validation, the sufficiency gate, allied-standard output, PDF generation, two personas</b></li>
+            <li class="rv" style="--i:4">Its <code>xref.py</code> does extract citations, but only as a <b>ranking tie-breaker capped at 0.025</b>. They never reach the user</li>
+            <li class="rv" style="--i:5"><b>It has no licence file</b>, so we cannot copy the code. We use the same public models and cite it as prior art, which is a strength in a pitch</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15 -->
+    <section class="scene" data-dur="12000" data-title="Scope, frozen on Day 3">
+      <div class="grid wide">
+        <div class="say" style="text-align:center;margin-bottom:18px">
+          <p class="eyebrow rv" style="--i:0">Scope</p>
+          <h2 class="rv" style="--i:1">Freeze this on Day 3 and stop arguing</h2>
+        </div>
+        <div class="two">
+          <div class="g rv" style="--i:2">
+            <h4>We are building</h4>
+            <ul>
+              <li>All nineteen modules except the chatbot</li>
+              <li>All five input scenarios, both output modes</li>
+              <li><b>Two sectors only</b> — cement and construction materials, plus one electrical category</li>
+              <li>Catalogue metadata for all ~22,689 standards</li>
+              <li>Procurement persona complete, manufacturer as a second template</li>
+            </ul>
+          </div>
+          <div class="r rv" style="--i:3">
+            <h4>We are not building</h4>
+            <ul>
+              <li>In-place PDF editing beyond the annexure</li>
+              <li>The remaining sectors, OCR for scanned standards</li>
+              <li>Restrictive-specification detection</li>
+              <li>Reverse-reference impact analysis</li>
+              <li>Live tender-portal scraping, accounts and history</li>
+              <li><b>Fine-tuning any model</b> — no time, no data, no benefit</li>
+            </ul>
+          </div>
+        </div>
+        <p class="rv" style="--i:4;text-align:center;font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:16px">
+          two sectors done properly beats eight done shallowly · the "not building" list is binding, not advisory
+        </p>
+      </div>
+    </section>
+
+    <!-- 16 -->
+    <section class="scene" data-dur="14000" data-title="Who builds what">
+      <div class="grid wide">
+        <div class="say" style="text-align:center;margin-bottom:16px">
+          <p class="eyebrow rv" style="--i:0">Five people, nineteen modules</p>
+          <h2 class="rv" style="--i:1">Nobody waits, because the contracts come first</h2>
+        </div>
+        <div class="team">
+          <div class="tm rv" style="--i:2"><span class="who">Developer 1</span><span class="mm">A1 A2 A3 A4</span><span class="tk">Parse SP 21 and extract one standard's Clause 2. Everything waits on this</span></div>
+          <div class="tm rv" style="--i:3"><span class="who">Person 1 · ML</span><span class="mm">B1 B2 B3</span><span class="tk">Extraction schema, tested on five real tenders — one of them a screenshot</span></div>
+          <div class="tm rv" style="--i:4"><span class="who">Person 2 · ML</span><span class="mm">C1 + eval</span><span class="tk">Write the fifty-pair gold set <b>before</b> any retrieval code</span></div>
+          <div class="tm rv" style="--i:5"><span class="who">Person 3 · AI/RAG</span><span class="mm">B4 B5 C2–C5 D1–D3</span><span class="tk">Design the warning, confidence and option JSON so D5 can start immediately</span></div>
+          <div class="tm rv" style="--i:6"><span class="who">Developer 2</span><span class="mm">D4 D5</span><span class="tk">Ship <code>POST /v1/analyze</code> returning fake JSON on Day 1</span></div>
+        </div>
+        <div class="days rv" style="--i:7;margin-top:18px">
+          <div class="day"><b>1–2</b><span>JSON contracts agreed · A1/A2 running · gold set started · fake API live</span></div>
+          <div class="day"><b>3</b><span>Scope freeze · A3 producing real edges · chat intake accepting files</span></div>
+          <div class="day"><b>4–5</b><span>Indexes built · C1 measured · B4 validating · <b>rebalance Person 3's load</b></span></div>
+          <div class="day"><b>6–7</b><span>C2–C5 real · B5 asking real questions · D1 in place · D2 three depths</span></div>
+          <div class="day"><b>8–9</b><span>Both PDF modes · manufacturer template · offline package · all five scenarios rehearsed</span></div>
+          <div class="day"><b>10</b><span>Demo script, three rehearsals, backup recording. No new code</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 17 -->
+    <section class="scene" data-dur="14000" data-title="Three things before anything else">
+      <div class="grid wide">
+        <div class="say" style="text-align:center;margin-bottom:18px">
+          <p class="eyebrow rv" style="--i:0">Tomorrow morning</p>
+          <h2 class="rv" style="--i:1">Three things before anything else</h2>
+        </div>
+        <div class="three">
+          <div class="rv" style="--i:2">
+            <span class="n">01</span>
+            <h4>Prove the data</h4>
+            <p>One standard end to end: PDF in, clauses out, Clause 2 references extracted, one row in the database. If this is hard, the project changes shape and we need to know on Day 1, not Day 6.</p>
+          </div>
+          <div class="rv" style="--i:3">
+            <span class="n">02</span>
+            <h4>Write the gold set</h4>
+            <p>Fifty hand-written pairs of product description and the standard that is actually correct. Without it, nobody can tell whether a change improved anything and every argument becomes opinion.</p>
+          </div>
+          <div class="rv" style="--i:4">
+            <span class="n">03</span>
+            <h4>Freeze the contracts</h4>
+            <p>Every module's input and output shape, committed with fake fixture data. This is the single thing that lets five people build nineteen modules at the same time.</p>
+          </div>
+        </div>
+        <p class="rv" style="--i:5;text-align:center;font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:20px">
+          verify every IS number against the BIS portal before it appears in a demo
+        </p>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="ctl">
+    <button class="btn" id="prev" aria-label="Previous scene">◀</button>
+    <button class="btn" id="play" aria-label="Pause">❚❚</button>
+    <button class="btn" id="next" aria-label="Next scene">▶</button>
+    <div class="rail" id="rail"></div>
+    <div class="now" id="now"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var scenes = Array.prototype.slice.call(document.querySelectorAll('.scene'));
+  var cn = document.getElementById('cn');
+  var now = document.getElementById('now');
+  var rail = document.getElementById('rail');
+  var playBtn = document.getElementById('play');
+  var cur = 0, playing = true, timer = null;
+
+  scenes.forEach(function(s,i){
+    var b = document.createElement('button');
+    b.className = 'pip'; b.type = 'button';
+    b.setAttribute('aria-label','Go to scene ' + (i+1) + ': ' + (s.dataset.title||''));
+    b.addEventListener('click', function(){ go(i); });
+    rail.appendChild(b);
+  });
+  var pips = Array.prototype.slice.call(rail.children);
+
+  function pad(n){ return (n<10?'0':'') + n; }
+
+  function animateCounts(scene){
+    var els = scene.querySelectorAll('[data-count]');
+    Array.prototype.forEach.call(els, function(el){
+      var target = parseInt(el.getAttribute('data-count'),10) || 0;
+      var dur = 900, t0 = null;
+      function step(ts){
+        if(!t0) t0 = ts;
+        var p = Math.min((ts - t0)/dur, 1);
+        var eased = 1 - Math.pow(1-p, 3);
+        el.textContent = Math.round(target*eased).toLocaleString('en-IN');
+        if(p < 1) requestAnimationFrame(step);
+      }
+      el.textContent = '0';
+      requestAnimationFrame(step);
+    });
+  }
+
+  function go(i){
+    scenes[cur].classList.remove('is-active');
+    cur = (i + scenes.length) % scenes.length;
+    var s = scenes[cur];
+    void s.offsetWidth;
+    s.classList.add('is-active');
+    cn.textContent = pad(cur+1);
+    now.textContent = s.dataset.title || '';
+    pips.forEach(function(p,j){ p.classList.toggle('on', j <= cur); });
+    animateCounts(s);
+    document.getElementById('stage').scrollTop = 0;
+    if(playing) schedule();
+  }
+
+  function schedule(){
+    clearTimeout(timer);
+    var d = parseInt(scenes[cur].dataset.dur,10) || 11000;
+    timer = setTimeout(function(){ go(cur+1); }, d);
+  }
+
+  function setPlaying(v){
+    playing = v;
+    playBtn.textContent = v ? '❚❚' : '▶';
+    playBtn.setAttribute('aria-label', v ? 'Pause' : 'Play');
+    if(v) schedule(); else clearTimeout(timer);
+  }
+
+  document.getElementById('next').addEventListener('click', function(){ go(cur+1); });
+  document.getElementById('prev').addEventListener('click', function(){ go(cur-1); });
+  playBtn.addEventListener('click', function(){ setPlaying(!playing); });
+
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'ArrowRight'){ e.preventDefault(); go(cur+1); }
+    else if(e.key === 'ArrowLeft'){ e.preventDefault(); go(cur-1); }
+    else if(e.key === ' '){ e.preventDefault(); setPlaying(!playing); }
+  });
+
+  go(0);
+})();
+</script>

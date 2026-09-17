@@ -1,0 +1,556 @@
+<title>Concept Prerequisites</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+  :root{
+    --ground:#F1F3F7; --surface:#FFFFFF; --surface-2:#E9ECF3;
+    --ink:#141922; --muted:#5B6577; --rule:#D5DAE3;
+    --accent:#1B3A6B; --kg:#2E6BC4; --amber:#B3690A; --green:#1C6B47; --red:#9C2C2C;
+    --display:'Archivo','Helvetica Neue',Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,serif;
+    --mono:'IBM Plex Mono',Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:#0D1016; --surface:#151A22; --surface-2:#1C222C;
+      --ink:#E5E9F0; --muted:#8F9BAF; --rule:#242B38;
+      --accent:#7BA7E8; --kg:#5E9BF0; --amber:#DFA54C; --green:#4CB183; --red:#E08585;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0D1016; --surface:#151A22; --surface-2:#1C222C;
+    --ink:#E5E9F0; --muted:#8F9BAF; --rule:#242B38;
+    --accent:#7BA7E8; --kg:#5E9BF0; --amber:#DFA54C; --green:#4CB183; --red:#E08585;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--ground);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.72;margin:0;padding:0 20px 90px}
+  .wrap{max-width:820px;margin:0 auto}
+
+  header{padding:56px 0 32px;border-bottom:2px solid var(--ink)}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 16px}
+  h1{font-family:var(--display);font-weight:700;font-size:clamp(36px,6vw,56px);letter-spacing:-.025em;line-height:1.02;margin:0;text-wrap:balance}
+  .standfirst{font-size:19px;color:var(--muted);margin:18px 0 0;max-width:58ch}
+
+  .toc{background:var(--surface);border:1px solid var(--rule);padding:20px 24px;margin-top:30px}
+  .toc h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;font-weight:600}
+  .toc ol{margin:0;padding-left:20px;font-family:var(--display);font-size:14.5px;line-height:1.9}
+  .toc li{margin:0}
+
+  section{padding-top:56px}
+  .shead{display:flex;align-items:baseline;gap:14px;margin-bottom:10px}
+  .pnum{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--accent);flex:none}
+  h2{font-family:var(--display);font-weight:600;font-size:27px;letter-spacing:-.015em;margin:0;text-wrap:balance}
+  h3{font-family:var(--display);font-weight:600;font-size:19px;margin:34px 0 8px}
+  p{max-width:66ch;margin:0 0 16px}
+  code{font-family:var(--mono);font-size:.86em;background:var(--surface-2);padding:1px 5px}
+
+  .part{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border-top:2px solid var(--ink);padding-top:16px;margin:56px 0 0}
+  .part-sub{font-family:var(--display);font-size:15px;color:var(--muted);margin:4px 0 0;max-width:62ch}
+
+  figure{margin:28px 0;background:var(--surface);border:1px solid var(--rule);padding:22px}
+  .fignum{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 14px}
+  figure svg{display:block;width:100%;height:auto;margin:0 auto;color:var(--ink)}
+  figcaption{font-family:var(--display);font-size:13.5px;line-height:1.65;color:var(--muted);margin-top:16px;padding-top:13px;border-top:1px solid var(--rule)}
+  .n-box{fill:var(--surface);stroke:currentColor;stroke-width:1.2}
+  .n-acc{fill:var(--surface);stroke:var(--kg);stroke-width:1.8}
+  .n-band{fill:var(--surface-2);stroke:currentColor;stroke-width:1}
+  .n-hl{fill:var(--surface-2);stroke:var(--kg);stroke-width:1.5}
+  .dot{fill:currentColor}
+  .dot-acc{fill:var(--kg)}
+  .t-h{font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:600;fill:currentColor;letter-spacing:.03em}
+  .t-hacc{font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:600;fill:var(--kg);letter-spacing:.03em}
+  .t-s{font-family:'Archivo',sans-serif;font-size:10.5px;fill:var(--muted)}
+  .t-e{font-family:'IBM Plex Mono',monospace;font-size:10px;fill:var(--muted)}
+  .t-lab{font-family:'Archivo',sans-serif;font-size:11px;fill:currentColor}
+  .ln{stroke:currentColor;stroke-width:1.1;fill:none}
+  .ln-acc{stroke:var(--kg);stroke-width:1.5;fill:none}
+  .ln-dash{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;fill:none;opacity:.6}
+  .ln-thin{stroke:currentColor;stroke-width:.9;fill:none;opacity:.7}
+
+  .note{border-left:3px solid var(--amber);background:var(--surface);padding:18px 22px;margin:24px 0}
+  .note p{margin:0 0 12px;font-size:16px}
+  .note p:last-child{margin-bottom:0}
+  .warn{border-left:3px solid var(--red);background:var(--surface);padding:18px 22px;margin:24px 0}
+  .warn p{margin:0 0 12px;font-size:16px}
+  .warn p:last-child{margin-bottom:0}
+
+  .scroll{overflow-x:auto;margin:22px 0}
+  table{border-collapse:collapse;width:100%;min-width:560px;font-family:var(--display);font-size:14px}
+  th{text-align:left;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);padding:0 14px 9px 0;border-bottom:1px solid var(--ink);vertical-align:bottom}
+  td{padding:13px 14px 13px 0;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.5}
+  .nw{white-space:nowrap}
+  .yes{color:var(--green);font-weight:600}
+  .no{color:var(--red);font-weight:600}
+
+  pre{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--kg);padding:16px 18px;overflow-x:auto;font-family:var(--mono);font-size:12px;line-height:1.65;margin:18px 0}
+  pre b{color:var(--kg);font-weight:600}
+
+  ol,ul{max-width:66ch;padding-left:22px}
+  li{margin-bottom:9px}
+  footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:11px;color:var(--muted)}
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Standards360 · background reading</p>
+  <h1>Concept Prerequisites</h1>
+  <p class="standfirst">An introduction to embeddings, vector space, BM25, indexes and lookup tables, written for someone meeting these ideas for the first time. The project is set aside until Part Three.</p>
+  <div class="toc">
+    <h4>Contents</h4>
+    <ol>
+      <li>Part One — the ideas, with no reference to our project</li>
+      <li>Part Two — how the ideas fit together into a search system</li>
+      <li>Part Three — how Standards360 uses each one</li>
+    </ol>
+  </div>
+</header>
+
+<p class="part">Part One</p>
+<p class="part-sub">The ideas on their own. Nothing in this part mentions Indian Standards, tenders or our modules. Please read it as general background about how computers search through text.</p>
+
+<section>
+  <div class="shead"><span class="pnum">1</span><h2>The problem that every search system has to solve</h2></div>
+  <p>Suppose you have fifty thousand paragraphs of text stored on a computer, and somebody asks a question. Your job is to return the handful of paragraphs that answer it. This sounds simple, but it contains a genuine difficulty, and understanding that difficulty is the key to everything else in this document.</p>
+  <p>The difficulty is that a computer does not know what words mean. It stores text as a sequence of characters. When you write the word "cement", the computer holds six characters, and it has no idea that this is a grey powder used in construction. It cannot tell that "cement" and "binder" might refer to the same thing, and it cannot tell that "bank" in one sentence means a riverside and in another means a financial institution.</p>
+  <p>So when a person searches for "binder used in reinforced concrete" and the correct paragraph says "ordinary portland cement for RCC work", the computer sees two strings of characters with almost no letters in common. Unless we do something clever, it will find nothing.</p>
+  <p>There are two broad families of solutions to this problem. The older family matches words exactly and is very good at it. The newer family tries to capture meaning. Modern systems use both together, and the rest of Part One explains each of them in turn.</p>
+</section>
+
+<section>
+  <div class="shead"><span class="pnum">2</span><h2>The older approach: matching words, and the inverted index</h2></div>
+  <p>The straightforward way to search text is to look for the words themselves. If somebody searches for "portland cement", you find every paragraph containing the word "portland" and every paragraph containing the word "cement", and you return the ones that contain both.</p>
+  <p>Doing this by reading all fifty thousand paragraphs on every single search would be far too slow. Instead, you prepare the answer in advance by building something called an <b>inverted index</b>. The name sounds technical but the idea is exactly the index at the back of a printed textbook. A textbook index does not list what is on each page; it lists, for each important word, which pages mention it. That is the inversion. You go from "page to words" to "word to pages".</p>
+
+  <figure>
+    <p class="fignum">Figure 1 — an inverted index</p>
+    <svg viewBox="0 0 660 300" role="img" aria-label="A table showing four words, the documents each appears in, and how much weight each word carries. Rare words carry high weight and very common words carry almost none.">
+      <text class="t-e" x="40"  y="38">WORD</text>
+      <text class="t-e" x="240" y="38">APPEARS IN</text>
+      <text class="t-e" x="520" y="38">HOW MUCH IT TELLS YOU</text>
+      <line class="ln" x1="40" y1="46" x2="620" y2="46"/>
+
+      <rect class="n-acc" x="40" y="60" width="160" height="40"/>
+      <text class="t-hacc" x="120" y="85" text-anchor="middle">portland</text>
+      <text class="t-lab" x="240" y="85">clause 12, 45, 891</text>
+      <text class="t-s" x="520" y="85">rare, so very telling</text>
+
+      <rect class="n-box" x="40" y="112" width="160" height="40"/>
+      <text class="t-h" x="120" y="137" text-anchor="middle">cement</text>
+      <text class="t-lab" x="240" y="137">clause 12, 45, 102, 331, 7744</text>
+      <text class="t-s" x="520" y="137">fairly common here</text>
+
+      <rect class="n-box" x="40" y="164" width="160" height="40"/>
+      <text class="t-h" x="120" y="189" text-anchor="middle">grade</text>
+      <text class="t-lab" x="240" y="189">clause 12, 88, 201, 640, …</text>
+      <text class="t-s" x="520" y="189">moderately telling</text>
+
+      <rect class="n-box" x="40" y="216" width="160" height="40"/>
+      <text class="t-h" x="120" y="241" text-anchor="middle">the</text>
+      <text class="t-lab" x="240" y="241">almost every clause</text>
+      <text class="t-s" x="520" y="241">tells you nothing</text>
+
+      <text class="t-e" x="330" y="285" text-anchor="middle">the index is prepared once, in advance, so that searching is instant</text>
+    </svg>
+    <figcaption>An inverted index stores, for every word, the list of documents containing it. Because it is built beforehand, answering a query means looking up a few lists rather than reading every document.</figcaption>
+  </figure>
+
+  <h3>Why rarity matters, and what BM25 adds</h3>
+  <p>If you simply count how many query words each paragraph contains, you get poor results, because common words dominate. Almost every paragraph contains "the" and "of", so those words do nothing to distinguish one paragraph from another. The word "portland", on the other hand, appears in very few paragraphs, so a paragraph containing it is much more likely to be what the searcher wanted.</p>
+  <p><b>BM25</b> is a scoring formula that captures this intuition. It is several decades old, it is still the standard, and it works on three ideas that are all quite reasonable:</p>
+  <ol>
+    <li>A paragraph containing a query word scores higher than one that does not.</li>
+    <li>A <em>rare</em> query word contributes far more to the score than a common one, because rare words are more informative.</li>
+    <li>Repeating a word many times helps, but with diminishing returns, and long paragraphs are penalised slightly so that they do not win simply by being long enough to contain everything.</li>
+  </ol>
+  <p>You do not need to know the formula to use BM25. Libraries such as <code>rank_bm25</code> in Python implement it for you. What matters is understanding what it is good at and what it is bad at.</p>
+
+  <h3>What word matching cannot do</h3>
+  <p>BM25 has one fundamental limitation, and it follows directly from what it is: it matches characters, so it can only find what is literally written. If the searcher writes "binder" and the paragraph says "cement", BM25 finds nothing, because as far as it is concerned those are two unrelated sequences of letters. It has no concept of a synonym, a paraphrase, or a related idea.</p>
+  <p>This is the gap that the second family of techniques exists to fill.</p>
+</section>
+
+<section>
+  <div class="shead"><span class="pnum">3</span><h2>Vectors and vector space</h2></div>
+  <p>Before we can explain embeddings, we need one piece of mathematics, and it is genuinely simple. A <b>vector</b> is just an ordered list of numbers. That is the whole definition.</p>
+  <p>You already use vectors without calling them that. A point on a map has two numbers, latitude and longitude. A colour on a screen has three numbers, for red, green and blue. In each case the list of numbers is a <em>position</em> in some space, and positions can be compared. Two places with similar latitude and longitude are near each other. Two colours with similar red, green and blue values look alike.</p>
+  <p>The space in which these positions live is called a <b>vector space</b>. A map is a two-dimensional vector space because each position needs two numbers. Colour is a three-dimensional vector space because each colour needs three. There is nothing stopping us from having a space with a thousand dimensions, where each position needs a thousand numbers. We cannot draw such a space or picture it, but every piece of arithmetic that works in two dimensions works there too, unchanged.</p>
+  <p>The crucial property of any vector space is that <b>closeness is meaningful</b>. If you arrange things in a space so that similar things end up near one another, then "find me things similar to this" becomes "find me the nearest positions", which is a question arithmetic can answer.</p>
+
+  <figure>
+    <p class="fignum">Figure 2 — a two-dimensional vector space</p>
+    <svg viewBox="0 0 620 420" role="img" aria-label="A scatter plot with two axes. Four phrases about cement sit close together in one region, and three phrases about lighting sit close together in a different region far away.">
+      <defs><marker id="c2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <line class="ln" x1="70" y1="350" x2="575" y2="350" marker-end="url(#c2)"/>
+      <line class="ln" x1="70" y1="350" x2="70" y2="45" marker-end="url(#c2)"/>
+      <text class="t-e" x="330" y="382" text-anchor="middle">dimension 1</text>
+      <text class="t-e" x="78" y="40">dimension 2</text>
+
+      <ellipse class="ln-dash" cx="408" cy="165" rx="82" ry="62" fill="none"/>
+      <circle class="dot-acc" cx="400" cy="130" r="4.5"/><text class="t-lab" x="410" y="127">cement</text>
+      <circle class="dot-acc" cx="443" cy="162" r="4.5"/><text class="t-lab" x="453" y="159">concrete</text>
+      <circle class="dot-acc" cx="368" cy="176" r="4.5"/><text class="t-lab" x="316" y="192" text-anchor="end">binder</text>
+      <circle class="dot-acc" cx="425" cy="200" r="4.5"/><text class="t-lab" x="435" y="215">mortar</text>
+      <text class="t-hacc" x="408" y="78" text-anchor="middle">texts about cement</text>
+
+      <ellipse class="ln-dash" cx="165" cy="256" rx="72" ry="52" fill="none"/>
+      <circle class="dot" cx="152" cy="282" r="4.5"/><text class="t-lab" x="162" y="297">LED lamp</text>
+      <circle class="dot" cx="196" cy="254" r="4.5"/><text class="t-lab" x="206" y="250">luminaire</text>
+      <circle class="dot" cx="140" cy="238" r="4.5"/><text class="t-lab" x="130" y="232" text-anchor="end">lux</text>
+      <text class="t-h" x="165" y="332" text-anchor="middle">texts about lighting</text>
+    </svg>
+    <figcaption>Each phrase is placed at a position determined by its numbers. Phrases about the same subject land near one another, and phrases about different subjects land far apart. Real systems use around a thousand dimensions rather than two, but the principle is identical.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="shead"><span class="pnum">4</span><h2>Embeddings: turning text into a position</h2></div>
+  <p>We now have the two halves of the idea. We have text, which computers cannot compare by meaning, and we have vector space, in which closeness is meaningful. An <b>embedding</b> is the bridge between them.</p>
+  <p>An embedding model is a neural network that takes a piece of text and returns a list of numbers. For the model we use, <code>bge-m3</code>, that list contains 1024 numbers. The model has been trained on an enormous quantity of text with one objective: arrange things so that texts with similar meaning receive similar numbers.</p>
+
+  <figure>
+    <p class="fignum">Figure 3 — what an embedding model does</p>
+    <svg viewBox="0 0 680 208" role="img" aria-label="A sentence goes into an embedding model and a list of 1024 numbers comes out.">
+      <defs><marker id="c3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <rect class="n-box" x="30" y="46" width="200" height="86"/>
+      <text class="t-s" x="130" y="76" text-anchor="middle">This standard covers</text>
+      <text class="t-s" x="130" y="94" text-anchor="middle">ordinary portland</text>
+      <text class="t-s" x="130" y="112" text-anchor="middle">cement, 43 grade</text>
+      <text class="t-e" x="130" y="156" text-anchor="middle">a piece of text</text>
+
+      <line class="ln" x1="234" y1="89" x2="264" y2="89" marker-end="url(#c3)"/>
+
+      <rect class="n-acc" x="270" y="46" width="150" height="86"/>
+      <text class="t-hacc" x="345" y="84" text-anchor="middle">bge-m3</text>
+      <text class="t-s" x="345" y="103" text-anchor="middle">a neural network</text>
+      <text class="t-e" x="345" y="156" text-anchor="middle">the embedding model</text>
+
+      <line class="ln" x1="424" y1="89" x2="454" y2="89" marker-end="url(#c3)"/>
+
+      <rect class="n-box" x="460" y="46" width="190" height="86"/>
+      <text class="t-s" x="555" y="76" text-anchor="middle">[ 0.021, −0.113,</text>
+      <text class="t-s" x="555" y="94" text-anchor="middle">0.447, 0.092,</text>
+      <text class="t-s" x="555" y="112" text-anchor="middle">… , 0.008 ]</text>
+      <text class="t-e" x="555" y="156" text-anchor="middle">1024 numbers</text>
+
+      <text class="t-e" x="340" y="192" text-anchor="middle">the same sentence always produces the same numbers</text>
+    </svg>
+    <figcaption>The model is deterministic. Given the same text it always returns the same vector, which is why the vectors can be computed once and stored.</figcaption>
+  </figure>
+
+  <h3>What the individual numbers mean</h3>
+  <p>A question people reasonably ask at this point is what the 1024 numbers individually represent. The honest answer is that no single number corresponds to anything a human would name. The model was not built by someone deciding that number 47 would represent "is about construction". The numbers acquired their roles during training, and they are only meaningful collectively.</p>
+  <p>This is worth accepting rather than fighting, because it does not affect how you use the system. What matters is the property the training produced: texts about similar topics end up with similar numbers. You never need to interpret a single dimension.</p>
+
+  <h3>How closeness is measured</h3>
+  <p>Once two texts are vectors, comparing them is arithmetic. The usual measure is <b>cosine similarity</b>, which looks at the <em>angle</em> between the two vectors rather than the distance between their tips. Two vectors pointing in nearly the same direction have a small angle and a cosine similarity close to 1. Two pointing in unrelated directions have a large angle and a similarity near 0.</p>
+  <p>The reason for using the angle rather than the distance is that direction captures the subject matter while length tends to reflect incidental things such as how long the passage was. A one-line summary of a standard and a three-paragraph description of the same standard should count as similar, and measuring the angle achieves that.</p>
+
+  <figure>
+    <p class="fignum">Figure 4 — similarity measured as an angle</p>
+    <svg viewBox="0 0 600 340" role="img" aria-label="Three vectors drawn from a common origin. Two phrases about cement point in nearly the same direction, with a small angle between them. A phrase about lighting points in a very different direction.">
+      <defs><marker id="c4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--kg)"/></marker>
+      <marker id="c4b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <line class="ln-acc" x1="80" y1="280" x2="325" y2="95" marker-end="url(#c4)"/>
+      <text class="t-hacc" x="333" y="92">"cement for RCC"</text>
+
+      <line class="ln-acc" x1="80" y1="280" x2="375" y2="135" marker-end="url(#c4)"/>
+      <text class="t-hacc" x="383" y="136">"binder for concrete"</text>
+
+      <line class="ln" x1="80" y1="280" x2="418" y2="264" marker-end="url(#c4b)"/>
+      <text class="t-h" x="426" y="266">"LED street light"</text>
+
+      <path class="ln-acc" d="M 136 237 A 70 70 0 0 1 143 249" fill="none"/>
+      <text class="t-e" x="152" y="222">small angle</text>
+      <text class="t-e" x="152" y="235">similarity ≈ 0.93</text>
+
+      <path class="ln-thin" d="M 174 233 A 105 105 0 0 1 185 275" fill="none"/>
+      <text class="t-e" x="196" y="300">large angle</text>
+      <text class="t-e" x="196" y="313">similarity ≈ 0.11</text>
+
+      <circle class="dot" cx="80" cy="280" r="3.5"/>
+      <text class="t-e" x="72" y="298" text-anchor="end">origin</text>
+    </svg>
+    <figcaption>Cosine similarity ignores how long each arrow is and looks only at the direction it points. Two ways of describing the same subject point almost the same way, even when they share no words at all.</figcaption>
+  </figure>
+
+  <h3>Why this solves the original problem</h3>
+  <p>Return to the example from section 1. The searcher writes "binder used in reinforced concrete" and the correct paragraph says "ordinary portland cement for RCC work". BM25 finds nothing because no meaningful words match. The embedding model, however, places both phrases at nearby positions, because it was trained on text in which these ideas occur together. Searching by nearest position therefore finds the paragraph.</p>
+</section>
+
+<section>
+  <div class="shead"><span class="pnum">5</span><h2>FAISS: finding the nearest vectors quickly</h2></div>
+  <p>We now have a plan. Convert every paragraph into a vector in advance, convert the query into a vector at search time, and return the paragraphs whose vectors are closest to the query vector. The remaining difficulty is speed.</p>
+  <p>Suppose you have fifty thousand paragraphs, each stored as 1024 numbers. Comparing the query against one paragraph requires about a thousand multiplications. Comparing it against all of them requires roughly fifty million. Written in plain Python, a single search would take several seconds, which is far too slow.</p>
+  <p><b>FAISS</b> is a library, originally from Meta, built to solve exactly this. It stores your vectors in a compact numerical array and performs the comparison using heavily optimised machine code that processes many numbers in a single processor instruction. For collections of our size it compares against every vector, which means the result is exact, and it still completes in a few milliseconds.</p>
+  <p>For much larger collections, in the millions, FAISS offers a different strategy. It divides the vector space into regions during preparation, records which region each vector belongs to, and at search time examines only the regions near the query. This returns an answer that is approximate rather than exact, but it is dramatically faster. We do not need this, and it is worth knowing only so that the word "approximate" in FAISS documentation does not confuse you.</p>
+  <div class="note">
+    <p>One practical point that surprises people. FAISS is not a database server. You do not install it, start it, or connect to it over a network. It is a library that reads and writes an ordinary file on disk. Your program loads that file into memory and asks it questions directly.</p>
+    <p>This is why a system built on FAISS can run with no internet connection and no running infrastructure, which is a genuine practical advantage when demonstrating software in a room with unreliable network access.</p>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><span class="pnum">6</span><h2>Indexes and the lookup table</h2></div>
+  <p>The word <b>index</b> has been used twice now, for two different structures, and this is a common source of confusion. In both cases an index is simply a data structure prepared in advance so that searching later is fast. The two kinds are:</p>
+  <ul>
+    <li>An <b>inverted index</b>, which maps words to the documents containing them, and is searched by BM25.</li>
+    <li>A <b>vector index</b>, which stores embeddings, and is searched by FAISS for nearest neighbours.</li>
+  </ul>
+  <p>The program that builds these structures is usually called an <b>index builder</b>. It is a batch job rather than a service. It reads your documents, produces the index files, writes them to disk, and exits. You run it once, and again only when the documents change.</p>
+
+  <h3>Why a lookup table is necessary</h3>
+  <p>Here is a detail that is easy to miss and important to get right. <b>FAISS does not store your text.</b> It stores only the numbers. Internally the vectors are numbered by position: the first vector added is row 0, the second is row 1, and so on.</p>
+  <p>Consequently, when you search FAISS, what comes back is not a paragraph. It is a list of row numbers, such as 4821, 193 and 7744, together with their similarity scores. Row 4821 is not meaningful on its own. To turn it back into something a person can read, you need a separate file that records what was stored at each row. That file is the <b>lookup table</b>, and in our project it is called <code>id_map.json</code>.</p>
+  <p>Because the same documents are also fed to BM25, and BM25 likewise refers to documents by position, the row numbering has to agree across all three files. This gives us the single most important rule in the whole index-building process.</p>
+
+  <figure>
+    <p class="fignum">Figure 5 — three files, one row numbering</p>
+    <svg viewBox="0 0 700 340" role="img" aria-label="Three columns representing the vector index, the keyword index and the lookup table. A highlighted band shows that row 4821 refers to the same clause in all three files.">
+      <rect class="n-acc" x="40"  y="26" width="180" height="42"/>
+      <text class="t-hacc" x="130" y="46" text-anchor="middle">faiss.index</text>
+      <text class="t-s" x="130" y="62" text-anchor="middle">the vectors</text>
+      <rect class="n-box" x="260" y="26" width="180" height="42"/>
+      <text class="t-h" x="350" y="46" text-anchor="middle">bm25.pkl</text>
+      <text class="t-s" x="350" y="62" text-anchor="middle">the words</text>
+      <rect class="n-box" x="480" y="26" width="180" height="42"/>
+      <text class="t-h" x="570" y="46" text-anchor="middle">id_map.json</text>
+      <text class="t-s" x="570" y="62" text-anchor="middle">what each row is</text>
+
+      <text class="t-e" x="20" y="105">row 0</text>
+      <rect class="n-box" x="40"  y="88" width="180" height="30"/><text class="t-s" x="130" y="107" text-anchor="middle">[ 0.44, −0.02, … ]</text>
+      <rect class="n-box" x="260" y="88" width="180" height="30"/><text class="t-s" x="350" y="107" text-anchor="middle">scope this standard …</text>
+      <rect class="n-box" x="480" y="88" width="180" height="30"/><text class="t-s" x="570" y="107" text-anchor="middle">IS 456:2000 · Clause 1</text>
+
+      <text class="t-e" x="20" y="147">row 1</text>
+      <rect class="n-box" x="40"  y="130" width="180" height="30"/><text class="t-s" x="130" y="149" text-anchor="middle">[ −0.11, 0.38, … ]</text>
+      <rect class="n-box" x="260" y="130" width="180" height="30"/><text class="t-s" x="350" y="149" text-anchor="middle">references the standards …</text>
+      <rect class="n-box" x="480" y="130" width="180" height="30"/><text class="t-s" x="570" y="149" text-anchor="middle">IS 456:2000 · Clause 2</text>
+
+      <text class="t-e" x="350" y="184" text-anchor="middle">⋮</text>
+
+      <rect class="n-hl" x="30" y="200" width="640" height="54"/>
+      <text class="t-e" x="20" y="232">4821</text>
+      <rect class="n-acc" x="40"  y="208" width="180" height="38"/><text class="t-s" x="130" y="232" text-anchor="middle">[ 0.021, −0.113, … ]</text>
+      <rect class="n-acc" x="260" y="208" width="180" height="38"/><text class="t-s" x="350" y="232" text-anchor="middle">portland cement 43 grade</text>
+      <rect class="n-acc" x="480" y="208" width="180" height="38"/><text class="t-s" x="570" y="232" text-anchor="middle">IS 269:2015 · Clause 1</text>
+
+      <text class="t-hacc" x="350" y="290" text-anchor="middle">row 4821 must mean the same clause in all three files</text>
+      <text class="t-e" x="350" y="312" text-anchor="middle">if they disagree, searches return confident but wrong answers, with no error message</text>
+    </svg>
+    <figcaption>The three files are built together in a single pass so that their row numbering cannot drift apart. Building them in three separate passes, where one pass skips an empty document and another does not, is the most common and most damaging mistake in this stage.</figcaption>
+  </figure>
+
+  <div class="warn">
+    <p>This failure is worth dwelling on because of how it behaves. If the row numbering drifts, nothing crashes and no error is printed. FAISS returns row 4821, the lookup table cheerfully reports whatever is stored at its own row 4821, and the system displays a completely unrelated result with a high confidence score.</p>
+    <p>The defence is straightforward: build all three files inside one loop, and if you skip a document, skip it everywhere.</p>
+  </div>
+</section>
+
+<p class="part">Part Two</p>
+<p class="part-sub">How the pieces fit together into a working search system. This part is still general and applies to any search system of this kind.</p>
+
+<section>
+  <div class="shead"><span class="pnum">7</span><h2>Why both methods are used together</h2></div>
+  <p>Embeddings and BM25 fail in opposite directions, and this turns out to be very convenient, because a combination of the two covers both sets of weaknesses.</p>
+  <p>Embeddings understand meaning but blur precision. Because the model compresses a whole passage into a general sense of what it is about, exact identifiers get smoothed away. A code such as "IS 8112" or a rating such as "IP66" becomes, roughly, the notion of "some standard number" or "some protection rating", and the specific value is lost.</p>
+  <p>BM25 has exactly the reverse profile. It matches "IS 8112" precisely, because it is comparing characters, but it understands nothing, so it cannot connect "binder" to "cement".</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>The query contains</th><th>Embedding search</th><th>BM25</th></tr></thead>
+    <tbody>
+      <tr><td>"binder for concrete"</td><td class="yes">Finds cement clauses correctly</td><td class="no">No matching words, finds nothing</td></tr>
+      <tr><td>"IS 8112"</td><td class="no">Blurred into a general notion</td><td class="yes">Exact match</td></tr>
+      <tr><td>"43 grade"</td><td>Approximate</td><td class="yes">Exact match</td></tr>
+      <tr><td>"a material that hardens with water"</td><td class="yes">Finds cement clauses</td><td class="no">Finds nothing useful</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Running both and combining the results is called <b>hybrid search</b>, and it is the standard approach in serious systems today.</p>
+
+  <h3>Combining two ranked lists</h3>
+  <p>Combining them requires a little care, because the two methods produce numbers that are not comparable. A cosine similarity of 0.82 and a BM25 score of 14.3 are measured on entirely different scales, so adding them or averaging them is meaningless.</p>
+  <p>The usual solution is <b>Reciprocal Rank Fusion</b>. It discards the scores entirely and uses only the <em>positions</em> in each list, which are comparable by construction. For each document the combined score is:</p>
+<pre>score = 1 / (60 + position in the embedding list)
+      + 1 / (60 + position in the BM25 list)</pre>
+  <p>A document ranked first in one list contributes a large amount, one ranked twentieth contributes little, and one absent from a list contributes nothing from that side. A document that both methods liked therefore rises above one that only a single method liked. The number 60 is a conventional constant taken from the research literature and is not something you need to tune.</p>
+
+  <h3>Reranking the shortlist</h3>
+  <p>There is one further step that adds a substantial amount of accuracy. Both methods described so far compare the query and the document <em>separately</em>. The embedding of the query is computed without any knowledge of the document, and vice versa. This is what makes them fast enough to search fifty thousand documents, but it also means detail is lost.</p>
+  <p>A <b>cross-encoder</b>, sometimes called a reranker, reads the query and one document <em>together</em> and produces a relevance score. Because it sees both at once, it can notice things the separate approach cannot, such as the fact that "43 grade" in the query corresponds to a specific row in a table in the document.</p>
+  <p>The drawback is speed. A cross-encoder is far too slow to run against fifty thousand documents. The standard arrangement is therefore a funnel: fast methods reduce fifty thousand candidates down to roughly twenty-five, and the slow, accurate model reorders only those twenty-five.</p>
+
+  <figure>
+    <p class="fignum">Figure 6 — the retrieval funnel</p>
+    <svg viewBox="0 0 700 420" role="img" aria-label="A query splits into two parallel search lanes, an embedding lane and a keyword lane. Their ranked lists are merged by reciprocal rank fusion and the top twenty-five are reordered by a cross-encoder.">
+      <defs><marker id="c6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <rect class="n-box" x="250" y="24" width="200" height="44"/>
+      <text class="t-h" x="350" y="52" text-anchor="middle">THE QUERY</text>
+
+      <polyline class="ln" points="350,68 350,88 170,88 170,112" marker-end="url(#c6)"/>
+      <polyline class="ln" points="350,68 350,88 530,88 530,112" marker-end="url(#c6)"/>
+
+      <rect class="n-acc" x="50" y="116" width="240" height="56"/>
+      <text class="t-hacc" x="170" y="140" text-anchor="middle">TURN INTO A VECTOR</text>
+      <text class="t-s" x="170" y="158" text-anchor="middle">bge-m3</text>
+
+      <rect class="n-box" x="410" y="116" width="240" height="56"/>
+      <text class="t-h" x="530" y="140" text-anchor="middle">SPLIT INTO WORDS</text>
+      <text class="t-s" x="530" y="158" text-anchor="middle">tokenise</text>
+
+      <line class="ln" x1="170" y1="172" x2="170" y2="196" marker-end="url(#c6)"/>
+      <line class="ln" x1="530" y1="172" x2="530" y2="196" marker-end="url(#c6)"/>
+
+      <rect class="n-acc" x="50" y="200" width="240" height="56"/>
+      <text class="t-hacc" x="170" y="224" text-anchor="middle">SEARCH FAISS</text>
+      <text class="t-s" x="170" y="242" text-anchor="middle">25 nearest by meaning</text>
+
+      <rect class="n-box" x="410" y="200" width="240" height="56"/>
+      <text class="t-h" x="530" y="224" text-anchor="middle">SEARCH BM25</text>
+      <text class="t-s" x="530" y="242" text-anchor="middle">25 best by words</text>
+
+      <polyline class="ln" points="170,256 170,278 350,278 350,300" marker-end="url(#c6)"/>
+      <polyline class="ln" points="530,256 530,278 350,278"/>
+
+      <rect class="n-box" x="200" y="304" width="300" height="52"/>
+      <text class="t-h" x="350" y="326" text-anchor="middle">MERGE BY RANK POSITION</text>
+      <text class="t-s" x="350" y="344" text-anchor="middle">reciprocal rank fusion</text>
+
+      <line class="ln" x1="350" y1="356" x2="350" y2="376" marker-end="url(#c6)"/>
+
+      <rect class="n-acc" x="200" y="380" width="300" height="34"/>
+      <text class="t-hacc" x="350" y="402" text-anchor="middle">REORDER THE TOP 25 · CROSS-ENCODER</text>
+    </svg>
+    <figcaption>The two lanes run at the same time because neither depends on the other. Each produces twenty-five candidates, the lists are merged by position, and only the survivors are handed to the slow and accurate model at the bottom.</figcaption>
+  </figure>
+</section>
+
+<p class="part">Part Three</p>
+<p class="part-sub">How Standards360 uses each of these ideas, and which module is responsible for each one.</p>
+
+<section>
+  <div class="shead"><span class="pnum">8</span><h2>What our documents actually are</h2></div>
+  <p>Everything in Part One assumed a collection of paragraphs. In our project those paragraphs are <b>clauses of Indian Standards</b>, and choosing the clause as our unit is a deliberate decision worth explaining.</p>
+  <p>An Indian Standard is a document of twenty to forty pages, organised into numbered clauses. Clause 1 states the scope, clause 2 lists the other standards it refers to, and later clauses cover requirements, testing, packing and marking. Module A2 splits each PDF along these clause boundaries, and module A4 then treats each clause as one document in the sense of Part One.</p>
+  <p>The alternative would be to embed each standard as a single unit. That works badly, and the reason follows directly from what an embedding is. An embedding summarises a whole passage into one position. If the passage covers scope, chemistry, testing, packing and marking all at once, the resulting position is an average of all those subjects, and the part that actually answers "what is this standard for" has been diluted with everything else. Embedding the scope clause on its own keeps that signal clear.</p>
+  <p>Splitting by clause gives us a second benefit that matters for a government user. Because each vector corresponds to a known clause, when the system recommends a standard it can also state which clause caused the match and quote it. Had we split the text every thousand characters, as many introductory tutorials suggest, we could only point at an arbitrary fragment.</p>
+</section>
+
+<section>
+  <div class="shead"><span class="pnum">9</span><h2>Which module does what</h2></div>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Concept from Part One</th><th>Module</th><th>What it does in our system</th></tr></thead>
+    <tbody>
+      <tr><td class="nw">Deciding what a "document" is</td><td class="nw">A2</td><td>Splits each standard's PDF into numbered clauses, so that one clause becomes one searchable unit</td></tr>
+      <tr><td class="nw">Embeddings</td><td class="nw">A4</td><td>Runs every clause through <code>bge-m3</code> and collects the resulting vectors</td></tr>
+      <tr><td class="nw">Vector index</td><td class="nw">A4</td><td>Writes those vectors into <code>faiss.index</code></td></tr>
+      <tr><td class="nw">Inverted index</td><td class="nw">A4</td><td>Builds the BM25 word index and saves it as <code>bm25.pkl</code></td></tr>
+      <tr><td class="nw">Lookup table</td><td class="nw">A4</td><td>Writes <code>id_map.json</code>, recording which clause each row number refers to</td></tr>
+      <tr><td class="nw">Hybrid search and fusion</td><td class="nw">C1</td><td>Searches both indexes, merges the two lists by rank position</td></tr>
+      <tr><td class="nw">Cross-encoder reranking</td><td class="nw">C1</td><td>Reorders the surviving twenty-five candidates with <code>bge-reranker-v2-m3</code></td></tr>
+      <tr><td class="nw">Turning rows back into answers</td><td class="nw">C1</td><td>Uses the lookup table to convert row numbers into standards, and groups clauses by their parent standard</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Modules A2 and A4 run offline, before anybody uses the system, and produce files. Module C1 runs every time a user asks a question, and reads those files. This separation is why the search is fast: all the expensive preparation has already been done.</p>
+
+  <figure>
+    <p class="fignum">Figure 7 — from a PDF to an answer</p>
+    <svg viewBox="0 0 720 300" role="img" aria-label="A standard's PDF is split into clauses, which are turned into three index files, which a user query then searches to produce ranked standards.">
+      <defs><marker id="c7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <text class="t-e" x="105" y="44" text-anchor="middle">PREPARED ONCE, OFFLINE</text>
+      <line class="ln-dash" x1="30" y1="56" x2="470" y2="56"/>
+      <text class="t-e" x="610" y="44" text-anchor="middle">EVERY QUERY</text>
+      <line class="ln-dash" x1="500" y1="56" x2="700" y2="56"/>
+
+      <rect class="n-box" x="30" y="76" width="150" height="76"/>
+      <text class="t-h" x="105" y="106" text-anchor="middle">IS 269:2015</text>
+      <text class="t-s" x="105" y="124" text-anchor="middle">the original PDF</text>
+      <text class="t-e" x="105" y="172" text-anchor="middle">source document</text>
+
+      <line class="ln" x1="184" y1="114" x2="206" y2="114" marker-end="url(#c7)"/>
+
+      <rect class="n-box" x="210" y="76" width="150" height="76"/>
+      <text class="t-h" x="285" y="100" text-anchor="middle">A2</text>
+      <text class="t-s" x="285" y="118" text-anchor="middle">split into</text>
+      <text class="t-s" x="285" y="134" text-anchor="middle">numbered clauses</text>
+      <text class="t-e" x="285" y="172" text-anchor="middle">one clause = one document</text>
+
+      <line class="ln" x1="364" y1="114" x2="386" y2="114" marker-end="url(#c7)"/>
+
+      <rect class="n-acc" x="390" y="76" width="150" height="76"/>
+      <text class="t-hacc" x="465" y="100" text-anchor="middle">A4</text>
+      <text class="t-s" x="465" y="118" text-anchor="middle">faiss.index</text>
+      <text class="t-s" x="465" y="134" text-anchor="middle">bm25.pkl · id_map.json</text>
+      <text class="t-e" x="465" y="172" text-anchor="middle">the two indexes + lookup</text>
+
+      <line class="ln" x1="544" y1="114" x2="566" y2="114" marker-end="url(#c7)"/>
+
+      <rect class="n-box" x="570" y="76" width="130" height="76"/>
+      <text class="t-h" x="635" y="100" text-anchor="middle">C1</text>
+      <text class="t-s" x="635" y="118" text-anchor="middle">hybrid search</text>
+      <text class="t-s" x="635" y="134" text-anchor="middle">+ rerank</text>
+      <text class="t-e" x="635" y="172" text-anchor="middle">ranked standards</text>
+
+      <rect class="n-band" x="30" y="206" width="670" height="64"/>
+      <text class="t-e" x="46" y="228">A USER ASKS</text>
+      <text class="t-lab" x="46" y="252">"43 grade cement for RCC structural work"</text>
+      <text class="t-e" x="684" y="228" text-anchor="end">THE SYSTEM ANSWERS</text>
+      <text class="t-hacc" x="684" y="252" text-anchor="end">IS 269:2015 · 0.94 · matched Clause 1, Scope</text>
+    </svg>
+    <figcaption>The first three boxes happen before anyone uses the system. Only the last one runs when a question arrives, and it consists of reading files that were prepared in advance.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="shead"><span class="pnum">10</span><h2>Following one question all the way through</h2></div>
+  <p>The clearest way to consolidate all of this is to follow a single question from beginning to end. Suppose a procurement officer types the following into our system:</p>
+<pre>"43 grade ordinary portland cement for RCC structural work"</pre>
+  <ol>
+    <li><b>The query becomes a vector.</b> The same <code>bge-m3</code> model that processed every clause during preparation now processes the query, producing 1024 numbers. It is essential that this is the same model, because two different models place text in two different and incompatible spaces.</li>
+    <li><b>FAISS finds the nearest clauses.</b> It compares the query vector against every stored clause vector and returns the twenty-five closest, as row numbers with similarity scores. This is where "cement" and "binder" being related is finally useful.</li>
+    <li><b>BM25 finds word matches.</b> At the same time, the query is split into words and searched against the inverted index. This is what guarantees that "43 grade" is matched exactly rather than approximately.</li>
+    <li><b>The two lists are merged.</b> Reciprocal rank fusion combines them using positions only, producing a single list in which clauses that both methods liked have risen to the top.</li>
+    <li><b>The cross-encoder reorders the survivors.</b> Each of the twenty-five candidates is read together with the query by the reranker, which produces a more careful ordering than either fast method could.</li>
+    <li><b>Row numbers become standards.</b> The lookup table converts each surviving row number into a real clause with a real standard number. Because several clauses of the same standard may appear, they are grouped, and each standard takes the score of its best clause.</li>
+  </ol>
+<pre>IS 269:2015   0.94   matched Clause 1, Scope
+IS 456:2000   0.79   matched Clause 5.1
+IS 383:2016   0.62   matched Clause 2</pre>
+  <p>At this point the system has an ordered list of standards and, for each one, the specific clause that caused the match. Everything that the rest of Standards360 does afterwards, such as finding related standards, checking whether a version is current, and determining certification requirements, builds on this result. None of it revisits the question of which standard is most relevant, because that question was settled here.</p>
+</section>
+
+<section>
+  <div class="shead"><span class="pnum">11</span><h2>A short glossary</h2></div>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Term</th><th>Meaning in one sentence</th></tr></thead>
+    <tbody>
+      <tr><td class="nw">Vector</td><td>An ordered list of numbers, understood as a position in a space.</td></tr>
+      <tr><td class="nw">Vector space</td><td>The space those positions live in, arranged so that nearness means similarity.</td></tr>
+      <tr><td class="nw">Embedding</td><td>The vector a neural network produces for a piece of text.</td></tr>
+      <tr><td class="nw">Embedding model</td><td>The network that performs that conversion; ours is <code>bge-m3</code>, which produces 1024 numbers.</td></tr>
+      <tr><td class="nw">Cosine similarity</td><td>A measure of how closely two vectors point in the same direction, from 0 to 1.</td></tr>
+      <tr><td class="nw">FAISS</td><td>A library that finds the nearest vectors very quickly, stored as a file rather than run as a server.</td></tr>
+      <tr><td class="nw">Inverted index</td><td>A structure mapping each word to the documents containing it, like a textbook index.</td></tr>
+      <tr><td class="nw">BM25</td><td>A scoring formula for word matching that weights rare words more heavily than common ones.</td></tr>
+      <tr><td class="nw">Index builder</td><td>The batch program that prepares these structures in advance; module A4 in our project.</td></tr>
+      <tr><td class="nw">Lookup table</td><td>The file recording which document each row number refers to, since the indexes store only positions.</td></tr>
+      <tr><td class="nw">Hybrid search</td><td>Running embedding search and word search together and merging the results.</td></tr>
+      <tr><td class="nw">Reciprocal rank fusion</td><td>A way of merging two ranked lists using positions rather than incomparable scores.</td></tr>
+      <tr><td class="nw">Cross-encoder</td><td>A slower, more accurate model that reads query and document together to reorder a shortlist.</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<footer>Standards360 · concept prerequisites · background reading for the build manual</footer>
+
+</div>

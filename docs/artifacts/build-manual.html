@@ -1,0 +1,1503 @@
+<title>Standards360 Build Manual</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+  :root{
+    --ground:#F1F3F7; --surface:#FFFFFF; --surface-2:#E9ECF3;
+    --ink:#141922; --muted:#5B6577; --rule:#D5DAE3;
+    --accent:#1B3A6B; --kg:#2E6BC4; --amber:#B3690A; --green:#1C6B47; --red:#9C2C2C;
+    --display:'Archivo','Helvetica Neue',Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,serif;
+    --mono:'IBM Plex Mono',Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:#0D1016; --surface:#151A22; --surface-2:#1C222C;
+      --ink:#E5E9F0; --muted:#8F9BAF; --rule:#242B38;
+      --accent:#7BA7E8; --kg:#5E9BF0; --amber:#DFA54C; --green:#4CB183; --red:#E08585;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0D1016; --surface:#151A22; --surface-2:#1C222C;
+    --ink:#E5E9F0; --muted:#8F9BAF; --rule:#242B38;
+    --accent:#7BA7E8; --kg:#5E9BF0; --amber:#DFA54C; --green:#4CB183; --red:#E08585;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--ground);color:var(--ink);font-family:var(--serif);font-size:16px;line-height:1.64;margin:0;padding:0 20px 90px}
+  .wrap{max-width:900px;margin:0 auto}
+
+  header{padding:54px 0 30px;border-bottom:2px solid var(--ink)}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 16px}
+  h1{font-family:var(--display);font-weight:700;font-size:clamp(38px,6.5vw,60px);letter-spacing:-.025em;line-height:1;margin:0;text-wrap:balance}
+  .standfirst{font-size:19px;color:var(--muted);margin:16px 0 0;max-width:60ch}
+
+  section{padding-top:52px}
+  .shead{display:flex;align-items:baseline;gap:14px;margin-bottom:6px}
+  .clause{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--accent);flex:none}
+  h2{font-family:var(--display);font-weight:600;font-size:26px;letter-spacing:-.015em;margin:0;text-wrap:balance}
+  h3{font-family:var(--display);font-weight:600;font-size:18px;margin:30px 0 6px}
+  .lede{color:var(--muted);margin:0 0 22px;max-width:66ch}
+  p{max-width:68ch}
+  code{font-family:var(--mono);font-size:.88em;background:var(--surface-2);padding:1px 5px}
+  em.hl{font-style:normal;background:var(--surface-2);padding:0 4px;font-family:var(--mono);font-size:.88em}
+
+  .scroll{overflow-x:auto;margin:20px 0}
+  table{border-collapse:collapse;width:100%;min-width:600px;font-family:var(--display);font-size:13.5px}
+  th{text-align:left;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);padding:0 14px 8px 0;border-bottom:1px solid var(--ink);vertical-align:bottom}
+  td{padding:12px 14px 12px 0;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
+  td:first-child{font-weight:600}
+  .nw{white-space:nowrap}
+  .ok{color:var(--green);font-weight:600}
+  .later{color:var(--muted);font-weight:600}
+  .bad{color:var(--red);font-weight:600}
+  .mods{font-family:var(--mono);font-size:12px;color:var(--accent);font-weight:500}
+
+  .warn{border-left:3px solid var(--red);background:var(--surface);padding:16px 20px;margin:22px 0}
+  .warn p{margin:0;font-family:var(--display);font-size:15px;font-weight:500;max-width:64ch}
+  .note{border-left:3px solid var(--amber);background:var(--surface);padding:16px 20px;margin:22px 0}
+  .note p{margin:0 0 10px;font-family:var(--display);font-size:15px;max-width:64ch}
+  .note p:last-child{margin-bottom:0}
+
+  /* figures */
+  figure{margin:26px 0 0;background:var(--surface);border:1px solid var(--rule);padding:22px}
+  .fignum{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+  figure svg{display:block;width:100%;height:auto;margin:0 auto;color:var(--ink)}
+  figcaption{font-family:var(--mono);font-size:11.5px;line-height:1.65;color:var(--muted);margin-top:16px;padding-top:13px;border-top:1px solid var(--rule)}
+  .n-box{fill:var(--surface);stroke:currentColor;stroke-width:1.2}
+  .n-band{fill:var(--surface-2);stroke:currentColor;stroke-width:1}
+  .n-acc{fill:var(--surface);stroke:var(--kg);stroke-width:1.8}
+  .t-h{font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:600;fill:currentColor;letter-spacing:.03em}
+  .t-hacc{font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:600;fill:var(--kg);letter-spacing:.03em}
+  .t-s{font-family:'Archivo',sans-serif;font-size:10px;fill:var(--muted)}
+  .t-e{font-family:'IBM Plex Mono',monospace;font-size:9.5px;fill:var(--muted)}
+  .t-band{font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;fill:var(--muted);letter-spacing:.1em}
+  .ln{stroke:currentColor;stroke-width:1.1;fill:none}
+  .ln-acc{stroke:var(--kg);stroke-width:1.4;fill:none}
+  .ln-life{stroke:currentColor;stroke-width:1;stroke-dasharray:3 4;fill:none;opacity:.55}
+
+  .terms{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:20px}
+  .term{background:var(--surface);padding:16px 20px}
+  .term b{font-family:var(--mono);font-size:12.5px;font-weight:600;color:var(--accent);display:block;margin-bottom:4px;letter-spacing:.03em}
+  .term p{margin:0;font-size:15px;max-width:none}
+  .term .eg{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:7px;display:block;line-height:1.6}
+
+  .mod{border:1px solid var(--rule);background:var(--surface);padding:20px 22px;margin-top:16px}
+  .mod-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+  .mid{font-family:var(--mono);font-size:12px;font-weight:600;background:var(--accent);color:var(--surface);padding:3px 8px;flex:none}
+  .mid.new{background:var(--kg)}
+  .mod h4{font-family:var(--display);font-weight:600;font-size:19px;margin:0;letter-spacing:-.01em;flex:1 1 auto}
+  .badge{font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:3px 7px;border:1px solid currentColor;flex:none}
+  .b-core{color:var(--red)} .b-sup{color:var(--kg)} .b-fut{color:var(--muted)}
+  .mod p{margin:0 0 10px;font-size:15.5px;max-width:none}
+  .serves{font-family:var(--mono);font-size:11px;color:var(--muted);margin:0 0 10px;letter-spacing:.02em}
+  .serves b{color:var(--kg);font-weight:600}
+  .stack{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin:0 0 14px;line-height:1.7}
+  .stack b{color:var(--ink);font-weight:600}
+  .io{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:4px}
+  .io > div{background:var(--surface-2);padding:12px 14px}
+  .io dt{font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+  .io dd{margin:0;font-family:var(--mono);font-size:11.5px;line-height:1.65;white-space:pre-wrap;word-break:break-word;color:var(--ink)}
+  .stage{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:38px 0 2px;padding-top:14px;border-top:2px solid var(--ink)}
+  .stage-sub{font-family:var(--display);font-size:14px;color:var(--muted);margin:0 0 4px;max-width:70ch}
+
+  pre{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--kg);padding:14px 16px;overflow-x:auto;font-family:var(--mono);font-size:11.5px;line-height:1.6;margin:14px 0}
+  pre b{color:var(--kg);font-weight:600}
+
+  .sub{border-left:2px solid var(--rule);padding:2px 0 2px 20px;margin:20px 0}
+  .sub h5{font-family:var(--mono);font-size:12.5px;font-weight:600;color:var(--accent);margin:0 0 5px;letter-spacing:.03em}
+  .sub p{margin:0 0 9px;font-size:15.5px}
+  .sub p:last-child{margin-bottom:0}
+  .gotcha{font-family:var(--display);font-size:14px;color:var(--amber);border-left:2px solid var(--amber);padding-left:12px;margin:10px 0 0}
+  .gotcha b{color:var(--amber);font-weight:600}
+
+  ol,ul{max-width:68ch}
+  li{margin-bottom:6px}
+  footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:11px;color:var(--muted)}
+  @media (max-width:620px){ .io{grid-template-columns:1fr} }
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">PS 26108 · Department of Consumer Affairs · build manual v3</p>
+  <h1>Standards360 Build Manual</h1>
+  <p class="standfirst">Nineteen modules, seven diagrams, what each part eats and produces, who builds it, and what we are not building. Read once, then use it to hand out tasks.</p>
+</header>
+
+<section>
+  <div class="shead"><span class="clause">§1</span><h2>Read this first</h2></div>
+  <div class="warn">
+    <p>Every IS number in this document is an <b>illustration of the shape of the data</b>, not a verified fact. Before any of these appear in a demo, look each one up on the BIS portal and confirm the number, year and status. The whole product is a promise that we do not invent standard numbers — that promise starts with this document.</p>
+  </div>
+
+  <h3>What A1, B3, C2 mean</h3>
+  <p>Each module has a letter and a number. <b>The letter is the stage of the assembly line</b>; the number is only its position inside that stage. Work flows A&nbsp;→&nbsp;B&nbsp;→&nbsp;C&nbsp;→&nbsp;D. So <em class="hl">C3</em> is "the third module in the find-and-check stage" — the version resolver. <em class="hl">B5</em> is "the fifth module in the understand stage" — the one that asks clarifying questions. Modules with a blue tag are new since v1.</p>
+
+  <figure>
+    <p class="fignum">Figure 1 — the four stages</p>
+    <svg viewBox="0 0 760 334" role="img" aria-label="Stage A runs offline and writes four kinds of knowledge into three stores. Stages B, C and D run online per request and read from those same stores.">
+      <defs><marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <rect class="n-band" x="40" y="26" width="680" height="76"/>
+      <text class="t-band" x="52" y="44">A · BUILD THE KNOWLEDGE BASE — OFFLINE, BEFORE ANY USER ARRIVES</text>
+      <rect class="n-box" x="52"  y="54" width="152" height="34"/><text class="t-h" x="128" y="76" text-anchor="middle">A1 COLLECT</text>
+      <rect class="n-box" x="220" y="54" width="152" height="34"/><text class="t-h" x="296" y="76" text-anchor="middle">A2 PARSE</text>
+      <rect class="n-acc" x="388" y="54" width="152" height="34"/><text class="t-hacc" x="464" y="76" text-anchor="middle">A3 CROSS-REFS</text>
+      <rect class="n-box" x="556" y="54" width="152" height="34"/><text class="t-h" x="632" y="76" text-anchor="middle">A4 INDEX</text>
+      <line class="ln" x1="206" y1="71" x2="216" y2="71" marker-end="url(#m1)"/>
+      <line class="ln" x1="374" y1="71" x2="384" y2="71" marker-end="url(#m1)"/>
+      <line class="ln" x1="542" y1="71" x2="552" y2="71" marker-end="url(#m1)"/>
+
+      <line class="ln" x1="380" y1="102" x2="380" y2="132" marker-end="url(#m1)"/>
+      <text class="t-e" x="392" y="121">writes</text>
+
+      <rect class="n-band" x="40" y="136" width="680" height="66"/>
+      <text class="t-band" x="52" y="154">KNOWLEDGE STORES</text>
+      <rect class="n-box" x="52"  y="162" width="200" height="30"/><text class="t-h" x="152" y="182" text-anchor="middle">CATALOGUE DB</text>
+      <rect class="n-acc" x="280" y="162" width="200" height="30"/><text class="t-hacc" x="380" y="182" text-anchor="middle">RELATIONSHIP MAP</text>
+      <rect class="n-box" x="508" y="162" width="200" height="30"/><text class="t-h" x="608" y="182" text-anchor="middle">VECTOR + BM25</text>
+
+      <line class="ln" x1="380" y1="232" x2="380" y2="206" marker-end="url(#m1)"/>
+      <text class="t-e" x="392" y="225">reads</text>
+
+      <rect class="n-band" x="40" y="236" width="680" height="76"/>
+      <text class="t-band" x="52" y="254">B → C → D · ANSWER ONE REQUEST — ONLINE</text>
+      <rect class="n-box" x="52"  y="264" width="200" height="34"/><text class="t-h" x="152" y="286" text-anchor="middle">B UNDERSTAND</text>
+      <rect class="n-box" x="280" y="264" width="200" height="34"/><text class="t-h" x="380" y="286" text-anchor="middle">C FIND &amp; CHECK</text>
+      <rect class="n-box" x="508" y="264" width="200" height="34"/><text class="t-h" x="608" y="286" text-anchor="middle">D DELIVER</text>
+      <line class="ln" x1="254" y1="281" x2="276" y2="281" marker-end="url(#m1)"/>
+      <line class="ln" x1="482" y1="281" x2="504" y2="281" marker-end="url(#m1)"/>
+    </svg>
+    <figcaption>The split that matters: stage A can re-collect and re-index the whole corpus without B, C or D knowing, and B, C and D answer queries with no live dependency on the BIS website. They meet only at the three stores — which is also what makes an offline demo possible. Blue marks the relationship map and the module that builds it; that pairing is the part no competing system has.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§2</span><h2>Two stakeholders, two front doors</h2></div>
+  <p class="lede">The same engine answers two different people asking two different questions. This is a presentation difference, not an architecture difference — one API, two interfaces, two document templates.</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th></th><th>Procurement official</th><th>Manufacturer</th></tr></thead>
+    <tbody>
+      <tr><td>Their question</td><td>"Which standards must I cite in this tender?"</td><td>"Which standards must my product comply with?"</td></tr>
+      <tr><td>What they upload</td><td>A tender document, often partly drafted</td><td>A product description or category</td></tr>
+      <tr><td>Certification answer</td><td>"Bidders must hold a valid ISI licence — state it as an eligibility condition"</td><td>"<b>You</b> must obtain a BIS licence before you can sell this; here is the scheme and the labs"</td></tr>
+      <tr><td>Document they get</td><td>Completed tender, or a standards annexure</td><td>A compliance checklist — standards, tests, licence route, labs</td></tr>
+      <tr><td>What they care about</td><td>Completeness and currency of citations; defensibility in audit</td><td>Obligations, cost of compliance, which lab, how long</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <figure>
+    <p class="fignum">Figure 2 — two personas, one engine</p>
+    <svg viewBox="0 0 700 424" role="img" aria-label="Two personas enter through separate front doors, share the identical understand and find-and-check stages, then diverge again into two different document templates.">
+      <defs><marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <rect class="n-box" x="60"  y="26" width="260" height="58"/>
+      <text class="t-h" x="190" y="50" text-anchor="middle">PROCUREMENT OFFICIAL</text>
+      <text class="t-s" x="190" y="68" text-anchor="middle">uploads a tender being drafted</text>
+      <rect class="n-box" x="380" y="26" width="260" height="58"/>
+      <text class="t-h" x="510" y="50" text-anchor="middle">MANUFACTURER</text>
+      <text class="t-s" x="510" y="68" text-anchor="middle">describes a product being made</text>
+
+      <polyline class="ln" points="190,84 190,106 350,106 350,126" marker-end="url(#m2)"/>
+      <polyline class="ln" points="510,84 510,106 350,106 350,126"/>
+
+      <rect class="n-band" x="60" y="130" width="580" height="142"/>
+      <text class="t-band" x="76" y="150">ONE ENGINE — IDENTICAL FOR BOTH</text>
+      <rect class="n-box" x="80"  y="164" width="260" height="54"/>
+      <text class="t-h" x="210" y="186" text-anchor="middle">B1–B5  UNDERSTAND</text>
+      <text class="t-s" x="210" y="204" text-anchor="middle">parse · translate · extract · clarify</text>
+      <rect class="n-acc" x="360" y="164" width="260" height="54"/>
+      <text class="t-hacc" x="490" y="186" text-anchor="middle">C1–C5  FIND &amp; CHECK</text>
+      <text class="t-s" x="490" y="204" text-anchor="middle">retrieve · allied · version · certify</text>
+      <line class="ln" x1="342" y1="191" x2="356" y2="191" marker-end="url(#m2)"/>
+      <text class="t-s" x="350" y="246" text-anchor="middle">the same standards, the same evidence, the same confidence scores</text>
+
+      <polyline class="ln" points="350,272 350,294 190,294 190,318" marker-end="url(#m2)"/>
+      <polyline class="ln" points="350,272 350,294 510,294 510,318" marker-end="url(#m2)"/>
+
+      <rect class="n-box" x="60"  y="322" width="260" height="72"/>
+      <text class="t-h" x="190" y="346" text-anchor="middle">D2 / D3 — TENDER TEMPLATE</text>
+      <text class="t-s" x="190" y="364" text-anchor="middle">completed tender + annexure;</text>
+      <text class="t-s" x="190" y="380" text-anchor="middle">certification as a bidder condition</text>
+      <rect class="n-box" x="380" y="322" width="260" height="72"/>
+      <text class="t-h" x="510" y="346" text-anchor="middle">D2 / D3 — COMPLIANCE TEMPLATE</text>
+      <text class="t-s" x="510" y="364" text-anchor="middle">checklist + licence route + labs;</text>
+      <text class="t-s" x="510" y="380" text-anchor="middle">certification as your obligation</text>
+    </svg>
+    <figcaption>The divergence is entirely at the two ends. Everything expensive — nineteen modules minus two templates — is shared, which is why the manufacturer side costs roughly one extra day once the procurement side is finished. Build them in sequence, never in parallel.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§3</span><h2>The five ways input arrives</h2></div>
+  <p class="lede">These are the real situations the system must survive. Every one routes through the same pipeline — what changes is which modules do the heavy lifting.</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>#</th><th>Situation</th><th>What makes it hard</th><th>Modules doing the work</th></tr></thead>
+    <tbody>
+      <tr><td class="nw">S1</td><td>Tender PDF uploaded. Has product description and technical specification, but <b>no Indian Standards at all</b></td><td>Nothing to check against — we recommend from scratch. The baseline case</td><td class="mods">B1 B3 → C1–C5 → D2 D3</td></tr>
+      <tr><td class="nw">S2</td><td>Tender PDF uploaded <b>with standards the official already guessed</b> — from colleagues, seniors, or last year's tender</td><td>Their guesses may be right, outdated, irrelevant or incomplete. We must judge each one, not ignore them</td><td class="mods">B1 B3 <b>B4</b> → C1–C5 → D2 D3</td></tr>
+      <tr><td class="nw">S3</td><td>No document — just pasted text, or <b>a screenshot</b> of a specification</td><td>A screenshot is an image. It needs OCR before anything else can happen</td><td class="mods">B1 <b>(OCR)</b> B3 <b>B5</b> → C…</td></tr>
+      <tr><td class="nw">S4</td><td>Just a <b>product name or category</b> — "steel tubes", "LED street light". Pure information-seeking</td><td>Almost no detail. Many standards match loosely. Must not pretend to be confident</td><td class="mods">B1 B3 <b>B5</b> → C1 C4 → D2</td></tr>
+      <tr><td class="nw">S5</td><td>Any of the above, but <b>the information is too thin to be confident</b></td><td>Guessing here is the worst possible failure. The system must notice, work out what is missing, and ask</td><td class="mods"><b>B5</b> + <b>C5</b>, then re-run</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <figure>
+    <p class="fignum">Figure 3 — the online request path</p>
+    <svg viewBox="0 0 700 650" role="img" aria-label="A vertical pipeline from input through language, extraction, citation validation, the sufficiency gate, the find-and-check core, the validity guard, option building and PDF generation. The sufficiency gate can loop back to extraction when the user answers a question.">
+      <defs><marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker>
+      <marker id="m3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--kg)"/></marker></defs>
+
+      <rect class="n-box" x="170" y="26" width="340" height="48"/>
+      <text class="t-h" x="340" y="48" text-anchor="middle">B1  INPUT HANDLER</text>
+      <text class="t-s" x="340" y="65" text-anchor="middle">pdf · text · screenshot · product name</text>
+
+      <rect class="n-box" x="170" y="94" width="340" height="48"/>
+      <text class="t-h" x="340" y="116" text-anchor="middle">B2  LANGUAGE</text>
+      <text class="t-s" x="340" y="133" text-anchor="middle">detect · translate to English · remember original</text>
+
+      <rect class="n-box" x="170" y="162" width="340" height="48"/>
+      <text class="t-h" x="340" y="184" text-anchor="middle">B3  REQUIREMENT EXTRACTOR</text>
+      <text class="t-s" x="340" y="201" text-anchor="middle">structured facts + what is missing</text>
+
+      <rect class="n-acc" x="170" y="230" width="340" height="48"/>
+      <text class="t-hacc" x="340" y="252" text-anchor="middle">B4  CITATION VALIDATOR</text>
+      <text class="t-s" x="340" y="269" text-anchor="middle">only when the tender already names standards</text>
+
+      <rect class="n-acc" x="170" y="298" width="340" height="48"/>
+      <text class="t-hacc" x="340" y="320" text-anchor="middle">B5  SUFFICIENCY GATE</text>
+      <text class="t-s" x="340" y="337" text-anchor="middle">enough to answer? if not, ask</text>
+
+      <rect class="n-box" x="170" y="366" width="340" height="48"/>
+      <text class="t-h" x="340" y="388" text-anchor="middle">C1–C5  FIND &amp; CHECK</text>
+      <text class="t-s" x="340" y="405" text-anchor="middle">retrieve · allied · version · certify · score</text>
+
+      <rect class="n-box" x="170" y="434" width="340" height="48"/>
+      <text class="t-h" x="340" y="456" text-anchor="middle">D1  VALIDITY GUARD</text>
+      <text class="t-s" x="340" y="473" text-anchor="middle">drop any IS number not in the catalogue</text>
+
+      <rect class="n-box" x="170" y="502" width="340" height="48"/>
+      <text class="t-h" x="340" y="524" text-anchor="middle">D2  THREE OPTIONS</text>
+      <text class="t-s" x="340" y="541" text-anchor="middle">mandatory · recommended · comprehensive</text>
+
+      <rect class="n-box" x="170" y="570" width="340" height="48"/>
+      <text class="t-h" x="340" y="592" text-anchor="middle">D3  DOCUMENT GENERATOR</text>
+      <text class="t-s" x="340" y="609" text-anchor="middle">completed tender, or standalone report</text>
+
+      <line class="ln" x1="340" y1="74"  x2="340" y2="90"  marker-end="url(#m3)"/>
+      <line class="ln" x1="340" y1="142" x2="340" y2="158" marker-end="url(#m3)"/>
+      <line class="ln" x1="340" y1="210" x2="340" y2="226" marker-end="url(#m3)"/>
+      <line class="ln" x1="340" y1="278" x2="340" y2="294" marker-end="url(#m3)"/>
+      <line class="ln" x1="340" y1="346" x2="340" y2="362" marker-end="url(#m3)"/>
+      <line class="ln" x1="340" y1="414" x2="340" y2="430" marker-end="url(#m3)"/>
+      <line class="ln" x1="340" y1="482" x2="340" y2="498" marker-end="url(#m3)"/>
+      <line class="ln" x1="340" y1="550" x2="340" y2="566" marker-end="url(#m3)"/>
+      <line class="ln" x1="340" y1="618" x2="340" y2="638" marker-end="url(#m3)"/>
+      <text class="t-h" x="352" y="636">PDF</text>
+
+      <polyline class="ln-acc" points="510,322 590,322 590,186 514,186" marker-end="url(#m3a)"/>
+      <text class="t-e" x="600" y="245">user answers</text>
+      <text class="t-e" x="600" y="259">the question</text>
+      <text class="t-e" x="600" y="273">→ re-run</text>
+    </svg>
+    <figcaption>One path, two conditional parts. B4 runs only when the tender already cites standards; B5 either lets the request through or bounces it back to B3 with the user's answer merged in. Everything below B5 sees a requirement object it can trust, which is why no module after this point ever has to guess.</figcaption>
+  </figure>
+
+  <div class="note">
+    <p><b>S2 is the most valuable scenario and the best demo.</b> It is also how procurement actually works today — officials copy standards from old tenders or ask a senior. Telling someone "three of your five citations are fine, one is superseded, one belongs to a different product, and you are missing two test-method standards" is far more impressive than answering a blank query, because it shows the system <em>reasoning about their work</em> rather than doing a search.</p>
+  </div>
+
+  <h3>On the chat interface</h3>
+  <p>Earlier I advised against building a chatbot. The refined position, given your scenarios: <b>conversation is the right shape for intake and clarification; it is the wrong shape for the answer.</b> The user drops a file into something that looks like a chat, the system asks two or three clarifying questions, the user answers — and then the system produces a <b>document</b>, not a paragraph. Conversation in, document out. That is not a chatbot; it is an intake interview that terminates in a deliverable.</p>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§4</span><h2>The two ways output leaves</h2></div>
+  <p class="lede">The main deliverable is a PDF. Which PDF depends on what the user wants done to their document.</p>
+
+  <figure>
+    <p class="fignum">Figure 4 — output modes</p>
+    <svg viewBox="0 0 700 348" role="img" aria-label="Three options from D2 go to the user, who chooses between filling their own tender or receiving a separate report. Each choice routes to a different mode of the document generator.">
+      <defs><marker id="m4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <rect class="n-box" x="200" y="24" width="300" height="52"/>
+      <text class="t-h" x="350" y="46" text-anchor="middle">D2  THREE OPTIONS + CONFIDENCE</text>
+      <text class="t-s" x="350" y="64" text-anchor="middle">user picks one — A, B or C</text>
+
+      <polyline class="ln" points="350,76 350,100 170,100 170,126" marker-end="url(#m4)"/>
+      <polyline class="ln" points="350,76 350,100 530,100 530,126" marker-end="url(#m4)"/>
+
+      <rect class="n-box" x="40"  y="130" width="260" height="44"/>
+      <text class="t-h" x="170" y="151" text-anchor="middle">O1 · FILL MY TENDER</text>
+      <text class="t-s" x="170" y="167" text-anchor="middle">"put the standards into my document"</text>
+
+      <rect class="n-box" x="400" y="130" width="260" height="44"/>
+      <text class="t-h" x="530" y="151" text-anchor="middle">O2 · SEPARATE REPORT</text>
+      <text class="t-s" x="530" y="167" text-anchor="middle">"don't touch my document"</text>
+
+      <line class="ln" x1="170" y1="174" x2="170" y2="196" marker-end="url(#m4)"/>
+      <line class="ln" x1="530" y1="174" x2="530" y2="196" marker-end="url(#m4)"/>
+
+      <rect class="n-acc" x="40"  y="200" width="260" height="76"/>
+      <text class="t-hacc" x="170" y="222" text-anchor="middle">D3 MODE 1</text>
+      <text class="t-s" x="170" y="240" text-anchor="middle">append "Annexure A — Applicable</text>
+      <text class="t-s" x="170" y="255" text-anchor="middle">Indian Standards" to their original;</text>
+      <text class="t-s" x="170" y="270" text-anchor="middle">in-place insertion later</text>
+
+      <rect class="n-box" x="400" y="200" width="260" height="76"/>
+      <text class="t-h" x="530" y="222" text-anchor="middle">D3 MODE 2</text>
+      <text class="t-s" x="530" y="240" text-anchor="middle">generate a fresh report:</text>
+      <text class="t-s" x="530" y="255" text-anchor="middle">standards, allied, warnings,</text>
+      <text class="t-s" x="530" y="270" text-anchor="middle">certification, evidence</text>
+
+      <line class="ln" x1="170" y1="276" x2="170" y2="300" marker-end="url(#m4)"/>
+      <line class="ln" x1="530" y1="276" x2="530" y2="300" marker-end="url(#m4)"/>
+      <text class="t-h" x="170" y="320" text-anchor="middle">completed_tender.pdf</text>
+      <text class="t-h" x="530" y="320" text-anchor="middle">standards_report.pdf</text>
+    </svg>
+    <figcaption>Both modes consume exactly the same option object from D2 — the only difference is the template and whether the user's original file is carried through. Mode 1 is drawn in blue because the annexure approach is the deliberate simplification described below.</figcaption>
+  </figure>
+
+  <div class="warn">
+    <p><b>Be realistic about O1.</b> Editing an arbitrary third-party PDF in place is genuinely fragile — layouts vary, text may be scanned, and a botched insertion looks worse than no insertion. Build the robust path first: generate an <b>"Annexure — Applicable Indian Standards"</b> appended to their original document. That is how government tenders actually carry this information, so it is authentic rather than a workaround. In-place insertion at a located anchor is the enhancement, not the foundation.</p>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§5</span><h2>Does this cover the requirements?</h2></div>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Requirement</th><th>Module</th><th>How it is satisfied</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td class="nw">Recommend standards + allied + normative</td><td class="mods">C1 C2</td><td>C1 finds the primary by meaning; C2 walks the cross-reference map from A3 to pull normative, test-method, terminology, safety and installation standards</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Integratable with portals</td><td class="mods">D4</td><td>REST API first, website second. The website is just our own client of the same endpoint GeM or CPPP would call</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Two stakeholder interfaces</td><td class="mods">D5</td><td>One engine, two entry modes and two document templates</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Accept PDF / text / screenshot / product name</td><td class="mods">B1 B3</td><td>Four input types normalised to one text payload, then structured. Screenshot handled by OCR inside B1</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Semantic recommendation engine</td><td class="mods">C1</td><td>Hybrid keyword + vector search, merged, then reranked</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Validate standards the user already cited</td><td class="mods">B4</td><td>Each citation judged on three axes: does it exist, is it current, is it relevant to this product</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Allied standards by type</td><td class="mods">A3 C2</td><td>A3 reads Clause 2 offline and records typed relationships; C2 traverses them at query time</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Latest version + amendments</td><td class="mods">A1 C3</td><td>Catalogue lookup and date comparison. No machine learning involved, which is why it is reliable</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Mandatory certification — ISI, CRS, Hallmarking</td><td class="mods">A1 C4</td><td>QCO and compulsory-certification lists loaded as lookup tables; matched on product category</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Ask for missing information</td><td class="mods">B5 C5</td><td>C5 scores confidence; B5 checks required fields for the product category and generates targeted questions</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Multilingual input</td><td class="mods">B2</td><td>Detect, then translate to English before retrieval. The embedding model is multilingual as well</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">PDF output, both modes</td><td class="mods">D3</td><td>Mode 1 completes their tender; mode 2 generates a standalone report</td><td class="ok">In scope</td></tr>
+      <tr><td class="nw">Conversational replies in user's language</td><td class="mods">D5</td><td>The intake conversation runs in the user's language; the deliverable is still a document</td><td class="ok">In scope</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="note">
+    <p><b>The retrieval engine is one module out of nineteen.</b> C1 — the part everyone thinks of as "the project" — is roughly a day of work using off-the-shelf models with published results. The other eighteen are what make the answer trustworthy and usable. Budget effort accordingly.</p>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§6</span><h2>The eight words you need</h2></div>
+  <p class="lede">Assume no prior knowledge. Everything technical in this document is one of these eight ideas.</p>
+  <div class="terms">
+    <div class="term"><b>EMBEDDING</b><p>Turning a piece of text into a long list of numbers, arranged so that texts with similar <em>meaning</em> end up with similar numbers. It is how a computer compares meaning instead of spelling.</p><span class="eg">"cement for RCC work" and "binder for reinforced concrete" share almost no words, but their number-lists sit very close together.</span></div>
+    <div class="term"><b>VECTOR DATABASE</b><p>A store that holds those number-lists and can answer "which stored items are closest to this one?" in milliseconds, across hundreds of thousands of entries. We use FAISS, which is a local file — no server to run.</p><span class="eg">Ask it with the numbers for "43 grade OPC" and it returns the clause texts whose numbers are nearest.</span></div>
+    <div class="term"><b>KEYWORD SEARCH (BM25)</b><p>Ordinary exact-word matching, scored by how rare each word is. Old technology, still essential: embeddings smooth meaning out, which makes them bad at exact codes.</p><span class="eg">A query containing "IS 8112" or "IP66" is matched exactly by BM25; an embedding might blur it into "some electrical rating".</span></div>
+    <div class="term"><b>HYBRID SEARCH + FUSION</b><p>Run both searches, then merge the two ranked lists. Reciprocal Rank Fusion is the merge rule — it only looks at positions, so there is nothing to tune.</p><span class="eg">Vector search ranks a standard 4th, keyword ranks it 2nd; fusion promotes it above something only one method liked.</span></div>
+    <div class="term"><b>RERANKER (CROSS-ENCODER)</b><p>A slower, more careful model that reads the query and each candidate <em>together</em> and re-orders the top ~25. Too slow to scan everything, which is why it only ever sees a shortlist.</p><span class="eg">In the prior-art system this single step moved the correct standard from rank 2–3 up to rank 1.</span></div>
+    <div class="term"><b>RAG</b><p>Retrieval-Augmented Generation. Fetch the real text first, then let a language model write using <em>only</em> that fetched text. The retrieval is what stops the model inventing things.</p><span class="eg">The model is handed Clause 1 of IS 269 and asked to explain the match — it cannot reach for a standard it was not given.</span></div>
+    <div class="term"><b>KNOWLEDGE GRAPH</b><p>A plain table of "thing A relates to thing B, and here is the type of relation". Nothing exotic. It lets us walk from a product standard to its test methods to their terminology standards.</p><span class="eg"><code>IS 269 —test_method→ IS 4031</code>. Three columns: from, relation, to.</span></div>
+    <div class="term"><b>OCR</b><p>Optical Character Recognition — reading text out of an image. Needed the moment a user pastes a screenshot instead of a file, and for older standards that were scanned rather than typed.</p><span class="eg">A phone photo of page 14 of a tender becomes the same plain text a PDF would have given.</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§7</span><h2>One tender, all the way through</h2></div>
+  <p class="lede">Follow this single example. It is scenario S2 — the valuable one — and every module below shows its part of this same job.</p>
+  <div class="note">
+    <p><b>The input.</b> A PWD tender PDF, page 14, mixed Hindi and English:<br>
+    <code>"आपूर्ति — 500 मीट्रिक टन 43 ग्रेड साधारण पोर्टलैंड सीमेंट, RCC कार्य हेतु, IS 8112:1989 के अनुसार"</code></p>
+    <p><b>What should come out.</b> That the citation <em>IS 8112:1989</em> is no longer valid and the current standard is <em>IS 269:2015</em>; which test-method standards must also be cited; that cement is under compulsory BIS certification so bidders need a valid ISI licence; that the tender never specified a storage requirement or a testing frequency — and a completed annexure the officer can attach.</p>
+  </div>
+
+  <div class="note">
+    <p><b>How to read the next two diagrams.</b> Time runs downward. Each dashed vertical line is one component's lifeline. A horizontal arrow between two lifelines is one component calling another.</p>
+    <p><b>An arrow that leaves a lifeline and comes straight back to the same lifeline is not a loop.</b> It is standard sequence-diagram notation for <em>this component doing its own internal work without calling anybody</em> — thinking, not looping. Figure 5 has three of them, and none is a retry, a wait or a feedback cycle.</p>
+    <p>The only genuine loop in the whole system is in Figure 6, where B5 goes back out to the <em>user</em> for an answer — and that fires only when information is actually missing.</p>
+  </div>
+
+  <figure>
+    <p class="fignum">Figure 5 — sequence: tender with guessed standards (S2)</p>
+    <svg viewBox="0 0 760 470" role="img" aria-label="Sequence diagram. The user uploads a tender. Intake extracts requirements and cited standards. The validator judges each citation with help from the core. The core then produces the full recommendation, the guard removes anything invented, and the user receives three options and a PDF.">
+      <defs><marker id="m5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <rect class="n-box" x="28"  y="22" width="124" height="42"/><text class="t-h" x="90"  y="40" text-anchor="middle">USER</text><text class="t-s" x="90"  y="56" text-anchor="middle">procurement</text>
+      <rect class="n-box" x="168" y="22" width="124" height="42"/><text class="t-h" x="230" y="40" text-anchor="middle">INTAKE</text><text class="t-s" x="230" y="56" text-anchor="middle">B1–B3</text>
+      <rect class="n-acc" x="308" y="22" width="124" height="42"/><text class="t-hacc" x="370" y="40" text-anchor="middle">VALIDATOR</text><text class="t-s" x="370" y="56" text-anchor="middle">B4</text>
+      <rect class="n-box" x="448" y="22" width="124" height="42"/><text class="t-h" x="510" y="40" text-anchor="middle">CORE</text><text class="t-s" x="510" y="56" text-anchor="middle">C1–C5</text>
+      <rect class="n-box" x="588" y="22" width="124" height="42"/><text class="t-h" x="650" y="40" text-anchor="middle">OUTPUT</text><text class="t-s" x="650" y="56" text-anchor="middle">D1–D3</text>
+
+      <line class="ln-life" x1="90"  y1="64" x2="90"  y2="450"/>
+      <line class="ln-life" x1="230" y1="64" x2="230" y2="450"/>
+      <line class="ln-life" x1="370" y1="64" x2="370" y2="450"/>
+      <line class="ln-life" x1="510" y1="64" x2="510" y2="450"/>
+      <line class="ln-life" x1="650" y1="64" x2="650" y2="450"/>
+
+      <line class="ln" x1="90" y1="100" x2="226" y2="100" marker-end="url(#m5)"/>
+      <text class="t-e" x="158" y="93" text-anchor="middle">upload tender.pdf</text>
+
+      <polyline class="ln" points="230,128 268,128 268,146 234,146" marker-end="url(#m5)"/>
+      <text class="t-e" x="276" y="141">detect Hindi · extract requirement · find 3 cited IS</text>
+
+      <line class="ln" x1="230" y1="180" x2="366" y2="180" marker-end="url(#m5)"/>
+      <text class="t-e" x="298" y="173" text-anchor="middle">requirement + citations</text>
+
+      <line class="ln" x1="370" y1="215" x2="506" y2="215" marker-end="url(#m5)"/>
+      <text class="t-e" x="438" y="208" text-anchor="middle">score each citation</text>
+
+      <line class="ln" x1="510" y1="250" x2="374" y2="250" marker-end="url(#m5)"/>
+      <text class="t-e" x="442" y="243" text-anchor="middle">IS 8112 superseded · IS 1786 off-topic</text>
+
+      <line class="ln" x1="370" y1="285" x2="506" y2="285" marker-end="url(#m5)"/>
+      <text class="t-e" x="438" y="278" text-anchor="middle">proceed — full recommendation</text>
+
+      <polyline class="ln" points="510,313 548,313 548,331 514,331" marker-end="url(#m5)"/>
+      <text class="t-e" x="556" y="326">retrieve · allied · version · certify · score</text>
+
+      <line class="ln" x1="510" y1="365" x2="646" y2="365" marker-end="url(#m5)"/>
+      <text class="t-e" x="578" y="358" text-anchor="middle">primary + allied + warnings</text>
+
+      <polyline class="ln" points="650,393 688,393 688,411 654,411" marker-end="url(#m5)"/>
+      <text class="t-e" x="524" y="406" text-anchor="end">D1 guard · build three options</text>
+
+      <line class="ln" x1="650" y1="440" x2="94" y2="440" marker-end="url(#m5)"/>
+      <text class="t-e" x="372" y="433" text-anchor="middle">three options with confidence, then the PDF</text>
+    </svg>
+    <figcaption>Note the double hop through the core: B4 borrows C1 to judge whether a cited standard is even relevant to this product, then hands control back before the full recommendation runs. That reuse is why the citation validator costs a day rather than a week.</figcaption>
+  </figure>
+
+  <figure>
+    <p class="fignum">Figure 6 — sequence: not enough information (S5)</p>
+    <svg viewBox="0 0 760 470" role="img" aria-label="Sequence diagram. A bare product name arrives. The gate asks the scorer for confidence, gets a low score, asks the user two questions, merges the answers, re-checks, and only then allows the core to answer.">
+      <defs><marker id="m6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <rect class="n-box" x="28"  y="22" width="124" height="42"/><text class="t-h" x="90"  y="40" text-anchor="middle">USER</text><text class="t-s" x="90"  y="56" text-anchor="middle">any persona</text>
+      <rect class="n-box" x="168" y="22" width="124" height="42"/><text class="t-h" x="230" y="40" text-anchor="middle">INTAKE</text><text class="t-s" x="230" y="56" text-anchor="middle">B1–B3</text>
+      <rect class="n-acc" x="308" y="22" width="124" height="42"/><text class="t-hacc" x="370" y="40" text-anchor="middle">GATE</text><text class="t-s" x="370" y="56" text-anchor="middle">B5</text>
+      <rect class="n-acc" x="448" y="22" width="124" height="42"/><text class="t-hacc" x="510" y="40" text-anchor="middle">SCORER</text><text class="t-s" x="510" y="56" text-anchor="middle">C5</text>
+      <rect class="n-box" x="588" y="22" width="124" height="42"/><text class="t-h" x="650" y="40" text-anchor="middle">CORE</text><text class="t-s" x="650" y="56" text-anchor="middle">C1–C4</text>
+
+      <line class="ln-life" x1="90"  y1="64" x2="90"  y2="450"/>
+      <line class="ln-life" x1="230" y1="64" x2="230" y2="450"/>
+      <line class="ln-life" x1="370" y1="64" x2="370" y2="450"/>
+      <line class="ln-life" x1="510" y1="64" x2="510" y2="450"/>
+      <line class="ln-life" x1="650" y1="64" x2="650" y2="450"/>
+
+      <line class="ln" x1="90" y1="100" x2="226" y2="100" marker-end="url(#m6)"/>
+      <text class="t-e" x="158" y="93" text-anchor="middle">"steel tubes"</text>
+
+      <line class="ln" x1="230" y1="135" x2="366" y2="135" marker-end="url(#m6)"/>
+      <text class="t-e" x="298" y="128" text-anchor="middle">thin requirement</text>
+
+      <line class="ln" x1="370" y1="170" x2="506" y2="170" marker-end="url(#m6)"/>
+      <text class="t-e" x="438" y="163" text-anchor="middle">how confident?</text>
+
+      <line class="ln" x1="510" y1="205" x2="374" y2="205" marker-end="url(#m6)"/>
+      <text class="t-e" x="442" y="198" text-anchor="middle">0.38 — no grade, no application</text>
+
+      <line class="ln" x1="366" y1="243" x2="94" y2="243" marker-end="url(#m6)"/>
+      <text class="t-e" x="230" y="236" text-anchor="middle">Seamless or welded? Structural or fluid?</text>
+
+      <line class="ln" x1="90" y1="280" x2="366" y2="280" marker-end="url(#m6)"/>
+      <text class="t-e" x="228" y="273" text-anchor="middle">"welded · structural"</text>
+
+      <polyline class="ln" points="370,308 408,308 408,326 374,326" marker-end="url(#m6)"/>
+      <text class="t-e" x="416" y="321">merge answers · re-check required fields</text>
+
+      <line class="ln" x1="370" y1="362" x2="506" y2="362" marker-end="url(#m6)"/>
+      <text class="t-e" x="438" y="355" text-anchor="middle">re-score</text>
+      <line class="ln" x1="510" y1="397" x2="374" y2="397" marker-end="url(#m6)"/>
+      <text class="t-e" x="442" y="390" text-anchor="middle">0.87 — proceed</text>
+
+      <line class="ln" x1="370" y1="435" x2="646" y2="435" marker-end="url(#m6)"/>
+      <text class="t-e" x="508" y="428" text-anchor="middle">answer with confidence</text>
+    </svg>
+    <figcaption>The gate never guesses and never silently proceeds. Two short questions move confidence from 0.38 to 0.87 — which is the entire argument for building B5 rather than returning a weak answer and hoping. Note that the user is a participant in the middle of the flow, not only at the ends.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§8</span><h2>The nineteen modules</h2></div>
+  <p class="lede">Badges: <span class="badge b-core">core</span> the product fails without it · <span class="badge b-sup">supporting</span> needed for a credible solution · <span class="badge b-fut">future</span> defer without guilt. A blue module tag means added from your scenario list.</p>
+
+  <p class="stage">Stage A — build the knowledge base</p>
+  <p class="stage-sub">Runs offline, before any user arrives. Owned by Developer 1. Must start on Day 1 — everything else waits on it.</p>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">A1</span><h4>Standards Data Collector</h4><span class="badge b-core">core</span></div>
+    <p>Gathers the facts about every Indian Standard — number, title, scope, year, current status, amendments — plus the QCO list and the BIS-recognised laboratory list. A data-engineering job, not an AI job, and the single biggest risk in the project: if we cannot get the data, nothing downstream matters.</p>
+    <p class="stack"><b>Stack:</b> Python · httpx · BeautifulSoup or Playwright (the BIS portal is JavaScript-rendered) · pandas · PostgreSQL</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>BIS "Know Your Standards" pages
+SP 21 PDF — 929 pages, 559 standards
+QCO notification PDFs
+BIS recognised-lab list</dd></div>
+      <div><dt>Output — one row per standard</dt><dd>is_number: "IS 269"
+year: 2015
+title: "Ordinary Portland Cement"
+status: "Current"
+supersedes: ["IS 8112", "IS 12269"]
+amendments: ["Amd 1:2017"]
+scope_text: "This standard covers..."</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">A2</span><h4>Document Parser &amp; Clause Splitter</h4><span class="badge b-core">core</span></div>
+    <p>Turns each standard's PDF into clean text, split into numbered clauses rather than arbitrary chunks. Splitting by clause is what later lets us say "this comes from Clause 4.2" instead of waving at a whole document.</p>
+    <p class="stack"><b>Stack:</b> PyMuPDF for digital PDFs · Tesseract or PaddleOCR for scanned older standards · regex for clause headings</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>IS_269_2015.pdf</dd></div>
+      <div><dt>Output</dt><dd>[{"is":"IS 269:2015",
+  "clause":"1","title":"Scope",
+  "text":"This standard covers..."},
+ {"is":"IS 269:2015",
+  "clause":"2","title":"References",
+  "text":"IS 4031, IS 4032..."}]</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">A3</span><h4>Cross-Reference Extractor</h4><span class="badge b-core">core</span></div>
+    <p>Reads Clause 2 — the references clause nearly every Indian Standard carries — pulls out every other IS number mentioned, and labels what <em>kind</em> of relationship it is. This module is the entire answer to the allied-standards requirement, and it is the thing no competing system has. Measure its accuracy explicitly; do not assume it.</p>
+    <p class="stack"><b>Stack:</b> regex <code>IS\s?\d{3,5}</code> for the numbers · one small LLM call to classify relation type · NetworkX or a plain three-column PostgreSQL table</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>Clause 2 text of IS 269:2015</dd></div>
+      <div><dt>Output — typed edges</dt><dd>IS 269:2015 →test_method→ IS 4031
+IS 269:2015 →test_method→ IS 4032
+IS 269:2015 →terminology→ IS 3535
+IS 456:2000 →product→ IS 269
+each edge stores the clause
+it was found in</dd></div>
+    </dl>
+  </div>
+
+  <figure>
+    <p class="fignum">Figure 7 — what A3 actually builds</p>
+    <svg viewBox="0 0 700 340" role="img" aria-label="A standard sits at the centre with a superseded predecessor pointing into it and four typed neighbours radiating out: two test methods, a terminology standard and a related product standard.">
+      <defs><marker id="m7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+
+      <rect class="n-box" x="30" y="140" width="170" height="52"/>
+      <text class="t-s" x="115" y="160" text-anchor="middle">WITHDRAWN</text>
+      <text class="t-h" x="115" y="180" text-anchor="middle">IS 8112:1989</text>
+
+      <line class="ln" x1="200" y1="166" x2="276" y2="166" marker-end="url(#m7)"/>
+      <text class="t-e" x="238" y="158" text-anchor="middle">superseded_by</text>
+
+      <rect class="n-acc" x="280" y="140" width="170" height="52"/>
+      <text class="t-s" x="365" y="160" text-anchor="middle">CURRENT</text>
+      <text class="t-hacc" x="365" y="180" text-anchor="middle">IS 269:2015</text>
+
+      <polyline class="ln" points="450,166 484,166 484,46 520,46" marker-end="url(#m7)"/>
+      <polyline class="ln" points="450,166 484,166 484,112 520,112" marker-end="url(#m7)"/>
+      <polyline class="ln" points="450,166 484,166 484,192 520,192" marker-end="url(#m7)"/>
+      <polyline class="ln" points="450,166 484,166 484,258 520,258" marker-end="url(#m7)"/>
+
+      <rect class="n-box" x="520" y="24" width="150" height="44"/>
+      <text class="t-s" x="595" y="42" text-anchor="middle">TEST METHOD</text>
+      <text class="t-h" x="595" y="59" text-anchor="middle">IS 4031</text>
+
+      <rect class="n-box" x="520" y="90" width="150" height="44"/>
+      <text class="t-s" x="595" y="108" text-anchor="middle">TEST METHOD</text>
+      <text class="t-h" x="595" y="125" text-anchor="middle">IS 4032</text>
+
+      <rect class="n-box" x="520" y="170" width="150" height="44"/>
+      <text class="t-s" x="595" y="188" text-anchor="middle">TERMINOLOGY</text>
+      <text class="t-h" x="595" y="205" text-anchor="middle">IS 3535</text>
+
+      <rect class="n-box" x="520" y="236" width="150" height="44"/>
+      <text class="t-s" x="595" y="254" text-anchor="middle">RELATED PRODUCT</text>
+      <text class="t-h" x="595" y="271" text-anchor="middle">IS 1489</text>
+
+      <text class="t-e" x="365" y="306" text-anchor="middle">C2 walks these edges outward two hops · C3 walks the superseded edge backwards</text>
+    </svg>
+    <figcaption>Three columns in a database table — from, relation, to — plus the clause each edge came from. The relation type is what lets C2 group its answer into test methods, terminology, safety and installation instead of returning an undifferentiated list, and it is what a similarity search can never recover.</figcaption>
+  </figure>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">A4</span><h4>Index Builder</h4><span class="badge b-core">core</span></div>
+    <p>Converts every clause into an embedding and builds the keyword index alongside it. Run once, then only when the corpus changes. Produces files, not a service — which is what makes offline demo mode possible.</p>
+    <p class="stack"><b>Stack:</b> <code>BAAI/bge-m3</code> via sentence-transformers · FAISS · rank_bm25</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>clauses.json from A2</dd></div>
+      <div><dt>Output</dt><dd>faiss.index
+bm25.pkl
+id_map.json  (row → IS + clause)</dd></div>
+    </dl>
+  </div>
+
+  <p class="stage">Stage B — understand the input</p>
+  <p class="stage-sub">Runs live, per request. Owned by Person 1. This stage carries the scenario logic — it decides whether we know enough to proceed at all.</p>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">B1</span><h4>Input Handler</h4><span class="badge b-core">core</span></div>
+    <p>Accepts all four input types from §3 — tender PDF, pasted text, screenshot image, or a bare product name — and reduces every one of them to plain text plus a note of where it came from. The screenshot path makes OCR a core dependency, not an optional extra.</p>
+    <p class="stack"><b>Stack:</b> FastAPI · python-multipart · PyMuPDF · python-docx · <b>Tesseract or PaddleOCR</b> · Pillow</p>
+    <dl class="io">
+      <div><dt>Input — any of four</dt><dd>tender_PWD_2026.pdf  (24 pages)
+spec_screenshot.png
+"43 grade OPC for RCC"
+"steel tubes"</dd></div>
+      <div><dt>Output</dt><dd>{"source":"pdf",
+ "pages":24,
+ "text":"...आपूर्ति 500 मीट्रिक टन...",
+ "spec_section_page":14,
+ "input_richness":"full_tender"}</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">B2</span><h4>Language Handler</h4><span class="badge b-core">core</span></div>
+    <p>Detects the language and translates to English before retrieval, then remembers the original so the conversation and the final document can be returned in it. The embedding model is itself multilingual, so Hindi would partly work without this — translating anyway makes results stable and explanations readable.</p>
+    <p class="stack"><b>Stack:</b> <code>langdetect</code> or fastText · <b>IndicTrans2</b> (AI4Bharat, MIT licence, free, offline, 22 scheduled languages) · <b>Sarvam Mayura</b> API as fallback — see §15</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>"500 मीट्रिक टन 43 ग्रेड साधारण
+ पोर्टलैंड सीमेंट, RCC कार्य हेतु"</dd></div>
+      <div><dt>Output</dt><dd>{"lang":"hi",
+ "text_en":"500 metric tonnes of
+  43 grade ordinary portland
+  cement for RCC work",
+ "reply_language":"hi"}</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">B3</span><h4>Requirement Extractor</h4><span class="badge b-core">core</span></div>
+    <p>Pulls the structured facts out of the text and — just as important — records what the tender <em>failed</em> to specify, plus any standards it already cites. Use an LLM with a fixed JSON schema rather than training a custom NER model: in ten days, prompting beats training, and the schema keeps the output machine-readable.</p>
+    <p class="stack"><b>Stack:</b> regex for units and IS citations · one LLM call with a strict JSON schema · Pydantic for validation</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>English text from B2</dd></div>
+      <div><dt>Output</dt><dd>{"product":"Ordinary Portland Cement",
+ "category":"cement",
+ "grade":"43",
+ "quantity":"500 MT",
+ "application":"RCC structural work",
+ "cited_standards":["IS 8112:1989"],
+ "not_specified":["storage",
+   "testing frequency"]}</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid new">B4</span><h4>Citation Validator</h4><span class="badge b-core">core</span></div>
+    <p class="serves">Serves <b>Scenario S2</b> — the tender already names standards</p>
+    <p>Judges every standard the official already cited on three separate questions: <b>does it exist</b>, <b>is it current</b>, and <b>is it actually relevant to this product</b>. Most officials get their standards from a senior or last year's tender, so their list is usually part right and part wrong — and saying precisely which part is the most persuasive thing this system does.</p>
+    <p class="stack"><b>Stack:</b> catalogue lookup from A1 for existence · reuses C3 for currency · reuses C1 to score the cited standard against the extracted requirement for relevance</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>cited: ["IS 8112:1989",
+        "IS 456:2000",
+        "IS 1786:2008"]
++ requirement object from B3</dd></div>
+      <div><dt>Output — verdict per citation</dt><dd>IS 8112:1989  SUPERSEDED
+  → replace with IS 269:2015
+IS 456:2000   CORRECT — keep
+IS 1786:2008  NOT RELEVANT
+  → steel bars, no steel in scope
+MISSING       IS 4031, IS 4032
+  → test methods required</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid new">B5</span><h4>Sufficiency Gate &amp; Clarifier</h4><span class="badge b-core">core</span></div>
+    <p class="serves">Serves <b>Scenario S5</b>, and rescues S3 and S4</p>
+    <p>Decides whether we know enough to answer confidently. If not, it works out <em>exactly which facts are missing</em> and asks the user for them, one short question at a time, in their own language. Two inputs drive the decision: whether the required fields for this product category are present, and the confidence score from C5.</p>
+    <p>The required-field list is a small hand-written table per category — cement needs grade and application; an LED luminaire needs wattage, IP rating and mounting type. Boring, cheap, and it is what turns "I am not sure" into a specific, answerable question.</p>
+    <p class="stack"><b>Stack:</b> a per-category required-field table (YAML) · threshold rules · one LLM call purely to phrase the question naturally in the user's language</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>requirement object from B3
+confidence from C5 = 0.38
+category = "steel tubes"</dd></div>
+      <div><dt>Output — either proceed or ask</dt><dd>{"status":"need_more_info",
+ "confidence":0.38,
+ "missing":["type","application"],
+ "questions":[
+  "Seamless or welded?",
+  "Structural use, or for
+   conveying fluid?"],
+ "can_proceed_anyway":true}</dd></div>
+    </dl>
+  </div>
+
+  <p class="stage">Stage C — find and check the standards</p>
+  <p class="stage-sub">The heart of the system. C1 owned by Person 2; C2–C5 by Person 3, because they are the differentiator and must not bottleneck on one person.</p>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">C1</span><h4>Hybrid Retrieval Engine</h4><span class="badge b-core">core</span></div>
+    <p>Searches the indexes two ways at once, merges the results, then re-orders the shortlist with a reranker. Use the exact model combination below — it is public prior art with published results on this corpus, so this module should work by Day 4 and then be left alone.</p>
+    <p class="stack"><b>Stack:</b> FAISS + <code>bge-m3</code> for meaning · rank_bm25 for exact terms · Reciprocal Rank Fusion to merge · <code>BAAI/bge-reranker-v2-m3</code> to re-order</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>"43 grade ordinary portland
+ cement for RCC structural work"</dd></div>
+      <div><dt>Output — ranked, with evidence</dt><dd>1. IS 269:2015   0.94
+   matched Clause 1 Scope
+2. IS 456:2000   0.79
+   matched Clause 5.1
+3. IS 383:2016   0.62</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">C2</span><h4>Allied Standards Expander</h4><span class="badge b-core">core</span></div>
+    <p>Takes what C1 found and walks the relationship map from A3 outward, two hops, then groups the result by relationship type. This is a graph traversal, not a search — which is exactly why a vector database alone can never produce it.</p>
+    <p class="stack"><b>Stack:</b> NetworkX, or a recursive SQL query over the A3 table. Neo4j only if edges exceed roughly 100,000 — otherwise it is a second database for no gain</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>["IS 269:2015"], depth = 2</dd></div>
+      <div><dt>Output — grouped by type</dt><dd>test_method:     IS 4031, IS 4032
+terminology:     IS 3535
+related_product: IS 1489, IS 455
+installation:    IS 456
+each edge cites the clause
+that asserts it</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">C3</span><h4>Version &amp; Amendment Resolver</h4><span class="badge b-core">core</span></div>
+    <p>Checks every standard — both the ones we recommend and the ones the tender already cites — against the catalogue, and raises a warning when something is superseded, withdrawn or amended. No machine learning here at all: a database lookup and some date comparisons, which is precisely why it is reliable.</p>
+    <p class="stack"><b>Stack:</b> PostgreSQL queries · Python <code>datetime</code>. Nothing else.</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>cited:      ["IS 8112:1989"]
+recommended:["IS 269:2015"]</dd></div>
+      <div><dt>Output — warnings</dt><dd>{"severity":"high",
+ "cited":"IS 8112:1989",
+ "message":"Superseded — merged
+   into IS 269:2015",
+ "action":"Replace citation"}
+{"severity":"low",
+ "message":"IS 269:2015 carries
+   Amendment 1"}</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">C4</span><h4>Certification &amp; QCO Engine</h4><span class="badge b-core">core</span></div>
+    <p>Answers whether this product legally requires BIS certification before it can be supplied, and under which scheme — then phrases it differently for each stakeholder: an eligibility condition for the procurement official, an obligation and a licence route for the manufacturer. Grounded in the published lists — 187 Quality Control Orders covering 769 products under compulsory certification — loaded as a lookup table, so the answer is a citation rather than a guess.</p>
+    <p class="stack"><b>Stack:</b> PostgreSQL lookup · fuzzy matching on product category · the BIS recognised-laboratory list for the lab suggestion</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>{"product":"Ordinary Portland
+  Cement","category":"cement"}
+persona: "procurement"</dd></div>
+      <div><dt>Output</dt><dd>{"certification_required":true,
+ "scheme":"ISI Mark",
+ "qco_reference":"<em>verify exact QCO
+   before demo</em>",
+ "for_procurement":"Bidders must
+   hold a valid BIS licence",
+ "labs_available":14}</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid new">C5</span><h4>Confidence Scorer</h4><span class="badge b-core">core</span></div>
+    <p class="serves">Drives <b>B5</b>, and every number the user sees</p>
+    <p>Turns raw search scores into an honest confidence figure. This matters more than it sounds: a raw similarity score is <b>not</b> a probability, and showing one to a government user as though it were is dishonest. Combine four cheap signals — the reranker score, the gap between rank 1 and rank 2, whether the required fields were present, and whether the graph agrees with the retrieval — then map to High / Medium / Low bands with thresholds tuned on the gold test set.</p>
+    <p class="stack"><b>Stack:</b> plain Python · thresholds tuned on the 50-pair gold set · scikit-learn isotonic regression only if time allows</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>reranker_score: 0.94
+margin_to_second: 0.15
+required_fields_present: true
+graph_agrees: true</dd></div>
+      <div><dt>Output</dt><dd>{"score":0.91,
+ "band":"high",
+ "drivers":["strong scope match",
+   "grade and application known",
+   "test methods confirm product
+    family"]}</dd></div>
+    </dl>
+  </div>
+
+  <p class="stage">Stage D — deliver the answer</p>
+  <p class="stage-sub">D1–D3 owned by Person 3; D4–D5 by Developer 2.</p>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">D1</span><h4>Validity Guard</h4><span class="badge b-core">core</span></div>
+    <p>The last gate before anything reaches a user or a PDF. Every IS number appearing in any generated sentence is checked against the catalogue from A1; anything that does not exist is deleted, not softened. A fabricated standard number inside a live government tender is the one failure this project cannot survive, so this module is non-negotiable and takes about an afternoon to write.</p>
+    <div class="note">
+      <p><b>D1 only ever inspects generated prose, never the recommendation itself.</b> Trace where the recommended standards come from: C1 returns row numbers that the lookup table converts into real catalogue entries, C2 traverses edges whose endpoints are rows in a database table, and C3 performs catalogue lookups. Every standard in the structured output arrived from a database, so <em>by construction</em> it cannot be invented.</p>
+      <p>The only component in the whole pipeline capable of producing a standard number that does not exist is the single language-model call in D2 that writes the human-readable explanation. That is the sole thing D1 guards. When D1 removes something, no gap appears in the answer — the set of recommended standards was fixed and correct before the model wrote a word, and it is unchanged afterwards.</p>
+      <p>This is also why D1 firing must never trigger a re-run. Re-running C1 through C5 feeds identical input into deterministic modules and returns an identical result, so it costs the full latency budget to arrive back where you started. Frequent D1 rejections are a defect in the generation prompt, which should be given an explicit list of the standard numbers it is permitted to mention. Treat D1 as a seatbelt rather than a routine cleanup stage: one that engages on every journey means something is wrong with the driving.</p>
+      <p>One consequence for implementation. D1 must validate against the <b>full catalogue metadata for all ~22,689 standards</b> collected by A1, not against the smaller set for which we hold full text. A real standard that falls outside our two ingested sectors still exists and must not be deleted as fabricated.</p>
+    </div>
+    <p class="stack"><b>Stack:</b> regex extraction + a Python set lookup. Roughly forty lines of code.</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>"Refer IS 269:2015 and also
+ IS 99999:2021 for testing."</dd></div>
+      <div><dt>Output</dt><dd>text: "Refer IS 269:2015 for testing."
+removed: ["IS 99999:2021"]
+reason: "not in catalogue"</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">D2</span><h4>Recommendation Composer</h4><span class="badge b-core">core</span></div>
+    <p class="serves">Sets the <b>citation depth</b> — not three rival answers</p>
+    <p>Assembles everything upstream into <em>one</em> recommendation with an adjustable breadth. All three depths contain the <b>same primary standard</b>; they differ only in how many allied standards travel with it. This is the "options with confidence scores" requirement, and it is honest — the right amount of citation genuinely depends on the tender's value and risk, and that is the user's call, not ours.</p>
+    <div class="warn">
+      <p><b>Do not confuse this with the top-3 standards.</b> C1 returns a <em>ranked list</em> — the three best-matching standards, most relevant first. D2 produces <em>depth levels</em> — how much to cite. Two different things. If the interface makes them look like three competing guesses, we have destroyed the user's confidence for no reason.</p>
+    </div>
+    <p class="stack"><b>Stack:</b> Jinja2 for the deterministic parts · one constrained LLM call for prose, run <em>before</em> D1 checks it</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>outputs of B3, B4, C1–C5</dd></div>
+      <div><dt>Output — one answer, three depths</dt><dd>primary: IS 269:2015   conf 0.94
+depth A "Minimum"
+  IS 269:2015
+depth B "Recommended" ★ default
+  + IS 4031, IS 4032, IS 3535
+depth C "Comprehensive"
+  + IS 456:2000, IS 1489</dd></div>
+    </dl>
+  </div>
+
+  <figure>
+    <p class="fignum">Figure 8 — one answer, three depths</p>
+    <svg viewBox="0 0 700 292" role="img" aria-label="Three horizontal bars of increasing length. All three begin with the same primary standard segment; each deeper level adds more allied standard segments to the right.">
+      <text class="t-e" x="230" y="70" text-anchor="middle">PRIMARY STANDARD</text>
+      <text class="t-e" x="477" y="70" text-anchor="middle">ALLIED STANDARDS — ADDED AS DEPTH INCREASES</text>
+
+      <text class="t-h" x="165" y="106" text-anchor="end">A · MINIMUM</text>
+      <text class="t-s" x="165" y="122" text-anchor="end">legally required only</text>
+      <rect class="n-acc" x="178" y="86" width="104" height="46"/>
+      <text class="t-hacc" x="230" y="115" text-anchor="middle">IS 269:2015</text>
+
+      <text class="t-h" x="165" y="168" text-anchor="end">B · RECOMMENDED ★</text>
+      <text class="t-s" x="165" y="184" text-anchor="end">the default</text>
+      <rect class="n-acc" x="178" y="148" width="104" height="46"/>
+      <text class="t-hacc" x="230" y="177" text-anchor="middle">IS 269:2015</text>
+      <rect class="n-box" x="282" y="148" width="78" height="46"/><text class="t-h" x="321" y="177" text-anchor="middle">IS 4031</text>
+      <rect class="n-box" x="360" y="148" width="78" height="46"/><text class="t-h" x="399" y="177" text-anchor="middle">IS 4032</text>
+      <rect class="n-box" x="438" y="148" width="78" height="46"/><text class="t-h" x="477" y="177" text-anchor="middle">IS 3535</text>
+
+      <text class="t-h" x="165" y="230" text-anchor="end">C · COMPREHENSIVE</text>
+      <text class="t-s" x="165" y="246" text-anchor="end">high-value tenders</text>
+      <rect class="n-acc" x="178" y="210" width="104" height="46"/>
+      <text class="t-hacc" x="230" y="239" text-anchor="middle">IS 269:2015</text>
+      <rect class="n-box" x="282" y="210" width="78" height="46"/><text class="t-h" x="321" y="239" text-anchor="middle">IS 4031</text>
+      <rect class="n-box" x="360" y="210" width="78" height="46"/><text class="t-h" x="399" y="239" text-anchor="middle">IS 4032</text>
+      <rect class="n-box" x="438" y="210" width="78" height="46"/><text class="t-h" x="477" y="239" text-anchor="middle">IS 3535</text>
+      <rect class="n-box" x="516" y="210" width="78" height="46"/><text class="t-h" x="555" y="239" text-anchor="middle">IS 456</text>
+      <rect class="n-box" x="594" y="210" width="78" height="46"/><text class="t-h" x="633" y="239" text-anchor="middle">IS 1489</text>
+
+      <text class="t-e" x="350" y="282" text-anchor="middle">same answer · same evidence · same single pass through the pipeline</text>
+    </svg>
+    <figcaption>The system never hedges about which standard applies. Every depth level names IS 269:2015 as the primary, with identical confidence and identical evidence. The slider only decides how many test-method, terminology and related-product standards get cited alongside it — which is a policy question about the tender, not a question the retrieval engine is uncertain about.</figcaption>
+  </figure>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid new">D3</span><h4>Document Generator</h4><span class="badge b-core">core</span></div>
+    <p class="serves">Serves <b>output modes O1 and O2</b> — the main deliverable</p>
+    <p>Produces the PDF. <b>Mode 1</b> completes the user's own tender: generate an "Annexure — Applicable Indian Standards" and append it to their original document, with in-place insertion at a located anchor as a later enhancement. <b>Mode 2</b> generates a standalone recommendation report. Both carry confidence bands, evidence citations and version warnings, and both are produced in the user's language.</p>
+    <p class="stack"><b>Stack:</b> HTML template → WeasyPrint (easiest path to a well-typeset PDF) · PyMuPDF to append to or annotate the uploaded original · ReportLab only if precise layout control is needed</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>selected option = "B"
+original_tender.pdf
+persona = "procurement"
+language = "hi"</dd></div>
+      <div><dt>Output</dt><dd>completed_tender.pdf
+  = original 24 pages
+  + Annexure A: standards table
+  + inserted clause, highlighted
+  + confidence + evidence column
+  + ⚠ IS 8112:1989 superseded</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">D4</span><h4>API Layer</h4><span class="badge b-core">core</span></div>
+    <p>Portal integration. One documented endpoint that does the whole job. Build this <em>before</em> the website, so the website becomes just another client and integration with GeM or CPPP needs no rewrite. A ten-line demo showing an external page calling this endpoint is worth more to a judge than any slide about integration.</p>
+    <p class="stack"><b>Stack:</b> FastAPI · auto-generated OpenAPI spec · API-key auth · Docker for delivery</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>POST /v1/analyze
+{"text":"...", "lang":"auto",
+ "persona":"procurement",
+ "output_mode":"annexure"}
+or multipart file upload</dd></div>
+      <div><dt>Output</dt><dd>200 OK
+{"status":"complete" |
+   "need_more_info",
+ "questions":[...],
+ "options":[A,B,C],
+ "warnings":[...],
+ "certification":{...},
+ "evidence":[...],
+ "pdf_url":"..."}</dd></div>
+    </dl>
+  </div>
+
+  <div class="mod">
+    <div class="mod-head"><span class="mid">D5</span><h4>Web Interface</h4><span class="badge b-core">core</span></div>
+    <p>Two front doors — "I am drafting a tender" and "I am manufacturing a product" — leading into a chat-shaped intake where the user drops a file, screenshot or sentence. The system asks its clarifying questions there, then switches to a findings panel: detected requirements, recommended standards with confidence bands and evidence, allied standards grouped by type, version warnings, certification status, and a prominent <b>Download PDF</b>.</p>
+    <p>Reference the BIS-COMPASS walkthrough for visual quality — confidence bands, clean panels, restrained motion. Match that polish, then beat it on the two things it does not do: conversational intake and a document as the output.</p>
+    <p class="stack"><b>Stack:</b> Next.js + React · Tailwind · Framer Motion for restrained transitions · file and image drop · a simple force-directed view for the allied-standards graph</p>
+    <dl class="io">
+      <div><dt>Input</dt><dd>user picks persona
+drops tender.pdf
+answers 2 questions in chat
+picks option B</dd></div>
+      <div><dt>Output</dt><dd>Findings screen +
+completed_tender.pdf download
+Total interaction: under
+90 seconds</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§9</span><h2>The JSON contracts</h2></div>
+  <p class="lede">Agree these on Day 1 and commit them with fake fixture data. This one file is what lets five people build nineteen modules without waiting for each other.</p>
+
+  <h3>RequirementObject — B3 output, consumed by B4, B5, C1, C4</h3>
+<pre>{
+  "<b>product</b>":          "Ordinary Portland Cement",
+  "<b>category</b>":         "cement",              // matches the required-field table
+  "<b>attributes</b>": {
+      "grade":          "43",
+      "quantity":       "500 MT",
+      "application":    "RCC structural work"
+  },
+  "<b>cited_standards</b>":  ["IS 8112:1989"],      // empty array for scenario S1
+  "<b>not_specified</b>":    ["storage", "testing_frequency"],
+  "<b>language</b>":         "hi",
+  "<b>source</b>":           "pdf",                 // pdf | text | image | product_name
+  "<b>richness</b>":         "full_tender"          // full_tender | spec_only | name_only
+}</pre>
+
+  <h3>CitationVerdict — B4 output, one per cited standard</h3>
+<pre>{
+  "<b>citation</b>":  "IS 8112:1989",
+  "<b>exists</b>":    true,
+  "<b>status</b>":    "superseded",   // current | superseded | withdrawn | not_found
+  "<b>relevant</b>":  true,
+  "<b>verdict</b>":   "replace",      // keep | replace | remove | add
+  "<b>replacement</b>": "IS 269:2015",
+  "<b>reason</b>":    "Merged into IS 269:2015",
+  "<b>severity</b>":  "high"          // high | medium | low
+}</pre>
+
+  <h3>SufficiencyResult — B5 output, read by D4 to decide what to show</h3>
+<pre>{
+  "<b>status</b>":       "need_more_info",   // ok | need_more_info
+  "<b>confidence</b>":   0.38,
+  "<b>missing</b>":      ["type", "application"],
+  "<b>questions</b>": [
+      { "field": "type",        "ask": "Seamless or welded?" },
+      { "field": "application", "ask": "Structural use, or for conveying fluid?" }
+  ],
+  "<b>can_proceed_anyway</b>": true       // user may override and accept a weak answer
+}</pre>
+
+  <h3>AnalyzeResponse — D4 output, the only contract the frontend and GeM ever see</h3>
+<pre>{
+  "<b>status</b>": "complete",             // complete | need_more_info
+  "<b>questions</b>": [],                  // populated only when status is need_more_info
+  "<b>options</b>": [
+    { "id": "A", "label": "Mandatory only",  "confidence": 0.94, "band": "high",
+      "standards": ["IS 269:2015"] },
+    { "id": "B", "label": "Recommended",     "confidence": 0.88, "band": "high",
+      "default": true,
+      "standards": ["IS 269:2015","IS 4031","IS 4032","IS 3535"] },
+    { "id": "C", "label": "Comprehensive",   "confidence": 0.71, "band": "medium",
+      "standards": ["IS 269:2015","IS 4031","IS 4032","IS 3535","IS 456:2000"] }
+  ],
+  "<b>allied</b>": {
+      "test_method":     ["IS 4031","IS 4032"],
+      "terminology":     ["IS 3535"],
+      "related_product": ["IS 1489"]
+  },
+  "<b>warnings</b>":      [ /* CitationVerdict + version warnings */ ],
+  "<b>certification</b>": { "required": true, "scheme": "ISI Mark", "labs_available": 14 },
+  "<b>evidence</b>": [
+      { "standard": "IS 269:2015", "clause": "1", "quote": "This standard covers…" }
+  ],
+  "<b>pdf_url</b>": "/v1/document/8f3a21.pdf"
+}</pre>
+  <div class="note">
+    <p><b>Every module's real output must validate against these shapes from Day 1</b>, even while the values are fake. Use Pydantic models as the single source of truth and generate the fixtures from them — that way a contract change breaks the build instead of breaking the demo.</p>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§10</span><h2>How we know it works</h2></div>
+  <p class="lede">Write the gold test set before the retrieval code. Fifty hand-written pairs of <em>plain product description → the standard that is actually correct</em>. Without it, every argument about whether a change helped becomes opinion.</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>What we measure</th><th>Target</th><th>How</th><th>Owner</th></tr></thead>
+    <tbody>
+      <tr><td class="nw">Hit@3 — correct standard in top 3</td><td>&gt; 85%</td><td>Gold set of 50 pairs</td><td>Person 2</td></tr>
+      <tr><td class="nw">MRR@5</td><td>&gt; 0.75</td><td>Gold set</td><td>Person 2</td></tr>
+      <tr><td class="nw">Allied recall — 1 hop</td><td>&gt; 80%</td><td>Compare C2 output against Clause 2 read by hand for 20 standards</td><td>Person 3</td></tr>
+      <tr><td class="nw">Cross-reference extraction F1</td><td>&gt; 0.85</td><td>Hand-label Clause 2 of 20 standards, compare against A3</td><td>Developer 1</td></tr>
+      <tr><td class="nw bad">Invented IS numbers</td><td>exactly 0</td><td>D1 rejection log must never be bypassed. A single escape is a release blocker</td><td>Person 3</td></tr>
+      <tr><td class="nw bad">Superseded standard recommended</td><td>exactly 0</td><td>C3 runs on every response, including B4 verdicts</td><td>Person 3</td></tr>
+      <tr><td class="nw">Confidence calibration</td><td>High band ≥ 90% correct</td><td>Bucket gold-set results by band and check the hit rate matches the label</td><td>Person 2</td></tr>
+      <tr><td class="nw">End-to-end latency, p95</td><td>&lt; 5 s text · &lt; 30 s PDF</td><td>Measured on demo hardware, not a developer laptop</td><td>Developer 2</td></tr>
+      <tr><td class="nw">Hindi vs English parity</td><td>within 5 points of Hit@3</td><td>Translate 20 gold queries and re-run</td><td>Person 1</td></tr>
+      <tr><td class="nw">All five scenarios pass</td><td>5 / 5</td><td>One scripted walkthrough per scenario, rehearsed on Day 9</td><td>Everyone</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="warn">
+    <p>The two rows marked in red are <b>release blockers, not targets</b>. Everything else can miss and we still have a product; those two failing means the system lies to a government officer inside a legal document.</p>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§11</span><h2>Final scope</h2></div>
+  <p class="lede">Freeze this on Day 3. Anything not listed under "building" is not being built, however good the idea looks on Day 6.</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Decision</th><th>What</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td class="ok nw">Building</td><td>All nineteen modules · all five input scenarios · both output modes · <b>two sectors only</b>: cement &amp; construction materials, plus one electrical category</td><td>Two sectors done properly beats eight done shallowly. SP 21 gives us the construction corpus immediately, removing the data risk from Day 1</td></tr>
+      <tr><td class="ok nw">Building</td><td>Full catalogue <b>metadata</b> for all ~22,689 standards</td><td>Cheap, and it makes C3 and D1 work across everything even where we lack full text</td></tr>
+      <tr><td class="ok nw">Building</td><td>Procurement persona complete; manufacturer persona as a second template</td><td>Same engine, different wording. Roughly one extra day once the first is done</td></tr>
+      <tr><td class="later nw">Phase 2</td><td>True in-place PDF editing beyond the annexure · remaining sectors · OCR for scanned <em>standards</em> · saved history and accounts</td><td>Each is additive. None changes the architecture</td></tr>
+      <tr><td class="later nw">Not building</td><td>Restrictive-specification detection · reverse-reference impact analysis · live tender-portal scraping · fine-tuning any model</td><td>Good ideas that do not survive a ten-day budget. Keep them as roadmap slides, not promises</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§12</span><h2>Who builds what</h2></div>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Person</th><th>Modules</th><th>First task, Day 1</th></tr></thead>
+    <tbody>
+      <tr><td>Developer 1</td><td class="mods">A1 A2 A3 A4</td><td>Get SP 21 parsed and one standard's Clause 2 extracted. Everything waits on this</td></tr>
+      <tr><td>Person 1 · ML</td><td class="mods">B1 B2 B3</td><td>Stand up the extraction JSON schema and test it on five real tender PDFs, one of them a screenshot</td></tr>
+      <tr><td>Person 2 · ML</td><td class="mods">C1 + eval harness</td><td>Build the gold test set: 50 hand-written <em>description → correct IS</em> pairs. Before any retrieval code</td></tr>
+      <tr><td>Person 3 · AI/RAG</td><td class="mods">B4 B5 C2 C3 C4 C5 D1 D2 D3</td><td>Design the warning, confidence and option JSON shapes so D5 can be built against them immediately</td></tr>
+      <tr><td>Developer 2</td><td class="mods">D4 D5</td><td>Ship <code>POST /v1/analyze</code> returning hard-coded fake JSON, so the website can start on Day 1</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="note">
+    <p><b>Person 3 is overloaded.</b> Nine modules is too many for one person — but most are small and rule-based. Move C2 to Developer 1 (it is a graph query over their own table) and D3 to Developer 2 (it is document rendering) as soon as Stage A is stable, around Day 5.</p>
+  </div>
+  <h3>Ten days</h3>
+  <ul>
+    <li><b>Days 1–2</b> — agree all JSON contracts · A1/A2 running · gold test set started · fake API live · website shell with both personas</li>
+    <li><b>Day 3</b> — <b>scope freeze</b> · A3 producing real edges · B3 extracting real requirements · chat intake accepting files</li>
+    <li><b>Days 4–5</b> — A4 indexes built · C1 working and measured · B4 validating citations · website on real data · <b>rebalance Person 3's load</b></li>
+    <li><b>Days 6–7</b> — C2–C5 real · B5 asking real questions · D1 guard in place · D2 producing three options</li>
+    <li><b>Day 8</b> — D3 generating both PDF modes · manufacturer template · multilingual path tested end to end · first full dry run</li>
+    <li><b>Day 9</b> — hardening · offline package · measure and write down the real numbers · all five scenarios rehearsed</li>
+    <li><b>Day 10</b> — demo script, three rehearsals, backup recording. No new code.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§13</span><h2>What could go wrong</h2></div>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Risk</th><th>Impact</th><th>What we do about it</th></tr></thead>
+    <tbody>
+      <tr><td>BIS data cannot be collected at volume</td><td class="bad">Fatal</td><td>Day-1 spike before anything else. Fallback: SP 21 alone gives 559 standards in one PDF — enough for a complete two-sector demo</td></tr>
+      <tr><td>Clause 2 extraction is noisy</td><td class="bad">High</td><td>Clause 2 has rigid formatting, so regex catches most of it; use an LLM only to classify relation type, and measure F1 on 20 hand-labelled standards</td></tr>
+      <tr><td>A fabricated IS number reaches a user</td><td class="bad">Fatal to trust</td><td>D1 is mandatory and unbypassable. Write it on Day 2, not Day 8</td></tr>
+      <tr><td>In-place PDF editing breaks on real tenders</td><td>Medium</td><td>Annexure path is the default; in-place insertion is opt-in and can be dropped without losing the feature</td></tr>
+      <tr><td>OCR quality on phone screenshots</td><td>Medium</td><td>Show the extracted text back to the user in the chat before proceeding — a cheap correction loop that also looks good in the demo</td></tr>
+      <tr><td>Person 3 becomes the bottleneck</td><td>High</td><td>Planned rebalance on Day 5, written into the schedule above</td></tr>
+      <tr><td>Venue wifi fails during the demo</td><td>High</td><td>Everything except the optional LLM phrasing runs offline. Package by Day 9 and record a backup video</td></tr>
+      <tr><td>Scope creep after Day 3</td><td>High</td><td>§11 is a written freeze. The "not building" row is binding, not advisory</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§14</span><h2>Repository layout</h2></div>
+<pre>standards360/
+├── <b>docs/</b>                    SE lifecycle artifacts, numbered by phase
+├── <b>contracts/</b>               §9 Pydantic models + fake fixtures  ← Day 1
+├── <b>ingest/</b>                  Stage A — runs offline
+│   ├── collect.py               A1
+│   ├── parse_clauses.py         A2
+│   ├── extract_refs.py          A3
+│   └── build_index.py           A4
+├── <b>app/</b>
+│   ├── understand/              Stage B — B1…B5
+│   ├── core/                    Stage C — C1…C5
+│   ├── deliver/                 Stage D — D1…D3
+│   └── api/                     D4 — FastAPI routes
+├── <b>web/</b>                     D5 — Next.js, two personas
+├── <b>data/</b>
+│   ├── catalogue.db             A1 output
+│   ├── edges.csv                A3 output — from, relation, to, clause
+│   ├── faiss.index              A4 output
+│   └── required_fields.yaml     B5 per-category checklist
+├── <b>eval/</b>
+│   ├── gold_set.json            50 pairs — written before C1
+│   └── run_eval.py              §10 metrics
+└── <b>demo/</b>                    scripted walkthrough per scenario</pre>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§15</span><h2>Language and the conversational layer</h2></div>
+  <h3>Translation — module B2, required</h3>
+  <p>Use <b>IndicTrans2</b> from AI4Bharat. MIT-licensed and free, covers all 22 scheduled Indian languages, and the distilled 200M variant runs on a laptop CPU. Critically it runs <em>offline</em>, which matters twice over: venue wifi fails, and tender documents may be pre-tender confidential, so sending them to a hosted API is a real objection from a government customer. Self-hosting turns that objection into a selling point.</p>
+  <p>Keep <b>Sarvam's Mayura</b> translation API configured as a one-line fallback — same 22 languages, roughly ₹20 per 10,000 characters with free starting credits. Trivial money at demo volume, and useful if IndicTrans2 struggles on a specific language on the day.</p>
+
+  <h3>The conversation — modules B5 and D5</h3>
+  <p>Do <b>not</b> train or fine-tune anything. There is no time, no data and no benefit. The language model's only jobs are to phrase B5's clarifying questions naturally and to phrase D2's explanation — every fact it speaks was retrieved by your own pipeline, and everything it writes passes through D1 before anyone sees it.</p>
+  <p>Sarvam is the natural choice for that phrasing layer given the Indian-language requirement: chat-completion pricing in the tens of rupees per million tokens, and they open-sourced Sarvam-30B and Sarvam-105B in March 2026, so there is a self-hosting path if a judge asks about data sovereignty. "Hosted for the demo, open weights available for deployment" is a strong answer.</p>
+  <div class="warn">
+    <p>Whatever model phrases the reply, the output still passes through <b>D1</b>. A conversational layer that invents an IS number is worse than no conversational layer at all.</p>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§16</span><h2>Do these three things first</h2></div>
+  <ol>
+    <li><b>Prove the data.</b> Before any model code, get one Indian Standard end to end: PDF in, clauses out, Clause 2 references extracted, one row in the database. If this is hard, the project shape changes and we need to know on Day 1, not Day 6.</li>
+    <li><b>Write the gold test set.</b> Fifty pairs of <em>plain product description → the standard that is actually correct</em>, written by hand. Without it nobody can tell whether a change improved anything.</li>
+    <li><b>Freeze the JSON contracts.</b> §9, committed with fake fixture data. This is what lets five people build nineteen modules at once.</li>
+  </ol>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§17</span><h2>Appendix A — how Stage C actually produces a recommendation</h2></div>
+  <p class="lede">This is the engine room. Everything above describes <em>what</em> the C modules do; this section describes <em>how</em>, in enough detail that Person 2 and Person 3 can start writing code without asking further questions.</p>
+
+  <h3>A.0 — What runs when</h3>
+  <p>Stage C is not a single straight line. Two of its five modules can start immediately, before retrieval has finished, which is most of how we stay inside the latency budget.</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Step</th><th>Waits for</th><th>Can run in parallel with</th><th>Typical cost</th></tr></thead>
+    <tbody>
+      <tr><td class="nw">C1 Retrieval</td><td>B3 requirement object</td><td>C4</td><td>400–900 ms</td></tr>
+      <tr><td class="nw">C4 Certification</td><td><b>only the product category</b> from B3</td><td>C1 — start it at the same instant</td><td>&lt; 20 ms</td></tr>
+      <tr><td class="nw">C2 Allied expansion</td><td>C1 seeds</td><td>C3</td><td>20–80 ms</td></tr>
+      <tr><td class="nw">C3 Version resolution</td><td>C1 results + B3 citations</td><td>C2</td><td>&lt; 30 ms</td></tr>
+      <tr><td class="nw">C5 Confidence</td><td>C1 + C2 + B3</td><td>—</td><td>&lt; 5 ms</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="note">
+    <p><b>C4 does not need the retrieval result.</b> Whether cement is under a Quality Control Order depends on the product category, which B3 already knows. Fire C4 and C1 together and the certification panel is ready before the standards are. This one scheduling decision is worth several hundred milliseconds for free.</p>
+  </div>
+
+  <h3>A.1 — C1 Hybrid Retrieval, in six sub-steps</h3>
+
+  <div class="sub">
+    <h5>C1.1 · Build the search query from the requirement object</h5>
+    <p>Do not pass the user's raw text to the search engine. Build a clean query string from the structured fields B3 produced, in a fixed order: product, then grade or rating, then application. Ordering matters because BM25 is position-insensitive but the reranker is not.</p>
+    <p class="stack">RequirementObject → <code>"Ordinary Portland Cement 43 grade RCC structural work"</code></p>
+    <p class="gotcha"><b>Gotcha:</b> exclude quantity and delivery terms. "500 MT" and "delivery within 90 days" carry no signal about which standard applies, and they actively pull BM25 toward irrelevant clauses that happen to mention tonnage.</p>
+  </div>
+
+  <div class="sub">
+    <h5>C1.2 · Dense search — retrieve by meaning</h5>
+    <p>Embed the query with <code>bge-m3</code> and search FAISS for the 25 nearest <b>clauses</b>. Note that we search clauses, not standards — a standard's scope clause is what actually describes what it covers, and burying it inside a whole-document embedding dilutes it.</p>
+    <p class="stack">query vector (1024-dim) → FAISS → top-25 clause ids + cosine distances</p>
+  </div>
+
+  <div class="sub">
+    <h5>C1.3 · Sparse search — retrieve by exact words</h5>
+    <p>Run the same query through BM25 over the same clause collection for a separate top-25. This is what catches exact tokens the embedding smooths away: an IS number the user mentioned, "IP66", "43 grade", a rare material name.</p>
+    <p class="gotcha"><b>Gotcha:</b> run C1.2 and C1.3 concurrently, not one after the other. They are independent and each takes a few milliseconds; running them in sequence doubles the cheapest part of the pipeline for no reason.</p>
+  </div>
+
+  <div class="sub">
+    <h5>C1.4 · Merge the two lists with Reciprocal Rank Fusion</h5>
+    <p>RRF ignores the scores entirely and uses only the <em>positions</em>, which is exactly what we want because a cosine distance and a BM25 score are not comparable numbers. For every clause appearing in either list:</p>
+<pre>rrf_score(clause) = 1/(60 + rank_dense) + 1/(60 + rank_sparse)
+
+a clause missing from one list simply contributes 0 from that side</pre>
+    <p>The constant 60 is the standard value from the literature. It is not a tuning knob — leave it alone. Keep the top 25 of the fused list.</p>
+  </div>
+
+  <div class="sub">
+    <h5>C1.5 · Rerank the shortlist with a cross-encoder</h5>
+    <p>Feed each of the 25 surviving clauses to <code>bge-reranker-v2-m3</code> <em>together with</em> the query. Unlike an embedding, which compresses the query and the clause separately and then compares, a cross-encoder reads both at once and can notice that "43 grade" in the query matches a grade table in the clause. In the published prior-art ablation this single step was the largest accuracy gain in the whole pipeline.</p>
+    <p class="gotcha"><b>Gotcha:</b> this is the slowest step by an order of magnitude. Never rerank more than about 25 candidates, and cap the pool lower on CPU-only machines. Latency scales linearly with pool size.</p>
+  </div>
+
+  <div class="sub">
+    <h5>C1.6 · Roll clauses up into standards</h5>
+    <p>The user asked for standards, but everything so far has been clauses. Group the reranked clauses by their parent standard and take the <b>maximum</b> clause score as the standard's score — not the mean, because a standard with one perfectly matching scope clause and forty irrelevant test-procedure clauses is still the right answer.</p>
+    <p>Keep the winning clause with each standard. That clause is the evidence shown to the user and quoted in the PDF, and it is what makes "why this standard?" answerable.</p>
+<pre>IS 269:2015   0.94   ← Clause 1, Scope
+IS 456:2000   0.79   ← Clause 5.1
+IS 383:2016   0.62   ← Clause 2</pre>
+  </div>
+
+  <h3>A.2 — C2 Allied Expansion, in six sub-steps</h3>
+
+  <div class="sub">
+    <h5>C2.1 · Choose the seeds</h5>
+    <p>Expand only from standards C1 scored above a confidence floor — start at 0.80. Expanding from a weak match multiplies the error: a wrong seed produces four wrong allied standards, and the user sees five mistakes instead of one.</p>
+    <p class="stack">seeds = [IS 269:2015]  ·  IS 456 at 0.79 and IS 383 at 0.62 do not qualify</p>
+  </div>
+
+  <div class="sub">
+    <h5>C2.2 · Hop one — direct references</h5>
+    <p>Query the edge table A3 built for every edge whose source is a seed. Each edge carries its relation type and the clause it was extracted from.</p>
+<pre>SELECT to_is, relation, source_clause
+FROM edges WHERE from_is = 'IS 269:2015'</pre>
+  </div>
+
+  <div class="sub">
+    <h5>C2.3 · Hop two — references of references, with decay</h5>
+    <p>Repeat from each hop-one result, multiplying the inherited weight by a decay factor of about 0.5. A test method's own terminology standard is genuinely relevant, but less so than the test method itself, and the score must say so.</p>
+    <p class="gotcha"><b>Gotcha:</b> stop at two hops. Standards reference each other densely, and hop three routinely pulls in a hundred standards with no real connection to the product. Depth is a hard cap, not a parameter to experiment with during the demo.</p>
+  </div>
+
+  <div class="sub">
+    <h5>C2.4 · Weight by relation type</h5>
+    <p>Not all edges deserve equal prominence. Weight them so the ordering inside each group is sensible, and so the citation-depth levels in D2 have a principled cut-off.</p>
+<pre>normative_reference  1.00     safety            0.85
+test_method          0.95     installation      0.70
+terminology          0.80     related_product   0.60</pre>
+  </div>
+
+  <div class="sub">
+    <h5>C2.5 · Deduplicate and keep the best path</h5>
+    <p>The same standard will frequently be reachable by several routes — IS 3535 is a terminology standard for both IS 269 and IS 4031. Keep one entry, retain the <b>highest</b> weight, and remember every path so the interface can show all the reasons it was included.</p>
+  </div>
+
+  <div class="sub">
+    <h5>C2.6 · Guard against cycles, then group</h5>
+    <p>Standards cite each other in both directions, so an unguarded traversal loops forever. Maintain a visited set. Then group the survivors by relation type, which is the shape C2 hands to D2 and the shape the user finally reads.</p>
+<pre>test_method:     IS 4031 (0.95) · IS 4032 (0.95)
+terminology:     IS 3535 (0.80)
+related_product: IS 1489 (0.60)</pre>
+  </div>
+
+  <h3>A.3 — C3 Version Resolution, in five sub-steps</h3>
+
+  <div class="sub">
+    <h5>C3.1 · Normalise the identifier first</h5>
+    <p>Every downstream comparison depends on this and it is the most commonly skipped step. The same standard appears in tenders as <code>IS 269</code>, <code>IS 269:2015</code>, <code>IS-269</code>, <code>IS 269 : 2015</code>, <code>I.S. 269</code>. Canonicalise all of them to a family number and an optional year before touching the database.</p>
+<pre>"IS 269 : 2015"  →  { family: "IS 269", year: 2015 }
+"IS-8112"        →  { family: "IS 8112", year: null }</pre>
+    <p class="gotcha"><b>Gotcha:</b> a missing year means "whatever version is current", not "the oldest one". Treat a bare family number as a request for the current version rather than as an error.</p>
+  </div>
+
+  <div class="sub">
+    <h5>C3.2 · Resolve each family to its current version</h5>
+    <p>A single catalogue lookup on the family number returns the current year and status. If the requested year differs from the current year, that is a version-drift warning — medium severity, because the standard still exists and the officer may have cited the old one deliberately.</p>
+  </div>
+
+  <div class="sub">
+    <h5>C3.3 · Follow the supersession chain to its end</h5>
+    <p>Supersession is not always one step. A withdrawn standard may point to another standard that was itself later merged elsewhere, so follow the chain until you reach something marked current — with a hop limit to survive bad data.</p>
+<pre>IS 8112 → superseded_by → IS 269:2015 → current · stop</pre>
+    <p>This is high severity: the cited standard no longer exists as a separate document, so leaving it in the tender is a genuine defect.</p>
+  </div>
+
+  <div class="sub">
+    <h5>C3.4 · Attach amendments</h5>
+    <p>An amendment is a separate document that modifies a standard without replacing it, so a tender citing the base standard alone is incomplete. Attach every amendment to the resolved version and report it as low severity — informational rather than wrong.</p>
+  </div>
+
+  <div class="sub">
+    <h5>C3.5 · Emit typed warnings</h5>
+    <p>C3 runs over <em>both</em> the standards we are recommending and the standards the tender already cites, which is why B4 can borrow it wholesale rather than reimplementing version logic.</p>
+<pre>high    IS 8112:1989 superseded → replace with IS 269:2015
+medium  cited IS 456:2000 · current is a later revision
+low     IS 269:2015 carries Amendment 1</pre>
+  </div>
+
+  <h3>A.4 — C4 Certification, in six sub-steps</h3>
+
+  <div class="sub">
+    <h5>C4.1 · Resolve the product to a BIS category</h5>
+    <p>QCO lists are organised by product category, not by free text. Match B3's product string to a category with exact matching first, then fuzzy matching, and abstain if the best match is weak — a wrong certification claim is worse than none.</p>
+  </div>
+  <div class="sub">
+    <h5>C4.2 · Look up the Quality Control Order</h5>
+    <p>A straight table lookup against the published lists — 187 QCOs covering 769 products. If there is no row, the honest answer is "no compulsory certification found for this category", not silence.</p>
+  </div>
+  <div class="sub">
+    <h5>C4.3 · Determine the scheme</h5>
+    <p>The obligation differs by scheme: ISI mark under BIS product certification, CRS registration for specified electronics, Hallmarking for precious metals. The scheme decides the wording of everything downstream.</p>
+  </div>
+  <div class="sub">
+    <h5>C4.4 · Check the enforcement date</h5>
+    <p>A QCO notified today may only come into force months later. Compare the enforcement date against the tender's delivery timeline where one was extracted, and against today's date otherwise, so the answer is "mandatory for this award" rather than a vague "mandatory".</p>
+  </div>
+  <div class="sub">
+    <h5>C4.5 · Find the testing laboratories</h5>
+    <p>Join the BIS recognised-laboratory list on the standards being recommended, and return the count plus the nearest few. Cheap, concrete, and it is the part manufacturers care about most.</p>
+  </div>
+  <div class="sub">
+    <h5>C4.6 · Phrase it for the persona</h5>
+    <p>Identical facts, two sentences. For the procurement official: <em>"bidders must hold a valid BIS licence — state this as an eligibility condition."</em> For the manufacturer: <em>"you must obtain a BIS licence under this scheme before you can sell; 14 recognised labs can perform the testing."</em></p>
+  </div>
+
+  <h3>A.5 — C5 Confidence, and the actual arithmetic</h3>
+  <p>Four signals, combined linearly, then banded. Deliberately simple: a formula the team can explain to a judge in one sentence is worth more than a model nobody can defend.</p>
+<pre><b>s1</b>  reranker score of the top standard                    0…1
+<b>s2</b>  margin over the runner-up, as min(margin / 0.30, 1)   0…1
+<b>s3</b>  required fields present / required fields total       0…1
+<b>s4</b>  graph agreement — does C2's expansion of the winner
+    contain other standards C1 also ranked highly?        0 or 1
+
+confidence = 0.45·s1 + 0.20·s2 + 0.25·s3 + 0.10·s4
+
+band:  high ≥ 0.75   ·   medium 0.50–0.75   ·   low &lt; 0.50
+B5 asks a question when confidence &lt; 0.60 OR any required field is missing</pre>
+  <p><b>s2 is the signal most teams omit and it is the most informative one.</b> A top score of 0.94 means very little on its own; 0.94 when the runner-up scored 0.93 means the system is effectively guessing between two standards, while 0.94 against 0.62 is a decisive result. The margin is what separates those two situations, and nothing else in the pipeline can see the difference.</p>
+  <p class="gotcha"><b>The weights above are starting points, not truths.</b> Tune them on the fifty-pair gold set and record the numbers you settled on. Anyone who asks where 0.45 came from deserves a real answer.</p>
+
+  <h3>A.6 — The whole thing, with real numbers</h3>
+  <p>Input: <em>"500 MT of 43 grade Ordinary Portland Cement for RCC structural work, as per IS 8112:1989"</em></p>
+<pre><b>C1.1</b>  query  = "Ordinary Portland Cement 43 grade RCC structural work"
+<b>C1.2</b>  dense  → 25 clauses          <b>C1.3</b>  bm25 → 25 clauses   (concurrent)
+<b>C1.4</b>  RRF    → 31 unique clauses, keep top 25
+<b>C1.5</b>  rerank → cross-encoder scores each of the 25
+<b>C1.6</b>  roll up to standards, keeping the best clause as evidence
+          IS 269:2015  0.94   Clause 1 Scope
+          IS 456:2000  0.79   Clause 5.1
+          IS 383:2016  0.62   Clause 2
+
+<b>C4</b>    (ran in parallel from the category "cement", finished long ago)
+          QCO found · scheme ISI Mark · 14 recognised labs
+
+<b>C2.1</b>  seeds  = [IS 269:2015]        only one clears the 0.80 floor
+<b>C2.2</b>  hop 1  → IS 4031 test_method · IS 4032 test_method · IS 3535 terminology
+<b>C2.3</b>  hop 2  → IS 4305 terminology, weight decayed to 0.40
+<b>C2.6</b>  grouped and deduplicated
+
+<b>C3.1</b>  normalise "IS 8112:1989" → { family: IS 8112, year: 1989 }
+<b>C3.3</b>  chain  → IS 8112 superseded_by IS 269:2015 · current · stop
+<b>C3.5</b>  warning, high severity: replace the citation
+
+<b>C5</b>    s1 = 0.94
+          s2 = (0.94 − 0.79) / 0.30 = 0.50
+          s3 = 2 of 2 required fields present = 1.00   (grade, application)
+          s4 = 1   (IS 456 appears in both C1's list and C2's expansion)
+
+          confidence = 0.45(0.94) + 0.20(0.50) + 0.25(1.00) + 0.10(1.00)
+                     = 0.423 + 0.100 + 0.250 + 0.100
+                     = <b>0.87  →  band: high</b>
+
+          ≥ 0.60, so B5 asks nothing. Straight through to D1.</pre>
+  <p>Everything after this point is assembly. D1 checks that all five IS numbers exist in the catalogue, D2 slices them into the three citation depths of Figure 8, and D3 renders the annexure. No further judgement is made about which standard is correct — that decision was finished at C1.6, and everything since has been about completeness, currency and presentation.</p>
+</section>
+
+<section>
+  <div class="shead"><span class="clause">§18</span><h2>Appendix B — system architecture</h2></div>
+  <p class="lede">The whole manual on one page. Subsystems, not individual modules — the module IDs are printed inside each box so this stays readable at slide size.</p>
+
+  <figure>
+    <p class="fignum">Figure 9 — system architecture</p>
+    <svg viewBox="0 0 760 772" role="img" aria-label="Two human personas and an external procurement portal reach the system through a web interface and a REST API. Requests flow down through the understand, find-and-check and deliver stages, producing two kinds of PDF. The online stages read four knowledge stores, which an offline ingestion pipeline writes nightly from BIS sources.">
+      <defs><marker id="m9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker>
+      <marker id="m9a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--kg)"/></marker></defs>
+
+      <rect class="n-box" x="40"  y="26" width="210" height="48"/>
+      <text class="t-h" x="145" y="47" text-anchor="middle">PROCUREMENT OFFICIAL</text>
+      <text class="t-s" x="145" y="64" text-anchor="middle">drafting a tender</text>
+      <rect class="n-box" x="275" y="26" width="210" height="48"/>
+      <text class="t-h" x="380" y="47" text-anchor="middle">MANUFACTURER</text>
+      <text class="t-s" x="380" y="64" text-anchor="middle">checking compliance</text>
+      <rect class="n-box" x="510" y="26" width="210" height="48"/>
+      <text class="t-h" x="615" y="47" text-anchor="middle">GeM / CPPP</text>
+      <text class="t-s" x="615" y="64" text-anchor="middle">external portal</text>
+
+      <polyline class="ln" points="145,74 145,94 215,94 215,128" marker-end="url(#m9)"/>
+      <polyline class="ln" points="380,74 380,94 215,94"/>
+      <polyline class="ln" points="615,74 615,94 545,94 545,128" marker-end="url(#m9)"/>
+
+      <rect class="n-band" x="40" y="104" width="680" height="88"/>
+      <text class="t-band" x="56" y="122">INTERFACE</text>
+      <rect class="n-box" x="60"  y="132" width="310" height="48"/>
+      <text class="t-h" x="215" y="153" text-anchor="middle">D5 · WEB INTERFACE</text>
+      <text class="t-s" x="215" y="170" text-anchor="middle">two front doors · chat-shaped intake</text>
+      <rect class="n-box" x="390" y="132" width="310" height="48"/>
+      <text class="t-h" x="545" y="153" text-anchor="middle">D4 · REST API</text>
+      <text class="t-s" x="545" y="170" text-anchor="middle">POST /v1/analyze · the only contract</text>
+      <line class="ln" x1="370" y1="156" x2="386" y2="156" marker-end="url(#m9)"/>
+
+      <line class="ln" x1="380" y1="192" x2="380" y2="218" marker-end="url(#m9)"/>
+
+      <rect class="n-band" x="40" y="222" width="470" height="252"/>
+      <text class="t-band" x="56" y="240">ONLINE — ONE REQUEST</text>
+      <rect class="n-box" x="60" y="250" width="430" height="68"/>
+      <text class="t-h" x="275" y="272" text-anchor="middle">B · UNDERSTAND THE INPUT</text>
+      <text class="t-s" x="275" y="289" text-anchor="middle">B1 input · B2 language · B3 extract</text>
+      <text class="t-s" x="275" y="305" text-anchor="middle">B4 validate citations · B5 sufficiency gate</text>
+
+      <rect class="n-acc" x="60" y="334" width="430" height="76"/>
+      <text class="t-hacc" x="275" y="356" text-anchor="middle">C · FIND &amp; CHECK</text>
+      <text class="t-s" x="275" y="373" text-anchor="middle">C1 hybrid retrieval · C2 allied expansion</text>
+      <text class="t-s" x="275" y="389" text-anchor="middle">C3 version · C4 certification · C5 confidence</text>
+      <text class="t-s" x="275" y="404" text-anchor="middle">see Appendix A</text>
+
+      <rect class="n-box" x="60" y="426" width="430" height="40"/>
+      <text class="t-h" x="275" y="451" text-anchor="middle">D · DELIVER — D1 guard · D2 depth · D3 document</text>
+
+      <line class="ln" x1="275" y1="318" x2="275" y2="330" marker-end="url(#m9)"/>
+      <line class="ln" x1="275" y1="410" x2="275" y2="422" marker-end="url(#m9)"/>
+
+      <polyline class="ln" points="490,446 516,446 516,424 536,424" marker-end="url(#m9)"/>
+      <polyline class="ln" points="516,446 516,482 536,482" marker-end="url(#m9)"/>
+      <rect class="n-box" x="540" y="400" width="180" height="48"/>
+      <text class="t-h" x="630" y="420" text-anchor="middle">O1 · COMPLETED</text>
+      <text class="t-s" x="630" y="437" text-anchor="middle">tender + annexure</text>
+      <rect class="n-box" x="540" y="458" width="180" height="48"/>
+      <text class="t-h" x="630" y="478" text-anchor="middle">O2 · REPORT</text>
+      <text class="t-s" x="630" y="495" text-anchor="middle">standalone PDF</text>
+
+      <line class="ln" x1="200" y1="474" x2="200" y2="526" marker-end="url(#m9)"/>
+      <text class="t-e" x="212" y="504">reads</text>
+
+      <rect class="n-band" x="40" y="530" width="680" height="84"/>
+      <text class="t-band" x="56" y="548">KNOWLEDGE STORES</text>
+      <rect class="n-box" x="52"  y="556" width="152" height="48"/>
+      <text class="t-h" x="128" y="576" text-anchor="middle">CATALOGUE</text>
+      <text class="t-s" x="128" y="593" text-anchor="middle">+ whitelist</text>
+      <rect class="n-acc" x="220" y="556" width="152" height="48"/>
+      <text class="t-hacc" x="296" y="576" text-anchor="middle">EDGES</text>
+      <text class="t-s" x="296" y="593" text-anchor="middle">from · relation · to</text>
+      <rect class="n-box" x="388" y="556" width="152" height="48"/>
+      <text class="t-h" x="464" y="576" text-anchor="middle">VECTOR + BM25</text>
+      <text class="t-s" x="464" y="593" text-anchor="middle">clause level</text>
+      <rect class="n-box" x="556" y="556" width="152" height="48"/>
+      <text class="t-h" x="632" y="576" text-anchor="middle">REGISTRY</text>
+      <text class="t-s" x="632" y="593" text-anchor="middle">QCO · labs</text>
+
+      <line class="ln-acc" x1="380" y1="642" x2="380" y2="618" marker-end="url(#m9a)"/>
+      <text class="t-e" x="392" y="636">writes · nightly batch</text>
+
+      <rect class="n-band" x="40" y="646" width="680" height="96"/>
+      <text class="t-band" x="56" y="664">OFFLINE INGESTION</text>
+      <rect class="n-box" x="52"  y="676" width="116" height="44"/>
+      <text class="t-h" x="110" y="695" text-anchor="middle">SOURCES</text>
+      <text class="t-s" x="110" y="711" text-anchor="middle">BIS · SP 21 · QCO</text>
+      <rect class="n-box" x="187" y="676" width="116" height="44"/>
+      <text class="t-h" x="245" y="695" text-anchor="middle">A1 COLLECT</text>
+      <text class="t-s" x="245" y="711" text-anchor="middle">metadata</text>
+      <rect class="n-box" x="322" y="676" width="116" height="44"/>
+      <text class="t-h" x="380" y="695" text-anchor="middle">A2 PARSE</text>
+      <text class="t-s" x="380" y="711" text-anchor="middle">clauses</text>
+      <rect class="n-acc" x="457" y="676" width="116" height="44"/>
+      <text class="t-hacc" x="515" y="695" text-anchor="middle">A3 REFS</text>
+      <text class="t-s" x="515" y="711" text-anchor="middle">Clause 2</text>
+      <rect class="n-box" x="592" y="676" width="116" height="44"/>
+      <text class="t-h" x="650" y="695" text-anchor="middle">A4 INDEX</text>
+      <text class="t-s" x="650" y="711" text-anchor="middle">embed</text>
+      <line class="ln" x1="170" y1="698" x2="183" y2="698" marker-end="url(#m9)"/>
+      <line class="ln" x1="305" y1="698" x2="318" y2="698" marker-end="url(#m9)"/>
+      <line class="ln" x1="440" y1="698" x2="453" y2="698" marker-end="url(#m9)"/>
+      <line class="ln" x1="575" y1="698" x2="588" y2="698" marker-end="url(#m9)"/>
+    </svg>
+    <figcaption>Three things this drawing is meant to settle. The API is not a wrapper around the website — both are equal clients of the same contract, which is what makes portal integration a configuration rather than a rewrite. The online and offline halves share no code path and meet only at the four stores, so the corpus can be rebuilt while the service is answering. And blue marks the one chain no competing system has: A3 extracts the typed relationships, the edge store holds them, and stage C is where they turn into an answer.</figcaption>
+  </figure>
+</section>
+
+<footer>Standards360 · build manual v4 · verify every IS number against the BIS portal before use</footer>
+
+</div>
