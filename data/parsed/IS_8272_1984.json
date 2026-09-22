@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8272:1984",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirements and the methods of sampling and tests for calcined gypsum plaster used in manufacturing fibrous plaster boards covered in IS  8273:1984*. Note  — Gypsum building plasters are used extensively for general building operations and for the manufacture of preformed gypsum building products which have the specific advantages  of   lightness and high fire  resistance. Fibrous  plaster boards are used as coverings for walls, ceilings and partitions in normally dry environments in buildings.",
+      "clause_id": "IS 8272:1984#1",
+      "family": "IS 8272",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 155,
+      "page_end": 155,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 8272:1984",
+      "clause": "2",
+      "title": "Chemical Composition",
+      "text": "2. Chemical Composition —  The plaster shall consist essentially of calcium sulphate hemihydrate ( ) . And shall contain not less than 42 percent sulphur trioxide (SO3) * Fibrous gypsum plaster boards (first revision). Note  —  For methods of tests, refer to Appendices A to E of the standard For detailed information, refer to IS 8272:1984 Specification for gypsum plaster for use in the manufactures of fibrous plaster boards (first revision). SUMMARY OF IS  8272 : 1984 GYPSUM PLASTER FOR USE IN THE MANUFACTURE OF FIBROUS PLASTER BOARDS (First Revision)",
+      "clause_id": "IS 8272:1984#2",
+      "family": "IS 8272",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 155,
+      "page_end": 155,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 8272:1984",
+      "clause": "3",
+      "title": "Properties",
+      "text": "3. Properties",
+      "clause_id": "IS 8272:1984#3",
+      "family": "IS 8272",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 155,
+      "page_end": 155,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 8272:1984",
+      "clause": "3.1",
+      "title": "Fineness",
+      "text": "3.1 Fineness — Residue retained on 600 micron sieve shall not be more than 1 percent by mass.",
+      "clause_id": "IS 8272:1984#3.1",
+      "family": "IS 8272",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 155,
+      "page_end": 155,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 8272:1984",
+      "clause": "3.2",
+      "title": "Compressive Strength",
+      "text": "3.2 Compressive Strength — Compressive strength of the plaster, shall not be less than 7.6 N/mm2.",
+      "clause_id": "IS 8272:1984#3.2",
+      "family": "IS 8272",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 155,
+      "page_end": 155,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 8272:1984",
+      "clause": "3.3",
+      "title": "Initial Setting Time",
+      "text": "3.3 Initial Setting Time—Shall be between 20 and 35 minutes. O H CaSO 2 4 2 1 ο SECTION 6 TIMBER CONTENTS Title Page TIMBER  CLASSIFICATION IS 399 : 1963 Classification of commercial timber and their zonal distribution(revised) 6.3 IS : 12896 : 1990 Indian timber for door and window shutters and frames—Classification 6.5 CONVERSION  AND  GRADING IS 190 : 1991 Coniferous sawn timber (baulks and scantling)  (fourth revision) 6.7 IS 876 : 1992 Wood poles for overhead power and telecommunication lines  (third  revision) 6.8 IS 1326 : 1992 Non-coniferous sawn timber (baulks and scantling)  (second  revision)                        6.10 IS 1331 : 1971 Cut sizes of timber (second revision) 6.11 IS 2372 : 2004 Timber for cooling towers (Second revision) 6.13 IS 3337 : 1978 Ballies for general purposes (first revision) 6.14 IS 3629 : 1986 Structural timber in buildings (first revision) 6.15 IS 3731: 1985 Teak squares (first revision) 6.17 IS 4891 : 1988 Preferred cut sizes of sturctral timber (first revision) 6.18 IS 4895 : 1985 Teak logs (first revision) 6.20 IS 5246 : 2000 Coniferous logs (first revision) 6.21 IS 6056 : 1970 Jointed wood poles for over head power and telecommunication lines 6.22 IS 7308 : 1999 Non-coniferous logs  (first revision) 6.24 IS 10394 : 1982 Wooden sleepers for railway track                                                                                      6.25",
+      "clause_id": "IS 8272:1984#3.3",
+      "family": "IS 8272",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "references",
+      "page_start": 155,
+      "page_end": 158,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8272:1984",
+    "record_id": 15436,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      155,
+      158
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "pages_without_text:2"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

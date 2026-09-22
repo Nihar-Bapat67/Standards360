@@ -1,0 +1,310 @@
+{
+  "clauses": [
+    {
+      "is": "IS 13592:1992",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope -  Requirements for plain and socket end unplasticized polyvinyl chloride (UPVC) pipes with nominal outside diameters 40 mm to 160 mm for soil and waste discharge system inside buildings including ventilating and rain water applications.",
+      "clause_id": "IS 13592:1992#1",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 386,
+      "page_end": 386,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "2",
+      "title": "Types –",
+      "text": "2. Types - Type A : for use in ventilation pipe work and  rain water applications. Type B :  for use in soil and water discharge systems.",
+      "clause_id": "IS 13592:1992#2",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 386,
+      "page_end": 386,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "3",
+      "title": "Size – Normal outside",
+      "text": "3. Size -  Normal outside diameter DN of pipes as covered are 40, 50, 63, 75, 90, 110, 125, 140 and 160 mm.",
+      "clause_id": "IS 13592:1992#3",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 386,
+      "page_end": 386,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "4",
+      "title": "Colour of Pipe",
+      "text": "4. Colour of Pipe —  Shall be dark shade of grey.",
+      "clause_id": "IS 13592:1992#4",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 386,
+      "page_end": 386,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "5",
+      "title": "Materials –  Shall consist essentially polyvinyl",
+      "text": "5. Materials -  Shall consist essentially polyvinyl chloride to which may be added only those additives that are needed to facilitate the manufacture of sound pipes of good surface finish, mechanical strength, and opacity under condition of use. None of these additives SUMMARY OF IS  13592 : 1992 UNPLASTILIZED POLYVINYL CHLORIDE (UPVC) PIPES FOR SOIL AND WASTE  DISCHARGE  SYSTEM FOR INSIDE AND  OUTSIDE  BUILDINGS  INCLUDING  VENTILATION AND RAIN  WATER  SYSTEM TABLE  1  DIAMETER  AND  WALL  THICKNESS All dimensions in millimetres shall be used separately or together in quantities sufficient to constitute a toxic hazard, impair the fabrication, welding, chemical and physical properties of the fittings. The material should also consist of sufficient quantity of stabilizer to withstand thermal ageing and exposure to ultra-violet light. The addition of the manufacturer's own rework material produced during the manufacture and work testing of pipes complying with this standard is permissible upto 10 percent. No other rework material shall be used.",
+      "clause_id": "IS 13592:1992#5",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 386,
+      "page_end": 386,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "6",
+      "title": "Dimensions",
+      "text": "6. Dimensions",
+      "clause_id": "IS 13592:1992#6",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 386,
+      "page_end": 386,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "6.1",
+      "title": "Diameter",
+      "text": "6.1. Diameter  and Wall Thickness —  See Table 1.",
+      "clause_id": "IS 13592:1992#6.1",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 386,
+      "page_end": 386,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "6.2",
+      "title": "Length",
+      "text": "6.2 Length —  Pipe shall be supplied in nominal lengths of 2, 3, 4 or 6 metres either plain or with sliding/grooved socket. Tolerances on specified length shall be + 10 mm and - 0 mm.",
+      "clause_id": "IS 13592:1992#6.2",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 386,
+      "page_end": 386,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "6.3",
+      "title": "Socket of pipe",
+      "text": "6.3 Socket of pipe—     See Tables 2, 3 , 4 and Figs. 2 & 3   of the standard. | Nominal Outside Diameter | Mean Outside Diameter | Outside Diameter at Any Point | Wall Thickness |  | | --- | --- | --- | --- | --- | |  |  |  | Type A | Type B | | DN | Min Max | Min Max | Min, Max | Min, Max | | (1) 40 50 63 75 90 110 125 140 160 | (2) (3) 40.0 40.3 50.0 50.3 63.0 63.3 75.0 75.3 90.0 90.3 110.0 110.4 125.0 125.4 140.0 140.5 160.0 160.5 | (4) (5) 39.5 40.5 49.4 50.6 62.2 63.8 74.1 75.9 88.9 91.2 108.6 111.4 123.5 126.5 138.3 141.7 158.0 162.0 | (6) (7) 1.8 2.2 1.8 2.2 1.8 2.2 1.8 2.2 1.9 2.3 2.2 2.7 2.5 3.0 2.9 3.4 3.2 3.8 | (8) (9) 3.2 3.8 3.2 3.8 3.2 3.8 3.2 3.8 3.2 3.8 3.2 3.8 3.2 3.8 3.6 4.2 4.0 4.6 | TABLE  2  MINIMUM  WALL  THICKNESS OF SOCKETS ON PIPES All dimensions in millimetres Nominal S2,Min S3,Min Outside Diameter DN Type A Type B Type A Type B (1) (2) (3) (4) (5) 40 1.6 2.9 1.0 2.4 50 1.6 2.9 1.0 2.4 63 1.6 2.9 1.0 2.4 75 1.6 2.9 1.0 2.4 90 1.7 2.9 1.1 2.4 110 2.0 2.9 1.2 2.4 125 2.3 2.9 1.4 2.4 140 2.6 3.2 1.6 2.7 160 2.9 3.6 1.8 3.0 TABLE 3. DIMENSIONS FOR SLIDING SOCKETS All dimensions in millimetres Nomina Socket          Mean Inside Diameter Outside Depth, C of Socket at Midpoint, Diameter                Min D1 Max Min (1) (2) (3)                   (4) 40 26.0 40.1 40.3 50 30.0 50.1 50.3 63 36.0 63.1 63.3 75 40.0 75.1 75.3 90 46.0 90.1 90.3 110 48.0 110.1 110.4 125 51.0 125.1 125.4 140 54.0 140.2 140.5 160 58.0 160.2 160.5 TABLE 4 DIMENSIONS  OF GROOVED SOCKET All dimensions in millimetres Nominal Inside Diameter Inside Diameter Length of Neck Length Outside of Socket of Beading Beading of Beyond D1 D2 and Neck Socket Beading A B C Min Max Min Max Min Max Min (1) (2) (3) (4) (5) (6) (7) (8) 40 40.3 41.1 49.6 50.6 18 5 18 50 50.3 51.1 59.6 60.6 18 5 20 63 63.3 64.1 72.9 73.9 18 5 23 75 75.3 76.1 84.5 85.5 20 5 25 90 90.3 91.2 99.5 100.5 23 5 28 110 110.4 111.2 120.3 121.3 26 6 32 125 125.4 126.3 137.1 138.2 28",
+      "clause_id": "IS 13592:1992#6.3",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 386,
+      "page_end": 387,
+      "has_table": true,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "7",
+      "title": "35",
+      "text": "7 35 140 140.5 141.4 152.1 153.2 30",
+      "clause_id": "IS 13592:1992#7",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 387,
+      "page_end": 387,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "8",
+      "title": "38",
+      "text": "8 38 160 160.5 161.5 173.8 175.0 32",
+      "clause_id": "IS 13592:1992#8",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 387,
+      "page_end": 387,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "9",
+      "title": "42",
+      "text": "9 42 7. Tests 7.1. Visual Appearance - The internal and  external surface of the pipes shall be smooth and clean, and free from groovings and other defects. the end shall be clearly cut and shall be square with the axis of the pipe. 7.2. Reversion Test — A length of pipe of approximately 300 mm shall not in length by more than 5 percent. 7.3  Stress Relief Test—This test shall be carried out for socket end pipes only. When tested the test specimens shall not show blisters, excessive delamination or cracking or signs of weld line splitting. 7.4 Vicat Softening Temperature—Not less than 790C. 7.5 Effect of Sunlight—When exposed to sun for atleast 1600 h at ambient temperature it shall not show any difference in colour or physical appearance. 8   Resistance to Sulphuric Acid —The mass of specimen shall neither increase by more than 0.32 g, nor decrease by more than 0.13 g when tested as per IS 12235 (Part 7) : 1986. 9. Mechanical",
+      "clause_id": "IS 13592:1992#9",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 387,
+      "page_end": 388,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "9.1",
+      "title": "Impact Strength at 0oC",
+      "text": "9.1. Impact Strength at 0oC — When tested by the method in IS : 12235 (Part 9) : 1986, the pipe sample shall not fracture or crack through its complete wall thickness.",
+      "clause_id": "IS 13592:1992#9.1",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "9",
+      "role": "other",
+      "page_start": 388,
+      "page_end": 388,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "9.2",
+      "title": "Tensile Strength and Elongation",
+      "text": "9.2.  Tensile Strength and Elongation—Not less than 45 MPa and 80 percent. Note— For methods of tests refer to Appendix A of the  standard, IS 6307 : 1985 Rigid PVC sheets (first revision), IS 8543 (Part 4/sec 1) 1984 Methods of testing plastics, Part 4 Short term mechanical properties, Section 1 Determination of tensile properties and relevant parts of IS 12235 : 1986 Methods of test for unplasticized PVC pipes for potable water supplies. For detailed information, refer to IS  13592  : 1992  Specification for unplasticized polyvinyl chloride (UPVC) pipes for soil and waste discharge system for inside and outside buildings including ventilation and rain water system.",
+      "clause_id": "IS 13592:1992#9.2",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "9",
+      "role": "references",
+      "page_start": 388,
+      "page_end": 388,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "9.3",
+      "title": "Axial Shrinkage (for Type B Pipes Only)",
+      "text": "9.3 Axial Shrinkage (for Type B Pipes Only) — The axial shrinkage shall not exceed 2 percent.",
+      "clause_id": "IS 13592:1992#9.3",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "9",
+      "role": "other",
+      "page_start": 388,
+      "page_end": 388,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13592:1992",
+      "clause": "10",
+      "title": "Water Tightness of Joints",
+      "text": "10. Water Tightness of Joints — Assemble the fittings with teh scaling devices, fill with water ensuring all air is removed. Jointing of solvent cementing joints is to be created out using selvent conforming to IS 14182",
+      "clause_id": "IS 13592:1992#10",
+      "family": "IS 13592",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 388,
+      "page_end": 388,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 13592:1992",
+    "record_id": 161,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      386,
+      388
+    ],
+    "n_clauses": 16,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

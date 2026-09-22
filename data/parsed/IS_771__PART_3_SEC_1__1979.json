@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 771 (PART 3/SEC 1):1979",
+      "clause": "1",
+      "title": "SLAB URINALS",
+      "text": "1 SLAB URINALS (Second Revision) For detailed information, refer to IS : 771 (Part3/ Sec 1) : 1979 Specification for glazed fire-clay sanitary appliances, Part 3  Specific requirements of urinals, Section 1 Slab urinals (second revision). 1. Scope - Lays down the patterns, sizes, construction, dimensions and tolerances and finish of slab urinals made of fire-clay.",
+      "clause_id": "IS 771 (PART 3/SEC 1):1979#1",
+      "family": "IS 771 (PART 3/SEC 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 415,
+      "page_end": 415,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (PART 3/SEC 1):1979",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 771 (PART 3/SEC 1):1979#2",
+      "family": "IS 771 (PART 3/SEC 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 415,
+      "page_end": 415,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (PART 3/SEC 1):1979",
+      "clause": "2.1",
+      "title": "General requirements for materials, manufacture,",
+      "text": "2.1 General requirements for materials, manufacture, methods of test and inspection, shall conform to Part 1 (General requirements) of the standard.",
+      "clause_id": "IS 771 (PART 3/SEC 1):1979#2.1",
+      "family": "IS 771 (PART 3/SEC 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 415,
+      "page_end": 415,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (PART 3/SEC 1):1979",
+      "clause": "2.2",
+      "title": "Patterns and Sizes",
+      "text": "2.2 Patterns and Sizes — Slab urinals shall be of one of the following pattern and sizes: a)  Batter slab (see Fig. 1A of the standard) 1000 ×  600 mm or 1000 × 450 mm b)  End slab (see Fig 1B of the standard) 1000 × 360 mm",
+      "clause_id": "IS 771 (PART 3/SEC 1):1979#2.2",
+      "family": "IS 771 (PART 3/SEC 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 415,
+      "page_end": 415,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (PART 3/SEC 1):1979",
+      "clause": "3",
+      "title": "Construction",
+      "text": "3.  Construction —  Slab urinals shall be manufactured either as a single urinal or as a range of two urinals .  The inside surface of the urinals shall be regular and smooth throughout to ensure efficient flushing.",
+      "clause_id": "IS 771 (PART 3/SEC 1):1979#3",
+      "family": "IS 771 (PART 3/SEC 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 415,
+      "page_end": 415,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (PART 3/SEC 1):1979",
+      "clause": "4",
+      "title": "Tolerances",
+      "text": "4. Tolerances a) On dimensions of 50 mm and over ± 4 % b) On dimensions less than 50 mm ± 2 mm. Note — For dimensions, see Table 1 nd Fig. 1 of the Standard.",
+      "clause_id": "IS 771 (PART 3/SEC 1):1979#4",
+      "family": "IS 771 (PART 3/SEC 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 415,
+      "page_end": 415,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 771 (PART 3/SEC 1):1979",
+    "record_id": 14705,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      415,
+      415
+    ],
+    "n_clauses": 6,
+    "has_scope": false,
+    "has_references": false,
+    "text_coverage_ratio": 0.916,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

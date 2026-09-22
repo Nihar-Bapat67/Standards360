@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9338:1984",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope -  Requirements for flanged cast iron screwdown stop valves from 15 to 300 mm nominal sizes of the following types  used for water supply up to 450 C : Globe stop valve; Angle stop valve; oblique stop valve; Globe stop and check value and Angle stop and check valves.",
+      "clause_id": "IS 9338:1984#1",
+      "family": "IS 9338",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 481,
+      "page_end": 481,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9338:1984",
+      "clause": "2",
+      "title": "Nominal Pressure – Valves",
+      "text": "2. Nominal Pressure -  Valves shall be designated by nominal pressure (PN) defined as the maximum permissible gauge working pressure in MPa for the sizes indicated as follow: Nominal Pressure (PN) Nominal Sizes MPa mm 1.0 200 to 300 1.6 Up to and including150",
+      "clause_id": "IS 9338:1984#2",
+      "family": "IS 9338",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 481,
+      "page_end": 481,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9338:1984",
+      "clause": "3",
+      "title": "Nominal Sizes",
+      "text": "3. Nominal Sizes : 15,  20, 25, 32, 40, 50, 65, 80, 100, 125, 150, 200, 250 and 300 mm. The nominal size shall refer to the nominal bore of  thewater way. Note -  For dimensions, refer to Figs 1 to 5 and Table 2 to 5 of the Standard.",
+      "clause_id": "IS 9338:1984#3",
+      "family": "IS 9338",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 481,
+      "page_end": 481,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9338:1984",
+      "clause": "4",
+      "title": "Material",
+      "text": "4. Material Sl.No. Component Material (1) (2) (3) i) Body, bonnet, Cast iron handwheel,gland (one piece) and back seat  intergal ii) a) Fasteners/bolting Carbon steel b) Nut -doiii) Stem a) High tensile brass b) Stainless Steel iv) Body seat a) Leaded tin ring/disc bronze facing ring b) Stainless Steel v) Solid disc a) Leaded tin with integralface bronze b) Stainless Steel vi) Disc with separate Cast iron facing rings vii)      Glad packing a) Jute and hemp b)  Asbestos viii)      Bonnet Compressed gasket asbestos fibre ix) Disc stem nut, a) Leaded tin bronze back seat bushing b) Stainless Steel (where separate), gland (two piece design) x)        Yoke bush a) Leaded tin bronze b) High tensile  brass c) SG iron",
+      "clause_id": "IS 9338:1984#4",
+      "family": "IS 9338",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 481,
+      "page_end": 481,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9338:1984",
+      "clause": "5",
+      "title": "Manufacture",
+      "text": "5. Manufacture",
+      "clause_id": "IS 9338:1984#5",
+      "family": "IS 9338",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 481,
+      "page_end": 481,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9338:1984",
+      "clause": "5.1",
+      "title": "Area of the body",
+      "text": "5.1 Area of the body end parts shall not be less than the area of the circle of diameter equivalent to the nominal size of the valve except that this area may be reduced by not more than 15 percent though the seats to permit use of disc guides from below.",
+      "clause_id": "IS 9338:1984#5.1",
+      "family": "IS 9338",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 481,
+      "page_end": 481,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9338:1984",
+      "clause": "5.2",
+      "title": "The stems shall have trapezoidal threads.",
+      "text": "5.2 The stems shall have trapezoidal threads.",
+      "clause_id": "IS 9338:1984#5.2",
+      "family": "IS 9338",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 481,
+      "page_end": 481,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9338:1984",
+      "clause": "5.3",
+      "title": "The overall heights of",
+      "text": "5.3 The overall heights of the valves shall not exceed the specified valves.",
+      "clause_id": "IS 9338:1984#5.3",
+      "family": "IS 9338",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 481,
+      "page_end": 481,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9338:1984",
+      "clause": "6",
+      "title": "Coating – Shall be",
+      "text": "6. Coating - Shall be smooth  glossy and sufficiently tenacious  so as not to flow when exposed to temperature of 77ºC and not become so brittle to a temperature of 15ºC so as to  chip off when scratched lightly with the point of a pen knife.",
+      "clause_id": "IS 9338:1984#6",
+      "family": "IS 9338",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 481,
+      "page_end": 481,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9338:1984",
+      "clause": "7",
+      "title": "Testing – Each valve",
+      "text": "7. Testing - Each valve shall be subjected to hydrostatic test as per following Table 1 and the value shall show no sign of leakage. Note — For  method of test refer to Appendix B of the standard. For detailed information, refer to IS  9338 : 1984 Specification for Cast Iron screw-down stop valves and stops and check valves for water works purposes (first revision) TEST  PRESSURE  (GAUAGE)  AND TEST DURATOIN OF VALVES PN Rating of Valve Test Test Pressure (Gauge), Min Test Duration, Min (1) (2) (3) (4) MPa MPa min 1.6 Body test 2.4 5 Seat test 1.6 2 Back seat test 2.4 5 (Where specified) 1.0 Body test 1.5 5 Seat test 1.0 2 Back seat test 1.5 5 (Where specified)",
+      "clause_id": "IS 9338:1984#7",
+      "family": "IS 9338",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 481,
+      "page_end": 482,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9338:1984",
+    "record_id": 504,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      481,
+      482
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2556 (Part 2):1994",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for patterns, construction, dimensions and tolerances, finish and marking for vitreous washdown water closets (henceforth referred as WC).",
+      "clause_id": "IS 2556 (Part 2):1994#1",
+      "family": "IS 2556 (Part 2)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 434,
+      "page_end": 434,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 2):1994",
+      "clause": "2",
+      "title": "Patterns",
+      "text": "2. Patterns a) Pattern 1 Pedestal WC with  and  independent cistern Pattern 2 (See Fig. 1) b) Pattern 3 Pedestal WC with  independent cistern and  horizontal outlet (See Fig2) c) Pattern 4 Pedestal WC with  independent cistern and concealed Strap  (See Fig.3)",
+      "clause_id": "IS 2556 (Part 2):1994#2",
+      "family": "IS 2556 (Part 2)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 434,
+      "page_end": 434,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 2):1994",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 2556 (Part 2):1994#3",
+      "family": "IS 2556 (Part 2)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 434,
+      "page_end": 434,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 2):1994",
+      "clause": "3.1",
+      "title": "Each water closet shall be",
+      "text": "3.1 Each water closet shall be  provided with not less than four fixing holes having a minimum diameter of 6.5mm.",
+      "clause_id": "IS 2556 (Part 2):1994#3.1",
+      "family": "IS 2556 (Part 2)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 434,
+      "page_end": 434,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 2):1994",
+      "clause": "3.2",
+      "title": "Flushing rim may be box rim",
+      "text": "3.2 Flushing rim may be box rim  or  open rim type flushing rim and the inlet shall be  of self draining type.",
+      "clause_id": "IS 2556 (Part 2):1994#3.2",
+      "family": "IS 2556 (Part 2)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 434,
+      "page_end": 434,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 2):1994",
+      "clause": "3.3",
+      "title": "Integral trap with P",
+      "text": "3.3 Integral trap with P or S outlet",
+      "clause_id": "IS 2556 (Part 2):1994#3.3",
+      "family": "IS 2556 (Part 2)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 434,
+      "page_end": 434,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 2):1994",
+      "clause": "3.4",
+      "title": "Anti",
+      "text": "3.4 Anti-siphonage vent loinat an angle of 450 where required by sanitation authority. Note— For detailed dimensions and tolerance refer to 5 of the standard.",
+      "clause_id": "IS 2556 (Part 2):1994#3.4",
+      "family": "IS 2556 (Part 2)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 434,
+      "page_end": 434,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 2):1994",
+      "clause": "4",
+      "title": "Flushing Tests",
+      "text": "4. Flushing Tests",
+      "clause_id": "IS 2556 (Part 2):1994#4",
+      "family": "IS 2556 (Part 2)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 434,
+      "page_end": 434,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 2):1994",
+      "clause": "4.1",
+      "title": "Toilet Paper Test",
+      "text": "4.1 Toilet Paper Test — On repetition of test for the pan shall discharge full charge of the paper at least thrice. 5.2 Smudge Test — Immediately after the flushing, there shall be no smudge left on the bowl. 5.3 Holding Capacity Test — Shall be capable of holding not less than 10 litres of water between the normal water level and the highest possible water level of the water closet as installed. 5.4 Single Ball Test —  The ball shall be discharged in the normal manner. 5.5 Fifty Ball Test —  A minimum of 85 percent of all balls should be flushed out in the five tests. SUMMARY OF IS 2556 (PART 2) : 1994 VITREOUS SANITARY APPLIANCES (VITREOUS CHINA) PART 2 - SPECIFIC REQUIREMENTS OF WASHDOWN WATER CLOSETS (Fourth Revision) FIG. 1 PATERN 1 AND PATTERN 2 WATER CLOSETS Note 1 — For method of tests refer to 8 of the  standard. Note 2  — For general requirements refer to Part 1 General requirements of the standard. For detailed information, refer to IS  2556 (Part 2) : 1994  Specification for vitreous sanitary appliances (vitreous china): Part 2  Specific requirements of wash-down water closets (fourth revision). FIG. 2    PATTERN  3 WATER CLOSET WITH  HORIZONTAL P- TRAP FIG. 3   PATTERN  4  WATER CLOSET  WITH  CONCELATED S-TRAP",
+      "clause_id": "IS 2556 (Part 2):1994#4.1",
+      "family": "IS 2556 (Part 2)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 434,
+      "page_end": 435,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2556 (Part 2):1994",
+    "record_id": 31059,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      434,
+      435
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

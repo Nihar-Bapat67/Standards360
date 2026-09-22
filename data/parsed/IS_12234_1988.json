@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12234:1988",
+      "clause": "1",
+      "title": "Scope –  Requirements regarding size, materials",
+      "text": "1. Scope -  Requirements regarding size, materials manufacture and workmanship, performance test and appropriate dimensions of equilibrium float valves for water service up to 45ºC such as coolers, flush tanks and over head tanks.",
+      "clause_id": "IS 12234:1988#1",
+      "family": "IS 12234",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 488,
+      "page_end": 488,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12234:1988",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification a) Horizontal inlet shank type, and b) Vertical inlet shank type. Note —  Foot values may be fitted with two pressure reducing attachments, if required",
+      "clause_id": "IS 12234:1988#2",
+      "family": "IS 12234",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 488,
+      "page_end": 488,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12234:1988",
+      "clause": "3",
+      "title": "Size – 15 mm nominal",
+      "text": "3. Size - 15 mm nominal",
+      "clause_id": "IS 12234:1988#3",
+      "family": "IS 12234",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 488,
+      "page_end": 488,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12234:1988",
+      "clause": "4",
+      "title": "Materials – See Table 1.",
+      "text": "4. Materials - See Table 1. TABLE 1  MATERIALS  FOR  BODY  AND COMPONENT  PARTS  OF  FLOAT  VALVES Sl.No. Component Material 1. Valve body, inlet shank, Polyacetal valve seat, back nut, cap  and float arm 2. Float, flow restrictors Polyacetal and discharge horn or polypropylene or polypropathene Synthetic rubber 3. Diaphragm Synthetic rubber 4. Diaphragm pin Stainless steel or any other non-corrosive material or polyacetal. SUMMARY OF IS  12234 : 1988 PLASTIC  EQUILIBRIUM  FLOAT  VALVES FOR COLD WATER SERVICES Note — For method of test refer to Appendices A to C of the standard. For detailed information, refer to IS  12234 : 1988 Specification for plastic equilibrium float valve for cold water services.",
+      "clause_id": "IS 12234:1988#4",
+      "family": "IS 12234",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 488,
+      "page_end": 488,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12234:1988",
+    "record_id": 3517,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      488,
+      488
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.506,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

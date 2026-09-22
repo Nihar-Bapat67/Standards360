@@ -1,0 +1,418 @@
+{
+  "clauses": [
+    {
+      "is": "IS 14333:1996",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope—Requirements for high density polyethylene pipes from 63 mm  to 630 mm  nominal diameter  of pressure  rating  from 0.25 MPa to  1.6 MPa in material grades of  PE63, PE80 and PE100 for sewerage applications.",
+      "clause_id": "IS 14333:1996#1",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "2",
+      "title": "Designation",
+      "text": "2. Designation",
+      "clause_id": "IS 14333:1996#2",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "2.1",
+      "title": "Pipes",
+      "text": "2.1 Pipes  shall be designated  according to the pressure rating  (see2.2) and nominal  diameter (see 2. 3 ).   For example,  PN 10 DN 200 indicates a pipe having a pressure rating 1.0 MPa and outside nominal diameter 200 mm.",
+      "clause_id": "IS 14333:1996#2.1",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "2.2",
+      "title": "Grade of material",
+      "text": "2.2 Grade of material — Pipes shall be classified as Material            MRS Grade (Minimum Required Strength) (Maximum Allowable  Hydrostatic) of Material in MPa, at 200C Design stress, MPa, at 50 years for Sewage and At20o at 30o industrial affluent PE63 6.3 5.0 4.0 3.0 PE63 8.0 6.3 5.0 4.0 PE63 6.3 8.0 6.3 5.0",
+      "clause_id": "IS 14333:1996#2.2",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "2.3",
+      "title": "Pressure Rating – Pipes",
+      "text": "2.3 Pressure Rating -   Pipes  shall be classified by pressure rating (PN)as follows : Pressure Rating Maximum Permissible of Pipe Working Pressure , MPa PN 2.5 0.25 PN 4 0.40 PN 6 0.60 PN 8 0.8 PN10 1.00 Pn12.5 1,25 PN16.0 1.60",
+      "clause_id": "IS 14333:1996#2.3",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "2.4",
+      "title": "Nominal Diameter ( DN",
+      "text": "2.4 Nominal Diameter ( DN ) -The nominal  diameter of pipes  covered in this  standard are: 63, 75,  90, 110, 125, 140, 160, 180, 200, 225, 250, 280, 315,  335, 400, 450,  500, 560 and 630 mm.",
+      "clause_id": "IS 14333:1996#2.4",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "3",
+      "title": "Colour",
+      "text": "3. Colour — Shall be black .",
+      "clause_id": "IS 14333:1996#3",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "4",
+      "title": "Materials",
+      "text": "4. Materials",
+      "clause_id": "IS 14333:1996#4",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "4.1",
+      "title": "High Density Polyethylene–High density",
+      "text": "4.1 High Density Polyethylene-High density Polythylene ( HDPE ) used for  the manufacture of pipes shall conform to designation PEEWA -45- T-006  or PEEW A-45 - T-003 or PEEWA - 50 - T- 003 or PEEWA - 50-T-006 or PEEWA - 57-T-003 or PEEWA-57-T-006 or SUMMARY OF IS 14333 : 1996 HIGH DENSITY POLYETHYELENE PIPES FOR SEWERAGE of   IS   7328 : 1992*, HDPE conforming to designation PEEWA -45-T-012 PEEWA -50-T-012 or PEEWA - 57 - T - 012  of  IS 7328 : 1992 may also be  used  with the exception that melt flow rate (MFR ) shall be between 0.20 g/10 min to 1.10 g / 10 min (both in clusive)",
+      "clause_id": "IS 14333:1996#4.1",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "4.1.1",
+      "title": "Base",
+      "text": "4.1.1  Base  density  between 940   kg/m 3 and 958.4 kg / m3 ( both inclusive ) at 27 0 C .",
+      "clause_id": "IS 14333:1996#4.1.1",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "4.1.2",
+      "title": "The MFR (Melt Flow Rate)",
+      "text": "4.1.2   The MFR (Melt Flow Rate)  of the  material shall be  between 0.20 g/10 min and 1.10  g/10 min (both inclusive)  when tested  at 190oC. 4. 1. 3 The resin shall be compounded with carbon black. The carbon black content in the material shall be within 2.5 ± 0.5  percent  and the dispersion of carbon black shall be satisfactory.",
+      "clause_id": "IS 14333:1996#4.1.2",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "4.2",
+      "title": "Anti",
+      "text": "4.2   Anti-Oxidant — Shall not be  more than 0.3 percent by mass of finished resin.",
+      "clause_id": "IS 14333:1996#4.2",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "4.3",
+      "title": "Reworked Material – The",
+      "text": "4.3   Reworked Material - The addition of not more than 10 percent of the manufacturer's own rework material resulting from the manufacture of pipes of this standard is permissible.",
+      "clause_id": "IS 14333:1996#4.3",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "5",
+      "title": "Diamensions",
+      "text": "5. Diamensions  of Pipes",
+      "clause_id": "IS 14333:1996#5",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 389,
+      "page_end": 389,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "5.1",
+      "title": "Outside Diameter",
+      "text": "5.1 Outside Diameter— See Table 1. *High density polyethylene material for moulding   and extrusion Note 1 —  For chemical resistance classification table for HDPE pipes and  fittings see Appendix D of the standard. Note 2 —  For methods of tests, refer to Appendices B and C of the standard. For detailed information, refer to IS 14333 : 1996 Specification for  high density polyethylene pipes for sewerage. TABLE  1  OUTSIDE  DIAMETER, TOLERANCE  AND  OVALITY  OF  PIPES Nominal Outside Tolerance Ovality Diameter, Diameter, (only positive tolerances) DN mm mm mm (1) (2) (3) (4) 63 63.0 0.6 1.5 75 75.0 0.7 1.6 90 90.0 0.9 1.8 110 110.0 1.0 2.2 125 125.0 1.2 2.5 140 140.0 1.3 2.8 160 160.0 1.5 3.2 180 180.0 1.7 3.6 200 200.0 1.8 4.0 225 225.0 2.1 4.5 250 250.0 2.3 5.0 280 280.0 2.6 9.8 315 315.0 2.9 11.1 355 355.0 3.2 12.5 400 400.0 3.6 14.0 450 450.0 4.1 15.6 500 500.0 4.5 17.5 560 560.0 5.0 19.6 630 630.0 5.7 22.1",
+      "clause_id": "IS 14333:1996#5.1",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 389,
+      "page_end": 390,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "5.2",
+      "title": "Wall Thickness",
+      "text": "5.2. Wall Thickness — Shall be as given in Tables 3,4 and 5 of the standard.",
+      "clause_id": "IS 14333:1996#5.2",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 390,
+      "page_end": 390,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "5.3",
+      "title": "Length",
+      "text": "5.3.   Length — 5 to 20 mm.",
+      "clause_id": "IS 14333:1996#5.3",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 390,
+      "page_end": 390,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "5.4",
+      "title": "Coiling",
+      "text": "5.4.  Coiling — The pipes supplied in coils shall be coiled on drums of minimum diameter of 25 times the nominal diameter of the pipe ensuring that kinking of pipe is prevented.",
+      "clause_id": "IS 14333:1996#5.4",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 390,
+      "page_end": 390,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "6",
+      "title": "Visual Appearance",
+      "text": "6.    Visual Appearance —  The internal and external surfaces of the pipes shall be smooth, clean and free from grooving and other defects.",
+      "clause_id": "IS 14333:1996#6",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 390,
+      "page_end": 390,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "7",
+      "title": "Performance Characteristics",
+      "text": "7.    Performance Characteristics",
+      "clause_id": "IS 14333:1996#7",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 390,
+      "page_end": 390,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "7.1",
+      "title": "Hydraulic Characteristics",
+      "text": "7.1   Hydraulic Characteristics — Shall not show signs of localized swelling, leakage or weeping and shall not burst during the prescribed test duration.",
+      "clause_id": "IS 14333:1996#7.1",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 390,
+      "page_end": 390,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14333:1996",
+      "clause": "7.2",
+      "title": "Reversion Test",
+      "text": "7.2 Reversion Test — Longitudinal reversion shall not be greater than 3 percent.",
+      "clause_id": "IS 14333:1996#7.2",
+      "family": "IS 14333",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 390,
+      "page_end": 390,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 14333:1996",
+    "record_id": 6091,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      389,
+      390
+    ],
+    "n_clauses": 22,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

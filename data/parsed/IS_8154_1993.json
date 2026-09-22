@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8154:1993",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and the methods of sampling and test for performed calcium silicate insulation intended for use on surface which reach temperatures upto 6500C.",
+      "clause_id": "IS 8154:1993#1",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 8154:1993#2",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.1",
+      "title": "Material – Shall be",
+      "text": "2.1 Material - Shall be predominantly composed of reacted hydrous calcium silicate reinforced with suitable fibres such that the physical requirements prescribed in 2 are satisfied.",
+      "clause_id": "IS 8154:1993#2.1",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.2",
+      "title": "Bulk Density – Average",
+      "text": "2.2 Bulk Density - Average value shall be between 200 to 280 kg/m3. For any particular density, a tolerance of ±10 percent shall be allowed on the purchaser's declared value and shall be within the range specified above.",
+      "clause_id": "IS 8154:1993#2.2",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.3",
+      "title": "Compressive Strength – The",
+      "text": "2.3 Compressive Strength - The reduction in thickness under the following conditions shall not exceed 5 percent. a) dry under a load of 415 kN/m2, and b) wet (after 18 h immersion in water) under a load of 170 kN/m2. Note  - For compressive strength for pipes / curved segments an equivalent flat slab shall be used for performing the test.",
+      "clause_id": "IS 8154:1993#2.3",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.4",
+      "title": "Flexural Strength – The",
+      "text": "2.4 Flexural Strength - The average minimum value shall be 240 kN/m2.",
+      "clause_id": "IS 8154:1993#2.4",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.5",
+      "title": "Heat Resistance – When",
+      "text": "2.5 Heat Resistance - When tested at increasing temperatures, the material shall be deemed suitable for use under conditions of soaking heat for 24 hours at 650ºC up to the temperature at which the following requirements are met: a) Linear shrinkage   (Length), 2 percent, Max b) Loss in mass,  percent, Max 15 c) Compressive strength -Reduction in thickness not exceeding 5 percent under a load of 345 kN/m2.",
+      "clause_id": "IS 8154:1993#2.5",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.6",
+      "title": "Thermal Conductivity",
+      "text": "2.6 Thermal Conductivity — The average value shall be as given below : Mean Thermal Temperature Conductivity, Max 0C W/m.K 100 0.060 150 0.070 200 0.080 300 0.100 Note - For thermal conductivety determination for pipes / curved segmenth",
+      "clause_id": "IS 8154:1993#2.6",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.7",
+      "title": "Moisture Content – Shall",
+      "text": "2.7 Moisture Content -  Shall not exceed 7.5 percent by mass.",
+      "clause_id": "IS 8154:1993#2.7",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.8",
+      "title": "Alkalinity – The pH",
+      "text": "2.8 Alkalinity - The pH of the solution of the material shall be between 8 and 11.",
+      "clause_id": "IS 8154:1993#2.8",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.9",
+      "title": "Standard Shapes, Sizes and Dimensional",
+      "text": "2.9 Standard Shapes, Sizes and Dimensional Tolerance -",
+      "clause_id": "IS 8154:1993#2.9",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.9.1",
+      "title": "Shapes",
+      "text": "2.9.1 Shapes — Preformed calcium silicate shall be supplied in the form of flat blocks, bevelled lags, pipe section of radiused and bevelled lags.",
+      "clause_id": "IS 8154:1993#2.9.1",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "2.9",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.9.2",
+      "title": "Standard sizes",
+      "text": "2.9.2 Standard sizes",
+      "clause_id": "IS 8154:1993#2.9.2",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "2.9",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.9.2.1",
+      "title": "Flat blocks",
+      "text": "2.9.2.1 Flat blocks Length - 500 mm, 600 mm or 900 mm Width - 150 mm, 300 mm, 450 mm or 600 mm Thickness - 25 mm, 40 mm, 50 mm, 60 mm, 75 mm, or 100 mm",
+      "clause_id": "IS 8154:1993#2.9.2.1",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 4,
+      "parent_clause": "2.9.2",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.9.2.2",
+      "title": "Bevelled lags",
+      "text": "2.9.2.2 Bevelled lags Length - 500 mm, 600 mm or 900 mm Major width - 75 mm to 166 mm Thickness - 40 mm, 50 mm, 60 mm or 75 mm",
+      "clause_id": "IS 8154:1993#2.9.2.2",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 4,
+      "parent_clause": "2.9.2",
+      "role": "other",
+      "page_start": 839,
+      "page_end": 839,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.9.2.3",
+      "title": "Pipe Sections",
+      "text": "2.9.2.3 Pipe Sections Length - 500 mm, 600 mm or 900 mm Diameter - To fit standard pipes of external dia up to 219 mm Note - For method of tests, refer to Appendices A and B of the standard, IS 3846 : 1980 Methods for determination  of thermal conductivity of thermal insulation materials (two slab, guarded hot-plate method) (first revision), IS 5688 : 1982 Methods of test for preformed block-type and pipe covering type thermal insulation  (first revision), IS 5724 : 1970 Method of test for thermal insulating cement, and IS 9490 : 1980 Method for  determination of thermal conductivities of insulating materials (water calorimeter method) For detailed information, refer to IS 8154 : 1993  Specifications for preformed calcium sillicate insulation (for temperatures upto 650ºC) (first revision). Thickness - 40 mm, 50 mm or 75 mm",
+      "clause_id": "IS 8154:1993#2.9.2.3",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 4,
+      "parent_clause": "2.9.2",
+      "role": "references",
+      "page_start": 839,
+      "page_end": 840,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.9.2.4",
+      "title": "Curved segments (radiused and bevelled lags)–",
+      "text": "2.9.2.4  Curved segments (radiused and bevelled lags)- Shall be furnished in lengths of 500 mm, 600 mm or 900 mm and in thckness of 40 mm, 50 mm, 60 mm or 75 mm for curved surface having external radius greater than 110 mm.",
+      "clause_id": "IS 8154:1993#2.9.2.4",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 4,
+      "parent_clause": "2.9.2",
+      "role": "other",
+      "page_start": 840,
+      "page_end": 840,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.9.3",
+      "title": "Dimensional Tolerance – The dimensional",
+      "text": "2.9.3 Dimensional Tolerance - The dimensional tolerance of preformed insulation material shall be as follows - a) Flat blocks 1) Length and width ± 3 mm 2) Thickness -1.5 mm + 3 mm b) Pipe sections 1) Length ±3 mm 2) Inside diameter 0 mm +5 mm 3) Thickness (average) -1.5 mm +3 mm",
+      "clause_id": "IS 8154:1993#2.9.3",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "2.9",
+      "role": "other",
+      "page_start": 840,
+      "page_end": 840,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8154:1993",
+      "clause": "2.9.3.1",
+      "title": "Uniformity – The local",
+      "text": "2.9.3.1   Uniformity - The local thickness at any point shall not vary from the average thickness by more than ±3 mm.",
+      "clause_id": "IS 8154:1993#2.9.3.1",
+      "family": "IS 8154",
+      "year": 1993,
+      "level": 4,
+      "parent_clause": "2.9.3",
+      "role": "other",
+      "page_start": 840,
+      "page_end": 840,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8154:1993",
+    "record_id": 15227,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      839,
+      840
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3438:1994",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and methods of sampling and test for silvered glass mirrors used for general purposes.",
+      "clause_id": "IS 3438:1994#1",
+      "family": "IS 3438",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 823,
+      "page_end": 823,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3438:1994",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 3438:1994#2",
+      "family": "IS 3438",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 823,
+      "page_end": 823,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3438:1994",
+      "clause": "2.1",
+      "title": "General – Mirrors shall",
+      "text": "2.1 General -  Mirrors shall consist of glass sheet coated with silver on one surface. The silver shall be protected by a metallic copper film which in turn shall be covered by a suitable protective paint coating.",
+      "clause_id": "IS 3438:1994#2.1",
+      "family": "IS 3438",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 823,
+      "page_end": 823,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3438:1994",
+      "clause": "2.2",
+      "title": "Glass Sheet – The",
+      "text": "2.2 Glass Sheet -  The Glass sheet used for mirrors shall comply with the requirements prescribed for AA and A qualities of IS 2835 : 1987 Note -  Float glass may also be used if agreed to between the purchaser and the supplier.",
+      "clause_id": "IS 3438:1994#2.2",
+      "family": "IS 3438",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 823,
+      "page_end": 823,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3438:1994",
+      "clause": "2.3",
+      "title": "Silvering – Silvering shall",
+      "text": "2.3 Silvering -  Silvering shall be a coating of deposited silver. It shall be free from defects or blemishes in the reflecting surface, such as, lifting or separation of the silver from the glass, sulphide or other spots, haze of any other visible defects. The amount of silver deposit shall not be less than 0.8 g/m2. * Flat transparent sheet glass (third revision)",
+      "clause_id": "IS 3438:1994#2.3",
+      "family": "IS 3438",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 823,
+      "page_end": 823,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3438:1994",
+      "clause": "2.4",
+      "title": "Copper Costing",
+      "text": "2.4 Copper Costing — The silvered surface shall be protected by a film of deposited copper. The amount of copper deposit shall be not less than 0.4 g/m2.",
+      "clause_id": "IS 3438:1994#2.4",
+      "family": "IS 3438",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 823,
+      "page_end": 823,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3438:1994",
+      "clause": "2.5",
+      "title": "Protective Coating – A",
+      "text": "2.5 Protective Coating - A suitable protective paint coating shall be applied over the copper coating.",
+      "clause_id": "IS 3438:1994#2.5",
+      "family": "IS 3438",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 823,
+      "page_end": 823,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3438:1994",
+      "clause": "2.5.1",
+      "title": "This paint coating shall",
+      "text": "2.5.1 This paint coating shall not crack or peel the silver or copper coating due to change in the atmospheric temperature or age-dying.",
+      "clause_id": "IS 3438:1994#2.5.1",
+      "family": "IS 3438",
+      "year": 1994,
+      "level": 3,
+      "parent_clause": "2.5",
+      "role": "other",
+      "page_start": 823,
+      "page_end": 823,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3438:1994",
+      "clause": "2.6",
+      "title": "Reflectance – Reflectance of",
+      "text": "2.6 Reflectance -  Reflectance of the mirrors shall not be less than 80 percent for clear (untinted) glass mirrors.",
+      "clause_id": "IS 3438:1994#2.6",
+      "family": "IS 3438",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 823,
+      "page_end": 823,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3438:1994",
+      "clause": "3",
+      "title": "Tests – Shall pass",
+      "text": "3. Tests -  Shall pass the prescribed tests for: a) Test for waviness b) Salt spray test c) Hot water test d) Testing for copper and silver plating. Note— For methods of tests refer to 5 and Appendices A to D of  the standard. For detailed information, refer to IS 3438 : 1994  Specifications for silvered glass mirrors for general purposes (second revision).",
+      "clause_id": "IS 3438:1994#3",
+      "family": "IS 3438",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 823,
+      "page_end": 823,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3438:1994",
+    "record_id": 10034,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      823,
+      823
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.973,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

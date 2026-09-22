@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7834 (Part 6):1987",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Requirements for manufacture, dimensions, tolerances and marking for sockets made of injections moulded PVC for water supplies.",
+      "clause_id": "IS 7834 (Part 6):1987#1",
+      "family": "IS 7834 (Part 6)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 348,
+      "page_end": 348,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7834 (Part 6):1987",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 7834 (Part 6):1987#2",
+      "family": "IS 7834 (Part 6)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 348,
+      "page_end": 348,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7834 (Part 6):1987",
+      "clause": "2.1",
+      "title": "The laying length",
+      "text": "2.1 The laying length  Z and tolerances thereon shall comply with those given in Table 1. TABLE 1 DIMENSIONS FOR LAYING LENGTH OF SOCKET Size Socket Elbow Laying Length, mm Z, mm 16 3    1 20 3    1 25 3 + 1.6 - 1 32 3 + 1.6 - 1 40 3 + 2 - 1 50 3 + 2 - 1 63 3+ 2 - 1 SUMMARY OF IS 7834 (PART6) : 1987 INJECTION MOULDING PVC SOCKET FITTINGS WITH SOLVENT CEMENT JOINTS FOR WATER SUPPLIES PART 6 SPECIFIC  REQUIREMENTS FOR SOCKETS (First Revision) Note - For  typical illustration of socket and Z  see fig. 1 of the standard. For detailed information, refer to IS 7834 (Part 6) : 1987 Specification for  Injection moulded PVC socket fittings with solvent cement joints for water supplies : Part 6 Specific requirements for sockets (first revision). 75 4 + 2 - 1 90 5 + 2 - 1 110 6 + 3 - 1 125 6 + 3 - 1 140 8 + 3 - 1 160 8 + 4 - 1 180 8 + 4 - 1 200 8 + 5 - 1 225 10 + 5 - 1 250 10 + 6 - 1 280 12 + 6 - 1 315 12 + 7 - 1",
+      "clause_id": "IS 7834 (Part 6):1987#2.1",
+      "family": "IS 7834 (Part 6)",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 348,
+      "page_end": 348,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7834 (Part 6):1987",
+      "clause": "2.2",
+      "title": "The inside diameter of",
+      "text": "2.2 The inside diameter of the socket, the socket length and the tolerance thereon shall comply with those given in IS  7834 (Part 1) : 1987+. * General requirements ± ±",
+      "clause_id": "IS 7834 (Part 6):1987#2.2",
+      "family": "IS 7834 (Part 6)",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 348,
+      "page_end": 348,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7834 (Part 6):1987",
+    "record_id": 14872,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      348,
+      348
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

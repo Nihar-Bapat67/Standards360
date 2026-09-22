@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12817:1997",
+      "clause": "1",
+      "title": "Scope – Types and requirements regarding",
+      "text": "1. Scope - Types and requirements regarding materials, dimensions, manufacture and finish of stainless steel butt hinges.",
+      "clause_id": "IS 12817:1997#1",
+      "family": "IS 12817",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 546,
+      "page_end": 546,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 12817:1997",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types a) Light weight (narrow) hinges b) Medium weight  hinges c) Heavy weight hinges d) Unequal flap hinges",
+      "clause_id": "IS 12817:1997#2",
+      "family": "IS 12817",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 546,
+      "page_end": 546,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 12817:1997",
+      "clause": "3",
+      "title": "Sizes",
+      "text": "3. Sizes",
+      "clause_id": "IS 12817:1997#3",
+      "family": "IS 12817",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 546,
+      "page_end": 546,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 12817:1997",
+      "clause": "3.1",
+      "title": "Light Weight (Narrow) Hinges",
+      "text": "3.1 Light Weight (Narrow) Hinges — 60 and 75 mm",
+      "clause_id": "IS 12817:1997#3.1",
+      "family": "IS 12817",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 546,
+      "page_end": 546,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 12817:1997",
+      "clause": "3.2",
+      "title": "Medium Weight Hinges",
+      "text": "3.2 Medium Weight Hinges — 50, 65, 75, 100, 125 and 150  mm",
+      "clause_id": "IS 12817:1997#3.2",
+      "family": "IS 12817",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 546,
+      "page_end": 546,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 12817:1997",
+      "clause": "3.3",
+      "title": "Heavy Weight Hinges",
+      "text": "3.3 Heavy Weight Hinges — 75, 100, 125 and 150 mm",
+      "clause_id": "IS 12817:1997#3.3",
+      "family": "IS 12817",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 546,
+      "page_end": 546,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 12817:1997",
+      "clause": "3.4",
+      "title": "Uneaual Flat Hinges",
+      "text": "3.4 Uneaual Flat Hinges 60    ×    10    ×    16 mm 60    ×    12    ×    19 mm 75    ×    10    ×    16 mm 75    ×    12    ×    19 mm Note 1- The size shall be denoted by the length of the hinge. Note 2 - For details on dimensions and tolerances, refer to 6 and Tables 1 to 4 of the standard.",
+      "clause_id": "IS 12817:1997#3.4",
+      "family": "IS 12817",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 546,
+      "page_end": 546,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 12817:1997",
+      "clause": "4",
+      "title": "Materials",
+      "text": "4. Materials — Shall conform to the prescribed grades of the standard.",
+      "clause_id": "IS 12817:1997#4",
+      "family": "IS 12817",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 546,
+      "page_end": 546,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 12817:1997",
+      "clause": "5",
+      "title": "Finish",
+      "text": "5. Finish — Unless otherwise specified, hinges, shall be naturally finished bright with smooth surface without chemical coatings. For detailed information, refer to  IS 12817:1997 Specification for stainless steel butt hinges (first revision) SUMMARY OF IS 12817 : 1997 STAINLESS STEEL BUTT HINGES (First Revision)",
+      "clause_id": "IS 12817:1997#5",
+      "family": "IS 12817",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 546,
+      "page_end": 546,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12817:1997",
+    "record_id": 99,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      546,
+      546
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

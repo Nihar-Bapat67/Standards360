@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1658:1977",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope - Requirements  of  fibre hardboards for general purposes. This standard does not cover requirements of insulation boards, wood particle boards (chip boards), and similar boards.",
+      "clause_id": "IS 1658:1977#1",
+      "family": "IS 1658",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 570,
+      "page_end": 570,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1658:1977",
+      "clause": "2",
+      "title": "Types – Classified according",
+      "text": "2. Types - Classified according to their method of manufacture, density, mechanical and physical properties: a) Medium hardboard - Density between 0.35 g/cm3 and 0.8 g/cm3 b) Standard hardboard - Density  more than 0.80 g/cm3 c) Tempered hardboard-Hardboard further treated during manufacture to modify their properties.",
+      "clause_id": "IS 1658:1977#2",
+      "family": "IS 1658",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 570,
+      "page_end": 570,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1658:1977",
+      "clause": "3",
+      "title": "Dimensions and Tolerances",
+      "text": "3. Dimensions and Tolerances— a) Thickness (mm) i)   Medium hard board 6 8 10 12 Tolerance(mm) ± 0.5 ±0.7 ±0.7 ±0.9 ii) Standard hardboard iii) Tempered 3",
+      "clause_id": "IS 1658:1977#3",
+      "family": "IS 1658",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 570,
+      "page_end": 570,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1658:1977",
+      "clause": "4",
+      "title": "5",
+      "text": "4",
+      "clause_id": "IS 1658:1977#4",
+      "family": "IS 1658",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 570,
+      "page_end": 570,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1658:1977",
+      "clause": "5",
+      "title": "6",
+      "text": "5",
+      "clause_id": "IS 1658:1977#5",
+      "family": "IS 1658",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 570,
+      "page_end": 570,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1658:1977",
+      "clause": "6",
+      "title": "9",
+      "text": "6 9 hardboard Tolerance ±0.4 ±0.4 ±0.4 ±0.5 ±0.7 (mm) b) Width             1.2 m; tolerance ±0.3 mm c) Length - 1.2, 1.8, 2.4, 3.0, 3.6, 4.8 and 5.5m; tolerance ± 0.5 mm d) Boards shall be rectangular and  shall have square edges. Difference  between lengths of two diagonals shall exceed ±3 mm per metre length of diagonal Note — For method of tests, refer to Appendices A to C of the standard For detailed information, refer to IS 1658 : 1977 Specification for fibre hardboards (second revision).",
+      "clause_id": "IS 1658:1977#6",
+      "family": "IS 1658",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 570,
+      "page_end": 570,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1658:1977",
+    "record_id": 8081,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      570,
+      570
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.65,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

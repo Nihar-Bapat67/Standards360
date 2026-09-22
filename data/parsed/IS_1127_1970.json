@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1127:1970",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Recommendations for  the dimensions and workmanship of natural building stones used for various types of stone masonry.",
+      "clause_id": "IS 1127:1970#1",
+      "family": "IS 1127",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 113,
+      "page_end": 113,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1127:1970",
+      "clause": "2",
+      "title": "Dimensions and Tolerances",
+      "text": "2. Dimensions and Tolerances",
+      "clause_id": "IS 1127:1970#2",
+      "family": "IS 1127",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 113,
+      "page_end": 113,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1127:1970",
+      "clause": "2.1",
+      "title": "Dimesion – See Table",
+      "text": "2.1 Dimesion - See Table 1. (based on thickness of mortar joints 3 mm for ashlar masonry, 6 mm for block in course and 10 mm for square rubble). TABLE 1 DIMENSIONS OF NATURAL BUILDING  STONES Sl.No. Type of Masonry                              Length   Breath                                            Height mm         mm                                                   mm (1) (2) (3) (4) (5) i) Stones for ashlar 597 297 297 697 347 347 797       397 397 i) Stones for block in course                   394          194 194 494       244 244 iii) Stones for square rubble                         90           90                                                     90 140 90,140 90,140 190 90,140,190 90,140,190 240 90,140,190 90,140,190 290 90,140,190,240 90,140,190,240 390 90,140,190,240,290 90,140,190,240,290 440 90,140,190,240,290 90,140,190,240,290 490 90,140,190,240,290 90,140,190,240,290 590 90,140.190,240,290 90,140,190,240,290 iv) Stones for random rubble. May be of any size and shape but not less than 150 mm in  any direction. v) Stones for sills and                  a) 890,990, lintels.                                            1090,1190,             90, 190, 290, 390, 490                90, 140, 190 1290 b) 1390,1490, 1590,1690,             190, 290, 390, 490, 590               140, 190, 240, 290 1790 vi) Stones for arches, domes The dimensions depend on the particulars of the curve and circular moulded work. vii) Coping  stones.                       190,290,390, 490,590,690,               200, 300, 400, 500, 600 100,150,200 790 viii) Kerb stones.                             390,490,590, 690,790                      100, 200, 30                               300, 400, 500",
+      "clause_id": "IS 1127:1970#2.1",
+      "family": "IS 1127",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 113,
+      "page_end": 113,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1127:1970",
+      "clause": "2.2",
+      "title": "Tolerances",
+      "text": "2.2   Tolerances a)  For stones required in ashlar masonry— 1)         Length and breath ± 5 mm - 10 mm 2)          Height ± 5 mm b) For stones required for other than ashlar masonry— 1)        Length and breath ± 5 mm - 10 mm 2)         Height ± 5 mm",
+      "clause_id": "IS 1127:1970#2.2",
+      "family": "IS 1127",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 113,
+      "page_end": 113,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1127:1970",
+      "clause": "3",
+      "title": "Workmanship",
+      "text": "3. Workmanship  —  Stratified rocks shall be so quarried and dressed that the stones when set in building, are laid along the plane of stratification. Note — For  details on dressing of stones, refer to the standard. For detailed information, refer to IS1127:1970  Specification for dimensions and workmanship of natural building stones for masonry work (first revision).",
+      "clause_id": "IS 1127:1970#3",
+      "family": "IS 1127",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 113,
+      "page_end": 113,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1127:1970",
+    "record_id": 2332,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      113,
+      113
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.993,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3466:1988",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirements for masonry cement to be used for all general purposes where mortars for masonry are required. Masonry cement is, however, not intended for use in structural concrete, for flooring and foundation work or for reinforced and prestressed concrete works. SUMMARY OF IS 3466 : 1988  MASONRY CEMENT (Second Revision)",
+      "clause_id": "IS 3466:1988#1",
+      "family": "IS 3466",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 26,
+      "page_end": 26,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3466:1988",
+      "clause": "2",
+      "title": "Physical Requirements",
+      "text": "2. Physical Requirements — See TABLE 1.",
+      "clause_id": "IS 3466:1988#2",
+      "family": "IS 3466",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 26,
+      "page_end": 26,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3466:1988",
+      "clause": "3",
+      "title": "Delivery",
+      "text": "3. Delivery — Packed in specified bags of 50 kg or 25 kg net or in bulk with tolerance as given in the standard. TABLE 1  PHYSICAL REQUIREMENTS Sl NO.                  Characteristic Requirements i)                   Fineness— Residue on 45-micron IS Sieve, Max percent (by wet sieving) 15 ii)                   Setting Time (by Vicat Apparatus )— a) Initial, Min 90 min b) Final, Max 24 h iii)                   Soundness: a) Le- Chatelier Max 10 mm b) Autoclave expansion, Max 1 percent iv)                  Compressive Strength—Average compressive strength of not less than 3 mortar cubes of 50 mm size, composed of 1 part masonry cement and 3 parts standard stand by volume, Min 7  days 2.5 MPa 28 days 5  MPa v)                   Air Content—Air content of mortar composed of 1 part masonry coement and 6 percent 3 parts standard sand, by volume vi)                   Water Retention— Flow after suction of mortar composed of 1 part cement 60 percent of and 3 parts standard sand by volume, Min original flow Note — For methods of tests, refer to relevant parts of  IS 4031. Methods of physical tests for  hydraulic cement. For detailed information, refer to IS 3466:1988 Specification for Masonry Cement (second revision).",
+      "clause_id": "IS 3466:1988#3",
+      "family": "IS 3466",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "packing",
+      "page_start": 26,
+      "page_end": 26,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3466:1988",
+    "record_id": 10059,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      26,
+      26
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

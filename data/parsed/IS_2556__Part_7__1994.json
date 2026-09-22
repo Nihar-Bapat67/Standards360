@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2556 (Part 7):1994",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for dimensions and tolerances, construction, finish, tests and marking of following accessories, made of vitreous china : Half round channel, Foot rest, Traps for squatting pans, Floor traps, and Shower rose.",
+      "clause_id": "IS 2556 (Part 7):1994#1",
+      "family": "IS 2556 (Part 7)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 445,
+      "page_end": 445,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 7):1994",
+      "clause": "2",
+      "title": "Construction – The accessories",
+      "text": "2. Construction - The accessories shall be of one piece construction. Note — In case of floor trap (see Fig. 4), the grating  (jali) is a separate piece.",
+      "clause_id": "IS 2556 (Part 7):1994#2",
+      "family": "IS 2556 (Part 7)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 445,
+      "page_end": 445,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 7):1994",
+      "clause": "3",
+      "title": "Finish – All the",
+      "text": "3. Finish - All the functional surfaces of the accessories, that is, those coming in contact with water shall be glazed uniform and smooth, in order to ensure an efficient function and use",
+      "clause_id": "IS 2556 (Part 7):1994#3",
+      "family": "IS 2556 (Part 7)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 445,
+      "page_end": 445,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 7):1994",
+      "clause": "4",
+      "title": "Tests",
+      "text": "4. Tests",
+      "clause_id": "IS 2556 (Part 7):1994#4",
+      "family": "IS 2556 (Part 7)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 445,
+      "page_end": 445,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 7):1994",
+      "clause": "4.1",
+      "title": "Performance Test – Applicable",
+      "text": "4.1. Performance Test -  Applicable only for shower rose (see Fig. 5). The shower rose when fitted at a height of 2100 mm from the floor under a minimum of 3 m head shall wet a circular area having 450 mm as its minimum diameter on the floor.",
+      "clause_id": "IS 2556 (Part 7):1994#4.1",
+      "family": "IS 2556 (Part 7)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 445,
+      "page_end": 445,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 7):1994",
+      "clause": "4.2",
+      "title": "Flushing Test – Applicable",
+      "text": "4.2 Flushing Test - Applicable only for traps for squatting pans (see Fig. 3). the flushing test shall be performed in accordance to the provisions stipulated in IS : 2556 (Part 3) : 1994+. SUMMARY OF IS : 2556 (PART 7) : 1994 VITREOUS  SANITARY APPLIANCES (VITREOUS CHINA) PART 7 SPECIFIC REQUIREMENTS OF ACCESSORIES FOR SANITARY APPLIANCES (Third Revision) +      Specific requirements of  squatting pans Note — Ovality is permissible within the variation allowed for the dimension. All dimensions in millimetres. FIG. 1 HALF ROUND CHANNEL All dimensions in millimetres. FIG. 2 FOOT REST Note — Ovality is permissible within the variation allowed for the dimension All dimensions in millimetres. 3A Traps for Long Pattern and Orissa Pattern Pans FIG. 3 TRAPS  FOR  SQUTTING PANS - CONTD Note — Ovality is permissible within the variation allowed for the dimension for inlet and outlet diameters. All dimensions in millimetrrs. FIG. 4 FLOOR TRAPS Note — Ovality is permissible within the variation allowed for the dimension. All dimensions in millimetres. 3B Traps for Rural Pattern Orissa Pattern Pans FIG. 3 TRAPS FOR SQATTING PANS All dimensions in millimeters. FIG. 5 TYPICAL  ILLUSTRATION OF VITREOUS SHOWER ROSE Note1 — For dimensions and tolerances, refer to 5,  of the standard. Note 2 — For general requirements refer to Part 1 General requirements of the standard. For detailed information, refer to IS : 2556 (Part 7) : 1995  vitreous sanitary appliances (vitreous china): Part  7- specific requirements of accessories for sanitary appliances. (third revision)",
+      "clause_id": "IS 2556 (Part 7):1994#4.2",
+      "family": "IS 2556 (Part 7)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 445,
+      "page_end": 448,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2556 (Part 7):1994",
+    "record_id": 9078,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      445,
+      448
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

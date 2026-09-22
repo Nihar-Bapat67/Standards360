@@ -1,0 +1,270 @@
+{
+  "clauses": [
+    {
+      "is": "IS 13204:1991",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and methods of sampling and test for  rigid  for phenolic foam  for thermal insulation  purposes. It applies to slab (blocks, boards and profiled sheets) and profiled sections (pipe sections and radiused or bevelled lags) cut from pipes. The nominal temperature range for which the insulation material is suitable is -180 to + 130ºC without any facing. The material is normally supplied with craft paper facing on both sides. This standard is not applicable to continuously extended phenolic foam pipe insulating sections.",
+      "clause_id": "IS 13204:1991#1",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 855,
+      "page_end": 855,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 13204:1991#2",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 855,
+      "page_end": 855,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "2.1",
+      "title": "Composition",
+      "text": "2.1 Composition — Shall consist of phenolic foam of uniform cellular structure.",
+      "clause_id": "IS 13204:1991#2.1",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 855,
+      "page_end": 855,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "2.2",
+      "title": "The rigid phenolic foam",
+      "text": "2.2 The rigid phenolic foam faced or unfaced shall conform to the requirements given in Table 1. TABLE 1    REQUIREMENT OF RIGID PHENOLIC FOAM Sl Characteristic Requirement NO. i) Density, kg/m3 32-60 ii) Compressive strength at 100 10 percent deformation, Min, kPa iii) Dimensional stability; percent 1.5 linear change after 7 days at 70±20C and 95±5 percent RH,Max iv) Water vapour permeability rate 5.5 at 380C and 88 percent RH, ng/Pa.s.m, Max v) Apparent water absorption 7.5 percent by volume, Max vi) Horizontal burning, mm, Max 25 vii) Closed cell content, percent, Min 60 viii) Thermal conductivity at 530C 0.034 after 30 days of manufacture W/m, 0K, Max",
+      "clause_id": "IS 13204:1991#2.2",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 855,
+      "page_end": 855,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "3",
+      "title": "Sizes and Dimensions",
+      "text": "3. Sizes and Dimensions",
+      "clause_id": "IS 13204:1991#3",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 855,
+      "page_end": 855,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "3.1",
+      "title": "In the case of",
+      "text": "3.1 In the case of finished boards of all the three types, the sizes shall be either 1.0 m ×  0.5 m or 1.22 m ×  0.61 m or as agreed to between the purchaser and the supplier. The size for pipe-section and lags shall be 1.0 or 0.5 m length unless otherwise agreed to between the purchaser and the supplier, and the bore shall be the specified outside diameter of the pipe to be lagged.",
+      "clause_id": "IS 13204:1991#3.1",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 855,
+      "page_end": 855,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "3.2",
+      "title": "Thickness – The material",
+      "text": "3.2 Thickness - The material shall normally be supplied in thickness  of 20, 25, 30, 40, 50, 60, 75, 90 and 100 mm.",
+      "clause_id": "IS 13204:1991#3.2",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 855,
+      "page_end": 855,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "3.3",
+      "title": "Tolerance – Shall not",
+      "text": "3.3 Tolerance -  Shall not deviate from those specified by more than the appropriate tolerances given in Tables 2 and 3. For slabs, the permissible thickness deviations shall be ±2 mm. TABLE 2  DIMENSIONAL TOLERANCES FOR PIPE SECTIONS AND LAGS Sl Dimensions Permissible Deviations NO. Moulded Cut Pipe Section and Lags mm mm i) Lengths ±3 ±3 ii) Bores less than 150 mm +2 +2 - 0 - 0 iii) Bores 150 mm and above +3 +3 - 0 - 0 iv) Outside diameters +2 +2 less than 150 mm - 0 - 0 v) Outside diameters +3 +3 150 mm and above - 0 - 0 TABLE 3    DIMENSIONAL TOLERANCES FOR SLABS Sl Lengths Permissible Max Thickness No or Deviations Differences Tolerance Widths of Lengths in the Lengths or Widths of the Diagonals of Rectangular Slab mm mm mm mm i) Up to and ± 2 5 ±2 including 1000 ii) Over 1000 up ±3 7 ±2 to and including 2000",
+      "clause_id": "IS 13204:1991#3.3",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 855,
+      "page_end": 855,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "4",
+      "title": "Workmanship and Finish",
+      "text": "4. Workmanship and Finish",
+      "clause_id": "IS 13204:1991#4",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 856,
+      "page_end": 856,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "4.1",
+      "title": "General – Shall not",
+      "text": "4.1 General -  Shall not have visible defects that would adversely affects its service qualities.",
+      "clause_id": "IS 13204:1991#4.1",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 856,
+      "page_end": 856,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "4.2",
+      "title": "Profiled Sections –",
+      "text": "4.2 Profiled Sections -",
+      "clause_id": "IS 13204:1991#4.2",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 856,
+      "page_end": 856,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "4.2.1",
+      "title": "Pipe Sections – Pipe",
+      "text": "4.2.1 Pipe Sections - Pipe sections shall be supplied in two semicircular pieces with the longitudinally mating surfaces flat and in the same plane, so that when the two pieces are put together no gap exist between the mating surfaces.The ends shall be flat and normal to the longitudinal axis of the sections.",
+      "clause_id": "IS 13204:1991#4.2.1",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 3,
+      "parent_clause": "4.2",
+      "role": "other",
+      "page_start": 856,
+      "page_end": 856,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 13204:1991",
+      "clause": "4.2.2",
+      "title": "Radiused and Bevelled Lags",
+      "text": "4.2.2 Radiused and Bevelled Lags - The mating bevelled edges shall be flat, so that when they are put together to form a cylinder no gaps exist between abutting lags. The ends shall be flat and normal to the longitudinal axis of the lag. Note1 - For notes on guidance to user/designers refer to Appendix A of the standard. Note2 -  For method of tests, refer to IS 3144 : 1992 Mineral wool thermal insulation materials Methods of tests (second revision), IS 3346 : 1980 Method of determination of thermal conductivity of thermal insulating materials (two slab guarded hot plate method) (first revision) and relevant parts of IS 11239 : 1985 Method of test for cellular thermal insulating materials. For detailed information , refer to ISI 13208  : 1991  Specifications for rigid phenolic foam for thermal insulation. SECTION 24 PLASTICS CONTENTS Title Page IS 2036 : 1995 Phenolic laminated sheets (second revision) 24.3 IS 2046 : 1995 Decorative thermosetting synthetic resin bonded laminated sheets 24.5 (second revision) IS 2508 : 1984 Low density polyethylene films (second revision) 24.8 IS 6307 : 1985 Rigid PVC sheets (first revision) 24.10 IS 10889 : 1984 High density  polyethylene films 24.11 IS 12830 : 1989 Rubber based adhesives for fixing PVC tiles to cement 24.13 IS 12994 : 1990 Epoxy adhesives room temperature  curing, general purpose 24.14 IS 14182 : 1994 Solvent cement for use with unplasticized PVC plastic pipe fittings 24.15 IS 14443 : 1997 Polycarbonate sheets 24.17 IS 14643 : 1999 Unsintered polytetra fluoroethylene ( PTFE) tapes for thread 24.19 sealing applications IS 14753 : 1999 Polymethyl methacrylate (PMMA) (Acrylic) sheets 24.20",
+      "clause_id": "IS 13204:1991#4.2.2",
+      "family": "IS 13204",
+      "year": 1991,
+      "level": 3,
+      "parent_clause": "4.2",
+      "role": "other",
+      "page_start": 856,
+      "page_end": 858,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 13204:1991",
+    "record_id": 4732,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      855,
+      858
+    ],
+    "n_clauses": 13,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn",
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

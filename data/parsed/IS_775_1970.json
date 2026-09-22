@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 775:1970",
+      "clause": "1",
+      "title": "Scope–Requirements regarding material,",
+      "text": "1. Scope-Requirements regarding material, construction, workmanship dimensions, weights and finish of cast iron brackets and supports for wash basins and sinks.",
+      "clause_id": "IS 775:1970#1",
+      "family": "IS 775",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 272,
+      "page_end": 272,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 775:1970",
+      "clause": "2",
+      "title": "Type and Weights",
+      "text": "2. Type and Weights Type Weight a) Cantilever support for sink 1.8 b) Recessed cantilever support for 1.8 sink c) Wall fixing bracket for sink 2.7 d) Wall fixing bracket with resses for 2.7 sink e) Strap and leg support for sink 1.8 f) Strap and leg support with recess 1.8 for sink g) Bracket and leg support for sink 1.8 h) Bracket and leg support with recess 2.0 for sink j) Built-in-single rail type bracket for 1.5 wash basin k) Built-in cantilever type bracke for 1.5 wash basin m) Wall fixing single rail type bracket 1.2 for wash basin n) Wall fixing cantilever type bracket 1.0 for wash basin p) Strap and leg support with  As utually front towel rail for wash basin agreed",
+      "clause_id": "IS 775:1970#2",
+      "family": "IS 775",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 272,
+      "page_end": 272,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 775:1970",
+      "clause": "3",
+      "title": "Construction and Workmanship",
+      "text": "3. Construction and Workmanship a) Brackets for building into wall shall include a lugged portion, and a flange at bottom to indicate wall line. Lugged portion shall be slotted. b) Brackets for screwing to wall shall have  back fixing plate c) Supports with horizontal strap and supporting leg, or cast iron brackets with supporting leg shall bearranged for wall fixing. Leg support shall be 15 mm  bore steel tube or casting and shall terminate in a flange for fixing to floor. d) Strap or bracket and supporting leg shall be made separately.",
+      "clause_id": "IS 775:1970#3",
+      "family": "IS 775",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 272,
+      "page_end": 272,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 775:1970",
+      "clause": "4",
+      "title": "Finish",
+      "text": "4. Finish - Painted, galvanized or porcelain enamelled. For hospital use, chromium plated or porcelain enamelled. Note—-For dimensions and figures refer to the standard For detailed information, refer to IS 775 : 1970  Specification for cast iron brackets and supports for wash-basins and sinks (second revision). SUMMARY OF IS 775 : 1970 CAST IRON BRACKETS AND SUPPORTS FOR  WASH-BASINS AND SINKS (Second Revision)",
+      "clause_id": "IS 775:1970#4",
+      "family": "IS 775",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 272,
+      "page_end": 272,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 775:1970",
+    "record_id": 20343,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      272,
+      272
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

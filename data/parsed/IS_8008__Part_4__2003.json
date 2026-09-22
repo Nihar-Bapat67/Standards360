@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8008 (Part 4):2003",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1.     Scope — Requirements for manufacture, dimensions and tolerances, and marking for injection moulded  and machined HDPE reducers for potable water supplies.",
+      "clause_id": "IS 8008 (Part 4):2003#1",
+      "family": "IS 8008 (Part 4)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 354,
+      "page_end": 354,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 4):2003",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2.   Requirements",
+      "clause_id": "IS 8008 (Part 4):2003#2",
+      "family": "IS 8008 (Part 4)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 354,
+      "page_end": 354,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 4):2003",
+      "clause": "2.1",
+      "title": "Two different diameters at",
+      "text": "2.1 Two different diameters at either end shall be concentric.",
+      "clause_id": "IS 8008 (Part 4):2003#2.1",
+      "family": "IS 8008 (Part 4)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 354,
+      "page_end": 354,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 4):2003",
+      "clause": "2.2",
+      "title": "Overall laying length and",
+      "text": "2.2 Overall laying length and the tolerance thereon shall be as follows: Note — For general requirements regarding material, manufacture, methods of test, etc, refer to IS  8008 (Part-1):2003. Injection moulded high density polyethylene (HDPE) fittings for potable water supplies : Part 1 General requirements for fifths. For  detailed information, refer to IS  8008 (Part 4 ) :2003  Specification for  injection moulded high density polyethylene (HDPE) fittings for potable water supplies : Part 4 specific requirements for reducers (first revision). SUMMARY OF IS 8008 (PART 4) : 2003 INJECTION MOULDED HIGH DENSITY POLYETHYLENE (HDPE) FITTINGS FOR POTABLE WATER SUPPLIES PART 4 SPECIFIC REQUIREMENTS FOR REDUCERS (First Revision) Size Bends Laying Length mm mm 32 × 63 70 ± 1 63 × 75 70 ± 1 63 × 90 80 ± 1 75 × 90 80 ± 1 90 × 110 95 ± 1 110 × 160 125 ± 1 160 × 225 165 ± 1 Note — For typical illustration of reducer see Fig.1 of  the standard.",
+      "clause_id": "IS 8008 (Part 4):2003#2.2",
+      "family": "IS 8008 (Part 4)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 354,
+      "page_end": 354,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 4):2003",
+      "clause": "2.3",
+      "title": "Outside diameter and wall",
+      "text": "2.3 Outside diameter and wall thickness at ends for welding shall be in accordance with  IS 8008 (Part 1) : 2003.",
+      "clause_id": "IS 8008 (Part 4):2003#2.3",
+      "family": "IS 8008 (Part 4)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 354,
+      "page_end": 354,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8008 (Part 4):2003",
+    "record_id": 15063,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      354,
+      354
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6163:1978",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for centrifugally cast (spun) iron low pressure pipes, known as LP pipes, for conveyance of water, gas and sewage, manufactured in metal or sand moulds. 1.2 This standard is applicable to cast iron pipes having spigots and sockets as specified in this standard, and also to pipes with other types of joints particularly rubber joints. In case of rubber joints the inner profile of the socket end of the pipe shall depend on the type of rubber joint ensuring that the overall dimensions are maintained for reasons of safety and interchangeability.",
+      "clause_id": "IS 6163:1978#1",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 316,
+      "page_end": 316,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "2",
+      "title": "Mechanical Tests",
+      "text": "2. Mechanical Tests",
+      "clause_id": "IS 6163:1978#2",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 316,
+      "page_end": 316,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "2.1",
+      "title": "Ring Test (for Pipes",
+      "text": "2.1 Ring Test (for Pipes Cast in Metal Moulds) Up to and including Modulus of Rupture 300 mm nominal dia. 40 kgf/mm2, Min",
+      "clause_id": "IS 6163:1978#2.1",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 316,
+      "page_end": 316,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "2.2",
+      "title": "Tensile Test",
+      "text": "2.2 Tensile Test",
+      "clause_id": "IS 6163:1978#2.2",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 316,
+      "page_end": 316,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "2.2.1",
+      "title": "Pipes Cast in Metal Moulds",
+      "text": "2.2.1 Pipes Cast in Metal Moulds Nominal Dia Tensile Strength Min Over 300 mm and 20 kgf/mm2 up to 600 mm Over 600 mm 18 kgf/mm2",
+      "clause_id": "IS 6163:1978#2.2.1",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 316,
+      "page_end": 316,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "2.2.2",
+      "title": "Pipes Cast in Sand Moulds",
+      "text": "2.2.2 Pipes Cast in Sand Moulds Tensile strength 18 kgf/mm2, Min (all diameters)",
+      "clause_id": "IS 6163:1978#2.2.2",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 316,
+      "page_end": 316,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "3",
+      "title": "Brinell Hardness Test",
+      "text": "3. Brinell Hardness Test —  Hardness of external unmachined surface shall not exceed 230 HB.",
+      "clause_id": "IS 6163:1978#3",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 316,
+      "page_end": 316,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "4",
+      "title": "Hydrostatic Test",
+      "text": "4. Hydrostatic Test — Shall withstand test pressure of 17.5 kf/cm2 without showing leakage, sweating or other defects, when kept under pressure for 15 seconds. All pipes shall withstand a test pressure of 6 kgf/cm2 after installation. Note — For method of test refer to IS 1500 : 1983 Method for Brimell hardness test for metallic materials(second revision) For detailed information, Refer to  IS 6163 : 1978 Specification for  centrifugally cast (spun) iron low pressure pipes for water, gas and sewage.",
+      "clause_id": "IS 6163:1978#4",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 316,
+      "page_end": 317,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "6",
+      "title": "Tolerances",
+      "text": "6. Tolerances a) External diameter of barrel ½f  = + (4.5+0.0015 dn) mm b) Internal diameter of socket ½f  = + (3+0.001 dn) mm c) Depth of socket Nominal dia up to 600 mm —     5 mm Nominal dia over 600 mm —      10 mm d) Length —     25 mm e) Wall thickness — (1 + 0.05 e) mm f) Maximum deviation from straight line (in mm) shall not be greater than 1.25 times the length of pipe in metres. Where \"f\" is caulking space of joint in mm —     9 + 0.003 dn dn — Nominal dia in mm e — Wall thickness in mm",
+      "clause_id": "IS 6163:1978#6",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 317,
+      "page_end": 317,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "7",
+      "title": "Mass",
+      "text": "7. Mass",
+      "clause_id": "IS 6163:1978#7",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 317,
+      "page_end": 317,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "7.1",
+      "title": "Density of cast iron",
+      "text": "7.1 Density of cast iron is taken as 7.15 kg/dm3. Tolerance     5 percent.",
+      "clause_id": "IS 6163:1978#7.1",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 317,
+      "page_end": 317,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6163:1978",
+      "clause": "8",
+      "title": "Coating",
+      "text": "8. Coating —Where coating material has tar or similar base, it shall be smooth and tenacious and hard enough not to flow at temperature of 77°C and not so brittle as to chip off at 0°C when scribed lightly with a penknife. When  pipes  are used for conveying potable water, inside coating shall not contain any constituent soluble such water or any ingredient which could impart any taste or odour to the potable water after sterilization and washing of the mains. ± ± ± ± ± ±",
+      "clause_id": "IS 6163:1978#8",
+      "family": "IS 6163",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 317,
+      "page_end": 317,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6163:1978",
+    "record_id": 13000,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      316,
+      317
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.79,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

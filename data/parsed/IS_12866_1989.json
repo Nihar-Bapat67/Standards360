@@ -1,0 +1,292 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12866:1989",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Specifies dimensions, tolerances, strength and light transmission of glass fibre reinforced translucent plastic sheeting of the profiles specified in IS 277 : 1992*, IS 459:1992**  and IS 1254:1991+  for use in roofs.\" Recommended temperature range is from —20 to 60°C",
+      "clause_id": "IS 12866:1989#1",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 244,
+      "page_end": 244,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2. Materials — Shall be composed of a thermosetting styranated or acrylated polyester resin system reinforced with glass  fibre  which  may include curing agents, catalysts and light stabilizers. Glassfibre  shall be in the form of chopped strand mat having a highly soluble modified polyester binder in accordance with IS 11551:1996@    having a density of 450 g/m2  and minimum width of 500 mm. Special grade of unsaturated polyester resin    having a refractive index matching that of the  glassfibre (that is 1.53) and conforming to the broad specifications given below shall be used. a) Viscosity at 25oC, in cps               :       400 to 500 (Brooke -field LVF spindle 2/12 rev 1 min) b)      Specific gravity at 20oC :       1.11 c)      Acid number, in mg KOH/g :        25 to 30 d) Solids, in percent :        65",
+      "clause_id": "IS 12866:1989#2",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 244,
+      "page_end": 244,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "3",
+      "title": "Profiles, Dimensions and Tolerances",
+      "text": "3. Profiles, Dimensions and Tolerances",
+      "clause_id": "IS 12866:1989#3",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 244,
+      "page_end": 244,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "3.1",
+      "title": "Profiles",
+      "text": "3.1 Profiles— The profile of the sheet shall match the profiles specified in the appropriate Indian Standards for the particular material. See Table  1. *   Galvanized steel sheet (plain and corrugated (fifth revision) ** Corrugated and semi-corrugated asbestos cementsheets (third revision) +  Corrugated aluminium sheet (third revision) @   Glass fibre chopped strand mat for the rein-forcement of epoxy, phenolic and polyester resin systems (first revision)",
+      "clause_id": "IS 12866:1989#3.1",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 244,
+      "page_end": 244,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "4",
+      "title": "Workmanship and finish",
+      "text": "4. Workmanship and finish",
+      "clause_id": "IS 12866:1989#4",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 244,
+      "page_end": 244,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "4.1",
+      "title": "The sheets shall have",
+      "text": "4.1 The sheets shall have a smooth surface finish on both sides. A resin rich surface on the exposed part of the sheet is necessary to ensure that the sheet has good weathering properties.The moulded sheets shall be reasonably free from visible defects, such as, fibre pattern, foreign inclusions, cracks, crazing, die-lines, pin holes,  striations, and bubbles over 1.3 mm in diameter. SUMMARY OF IS  12866 : 1989 PLASTIC TRANSLUCENT SHEET MADE FROM THERMOSETTING POLYESTER RESIN (GLASS FIBRE REINFORCED) TABLE 1 DIMENSION AND TOLERANCES OF GLASSFIBRE REINFORCED CORRUGATED TRANSLUCENT ROOFLIGHT SHEETS All dimensions in millimetres. Sl. Type of Profile Depth of Pitch of Overall Effective Minimum Length of No. Sheet No. Corrugation Corrugation Width Width Thickness Sheet D Tolerance P Tolerance B Tolerance Tolerance T Tolerance A Tolerance (1) (2) (3) (4) (5)          (6) (7) (8)            (9) (10)          (11)       (12)    (13) (14) i) Corrugated 1 48 + 3 146 + 6 1050           +10 +10            1.1    +0.15     1 750      0.5% asbestos - 5 - 9 -5 -5 2 000 of length cement, profile      2 45 + 3 338 + 6 1100           +10 +10 2 500 in accordance - 5 -  2 -5 -5 3 000 with IS 459:1992 ii) Corrugated 3 17.5 2.5 75 +5 660 +0.15    1 800 0.5% steel 4 12.5        2.5 810 2 200 of length profile in 910 2 500 accordance with 680 2 800 IS 277 : 1992 830 3 000 iii) Corrugated",
+      "clause_id": "IS 12866:1989#4.1",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 244,
+      "page_end": 244,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "5",
+      "title": "19",
+      "text": "5 19 — 75 +5 650               25 1.1    +0.15     1 800 aluminum sheets 800             25 2 400   0.5% profile in of length accordance with    6 38 — 125                5 795           +25 3 000 ± ± ± ± ± 4.2 Special Finishes - A clear tissue of fibreglass surface mat or polyester mat may be applied to the sheet surface( on the side exposed to weathering ) during manufacture to improve resistance to weathering. Alternatively, PVF and polyester cladding films can be bonded to the sheet surface (on the side exposed to weathering). 5. Performance Requirements:",
+      "clause_id": "IS 12866:1989#5",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 244,
+      "page_end": 245,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "5.1",
+      "title": "Density",
+      "text": "5.1 Density  —The nominal weight of 1.10 + 0.15 mm thick plain sheet shall be 1.85 kg/sq m.",
+      "clause_id": "IS 12866:1989#5.1",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 245,
+      "page_end": 245,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "5.2",
+      "title": "Glass Content",
+      "text": "5.2 Glass Content—Shall not be less than 30 percent",
+      "clause_id": "IS 12866:1989#5.2",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 245,
+      "page_end": 245,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "5.3",
+      "title": "Water Absorption",
+      "text": "5.3 Water Absorption — Shall not absorb water in excess of 0.3 percent",
+      "clause_id": "IS 12866:1989#5.3",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 245,
+      "page_end": 245,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "5.4",
+      "title": "Hardness (Barcol)",
+      "text": "5.4 Hardness (Barcol)  -  Barcol hardness shall not increase by more than 30 percent of its initial value.",
+      "clause_id": "IS 12866:1989#5.4",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 245,
+      "page_end": 245,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "5.5",
+      "title": "Bolt Shear Test",
+      "text": "5.5 Bolt Shear Test  - Arithmetic mean of the loads at which the first tear appears, shall be not less than 375 N. The load at which the first tear appears while testing any one of the specimens, shall be not less than 250 N.",
+      "clause_id": "IS 12866:1989#5.5",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 245,
+      "page_end": 245,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "5.6",
+      "title": "Load Deflection Test –",
+      "text": "5.6 Load Deflection Test - Applicable only to corrugated sheets and flats of curved sheets. When three sheets of 1.10+0.15 mm thickness are tested none of the sheets shall rupture although minor cracking around the areas of support or loading shall be permitted. The total load as shown in Table 2 shall produce a deflection of not more than 15mm (that is, span/70) on any of the sheets. TABLE 2 DEFLECTION UNDER TEST LOAD Profile No. in Total Load Accordance N With Table (1) (2) 1 1 100 2 1 100 3 190 4 190 5 190",
+      "clause_id": "IS 12866:1989#5.6",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 245,
+      "page_end": 245,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "6",
+      "title": "850",
+      "text": "6 850",
+      "clause_id": "IS 12866:1989#6",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 245,
+      "page_end": 245,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12866:1989",
+      "clause": "7",
+      "title": "750",
+      "text": "7 750 5.7 Light Diffusion — The gradient constant shall be as per  Table 3 TABLE 3 LIGHT DIFFUSION GRADIENT CONSTANT G Diffusion Description Gradient Classification Constant G (1)              (2) (3) I Clear Above 0.80 II Moderately diffusing 0.32 to 0.80 III Heavily diffusing 0.10 to 0.32 IV Very heavily diffusing Below 0.10 5.8 Transmission— The gradient constant shall lie within the limits set out in Table 4 for the appropriate class of sheet. TABLE 4 MINIMUM TOTAL LIGHT TRANSMISSION Diffusion Minimum Total Classification Transmission (1) (2) I 80 II 75 III 70 IV 60 Note— for methods of tests, refer to Appendices A to G of the standard. For detailed information, refer to IS 12866 : 1989 specification for plastic translucent sheets made from thermosetting polyster resin (glass fibre reinforced).",
+      "clause_id": "IS 12866:1989#7",
+      "family": "IS 12866",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 245,
+      "page_end": 245,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12866:1989",
+    "record_id": 4325,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      244,
+      245
+    ],
+    "n_clauses": 15,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

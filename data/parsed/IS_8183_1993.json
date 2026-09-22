@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8183:1993",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and the methods of sampling and test for bonded mineral wool for thermal insulation.",
+      "clause_id": "IS 8183:1993#1",
+      "family": "IS 8183",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 841,
+      "page_end": 841,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8183:1993",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 8183:1993#2",
+      "family": "IS 8183",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 841,
+      "page_end": 841,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8183:1993",
+      "clause": "2.1",
+      "title": "Description – The material",
+      "text": "2.1 Description - The material shall be mineral wool made from rock, slag or glass processed from a molten state into fibrous form and shall be bonded with a suitable binder. The slabs are normally supplied unfaced. Certain applications may require an applied finish of cloth, foil, wire netting, glass tissue, polythene or any other suitable material on one or both faces and these may be obtained as agreed to between the purchaser and the supplier.",
+      "clause_id": "IS 8183:1993#2.1",
+      "family": "IS 8183",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 841,
+      "page_end": 841,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8183:1993",
+      "clause": "2.2",
+      "title": "Bulk Density",
+      "text": "2.2 Bulk Density Group Bulk Density Maximum Recommended kg/m3 Hot FaceTemperature ºC 1 12-50 Up to 250 2 51-80 Up to 400",
+      "clause_id": "IS 8183:1993#2.2",
+      "family": "IS 8183",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 841,
+      "page_end": 841,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8183:1993",
+      "clause": "3",
+      "title": "81",
+      "text": "3 81-120 Up to 550",
+      "clause_id": "IS 8183:1993#3",
+      "family": "IS 8183",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 841,
+      "page_end": 841,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8183:1993",
+      "clause": "4",
+      "title": "121",
+      "text": "4 121-160 Up to 750 2.2.1 For any particular product, the variation from the manufacturer's declared value for bulk density shall not exceed ±15 percent. When tested in accordance with the method prescribed in 9 of IS 3149 except that nominal / specified thickness shall be used for calculating the bank density. 2.3 Recovery After Compression - The recovery, after compression of 75 percent of the original thickness, shall not be less than 90 percent of the original thickness. 2.4 Shot Content - Shall not be more than the values given below. Any shot present in the bonded mineral wool shall not be greater than 5 mm in any dimension. IS Sieve Shot Content, Percent by Mass, Max 500 micron",
+      "clause_id": "IS 8183:1993#4",
+      "family": "IS 8183",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 841,
+      "page_end": 841,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8183:1993",
+      "clause": "5",
+      "title": "250 micron",
+      "text": "5 250 micron 15 2.5 Moisture Content and Moisture Absorption - Shall not contain more than 2 percent moisture. It shall not gain in mass by more than 2 percent. 2.6 Incombustibility -  Shall be rated as incombustible when it passes the prescribed test. 2.6.1 The loss in total mass when determined by this test shall not exceed 5 percent. 2.7 Thermal conductivity - The thermal conductivity or k-value of the material shall not exceed the values given below when determined in accordance with the method presscribed in 11 of IS 3346. Mean Thermal Conductivity Temperature mW/cm ºC 0C Group1 Group2 Group3 Group4 50 0.49 0.43 0.43 0.43 100 0.69 0.52 0.52 0.52 150 0.95 0.64 0.62 0.62 200 — 0.78 0.73 0.68 250 — 0.93 0.84 0.80 300 — 1.10 0.95 0.90 2.8 Sulphur Content -  Shall not contain more than 0.6 percent of sulphur. When determined by the method prescribed in 19 of  IS 3144. 2.9 Dimensions - The bonded mineral wool shall be supplied in widths of 50, 60, 75 and 100 cm and lengths of 100, 120 and 140 cm or as agreed to between the purchaser and the supplier. The thickness of the bonded mineral wool shall be 25, 40, 50, 65, 75 mm or as agreed to between the purchaser and the supplier. 2.9.1 Dimensional Tolerances - For width and length, the dimensional tolerance of the bonded mineral wool slabs shall be:1/2 percent. For nominal thickness in the range of 25 to 75 mm the tolerance shall be: 2 mm. An excess in all dimensions is permitted. 2.10   Optional Requirements 2.10.1Resistance to micro-organisms  - Shall not show any mould or bacterial growth. 2.10.2 Odour emission  test - There shall be no apparent difference in odour of the butter when compared with the blanks. 2.10.3 Resistance to vibration -  Shall show not more than 1 percent height of settlement. 2.10.4 Resistance to jolting - Shall show not more than 3 percent height of settlement. 2.10.5 Heat resistance - Shall not suffer any visible deterioration of the fibrous structure and shall not show any evidence of internal self-heating when heated to the maximum recommended temperature of use, as specified by the manufacturer. 2.10.6 Alkalinity - The pH of the solution of the material shall be between 7.0 and 10.0. 2.10.7 Corrosive Attack -  Shall not cause corrosion of the surface on which it is applied. Note - For method of tests, refer to Appendices A and B of the standard, IS 3144 : 1992 Mineral wool thermal insulation materials-Methods of tests (second revision) and IS 3346 : 1980 Method of determination of thermal conductivity of thermal insulating materials (two slab guarded hot plate method) (first revision). For detailed information, refer to IS 8183 : 1993 Specifications for bonded mineral wool (first revision)",
+      "clause_id": "IS 8183:1993#5",
+      "family": "IS 8183",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 841,
+      "page_end": 842,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8183:1993",
+    "record_id": 15266,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      841,
+      842
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 10124 (Part 7):1988",
+      "clause": "1",
+      "title": "Scope – Requirements of manufacture, dimensions",
+      "text": "1. Scope - Requirements of manufacture, dimensions and marking for fabricated PVC threaded adaptors for potable water supplies.",
+      "clause_id": "IS 10124 (Part 7):1988#1",
+      "family": "IS 10124 (Part 7)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 370,
+      "page_end": 370,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 7):1988",
+      "clause": "2",
+      "title": "Requirements – The general",
+      "text": "2. Requirements - The general requirements for sizes, methods of test, sampling and critieria for conformity shall conform to  IS 10124 (Part 1) : 1988.",
+      "clause_id": "IS 10124 (Part 7):1988#2",
+      "family": "IS 10124 (Part 7)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 370,
+      "page_end": 370,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 7):1988",
+      "clause": "3",
+      "title": "Dimensions – See Table 1",
+      "text": "3. Dimensions - See Table 1",
+      "clause_id": "IS 10124 (Part 7):1988#3",
+      "family": "IS 10124 (Part 7)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 370,
+      "page_end": 370,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 7):1988",
+      "clause": "4",
+      "title": "Marking",
+      "text": "4. Marking—  The threaded adaptors shall be marked in colour as iindicated below for different class of fittings: Class of Fitting Colour Class 3 (0.6 MPa) Green Class 4 (1.0 MPa) Yellow SUMMARY OF IS 10124 (PART 7)  : 1988 FABRICATED  PVC FITTINGS FOR   POTABLE WATER SUPPLIES PART 7  SPECIFIC REQUIREMENT FOR THREADED  ADAPTERS (First Revision) FIG. 1 THREADED  ADAPTORS TABLE 1 DIMENSIONS  OF  THREADED  ADAPTORS All dimensions in millimetres. Nominal Outside Diameter Length of Thickness at Thread Dimensions Length of Dimensions Size AtPlain Portion Plain portion Plain Portion Designing Pitch Useful of Pipe of threaded of Threaded of Threaded of Threaded Thread Required for Adaptor. Dia Adaptor For Basic Making Gauge Threaded Adaptor Length Outside Wall A B Diameter       Thickness Max Min Min Class 3   Class4 Min Min MaxClass 3Class4 0. 6MPa  10MPa Min Min (1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) 63 63.0 63.3 68.0 5.5 6.8 2 2.309 23.4 63.0 63.3 5.6 6.9 75 75.0 75.3 74.0 4.1 5.7 2. 1/2 2.309 26.7 75.0 75.3 4.2 5.8 90 90.0 90.3 86.0 5.7 7.6 3 2.309 29.8 90.0 90.3 5.8 7.7 110 110.0 110.4 106.0 3.8 6.2 4 2.309 35.8 114.1 114.5 6.0 8.4 Note — For  pipes of 0.25 MPa and 0.4 MPa, threaded adaptors for 0.6 MPa shall be used. For detailed information, refer to IS 10124 (Part 7) : 1988 Specification for fabricated PVC fittings of potable water supplies: Part  7  Specific requirements for threaded  adaptors (first revision).",
+      "clause_id": "IS 10124 (Part 7):1988#4",
+      "family": "IS 10124 (Part 7)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "marking",
+      "page_start": 370,
+      "page_end": 371,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 10124 (Part 7):1988",
+    "record_id": 896,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      370,
+      371
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

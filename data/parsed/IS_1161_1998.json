@@ -1,0 +1,256 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1161:1998",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for hot finished welded (HFW), hot finished seamless (HFS), and electric resistance welded (ERW) or high frequency induction welded (HRIW) plain carbon steel tubes for structural purposes.",
+      "clause_id": "IS 1161:1998#1",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "2",
+      "title": "Designation – Shall be",
+      "text": "2. Designation -   Shall be designated by their nominal bore and shall be classified as `Light', `Medium' and `Heavy' depending on the wall thickness (see Table 1). They shall be further graded as YSt  210, YSt  240 and YSt  310 depending on the yield stress of the material (see Table 2). The designation of the steel tubes shall, therefore, include the nominal bore of the tube, classification on wall thickness and grade of the material.",
+      "clause_id": "IS 1161:1998#2",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "3",
+      "title": "Material",
+      "text": "3. Material  —   The tubes shall be manufactured from steel conforming to IS 107 48 : 1995*",
+      "clause_id": "IS 1161:1998#3",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4. Dimensions  and  Weight",
+      "clause_id": "IS 1161:1998#4",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "4.1",
+      "title": "Sizes in weights",
+      "text": "4.1 Sizes in weights  and some  geometrical properties of tubes shall be as  given  in Table 1.",
+      "clause_id": "IS 1161:1998#4.1",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "4.2",
+      "title": "Tolerances – The following",
+      "text": "4.2 Tolerances - The following tolerances shall   apply: a)  Outside Diameter 1) Up to and including      + 0.4 mm 48.3  mm                -0.8  mm 2) Over 48.3 mm ±1.0  percent b) Thickness (for all sizes) 1) Welded tubes +Not limited -10 percent 2) Seamless tubes                   +Not limited 12.5 percent c) Weight +10 percent SUMMARY OF IS 1161 : 1998 STEEL  TUBES FOR STRUCTURAL PURPOSES. (Fourth Revision) -8 percent 1) Single tube light Medium ± 10 percent Heavy 2) 10 tonne lots light ± 5 percent Medium Heavy ±7.5 percent * Hot rolled  steel strip for welded tubes and pipes (first revision)",
+      "clause_id": "IS 1161:1998#4.2",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "5",
+      "title": "Workmanship – The tubes",
+      "text": "5. Workmanship - The tubes shall be cleanly finished and reasonably free from scale. They shall be free from cracks, surface flaws, laminations and other defects. The ends shall be cut cleanly and square with the axis of tube, unless otherwise specified.",
+      "clause_id": "IS 1161:1998#5",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "6",
+      "title": "Galvanizing– If the tubes",
+      "text": "6. Galvanizing- If the tubes are required in galvanized condition the zinc coating on the tubes shall be conforming to the requirements.",
+      "clause_id": "IS 1161:1998#6",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "7",
+      "title": "Straightness – Tubes shall",
+      "text": "7. Straightness - Tubes shall not deviate from straightness by more than 1 mm in any 600 mm length.",
+      "clause_id": "IS 1161:1998#7",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "8",
+      "title": "Lengths – The tubes",
+      "text": "8. Lengths - The tubes shall normally be supplied in random lengths at 4 to 7 m.",
+      "clause_id": "IS 1161:1998#8",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "9",
+      "title": "Tests",
+      "text": "9. Tests",
+      "clause_id": "IS 1161:1998#9",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "9.1",
+      "title": "Tensile Test",
+      "text": "9.1 Tensile Test  - See Table 2.",
+      "clause_id": "IS 1161:1998#9.1",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "9",
+      "role": "other",
+      "page_start": 686,
+      "page_end": 686,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1161:1998",
+      "clause": "9.2",
+      "title": "Ductility Test",
+      "text": "9.2 Ductility Test  -  The tubes of 50 mm NB and under shall withstand cold bend test and tubes above 50 mm NB shall withstand flattening test as prescribed in the standard. } } TABLE 1   SIZES AND PROPERTIES OF STEEL TUBES FOR STRUCTURAL PURPOSES Nominal Outside Class Thickness Weight Area of Internal Bore Diameter Cross Volume Section mm mm mm kg/m cm2 cm3/m (1) (2) (3) (4) (5) (6) (7) 15 21.3 Light 2.0 0.947 1.21 235 Medium 2.6 1.21 1.53 203 Heavy 3.2 0.44 1.82 174 20 26.9 Light 2.3 1.38 1.78 390 Medium 2.6 1.56 1.98 370 Heavy 3.2 1.87 2.38 330 25 33.7 Light 2.6 1.98 2.54 638 Medium 3.2 2.41 3.06 585 Heavy 4.0 2.93 3.73 518 32 42.4 Light 2.6 2.54 3.25 1 086 Medium 3.2 3.10 3.94 1 017 Heavy 4.0 3.79 4.82 929 40 48.3 Light 2.9 3.23 4.13 1 418 Medium 3.2 3.56 4.53 1 378 Heavy 4.0 4.37 5.56 1 275 50 60.3 Light 2.9 4.08 5.23 2 332 Medium 3.6 5.03 6.41 2 213 Heavy 4.5 6.19 7.88 2 066 65 76.1 Light 3.2 5.71 7.32 3 814 Medium 3.6 6.42 8.20 3 727 Heavy 4.5 7.93 10.1 3 534 80 88.9 Light 3.2 6.72 8.61 5 343 Medium 4.0 8.36 10.7 5 138 Heavy 4.8 9.90 12.7 4 936 90 101.6 Light 3.6 8.70 11.1 6 995 Medium 4.0 9.63 12.3 6 877 Heavy 4.8 11.5 14.6 6 644 100 114.3 Light 3.6 9.75 12.5 9 004 Medium 4.5 12.2 15.5 8 704 Heavy 5.4 14.5 18.5 8 409 110 127.0 Light 4.5 13.6 17.3 10 930 Medium 4.8 14.5 18.4 10 819 Heavy 5.4 16.2 20.6 10 599 125 139.7 Light 4.5 15.0 19.1 13 410 Medium 4.8 15.9 20.3 13 287 Heavy 5.4 17.9 22.8 13 043 135 152.4 Light 4.5 16.4 20.9 16 142 Medium 4.8 17.5 22.2 16 008 Heavy 5.4 19.6 25.0 15 740 150 165.1 Light 4.5 17.8 22.7 19 128 Medium 4.8 18.9 24.2 18 981 Heavy 5.4 21.3 27.1 18 690 Nominal Outside Class Thickness Weight Area of Internal Bore Diameter Cross Volume Section mm mm mm kg/m cm2 cm3/m (1) (2) (3) (4) (5) (6) (7) 150 168.3 Light 4.5 18.2 23.1 19 921 Medium 4.8 19.4 24.7 19 771 Heavy 1 5.4 21.7 27.6 19 473 Heavy 2 6.3 25.2 32.0 19 030 175 193.7 Light 4.8 22.4 28.5 26 606 Medium 5.4 25.1 32.0 26 260 Heavy 5.9 27.3 34.8 25 974 200 219.1 Light 4.8 25.4 32.3 34 454 Medium 5.6 29.5 37.5 33 930 Heavy 5.9 31.0 39.5 33 734 225 244.5 Heavy 5.9 34.7 44.2 42 507 250 273.0 Heavy 5.9 38.9 49.5 53 557 300 323.9 Heavy 6.3 49.3 62.8 76 073 350 355.6 Heavy 8.0 68.6 87.3 90 533 TABLE 2 - TENSILE PROPERTIES OF STEEL TUBES FOR STRUCTURAL PURPOSES Grade Tensile Yield Stress Elongation Strength Min on Gauge Min Length 5.65 So Min MPa MPa Percent YSt210 330 210 20 YSt240 410 240 17 YSt310 450 310 14 Note1 - For  test proceedures, refer to IS  1608 : 1995 Mechanical testing of   metals-Tensile testing (second revision), IS   2328 : 1983 Method of flattening test on metallic tubes (first revision), IS 2329 : 1985 Method for bend test on metallic tubes (first revision), IS  4736 : 1986. Hot-dip  zinc coating on mild steel tubes (first revision) and the standard. Note 2 - For other   geometrical   properties, refer to the standard. For detailed information, refer to IS 1161 : 1998  Specification for steel tubes for structural purposes (fourth revision). Table 1   SIZES AND PROPERTIES OF STEEL TUBES FOR STRUCTURAL PURPOSES (concluded)",
+      "clause_id": "IS 1161:1998#9.2",
+      "family": "IS 1161",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "9",
+      "role": "other",
+      "page_start": 686,
+      "page_end": 688,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1161:1998",
+    "record_id": 2740,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      686,
+      688
+    ],
+    "n_clauses": 13,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

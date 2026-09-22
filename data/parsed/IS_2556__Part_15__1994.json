@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2556 (Part 15):1994",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirements for patterns, dimensions and tolerances, construction, finish, tests, inspection and marking for universal water closets made of vitreous china.",
+      "clause_id": "IS 2556 (Part 15):1994#1",
+      "family": "IS 2556 (Part 15)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 456,
+      "page_end": 456,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 15):1994",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements 2. 1 Sizes Size  1 -  560 × 460 mm, 'P' or 'S' trap Size  2 -  640 × 460 mm, 'P' or 'S' trap Other sizes may also be made, except for functional dimensions other requirements shall be compiled  with. Note  —   For detailed dimensions and tolerances, refer  to 5 of the standard 2.2 P trap closets shall be in one piece  5 trap closets may be   made in one or two pieces. Each closet shall be provided with not less than four fixing holes having a maximum  diameter of 6.5 mm. 2.3 Flushing rim   shall be of box type. FIG.  1  UNIVERSAL WATER CLOSET SUMMARY OF IS : 2556 (PART 15) : 1994 VITREOUS  SANITARY APPLIANCES (VITREOUS CHINA ) PART 15 SPECIFIC REQUIREMENTS OF UNIVERSAL WATER CLOSETS (First Revision) Note 1 — For  method of test, refer to 8  of the standard. Note 2 — For general requirements refer to Part 1 General requirements of the standard. For detailed information, refer to IS 2556 (Part15) : 1995 Specification for vitreous sanitary appliances (vitreous china), Part 15:  specific equirements of universal water closets  (first revision). 2.4 Antisiphonage vent  horn shall be provided where required by local authority. 2.5 Depth of water seal shall in no case be less than 50 mm.",
+      "clause_id": "IS 2556 (Part 15):1994#2",
+      "family": "IS 2556 (Part 15)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 456,
+      "page_end": 457,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 15):1994",
+      "clause": "3",
+      "title": "Finish",
+      "text": "3. Finish —The inside of water closets and traps shall be glazed uniform and smooth in order to ensure an efficient flush. The grooved part of the outlet of the closets and that of the bends where provided shall not be glazed.",
+      "clause_id": "IS 2556 (Part 15):1994#3",
+      "family": "IS 2556 (Part 15)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 457,
+      "page_end": 457,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 15):1994",
+      "clause": "4",
+      "title": "Flushing Test",
+      "text": "4. Flushing Test",
+      "clause_id": "IS 2556 (Part 15):1994#4",
+      "family": "IS 2556 (Part 15)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 457,
+      "page_end": 457,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 15):1994",
+      "clause": "4.1",
+      "title": "Toilet Paper Test –",
+      "text": "4.1 Toilet Paper Test - When repeated four times, the pan shall discharge the full charge of the  paper atleast thrice.",
+      "clause_id": "IS 2556 (Part 15):1994#4.1",
+      "family": "IS 2556 (Part 15)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 457,
+      "page_end": 457,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 15):1994",
+      "clause": "4.2",
+      "title": "Smudge Test – Immediately",
+      "text": "4.2 Smudge Test - Immediately after the flush there shall be no  smudge left in the pan.",
+      "clause_id": "IS 2556 (Part 15):1994#4.2",
+      "family": "IS 2556 (Part 15)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 457,
+      "page_end": 457,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 15):1994",
+      "clause": "4.3",
+      "title": "Holding Capacity Test –",
+      "text": "4.3 Holding Capacity Test - Shall be capable of holding not less than 10 litres of  water between the normal water level  and the highest possible water level of the pan.",
+      "clause_id": "IS 2556 (Part 15):1994#4.3",
+      "family": "IS 2556 (Part 15)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 457,
+      "page_end": 457,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 15):1994",
+      "clause": "4.4",
+      "title": "Ball Test – The",
+      "text": "4.4 Ball Test -  The ball shall be discharged in the normal manner.",
+      "clause_id": "IS 2556 (Part 15):1994#4.4",
+      "family": "IS 2556 (Part 15)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 457,
+      "page_end": 457,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2556 (Part 15):1994",
+    "record_id": 31057,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      456,
+      457
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

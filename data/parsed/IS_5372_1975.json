@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5372:1975",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope—Requirements for taper washers for use with Indian Standard Medium Weight Channels (ISMC) with bolts in diameter range of 10 to 39 mm.",
+      "clause_id": "IS 5372:1975#1",
+      "family": "IS 5372",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 790,
+      "page_end": 790,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 5372:1975",
+      "clause": "2",
+      "title": "Dimensions (in mm)",
+      "text": "2. Dimensions (in mm) Nominal           L × B                Thickness For Bolt Size (See Note 1) Size (Diameter Thin Thick of Hole)                               End End 11 22 × 22 2 4.3 M10 14 26 × 30 2.5 5.7 M12 18 32 × 36 3 6.8 M16 22 40 × 44 3.5 8.1          M20 (24) 44 × 50 4 9.2 (M22) 26 56 × 56 4 9.9 M24 (30) 56 × 56 4 9.9 (M27) 33 62 × 62 4 10.5 M30 (36) 68 × 68 4 11.2 (M33) 39 75 × 75 4 11.9 M36 (42) 80 × 80 4 12.4 (M39) For detailed information, refer to IS  5372 : 1975 Specification for taper washers for channels (ISMC) (first revision). Note 1- L × B are dimensions for taper washers in plan. Note 2- Sizes shown in brackets are of second preference. Note 3 - For detailed dimensions, refer to Table 1 of the standard.",
+      "clause_id": "IS 5372:1975#2",
+      "family": "IS 5372",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 790,
+      "page_end": 790,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 5372:1975",
+      "clause": "3",
+      "title": "Grade – ‘Ordinary’ grade",
+      "text": "3. Grade - 'Ordinary' grade of IS  5369 : 1975*",
+      "clause_id": "IS 5372:1975#3",
+      "family": "IS 5372",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 790,
+      "page_end": 790,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 5372:1975",
+      "clause": "4",
+      "title": "Designation – Shall be",
+      "text": "4. Designation - Shall be designated by the name, size and number of the standard. For example, a taper washer of nominal size 18 mm shall be designated as `Taper Washer 18 - IS : 5372'. * General requirements for plain washers and lock    washers (first revision). SUMMARY OF IS 5372 : 1975 TAPER WASHERS FOR CHANNELS (ISMC) (First Revision)",
+      "clause_id": "IS 5372:1975#4",
+      "family": "IS 5372",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 790,
+      "page_end": 790,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5372:1975",
+    "record_id": 12135,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      790,
+      790
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

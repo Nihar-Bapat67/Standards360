@@ -1,0 +1,634 @@
+{
+  "clauses": [
+    {
+      "is": "IS 14753:1999",
+      "clause": "1",
+      "title": "Scope – Requirements, methods",
+      "text": "1. Scope - Requirements, methods of sampling and tests for polymethyl methacrylate (acrylic) sheets.",
+      "clause_id": "IS 14753:1999#1",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 14753:1999#2",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.1",
+      "title": "Protection of Surface –",
+      "text": "2.1 Protection of Surface -  Unless otherwise agreed between the supplier and the purchaser, the surface of the sheet, as delivered, shall be protected by suitable material, for example, kraft paper pasted with a water soluble or pressure-sensitive adhesive or a polyethylene or any other suitable film; readily removable without surface contamination or damage.",
+      "clause_id": "IS 14753:1999#2.1",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.2",
+      "title": "Appearance",
+      "text": "2.2 Appearance",
+      "clause_id": "IS 14753:1999#2.2",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.2.1",
+      "title": "Surface Defects – The",
+      "text": "2.2.1 Surface Defects - The sheets shall have a smooth surface. There shall be no surface defects, scratches or marks larger than 5 mm2 each anywhere in the sheet.",
+      "clause_id": "IS 14753:1999#2.2.1",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.2.2",
+      "title": "Inclusion Defects – There",
+      "text": "2.2.2 Inclusion Defects - There shall be no bubbles, large inclusions, cracks or other defects that could adversely affect the performance of the sheet in its intended application. There shall be no foreign matter inclusions larger than 4 mm2 each anywhere in the sheet.",
+      "clause_id": "IS 14753:1999#2.2.2",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.2.3",
+      "title": "Classification of Defects",
+      "text": "2.2.3 Classification of Defects Classification Surface Defects Inclusion Defects (1) (2) (3) Negligible Less than 2 mm2 Less than 1 mm2 Acceptable 2 to 5 mm2 1 to 4 mm2",
+      "clause_id": "IS 14753:1999#2.2.3",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.2.4",
+      "title": "Distribution of Defects",
+      "text": "2.2.4 Distribution of Defects",
+      "clause_id": "IS 14753:1999#2.2.4",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.2.4.1",
+      "title": "There shall not be",
+      "text": "2.2.4.1 There shall not be a significant (for the application) amount of fine defects, each of which is defined as negligible in above, within 1 mm2 each anywhere in the sheet.",
+      "clause_id": "IS 14753:1999#2.2.4.1",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 4,
+      "parent_clause": "2.2.4",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.2.4.2",
+      "title": "No defect defined as acceptable above",
+      "text": "2.2.4.2   No defect defined as acceptable above  shall be within 500 mm of another acceptable defect anywhere in or on the sheet.",
+      "clause_id": "IS 14753:1999#2.2.4.2",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 4,
+      "parent_clause": "2.2.4",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.3",
+      "title": "Colour – The colour",
+      "text": "2.3 Colour - The colour distribution shall be homogenous, unless otherwise specified. Variations in colours shall be agreed between the purchaser and the supplier.",
+      "clause_id": "IS 14753:1999#2.3",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.4",
+      "title": "Visual Examination – The",
+      "text": "2.4 Visual Examination - The sheets shall be visually examined for scratch, air bubbles, foreign material or any other marks except such special marks which have been specified by the purchaser.",
+      "clause_id": "IS 14753:1999#2.4",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.5",
+      "title": "Dimensions",
+      "text": "2.5 Dimensions",
+      "clause_id": "IS 14753:1999#2.5",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.5.1",
+      "title": "The preferred dimensions, after",
+      "text": "2.5.1 The preferred dimensions, after trimming, for the supply of cast acrylic sheets shall be as follows.",
+      "clause_id": "IS 14753:1999#2.5.1",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 3,
+      "parent_clause": "2.5",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.5.1.1",
+      "title": "Size I – The",
+      "text": "2.5.1.1 Size I - The sheets up to 2 m2 surface area - a) 765 × 610 mm b) 1 220 × 915 mm c) 1 220 × 1525 mm d) 1 375 × 915 mm e) 1 750 × 1140 mm f) 1 830 × 915 mm",
+      "clause_id": "IS 14753:1999#2.5.1.1",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 4,
+      "parent_clause": "2.5.1",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.5.1.2",
+      "title": "Size II – The",
+      "text": "2.5.1.2 Size II - The sheets offering more that 2 m2 surface area a) 1 220 × 1 830 mm b) 1 780 × 1 180 mm c) 1 800 × 1 200 mm d) 2 170 ×1 050 mm",
+      "clause_id": "IS 14753:1999#2.5.1.2",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 4,
+      "parent_clause": "2.5.1",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.5.1.3",
+      "title": "The tolerance for the",
+      "text": "2.5.1.3 The tolerance for the dimensions shall be + - 5 0 mm.",
+      "clause_id": "IS 14753:1999#2.5.1.3",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 4,
+      "parent_clause": "2.5.1",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 876,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.5.2",
+      "title": "Thickness – The preferred thickness and",
+      "text": "2.5.2 Thickness - The preferred thickness and permissible thickness variation for the acrylic sheets be as given below : Thickness Tolerance (mm) Size I Size II (1) (2) (3) 2.0 ± 0.43 ± 0.6 2.5 ± 0.43 ± 0.6 3.0 ± 0.5 ± 0.6 4.0 ± 0.5 ± 0.7 5.0 ± 0.6 ± 0.8 6.0 ± 0.8 ± 0.9 8.0 ± 0.9 ± 1.0 10.0 ± 1.0 ± 1.1 12.0 - 13.0 ± 1.1 ± 1.3 15.0 ± 1.4 ± 1.4 18.0 ± 1.4 ± 1.4 20.0 - 25.0 ± 1.4 ± 1.4 30.0 ± 1.8 ± 1.8",
+      "clause_id": "IS 14753:1999#2.5.2",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 3,
+      "parent_clause": "2.5",
+      "role": "other",
+      "page_start": 876,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.6",
+      "title": "Specific Gravity – Shall",
+      "text": "2.6 Specific Gravity - Shall not be less than 1.18 and more than 1.20.",
+      "clause_id": "IS 14753:1999#2.6",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.7",
+      "title": "Water Absorption – Shall",
+      "text": "2.7 Water Absorption - Shall not be more than 0.4 percent of the dry mass of the sample after 24 h immersion.",
+      "clause_id": "IS 14753:1999#2.7",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.8",
+      "title": "Tensile Strength and Elongation",
+      "text": "2.8 Tensile Strength and Elongation - Shall show a tensile strength of 570 kg/cm2, Min and elongation at rupture shall not be less than 4.0 percent.",
+      "clause_id": "IS 14753:1999#2.8",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.9",
+      "title": "Impact Strength – Shall",
+      "text": "2.9 Impact Strength - Shall not be less than 1.6 kg cm/ cm of the notch.",
+      "clause_id": "IS 14753:1999#2.9",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.10",
+      "title": "Rockwell Hardness – Shall",
+      "text": "2.10 Rockwell Hardness - Shall be RHM 100 ± 5.",
+      "clause_id": "IS 14753:1999#2.10",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.11",
+      "title": "Effect of Heat on",
+      "text": "2.11 Effect of Heat on Rigidity, that is Temperature of Deflection Under Load - Shall not show a defection of 0.25 mm until it reaches a temperature in excess of 850C.",
+      "clause_id": "IS 14753:1999#2.11",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.12",
+      "title": "Vicat Softening Temperature –",
+      "text": "2.12 Vicat Softening Temperature - Shall not be less than 1000C.",
+      "clause_id": "IS 14753:1999#2.12",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.13",
+      "title": "Burning Rate – Shall",
+      "text": "2.13  Burning Rate - Shall show a burning rate of not more than 40 mm per minute.",
+      "clause_id": "IS 14753:1999#2.13",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.14",
+      "title": "Refractive Index – Shall",
+      "text": "2.14  Refractive Index - Shall show a refractive index not more than 1.49.",
+      "clause_id": "IS 14753:1999#2.14",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.15",
+      "title": "Haze and Luminous Transmittance",
+      "text": "2.15 Haze and Luminous Transmittance  -  Shall show minimum transmittance of 91 percent and haze percent shall not exceed 3.",
+      "clause_id": "IS 14753:1999#2.15",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.16",
+      "title": "Stability Towards Yellowing",
+      "text": "2.16 Stability Towards Yellowing",
+      "clause_id": "IS 14753:1999#2.16",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.16.1",
+      "title": "Yellowness Index Method – Yellowness index",
+      "text": "2.16.1 Yellowness Index Method - Yellowness index values of PMMA sheets produced from virgin monomer MMA, colour code 001-clear transparent shall be as given below : Thickness, t          YI for Sheet        YI/t Sheet (mm) 2 3.6 to 4.2        1.80 to 2.10 2.5 3.7 to 4.3        1.8 to 1.72 3 3.8 to 4.4        1.27 to 1.47",
+      "clause_id": "IS 14753:1999#2.16.1",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 3,
+      "parent_clause": "2.16",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.17",
+      "title": "Diffusion Factor and Uniformity",
+      "text": "2.17 Diffusion Factor and Uniformity of Diffusion -",
+      "clause_id": "IS 14753:1999#2.17",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.17.1",
+      "title": "Diffusion Factor – The",
+      "text": "2.17.1 Diffusion Factor - The diffusion factor shall be calculated as : Diffusion factor = L 2 0 + L 7 0 2 L 5 where L5, L20 and L70 are the luminance values of the surface when viewed at 5º, 20º and 70º to the normal.",
+      "clause_id": "IS 14753:1999#2.17.1",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 3,
+      "parent_clause": "2.17",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.17.2",
+      "title": "The test sheet for",
+      "text": "2.17.2 The test sheet for uniformity of diffusion (applicable for diffusion factors between 0.85 and 0.9 shall appear to be uniformly bright.",
+      "clause_id": "IS 14753:1999#2.17.2",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 3,
+      "parent_clause": "2.17",
+      "role": "other",
+      "page_start": 877,
+      "page_end": 877,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14753:1999",
+      "clause": "2.18",
+      "title": "Residual Monomer Test –",
+      "text": "2.18 Residual Monomer Test - Shall not exceed by more than 2 percent by mass. Note - For methods of tests, refer to Appendix A to F of the standard and relevant parts of IS 13360 Plastics Methods of testing. For detailed information, refer to IS 14753 : 1999 Specifications for polymethyl methacrylate (PMMA) (acrylic) sheets. SECTION 25 CONDUCTORS AND CABLES CONTENTS Title Page IS 694 : 1990 PVC insulated cables for working voltages up to and  including 25.3 1100 volts  (third revision) IS         1554  (Part 1) : 1988 PVC insulated (heavy duty) electric cables for  working voltages up to 25.6 and including1100 volts (third revision) IS         7098 (Part 1) : 1988 Cross linked polyethylene insulated PVC sheathed cables for 25.8 working  voltages up to and including 1100 volts  (first revision) IS         9968 (Part 1) : 1988 Elastometer insulated cables for working voltages upto and including 25.10 1100 volts (first revision)",
+      "clause_id": "IS 14753:1999#2.18",
+      "family": "IS 14753",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "references",
+      "page_start": 877,
+      "page_end": 880,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 14753:1999",
+    "record_id": 6710,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      876,
+      880
+    ],
+    "n_clauses": 34,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "pages_without_text:2"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

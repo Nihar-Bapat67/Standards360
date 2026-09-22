@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 269:1989",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Covers the manufacture and chemical and physical  requirements of 33 grade ordinary Portland cement.",
+      "clause_id": "IS 269:1989#1",
+      "family": "IS 269",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 22,
+      "page_end": 22,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 269:1989",
+      "clause": "2",
+      "title": "Chemical Requirements",
+      "text": "2. Chemical Requirements — When tested in accordance with the methods given in IS 4032 : 1985, 33 grade ordinary Portland cement shall comply with the chemical requirements given in Table 1.",
+      "clause_id": "IS 269:1989#2",
+      "family": "IS 269",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 22,
+      "page_end": 22,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 269:1989",
+      "clause": "3",
+      "title": "Physical Requirements",
+      "text": "3. Physical Requirements",
+      "clause_id": "IS 269:1989#3",
+      "family": "IS 269",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 22,
+      "page_end": 22,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 269:1989",
+      "clause": "3.1",
+      "title": "Fineness",
+      "text": "3.1 Fineness — Specific surface of cement shall not be less than 225 m2 /kg.",
+      "clause_id": "IS 269:1989#3.1",
+      "family": "IS 269",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 22,
+      "page_end": 22,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 269:1989",
+      "clause": "3.2",
+      "title": "Soundness",
+      "text": "3.2 Soundness — Unaerated expansion shall be not more than 10 mm by 'Le Chatelier' method and 0.8 percent by autoclave test; if it fails, aerated sample shall not show more of than 5 mm and 0.6 percent when tested by 'Le Chatelier' method and autoclave method respectively.",
+      "clause_id": "IS 269:1989#3.2",
+      "family": "IS 269",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 22,
+      "page_end": 22,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 269:1989",
+      "clause": "3.3",
+      "title": "Setting Time",
+      "text": "3.3 Setting Time — The setting time of the cements, when tested by the vicat apparatus shall conform to the following requirements: a)    Initial setting time Not less than in minutes 30; and b)    Final setting time Not more than in minutes 600.",
+      "clause_id": "IS 269:1989#3.3",
+      "family": "IS 269",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 22,
+      "page_end": 22,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 269:1989",
+      "clause": "3.4",
+      "title": "Compressive Strength",
+      "text": "3.4 Compressive Strength — The average of at least three mortar cubes (area of face 50 cm2) composed of one part of cement, three parts of standard sand by mass and P",
+      "clause_id": "IS 269:1989#3.4",
+      "family": "IS 269",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 22,
+      "page_end": 22,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 269:1989",
+      "clause": "4",
+      "title": "Clause 4",
+      "text": "4 3.0 +    percent (of combined mass of cement plus sand) water and prepared, stored and tested shall be as follows: a) 72 ± 1 hour : not less than 16 MPa, b) 168  2 hours : not less than 22 MPa, and c) 672 4 hours : not less than 33 MPa. 4. Delivery — Packed in specified bags of 50 kg, 25 kg, 10 kg,5 kg, 2 kg or 1 kg net or in bulk with tolerances specified in the standard. TABLE 1 CHEMICAL REQUIREMENTS FOR 33 GRADE ORDINARY PORTLAND CEMENT Sl. No.                  Characteristics Requirement (1)                           (2) (3) i) Ratio of percentage of lime to percentage of Not greater than 1.02 and  not silica, alumina and iron oxide, when calculated less than 0.66 by the formula ii) Ratio of percentage of alumina to that of iron oxide Not less than 0.66 iii) Insoluble residue, percent by mass (a)In case no flyash, silica fume, rice, husk ash and metakaoline  is added - not more than 5.0 (b) In case of addition of and / or silica fume and/or rice husk ash and /or metakoline - Not more than 5.0 iv) Magnesia, percent by mass Not more than 6.0 percent v) Total sulphur content calculated as Not more than 2.5 and 3.0 when tri-calcium sulphuric anhydride (SO3)percent by mass aluminate percent by mass is 5 or less and greater than 5 respectively vi) Total loss on ignition Not more than 5 percent Note —  For method of tests, refer to relevant parts of IS 4031 Methods of physical test for hydraulic cement; and IS: 4032-1985 Methods of  chemical  analysis of hydraulic cement (first revision). For detailed information, refer to IS 269:1989 Specification for ordinary portland cement, 33 grade (fourth revision). ± ± 3 2 2 3 2 3 0.7 2.8 1.2 0.65 CaO SO SiO Al O Fe O − + +",
+      "clause_id": "IS 269:1989#4",
+      "family": "IS 269",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 22,
+      "page_end": 22,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 269:1989",
+    "record_id": 111,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      22,
+      22
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

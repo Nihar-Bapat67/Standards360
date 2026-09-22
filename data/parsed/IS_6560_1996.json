@@ -1,0 +1,274 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6560:1996",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope",
+      "clause_id": "IS 6560:1996#1",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 752,
+      "page_end": 752,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "1.1",
+      "title": "Requirements of solid filler",
+      "text": "1.1 Requirements of solid filler rods and wires for welding. It covers molybdenum and chromium molybdenum low alloy steel rods and wires for use in inert-gas tungsten arc welding (TIG), gas metal arc welding (MIG) or CO2 welding processes. The chemical composition and tensile properties of filler rods and wires are also specified.",
+      "clause_id": "IS 6560:1996#1.1",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 752,
+      "page_end": 752,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "1.2",
+      "title": "This standard also specifies the mechanical",
+      "text": "1.2 This standard also specifies the mechanical properties of the weld deposits.",
+      "clause_id": "IS 6560:1996#1.2",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 752,
+      "page_end": 752,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "2",
+      "title": "Dimensions and Tolerances",
+      "text": "2. Dimensions and Tolerances",
+      "clause_id": "IS 6560:1996#2",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 752,
+      "page_end": 752,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "2.1",
+      "title": "Diameter –",
+      "text": "2.1        Diameter - Nominal Diameter Tolerance, mm mm Plus Minus 0.6 0.01 0.03 0.8 0.01 0.04 0.9 0.01 0.04 1.0 0.01 0.04 1.2 0.01 0.04 1.6 0.01 0.04 1.8 0.01 0.04 2.0 0.01 0.07 2.4 0.01 0.07 2.5 0.01 0.07 2.8 0.01 0.07 3.0 0.01 0.07 3.2 0.01 0.07 4.0 0.01 0.07 5.0 0.01 0.07",
+      "clause_id": "IS 6560:1996#2.1",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 752,
+      "page_end": 752,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "2.2",
+      "title": "Length of Rods –",
+      "text": "2.2. Length of Rods - Rods less than 2.5 mm in diameter shall preferably be supplied in lengths of 500 or  1000 mm. Rods 2.5 mm and larger in diameter shall preferably supplied in lengths of 1000 mm. Lengths other than these two preferred lengths may be supplied by mutual agreement between the purchaser and the supplier.",
+      "clause_id": "IS 6560:1996#2.2",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 752,
+      "page_end": 752,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "2.3",
+      "title": "Tolerance on each length",
+      "text": "2.3. Tolerance on each length of rod shall be ±5 mm",
+      "clause_id": "IS 6560:1996#2.3",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 752,
+      "page_end": 752,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "3",
+      "title": "Conditions of Rods and Wires",
+      "text": "3.  Conditions of Rods and Wires",
+      "clause_id": "IS 6560:1996#3",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 752,
+      "page_end": 752,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "3.1",
+      "title": "Finish filler rods and",
+      "text": "3.1 Finish filler rods and wires shall have a smooth finish and be free from surface imperfections, corrosion products, grease, excessive oxide or other foreign matter which would adversely affect the properties of the weld or the operation of the welding equipment. If the rods and wires are supplied with a protective copper coating, it shall be a uniform well-bonded, smooth coating being applied over a throughly clean surface. The copper content of the coated rod or wire expressed as a percentage of the rod (or wire) plus the coating shall not exceed 0.35 percent by weight. 3.2 a) Temper - Shall be such that they are suitable for uninterrupted feeding on  automatic or semi automatic welding  equipment. Tensile strength for those wound on spools of 300 mm  and greater   in diameter shall be as per Table 1. b) Cast - Shall be such to impart a curvature to the filler metal so that a specimen sufficient  in length to wound one loop or a maximum 3 m. When cut and laid on flat surface shall form a circle or part thereof of dimaeter shown in Table 2. c) Helix - Shall be such that the maximum distance from any point on thefiller metal to flat surface shall not exceed as shown in  Table 2. TABLE 1    TENSILE  STRENGTH  OF  FILLER  RODS Wire Diameter (mm) 0.6 0.8 0.9 1.0 1.2 1.6 - 2.0    2.4 - 3.2 Tensile Strength 1 100 1 100 1 000 950 900 700 600 MPa, Min",
+      "clause_id": "IS 6560:1996#3.1",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 752,
+      "page_end": 752,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "4",
+      "title": "Classification – SLA-1, SLA-2, SLA-3,",
+      "text": "4. Classification - SLA-1, SLA-2, SLA-3, SLA-4 and SLA-5 based on  chemical  composition. In a classification, for  example, SLA-5-M 504 where SLA-5 indicates chemical composition of the filler metal , M indicates that it is mixed gas,50 indicates tensile strength of minimum 500MPa and 4 indicates the impact values of 27 joules at minus 30ºC A. Symbol Indicating Tensile Strength and Elongation Symbol Yield Tensile Percetage Strength, Min Strength Elongation at Gauge Length MPa MPa 5.65 , Min 50     420 500 -  640 20 53     460 530 -  680 18 56     500 560 -  720 16 B. Symbol Indicating the Impact Energy Symbol      Minimum Impact   Energy of 27 Joules (Charpy V-Notch at ºC Specimen) 1 + 27 2 0 3 - 20 4 - 30 C.   Symbol Indicating Shielding Gas Symbol Type of Shielding Gas R Reducing gas I Inert gas M Mixed gas C Carbon dioxide F Nitrogen hydrogen mixture",
+      "clause_id": "IS 6560:1996#4",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 753,
+      "page_end": 753,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "5",
+      "title": "Tests",
+      "text": "5. Tests",
+      "clause_id": "IS 6560:1996#5",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 753,
+      "page_end": 753,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "5.1",
+      "title": "Chemical Composition – See",
+      "text": "5.1 Chemical Composition -  See 11 of the   standard",
+      "clause_id": "IS 6560:1996#5.1",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 753,
+      "page_end": 753,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "5.2",
+      "title": "Soundness",
+      "text": "5.2 Soundness — Radiographs shall reveal no cracks or zone of incomplete fusion.",
+      "clause_id": "IS 6560:1996#5.2",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 753,
+      "page_end": 753,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6560:1996",
+      "clause": "5.3",
+      "title": "All Weld Metal Mechanical",
+      "text": "5.3 All Weld Metal Mechanical Test -  Ultimate tensile strength, yeild stress percentage elongation and impact values shall be  as specified in 4. Note - For  requirements of reels and reeling conditions refer to 6 and 7 of the standard. For detailed  information,  refer to IS 6560 : 1996  Specifications  for  molybdenum and chromium-lybdenum, low alloy steel welding rods and bare electrodes for gas shielded arc welding (first revision). TABLE 2 DIAMETER OF CAST HELIX Type of package Standard size Cast Maximum Helix mm mm mm 100mm spool 1.2 and less 100-130 13 Al except 100mm 0.8 and less 305 25 spool 0.9 and larger 380 25 So",
+      "clause_id": "IS 6560:1996#5.3",
+      "family": "IS 6560",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "requirements",
+      "page_start": 753,
+      "page_end": 753,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6560:1996",
+    "record_id": 25303,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      752,
+      753
+    ],
+    "n_clauses": 14,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

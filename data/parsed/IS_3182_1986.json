@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3182:1986",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for broken brick (burnt clay) fine aggregate for use in lime mortar.",
+      "clause_id": "IS 3182:1986#1",
+      "family": "IS 3182",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 103,
+      "page_end": 103,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3182:1986",
+      "clause": "2",
+      "title": "General Quality",
+      "text": "2. General Quality — Shall be prepared from broken/ solid bricks conforming to class designation 50 and above of IS 1077:1992*. It shall be free from underburnt clay particles, soluble salts and adherent coating of soil or silt.",
+      "clause_id": "IS 3182:1986#2",
+      "family": "IS 3182",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 103,
+      "page_end": 103,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3182:1986",
+      "clause": "3",
+      "title": "Physical Requirements",
+      "text": "3. Physical Requirements IS Sieve Percent Passing(By Mass) 4.75 mm 100 2.36 mm 90-100 1.18 mm 70-100 600 µm 40-100 300 µm 5-70 150 µm 0-15 75 µm Nil * Common burnt clay building bricks (fifth revision). Note —   For methods of tests, refer to relevant parts of   IS 2386: Method of test for aggregates for concrete, and IS 3068:1986 Broken brick (burnt clay) coarse aggregate for use in lime concret (second revision). For  detailed information, refer to IS 3182:1986 Specification for broken brick (burnt clay) fine aggregate for use in lime mortar (second revision). SUMMARY OF IS 3182 : 1986 BROKEN BRICK (BURNT CLAY) FINE AGGREGATE FOR USE IN LIME MORTAR (Second  Revision)",
+      "clause_id": "IS 3182:1986#3",
+      "family": "IS 3182",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 103,
+      "page_end": 103,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3182:1986",
+      "clause": "4",
+      "title": "Requirement of Broken Brick Fine Aggregate",
+      "text": "4. Requirement of Broken Brick Fine Aggregate Specific gravity 2.4 - 2.7 Clay and silt, percent, Max",
+      "clause_id": "IS 3182:1986#4",
+      "family": "IS 3182",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 103,
+      "page_end": 103,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3182:1986",
+      "clause": "5",
+      "title": "Materials finer than 75 µm",
+      "text": "5 Materials finer than 75 µm 15 IS Sieve, percent Max Water soluble matter, 1 percent, Max",
+      "clause_id": "IS 3182:1986#5",
+      "family": "IS 3182",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 103,
+      "page_end": 103,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3182:1986",
+    "record_id": 9745,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      103,
+      103
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

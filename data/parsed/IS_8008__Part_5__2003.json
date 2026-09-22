@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8008 (Part 5):2003",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1.   Scope —Requirements for manufacture, dimensions and tolerances, and marking, for injection moulded made of HDPE  ferrule reducers for potable water supplies.",
+      "clause_id": "IS 8008 (Part 5):2003#1",
+      "family": "IS 8008 (Part 5)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 355,
+      "page_end": 355,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 5):2003",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 8008 (Part 5):2003#2",
+      "family": "IS 8008 (Part 5)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 355,
+      "page_end": 355,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 5):2003",
+      "clause": "2.1",
+      "title": "Overall laying lengths and the tolerances",
+      "text": "2.1 Overall laying lengths and the tolerances thereon shall be as follows : Size Bends Laying Length mm mm 32 × 63 48 90 × 63 74.3 110 × 63 89.4 150 × 63 98.5 225 × 63 102.8 Note — For typical illustration of ferrule reducer see Fig.1 of the standard.",
+      "clause_id": "IS 8008 (Part 5):2003#2.1",
+      "family": "IS 8008 (Part 5)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 355,
+      "page_end": 355,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 5):2003",
+      "clause": "2.2",
+      "title": "Outside diameter and wall",
+      "text": "2.2  Outside diameter and wall thickness of straight pipe portion at reducer end shall comply with the requirements given in IS 8008 (Part 1) : 2003. SUMMARY OF IS 8008 (PART 5) : 2003 INJECTION MOULDED HIGH DENSITY POLYETHYLENE (HDPE) FITTINGS FOR POTABLE WATER SUPPLIES PART 5 SPECIFIC REQUIREMENTS FOR FERRULE REDUCERS (First Revision)",
+      "clause_id": "IS 8008 (Part 5):2003#2.2",
+      "family": "IS 8008 (Part 5)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 355,
+      "page_end": 355,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8008 (Part 5):2003",
+    "record_id": 15064,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      355,
+      355
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.636,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

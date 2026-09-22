@@ -1,0 +1,289 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —Requirements for quality, dimensions, bulk density, water absorption and strength requirements of structural hollow clay tiles suitable for floor/roof.",
+      "clause_id": "IS 3951 (Part 2):1975#1",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements— Shall be free from cracks, flaws or inclusion of any deleterious materials.",
+      "clause_id": "IS 3951 (Part 2):1975#2",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "2.1",
+      "title": "Shall have at least",
+      "text": "2.1 Shall have at least one plane of symmetry in cross section.",
+      "clause_id": "IS 3951 (Part 2):1975#2.1",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "2.2",
+      "title": "Shall have serrations (not",
+      "text": "2.2 Shall have serrations (not deeper than 3 mm and not wider than 6 mm) on all faces designed to be concreted or mortared or plastered.",
+      "clause_id": "IS 3951 (Part 2):1975#2.2",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "2.3",
+      "title": "Winding or Bowing",
+      "text": "2.3 Winding or Bowing —  Shall not be more than5 mm per 30 cm length or width.",
+      "clause_id": "IS 3951 (Part 2):1975#2.3",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "2.4",
+      "title": "Concavity or Convexity",
+      "text": "2.4 Concavity or Convexity — Shall not be more than 5 mm per 30 cm run at any point in either diagonal.",
+      "clause_id": "IS 3951 (Part 2):1975#2.4",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "2.5",
+      "title": "Angle between Sides and Joining Edges",
+      "text": "2.5 Angle between Sides and Joining Edges—   Shall not be more than 5 mm per 30 cm run Note — Tests for trueness of shape are illustrated  in Fig 1. to 3. of the standard.",
+      "clause_id": "IS 3951 (Part 2):1975#2.5",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "3",
+      "title": "Dimensions and Tolerances",
+      "text": "3. Dimensions and Tolerances",
+      "clause_id": "IS 3951 (Part 2):1975#3",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "3.1",
+      "title": "Dimensions",
+      "text": "3.1 Dimensions Length— 290 and 390 mm Width —  90 to 190 mm in stages of 50 mm Height — 125 to 200 mm in stages of 25 mm",
+      "clause_id": "IS 3951 (Part 2):1975#3.1",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "3.2",
+      "title": "Thickness",
+      "text": "3.2 Thickness  —Shall be not less than 12 mm for shell and not less than 10 mm for web.",
+      "clause_id": "IS 3951 (Part 2):1975#3.2",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "3.3",
+      "title": "Tolerances",
+      "text": "3.3 Tolerances — ± 5 percent on length and width. + 5 percent on height. Note —Hollow tiles may be either with small  perforations or large holes or a combination of the two.",
+      "clause_id": "IS 3951 (Part 2):1975#3.3",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "4",
+      "title": "Bulk Density",
+      "text": "4. Bulk Density — Shall be not below 0.9g/cm3 and not more than 1.2g/cm3.",
+      "clause_id": "IS 3951 (Part 2):1975#4",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "5",
+      "title": "Compressive strength",
+      "text": "5. Compressive strength — Average not less than 200 kgf/cm2. Individual not less than 150 kgf/cm2.",
+      "clause_id": "IS 3951 (Part 2):1975#5",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 143,
+      "page_end": 143,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 2):1975",
+      "clause": "6",
+      "title": "Water Absorption",
+      "text": "6. Water Absorption — Shall not exceed 10 percent by weight. Note 1—Typical shapes of structure clay units for flooring and roofing are shown in Fig. 4 of the standard Note 2 — For methods of tests refer to 5.1.1 Appendices A and B of the standard. For detailed information, refer to IS 3951 (Part 2) : 1975 Specification for hollow clay tiles for floors and roofs: Part 2 Structural type (first revision). SUMMARY OF IS 3951 (PART 2) : 1975 HOLLOW CLAY TILES FOR FLOORS AND ROOFS PART 2  STRUCTURAL TYPE (First Revision) 1. Specification — Covers the specifications of hand made half round and flat country tiles. Sl No. Characteristic Requirement Class AA           Class A       Class AA                           Class A (1) (2) (3) (4) (5) (6) i) Water absorption percent, Max 19 24 19 24 ii) Breaking load, kN, Min a)  Average 0.40 (40 kg) 0.30 (30 kg) 0.35 (35 kg) 0.25 (25 kg) b) Individual 0.35 (35 kg) 0.25 (25 kg) 0.30 (30 kg) 0.20 (20 kg) TABLE 2  DIMENSIONS OF TILES Dimensions mm Overall length                    Overall width                                       Overall height Wide end Narrow end Wide end Narrow end Half Round Tiles Size I 250 105 85 50 40 Size II 250 120 95 60 45 Flat Tile Size I 200 175 145 20 20 SIze II 250 200 160 25 25 TABLE 1  CLASSIFICATION  OF  CLAY  COUNTRY  ROOFING  TILES 2. Classification — Class AA and Class A with characteristics given in Table 1. 3. Shape, Dimension and Tolerances -  For dimensions see Table 2 When the half round or flat country tile is placed on a plane surface, the gap at the corners shall be not more than 8 mm. The cross-section of the half round and flat country tiles shall be such as to give the tile structural rigidity. The overall minimum overlap in both the type of tiles shall  be  60 mm length length wise. There is no overlap width wise in these tiles. The tolerances in length and width shall  be  below ± 5 percent. 4.  General Quality —  Shall be free from irregularities, such as twists, bend, cracks and lamination.   Shall be free from impurities like particles  of stone, lime or other foreign materials. Class AA tile shall be of uniform colour. 5.  Weight —  Average of  6 tiles when dried to constant weight at 110°ºC. Half round tile 5 to 8 N, Max Flat tile 7 to 10 N,  Max Note 1 — For typical details of country roofing tiles see Fig. 1 of the standard. Note 2 — For methods of tests, refer to Appendices A and B of the standard. SUMMARY  OF IS 13317 : 1992 CLAY ROOFING COUNTRY TILES, HALF ROUND AND FLAT TILES For detailed information, refer to IS 13317:1992  Specification for clay roofing country tiles, half round and flat tiles. Half Round Tiles Flat Tiles SECTION 5 GYPSUM BUILDING MATERIALS CONTENTS Title Page IS 2095 Gypsum plaster boards (Part  I)  : 1996 Plain gypsum plaster boards (second revision) 5.3 (Part  3) : 1996 Reinforced gypsum plaster boards (second revision) 5.5 IS 2547 Gypsum building plaster (Part I)  :  1976 Excluding premixed light weight plaster (first revision) 5.7 (Part 2)  : 1976 Premixed light weight plaster (first revision) 5.9 IS 2849 : 1983 Non load bearing gypsum partition blocks 5.10 (Solid and hollow types) IS 8272 : 1984 Gypsum plaster for use in the manufacture of fibrous 5.11 plaster boards (first revision)",
+      "clause_id": "IS 3951 (Part 2):1975#6",
+      "family": "IS 3951 (Part 2)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 143,
+      "page_end": 146,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3951 (Part 2):1975",
+    "record_id": 28449,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      143,
+      146
+    ],
+    "n_clauses": 14,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current",
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 740:1977",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for wrought aluminium and aluminium alloys rivet stock for general engineering purposes.",
+      "clause_id": "IS 740:1977#1",
+      "family": "IS 740",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 701,
+      "page_end": 701,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 740:1977",
+      "clause": "2",
+      "title": "Freedom from Defects –",
+      "text": "2. Freedom from Defects - The material shall be sound and free fom harmful defects.",
+      "clause_id": "IS 740:1977#2",
+      "family": "IS 740",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 701,
+      "page_end": 701,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 740:1977",
+      "clause": "3",
+      "title": "Dimensions and Tolerances –",
+      "text": "3. Dimensions and Tolerances - As given in IS 3577 : 1992.*",
+      "clause_id": "IS 740:1977#3",
+      "family": "IS 740",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 701,
+      "page_end": 701,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 740:1977",
+      "clause": "4",
+      "title": "Designation and Typical Uses of Alloys",
+      "text": "4. Designation and Typical Uses of Alloys Designation Typical use New Old 19000 RIC Rivets used in equipment for food, chemical, brewing and processing, cooking, utensils, architectural and builders hardwares and in aircraft manufacture. 24345 HR 15 Rivets used in structures where high mechanical properties are of utmost importance, aircraft structures. Designation Typical use New Old 53000 NR 5 Rivets used in ship building, pressure vessels and other processing tanks and in aircraft manufacture. 55000 NR 6 Rivets used in ship building, aircraft manufacture and other applications demanding moderately high strength with good corrosion resistance. 64430 HR 30 Rivets used in structures of all kinds, such as, road and rail transport vehicles, bridges, cranes, roof trusses, cargo containers, flooring. 65032 HR 20 Structural applications of all kinds such as, road and rail transport vehicles, bridges, cranes, roof trusses, rivets, etc, cargo containers, milk containers, deep drawn containers and flooring. Note - For chemical composition and mechanical properties, see 4 (Table 1 and 2) of the standard. For detailed information, refer to IS  740 : 1977   Specifications for wrought aluminium and aluminium alloy rivet stock for general engineering purposes (second revision). * Wrought aluminium and its alloys - Rivet, bolt and screw stock- Dimensions and tolerances (first revision)",
+      "clause_id": "IS 740:1977#4",
+      "family": "IS 740",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 701,
+      "page_end": 701,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 740:1977",
+    "record_id": 14338,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      701,
+      701
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.971,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

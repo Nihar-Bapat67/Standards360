@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2372:2004",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Covers the species, grades, requirements and treatments for timber used in the construction of cooling towers.",
+      "clause_id": "IS 2372:2004#1",
+      "family": "IS 2372",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 169,
+      "page_end": 169,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2372:2004",
+      "clause": "2",
+      "title": "Species of Timber",
+      "text": "2. Species of Timber — The species of timber suitable for cooling towers shall be as given in Table 1. Table 1 Timbers for Cooling Towers Botanical Name Trade Name 1. Abies pindrow Fir 2. Cedrus deodara Deodar 3. picea smithiana Spruce",
+      "clause_id": "IS 2372:2004#2",
+      "family": "IS 2372",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 169,
+      "page_end": 169,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2372:2004",
+      "clause": "4",
+      "title": "Pinus kesiya",
+      "text": "4. Pinus kesiya Khasi pine 5. pinus roxburghii Chir",
+      "clause_id": "IS 2372:2004#4",
+      "family": "IS 2372",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 169,
+      "page_end": 169,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2372:2004",
+      "clause": "6",
+      "title": "Pinus wallichiana",
+      "text": "6. Pinus wallichiana Kail",
+      "clause_id": "IS 2372:2004#6",
+      "family": "IS 2372",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 169,
+      "page_end": 169,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2372:2004",
+      "clause": "7",
+      "title": "Tectona grandis",
+      "text": "7. Tectona grandis Teak",
+      "clause_id": "IS 2372:2004#7",
+      "family": "IS 2372",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 169,
+      "page_end": 169,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2372:2004",
+      "clause": "8",
+      "title": "Pseudotsuga taxifolia",
+      "text": "8. Pseudotsuga taxifolia Douglas fir",
+      "clause_id": "IS 2372:2004#8",
+      "family": "IS 2372",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 169,
+      "page_end": 169,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2372:2004",
+      "clause": "9",
+      "title": "Pinus radiata",
+      "text": "9. Pinus radiata Radiata pine 3. Grading of Timber 3.1 Colling tower timbers shall be of three grades, namely, select grade, Grade I and Grade II depending on the defects permitted. 3.2 Prohibited Defects (for All Grades) — Timber with loose grain, reaction wood, heartwood, rot warp, worm holes which are likely to affect strength, pitch pockets, centreheart (pith), shakes twisted grain and wane. 3.3 Permissible Defects — The defects to the extent specified in Table 2 of the standard for different grades of timber shall be permissible. 4. Dimensions and Tolerances 4.1 Nominal sizes, rough and finished dimensions for various thicknesses are given in Table 2. 4.2 A ± 5 mm tolerance in length shall normally be permisible. In other dimensions, no minus tolerances shall be permitted but a maximum plus tolerance of 2 mm shall be permitted. Table 2 Nominal and Dressed Dimensions Nominal rough thickness or width, in mm - 25 32 38 50 75 over 100 Minimum rough sawn thickness or width, in mm- 23 30 35 47.5 72.5 off 5 Dressed thickness or width,in mm-      21 27 32 45 70 off 10 5. Treatment 5.1 Following treatments are recommended— a) The structural members and the shell members are to be treated to a net retention of 12 kg/m3 of timber with copper-chrome arsenic (CCA) or acid-copper-chrome  (ACC) or 16 kg/m3 of copper-chrome boron (CCB) or 128 kg/m3 of of cresote/fuel oil mixture. b) Fill is to be treated under pressure with a minimum average  retention of 16 kg/m3 of timber with copper-chrome-arsenic (CCA) or acid-copper-chrome (ACC) or with 20 kg/m3 or copper-chrome boron (CCB) or with 160 kg/m3 of creosote/ fuel oil mixture 5.2 Penetration of Preservtives The depth of penetration of the preservtive shall be as given in Table 3. Table 3 Depth of Penetration of Preservative in Different Species of Timber Timber Species Depth Minimum Sapwood Heartwood Abies pindrow 100% 5* mm Cedrus deodara 100% 10 mm Picea smithiana 100% 5* mm Pinus kesiya 100% 20 mm Pnus roxburghii 100% 20 mm Pinus wallichiana 100% 10 mm Tectona grandia 100% Needs no treatment Douglas fir 100% 5* mm Radiata pine 100% 20 mm * Forstructural members incision of about 15 mm should be made on all surfaces (except end) to achieve the required absorption. SUMMARY OF IS 2372 : 2004 TIMBER FOR COOLING TOWERS (First Revision) For detailed information, refer to IS 2372:2004 Specification for timber for cooling towers (Second revision).",
+      "clause_id": "IS 2372:2004#9",
+      "family": "IS 2372",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 169,
+      "page_end": 169,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2372:2004",
+    "record_id": 25201,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      169,
+      169
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

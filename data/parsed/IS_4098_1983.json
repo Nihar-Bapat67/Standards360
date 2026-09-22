@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4098:1983",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirements of lime pozzolana mixture for use in construction works.",
+      "clause_id": "IS 4098:1983#1",
+      "family": "IS 4098",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 104,
+      "page_end": 104,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 4098:1983",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types Type Use LP7 For masonry mortars up to Grade MM 0.5, and for foundation concrete LP20 For masonry mortars up to Grade MM 2 and for foundation concrete. LP40 For masonry mortars up to Grade MM 5.",
+      "clause_id": "IS 4098:1983#2",
+      "family": "IS 4098",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 104,
+      "page_end": 104,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 4098:1983",
+      "clause": "3",
+      "title": "Chemical Requirements",
+      "text": "3. Chemical Requirements — See  Table 1 TABLE 1 CHEMICAL REQUIRE- MENTS SlNo. Characteristic Requirements (1) (2) (3) i) Free moisture content,percent, Max 5 ii) Free lime, percent, Min 22 iii) Carbon dioxide, percent,Max 5 iv) Sulphate content, percent,Max 3 v) Magnesium oxide, percent, Max 8",
+      "clause_id": "IS 4098:1983#3",
+      "family": "IS 4098",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 104,
+      "page_end": 104,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 4098:1983",
+      "clause": "4",
+      "title": "Physical Requirements – See Table 2.",
+      "text": "4. Physical Requirements - See Table 2. SUMMARY OF IS 4098 : 1983 LIME POZZOLANA MIXTURE (First Revision) TABLE 2 PHYSICAL  REQUIREMENTS. Sl Characteristic Requirment No. Type of Mixture LP40 LP20 LP7 (1) (2) (3) (4) (5) i) Fineness, percent  retained on 150- micron 15 15 - IS Sieve ii) Setting time, hours a)   Initial, Min 2 2 2 b)    Final, Max 24 36 48 iii)   Compressivestrength-  average compressive strength of  not less than 3 mortar cubes of size 50 mm composed of one part of lime pozzolana mixture and 3 partsof standard sand by weight, N/mm2 a)    At 7 days, Min 2 1 0.3 b)   At 28 days, Min 4 2 0.7 iv)    Water retention ,flow after suction of mortar composed of 65 65 65 one  part of lime-pozzolana and 3 parts of standard sand by weight, percent of original flow, Min. v) Soundness, autoclave expansion, percent Max. 1 1 1",
+      "clause_id": "IS 4098:1983#4",
+      "family": "IS 4098",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 104,
+      "page_end": 104,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 4098:1983",
+      "clause": "5",
+      "title": "Delivery",
+      "text": "5. Delivery—Shall be packed in bags (jute, multiply paper, HDPE or cloth) with a net mass of  '50' kg. The permissible tolerance on the mass of mixture supplied Note  —  For methods of tests, refer to IS 1514 : 1990 Methods of sampling and test for quick lime and hydrated lime (first revision). IS 1727 : 1967 Methods of test for pozzolanic materials (first revision),relevent parts   of  IS 4031: Methods of physical tests  for  hydraulic cement, and  IS 6932 (Part 2): 1973 Methods of tests for building limes. For detailed information, refer to IS 4098:1983 Specification for lime pozzolana mixture (first revision) in bags shall be ± 2.5 percent per bag with an overall tolerance of ± 0.5 percent for wagon load upto 25 tonnes.",
+      "clause_id": "IS 4098:1983#5",
+      "family": "IS 4098",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "packing",
+      "page_start": 104,
+      "page_end": 104,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4098:1983",
+    "record_id": 10731,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      104,
+      104
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

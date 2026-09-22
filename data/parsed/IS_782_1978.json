@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 782:1978",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for different types of caulking lead suitable for use in water supply and sanitary installations.",
+      "clause_id": "IS 782:1978#1",
+      "family": "IS 782",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 273,
+      "page_end": 273,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 782:1978",
+      "clause": "2",
+      "title": "Type",
+      "text": "2. Type a) Pig Lead — Used in caulking joints in gas, water and sewer lines, where it is possible to use cast lead caulking. b) Lead Wool and Lead Yarn - Used in caulking joints in gas, water and sewer lines where it is impracticable to use cast lead (such as inverted joints, under water joints, etc.) Such joints will withst and greater displacement than cast lead joints.",
+      "clause_id": "IS 782:1978#2",
+      "family": "IS 782",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 273,
+      "page_end": 273,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 782:1978",
+      "clause": "3",
+      "title": "Material and Quality",
+      "text": "3. Material and Quality a) Pig Lead — Shall be of uniform softness and capable of being easily caulked. For  detailed information, refer to IS 782 : 1978 Specification for caulking lead (third revision). b) Lead Wool — Free from sulphur. Shall consist of fine strands or plaited ribbons. Section not less than 0.13 mm and not more than 0.9 mm. c) Lead Yarn—Free from sulphur. Shall consist of fine strands of plaited ribbons. Cross section of individual strands shall be triangular. Section not less than 0.13 mm  and not more than 0.9 mm.",
+      "clause_id": "IS 782:1978#3",
+      "family": "IS 782",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 273,
+      "page_end": 273,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 782:1978",
+      "clause": "4",
+      "title": "Packing",
+      "text": "4. Packing a) Pig lead in pigs of 35 kg + 10 percent, each or linked ingots. b) Lead wool  and lead yarn, in the form of ropers packed in wax paper or polythene sheets and finally put in polythene lined hessian bags to prevent oxidation of lead.",
+      "clause_id": "IS 782:1978#4",
+      "family": "IS 782",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "packing",
+      "page_start": 273,
+      "page_end": 273,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 782:1978",
+    "record_id": 14852,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      273,
+      273
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.979,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

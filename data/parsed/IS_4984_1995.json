@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4984:1995",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for high density polyethylene pipes from 16 mm to 1000 mm nominal diameter of pressure rating from 0.25 MPa to 1.6 MPa in material grades of PE 63, PE 80, and PE 100, for use for buried water mains and services and for water supply above ground, both inside and outside buildings.",
+      "clause_id": "IS 4984:1995#1",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "2",
+      "title": "Designation",
+      "text": "2. Designation",
+      "clause_id": "IS 4984:1995#2",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "2.1",
+      "title": "Pipes shall be designated",
+      "text": "2.1 Pipes shall be designated according to the grade of material followed by pressure rating and nominal diameter. For example, PE 63 PN 10 DN 200 indicates a pipe pertaining to materail grade 63, pressure rating 1.0 MPa and outside nominal diameter 200 mm.",
+      "clause_id": "IS 4984:1995#2.1",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "2.2",
+      "title": "Classification of Pipe Material",
+      "text": "2.2 Classification of Pipe Material Sl. Material MRS Maximum No. Grade (Minimum Required Allowable Strength) of Hydrostatic Material in MPa Design Stress at 20°C, 50 years (σ) MPa At 20°C At 30°C (1) (2) (3) (4) (5) i) PE 63 6.3 5.0 4.0 ii) PE 80 8.0 6.3 5.0 iii) PE 100 10.0 8.0 6.3",
+      "clause_id": "IS 4984:1995#2.2",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "2.3",
+      "title": "Pressure Rating",
+      "text": "2.3 Pressure Rating —Pipes shall be classified by pressure rating (PN) corresponding to the maximum permissible working pressure at 30°C, as follows : Pressure Rating Maximum Permissile of Pipe Working Pressure PN 2.5 0.25 MPa PN 4 0.40 MPa PN 6 0.60 MPa PN 10 1.00 MPa PN 12.5 1.25 MPa PN 16 1.60 MPa Note—The pipes are recommended for maximum water temperature of + 45oC. The pipes may also be used upto the ambient temperature of -40oC . As the creep rupture strergth of the pipe varies with the change in water temperature, the maximum working pressure should be modified by applying the pressure coefficient given in fig. 1 of the standard.",
+      "clause_id": "IS 4984:1995#2.3",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "2.4",
+      "title": "Nominal Diameter (dn)",
+      "text": "2.4 Nominal Diameter (dn) — The nominal diameter of pipes covered in this standard are : 16, 20, 25, 32, 40, 50, 63,  75, 90, 110, 125,   140,160, 180, 200, 225, 250, 280,315, 355,00, 450,  560, 630, 710, 800, 900 and   1000 mm.",
+      "clause_id": "IS 4984:1995#2.4",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "3",
+      "title": "Colour",
+      "text": "3. Colour — Shall be black",
+      "clause_id": "IS 4984:1995#3",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "4",
+      "title": "Material",
+      "text": "4. Material",
+      "clause_id": "IS 4984:1995#4",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "4.1",
+      "title": "High Density Polyethylene",
+      "text": "4.1 High Density Polyethylene — High density polyethylene (HDPE) used for the manufacture of pipes shall conform to dsignation PEEWA-45-T-006 of  IS 7328 : 1992*. HDPE conforming to designation PEEWA-45- T-012 of IS 7328 : 1992 may also be used with the exception that melt flow rating (MFR) shall not exceed 1.10 g / 10 minutes. In addition the material shall also conform to 5.6.2 of IS 7328:1992. The specified base density shall be between 940.5 kg/m3 and 946.4 kg/m3 (both inclusive) when determined at 27°C. The value of the density shall also not differ from the nominal value by more than 3 kg/m3. The MFR of the material shall be between 0.41 and 1.10 (both inclusive) when tested at 190°C with nominal load  of 5 kg. The resin shall be compounded with carbon black. The carbon black content in the material shall be within 2.5    0.5% and the dispersion of carbon black shall be satisfactory.",
+      "clause_id": "IS 4984:1995#4.1",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "4.3",
+      "title": "Anti",
+      "text": "4.3 Anti-Oxidant — The percentage of anti-oxidant used shall not be more than 0.3 percent by mass of finished resin.",
+      "clause_id": "IS 4984:1995#4.3",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "4.4",
+      "title": "Reworked Material",
+      "text": "4.4 Reworked Material —  Not more than 10 percent of the manufacturer's own reworked material resulting from the manufacture of pipes. SUMMARY OF IS 4984 : 1995 HIGH DENSITY POLYETHYLENE PIPES FOR WATER SUPPLY (Fourth  Revision) * High density polyethylene malerials for molding and extension (first revision). ±",
+      "clause_id": "IS 4984:1995#4.4",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 338,
+      "page_end": 338,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "5",
+      "title": "Dimensions",
+      "text": "5. Dimensions TABLE 2 OUTSIDE DIAMETER, TOLERANCE AND OVALITY OF PIPES Nominal Outside Tolerance Ovality Diameter Diameter mm mm dn mm (only positive tolerances) (1) (2) (3) (4) 1 6 16.0 0.3 1.2 2 0 20.0 0.3 1.2 2 5 25.0 0.3 1.2 3 2 32.0 0.3 1.3 4 0 40.0 0.4 1.4 5 0 50.0 0.5 1.4 6 3 63.0 0.6 1.5 7 5 75.0 0.7 1.6 9 0 90.0 0.9 1.8 1 1 0 1 1 0 . 0 1 . 0 2 . 2 1 2 5 1 2 5 . 0 1 . 2 2 . 5 1 4 0 1 4 0 . 0 1 . 3 2 . 8 1 6 0 1 6 0 . 0 1 . 5 3 . 2 1 8 0 1 8 0 . 0 1 . 7 3 . 6 2 0 0 2 0 0 . 0 1 . 8 4 . 0 2 2 5 2 2 5 . 0 2 . 1 4 . 5 2 5 0 2 5 0 . 0 2 . 3 5 . 0 2 8 0 2 8 0 . 0 2 . 6 9 . 8 3 1 5 3 1 5 . 0 2 . 9 11.1 3 5 5 3 5 5 . 0 3 . 2 12.5 4 0 0 4 0 0 . 0 3 . 6 14.0 4 5 0 4 5 0 . 0 4 . 1 15.6 5 0 0 5 0 0 . 0 4 . 5 17.5 5 6 0 5 6 0 . 0 5 . 0 19.6 6 3 0 6 3 0 . 0 5 . 7 22.1 7 1 0 7 1 0 . 0 6 . 4 24.9 8 0 0 8 0 0 . 0 7 . 2 28.0 9 0 0 9 0 0 . 0 8 . 1 31.5 1 0 0 0 1000.0 9.0 35.0 5.2 For  Wall Thickness — Refer Tables 3, 4 and 5 of the standard. 5.3 Length — 5 m to 20 m. 5.4 Coiling —  The pipes supplied in coils shall be coiled on drums of minimum diameter of 25 times the nominal diameter of the pipe ensuring that kinking of pipe is prevented.",
+      "clause_id": "IS 4984:1995#5",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 339,
+      "page_end": 339,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "6",
+      "title": "Visual Appearance",
+      "text": "6. Visual Appearance",
+      "clause_id": "IS 4984:1995#6",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 339,
+      "page_end": 339,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "6.1",
+      "title": "The internal and external",
+      "text": "6.1 The internal and external surfaces of the pipes shall be smooth, clean and free from grooving and other defects. The ends shall be cleanly cut and shall be square with axis of the pipes. Slight shallow longitudinal grooves or irregularities in the wall thickness shall be permissible provided that the wall thickness remains within the permissible limits.",
+      "clause_id": "IS 4984:1995#6.1",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 339,
+      "page_end": 339,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "7",
+      "title": "Performance Requirements",
+      "text": "7. Performance Requirements",
+      "clause_id": "IS 4984:1995#7",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 339,
+      "page_end": 339,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "7.1",
+      "title": "Hydraulic Characteristics",
+      "text": "7.1 Hydraulic Characteristics —When subjected to internal pressure creep rupture test the pipes under test shall show no signs of localized swelling, leakage or weeping, and shall not burst during the prescribed.",
+      "clause_id": "IS 4984:1995#7.1",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 339,
+      "page_end": 339,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "7.2",
+      "title": "Reversion Test",
+      "text": "7.2 Reversion Test — Longitudinal Reversion shall not be greater than 3 percent.",
+      "clause_id": "IS 4984:1995#7.2",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 339,
+      "page_end": 339,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "7.3",
+      "title": "Overall Migration test",
+      "text": "7.3 Overall Migration test — Shall be within the  limits stipulated in*.",
+      "clause_id": "IS 4984:1995#7.3",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 339,
+      "page_end": 339,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4984:1995",
+      "clause": "7.4",
+      "title": "Carbon Black Content and Dispersion",
+      "text": "7.4 Carbon Black Content and Dispersion— the carbon black content shall be within 2.5 ± 0.5 percent, and the dispersion of carbon black shall be satisfactory. *Polyethylen e for is safe use in contact with food stuff, pharmaceuticals land drinking water. Note: For explanatory notes and methods of tests, refer to Appendices A to C of the standard. For detailed information, refer to IS 4984 : 1995 Specification for high density polyethylene pipes for water supply  (fourth revision).",
+      "clause_id": "IS 4984:1995#7.4",
+      "family": "IS 4984",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 339,
+      "page_end": 339,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4984:1995",
+    "record_id": 25232,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      338,
+      339
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

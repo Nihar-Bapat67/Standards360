@@ -1,0 +1,382 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5531:1988",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirements for cast iron specials to be used with asbestos cement pressure pipes for water, gas and sewage. 1.2 Applicable to cast iron specials for use with asbestos cement pressure pipes suitable for connection with cast iron detachable joints or asbestos cement couplings.",
+      "clause_id": "IS 5531:1988#1",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "2",
+      "title": "Material",
+      "text": "2. Material — As per the psrescribed standard",
+      "clause_id": "IS 5531:1988#2",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "3",
+      "title": "Mechanical Tests",
+      "text": "3. Mechanical Tests",
+      "clause_id": "IS 5531:1988#3",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "3.1",
+      "title": "Tensile Strength",
+      "text": "3.1 Tensile Strength — Min. 150 MPa.",
+      "clause_id": "IS 5531:1988#3.1",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "3.2",
+      "title": "Brinell Hardness",
+      "text": "3.2 Brinell Hardness— Not to exceed 215 HBS.",
+      "clause_id": "IS 5531:1988#3.2",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "4",
+      "title": "Hydrostatic Test",
+      "text": "4. Hydrostatic Test",
+      "clause_id": "IS 5531:1988#4",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "4.1",
+      "title": "Shall withstand (without showing leakage, sweating",
+      "text": "4.1 Shall withstand (without showing leakage, sweating or other defects) the test pressure, maintained for atleast 15 seconds, as specified in  IS 1592 : 1989 for the class of asbestos cement pressure pipes with which they are to be used.",
+      "clause_id": "IS 5531:1988#4.1",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "5",
+      "title": "Dimensions",
+      "text": "5. Dimensions — (mm)",
+      "clause_id": "IS 5531:1988#5",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "5.1",
+      "title": "Cast",
+      "text": "5.1 Cast  Iron Plain and Bends Nominal Dia 80, 100, 125, 150, 200, 250, 300, 350,  400, 450, 500, 600 Bend Angle 900, 450, 22½0, and 11¼0",
+      "clause_id": "IS 5531:1988#5.1",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "5.2",
+      "title": "Cast",
+      "text": "5.2 Cast  Iron Plain and Bends Nominal Dia 80, 100, 125, 150, 200, 250, 300, 350,  400 Length 125, 130, 135, 140, 150, 153, 160, 165, 170. Nominal Dia 450, 500, 600 Length 175, 180, 185",
+      "clause_id": "IS 5531:1988#5.2",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "5.3",
+      "title": "Cast Iron Plain and Reducers",
+      "text": "5.3 Cast Iron Plain and Reducers Nominal Dia Nominal Dia (Large end) (Small end) 100 80 125 80,100 150 80, 100, 125 200 100, 125, 150 225 125,150, 200 250 80, 100, 125,150, 200, 250 300 80, 100, 125,150, 200, 250, 300 350 200, 250, 300, 350 400 200, 250, 300, 350, 400 500 250, 300, 350, 400,450, 500 600 300, 350, 400, 450, 500, 600",
+      "clause_id": "IS 5531:1988#5.3",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "5.4",
+      "title": "Cast Iron Crosses",
+      "text": "5.4 Cast Iron Crosses Nominal Dia 80,100,125,150,250, 300, 350, 400, 450, 500, 600",
+      "clause_id": "IS 5531:1988#5.4",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "5.5",
+      "title": "Cast Iron Plain and Flanged Spigots",
+      "text": "5.5 Cast Iron Plain and Flanged Spigots— Nominal Dia 80, 100, 125, 150, 250, 300 350, 400, 450, 500, 600",
+      "clause_id": "IS 5531:1988#5.5",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "5.6",
+      "title": "Cast Iron Plain and Tees and",
+      "text": "5.6 Cast Iron Plain and Tees and  Plain and  Waves Nominal Dia Nominal Dia (Main) (Branch) 80 80 100 80,100 125 80,100,125 150 80, 100,125,150 200 80,100,125,150,200 250 80,100,125,150,200,250 300 80,100,125,150,200,250, 300 350 200,250,300,350 400 200,250,300,350,400 450 250,300,350,400,450 500 250,300,350,400,450,500 600 300,350,400,450,500,600",
+      "clause_id": "IS 5531:1988#5.6",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 314,
+      "page_end": 314,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "6",
+      "title": "Tolerances",
+      "text": "6. Tolerances Wall thickness, e — (2.00 mm + 0.05 e) (see note) Flange thickness, b     (3.00 mm + 0.05 b) ± where e  =  standard thickness of the wall in mm, and b  = standard thickness of the flange in mm. Note — No limit for the plus tolerances is specified.",
+      "clause_id": "IS 5531:1988#6",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 314,
+      "page_end": 315,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "6.1",
+      "title": "Other Dimensions",
+      "text": "6.1 Other Dimensions Dimension Tolerance mm Machined outside diameters +1.5 (D2 and d2) - 1.0 Length (l) and height (h) +15 - 10 Note— For method of test, refer to IS 1500 : 1983 Method for brinell hardness test for metallkic materials  (second revision). For detailed information, refer to  IS 5531 : 1988  Specification for cast iron specials for asbestos cement pressure pipes for water, gas and sewage (second revision).",
+      "clause_id": "IS 5531:1988#6.1",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 315,
+      "page_end": 315,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "6.2",
+      "title": "Mass",
+      "text": "6.2 Mass — Tolerance on the mass of the specials shall be     8 percent except for bends and fittings with more than one branch and non-standard fittings, where it shall be     12 percent.",
+      "clause_id": "IS 5531:1988#6.2",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 315,
+      "page_end": 315,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "7",
+      "title": "Coatings",
+      "text": "7. Coatings",
+      "clause_id": "IS 5531:1988#7",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 315,
+      "page_end": 315,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "7.1",
+      "title": "Coating shall not be",
+      "text": "7.1 Coating shall not be applied to any castings, unless its surface is clean, dry and free from rust.",
+      "clause_id": "IS 5531:1988#7.1",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 315,
+      "page_end": 315,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5531:1988",
+      "clause": "7.2",
+      "title": "In all cases where the coating material has",
+      "text": "7.2 In all cases where the coating material has  tar or similar base, it shall be smooth, tenacious and hard enough not to flow when exposed to a temperature of 650C but not so brittle at a temperature of 00C as to clip off when scribed lightly with a pen knife. ± ±",
+      "clause_id": "IS 5531:1988#7.2",
+      "family": "IS 5531",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 315,
+      "page_end": 315,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5531:1988",
+    "record_id": 12308,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      314,
+      315
+    ],
+    "n_clauses": 20,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

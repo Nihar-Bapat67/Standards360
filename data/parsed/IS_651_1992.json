@@ -1,0 +1,220 @@
+{
+  "clauses": [
+    {
+      "is": "IS 651:1992",
+      "clause": "1",
+      "title": "Scope – Covers dimensions and performance",
+      "text": "1. Scope - Covers dimensions and performance requirements for the following glazed stoneware pipes and fittings—  Straight pipes and taper pipes; Bends; Taper bend; Junctions; Half-section channels, straight and taper; Channel junctions; Channel bends; Channel interceptors; Gully traps; and Inspection pipes. The pipes covered in this standard are not meant for potable water applications. Dimensions are grouped into two sections A and B. Section A covers dimensions of straight pipes and all such fittings which normally form pact of pipe line and which are subject to same conditions, specifications and tests as straight pipes. Section B includes dimensions of fittings which are commonly used but do not form. Section B being hand rounded articles, their conformity to  dimensional specifications is not required to be so accurate as for those in Section 'A'.",
+      "clause_id": "IS 651:1992#1",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 409,
+      "page_end": 409,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 651:1992",
+      "clause": "2",
+      "title": "Right",
+      "text": "2. Right-hand and Left-hand Fittings— A right-hand fitting is such that when viewed from the spigot towards the socket, the arm of a junction or the socket of a bend projects to the right. A left-hand fitting is such that when viewed as above, the arm of socket projects to the left.",
+      "clause_id": "IS 651:1992#2",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 409,
+      "page_end": 409,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 651:1992",
+      "clause": "3",
+      "title": "General Quality",
+      "text": "3. General Quality — All pipes and fittings shall be sound and free from visible defects which impair the strength, durability and serviceability. The glaze of pipes and fittings shall be free from crazing. The pipes and fittings shall give a sharp clear note when struck with a light hammer. Colour of pipes/fittings may vary from yellow to dark brown/black.",
+      "clause_id": "IS 651:1992#3",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 409,
+      "page_end": 409,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 651:1992",
+      "clause": "4",
+      "title": "Glazing",
+      "text": "4. Glazing — The interior and exterior surfaces of the pipes and fittings which remain exposed after jointing, shall be glazed. The glaze shall be obtained by the action of fumes of volatized common salt on the material of the pipes and fittings during the process of burning or glaze shall be ceramic glaze consisting of glazing material, applied prior to firing.",
+      "clause_id": "IS 651:1992#4",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 409,
+      "page_end": 409,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 651:1992",
+      "clause": "5",
+      "title": "Tests",
+      "text": "5. Tests",
+      "clause_id": "IS 651:1992#5",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 409,
+      "page_end": 409,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 651:1992",
+      "clause": "5.1",
+      "title": "Hydraulic Test",
+      "text": "5.1  Hydraulic Test — Straight pipes shall withstand the internal hydraulic test pressure of 0.15 MPa on the barrels and fitting covered in Section A of the standard and 0.075 MPa for fitting covered in Section B of the standard, without showing signs of injury or leakage.",
+      "clause_id": "IS 651:1992#5.1",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 409,
+      "page_end": 409,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 651:1992",
+      "clause": "5.2",
+      "title": "Absorption Test",
+      "text": "5.2  Absorption Test — Maximum increase in mass shall be as follows : Thickness of Pipe or          Increase in Fitting, mm Mass Percent Upto and including 20",
+      "clause_id": "IS 651:1992#5.2",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 409,
+      "page_end": 409,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 651:1992",
+      "clause": "6",
+      "title": "Over 20 and upto 25",
+      "text": "6 Over 20 and upto 25",
+      "clause_id": "IS 651:1992#6",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 409,
+      "page_end": 409,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 651:1992",
+      "clause": "7",
+      "title": "Over 25 and upto 32",
+      "text": "7 Over 25 and upto 32",
+      "clause_id": "IS 651:1992#7",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 409,
+      "page_end": 409,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 651:1992",
+      "clause": "8",
+      "title": "Over 32 and upto 38",
+      "text": "8 Over 32 and upto 38",
+      "clause_id": "IS 651:1992#8",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 409,
+      "page_end": 409,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 651:1992",
+      "clause": "9",
+      "title": "Over 38",
+      "text": "9 Over 38 10 5.3 Test for Acid Resistance — The loss in mass shall not exceed 2.5 percent 5.4 Test for Alkali Resistance —  There  shall be no evidence of pitting, softening, spalling or cracking in the pipe or fitting after the test. 5.5 Crushing Strength Test —Minimum 16 KN/m length. 6. Dimensions of Pipes and Fittings forming Part of Pipe Line. 6.1 Internal Diameter —  The internal diameter of the barrels of straight pipes, fuctions and bends shall be 100, 150, 200, 230, 300, 350, 400, 450, 500 and 600 mm. The tolerance shall be ± 5, 6, 6, 6, 8, 8, 8, 10, 10, 12 and 12 mm respectively. 6.2 Thickness of Barrels, Sockets, and Bends— Shall be minimum 12, 15, 16, 20, 25, 30, 35, 37, 40 and 43 mm corresponding to each internal diameter specified above. ± ± ± ± ± ± ± ± ± ± 6.3 Length and Straightness of barrels for straight and taper pipes. a) Length - 600, 750, or 900 mm b) Tolerance - 100 mm for 600 and 750 mm and 15 mm for 900 mm length. c) Permissible deviation from straightnes -  Shall be 5mm for 600 mm, 6 mm for 750 mm and 7 mm for pipes of 900 mm length. 6.4 Tapers, Bends and Junctions — Internal diameters of taper pipes, half section straight channels, half section taper channels and junction hsall be selected from 6.1 Dimension of bend s shall be in accordance with Table 2 to 6 of the standard. 6.5 Sockets - Minimums table of hmm, measured on the diameter, per 15 mm length. Depth of sockets and shoulder shall be as given in Table 1 of the standard. Note1— For dimensions of fittings covered under section  B sec. tables 7 to 12 of the standard. Note 2—For methods of tests refer to Appendics A to C of the standard. For detailed information, refer to IS  651 : 1992 Specification forsalt glazed stoneware pipes andfittings (fifth revision). ± ±",
+      "clause_id": "IS 651:1992#9",
+      "family": "IS 651",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 409,
+      "page_end": 410,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 651:1992",
+    "record_id": 13372,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      409,
+      410
+    ],
+    "n_clauses": 11,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

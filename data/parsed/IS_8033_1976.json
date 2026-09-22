@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8033:1976",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for washers with square hole for use in wood fastenings with bolts in dia range 6 to 24 mm.",
+      "clause_id": "IS 8033:1976#1",
+      "family": "IS 8033",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 803,
+      "page_end": 803,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 8033:1976",
+      "clause": "2",
+      "title": "Grade – Ordinary grade",
+      "text": "2. Grade - Ordinary grade as specified in IS 5369",
+      "clause_id": "IS 8033:1976#2",
+      "family": "IS 8033",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 803,
+      "page_end": 803,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 8033:1976",
+      "clause": "3",
+      "title": "Dimensions (in mm)",
+      "text": "3. Dimensions (in mm) Size (Side of           External       Thickness        Suitable of Internal Square)                 Dia / Side                                   Bolt Size 6.6 22 1 M6 9 28 2 M8 11 34 2 M10 14 45 3.15 M12 18 58",
+      "clause_id": "IS 8033:1976#3",
+      "family": "IS 8033",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 803,
+      "page_end": 803,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 8033:1976",
+      "clause": "4",
+      "title": "M16",
+      "text": "4 M16 22 68 4 M20 26 92 4 M24 SUMMARY OF IS 8033 : 1976  WASHERS WITH SQUARE HOLE FOR WOOD FASTENINGS 4. Designation - As an example, a round washer with square hole of nominal size 14 mm shall be designated as `Washer With Square Hole 14 IS : 8033'. * General requirements for plain washers and lock washers (first revision) Note 1—Dimensional tolerances as well as tolerances for form and  position shall conform to those of ordinary washers of IS 5369. Note 2— In regard to requirements not covered, refer to IS 5369.",
+      "clause_id": "IS 8033:1976#4",
+      "family": "IS 8033",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 803,
+      "page_end": 803,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8033:1976",
+    "record_id": 15099,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      803,
+      803
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.927,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

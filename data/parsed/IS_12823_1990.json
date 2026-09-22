@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12823:1990",
+      "clause": "1",
+      "title": "Scope – Requirement of prelaminated particle",
+      "text": "1. Scope - Requirement of prelaminated particle boards for general purpose and also for special applications.",
+      "clause_id": "IS 12823:1990#1",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "2",
+      "title": "Grades and Types",
+      "text": "2. Grades and Types—Prelaminated particle boards shall be of two  grades, namely, Grade I and Grade II corresponding to IS  3087 : 1985+.",
+      "clause_id": "IS 12823:1990#2",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "2.1",
+      "title": "Each of the grades",
+      "text": "2.1 Each of the grades shall be of four types, namely, Type I, II, III and IV. Classified by surface abrasion characteristics  specified in Table 1.",
+      "clause_id": "IS 12823:1990#2.1",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "2.2",
+      "title": "The grades and types",
+      "text": "2.2 The grades and types shall represented by the symbols. Grade and Type Designation Grade I - Type I PLB-11 Type II PLB-12 Type III PLB-13 Type IV PLB-14 Grade II- Type I PLB-21 Type II PLB-22 Type III PLB-23 Type IV PLB-24",
+      "clause_id": "IS 12823:1990#2.2",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "3",
+      "title": "Materials",
+      "text": "3. Materials",
+      "clause_id": "IS 12823:1990#3",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "3.1",
+      "title": "Particle Board",
+      "text": "3.1 Particle Board  -  Synthetic resin bonded flat pressed three layer or multi-layer or graded particle boards   conforming to IS 3087 : 1985+ shall be used.",
+      "clause_id": "IS 12823:1990#3.1",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "3.2",
+      "title": "Impregnated Base Paper",
+      "text": "3.2 Impregnated Base Paper — Printed or plain coloured absorbent base paper having a weight of 60- 140 g/m2 impregnated in a suitable synthetic resin and dried to a volatile content of 4-8 percent shall be used. SUMMARY OF IS 12823 : 1990 WOOD PRODUCTS-PRELAMINATED PARTICLES BOARDS",
+      "clause_id": "IS 12823:1990#3.2",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "3.3",
+      "title": "Impregnated Overlay",
+      "text": "3.3 Impregnated Overlay—An absorbent tissue paper having a weight of 18-40 g/m2 impregnated in a suitable synthetic resin and dried to a volatile content of 4-8 percent.",
+      "clause_id": "IS 12823:1990#3.3",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "4",
+      "title": "Finish",
+      "text": "4. Finish —The finish of the paper overlaid board depends on the surface of caul plates used.",
+      "clause_id": "IS 12823:1990#4",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "5",
+      "title": "Dimensions and Tolerances",
+      "text": "5. Dimensions and Tolerances —Dimensions and tolerances shall conform to IS 12049:1987.*",
+      "clause_id": "IS 12823:1990#5",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "6",
+      "title": "Tests",
+      "text": "6. Tests",
+      "clause_id": "IS 12823:1990#6",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "6.1",
+      "title": "Density",
+      "text": "6.1 Density — 500 to 900 kg/m3",
+      "clause_id": "IS 12823:1990#6.1",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "6.2",
+      "title": "Moisture Content",
+      "text": "6.2 Moisture Content — 5 to 15 percent",
+      "clause_id": "IS 12823:1990#6.2",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "6.3",
+      "title": "Resistance to Steam –",
+      "text": "6.3 Resistance to Steam - Shall not show any sign of blister, delamination or change in surface finish. There may be slight colour change in dark colours/ patterns.",
+      "clause_id": "IS 12823:1990#6.3",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "6.4",
+      "title": "Crack Resistance – Shall",
+      "text": "6.4 Crack Resistance - Shall not show any sign of cracks or delamination.",
+      "clause_id": "IS 12823:1990#6.4",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "6.5",
+      "title": "Resistance to digarette Burn",
+      "text": "6.5 Resistance to digarette Burn — shall not leave any mark or stain on the specimen after cleaning with water or solvent.",
+      "clause_id": "IS 12823:1990#6.5",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "6.6",
+      "title": "Resistance to Stain",
+      "text": "6.6 Resistance to Stain — Shall not leave any stain on the specimen after cleaning with  water, solvent or detergent.",
+      "clause_id": "IS 12823:1990#6.6",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "6.7",
+      "title": "For Other Tests",
+      "text": "6.7 For Other Tests —See Table 1.",
+      "clause_id": "IS 12823:1990#6.7",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 585,
+      "page_end": 585,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12823:1990",
+      "clause": "7",
+      "title": "Physical and Mechanical Properties",
+      "text": "7. Physical and Mechanical Properties - See Table1. + Wood particle boards (medium density) for general purposes (first revision). * Dimensions and tolerances relating to wood based panel materials TABLE 1    PHYSICAL AND MECHANICAL PROPERTIES Properties Flat, Pressed three layers, Multilayer and Graded Grade I Grade II i) Density variation  Max, percent ±10 ±10 ii) absorption,  Max, percent a)  2 hours 7.0 15.0 b)  24 hours 15.0 30.0 iii) Thickness swelling,  Max, percent, 5.0 8.0 a)  2 hours iv) Modulus of rupture,  Min, N/mm2— a)  Up to 20 mm thickness 15.0 11.0 b)  Above 20 mm thickness 12.5 11.0 v) Tensile strength perpendicular to surface,  Min, N/mm2— a)  Up to 20 mm thickness 0.45 0.3 b)  Above 20 mm thickness 0.4 0.3 vi) Tensile strength perpendicular to surface,  Min, N/mm.2 a)  After cyclic test 0.2 __ b)  After accelerated water resistance test 0.15 __ vii) Screw withdrawal strength,  Min,N: a)  Face 1250 1250 b)  Edge 850 750 viii) Abrasion resistance,  Min in number of revolutions— a)  Type I 1000 1000 b)  Type II 450 450 c)  Type III 250 250 d)  Type IV 75 75 Note— For method of test, refer to the  standard and various parts of IS 2380 : 1977  Methods of test for wood particle boards and boards from other lignocellulosic materials ( first revision). For detailed Information, refer to IS 12823 : 1990 Specification for wood products- prelaminated particle boards",
+      "clause_id": "IS 12823:1990#7",
+      "family": "IS 12823",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 585,
+      "page_end": 586,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12823:1990",
+    "record_id": 25221,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      585,
+      586
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

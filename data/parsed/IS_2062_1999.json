@@ -1,0 +1,232 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2062:1999",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements of steel plates, strips, sections, flats, bars, etc, for use in structural work.",
+      "clause_id": "IS 2062:1999#1",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 668,
+      "page_end": 668,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2062:1999",
+      "clause": "1.1",
+      "title": "The steels are suitable",
+      "text": "1.1 The steels are suitable for welded, bolted and riveted' structures, and for general engineering purposes.",
+      "clause_id": "IS 2062:1999#1.1",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 668,
+      "page_end": 668,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2062:1999",
+      "clause": "1.2",
+      "title": "Where welding is employed",
+      "text": "1.2 Where welding is employed for fabriction and guaranteed-weldability is required, welding procedure should be as specified in IS 9595 : 1996 `Metal are welding of carbon and carbon manganese steels - Recommendations (first Revision):.",
+      "clause_id": "IS 2062:1999#1.2",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 668,
+      "page_end": 668,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2062:1999",
+      "clause": "2",
+      "title": "Grades",
+      "text": "2. Grades — There shall be three grades: Grade Designation A Fe 410W A B Fe 410W B C Fe 410W  C",
+      "clause_id": "IS 2062:1999#2",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 668,
+      "page_end": 668,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2062:1999",
+      "clause": "3",
+      "title": "Freedom from Defects",
+      "text": "3. Freedom from Defects  —  The finished material shall be reasonably free from surface flaws; laminations; rough/jagged and imperfect edges; and all   other harmful defects. SUMMARY OF IS 2062 : 1999 STEEL FOR GENERAL STRUCTURAL PURPOSES (Fifth Revision) Minor surface defects may be removed by grinding provided the thickness is not reduced locally by more than 4 percent below the minimum specified thickness.",
+      "clause_id": "IS 2062:1999#3",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 668,
+      "page_end": 668,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2062:1999",
+      "clause": "4",
+      "title": "Mechanical Properties",
+      "text": "4. Mechanical Properties :",
+      "clause_id": "IS 2062:1999#4",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 668,
+      "page_end": 668,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2062:1999",
+      "clause": "4.1",
+      "title": "Tensile Test – As",
+      "text": "4.1. Tensile Test - As a rule, test pieces with a proportional guage  length complying with the requirements L0=5.65 So should be  used for the tensile test, where L0 is the gauge length and S  is the cross sectional area of the test. 4..2 Bend Test  - For bend test, the test piece at room temperature shall withstand bending through 1800 to an internal diameter not greater than that given in Table1 without cracking.",
+      "clause_id": "IS 2062:1999#4.1",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 668,
+      "page_end": 668,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2062:1999",
+      "clause": "4.3",
+      "title": "Impact Test – It",
+      "text": "4.3 Impact Test - It  shall meet therequirements given in Table 1 provided no individual value shall be less than 70 percent of the specified value. TABLE 1   MECHANICAL PROPERTIES Grade Designation Tensile Yield Stress, Min, MPa Percent Elongation Internal Charpy V-Notch Strength at Gauge length Diameter Impact Energy Min,MPa <20 20-40 >40 5.65 So of bend J, Min mm mm mm min min (1) (2) (3) (4) (5) (6) (7) (8) (9) A Fe410WA 410 250 240 230 23 3t  — B Fe410WB 410 250 240 230 23 2 t for less than 27 or equal to 25 mm thick products 3t for more than 25 mm thick products C Fe410WC 410 250 240 230 23 2t 27 ++    Rolling and cutting tolerances for hot rolled- steel products (fourth revision) Note 1 - For test procedures, refer IS 599 : 1985. Method of end test (second revision) and IS 1608 : 1995 Mechanical testing of metals. Tensile testing (second revision). Note 2 - For chemical composition, see 8 of  the standard. For detailed information, refer to IS  2062 : 1999  Specification for steel for general structural purposes (fifth revision).",
+      "clause_id": "IS 2062:1999#4.3",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 668,
+      "page_end": 669,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2062:1999",
+      "clause": "4.4",
+      "title": "Groove Crackability Test – Y-Groove crackability",
+      "text": "4.4 Groove Crackability Test - Y-Groove crackability test may be carried out in accordance with IS 10842 for products of only Grade C material having thickness above 12 mm and above if specially agreed to between the purchaser and the manufactuer.",
+      "clause_id": "IS 2062:1999#4.4",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 669,
+      "page_end": 669,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2062:1999",
+      "clause": "5",
+      "title": "Dimensions – The nominal",
+      "text": "5. Dimensions - The nominal dimensions of rolled products conforming to this standard shall be in accordance with the relevant Indian Standard. Currently available Indian Standard are listed in Table 4 of the standard",
+      "clause_id": "IS 2062:1999#5",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 669,
+      "page_end": 669,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2062:1999",
+      "clause": "6",
+      "title": "Tolerance – The rolling",
+      "text": "6. Tolerance - The rolling and cutting tolerances for steel products conforming to this standard shall be those specified in S 1852  : 1985++ + Testing and evaluation procedure for Y groove crackability test.",
+      "clause_id": "IS 2062:1999#6",
+      "family": "IS 2062",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 669,
+      "page_end": 669,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2062:1999",
+    "record_id": 8602,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      668,
+      669
+    ],
+    "n_clauses": 11,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current",
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

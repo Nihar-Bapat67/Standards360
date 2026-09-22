@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2963:1979",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Requirements for materials, manufacture and workmanship, nominal sizes, dimensions and finish of copper alloy waste fittings used in wash-basins and sinks complying with the prescribed standards.",
+      "clause_id": "IS 2963:1979#1",
+      "family": "IS 2963",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 276,
+      "page_end": 276,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2963:1979",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 2963:1979#2",
+      "family": "IS 2963",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 276,
+      "page_end": 276,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2963:1979",
+      "clause": "2.1",
+      "title": "Materials",
+      "text": "2.1 Materials Body  — Brass or leaded tin bronze Nut   —  Brass rod Fordetailed information, refer to IS 2963 : 1979  Specification for copper  alloy waste fittings for wash-basins and sinks (first revision).",
+      "clause_id": "IS 2963:1979#2.1",
+      "family": "IS 2963",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 276,
+      "page_end": 276,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2963:1979",
+      "clause": "2.2",
+      "title": "Nominal Sizes – 32",
+      "text": "2.2 Nominal Sizes - 32 mm for wash basins. 50 mm for sinks Note—For detailed dimensions refer to te figures in the standard.",
+      "clause_id": "IS 2963:1979#2.2",
+      "family": "IS 2963",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 276,
+      "page_end": 276,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2963:1979",
+      "clause": "2.3",
+      "title": "Finish",
+      "text": "2.3 Finish — Nickle chromium plated.",
+      "clause_id": "IS 2963:1979#2.3",
+      "family": "IS 2963",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 276,
+      "page_end": 276,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2963:1979",
+    "record_id": 9456,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      276,
+      276
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.875,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

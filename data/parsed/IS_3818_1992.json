@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3818:1992",
+      "clause": "1",
+      "title": "Scope – Requirements for continuous (piano)",
+      "text": "1. Scope - Requirements for continuous (piano) hinges.",
+      "clause_id": "IS 3818:1992#1",
+      "family": "IS 3818",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 522,
+      "page_end": 522,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3818:1992",
+      "clause": "2",
+      "title": "Material",
+      "text": "2. Material Name of Material Component Flap a) Mild Steel sheet b) Aluminium alloy sheet c) Cold rolled low carbon steel sheets Pin a) Mild steel wire b) Aluminium alloy sheet",
+      "clause_id": "IS 3818:1992#2",
+      "family": "IS 3818",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 522,
+      "page_end": 522,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3818:1992",
+      "clause": "3",
+      "title": "Dimensions and Tolerances",
+      "text": "3. Dimensions and Tolerances — Dimension of type I, II, III and IV and permissible tolerances shall  conform to those specified in Fig. 1 to 3 of the standard. For  detailed information, refer  to IS 3818 : 1992 Specification for continuous  (piano) hinges ( third  revision). SUMMARY OF IS 3818 : 1992 CONTINUOUS (PIANO) HINGES (Third Revision)",
+      "clause_id": "IS 3818:1992#3",
+      "family": "IS 3818",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 522,
+      "page_end": 522,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3818:1992",
+      "clause": "4",
+      "title": "Requirements",
+      "text": "4. Requirements a) Knuckles shall be straight and at right angle to the flap. b) Hinge pin shall be of mild steel in the case of mild steel hinges and shall be of mild steel (galvanized) or Aluminium alloy in case of aluminium alloy hinges. The aluminium alloy hinge pin shall be hard anodized to a minimum thickness  of 0.025 mm  and sealed with oil wax or lanolin. c) Screw holes shall be countersunk.",
+      "clause_id": "IS 3818:1992#4",
+      "family": "IS 3818",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 522,
+      "page_end": 522,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3818:1992",
+      "clause": "5",
+      "title": "Finish",
+      "text": "5. Finish — Mild steel hinges shall be protected with anticorrosive treatment, such as, bright polished, chromium plated or oxidized finish. Aluminium hinges shall be anodized.",
+      "clause_id": "IS 3818:1992#5",
+      "family": "IS 3818",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 522,
+      "page_end": 522,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3818:1992",
+    "record_id": 10408,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      522,
+      522
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

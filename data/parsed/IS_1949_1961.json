@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1949:1961",
+      "clause": "1",
+      "title": "Scope – Deals with",
+      "text": "1. Scope -  Deals with aluminium windows suitable for use in industrial buildings and designed to suit openings based on a module of 10 cm.",
+      "clause_id": "IS 1949:1961#1",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 635,
+      "page_end": 635,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "2",
+      "title": "Designation – By symbols",
+      "text": "2. Designation -  By symbols IN  ( to indicate industrial window) × Width expressed in number of modules × Type (F = fixed sash; C=centre hung sash; B = bottomhung sash; T = top-hung sash) × Height expressed in number of modules. Examples a) IN 10 C 15 indicates window for opening 10 module wide (100 cm) by 15 module high (150 cm) with centre-hung ventilator. b) Composite windows IN 10 C 10 / IN 10 C 10 IN 10 C 15 / IN 10 C 15 Indicates the combination of four windows, twoof the types IN 10 C 10 on top and two of the type IN 10 C 15 at bottom, all the four of them coupled both horizontally and vertically.",
+      "clause_id": "IS 1949:1961#2",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 635,
+      "page_end": 635,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "3",
+      "title": "Sizes and Tolerances",
+      "text": "3. Sizes and Tolerances a) Sizes IN10C10 IN22C10 IN16C15 IN10T10 IN22T10 IN16T15 IN10B10 IN22B10 IN16B15 IN16C10 IN10C15 IN22C15 IN16T10 IN10T15 IN22T15 IN16B10 IN10B15 IN22B15 IN10C20 IN22C20 IN16F15 IN10T20 IN22T20 IN16F15 IN10B20 IN22B20 IN16F20 IN16C20 IN10F10 IN22F10 IN16T20 IN10F15 IN22F15 IN16B20 IN10F20 IN22F20 b) Ventilators (opening part of  sash) shall  be of one size and designed to fit into outer frame IN 10 C 10 and with 1.2 mm  clearance. c) Tolerances for overall dimensions ±3mm. Note—The overall width and height of window is  smaller than dimension of modular opening by 2.5 cm, allowing a clearance of 1.25 cm all round. thus, width and height of IN 10 C15 = 97.5 cm ×147.5 cm.",
+      "clause_id": "IS 1949:1961#3",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 635,
+      "page_end": 635,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "4",
+      "title": "Materials",
+      "text": "4. Materials a) Aluminium extruded section—Shall conform to the prescribed standard. The form of sections, dimensions and weights shall be as given in Fig 2 of the standard. b) Cord-eyes, pulleys, brackets and catch plates - Shall be of aluminium or galvanized or  cadmium plated steel. c) Pivots, peg stays and spring catches- Shall be of non-ferrouns metal. d) Glass Panes - Shall weigh 7.5 kg/m2. Sizes of glass panes shall be as given below- Pane Designation a b    c   d      e         f Width (mm) 265 300  290  300    300    290 Height (mm) 420 420  455  455   490     490 Note- For number of glass panes for each type  of window see Fig 5 of the standard.",
+      "clause_id": "IS 1949:1961#4",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 635,
+      "page_end": 635,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "5",
+      "title": "Holes for Fixing, Coupling",
+      "text": "5. Holes for Fixing, Coupling and Glazing - Holes for fixing and coupling sashes shall be provided in the web of the outside frame sections and of outer ventilator frame sections where these occur at the perimeter of the sash. Holes for glazing chips shall also be provided, one hole being located in web of the section or tee, on each side of each pane.",
+      "clause_id": "IS 1949:1961#5",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 635,
+      "page_end": 635,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "6",
+      "title": "Fitting and Fixing Materials",
+      "text": "6. Fitting and Fixing Materials",
+      "clause_id": "IS 1949:1961#6",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 635,
+      "page_end": 635,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "6.1",
+      "title": "Centre",
+      "text": "6.1 Centre-hung ventilators shall be mounted on a pair of cup-pivots made out of aluminium alloy sheet or chromium plated brass and each pivot consisting of an inner and outer cup, permitting the swinging of the ventilator though at least 85º. The venitlator shall be so balanced that it can remain open in any  desired position.",
+      "clause_id": "IS 1949:1961#6.1",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 635,
+      "page_end": 635,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "6.2",
+      "title": "Centre",
+      "text": "6.2 Centre-hung and bottom-hung ventilators shall have cast aluminium or bronze spring catch in the centre of the top section, suitable for operation by hand or pole (chord in case of centre-hung).",
+      "clause_id": "IS 1949:1961#6.2",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 635,
+      "page_end": 635,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "6.3",
+      "title": "Bottom",
+      "text": "6.3 Bottom-hung and top-hung ventilators shall be hung on aluminium alloy hinges. The former shall be provided with a pair of aluminium alloy folding side arms ( to limt the opening ) and the latter with a 300 mm long peg stay. Alternatively, top-hung ventilator may be provided with 30 cm cam opener.",
+      "clause_id": "IS 1949:1961#6.3",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 636,
+      "page_end": 636,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "6.4",
+      "title": "Two spring glazing clips",
+      "text": "6.4 Two spring glazing clips pane shall be provided.",
+      "clause_id": "IS 1949:1961#6.4",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 636,
+      "page_end": 636,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "7",
+      "title": "Composite Windows",
+      "text": "7. Composite Windows Shall be despatched unassembled, but complete with necessary components. Each coupling member will increase the overall height or width by 25 mm.",
+      "clause_id": "IS 1949:1961#7",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 636,
+      "page_end": 636,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1949:1961",
+      "clause": "8",
+      "title": "Finish",
+      "text": "8. Finish Matt, scratch-brush or polished may be anodized additionally. A thick layer of transparent lacquer, based on methacrylates or cellulose butyrate, shall be applied, by the suppliers, to protect the surface from action of wet cement during installation. This lacquer coating shall be removed after installation is completed. For detailed information, refer to IS 1949 : 1961 Specification for aluminium windows for Industrial buildings.",
+      "clause_id": "IS 1949:1961#8",
+      "family": "IS 1949",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 636,
+      "page_end": 636,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1949:1961",
+    "record_id": 8456,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      635,
+      636
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

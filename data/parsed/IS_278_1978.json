@@ -1,0 +1,328 @@
+{
+  "clauses": [
+    {
+      "is": "IS 278:1978",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for two types of galvanized steel barbed wire with two strands of wire.",
+      "clause_id": "IS 278:1978#1",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "2",
+      "title": "Types –",
+      "text": "2. Types -",
+      "clause_id": "IS 278:1978#2",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "2.1",
+      "title": "Types A (Iowa Type)",
+      "text": "2.1 Types A (Iowa Type) - Barbs shall have 4 points, formed by  twisting two point wires, each  two turns, tightly around both line wires making altogether four complete turns.",
+      "clause_id": "IS 278:1978#2.1",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "2.2",
+      "title": "Types B (Glidden",
+      "text": "2.2 Types B (Glidden  Type) — Barbs shall have 4 points, formed by  twisting two point wires, each  two turns, tightly around one line wire making altogether four complete turns. Note — For details,  see Fig. 1 of the standard.",
+      "clause_id": "IS 278:1978#2.2",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "3",
+      "title": "Sizes (in mm)",
+      "text": "3. Sizes (in mm) Sizes Nominal Diameter Mass of Distance Desig- Complete Between nation Line Point Barbed Two Wire Wire Wire Barbs g/m 1.               2.50        2.50            136-155              75±12 2.               2.50        2.50            108-120           150±12 3.               2.50        2.00            108-125              75±12 4.               2.50        2.00              89-103            150±12 5.               2.24        2.00              97-106              75±12 6.               2.24        2.00              78-85              150±12 Note - Number of lays between the two consecutive barbs  shall vary between 2 to 7.",
+      "clause_id": "IS 278:1978#3",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "3.1",
+      "title": "Tolerances – ± 0.08",
+      "text": "3.1 Tolerances - ± 0.08 mm on diameter of line wire and point wire.",
+      "clause_id": "IS 278:1978#3.1",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "4",
+      "title": "Requirements",
+      "text": "4. Requirements",
+      "clause_id": "IS 278:1978#4",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "4.1",
+      "title": "Material",
+      "text": "4.1. Material — Galvanized mild steel wire conforming to IS 280 : 1978.* * Mild steel wire for general engineering purposes (third revision) Note - For methods of tests refer to IS 1608 : 1995 Mechanical testing of metals-tensile testing (second revision), IS 1755 : 1983 Method for wrapping  test of mettalic wire (first revision) and IS 4826 : 1979 Hot-dipped galvanized coatings on round steel wires  (first revision). For detailed infomation, refer to IS 278 : 1978 Specifications for  galvanized steel barbed wire for fencing. (third revision).",
+      "clause_id": "IS 278:1978#4.1",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "4.2",
+      "title": "Freedom from Defects",
+      "text": "4.2 Freedom from Defects",
+      "clause_id": "IS 278:1978#4.2",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "4.2.1",
+      "title": "Line and point wires shall be circular in",
+      "text": "4.2.1  Line and point wires shall be circular in  section, free  from scales and other defects and shall be uniformly galvanized.",
+      "clause_id": "IS 278:1978#4.2.1",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 3,
+      "parent_clause": "4.2",
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "4.2.2",
+      "title": "Line wire shall be",
+      "text": "4.2.2 Line wire shall be in continuous lengths and shall not contain any welds other than those in rod before it is drawn. The distance between two successive weldings in the line of finished barbed wire shall not be less than 15 m. Note — For requirements in regard to manufacture, galvanizing  and chromating, refer to 6 and 7 of the standard.",
+      "clause_id": "IS 278:1978#4.2.2",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 3,
+      "parent_clause": "4.2",
+      "role": "requirements",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "5",
+      "title": "Designation – A galvanized",
+      "text": "5. Designation - A galvanized steel barbed wire of Type A and of size designation 1 shall be designated as: Steel Barbed Wire, A-1 IS  278",
+      "clause_id": "IS 278:1978#5",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "6",
+      "title": "Tests",
+      "text": "6. Tests",
+      "clause_id": "IS 278:1978#6",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "6.1",
+      "title": "Tensile Test – Tensile",
+      "text": "6.1 Tensile Test - Tensile strength of line wire shall be 390 to 590 N/mm2. Minimum breaking loads of  completed barbed wire and individual line wires shall be 3.7 and 3.0 kN for 2.50 and 2.24 line wire respectively.",
+      "clause_id": "IS 278:1978#6.1",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "6.2",
+      "title": "Zinc Coating –",
+      "text": "6.2 Zinc Coating -",
+      "clause_id": "IS 278:1978#6.2",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "6.2.1",
+      "title": "Line wire – Shall",
+      "text": "6.2.1 Line wire -  Shall satisfy the requirements as for minimum medium coated wire given in IS 4826 : 1979†. subject   to a reduction of not more than 15 percent of the specified values.",
+      "clause_id": "IS 278:1978#6.2.1",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 3,
+      "parent_clause": "6.2",
+      "role": "requirements",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 278:1978",
+      "clause": "6.3",
+      "title": "Ductility Test",
+      "text": "6.3 Ductility Test  -  Line wire shall withstand wrapping and unwrapping eight turns round its own diameter without fracture. † Hot-dipped galvanized coatings on round steel wires (first revision).",
+      "clause_id": "IS 278:1978#6.3",
+      "family": "IS 278",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 811,
+      "page_end": 811,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 278:1978",
+    "record_id": 9309,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      811,
+      811
+    ],
+    "n_clauses": 17,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.997,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

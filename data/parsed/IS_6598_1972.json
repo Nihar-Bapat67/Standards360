@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6598:1972",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and the methods of sampling and test for cellular concrete for thermal linsulation. Note - Cellular concrete (formed by producing gas or air bubbles in a cement or cement-sand slurry) is a versatile construction material on account of its light weight, high thermal insulation, resistance to sulphate action, resistance to alternate cooling and thawing (when high pressure steam cured) and resistance to penetration of water. When cast in situ, it can be applied over flat roofs for thermal insulation.",
+      "clause_id": "IS 6598:1972#1",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "2",
+      "title": "Types and Grades",
+      "text": "2. Types and Grades",
+      "clause_id": "IS 6598:1972#2",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "2.1",
+      "title": "Two types of material",
+      "text": "2.1 Two types of material depending on manner of manufacture, namely : Type 1- High pressure steam cured  (auto claved) material in the form of  precast blocks. Type 2 - Cured under normal conditions  (that is, under ambient pressure and temperature) by water. Either cast in situ or as precast blocks.",
+      "clause_id": "IS 6598:1972#2.1",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "2.2",
+      "title": "Each of these two",
+      "text": "2.2 Each of these two types shall have three grades, namely : Grade A —    Light weight Grade B —    Medium weight Grade C —    Heavy weight",
+      "clause_id": "IS 6598:1972#2.2",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "3",
+      "title": "Materials",
+      "text": "3. Materials a) Aggregate - Sand, ground quartz, shale, fly ash, granulated slag, etc. b) Binders - Portland cement of lime. c) Glassing agents - Organic foaming agents based on resin soap, glue, surface active agents, or fine aluminium powder, zinc dust, calcium carbide, calcium hypochlorite, etc.",
+      "clause_id": "IS 6598:1972#3",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "4",
+      "title": "Requirements",
+      "text": "4. Requirements",
+      "clause_id": "IS 6598:1972#4",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "4.1",
+      "title": "Density",
+      "text": "4.1 Density Grade Average Bulk Density, kg/m3 A Min 320 B 321 to 400 C 401 to 500",
+      "clause_id": "IS 6598:1972#4.1",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "4.2",
+      "title": "Crushing Strength",
+      "text": "4.2 Crushing Strength Grade Strength, Min kgf/m2 Type 1 Type 2 A 7.0 2.5 B 12.0 4.5 C 20.0 8.0",
+      "clause_id": "IS 6598:1972#4.2",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "4.3",
+      "title": "Capillary Absorption – Shall",
+      "text": "4.3 Capillary Absorption - Shall not exceed 20 percent in case of Type 1 cellular concrete.",
+      "clause_id": "IS 6598:1972#4.3",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "4.4",
+      "title": "Thermal Conductivity",
+      "text": "4.4 Thermal Conductivity  - Grade Thermal Conductivity at 50ºC Mean Temp, Max mW/cmºC A 0.7 B 0.85 C 1.0",
+      "clause_id": "IS 6598:1972#4.4",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "4.5",
+      "title": "Dimensions – For Type",
+      "text": "4.5 Dimensions - For Type 1 and Type 2, length 50 or 60 cm; width 20, 25 or 30 cm;  thickness 7.5, 10, 15, 25 or 40 cm.",
+      "clause_id": "IS 6598:1972#4.5",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6598:1972",
+      "clause": "4.6",
+      "title": "Tolerance – ±3 percent",
+      "text": "4.6 Tolerance - ±3 percent on width and height and ±1 percent on thickness. Note - For method of test refer to Appendix A of the standard and IS 3346 : 1980 Method for determination of thermal conductivity of thermal insulation materials (two slab, guarded hot-plate method) (first revision). For detailed  information, refer to IS 6598 : 1972  Specifications  for cellular concrete for  thermal insulation",
+      "clause_id": "IS 6598:1972#4.6",
+      "family": "IS 6598",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 837,
+      "page_end": 837,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6598:1972",
+    "record_id": 13459,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      837,
+      837
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

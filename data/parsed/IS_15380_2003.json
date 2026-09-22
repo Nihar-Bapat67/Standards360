@@ -1,0 +1,400 @@
+{
+  "clauses": [
+    {
+      "is": "IS 15380:2003",
+      "clause": "1",
+      "title": "Scope – This standard",
+      "text": "1. Scope - This standard lays down requirements regarding types, sizes, material, construction, workmanship and finish and tests for high density fibre (HDF) panel doors.",
+      "clause_id": "IS 15380:2003#1",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types Door shuttes shall be of following two types: (a)  Heavy Duty -  having void area less than 35 percent, and (b) Light Duty - having void area not exceeding 65 percent",
+      "clause_id": "IS 15380:2003#2",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "3",
+      "title": "Size",
+      "text": "3. Size",
+      "clause_id": "IS 15380:2003#3",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "3.1",
+      "title": "Sizes of the door",
+      "text": "3.1 Sizes of the door shutters shall generally conform to teh sizes given in table 1. Other sizes, that is, width and height, as agreed to between the manufacturer and the purchaser, are also permitted provided they are in modules of 5 mm",
+      "clause_id": "IS 15380:2003#3.1",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "3.2",
+      "title": "The nominal thickness of",
+      "text": "3.2 The nominal thickness of the shuttes shall be 30 mm, 35 mm and 40 mm",
+      "clause_id": "IS 15380:2003#3.2",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "4",
+      "title": "Material",
+      "text": "4. Material",
+      "clause_id": "IS 15380:2003#4",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "4.1",
+      "title": "Timber",
+      "text": "4.1 Timber",
+      "clause_id": "IS 15380:2003#4.1",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "4.1.1",
+      "title": "Any species of timber",
+      "text": "4.1.1  Any species of timber having minimum bulk density of 450 kg/m3 at 12 percent moisture content may be used for rails, stiles and core fillings of door shutters. Table 1 Dimensions of Door Shutters (Clause 5.1) Sl.No. Width Height mm Option 1 Option 2 mm mm (1) (2) (3) (4) i) 700 2 005 - ii) 700 2 045 2 070 iii) 800 2 045 2 070 iv) 900 2 045 2 070 v) 1 000 2 045 2 070 vi) 1 000 2 045 2 070",
+      "clause_id": "IS 15380:2003#4.1.1",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "4.2",
+      "title": "Raised Fibreboard Skin",
+      "text": "4.2  Raised Fibreboard Skin Raised fibre board skin used in door shutters shall be of minimum thickness 3 mm of phenolic bonded high density fibre board conforming to the requirement given in Table 2.",
+      "clause_id": "IS 15380:2003#4.2",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "4.3",
+      "title": "Adhesive",
+      "text": "4.3   Adhesive Adhesive used for bonding the face skins and core shall be phenol formaldehyde synthetic resin adhesive conforming to BWP grade of IS 848. For details on mateirals refer 6 of the standard.",
+      "clause_id": "IS 15380:2003#4.3",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "5",
+      "title": "Fittings",
+      "text": "5. Fittings",
+      "clause_id": "IS 15380:2003#5",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "5.1",
+      "title": "Locks",
+      "text": "5.1  Locks Shutters shall be shop preapred for taking any suitable type of locks or latches as may be agreed to between the manufacturer and the purchaser. Shop preparing the door with morticed holes for lock fixing shall be done only when desired by the purchaser.",
+      "clause_id": "IS 15380:2003#5.1",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "5.1.1",
+      "title": "Other",
+      "text": "5.1.1  Other  fittings such as pull bolt, etc, sahll be provided as agreed to beteen teh purchaser and the manufacturer.",
+      "clause_id": "IS 15380:2003#5.1.1",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 3,
+      "parent_clause": "5.1",
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "6",
+      "title": "Workmanship and finish",
+      "text": "6. Workmanship and finish",
+      "clause_id": "IS 15380:2003#6",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "6.1",
+      "title": "All the four edges",
+      "text": "6.1  All the four edges of the door shutter shall be square. The shutter shall be free from twist or warp in its plane.",
+      "clause_id": "IS 15380:2003#6.1",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "6.2",
+      "title": "The surface of the shutter shall be pre",
+      "text": "6.2 The surface of the shutter shall be pre - rimed. The shutter may be supplied either in textured or smooth surface finish as agreed to between the purchaswer and the manufacturer.",
+      "clause_id": "IS 15380:2003#6.2",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "7",
+      "title": "Test",
+      "text": "7.  Test",
+      "clause_id": "IS 15380:2003#7",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "7.1",
+      "title": "Classification of Tests",
+      "text": "7.1  Classification of Tests",
+      "clause_id": "IS 15380:2003#7.1",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "7.1.1",
+      "title": "Acceptance Tests",
+      "text": "7.1.1 Acceptance Tests The following tests shall constitute product acceptance (a) Dimension and sqaureness test (b) General flatness test, (c) Local planeness test, (d) End immersion test, (e) Glue adhesion test, and (f) Slamming test",
+      "clause_id": "IS 15380:2003#7.1.1",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 3,
+      "parent_clause": "7.1",
+      "role": "test_methods",
+      "page_start": 627,
+      "page_end": 627,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "7.1.2",
+      "title": "Type Tests",
+      "text": "7.1.2 Type Tests The  following tests shall constitute product approval type tests: (a) Impact indentation test, (b) Flexure test (c) Edge loading test, (e) Shock resistance test: 1) Soft and light body impact test, 2) Soft and heavy body impact test, (f) Misuse test, (g) Screw withdrawal resistance test, and (h) Varying humidity test.",
+      "clause_id": "IS 15380:2003#7.1.2",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 3,
+      "parent_clause": "7.1",
+      "role": "test_methods",
+      "page_start": 628,
+      "page_end": 628,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 15380:2003",
+      "clause": "8",
+      "title": "Requirements– For details refer",
+      "text": "8.  Requirements- For details refer 11 of the standard TABLE 2 REQUIREMENTS FOR RAISED PANEL FIBREBOARD SKINS Sl. No. Requirements Permissible Limits Method of  Test (1) (2) (3) (4) i) Density, kg/m3 > 1 000 2380 (Part 3) ii) Moisture content, percent Max 8 2380 (Part 3) iii) Water absorption, percent 2380 (Part 3) After 2 h < 16 After 24 h < 36 iv) Swelling in water, percent, Max 2380 (Part 17) a) General absorption, 24 h: 1) Thickness 20 2) Length 0.70 3) Width 0.70 b) Surface absorptiong 9 v) Modulus of rupture, N/mm2  Min 35 2380 (Part 4) vi) Internal bond strength, N/mm2 Min. 2380 (Part 5) a) Dry state 1.0 b) Wet state ( 2 h boiling) 0.3 vii) Immersion in boiling water at No. 100 ± 3ººC for 4 h Disintegration viii) Formaldehyde emission < 9 mg / 100 g 13745 For detailed information, refer to IS 15380 : 2003 Moulded raised high density fibre (HDF) panel doors - specification",
+      "clause_id": "IS 15380:2003#8",
+      "family": "IS 15380",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 628,
+      "page_end": 628,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 15380:2003",
+    "record_id": 7473,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      627,
+      628
+    ],
+    "n_clauses": 21,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

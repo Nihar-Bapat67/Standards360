@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 14912:2001",
+      "clause": "1",
+      "title": "Scope – Requirement for concealed type",
+      "text": "1. Scope - Requirement for concealed type hydraulically operated door closers, fixed in concealed position within the thickness of the panel on vertical, hinge type doors opening to one side only and not weiging more than 80 kg. This standard does not cover overhead type door closers covered in IS 3564 : 1995* or pneumatic type door closers or closers working on only mechanical device.",
+      "clause_id": "IS 14912:2001#1",
+      "family": "IS 14912",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 548,
+      "page_end": 548,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14912:2001",
+      "clause": "2",
+      "title": "Nominal Sizes",
+      "text": "2. Nominal Sizes Designation Mass of  Door Width of Door No. 1 Up to 60 kg Up to  850  mm No. 2 60 to 80kg 851 to 1 000 mm",
+      "clause_id": "IS 14912:2001#2",
+      "family": "IS 14912",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 548,
+      "page_end": 548,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14912:2001",
+      "clause": "3",
+      "title": "Materials",
+      "text": "3. Materials Non porous body - Aluminium alloy Piston - Steel / Cast iron Note— For materials of other components see Table 2 of the standard. *Hydraulically regularated door closers.",
+      "clause_id": "IS 14912:2001#3",
+      "family": "IS 14912",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 548,
+      "page_end": 548,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14912:2001",
+      "clause": "4",
+      "title": "Requirements",
+      "text": "4. Requirements a) Closing time shall be easily adjustable between 5 to 20 seconds by means of regu lating screws. b) Hydraulic oil, filling shall work satisfactorily at all termperature between 50ºC and -10ºC without requiring any change except adjustment of the regulating screw. c) The closure shall be capable to regulate the speed by extending spring or adjustment in control valve screw, as the case may be.",
+      "clause_id": "IS 14912:2001#4",
+      "family": "IS 14912",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 548,
+      "page_end": 548,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14912:2001",
+      "clause": "5",
+      "title": "Test",
+      "text": "5. Test a) Performance requirement - When opened through 90º, the door shall swing back to 200     50 with normal speed but thereafter speed should automatically get retarded and should smoothly negotiate, with the latch (where provided) b) Endureance test - After 50,000 operations against maximum load specified, the closure shall show no defects, failure or leakage of oil etc. For detailed information, refer to IS 14912 : 2001. Specification for  door closers-concealed type (hydraulically regulated) SUMMARY OF IS 14912 : 2001 DOOR CLOSERS - CONCEALED TYPE (HYDRAULICALLY REGULATED) ± SECTION 12 WOOD PRODUCTS SP  21 : 2005 CONTENTS Title Page GENERAL IS 12049 : 1987 Dimensions and tolerances  relating to wood based  panel materials. 12.4 ADHESIVES IS 849 : 1994 Cold setting casein glue for wood (first revision) 12.6 IS 851 : 1978 Synthetic resin adhesives for construction work (non-structural)  in wood 12.7 (first revision) IS 852 : 1994 Animal glue for general wood-working purposes (second revision) 12.9 PLYWOOD IS 303 : 1989 Plywood for general purposes (third revision) 12.10 IS 1328 : 1996 Veneered decorative plywood (third revision) 12.12 IS 4990 : 1993 Plywood for concrete shuttering work  (second revision) 12.13 IS 5509 : 2000 Fire retardant plywood (second  revision) 12.15 IS 5539 - 1969 Preservative  Treated Plywood 12.16 IS 7316  : 1974 Decorative plywood using plurality of veneers for decorative   faces 12.18 IS 10701 : 1983 Structural plywood 12.19 IS 13957 : 1994 Metal faced plywood. 12.21 PARTICLE  BOARDS AND FIBRE BOARDS IS 1658 : 1977 Fibre hardboards (second revision) 12.22 IS 1659 : 2004 Block boards  (third revision) 12.23 IS 3087 : 1985 Wood particle boards (medium density) for general purposes (first revision) 12.25 IS 3097 : 1980 Veneered particle boards  (first revision) 12.28 IS 3129 : 1985 Low density particle boards (first revision) 12.30 IS 3308 : 1981 Wood wool building slabs (first revision) 12.32 IS 3348 : 1965 Fibre insulation boards 12.33 IS 3478 : 1966 High density wood particle boards 12.34 IS 12406 : 2003 Medium density fibre boards for general  purposes. (first revision) 12.35 IS 12823 : 1990 Prelaminated particle boards. 12.37 IS 14276 : 1995 Cement bonded particle boards. 12.39 IS 14587 : 1998 Prelaminated medium  density fibre board. 12.40 Title Page WOOD BASED LAMINATES IS 3513 : 1989 Resin treated compressed wood laminates. (compregs) Part I For Electrical  purposes (first revision) 12.42 Part 2 For chemical purposes (first revision) 12.45 Part 3 for  general purposes  (first revision) 12.48 IS:   14616 : 1999 Laminated veneer lumber 12.51 BAMBOO AND COIR IS 13958 : 1994 Bamboo mat board for general purposes. 12.53 IS 14588 : 1999 Bamboo mat veneer  composite for general  purposes. 12.54 IS 14842 : 2000 Coir Veneer board  for general purposes 12.55 IS 15476 : 2004 Bamboo mat corrugated sheets - Specification 12.56 IS 15491 : 2004 Medium density coirboards for general purposes - Specification 12.57",
+      "clause_id": "IS 14912:2001#5",
+      "family": "IS 14912",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 548,
+      "page_end": 551,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 14912:2001",
+    "record_id": 6904,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      548,
+      551
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

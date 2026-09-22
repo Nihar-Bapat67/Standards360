@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 725:1961",
+      "clause": "1",
+      "title": "Scope – Covers the",
+      "text": "1. Scope - Covers the following types of copper wire nails: a) Rose-head boat nails, square shank, square point. b) Countersunk-head boat nails, square shank, sharp square point. c) Countersunk-head boat nails, square shank, round point, d) Wrought tacks e) Cut-lath nails (Cut tacks)",
+      "clause_id": "IS 725:1961#1",
+      "family": "IS 725",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 763,
+      "page_end": 763,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 725:1961",
+      "clause": "2",
+      "title": "Dimensions (in mm) –",
+      "text": "2. Dimensions (in mm) -  Lengths of different types of copper nails are given in 2.1 to 2.5. Values given in brackets are the sizes of shank across flats except in case of Type (e) where it is diameter. 2.3 Type (c) - 40 (2.5), 25 (2.5) 2.4 Type (d) - 30 (2), 25 (2), 20 (2), 20 (1.6) 2.5 Type (e) -  20 (1.8), 15 (1.8), 10 (1.8), 10 (1.6)",
+      "clause_id": "IS 725:1961#2",
+      "family": "IS 725",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 763,
+      "page_end": 763,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 725:1961",
+      "clause": "3",
+      "title": "Finish – Shall be",
+      "text": "3. Finish - Shall be finished bright and free from burrs and sharp edges except at the points. In case of tinned copper nails, tin coating shall cover nails completely and uniformly. 2.1 Type  (a) 110 (5) 110 (4) 100(5) 100 (4) 100(3.15) 90 (5) 90 (4) 90(3.15) 80 (4.5) 80(4) 80(3.15) 80 (2.5) 70 (4) 70 (3.15) 70 (2.5) 60 (4) 60 (3.15) 60 (2.5) 60 (2) 50 (3.15) 50 (2.5) 50 (2) 45(3.15) 45 (2.5) 45 (2) 40(3.15) 40(2.5) 40(2) 35(3.15) 35(2.5) 35 (2) 30(3.15) 30 (2.5) 30 (2) 25(5) 25 (2.5) 25 (2) 25(1.6) 2.2 Type (b) 125 (5) 100 (5)         100  (4) 100 (3.15)        90(3.55)          80 (5)            80 (3.15)          70 (5) 70 (3.15)      60 (4)             60 (3.15) 50(3.55)          50(3.15)          40 (3.15)       30 (3.15)          25 (3.15) 20 (3.15) Note 1- Head diameter of side of square shall be 2.5 times the size of shank in case of Types (a), (b) and (c) and shall be 3 times the size of shank in case of types (d) and (e) copper nails. Note 2- For detailed dimensions, approximate count of copper nails and tolerances refer to 4 (Table 1) with Fig. 1 to 5 of the standard. For detailed information, refer to IS 725 : 1961 Specification for copper wire nails (revised).",
+      "clause_id": "IS 725:1961#3",
+      "family": "IS 725",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 763,
+      "page_end": 763,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 725:1961",
+    "record_id": 14179,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      763,
+      763
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

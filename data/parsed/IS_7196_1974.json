@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7196:1974",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope  — Requirements for mild steel hold fasts for use with wooden doors and window frames.",
+      "clause_id": "IS 7196:1974#1",
+      "family": "IS 7196",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 536,
+      "page_end": 536,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7196:1974",
+      "clause": "2",
+      "title": "Size and Dimensions",
+      "text": "2. Size and Dimensions   Shall be as given in Fig. 1",
+      "clause_id": "IS 7196:1974#2",
+      "family": "IS 7196",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 536,
+      "page_end": 536,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7196:1974",
+      "clause": "3",
+      "title": "Manufacture",
+      "text": "3. Manufacture — Shall be made from mild steel flats not less than 5 mm thick, and without any burrs or dents.",
+      "clause_id": "IS 7196:1974#3",
+      "family": "IS 7196",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 536,
+      "page_end": 536,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7196:1974",
+      "clause": "4",
+      "title": "Finish – Shall be",
+      "text": "4. Finish - Shall be given a coat of bitumen and sanded. All dimensions in millimetres. Fig. 1 Mild Steel Hold Fast",
+      "clause_id": "IS 7196:1974#4",
+      "family": "IS 7196",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 536,
+      "page_end": 536,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7196:1974",
+    "record_id": 14122,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      536,
+      536
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.78,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

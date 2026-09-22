@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 212:1983",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope  —    Covers the requirements of crude coal tar used for general purposes, such as treatment of wooden poles and sleepers, toilet walls, fishing nets, etc. SUMMARY OF IS 212 : 1983 CRUDE COAL TAR FOR GENERAL USE (Second Revision) TABLE 1 REQUIREMENTS OF CRUDE COAL TAR Sl.  No.    Characteristics Min Max (1) (2) (3) (4) i) Specific gravity 27°C/27°C 1.09 1.24 ii) Water Content percent/ weight — 4 iii) Viscosity BRTA 4mm at 30°Cs, 30 100 iv) Distillation fractions percent w/w Up to 200°C — 4 200 to 230°C",
+      "clause_id": "IS 212:1983#1",
+      "family": "IS 212",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 187,
+      "page_end": 187,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 212:1983",
+      "clause": "2",
+      "title": "10",
+      "text": "2 10 230 to 270°C 6 12 270 to 300°C",
+      "clause_id": "IS 212:1983#2",
+      "family": "IS 212",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 187,
+      "page_end": 187,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 212:1983",
+      "clause": "4",
+      "title": "7",
+      "text": "4 7 300 to 350°C 12 17 v) Mineral matter (Ash) 0 1 vi) Matter insoluble in benzene percent by weight",
+      "clause_id": "IS 212:1983#4",
+      "family": "IS 212",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 187,
+      "page_end": 187,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 212:1983",
+      "clause": "5",
+      "title": "25",
+      "text": "5 25 Note —   For methods of tests refer to IS  1202 : 1978  Methods of testing tar and bituminous materials: Determination of specific gravity (first revision) IS  1206  (Part 3):1978 Determination of viscosity Part 3 Kinematic viscosity (first revision) IS  1211 : 1978 Determination of water content (Dean and Stark method) (first revision). IS  1213 : 1978 Distillation test (first revision). IS  1214 : 1978 Determination matter insoluble in benzene (first revision) IS  1217 :1978 Determination of mineral matter (ASH) (first revision) For  detailed information, refer to IS 212:1983  Specification for crude coal tar for general use (second revision). 2. Composition     Shall be obtained as a by  product of destructive distillation of coal. 3. Requirements   See Table 1",
+      "clause_id": "IS 212:1983#5",
+      "family": "IS 212",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 187,
+      "page_end": 187,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 212:1983",
+    "record_id": 8662,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      187,
+      187
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1700:1973",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Covers the material, construction, essential hygienic and performance requirements and finish of drinking fountains used in schools, parks and other public places.",
+      "clause_id": "IS 1700:1973#1",
+      "family": "IS 1700",
+      "year": 1973,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 275,
+      "page_end": 275,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1700:1973",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2. Materials Sl. No Component Part Material i) Basin or receptacle a) Glazed earthenware b) Vitreousware c) Enamelled cast iron d) Cement concrete with smooth finish e) Stoneware f) Stainless steel ii) Pipe  work  for jet  mechanism a) Brass b) Copper, Solid drawn c) Stainless steel iii) Fittings a) Brass,cast or hot pressed b) Stainless steel iv) Nozzle a) Bronze b) Any other non-oxidizing copperalloy",
+      "clause_id": "IS 1700:1973#2",
+      "family": "IS 1700",
+      "year": 1973,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 275,
+      "page_end": 275,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1700:1973",
+      "clause": "3",
+      "title": "Construction",
+      "text": "3. Construction",
+      "clause_id": "IS 1700:1973#3",
+      "family": "IS 1700",
+      "year": 1973,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 275,
+      "page_end": 275,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1700:1973",
+      "clause": "3.1",
+      "title": "Basin or Receptacle",
+      "text": "3.1 Basin or Receptacle — Shall be fixed at such a height that the drinking level is most convenient to persons utilizing the fountain.",
+      "clause_id": "IS 1700:1973#3.1",
+      "family": "IS 1700",
+      "year": 1973,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 275,
+      "page_end": 275,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1700:1973",
+      "clause": "3.2",
+      "title": "Jet Mechanism",
+      "text": "3.2 Jet Mechanism — With nozzle mouth not greater than 10 mm diameter or one square centimentre in area, the nozzles shall be placed so that the lower edge of the nozzle mouth is at an elevation not less than 20 mm above the floor level rim of the receptable. For detailed information, refer to IS 1700 : 1973 Specification for Drinking fountains (first revision).",
+      "clause_id": "IS 1700:1973#3.2",
+      "family": "IS 1700",
+      "year": 1973,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 275,
+      "page_end": 275,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1700:1973",
+      "clause": "3.3",
+      "title": "The water supply to",
+      "text": "3.3 The water supply to the jet shall be controlled by a self closing tap of nominal size, 15 mm, fixed at the right hand side of the connecting inlet pipe when viewed from the front.",
+      "clause_id": "IS 1700:1973#3.3",
+      "family": "IS 1700",
+      "year": 1973,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 275,
+      "page_end": 275,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1700:1973",
+      "clause": "3.4",
+      "title": "Waste Water Fitting",
+      "text": "3.4 Waste Water Fitting— The drain shall be provided with a trap and shall terminate in a tail piece suitable for connecting to waste pipe.",
+      "clause_id": "IS 1700:1973#3.4",
+      "family": "IS 1700",
+      "year": 1973,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 275,
+      "page_end": 275,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1700:1973",
+      "clause": "4",
+      "title": "Finish",
+      "text": "4. Finish— All metal work shall be chromium plated over a base of nickel plating. Fig. 1 TYPICAL ILLUSTRATION OF DRINKING FOUNTAIN",
+      "clause_id": "IS 1700:1973#4",
+      "family": "IS 1700",
+      "year": 1973,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 275,
+      "page_end": 275,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1700:1973",
+    "record_id": 18566,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      275,
+      275
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.99,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3316:1974",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Covers selection, grading and strength requirements of structural granite for the various constructional uses. Note — Granite is a structural and ornamental stone because of its high compressive strength, durability and resistance to wear and abrasion. Fine grained varitey takes and preserves high polish and is suitable for ornamental and monumental work. Available in different colours such as grey, mottled grey, red, pink, dark blue, white or green, depending on component minerals. Granite containing injurious minerals such as pyrites and marcasite shall be excluded.",
+      "clause_id": "IS 3316:1974#1",
+      "family": "IS 3316",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 116,
+      "page_end": 116,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3316:1974",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements — Shall be free  from flaws, injurious veins, cavities and similar imperfections.",
+      "clause_id": "IS 3316:1974#2",
+      "family": "IS 3316",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 116,
+      "page_end": 116,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3316:1974",
+      "clause": "3",
+      "title": "Strength Requirements",
+      "text": "3. Strength Requirements",
+      "clause_id": "IS 3316:1974#3",
+      "family": "IS 3316",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 116,
+      "page_end": 116,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3316:1974",
+      "clause": "3.1",
+      "title": "Compressive Strength",
+      "text": "3.1 Compressive Strength — Shall not be less than 1 000 kgf/cm2. Note  — For methods of tests, refer to IS 1121Part 11974 Method test for determination of strength properties of natural building stones. Part 1 Compressive strength (first revision), IS 1122:1974 Method of test for determination of true specific gravity of natural building  stones (first revision) and  IS 1124:1974 Method of test for determination of water absorption, apparent specific gravity and porosity of natural building stones (first revision). For detailed information, refer to IS 3316:1974 Specifications for structural granite (first revision). SUMMARY OF IS  3316 : 1974 STRUCTURAL GRANITE (First Revision)",
+      "clause_id": "IS 3316:1974#3.1",
+      "family": "IS 3316",
+      "year": 1974,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 116,
+      "page_end": 116,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3316:1974",
+    "record_id": 9907,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      116,
+      116
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.677,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

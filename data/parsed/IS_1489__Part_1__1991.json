@@ -1,0 +1,292 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Covers the manufacture, physical and chemical requirements of Portland pozzolana cement using only fly ash pozzolana.",
+      "clause_id": "IS 1489 (Part 1):1991#1",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "2",
+      "title": "Raw Materials",
+      "text": "2. Raw Materials",
+      "clause_id": "IS 1489 (Part 1):1991#2",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "2.1",
+      "title": "Pozzolana",
+      "text": "2.1Pozzolana",
+      "clause_id": "IS 1489 (Part 1):1991#2.1",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "2.1.1",
+      "title": "Fly ash used in the manufacture of Portland",
+      "text": "2.1.1  Fly ash used in the manufacture of Portland - pozzolana cement shall conform to IS 3812 : 1981*.",
+      "clause_id": "IS 1489 (Part 1):1991#2.1.1",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "requirements",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "2.1.2",
+      "title": "Fineness and average compressive strength in",
+      "text": "2.1.2 Fineness and average compressive strength in lime reactivity of fly ash shall not be less than 320 m2/kg and 4.0 MPa respectively.",
+      "clause_id": "IS 1489 (Part 1):1991#2.1.2",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "2.1.3",
+      "title": "Average compresive strength in lime reactivity",
+      "text": "2.1.3 Average compresive strength in lime reactivity of fly ash shall not be less than 4.0 MPa.",
+      "clause_id": "IS 1489 (Part 1):1991#2.1.3",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "2.1.4",
+      "title": "Fly ash content shall",
+      "text": "2.1.4 Fly ash content shall be between 15 to 35 percent by mass of portland pozzolana cement.",
+      "clause_id": "IS 1489 (Part 1):1991#2.1.4",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "2.2",
+      "title": "Portland Cement Clinker/Portland Cement",
+      "text": "2.2 Portland Cement Clinker/Portland Cement-shall conform to IS 269:1989†.",
+      "clause_id": "IS 1489 (Part 1):1991#2.2",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "3",
+      "title": "Chemical Requirements",
+      "text": "3. Chemical Requirements — See Table 1.",
+      "clause_id": "IS 1489 (Part 1):1991#3",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "4",
+      "title": "Physical",
+      "text": "4. Physical  Requirements",
+      "clause_id": "IS 1489 (Part 1):1991#4",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "4.1",
+      "title": "Fineness",
+      "text": "4.1Fineness — Specific surface shall be not less than 300 m2/kg.",
+      "clause_id": "IS 1489 (Part 1):1991#4.1",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "4.2",
+      "title": "Soundness",
+      "text": "4.2Soundness — Expansion of unaerated sample— i) Not more than 10 mm by 'Le Chateliers' method. ii) Not more than 0.8 percent by Autoclave method.",
+      "clause_id": "IS 1489 (Part 1):1991#4.2",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "4.3",
+      "title": "Setting Time",
+      "text": "4.3 Setting Time — Initial setting time 30 min, Min Final setting 600 min, Max",
+      "clause_id": "IS 1489 (Part 1):1991#4.3",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "4.4",
+      "title": "Compressive Strength",
+      "text": "4.4Compressive Strength — a) At 72     1h 16 MPa, Min b) At 168     2h 22 MPa, Min c) At 672     4h           33 MPa, Min",
+      "clause_id": "IS 1489 (Part 1):1991#4.4",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 1):1991",
+      "clause": "5",
+      "title": "Delivery",
+      "text": "5. Delivery — Packed in specified bags of 50 kg or 25 kg net or in bulk with tolerances specified in the standard. TABLE 1  CHEMICAL REQUIREMENTS OF PORTLAND POZZOLANA CEMENT SI No.                  Characteristic Requirement (1) (2) (3) i) Loss on ignition, percent by mass, Max 5.0 ii) Magnesia (MgO), percent by mass, Max 6.0 iii) Sulphuric anhydride (SO3), percent by mass, Max 3.0 iv) Insoluble material, percent by mass, Max Note — For methods of tests, refer to IS 1727:1967 Methods of test for pozzolanic material (first revision), relevant part of IS 4031 Method of physical tests for hydraulic cement and IS 4032:1985 Methods of chemical analysis of hydrolic cement (first revision) For detailed information , refer to IS 1489 (Part 1) 1991 Specification for portland pozzolana cement Part 1 :1991 Fly ash based (third revision). * Flyash for use as pozzolana and admixture (first revision) †  Ordinary portland cement, 33 Grade (fourth revision). where x is the declared percentage of flyash in the given Portland pozzolana cement. 100 ) 100 ( 0.4 x x − + ± ± ±",
+      "clause_id": "IS 1489 (Part 1):1991#5",
+      "family": "IS 1489 (Part 1)",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "packing",
+      "page_start": 24,
+      "page_end": 24,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1489 (Part 1):1991",
+    "record_id": 25273,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      24,
+      24
+    ],
+    "n_clauses": 15,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.994,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

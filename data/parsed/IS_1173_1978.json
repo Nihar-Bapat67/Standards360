@@ -1,0 +1,76 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1173:1978",
+      "clause": "1",
+      "title": "Scope – Lays down",
+      "text": "1. Scope - Lays down nominal dimensions, weight and basic geometrical properties.",
+      "clause_id": "IS 1173:1978#1",
+      "family": "IS 1173",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 723,
+      "page_end": 723,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1173:1978",
+      "clause": "2",
+      "title": "Classification –",
+      "text": "2. Classification - a) Indian Standard Rolled Normal Tee  Bars(ISNT) b) Indian Standard Rolled Deep Legged Tee Bars (ISDT), Designation Weight Normal size Moments of Inertia (kg/m) (Depth × Width) Ixx                           Iyy mm × mm 106 mm4 106 mm4 a) Indian Standard Normal Tee Bars ISNT 20                             1.1 20 × 20 0.005 0.002 ISNT 30                             1.8 30 × 30 0.018 0.008 ISNT 40                             3.5 40 × 40 0.061 0.029 ISNT 50                             4.4 50 × 50 0.123 0.057 ISNT 60                             5.4 60 × 60 0.214 0.097 ISNT 75                           10.0 75 × 75 0.620 0.292 ISNT 100                         14.9 100 × 100 1.64 0.768 ISNT 150                         22.7 150 × 150 5.41 2.50 b) Indian Standard Deep Legged Tee Bars ISDT 100                           8.1 100 × 50 0.990 0.096 ISDT 150                         15.7 150 × 75 4.50 0.370 c) Indian Standard Slit Light Weight Tee Bars ISLT 200                         28.4 200 × 165 12.7 3.58 ISLT 250                         37.5 250 × 180 27.7 5.32 d) Indian Standard Slit Medium Weight Tee Bars ISMT 50                           5.8 50 × 70 0.108 0.177 ISMT 62.5                        6.7 62.5 × 70 0.218 0.192 ISMT 75                           7.5 75 × 75 0.412 0.234 ISMT 87.5                        9.8 87.5 × 87.5 0.756 0.384 ISMT 100                       12.7 100 × 100 1.16 0.750 e) Indian Standard Slit Tee Bars from H-Section ISHT 75                          15.3 75 × 150 0.962 2.30 ISHT 100                        20.0 100 × 200 1.94 4.97 ISHT 125                        27.4 125 × 250 4.15 10.0 ISHT 150                        29.4 150 × 250 5.74 11.0 Note — For detailed dimensions and properties, namely, sectional area, section moduli, etc. see Table 1 of  the standard. For   detailed information,refer to IS 1173 : 1978 Specifications for hot rolled and sllit steel Tee bars  (second revision) c) Indian Standard Slit Light Weight Tee Bars (ISLT). d) Indian Standard Slit Medium Weight Tee Bars (ISMT) e) Indian Standard Slit Tee Bars from H- sections (ISHT).",
+      "clause_id": "IS 1173:1978#2",
+      "family": "IS 1173",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 723,
+      "page_end": 723,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1173:1978",
+      "clause": "3",
+      "title": "Dimensions and Properties",
+      "text": "3. Dimensions and Properties",
+      "clause_id": "IS 1173:1978#3",
+      "family": "IS 1173",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 723,
+      "page_end": 723,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1173:1978",
+    "record_id": 2886,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      723,
+      723
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

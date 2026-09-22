@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4832 (Part 2):1969",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirements of resin type chemical resistant mortars for bonding chemical resistant masonry units. Such mortars have good resistance to non-oxidizing mineral acid and poor resistance to oxidizing mineral acid. Fairly resistant to inorganic alkalis. Resistant to water; hence give impermeable joints. Used for joining acid-proof bricks and tiles.",
+      "clause_id": "IS 4832 (Part 2):1969#1",
+      "family": "IS 4832 (Part 2)",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 208,
+      "page_end": 208,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 2):1969",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2. Materials",
+      "clause_id": "IS 4832 (Part 2):1969#2",
+      "family": "IS 4832 (Part 2)",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 208,
+      "page_end": 208,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 2):1969",
+      "clause": "2.1",
+      "title": "Resins",
+      "text": "2.1 Resins — Penolic, furane, epoxy, polyester.",
+      "clause_id": "IS 4832 (Part 2):1969#2.1",
+      "family": "IS 4832 (Part 2)",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 208,
+      "page_end": 208,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 2):1969",
+      "clause": "2.2",
+      "title": "Fillers",
+      "text": "2.2 Fillers— Siliceous or other inert fillers. Shall be graded so as to permit 1.5 mm joints.",
+      "clause_id": "IS 4832 (Part 2):1969#2.2",
+      "family": "IS 4832 (Part 2)",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 208,
+      "page_end": 208,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 2):1969",
+      "clause": "2.3",
+      "title": "Catalyst",
+      "text": "2.3 Catalyst —  May  be  incorporated in fillers",
+      "clause_id": "IS 4832 (Part 2):1969#2.3",
+      "family": "IS 4832 (Part 2)",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 208,
+      "page_end": 208,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 2):1969",
+      "clause": "3",
+      "title": "Physical Requirements",
+      "text": "3. Physical Requirements — See Table 1.",
+      "clause_id": "IS 4832 (Part 2):1969#3",
+      "family": "IS 4832 (Part 2)",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 208,
+      "page_end": 208,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 2):1969",
+      "clause": "4",
+      "title": "General Requirements",
+      "text": "4. General Requirements  — Resin shall have viscosity. Filler material shall have properly graded particles that will permit preparation of a minimum joint thickness of 1.5 mm.",
+      "clause_id": "IS 4832 (Part 2):1969#4",
+      "family": "IS 4832 (Part 2)",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 208,
+      "page_end": 208,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 2):1969",
+      "clause": "5",
+      "title": "Chemical Resistance",
+      "text": "5. Chemical Resistance  Requirement — The limits may be settled between the purchaser and supplier.",
+      "clause_id": "IS 4832 (Part 2):1969#5",
+      "family": "IS 4832 (Part 2)",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 208,
+      "page_end": 208,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 2):1969",
+      "clause": "6",
+      "title": "Shelf Life",
+      "text": "6. Shelf Life — For phenolic and polyster resins is about 3 months and for furance and epoxy resins about 12 months from date of manufacture. SUMMARY OF IS 4832 (PART 2) : 1969  CHEMICAL RESISTANT MORTARS PART 2  RESIN  TYPE TABLE 1 PHYSICAL REQUIREMENTS OF RESIN TYPE CHEMICAL RESISTANT MORTARS Sl No. Particular Requirements for Type of Mortar Phenolic Furane Epoxy Polyester Type Type Type Type (1) (2) (3) (4) (5) (6) i)        Working time at 27 ± 2°C, Min minutes 20 20 20 20 ii)        Flexural strength at 7 days, Min, kgf/cm2 75 75 150 150 iii)       Compressive strength at 7 days, Min, kgf/cm2 350 350 500 500 iv)       Bond strength, Max, kgf/cm2 10 10 12 12 v)        Absorption, Max, Percent by weight 1.0 1.0 1.0 1.0 Note— In the test for bond strength the joint shall not fail at or  below the value  specified.",
+      "clause_id": "IS 4832 (Part 2):1969#6",
+      "family": "IS 4832 (Part 2)",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 208,
+      "page_end": 208,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4832 (Part 2):1969",
+    "record_id": 19639,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      208,
+      208
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.802,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

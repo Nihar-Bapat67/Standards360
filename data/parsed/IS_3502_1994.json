@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3502:1994",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope -  Requirements for steel chequered plates, having raised figures at regular intervals on one surface of the plate.",
+      "clause_id": "IS 3502:1994#1",
+      "family": "IS 3502",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 680,
+      "page_end": 680,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3502:1994",
+      "clause": "2",
+      "title": "Material – Steel for",
+      "text": "2. Material -  Steel  for the chequered  plates shall conform to the requirements of Grade A of IS 2062 : 1992+ or  IS 1977 : 1996++.",
+      "clause_id": "IS 3502:1994#2",
+      "family": "IS 3502",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 680,
+      "page_end": 680,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3502:1994",
+      "clause": "3",
+      "title": "Freedom From Defects –",
+      "text": "3. Freedom From Defects - Plates shall be cleanly rolled to the dimensions specified. Finished material shall be  free  from harmful surface defects, such as cracks, surface flaws, imperfect edges, etc.",
+      "clause_id": "IS 3502:1994#3",
+      "family": "IS 3502",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 680,
+      "page_end": 680,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3502:1994",
+      "clause": "4",
+      "title": "Patterns – See Fig.1",
+      "text": "4. Patterns -  See Fig.1 of the standard.",
+      "clause_id": "IS 3502:1994#4",
+      "family": "IS 3502",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 680,
+      "page_end": 680,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3502:1994",
+      "clause": "5",
+      "title": "Tensile Test",
+      "text": "5. Tensile Test  - Properties shall  conform to Grade A of IS 2062 : 1992+ or  IS 1977 : 1996++.",
+      "clause_id": "IS 3502:1994#5",
+      "family": "IS 3502",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 680,
+      "page_end": 680,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3502:1994",
+      "clause": "6",
+      "title": "Bend Test",
+      "text": "6. Bend Test — In accordance with IS 1599 : 1985.*",
+      "clause_id": "IS 3502:1994#6",
+      "family": "IS 3502",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 680,
+      "page_end": 680,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3502:1994",
+      "clause": "7",
+      "title": "Dimensions and Rolling Tolerances",
+      "text": "7. Dimensions and Rolling Tolerances— Chequered plates shall normally be supplied in sheared edges.",
+      "clause_id": "IS 3502:1994#7",
+      "family": "IS 3502",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 680,
+      "page_end": 680,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3502:1994",
+      "clause": "7.1",
+      "title": "Nominal dimensions of chequered plates (exluding",
+      "text": "7.1 Nominal dimensions of chequered plates (exluding raised portion) shall be in accordance with IS  1730 : 1989+.",
+      "clause_id": "IS 3502:1994#7.1",
+      "family": "IS 3502",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 680,
+      "page_end": 680,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3502:1994",
+      "clause": "7.2",
+      "title": "The rolling and cuting",
+      "text": "7.2. The rolling and cuting tolerances on width, length and thickness (exluding raised portion) shall be as given in  IS  1852 : 1985‡.",
+      "clause_id": "IS 3502:1994#7.2",
+      "family": "IS 3502",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 680,
+      "page_end": 680,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3502:1994",
+      "clause": "7.3",
+      "title": "The minimum bead height",
+      "text": "7.3. The minimum bead height of chequered plates shall be 0.8 mm. * Method of bend test for  steel products other than sheet, strip wire and tube (second revision). † Dimensions for steel plates, sheets, strips and flats for general engineering purposes (second revision). ‡    Rolling and cutting tolerances for hot  rolled steel products (second revision). Note - For  test procedures, refer to  IS 1599 : 1985 Methods of bend test (second revision) and  IS 1608 : 1995 Mechanical testing of metals tensile testing (second revision). For detailed information, refer to  IS  3502 : 1994  Specification  for steel chequered plates  (second revision). SUMMARY OF IS 3502 : 1994 STEEL CHEQUERED PLATES (Second Revision) +   Steel for general structural purposes (fourth revision). ++   Structural steel (ordinary quality) (second revision).",
+      "clause_id": "IS 3502:1994#7.3",
+      "family": "IS 3502",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 680,
+      "page_end": 680,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3502:1994",
+    "record_id": 10084,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      680,
+      680
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

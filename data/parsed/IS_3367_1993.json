@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3367:1993",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Covers machine-pressed, wire-cut, or hand-made rectangular burnt clay tiles used for lining irrigation canals and for drainage channels (other than sewage works).",
+      "clause_id": "IS 3367:1993#1",
+      "family": "IS 3367",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 141,
+      "page_end": 141,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3367:1993",
+      "clause": "2",
+      "title": "General",
+      "text": "2. General — Shall be uniform in size, shape and free from irregulatities, such as cracks and laminations. Shall be free from impurities like particles of stone, lime and other foreign materials.",
+      "clause_id": "IS 3367:1993#2",
+      "family": "IS 3367",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 141,
+      "page_end": 141,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3367:1993",
+      "clause": "3",
+      "title": "Dimensions and Tolerances.",
+      "text": "3. Dimensions and Tolerances.",
+      "clause_id": "IS 3367:1993#3",
+      "family": "IS 3367",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 141,
+      "page_end": 141,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3367:1993",
+      "clause": "3.1",
+      "title": "Dimensions",
+      "text": "3.1 Dimensions — 300 mm × 150 mm × 50 mm.",
+      "clause_id": "IS 3367:1993#3.1",
+      "family": "IS 3367",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 141,
+      "page_end": 141,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3367:1993",
+      "clause": "3.2",
+      "title": "Tolerances",
+      "text": "3.2 Tolerances  —  ± 10 mm in length, ± 5 mm in width, and ± 1.5 mm in thickness.",
+      "clause_id": "IS 3367:1993#3.2",
+      "family": "IS 3367",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 141,
+      "page_end": 141,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3367:1993",
+      "clause": "4",
+      "title": "Classification",
+      "text": "4. Classification — Class 105 and Class 75.",
+      "clause_id": "IS 3367:1993#4",
+      "family": "IS 3367",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 141,
+      "page_end": 141,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3367:1993",
+      "clause": "5",
+      "title": "Physical Properties",
+      "text": "5. Physical Properties  See Table 1. Note — For methods of test, refer to  Appendices A and B of the standard and relevant parts of IS 3495 Methods of tests of burnt clay building bricks (third revision). For detailed information refer to IS 3367:1993 Specification for burnt clay tiles for use in lining irigation and drainage works (second revision). SUMMARY OF IS 3367 : 1993 BURNT CLAY TILES FOR USE IN LINING IRRIGATION AND   DRAINAGE WORKS (Second Revision)",
+      "clause_id": "IS 3367:1993#5",
+      "family": "IS 3367",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "references",
+      "page_start": 141,
+      "page_end": 141,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3367:1993",
+    "record_id": 9958,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      141,
+      141
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 0.829,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3311:1979",
+      "clause": "1",
+      "title": "Scope – Requirements for materials, manufacture,",
+      "text": "1. Scope - Requirements for materials, manufacture, construction, testing and finish of waste plug, chain and stay suitable for use in wash-basins and sinks complying IS 771 (Part 2) 1985*, IS  2556 (Part  4): 1994+ *IS 2556 (Part 5) :1994‡ . Dimensions of the waste plug have been specified so as to suit waste fittings covered in IS  2963: 1979.",
+      "clause_id": "IS 3311:1979#1",
+      "family": "IS 3311",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 474,
+      "page_end": 474,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3311:1979",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 3311:1979#2",
+      "family": "IS 3311",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 474,
+      "page_end": 474,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3311:1979",
+      "clause": "2.1",
+      "title": "Materials, Manufacture and Construction–",
+      "text": "2.1. Materials, Manufacture and Construction- a) Waste plug — Rubber of hard and durable quality or any other equally suitable material. b) Chain—Phosphor bronze or brass  wire of minimum diameter 1.8 mm with brazed oval links approximately 13 mm  long (any other equally suitable corrosion resistant material allowable). Overall length of chain not less than   300 mm. c) Stay—  Chain stay shall be bolt  type or screw type, made of brass or other corrosion resistant material. Note — For  details refer to Fig. 1 of the standard.",
+      "clause_id": "IS 3311:1979#2.1",
+      "family": "IS 3311",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 474,
+      "page_end": 474,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3311:1979",
+      "clause": "2.2",
+      "title": "Load Test",
+      "text": "2.2 Load Test — Shall withstand 20 kgf without deformation.",
+      "clause_id": "IS 3311:1979#2.2",
+      "family": "IS 3311",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 474,
+      "page_end": 474,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3311:1979",
+      "clause": "2.3",
+      "title": "Finish",
+      "text": "2.3 Finish — Chain and stay shall be chromium plated. SUMMARY OF IS  3311 : 1979 WASTE PLUG AND ITS ACCESSORIES FOR SINKS AND WASH-BASINS. (First Revision) For detailed information, refer to IS  3311 : 1979  Specification for waste plug and its accessories for sinks and wash-basins (first revision). *   Glazed fireclay sanitary appliances, Part 2 Specific requirements for kitchen and laboratorysinks (second revision) t  Vitreous  sanitary appliances (Vitreous China) Part 4 specific requirements of wash basins (third revision) ‡ Vitreous  sanitary appliances(Vitreous China) Part 5 specific requirements of  laboratory sinks (third revision) §  Copper alloy waste fitting for wash basins and  sinks  (first revision)",
+      "clause_id": "IS 3311:1979#2.3",
+      "family": "IS 3311",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 474,
+      "page_end": 474,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3311:1979",
+    "record_id": 9902,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      474,
+      474
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

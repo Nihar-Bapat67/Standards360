@@ -1,0 +1,310 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9742:1993",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and the methods of sampling and test for sprayed mineral wool thermal insulation.",
+      "clause_id": "IS 9742:1993#1",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "2",
+      "title": "Material",
+      "text": "2. Material",
+      "clause_id": "IS 9742:1993#2",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "2.1",
+      "title": "Mineral Wool",
+      "text": "2.1 Mineral Wool  - Mineral wool conforming to IS 3677 : 1985* shall be used.",
+      "clause_id": "IS 9742:1993#2.1",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "2.2",
+      "title": "Sprayable Mineral Wool –",
+      "text": "2.2 Sprayable Mineral Wool - Mineral wool with suitable binder, uniformly blended to ensure that it does not separate during  normal handling and spraying operations shall be used.",
+      "clause_id": "IS 9742:1993#2.2",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 9742:1993#3",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.1",
+      "title": "Density – The density",
+      "text": "3.1 Density - The density of the applied and dried material shall be in the range of 200 to 250 kg/m3 and shall also not vary by more than ±15 percent from the value declared by the manufacturer.",
+      "clause_id": "IS 9742:1993#3.1",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.2",
+      "title": "Compressive Strength",
+      "text": "3.2 Compressive Strength Deformation Compresive Strength, Percent Min Pa (N/m2) 10 4 550 15 6 460",
+      "clause_id": "IS 9742:1993#3.2",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.3",
+      "title": "Thermal Conductivity",
+      "text": "3.3 Thermal Conductivity Mean Thermal Temperature Conductivity, Max ºC W/mK 100 0.066 150 0.072 200 0.079 250 0.085 370 0.101",
+      "clause_id": "IS 9742:1993#3.3",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.4",
+      "title": "Heat Resistance – Shall",
+      "text": "3.4 Heat Resistance - Shall not suffer visible deterioration of the fibrous structure when tested by heating to 600ºC.",
+      "clause_id": "IS 9742:1993#3.4",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.5",
+      "title": "Incombustibility – Shall be",
+      "text": "3.5 Incombustibility - Shall be found to be incombustible.",
+      "clause_id": "IS 9742:1993#3.5",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.6",
+      "title": "Fire Protection",
+      "text": "3.6 Fire Protection  -   When the material is to be used for fire protection purposes, it shall satisfy the heating conditions (time-temperature curve) as specified in IS 3809 : 1979** for determination of fire resistance rating.",
+      "clause_id": "IS 9742:1993#3.6",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.7",
+      "title": "Thickness",
+      "text": "3.7 Thickness  - The thickness of finished, sprayed-on insulation shall not vary from the nominal value by more than +10 mm -3 mm for thickness up to 100 mm and by - 5 +15 percent for the thickness above 100 mm.",
+      "clause_id": "IS 9742:1993#3.7",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.8",
+      "title": "Corrosion Protection – Shall",
+      "text": "3.8 Corrosion Protection - Shall not corrode the surface on which it is applied.",
+      "clause_id": "IS 9742:1993#3.8",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.9",
+      "title": "Optional Requirements –",
+      "text": "3.9 Optional Requirements -",
+      "clause_id": "IS 9742:1993#3.9",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.9.1",
+      "title": "Resistance to Vibration –",
+      "text": "3.9.1 Resistance to Vibration -  Shall show not more than 1 percent by height of settlement.",
+      "clause_id": "IS 9742:1993#3.9.1",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "3.9",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9742:1993",
+      "clause": "3.9.2",
+      "title": "Resistance to Jolting –",
+      "text": "3.9.2 Resistance to Jolting -  Shall show not more than 3 percent by height of settlement. ** Fire resistance test for structures (first revision). * Unbonded rock and slag wool for thermal insulation (second revision) Note - For methods of tests, refer to IS 3144 : 1992 Mineral wool thermal insulation materials methods of tests (second revision), IS 3346 : 1980 Methods of determination of thermal conductivity of thermal insulation materials (two slab guarded hot plate method) (first revision), IS 5688 : 1982 Methods of test for preformed block -type and pipe covering type thermal insulation (first revision) and IS 5724 : 1970 Methods of tests for thermal insulating cements. For detailed information, refer to IS 9742 : 1993  Specifications for sprayed mineral wool thermal insulation (first revision).",
+      "clause_id": "IS 9742:1993#3.9.2",
+      "family": "IS 9742",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "3.9",
+      "role": "other",
+      "page_start": 845,
+      "page_end": 845,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9742:1993",
+    "record_id": 17162,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      845,
+      845
+    ],
+    "n_clauses": 16,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.991,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2556 (Part 4):1994",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements, patterns and sizes, dimensions and tolerances, construction, finish, sampling and marking provisions for vitreous wash basins.",
+      "clause_id": "IS 2556 (Part 4):1994#1",
+      "family": "IS 2556 (Part 4)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 438,
+      "page_end": 438,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 4):1994",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 2556 (Part 4):1994#2",
+      "family": "IS 2556 (Part 4)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 438,
+      "page_end": 438,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 4):1994",
+      "clause": "2.1",
+      "title": "Patterns and Sizes",
+      "text": "2.1 Patterns and Sizes TABLE 1   PATTERNS  AND  SIZES Pattern Size Flat Back 660 × 460 (Surgeon's basin) 630 × 450 550 × 400 450 × 300 Angle Back 600 × 480 400 × 400 Note1  —  All dimensions in millimetres Note 2  —  For detailed dimensions and tolerances, refer to 5 of the standard. . SUMMARY OF IS  2556 (PART 4) : 1994 VITREOUS SANITARY  APLLIANCES (VITREOUS CHINA) PART 4 SPECIFIC REQUIREMENTS OF  WASH BASINS (Third Revision) Note 2  — For general requirements refer to Part 1  General requirements of the standard. For detailed information, refer to IS  2556 (Part 4) : 1994 Specification for vitreous  sanitary  appliances (vitreous china): Part 4 Specific requirements of wash basins (third revision).",
+      "clause_id": "IS 2556 (Part 4):1994#2.1",
+      "family": "IS 2556 (Part 4)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 438,
+      "page_end": 438,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 4):1994",
+      "clause": "2.2",
+      "title": "One",
+      "text": "2.2 One  piece construction with /without a combined overflow and soap holder. Those to be used in surgeons room and operation theatre shall not be provided with soap holder recess and combined overflow.",
+      "clause_id": "IS 2556 (Part 4):1994#2.2",
+      "family": "IS 2556 (Part 4)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 438,
+      "page_end": 438,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 4):1994",
+      "clause": "2.3",
+      "title": "Waste hole shall accomodate",
+      "text": "2.3 Waste hole shall accomodate a waste filling having a flange diameter of 64 mm.",
+      "clause_id": "IS 2556 (Part 4):1994#2.3",
+      "family": "IS 2556 (Part 4)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 438,
+      "page_end": 438,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 4):1994",
+      "clause": "2.4",
+      "title": "Overflow slot, if provided",
+      "text": "2.4 Overflow slot, if provided. shall have a horizontal dimension not larger than 64 mm and an area not less than 500 mm2.",
+      "clause_id": "IS 2556 (Part 4):1994#2.4",
+      "family": "IS 2556 (Part 4)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 438,
+      "page_end": 438,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 4):1994",
+      "clause": "2.5",
+      "title": "Glazed pedestal, if required,",
+      "text": "2.5 Glazed pedestal, if required, shall be so designed as to make the height from floor to top of the rim of basin between 750 to 800 mm.",
+      "clause_id": "IS 2556 (Part 4):1994#2.5",
+      "family": "IS 2556 (Part 4)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 438,
+      "page_end": 438,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 4):1994",
+      "clause": "3",
+      "title": "Finish",
+      "text": "3.  Finish  -  Inside surfaces of wash basins shall be glazed uniform and smooth in order to ensure efficient draining.",
+      "clause_id": "IS 2556 (Part 4):1994#3",
+      "family": "IS 2556 (Part 4)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 438,
+      "page_end": 438,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2556 (Part 4):1994",
+    "record_id": 9075,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      438,
+      438
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

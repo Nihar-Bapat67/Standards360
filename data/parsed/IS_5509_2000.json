@@ -1,0 +1,292 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5509:2000",
+      "clause": "1",
+      "title": "Scope – Covers the",
+      "text": "1. Scope - Covers the fire  retardant chemicals, method of treatment, retentions and requirements of fire retardant plywood.",
+      "clause_id": "IS 5509:2000#1",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types",
+      "clause_id": "IS 5509:2000#2",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "2.1",
+      "title": "Flame Retardants",
+      "text": "2.1. Flame Retardants— Flame retardant chemicals used for treatments of plywood shall generally be the following - Type  1 Ammonium phosphate Type  2 Boron compounds Type  3 Ammonium sulphate Type  4 Combination of ammonium phosphate and boron compounds Type 5 Combination of ammonium sulphate and ammonium phosphate",
+      "clause_id": "IS 5509:2000#2.1",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "2.2",
+      "title": "Where flame retardant treatment",
+      "text": "2.2 Where flame retardant treatment and preserva - tive treatment are required together, the types of chemical and  their  retention, shall be as given IS 12120 : 1987 +",
+      "clause_id": "IS 5509:2000#2.2",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "3",
+      "title": "Preparation of Plywood for Treatment",
+      "text": "3. Preparation of Plywood for Treatment — Plywood shall conform to BWR grade of IS 303:1989t and shall have a moisture content of notexceeding 15 percent.",
+      "clause_id": "IS 5509:2000#3",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "4",
+      "title": "Fire",
+      "text": "4. Fire  Retardent  Treatment—Type of treatment shall be either of the two below : a) Pressure impregnation, and b) Soaking treatment *  Code of practice for  preservation of plywood and  other panel products. t Plywood for  general purposes (third revision)",
+      "clause_id": "IS 5509:2000#4",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "5",
+      "title": "Conditioning after Treatment – Plywood after",
+      "text": "5. Conditioning after Treatment - Plywood after treatment shall be conditioned to suitable equilibrium moisture content of not more than 20 percent.",
+      "clause_id": "IS 5509:2000#5",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "6",
+      "title": "Dimensions and",
+      "text": "6. Dimensions and  Tolerances — The dimensions and tolerance of fire retardant plywood  shall conform IS 12049 : 1987‡",
+      "clause_id": "IS 5509:2000#6",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "7",
+      "title": "Workmanship and Finish –The finished plywood",
+      "text": "7. Workmanship and Finish -The finished plywood shall be reasonably clean to  handle and free of dirt and stain other than any uniform colour of the flame retardant solution.",
+      "clause_id": "IS 5509:2000#7",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "8",
+      "title": "Tests",
+      "text": "8. Tests   Requirement",
+      "clause_id": "IS 5509:2000#8",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "8.1",
+      "title": "Moisture Content – Shall",
+      "text": "8.1. Moisture Content - Shall not exceed 20 percent",
+      "clause_id": "IS 5509:2000#8.1",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "8.2",
+      "title": "Flammability– The time taken",
+      "text": "8.2 Flammability- The time taken for the second ignition shall not be less than 30 minutes.",
+      "clause_id": "IS 5509:2000#8.2",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "8.3",
+      "title": "Flame Penetration – Time",
+      "text": "8.3 Flame Penetration - Time taken for flame penetration shall not be less than 15 minutes for every 6 mm thickness.",
+      "clause_id": "IS 5509:2000#8.3",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "8.4",
+      "title": "Rate of",
+      "text": "8.4 Rate of  Burning —The time taken  to lose weight from 30 percent to 70 percent shall not be less than 20 minutes.",
+      "clause_id": "IS 5509:2000#8.4",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5509:2000",
+      "clause": "8.5",
+      "title": "Other Tests – Glue",
+      "text": "8.5 Other Tests - Glue shear strength  in dry state mycological test, water resistance test and any other mechanical property as per   IS 303 : 1989. ‡  Dimensions and tolerances relating to wood based panel materials. t Plwood for general purposes (and revision). Note —  For method of test refer IS 1734. (Part 1) : 1983 Method of test for plywood - Part 1- 1983.  Determination of density and moisture content ( second revision) Methods of test for plywood. Part 3 - 1983.  Determination of  fire resistance (second revision) For detailed information, refer to IS : 5509-1980. Specification for fire retardant plywood.(first revision)",
+      "clause_id": "IS 5509:2000#8.5",
+      "family": "IS 5509",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 563,
+      "page_end": 563,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5509:2000",
+    "record_id": 12284,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      563,
+      563
+    ],
+    "n_clauses": 15,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.997,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

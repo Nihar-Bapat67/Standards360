@@ -1,0 +1,436 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope -  Requirements and the methods of sampling and test for safety glass meant for general purposes such as for  use in glazing windows, doors of buildings and railway coaches.",
+      "clause_id": "IS 2553 ( PART 1):1990#1",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types a) Toughened safety (tempered)  glass (TS) b) Toughened float safety glass(TF), c) Laminated safety glass (LS)  and d) Laminated float safety glass (LF).",
+      "clause_id": "IS 2553 ( PART 1):1990#2",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 2553 ( PART 1):1990#3",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.1",
+      "title": "General",
+      "text": "3.1 General",
+      "clause_id": "IS 2553 ( PART 1):1990#3.1",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.1.1",
+      "title": "Material – Safety glass",
+      "text": "3.1.1 Material -  Safety glass shall be made of 'A A' and 'A' quality [see IS 2835 : 1987*] from flat transparent glass. Note - Safety glass may also be made from  float glass, if agreed to between the manufacturer and  the purchaser.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.1.1",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.1.1.1",
+      "title": "Safety glass may be",
+      "text": "3.1.1.1 Safety glass may be flat or curved and tinted/ coloured itself or by providing coloured interlay(s),as agreed to between the manufacturer and the purchaser.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.1.1.1",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 4,
+      "parent_clause": "3.1.1",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.1.2",
+      "title": "Measurement of thickness",
+      "text": "3.1.2 Measurement of thickness — The thickness of safety glass shall be measured in accordance with the method prescribed in 5.1 and Annex B of IS 2835 : 1987.*",
+      "clause_id": "IS 2553 ( PART 1):1990#3.1.2",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.1.3",
+      "title": "Distribution of allowable defects",
+      "text": "3.1.3 Distribution of allowable defects — Safety glass made from AA or A quality sheet glass shall not have defects greater than those specified for AA or A quality of  sheet glass as the case may be  in Table 2 of IS 2835 : 1987.* Note — Safety glass made from float glass  shall not have waviness more than 8 mm (Refer IS 2835:1987*  test for waviness) both in central and outer area and for other defects it shall not have more than those specified for AA quality of sheet glass of IS 2835 : 1987. * Flat transparent sheet glass (third revision).",
+      "clause_id": "IS 2553 ( PART 1):1990#3.1.3",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.1.3.1",
+      "title": "Tonghened safety glass made",
+      "text": "3.1.3.1 Tonghened safety glass made from float glass shall and have cluster of defects more than those specified for 'AA' quality of sheet glass and tonghened safety glass made from 'AA' or 'A' quality and sheet glass shall not have cluster of defects more than those specified respectively for 'AA' or 'A' quality of sheet glass, as the case may be in Table 2A of IS 2835.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.1.3.1",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 4,
+      "parent_clause": "3.1.3",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.1.3.2",
+      "title": "As the laminated safety",
+      "text": "3.1.3.2 As the laminated safety glass contains two pieces or more of sheet glass, cluster of defects in the product made from AA or A quality of sheet glass or float glass as the case may be shall be as agreed to between the purchaser and the manufacturer.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.1.3.2",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 4,
+      "parent_clause": "3.1.3",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.2",
+      "title": "Specific Requirements for Toughened",
+      "text": "3.2. Specific Requirements for Toughened  Safety Glass-",
+      "clause_id": "IS 2553 ( PART 1):1990#3.2",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.2.1",
+      "title": "Thickness – Toughened safety",
+      "text": "3.2.1 Thickness - Toughened safety glass shall be of nominal thickness and range of thickness as specified in Table 1 of  IS 2835 : 1987.*",
+      "clause_id": "IS 2553 ( PART 1):1990#3.2.1",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.2.2",
+      "title": "Dimensional tolerances on cut",
+      "text": "3.2.2 Dimensional tolerances on cut size (length and width) - Tolerance on length and width of the toughened safety glass shall be in accordance with Table1 of IS 2835 : 1987.*",
+      "clause_id": "IS 2553 ( PART 1):1990#3.2.2",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.2.3",
+      "title": "Fragmentation test – It",
+      "text": "3.2.3 Fragmentation test - It shall pass the prescribed test.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.2.3",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.2.4",
+      "title": "Warp – It shall",
+      "text": "3.2.4 Warp - It shall not exceed o.5 percent for arc and 0.3 percent for wave pattern for flat glasses. Note - This test is meant for flat safety glass only.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.2.4",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.2.5",
+      "title": "Resistance to shock test",
+      "text": "3.2.5 Resistance to shock test - Shall pass the prescribed test. Note - This test shall apply to the toughened safety glasses hav ing a thickness of 5.0 mm and above. For glasses having  a thickness of less than 5.0 mm, adoption of the test and interpretation of the results shall be as agreed to between the purchaser and the manufacturer.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.2.5",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.3",
+      "title": "Specific Requirements for laminated Safety glass–",
+      "text": "3.3. Specific Requirements for laminated Safety glass- * Specified Requirements for laminated Safety glass-",
+      "clause_id": "IS 2553 ( PART 1):1990#3.3",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 819,
+      "page_end": 819,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.3.1",
+      "title": "Thickness – Laminated safety",
+      "text": "3.3.1     Thickness - Laminated safety glass shall be of thickness   as specified in Table 1.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.3.1",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.3",
+      "role": "other",
+      "page_start": 820,
+      "page_end": 820,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.3.1.1",
+      "title": "If agreed between the",
+      "text": "3.3.1.1 If agreed between the purchaser and the supplier, nominal     thickness of laminated safety glass, other than  those specified in Table 1 may also be supplied. In such  cases the range of thickness shall be those which  are   applicable to immediately lower thickness as specified in Table 1. TABLE 1    NOMINAL THICKNESS, RANGE OF THICKNESS, DIMENSIONAL TOLERANCE ON LENGTH AND WIDTH OF LAMINATED SAFETY GLASS (CLAUSES 3.3.1, 3.3.1.1 AND 3.2) SL. Nominal Range of Dimensional No Thickness Thickness Tolerance on Cut Size Length and Width (1) (2) (3) (4) mm mm mm i) 3.5 3.1 to 3.7 2.5 ii) 4.0 4.0 to 4.8 2.5 iii) 5.0 5.0 to 5.8 2.5 iv) 6.0 6.0 to 6.8 2.5 v) 8.0 8.0 to 8.8 3.0 vi) 10.0 9.8 to11.0 3.5",
+      "clause_id": "IS 2553 ( PART 1):1990#3.3.1.1",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 4,
+      "parent_clause": "3.3.1",
+      "role": "other",
+      "page_start": 820,
+      "page_end": 820,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.3.2",
+      "title": "Cut sizes",
+      "text": "3.3.2 Cut sizes — For matching the edges of laminates in laminated safety glass, the tolerance limit within which overlapping of edges shall be maintained shall not exceed ±1.5 mm, but overall dimensional tolerance on the  cut sizes (length and width) shall be subjected to the limit specified, in col 4 of the Table 1.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.3.2",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.3",
+      "role": "other",
+      "page_start": 820,
+      "page_end": 820,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.3.3",
+      "title": "Light stability test –",
+      "text": "3.3.3 Light stability test - Laminated safety glass shall pass the requirements of light stability test as prescribed.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.3.3",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.3",
+      "role": "requirements",
+      "page_start": 820,
+      "page_end": 820,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.3.4",
+      "title": "Boil test – Laminated",
+      "text": "3.3.4 Boil test - Laminated safety glass shall pass the requirements of boil test as prescribed.",
+      "clause_id": "IS 2553 ( PART 1):1990#3.3.4",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.3",
+      "role": "requirements",
+      "page_start": 820,
+      "page_end": 820,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2553 ( PART 1):1990",
+      "clause": "3.3.5",
+      "title": "Fracture and adhesion test",
+      "text": "3.3.5 Fracture and adhesion test - Laminated safety glass shall pass the requirements of fracture and adhesion test as prescribed. Note -  For methods of tests, refer to Annexes A to E of the standard. For detailed information, refer to IS 2553 (Part1) :1990 Specifications for safety glass : Part 1  General  Purposes  (third revision).",
+      "clause_id": "IS 2553 ( PART 1):1990#3.3.5",
+      "family": "IS 2553 ( PART 1)",
+      "year": 1990,
+      "level": 3,
+      "parent_clause": "3.3",
+      "role": "requirements",
+      "page_start": 820,
+      "page_end": 820,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2553 ( PART 1):1990",
+    "record_id": 25533,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      819,
+      820
+    ],
+    "n_clauses": 23,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

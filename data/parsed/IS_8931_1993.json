@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8931:1993",
+      "clause": "1",
+      "title": "Scope – Requirements regarding materials,",
+      "text": "1. Scope - Requirements regarding materials, manufacture, workmanship, constructions, dimensions, finish and testing of chromium plated copper alloy nonrising spindle type fancy single taps, combination tap assembly and valves, suitable for operation from 0.1 MPa to 0.5 MPa pressure at maximum temperature of 650C.",
+      "clause_id": "IS 8931:1993#1",
+      "family": "IS 8931",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 479,
+      "page_end": 479,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8931:1993",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2. Materials: Sl.No. Component Material 1. Body, body components, a) Castbrass inlet tubes, nozzle, bonnet b) Die cast and back nuts brass c) Forged brass d) Leaded tin bronze e) Brass rods f) Brass tubes g) Copper tubes 2. Flanges a) Castrass b) Die cast brass c) Forged brass d) Leaded tin bronze e) Brass rods f) Brass sheet",
+      "clause_id": "IS 8931:1993#2",
+      "family": "IS 8931",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 479,
+      "page_end": 479,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8931:1993",
+      "clause": "3",
+      "title": "Spindle, glands,",
+      "text": "3. Spindle, glands, a) Brass rods washer plate, nuts, (Extruded or rolled) screws and pin b) Forged brass",
+      "clause_id": "IS 8931:1993#3",
+      "family": "IS 8931",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 479,
+      "page_end": 479,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8931:1993",
+      "clause": "4",
+      "title": "Circlip, wire locks",
+      "text": "4. Circlip, wire locks a) Phosphor bronze sheet b) Phosphor bronze wire c) Stainless steel",
+      "clause_id": "IS 8931:1993#4",
+      "family": "IS 8931",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 479,
+      "page_end": 479,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8931:1993",
+      "clause": "5",
+      "title": "O ring",
+      "text": "5. O ring a) Synthetic rubber",
+      "clause_id": "IS 8931:1993#5",
+      "family": "IS 8931",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 479,
+      "page_end": 479,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8931:1993",
+      "clause": "6",
+      "title": "Gasket and seat",
+      "text": "6. Gasket and seat a) Acrylo Nitrillebuta washer diene rubber b) Neoprene rubber c) Synthetic butadiene rubber (S.B.R.)",
+      "clause_id": "IS 8931:1993#6",
+      "family": "IS 8931",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 479,
+      "page_end": 479,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8931:1993",
+      "clause": "7",
+      "title": "Knob, knob components,",
+      "text": "7. Knob, knob components, a) Cast brass divertor & components b) Die cast brass c) Forged brass d) Leaded tin bronze e) Brassrods f) Zinc g) Plastics 3. Nominal Sizes - Pillar tap 15  mm Bib tap 15  mm Combination tap assembly 15  mm Stop valve 15 mm and 20  mm Angle stop valve 15 mm and 20  mm 4. Construction 4.1 The inlet and outlet connection threads whether internal or external, shall be a pipe thread. 4.2 Area of waterway throughout the  body of a tap or valve shall not be less than the area of a circle of diameter equal to the minimum bore of seating unless otherwise specified. 4.3 The internal diameter of a combined outlet shall not be less than 15 mm 4.4 Flow straightening and aerating device may be filled in taps if required. 5. Dimensions 5.1 Minimum Thickness - Minimum of 2.0 mm . See also 7. In the case of single tap and combination tap assemblies the open outlet nozzle portion may be reduced to 1.6 mm in case of castings and forging and to 0.6 mm when drawn tubes are used. Note — For detailed dimensions, refer to the standard. SUMMARY OF IS   8931 : 1993 COPPER ALLOY FANCY SINGLE TAPS COMBINATION TAP ASSEMBLY AND STOP  VALVES FOR WATER SERVICES (First  Revision) 7.2. Pressure Resistance Characteristic — No permanent deformation in the part of the taps and valves situated upstream or down stream shall be produced 7.3 Hydraulic Characteristic (Flow Rate) -  Shall not be less than a) 12.l/min for 15 mm nominal size single and combination tap and valve. b) 23.l/min for 20 mm nominal size. 7.4. Mechanical Strength Characterist - No  permanent deformation or loosing of any part of the tap and valve. 6. Finish - The significant surfaces of taps, combination tap  assembly  and stop valves shall be nickle-chromium plated. However, the body of concealed stop valve and side stop valve of pillar mounting combination tap assembly may be polished bright or may have an unpolished surface, as 'Cast' finish. 7. Performance Tests",
+      "clause_id": "IS 8931:1993#7",
+      "family": "IS 8931",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 479,
+      "page_end": 480,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8931:1993",
+      "clause": "7.1",
+      "title": "Water Tightness Characteristsic",
+      "text": "7.1. Water Tightness Characteristsic — Shall not show any leakage of water or escape of airbubbles through the walls of the body, bonnet and diverto assembly. For detailed information, refer to IS  8931 : 1993.  Specification for copper alloy fancy single taps, combination tap assembly and stop valves for water services (first revision)",
+      "clause_id": "IS 8931:1993#7.1",
+      "family": "IS 8931",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 480,
+      "page_end": 480,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8931:1993",
+    "record_id": 16144,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      479,
+      480
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

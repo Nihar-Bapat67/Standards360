@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1366:2002",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for slotted cheese   head screws  of product grade A and with the neads from M1.6 to M10. SUMMARY OF IS 1366 : 2002 ISO 1207 - 1992 SLOTTED CHEESE HEAD SCREWS (Third  Revision)",
+      "clause_id": "IS 1366:2002#1",
+      "family": "IS 1366",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 775,
+      "page_end": 775,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1366:2002",
+      "clause": "2",
+      "title": "Dimensions – M1.6, M2,",
+      "text": "2. Dimensions - M1.6, M2, M2.5, M3, (M3.5), M4, M6, M8, M12",
+      "clause_id": "IS 1366:2002#2",
+      "family": "IS 1366",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 775,
+      "page_end": 775,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1366:2002",
+      "clause": "3",
+      "title": "Specification – See Table 1",
+      "text": "3.    Specification - See Table 1",
+      "clause_id": "IS 1366:2002#3",
+      "family": "IS 1366",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 775,
+      "page_end": 775,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1366:2002",
+      "clause": "4",
+      "title": "Designation –  as per sheet attahced.",
+      "text": "4.   Designation -  as per sheet attahced. For detailed information, refer to  IS 1366 : 1982. Specification for  Slotted cheese head  screws (third revision). | Material | Steel | Stainless steel | Non-ferrous metal | | --- | --- | --- | --- | | General requirements International Standard | ISO 8992 |  |  | | Tolerance Thread International Standards | 6 g |  |  | |  | ISO 261, ISO 965-2 |  |  | | Property class Mechanical properties International Standards | 4, 8, 5.8 | A2-70, A2-50 |  | |  | ISO 898-1 | ISO 3506 | ISO 8839 | | Product grade Tolerance International Standard | A |  |  | |  | ISO 4759-1 |  |  | | Finish | Plain Requirements for electroplating are covered in ISO 4042. If different electroplating requirements are desired or if requirements areneeded for other finishes, they should be agreed between customer and supplier. Limits for surface discontinuities are covered in ISO 6157-1 and ISO 6157 - 3. |  |  | | Acceptability | Acceptance procedure is covered in ISO 3269. |  |  |",
+      "clause_id": "IS 1366:2002#4",
+      "family": "IS 1366",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 775,
+      "page_end": 775,
+      "has_table": true,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1366:2002",
+    "record_id": 5340,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      775,
+      775
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

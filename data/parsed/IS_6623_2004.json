@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6623:2004",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for large series hexagon, high strength structural steel nuts in property classes 8 and 10 and in the size range M16 to M36 suitable for use in both friction-type and bearing-type structural steel connections. Nuts to this standard when matched with the appropriate bolts have been designed to provide an assembly with a high level of assurance against failure by thread stripping on overtightening. Note - Attention is drawn to the importance of ensuring that the nuts are correctly used if satisfactory results are to be obtained.",
+      "clause_id": "IS 6623:2004#1",
+      "family": "IS 6623",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 796,
+      "page_end": 796,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6623:2004",
+      "clause": "2",
+      "title": "Dimensions and Tolerances",
+      "text": "2. Dimensions and Tolerances",
+      "clause_id": "IS 6623:2004#2",
+      "family": "IS 6623",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 796,
+      "page_end": 796,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6623:2004",
+      "clause": "2.1",
+      "title": "Thread",
+      "text": "2.1 Thread  Sizes - M12, M16, M20, (M22), M24, (M27), M30 and M36 Note 1 - Sizes shown in brackets are of second preference Note 2 - For detailed dimensions refer  to Table 1 of the standard",
+      "clause_id": "IS 6623:2004#2.1",
+      "family": "IS 6623",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 796,
+      "page_end": 796,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6623:2004",
+      "clause": "2.2",
+      "title": "Threads of the nuts",
+      "text": "2.2 Threads of the nuts shall be in a condance to IS 4218 [Parts (1, 2, 3 and 4)]",
+      "clause_id": "IS 6623:2004#2.2",
+      "family": "IS 6623",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 796,
+      "page_end": 796,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6623:2004",
+      "clause": "3",
+      "title": "Grade – Unless other",
+      "text": "3. Grade -  Unless other wire specified the nuts shall be of product grade B as specified in IS  1367 (Part 2). The tolerances on the threads shall conform to tolerance 6H of IS 14962 [Part (1, 2 and 3) and in case of hot dip galramized with the tolerances shall be in accordance with IS 14962 [(Part 4 and 5)] *   Technical supply conditions for threaded steel fasteners (various parts) +   ISO metric Threads",
+      "clause_id": "IS 6623:2004#3",
+      "family": "IS 6623",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 796,
+      "page_end": 796,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6623:2004",
+    "record_id": 13490,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      796,
+      796
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.453,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3854:1997",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope",
+      "clause_id": "IS 3854:1997#1",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "1.1",
+      "title": "Applies to manually operated general purpose",
+      "text": "1.1 Applies to manually operated general purpose switches with a rated voltage not exceeding 440 Volts and a rated current not exceeding 63A. intended for household and similar fixed electrical installations either indoors or outdoors.",
+      "clause_id": "IS 3854:1997#1.1",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "1.1.1",
+      "title": "The rated current is limited to 16",
+      "text": "1.1.1 The rated current is limited to 16  A for switches provided with screwless terminals.",
+      "clause_id": "IS 3854:1997#1.1.1",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 3,
+      "parent_clause": "1.1",
+      "role": "other",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "1.2",
+      "title": "The standard applies to",
+      "text": "1.2 The standard applies to boxes for switches which are an inegral part of it. It does not however apply to mounting boxes for flush type switches.",
+      "clause_id": "IS 3854:1997#1.2",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "1.3",
+      "title": "This standard also applies",
+      "text": "1.3 This standard also applies to switches such as- - Switches incorporating pilot lights. - Electromagnetic remote control switches - Switches incorporating a time delay device. - Combinations of switches and other  functions (with the exception of switches combined with fuses). - Electronicwitches",
+      "clause_id": "IS 3854:1997#1.3",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "1.4",
+      "title": "Switches complying with this",
+      "text": "1.4Switches complying with this standard are suitable for use at ambient temperatures not normally exceeding 35ºC, but occasionally reaching 45ºC.",
+      "clause_id": "IS 3854:1997#1.4",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "1.5",
+      "title": "It does not cover",
+      "text": "1.5 It does not cover switches for location where special conditions prevail, as in ships, vehicles and the like and in hazardous locations, for instance where explosions are liable to occur, special constructions may be required.",
+      "clause_id": "IS 3854:1997#1.5",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "1.6",
+      "title": "This standard does not apply to circuit",
+      "text": "1.6 This standard does not apply to circuit-breakers for household and similar installations, to switches for appliances, to (in-line) cord switches and switches incorporated in cable reels.",
+      "clause_id": "IS 3854:1997#1.6",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "1.7",
+      "title": "This standard does not",
+      "text": "1.7 This standard does not include requirements and tests for switches with protection against solid foreign with their titles and insert the following IS No. at the end:",
+      "clause_id": "IS 3854:1997#1.7",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "2",
+      "title": "General Requirements – Switches",
+      "text": "2. General Requirements - Switches and boxes shall be so designed and constructed, that in normal use, their performance is reliable and without danger to the user or surroundings.",
+      "clause_id": "IS 3854:1997#2",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "3",
+      "title": "Ratings – Switches shall",
+      "text": "3. Ratings - Switches shall preferably have rated voltage of  110 V,  230V,  240V  and  250V, 400V, 415V. For momentary contact switches intended to operate bells, electromagnetic remote control switches or time-delay switches, the standard rated voltages are 110V and 250V.",
+      "clause_id": "IS 3854:1997#3",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "3.1",
+      "title": "Switches shall preferably have",
+      "text": "3.1 Switches shall preferably have rated currents of 6 A, 10 A, 16 A, 20 A, 25 A, 32 A, 40 A, and 63 A. The rated current shall be not less than 6A, except that rated current of 1 A, 2 A and 4 A are allowed for push-button switches intended to operated bells, electromagenetic remote control switches or time-delay switches.",
+      "clause_id": "IS 3854:1997#3.1",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "4",
+      "title": "Classification –",
+      "text": "4. Classification - a) According to the possible connections - Pattern No. - Single-pole switches 1 - Double-pole switches 2 - Three-pole switches 3 - Three-pole plus switched neutral switches 03 - Two-way switches",
+      "clause_id": "IS 3854:1997#4",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 905,
+      "page_end": 905,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "6",
+      "title": "–",
+      "text": "6 - Two-circuit switches with a common incoming 5 - Two-way switches with one off  position 4 - Two-way double-poleswitches 6/2 - Two-way double-pole reversing switches 7 b) According to the contact opening - - Switches of normal gap constructions. - Switches of mini-gap construction (only for a.c.) c) According to the degree of protection against electric shock - SUMMARY OF IS 3854  : 1997 SWITCHES FOR DOMESTIC AND SIMILAR PURPOSES (Second Revision) Note - For details requirements and method of tests refer to the standard For detailed information, refer to IS 3854 : 1997 Specification for  switches for domestic and similar purposes (second revision). - Unenclosed switches. - Enclosed switches. d) According to the degree of protection against harmful  ingress of water - - Ordinary switches having no special protection against harmful ingress of water; IPXO - Splash-proof switches with degree of  protection IPX4. - Jet-proof switches with degree of  protection IPX5 e) According to the method of activating the switch - - Rotary - Tumbler - Rocker - Push-button - Cord-operated f) According to the method of application : - Surface type - Flush type - Semi flush type - Panel type - Architrave type g) According to the method of Installtion,as a consequence of the design : - Switches with screw the cover or cover plate can be removed without displacement of the conductors (Design A) - Switches where the cover  or cover plate  cannot be removed without displacement of   the conductors (Design B) h) According to ttype of terminal- -   Switches with screw type terminals - Switches with screwless terminals for rigid conductors only - Switches with screwless terminals for rigid and flexible conductors only 5. Protection Against Electric Shock -Switches shall be so designed that when they are mounted and wired as in normal use, live parts are not accessibl even after removal of parts which can be removed without the use of a tool. 6. Provision for Earthing - Accessible metal parts, which may become live in the event of an insulation fault, shall be provided with, or permanently and reliably connected to, an earthing terminal.",
+      "clause_id": "IS 3854:1997#6",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 905,
+      "page_end": 906,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "7",
+      "title": "Terminals – Switches shall",
+      "text": "7. Terminals - Switches shall be provided with terminals having screw clamping or with screwless terminals. The means for  clamping the conductors shall not serve to fix any other component, although they may hold the terminals in place or prevent them from turning.",
+      "clause_id": "IS 3854:1997#7",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 906,
+      "page_end": 906,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "8",
+      "title": "Tests",
+      "text": "8. Tests",
+      "clause_id": "IS 3854:1997#8",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 906,
+      "page_end": 906,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "8.1",
+      "title": "Type tests –",
+      "text": "8.1 Type tests - a) Rating b) Classification c) Marking d) Checking of dimensions e) Protection against electric shock f) Provision for earthing g) Terminals h) Constructional requirements j) Mechanism k) Resistance to ageing, to harmful ingress of water and to humidity m) Insulation resistance and electric strength n) Temperature rise p) Making and breaking capacity q) Normal operation r) Mechanical strength s) Resistance to heat t) Screws, current carrying parts and   connections u) Creepage distance, clearance and distance through sealing compound v) Normal operation for fluorescent lamp circuits w) Resistance to abnormal heat and fire x) Resistance to tracking y) Resistance to rusting.",
+      "clause_id": "IS 3854:1997#8.1",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "test_methods",
+      "page_start": 906,
+      "page_end": 906,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "8.2",
+      "title": "Acceptance Tests – Tests",
+      "text": "8.2 Acceptance Tests - Tests specified in 8.1c,) k), n), p), r) and  t).",
+      "clause_id": "IS 3854:1997#8.2",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "test_methods",
+      "page_start": 906,
+      "page_end": 906,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3854:1997",
+      "clause": "8.3",
+      "title": "Routine Tests – Tests",
+      "text": "8.3 Routine Tests - Tests specified in 8.1c) and electric strength.",
+      "clause_id": "IS 3854:1997#8.3",
+      "family": "IS 3854",
+      "year": 1997,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 906,
+      "page_end": 906,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3854:1997",
+    "record_id": 10450,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      905,
+      906
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

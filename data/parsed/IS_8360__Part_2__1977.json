@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8360 (Part 2):1977",
+      "clause": "1",
+      "title": "Scope– Requirements for manufacture, dimensions",
+      "text": "1. Scope- Requirements for manufacture, dimensions and tolerances and marking for fabricated HDPE 90° tees for potable water supplies.",
+      "clause_id": "IS 8360 (Part 2):1977#1",
+      "family": "IS 8360 (Part 2)",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 359,
+      "page_end": 359,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8360 (Part 2):1977",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 8360 (Part 2):1977#2",
+      "family": "IS 8360 (Part 2)",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 359,
+      "page_end": 359,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8360 (Part 2):1977",
+      "clause": "2.1",
+      "title": "Laying lengths and tolerances",
+      "text": "2.1 Laying lengths and tolerances thereon shall be as follows : Size Overall Laying   Length mm mm 20 50 ± 2 25 62.5 ± 2 32 80 ± 2 40 80 ± 2 50 90 ± 2 63 94.5 ± 4 75 112.5 ± 4 90 135 ± 4 110 165 ± 4 125 181.5  ± 4 140 210 ± 6 160 240 ± 6 180 270 + 6 200 300 + 6 225 337.5 + 8 250 375.5 + 8 280 420 + 8 315 472.5 + 8 355 532.5 + 10 400 600 + 10 450 675  + 10 500 750 +10 Note— For typical illustration of 90° fabricated tee see Fig. 1 of the standard. Note—For general requirements regarding material, sizes, method of test and sampling refer to IS 8360 (Part 1) : 1977 Fabricated high density polyethylene (HDPE) fittings for portable water supplies : Part 1 General requirements. For detailed information, refer to IS 8360 (Part 2):1977 Specification for  fabricated high density polyethylene (HDPE) fittings for potable water supplies : Part  2 specific requirements for 90° tees. SUMMARY OF IS  8360 (PART 2)  : 1977 FABRICATED HIGH DENSITY POLYETHYLENE (HDPE) FITTINGS FOR POTABLE WATER SUPPLIES  PART 2 SPECIFIC REQUIREMENTS FOR 90O TEES",
+      "clause_id": "IS 8360 (Part 2):1977#2.1",
+      "family": "IS 8360 (Part 2)",
+      "year": 1977,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 359,
+      "page_end": 359,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8360 (Part 2):1977",
+      "clause": "2.2",
+      "title": "Ouside diameters and wall",
+      "text": "2.2   Ouside diameters and wall thickness of pipes out of which 90° tees are fabricated shall comply with those givenin IS  8360 (Part 1) :1977. Wall thickness of a fabricated 90° tee shall not be less than that of the pipe to which it i to be welded.",
+      "clause_id": "IS 8360 (Part 2):1977#2.2",
+      "family": "IS 8360 (Part 2)",
+      "year": 1977,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 359,
+      "page_end": 359,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8360 (Part 2):1977",
+    "record_id": 15524,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      359,
+      359
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

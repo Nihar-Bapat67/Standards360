@@ -1,0 +1,274 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6003:1983",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope -  Requirements for manufacture, supply and testing of intended hard-drawn and stress-relieved wire for use in prestressed concrete.",
+      "clause_id": "IS 6003:1983#1",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "2",
+      "title": "Chemical Composition – The",
+      "text": "2. Chemical Composition - The ladle analysis shall show that the steel contains not more than 0.04 percent of sulphur and not more than 0.04 percent of phosphorus.",
+      "clause_id": "IS 6003:1983#2",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "3",
+      "title": "Nominal Sizes – 3.00,",
+      "text": "3. Nominal Sizes - 3.00, 4.00 and 5.00  mm.diameter.",
+      "clause_id": "IS 6003:1983#3",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "4",
+      "title": "Geometrical Characteristics",
+      "text": "4. Geometrical Characteristics",
+      "clause_id": "IS 6003:1983#4",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "4.1",
+      "title": "The shape and pattern",
+      "text": "4.1 The shape and pattern of indentation shall be as mutually agreed  provided the indentations are placed in two lines, diametrically opposite and  are staggered.",
+      "clause_id": "IS 6003:1983#4.1",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "5",
+      "title": "Tolerances",
+      "text": "5. Tolerances",
+      "clause_id": "IS 6003:1983#5",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "5.1",
+      "title": "The tolerance on the nominal diameter shall be",
+      "text": "5.1 The tolerance on the nominal diameter shall be   ± 0.05 mm.",
+      "clause_id": "IS 6003:1983#5.1",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "5.2",
+      "title": "Where ovality is more",
+      "text": "5.2 Where ovality is more than half of the total diameter tolerance, check on section  by weighing shall be made. Nominal mass and tolerance on nominal mass of finished wire shall be as given below: Nominal Nominal  Mass Tolerance Diameter rmm g/m g/m 5.00 154 ±   3.1 4.00 98.9 ±   2.0 3.00 55.5 ±   1.5",
+      "clause_id": "IS 6003:1983#5.2",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "6",
+      "title": "Physical Requirements",
+      "text": "6. Physical Requirements",
+      "clause_id": "IS 6003:1983#6",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "6.1",
+      "title": "Tensile Strength",
+      "text": "6.1 Tensile Strength Nominal Diamete Tensile Strength mm Min, N/mm2 5.00 1 570 4.00 1 715 3.00 1 865",
+      "clause_id": "IS 6003:1983#6.1",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "6.2",
+      "title": "Proof Stress – Not",
+      "text": "6.2 Proof Stress - Not less than 85 percent of minimum tensile strength.",
+      "clause_id": "IS 6003:1983#6.2",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "6.3",
+      "title": "Ductility",
+      "text": "6.3 Ductility  - Wire shall withstand the reverse bend test.",
+      "clause_id": "IS 6003:1983#6.3",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "6.4",
+      "title": "Elongation after Fracture –",
+      "text": "6.4 Elongation after Fracture - (Over a gauge length of 200 mm) Nominal Diameter Elongation Percent mm Min 5.00 4.00 4.00 3.00 3.00 2.50",
+      "clause_id": "IS 6003:1983#6.4",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6003:1983",
+      "clause": "6.5",
+      "title": "Relaxation",
+      "text": "6.5 Relaxation  -  Relaxation stress shall not exceed 5 percent of initial stress at the end of 1000 h. SUMMARY OF IS 6003 : 1983 INDENTED WIRE FOR PRESTRESSED CONCRETE (First Revision) Note - For test procedures, refer to 7 of the  standard  and  IS 1608 : 1995 Mechanical testing of metals-Tensile testing (second revision) For detailed information, refer to IS 6003 : 1983 Specification for intended wire for prestressed concrete (first revision).",
+      "clause_id": "IS 6003:1983#6.5",
+      "family": "IS 6003",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "references",
+      "page_start": 657,
+      "page_end": 657,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6003:1983",
+    "record_id": 12837,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      657,
+      657
+    ],
+    "n_clauses": 14,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

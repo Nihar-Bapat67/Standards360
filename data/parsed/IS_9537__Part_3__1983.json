@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9537 (Part 3):1983",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and methods of tests for circular rigid non-flame propagating and non-threadable plain conduits of insulating materials ended and socket ended.",
+      "clause_id": "IS 9537 (Part 3):1983#1",
+      "family": "IS 9537 (Part 3)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 920,
+      "page_end": 920,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9537 (Part 3):1983",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements—Provision of IS 9537 (Part:1) 1980 shall apply",
+      "clause_id": "IS 9537 (Part 3):1983#2",
+      "family": "IS 9537 (Part 3)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 920,
+      "page_end": 920,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9537 (Part 3):1983",
+      "clause": "3",
+      "title": "Classification – According to mechanical",
+      "text": "3. Classification - According to mechanical properties as : a) Conduits for light mechanical stresses. b) Conduits for medium mechanical stresses. c) Conduits for heavy mechanical stresses.",
+      "clause_id": "IS 9537 (Part 3):1983#3",
+      "family": "IS 9537 (Part 3)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 920,
+      "page_end": 920,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9537 (Part 3):1983",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4. Dimensions - See Table 1 TABLE 1 DIMENSIONS OF  CONDUITS All dimensions in millimetress Nominal Size Outside Tolerance on Inside Diameter, Min Diameter Diameter Outside Diameter Light Medium Heavy (1) (2) (3) (4) (5) (6) 16 16 - 0.3 13.7 13.0 12.2 20 20 - 0.3 17.4 16.9 15.8 25 25 - 0.4 22.1 21.4 20.6 32 32 -0.4 28.6 27.8 26.6 40 40 - 0.4 35.8 35.4 34.4 50 50 - 0.5 45.1 44.3 43.2 63 63 - 0.6 57.0 - -",
+      "clause_id": "IS 9537 (Part 3):1983#4",
+      "family": "IS 9537 (Part 3)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 920,
+      "page_end": 920,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9537 (Part 3):1983",
+      "clause": "5",
+      "title": "Test",
+      "text": "5. Test a) Bend Test - Only conduits of sizes16, 20 and 25 shall be subjected to the bending test. After the test, the sample shall show no cracks visible to normal or corrected  vision without magnification. b) Compression Test - The difference between the initial diameter and the diameter of the flattened sample shall not exceed 25 percent of the initial diameter while the compression force is still applied. c) Impact Test - As given in IS 9537 (Part I) : 1980 d) Collapse Test - It shall be possible to pass  the appropriate gauge, through the conduit  fixed to support under its own weight and without any initial speed. Applicable for conduit of sizes 16,0  and 25 only e) Resistance to Heat f) Resistance to Burning g) Electrical Characteristics h) External Influences Note - For  detail requirements refer to the standard For detailed  information, refer to  IS 9537 (Part 3): 1983. Specification for  conduits for electric installations - Part 3  Rigid plain conduits of insulation materials. SUMMARY OF IS 9537 (PART 3) : 1983 CONDUITS FOR ELECTRICAL INSTALLATIONS PART 3 - RIGID PLAIN CONDUITS OF INSULATING MATERIALS",
+      "clause_id": "IS 9537 (Part 3):1983#5",
+      "family": "IS 9537 (Part 3)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 920,
+      "page_end": 920,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9537 (Part 3):1983",
+    "record_id": 16930,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      920,
+      920
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

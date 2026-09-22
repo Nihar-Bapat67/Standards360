@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6610:1972",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for heavy washers for use in steel structures in the diameter range 14 to 42 mm. Nominal         Tolerance on Outer Dia Tolerance Thickness Suitable for Size Size on Outer Bolt Size (Diameter) Dia 14 +0.43 24 -1.30 8 M12 18 +0.43 30 -1.30 8 M16 22 +0.52 37 -1.60 8 M20 24 +0.52 39 -1.60 8 M22 26 +0.52 44 -1.60 8 M24 30 +0.52 50 -1.60 8 M27 33 +0.62 56 -1.90 8 M30 36 +0.62 60 -1.90 8 M33 39 +0.62 66 -1.90 8 M36 42 +0.62 72 -1.90 8 M39",
+      "clause_id": "IS 6610:1972#1",
+      "family": "IS 6610",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 795,
+      "page_end": 795,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6610:1972",
+      "clause": "3",
+      "title": "Material – Shall be",
+      "text": "3. Material - Shall be made from steel. Note -  Other requirements of washers shall be as specified in IS 5369 : 1975  General requiremens for plain washers and lock washers (first revision). SUMMARY OF IS 6610 : 1972 HEAVY WASHERS FOR STEEL STRUCTURES 2. Dimensions (in mm)",
+      "clause_id": "IS 6610:1972#3",
+      "family": "IS 6610",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 795,
+      "page_end": 795,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6610:1972",
+      "clause": "4",
+      "title": "Designation – By nominal",
+      "text": "4. Designation -  By nominal size and the number of this standard.  Example - Washer 14      IS 6610.",
+      "clause_id": "IS 6610:1972#4",
+      "family": "IS 6610",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 795,
+      "page_end": 795,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6610:1972",
+    "record_id": 13479,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      795,
+      795
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.973,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

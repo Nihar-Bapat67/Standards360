@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1079:1994",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Requirements of Hot rolled carbon steel sheets including pack  rolled sheets and strips intended for  cold forming, drawing and general engineering purposes.",
+      "clause_id": "IS 1079:1994#1",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "2",
+      "title": "Grades",
+      "text": "2. Grades—  There shall be 4 grades of hot rolled carbon  steel   sheet and strip designated as  follows. a) O— Ordinary quality : intended for general fabrication purposes where sheets or strips are used in the flat  or   for  bending, moderate forming and  welding operation b)  D - Drawing quality c)  DD - Deep drawing quality c)  EDD - Extra deep drawing quality Note - D, DD and EDD are intended for  applications where drawing, severe forming and welding are involved.",
+      "clause_id": "IS 1079:1994#2",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "3",
+      "title": "Tensile Properties",
+      "text": "3. Tensile Properties — Shall be as follows: Grade    Tensile         Yield            Percent Elongation strength      Stress,            at Guage length MPa MPa                5.65 Min O - - - D 240-400 - 25 DD 260-390 - 28 EDD 260-380 - 32",
+      "clause_id": "IS 1079:1994#3",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "4",
+      "title": "Bend Test",
+      "text": "4. Bend Test — The test piece shall be bent cold through 1800 .The  test piece shall be deemed to have passed the test if the outer convex surface is free from cracks after complete bending.The internal diameter of bend for different grades shall be as follows Steel Grade Internal Diameter of Bend O 2 t D t DD Close EDD Close Note— Where is the thickness of test piece. * Dimensions for  steel plates sheets,strips and flats for general engineering purposes (second revision) +  Rolling  and cutting tolerances for hot rolled steel products ( fourth revision).",
+      "clause_id": "IS 1079:1994#4",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "5",
+      "title": "Cupping Test",
+      "text": "5. Cupping Test  —  Cupping Test may  be carried  out only  for sheets strips of  D , DD and EDD  grades having  thickness from 0.5mm upto2.00mm. The test and test values shall be as agreed mutually.",
+      "clause_id": "IS 1079:1994#5",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "6",
+      "title": "Strain Ageing Test",
+      "text": "6. Strain Ageing Test —  The test is to be carried out on  grades where steel is supplied with  non-ageing properties / guarantee and shall be as agreed.   The test piece shall not develop crack near the bend, after prescribed test.",
+      "clause_id": "IS 1079:1994#6",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "7",
+      "title": "Freedom from",
+      "text": "7. Freedom from  Defects — The finished material in cut  lengths shall be free from harmful defects which will affect the end use. When the material is supplied in the form of coils, the degree or  amount of surface defects are expected to be more than in  cut length sheets.",
+      "clause_id": "IS 1079:1994#7",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "8",
+      "title": "Dimensions and Tolerances",
+      "text": "8. Dimensions and Tolerances",
+      "clause_id": "IS 1079:1994#8",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "8.1",
+      "title": "Dimensions of steel",
+      "text": "8.1 Dimensions of steel  sheet and strip shall  conform to the dimension specified in IS 1730 : 1989.*",
+      "clause_id": "IS 1079:1994#8.1",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "requirements",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "8.2",
+      "title": "Tolerance on length, width,thickness,and mass of",
+      "text": "8.2 Tolerance on length, width,thickness,and mass of the steel sheet and strip shall confirm to the limits specifiedin IS 1852:1985.+",
+      "clause_id": "IS 1079:1994#8.2",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "8.3",
+      "title": "For",
+      "text": "8.3 For  Camber tolerances, flatness tolerances and out of square tolerances   refer 13 of the standard.",
+      "clause_id": "IS 1079:1994#8.3",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1079:1994",
+      "clause": "9",
+      "title": "Weight",
+      "text": "9. Weight — The mass of the material shall be calculated on the basis that steel weighs 7.85 g/cm3: Note1 —  For test proceedures, refer to  IS 1599 : 1985 Method of bend test (second revision). IS 1608 : 1995. Mechanical  testing of metals Tensile testing (second revision)and IS 10175 (Part 1) :1993.Mechanical testing of metals  modified erichsen cupping test-Sheet and strip,Part 1- Thickness upto 2 mm (first revision). Note2—  For chemical  composition, refer to the standard. For  detail  information,  refer to IS 1079 : 1994 Hot rolled carbon steel sheets and strips (fifth revision). So",
+      "clause_id": "IS 1079:1994#9",
+      "family": "IS 1079",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "references",
+      "page_start": 679,
+      "page_end": 679,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1079:1994",
+    "record_id": 1683,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      679,
+      679
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

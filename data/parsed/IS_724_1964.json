@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 724:1964",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1.   Scope - Requirements for mild steel and brass cup, ruler and square hooks and  screw eyes.",
+      "clause_id": "IS 724:1964#1",
+      "family": "IS 724",
+      "year": 1964,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 762,
+      "page_end": 762,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 724:1964",
+      "clause": "2",
+      "title": "Types –    a) Shouldered cup hooks",
+      "text": "2.   Types -    a) Shouldered cup hooks b) Shouldered ruler hooks c) Shouldered square hooks d) Plain cup hooks e) Plain ruler hooks f) Plain square hooks",
+      "clause_id": "IS 724:1964#2",
+      "family": "IS 724",
+      "year": 1964,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 762,
+      "page_end": 762,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 724:1964",
+      "clause": "2.1",
+      "title": "Screw Eyes shall be",
+      "text": "2.1 Screw Eyes shall be of One Type Only.",
+      "clause_id": "IS 724:1964#2.1",
+      "family": "IS 724",
+      "year": 1964,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 762,
+      "page_end": 762,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 724:1964",
+      "clause": "3",
+      "title": "Designation – Shall be",
+      "text": "3.   Designation - Shall be based on type, length, and screw designation No. of the fitting. For example, shouldered cup hook of length 25 mm and of screw designation  No.5. shall be designated as \"Shouldered cup hook 25×No. 5\"",
+      "clause_id": "IS 724:1964#3",
+      "family": "IS 724",
+      "year": 1964,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 762,
+      "page_end": 762,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 724:1964",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4. Dimensions",
+      "clause_id": "IS 724:1964#4",
+      "family": "IS 724",
+      "year": 1964,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 762,
+      "page_end": 762,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 724:1964",
+      "clause": "4.1",
+      "title": "Shouldered cup, ruler and square",
+      "text": "4.1 Shouldered cup, ruler and square  hooks Dimension Designation 15×No.3 20×No.4 25×No.5 35×No.7     40×No.8       50×No.10 50×No12 D(mm) 2.39 2.74 3.10 3.81            4.17                    4.88                  5.59 T(mm) 4.7 6.5 8.0 12.5            14.0 17.5 20.0",
+      "clause_id": "IS 724:1964#4.1",
+      "family": "IS 724",
+      "year": 1964,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 762,
+      "page_end": 762,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 724:1964",
+      "clause": "4.2",
+      "title": "Plain Cup and Ruler Hooks",
+      "text": "4.2    Plain Cup and Ruler Hooks Dimension Designation 25×No.5 30×No.7 40×No.8          45×No.8     5o×No.8 D(mm) 3.10 3.81 4.17 4.17           4.17 T(mm) 8.0 10.0 12.0 15.0           18.0",
+      "clause_id": "IS 724:1964#4.2",
+      "family": "IS 724",
+      "year": 1964,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 762,
+      "page_end": 762,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 724:1964",
+      "clause": "4.3",
+      "title": "Plain Square",
+      "text": "4.3    Plain Square  hooks Dimension Designation 20×No.4         25×No.5          30×No.6 40×No.7     50×No.9 60×No.12          75×No14 D(mm) 2.74 3.10                 3.45 3.81            4.52 5.59 6.30 T(mm) 8.0                 10.0                14.0                 15.0            20.0                    24.0                  28.0M",
+      "clause_id": "IS 724:1964#4.3",
+      "family": "IS 724",
+      "year": 1964,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 762,
+      "page_end": 762,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 724:1964",
+      "clause": "4.4",
+      "title": "Screw",
+      "text": "4.4   Screw  eyes Dimension Designation 16×No.0         20×No.1 20×No.2          25×No.3     25×No.4 30×No.5 D(mm) 1.52 1.78 2.08 2.39           2.74 3.10 T(mm) 5.5 6.5 7.5 9.5              9.0 12.0 Dimension Designation 30×No.6         35×No.8 40×No.10        45×No.12   50×No.14 D(mm) 3.45 4.17 4.88 5.59           6.30 T(mm) 11.0 12.0                 12.5 15.0           19.0 Note1-D-Nominal diameter of threaded shank.T- threaded length of shank Note2 - For detailed dimensions, tolerances and  shapes ,refer to Tables 1 to 5 and Fig.1 to7 of the standard",
+      "clause_id": "IS 724:1964#4.4",
+      "family": "IS 724",
+      "year": 1964,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 762,
+      "page_end": 762,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 724:1964",
+      "clause": "5",
+      "title": "Finish – Hooks and",
+      "text": "5. Finish - Hooks and eyes shall be finished bright.",
+      "clause_id": "IS 724:1964#5",
+      "family": "IS 724",
+      "year": 1964,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 762,
+      "page_end": 762,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 724:1964",
+    "record_id": 14166,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      762,
+      762
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.932,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

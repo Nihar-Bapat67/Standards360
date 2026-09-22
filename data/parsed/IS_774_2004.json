@@ -1,0 +1,328 @@
+{
+  "clauses": [
+    {
+      "is": "IS 774:2004",
+      "clause": "1",
+      "title": "Scope –  Requirements for manually-operated high-",
+      "text": "1. Scope -  Requirements for manually-operated highlevel and low-level flushing cisterns of capacities 5 litres and 10 litres , both single flush and dual flush types and 6/3 litres capacity duat flush cisterns, for water-closets, squatting pans and urinals, together with flush pipe details.",
+      "clause_id": "IS 774:2004#1",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 421,
+      "page_end": 421,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "2",
+      "title": "Terminology",
+      "text": "2. Terminology",
+      "clause_id": "IS 774:2004#2",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "terminology",
+      "page_start": 421,
+      "page_end": 421,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "2.1",
+      "title": "High",
+      "text": "2.1 High-Level Cistern -  A cistern intended to operate at a minimum height of 1 250 mm between the top of the pan and the underside of the cistern.",
+      "clause_id": "IS 774:2004#2.1",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 421,
+      "page_end": 421,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "2.2",
+      "title": "Low",
+      "text": "2.2 Low-Level Cistern - A cistern intended to operate at a height not exceeding 300 mm between the top of the pan and the underside of the cistern.",
+      "clause_id": "IS 774:2004#2.2",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 421,
+      "page_end": 421,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "2.3",
+      "title": "Coupled Cistern – A",
+      "text": "2.3 Coupled Cistern - A cistern intended to operate sitting on flat surface provided at the back portion of wash-down water-closets",
+      "clause_id": "IS 774:2004#2.3",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 421,
+      "page_end": 421,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "2.4",
+      "title": "Dual",
+      "text": "2.4 Dual-Flush Cistern - A construction that enables the user to cause a short flush of partial discharge when only urine needs to be flushed away instead of the customary full flush.",
+      "clause_id": "IS 774:2004#2.4",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 421,
+      "page_end": 421,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "3",
+      "title": "Material – For details",
+      "text": "3. Material - For details refer to Table1 of the standard.",
+      "clause_id": "IS 774:2004#3",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 421,
+      "page_end": 421,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "4",
+      "title": "Construction",
+      "text": "4. Construction a) Cistern  — The thickness of the body including cover shall be not less than 5 mm and 6 mm for cast iron and vitreous china cisterns respectively.  The body of the pressed steel cistern shall be of seamless or welded construction.  The body and the cover of the pressed steel cistern shall be of thickness not less than 1.6 mm and 1.25 mm respectively before coating and shall be vitreous enamelled or otherwise protected against corrosion by equally efficient coating.  The outlet of each siphon or stand pipe shall be securely connected to the cistern by means of a lock-nut.  In the case of plastic siphon, it shall be provided with suitable means of ensuring and maintaining water tight and air tight joint to the cistern. 4.2Cover — The cistern shall be provided with a removable cover which shall fit closely and shall be secured against displacement. 4.3Flush Pipe — The flush pipe (except plastic flush pipe) shall have an internal diameter of 32 ± 1mm for FIG. 1 TYPICAL ILLUSTRATIONS OF SIPHONIC TYPE DUAL - FLUSH CISTERNS Note —  For methods of tests, refer to the standard. For detailed information, refer to IS  774 : 2004. Specification for flushing cisterns for water  closets and urinals (other than plastic cisterns) (fifth revision). high-level cisterns and 38 ± 1 mm for low-level cisterns. The steel flush pipe shall be not less than 1 mm thick whereas the lead flush pipe shall have a minimum thickness of  3.5 mm.  For high density polyethlyene and unplasticized PVC pipes, the outside diameter of the pipes shall be 40 mm.  When PVC plumbing pipes are used, the outside diameter of the pipe shall be 40 mm for high-level cisterns and 50 mm for low-level cisterns. 5.4 Inlet and overflow holes - The aistern shall be provided with inlet and overflow holes; situated one at each  end which shall be capable of accomodating and overflow pipe of the less than 20 mm nominal bore and a 15 mm size flout value. 5.5 Float Valve  - The float valve shall be of 15 mm nominal size 5.6Lever — The lever shall not project beyond the side of the cistern for a distance greater than 350 mm measured from the centre of the cistern to the end of the lever arm.  In case of low-level cisterns, where the mechanism is handle operated, the handle, whether situated on the front or at the end of the cistern, shall be within the projection limit for lever. 5.7Chain — The chain shall be of such a strength as to sustain a dead load of 50 kg without any apparent or permanent deformation of the shape of the links. 5.8Overflow Pipe — The overflow pipe shall be of not less than 20 mm nominal bore and shall incorporate a non-corrodiable mosquito device secured in a manner which will permit it to be readily cleaned or renewed when necessary.  No provision shall be made whereby the overflow from the cistern shall discharge directly into the water-closet or soil pipe without being detected.",
+      "clause_id": "IS 774:2004#4",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 421,
+      "page_end": 422,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "5",
+      "title": "Finish",
+      "text": "5. Finish —  Cast iron cisterns shall be painted inside with suitable anti-corrosive paint and with a protective coat on a outside before delivery.",
+      "clause_id": "IS 774:2004#5",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 422,
+      "page_end": 422,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "6",
+      "title": "Operational",
+      "text": "6. Operational  and  Performance  Requirements",
+      "clause_id": "IS 774:2004#6",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 422,
+      "page_end": 422,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "6.1",
+      "title": "Flushing Arrangement",
+      "text": "6.1 Flushing Arrangement — The cistern  under working conditions and with the ball valve in closed position shall operate on a single  operation of the lever without calling for a sudden jerk in pulling.",
+      "clause_id": "IS 774:2004#6.1",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 422,
+      "page_end": 422,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "6.2",
+      "title": "Working Water Level",
+      "text": "6.2 Working Water Level —  Shall be a minimum of 6.5 cm below the effective top edge of the cistern",
+      "clause_id": "IS 774:2004#6.2",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 422,
+      "page_end": 422,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "6.3",
+      "title": "Freedom from Self",
+      "text": "6.3 Freedom from Self-Siphonage — The siphonic system shall be capable of being rapidly brought into action when the water is at the working water level, but shall not self-siphon or leak into the flush pipe when the water is up to   1 cm above the invert of the overflow pipe.",
+      "clause_id": "IS 774:2004#6.3",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 422,
+      "page_end": 422,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "6.4",
+      "title": "Reduced Water Level",
+      "text": "6.4 Reduced Water Level — The discharge shall operate satisfactorily when the cistern is filled to a level up to 1 cm below the working water level.",
+      "clause_id": "IS 774:2004#6.4",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 422,
+      "page_end": 422,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "6.5",
+      "title": "Discharge Capacity",
+      "text": "6.5 Discharge Capacity  — Cisterns of 5 and 10 litres capacities, when required to give a full flush, shall respectively discharge 5 litres and 10 litres with variation of ± 0.5 litres.  Dual flush cisterns of 10/5  litres capacity shall discharge alternatively a short flush of 5 ± 0.5 litres.",
+      "clause_id": "IS 774:2004#6.5",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 422,
+      "page_end": 422,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "6.6",
+      "title": "Dischage Rate",
+      "text": "6.6 Dischage Rate — The discharge rate shall be 10 ± 0.5 litres in 6 seconds and 5 ± 0.5 litres in 3 seconds for cisterns of capacities 10 litres and 5 litres respectively.",
+      "clause_id": "IS 774:2004#6.6",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 422,
+      "page_end": 422,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 774:2004",
+      "clause": "7",
+      "title": "Tests",
+      "text": "7. Tests — Shall satisfy the  following tests: a) Test of Discharge Capacity b) Test for Discharge rate — Refer to the  standard c) Endurance Test — After operating for 3000",
+      "clause_id": "IS 774:2004#7",
+      "family": "IS 774",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 422,
+      "page_end": 422,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 774:2004",
+    "record_id": 14746,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      421,
+      422
+    ],
+    "n_clauses": 17,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.99,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

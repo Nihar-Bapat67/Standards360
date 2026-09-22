@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3828:1966",
+      "clause": "1",
+      "title": "Scope – Requirements for ventilator chains.",
+      "text": "1. Scope - Requirements for ventilator chains.",
+      "clause_id": "IS 3828:1966#1",
+      "family": "IS 3828",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 523,
+      "page_end": 523,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3828:1966",
+      "clause": "2",
+      "title": "Material",
+      "text": "2. Material a)  Staple Mild steel Aluminium alloy b)  Eye Mild steel Aluminium alloy c)  Wire Mild Mild Steel Aluminium alloy",
+      "clause_id": "IS 3828:1966#2",
+      "family": "IS 3828",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 523,
+      "page_end": 523,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3828:1966",
+      "clause": "3",
+      "title": "Manufacture and Dimensions",
+      "text": "3. Manufacture and Dimensions For  detailed information, refer to IS 3828 : 1966  Specification for ventilator  chains  (third revision). a)  Eye — Formd by  forging and folding plate of 2.5 minimum thickness. Width 25 mm. b) Chain — Made from 1.8 mm minimum dia wire. Length  300 ± 5 mm. Each link  30 ± 2 mm. c) Staple — Made of 2.5 mm minimum thick plate size 40 × 20 mm. Hook 5 mm dia and 5 mm internal radius of bend.",
+      "clause_id": "IS 3828:1966#3",
+      "family": "IS 3828",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 523,
+      "page_end": 523,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3828:1966",
+      "clause": "4",
+      "title": "Load Test – Assembly",
+      "text": "4. Load Test - Assembly shall be strong enough  to bear   20 kg load without deformation.",
+      "clause_id": "IS 3828:1966#4",
+      "family": "IS 3828",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 523,
+      "page_end": 523,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3828:1966",
+      "clause": "5",
+      "title": "Finish – Shall be",
+      "text": "5. Finish - Shall be protected against corrosion. SUMMARY OF IS 3828 : 1966 VENTILATOR CHAINS (Third Revision)",
+      "clause_id": "IS 3828:1966#5",
+      "family": "IS 3828",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 523,
+      "page_end": 523,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3828:1966",
+    "record_id": 10421,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      523,
+      523
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

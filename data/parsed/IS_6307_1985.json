@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6307:1985",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1.   Scope - Requirements and methods of sampling and test for rigid PVC sheets of 0.10 to 12.5 mm in thickness, manufactured by calendering, extrusion or calendering followed by lamination.",
+      "clause_id": "IS 6307:1985#1",
+      "family": "IS 6307",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 866,
+      "page_end": 866,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6307:1985",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types Type 1 - General purpose, Type 2 - With specified impact strength, and Type 3 - Suitable for deep draw vacuum forming.",
+      "clause_id": "IS 6307:1985#2",
+      "family": "IS 6307",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 866,
+      "page_end": 866,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6307:1985",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 6307:1985#3",
+      "family": "IS 6307",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 866,
+      "page_end": 866,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6307:1985",
+      "clause": "3.1",
+      "title": "Appearance",
+      "text": "3.1 Appearance — Sheet shall be unifarm in colour and finish, transparent or opaque , and shall be reasonably free from detrimental scratches, creases, streaks, pinholes, pimples and inclusions.",
+      "clause_id": "IS 6307:1985#3.1",
+      "family": "IS 6307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 866,
+      "page_end": 866,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6307:1985",
+      "clause": "3.2",
+      "title": "Thickness",
+      "text": "3.2 Thickness Nominal Tolerance on Thickness, Thickness Percent mm Extruded    Calendered  Calender and Laminated 0.10 to 0.24 ± 20         ± 12 — 0.25 to 0.49 ± 15         ± 10 — 0.50 to 0.74 ± 12         ± 10 — 0.75 to 1.24 ± 10            — ± 20 1.25 to 1.49 ± 10            — ± 18 1.50 to 1.99 ± 10            — ± 18 2.00 to 4.99 ± 10            — ± 15 5.00 to 9.99 ± 10            — ± 10 10.00 to 12.50      ± 10            — ± 10",
+      "clause_id": "IS 6307:1985#3.2",
+      "family": "IS 6307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 866,
+      "page_end": 866,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6307:1985",
+      "clause": "3.3",
+      "title": "Length and Width –",
+      "text": "3.3 Length and Width - The length and width of rectangular sheets shall be within the tolerance − + 0 5 mm of the nominal size. For other shapes, the tolerances on linear dimensions shall be as agreed.",
+      "clause_id": "IS 6307:1985#3.3",
+      "family": "IS 6307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 866,
+      "page_end": 866,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6307:1985",
+      "clause": "3.4",
+      "title": "Squareness – Cut sheets",
+      "text": "3.4 Squareness - Cut sheets shall not deviate more than 10 mm from a true rectangle of the same dimensions.",
+      "clause_id": "IS 6307:1985#3.4",
+      "family": "IS 6307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 866,
+      "page_end": 866,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6307:1985",
+      "clause": "3.5",
+      "title": "Other Requirements",
+      "text": "3.5 Other Requirements Sl.  Characteristic Requirement No. Type1 Type2  Type3 i) Vicat softening 75      65       50 temperature, oC, Min ii) Impact strength, —      No       — number of failures failure iii) Tensile stress at 450     380     380 yield, kg/crn2,Min iv) Dimensional change at 120oC, percent, Max: a) Extruded or calendered 20        20      * b) Calendered and 5          5      15 laminated * Limits shall be as agreed to between the purchaser and the supplier.",
+      "clause_id": "IS 6307:1985#3.5",
+      "family": "IS 6307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 866,
+      "page_end": 866,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6307:1985",
+      "clause": "3.5.1",
+      "title": "Delamination (for calendered and laminated",
+      "text": "3.5.1 Delamination (for calendered and laminated sheet) - The material shall show no signs of delamination.",
+      "clause_id": "IS 6307:1985#3.5.1",
+      "family": "IS 6307",
+      "year": 1985,
+      "level": 3,
+      "parent_clause": "3.5",
+      "role": "other",
+      "page_start": 866,
+      "page_end": 866,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6307:1985",
+      "clause": "3.5.2",
+      "title": "Horizontal burning characteristics – Shall also",
+      "text": "3.5.2 Horizontal burning characteristics - Shall also be tested for horizontal burning characteristics according to the test method prescribed if agreed to. Note - For method of tests refer to Appendices A to G of the standard. For detailed information, refer to IS 6307 : 1995 Specifications for rigid PVC sheets (first revision).",
+      "clause_id": "IS 6307:1985#3.5.2",
+      "family": "IS 6307",
+      "year": 1985,
+      "level": 3,
+      "parent_clause": "3.5",
+      "role": "other",
+      "page_start": 866,
+      "page_end": 866,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6307:1985",
+    "record_id": 13168,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      866,
+      866
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

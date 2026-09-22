@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 730:1978",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1.   Scope - Requirements for hook bolts for corrugated sheet roofing.",
+      "clause_id": "IS 730:1978#1",
+      "family": "IS 730",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 764,
+      "page_end": 764,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 730:1978",
+      "clause": "2",
+      "title": "Types –",
+      "text": "2.   Types - a)  J -  type hook bolts b)  L -  type hook bolts c)  U - type hook bolts",
+      "clause_id": "IS 730:1978#2",
+      "family": "IS 730",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 764,
+      "page_end": 764,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 730:1978",
+      "clause": "3",
+      "title": "Dimensions (in mm)",
+      "text": "3. Dimensions (in mm)",
+      "clause_id": "IS 730:1978#3",
+      "family": "IS 730",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 764,
+      "page_end": 764,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 730:1978",
+      "clause": "4",
+      "title": "Grade – Product grade",
+      "text": "4.  Grade - Product grade C according to IS : 1367 (Part 2) Technical supply conditions for thneaded steel fasteners : Part  2 product grades and toleraqnces (second revision).",
+      "clause_id": "IS 730:1978#4",
+      "family": "IS 730",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 764,
+      "page_end": 764,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 730:1978",
+      "clause": "5",
+      "title": "Mechanical Properties – Property",
+      "text": "5.  Mechanical Properties - Property class 4.60 IS : For detailed  information, refer to IS 730 : 1978 Specification for hook bolts for corrugated sheet roofing  (second revision). 1367 (Part 3) - 1979 Technical supply conditions for thneaded steel fasteners : Part 3 mechanical properties and test methods for boths, snows and stands with full loadipility (second revision)",
+      "clause_id": "IS 730:1978#5",
+      "family": "IS 730",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 764,
+      "page_end": 764,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 730:1978",
+      "clause": "6",
+      "title": "Designation – The hook",
+      "text": "6.    Designation - The hook bolts shall be designated by the type, size, length, inside width in case of L and U-type bolts) and number of the  standard. For example, U hook bolt of type II with square nut of size M10, inside width 80 mm and length 180 mm shall be designated as ``U Bolt II M10 × 180N - 80 IS   730''.",
+      "clause_id": "IS 730:1978#6",
+      "family": "IS 730",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 764,
+      "page_end": 764,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 730:1978",
+      "clause": "7",
+      "title": "General Requirements –",
+      "text": "7. General Requirements -",
+      "clause_id": "IS 730:1978#7",
+      "family": "IS 730",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 764,
+      "page_end": 764,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 730:1978",
+      "clause": "7.1",
+      "title": "Hook bolts and nuts",
+      "text": "7.1 Hook bolts and nuts shall be surface protected with suitable coating.",
+      "clause_id": "IS 730:1978#7.1",
+      "family": "IS 730",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 764,
+      "page_end": 764,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 730:1978",
+      "clause": "7.2",
+      "title": "The square nuts used",
+      "text": "7.2 The square nuts used with bolts shall conform to IS 2585 : 1968†. Type Size (Dia) Inside Width Preferred Length J-Type Hook Bolts M6 12 70 to 150 in steps of 10 (Types I and II) M8 14 70 to 200 in steps of 10 M10 16 70 to 200 in steps of 10 L-Type Hook Bolts M8 50, 60, 70 120 to 200 in steps of 10 M10 80, 95 150 to 200 in steps of 10 110 180, 190, 200, 225 U-Type Hook Bolts M8 50, 60, 80 150 to 200 in steps of 10 (Types I and II) 90 225 M10 50, 60, 80 150 to 200 in steps of 10 90 225 Note 1- All type of hook bolts are with square nuts. Note 2- For tolerances and detailed dimensions, refer to Tables 1 to 3 of the standard. Note 3- The screw threads on the hook bolts shall conform to tolerance class as specified in IS 4218 : (Part 4)  ISO metric screw threads - Part IV Tolerence systems (first revision). †  Black square bolts and nuts (diameter range 6 to  39 mm) and black square screws (diameter range 6 to 24 mm) (first revision). Note - In regard to requirements not covered in the standard, including grade and mechanical properties refer to IS 1367 Technical supply conditions for  threaded fasteners. SUMMARY OF IS 730 : 1978 HOOK BOLTS FOR CORRUGATED SHEET ROOFING (Second  Revision)",
+      "clause_id": "IS 730:1978#7.2",
+      "family": "IS 730",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "requirements",
+      "page_start": 764,
+      "page_end": 764,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 730:1978",
+    "record_id": 14219,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      764,
+      764
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

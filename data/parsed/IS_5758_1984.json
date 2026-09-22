@@ -1,0 +1,292 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5758:1984",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Requirements of precast concrete units for kerbs, channels, edgings, quadrants and gutter aprons in a range of sections, for use in carriageways and footways.",
+      "clause_id": "IS 5758:1984#1",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "2",
+      "title": "Designation",
+      "text": "2. Designation— Dimensions of horizontal face shall be given first and the dimensions of vertical face be second.",
+      "clause_id": "IS 5758:1984#2",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "3",
+      "title": "Dimensions",
+      "text": "3. Dimensions",
+      "clause_id": "IS 5758:1984#3",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "3.1",
+      "title": "Straight Kerbs",
+      "text": "3.1 Straight Kerbs a)  Rectangular Kerbs 150 × 300 125 × 250 100 × 250 mm b)   Splayed kerbs 150 × 300 125 × 250 mm c)   Half-batter kerbs 150 × 300 125 x 250 mm d)  Half-section kerbs 150 x 125 mm",
+      "clause_id": "IS 5758:1984#3.1",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "3.2",
+      "title": "Straight Channels",
+      "text": "3.2 Straight Channels a) Rectangular kerbs 300 × 150 250 × 125 250 × 100 mm b) Channels 250 × 125 mm",
+      "clause_id": "IS 5758:1984#3.2",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "3.3",
+      "title": "Edgings",
+      "text": "3.3 Edgings —  50 × 250, 50 × 200, 50 × 150mm.",
+      "clause_id": "IS 5758:1984#3.3",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "3.4",
+      "title": "Quadrant",
+      "text": "3.4 Quadrant — Depths 125, 200 or 250 mm and width 300 or 450 mm with faces to match the sections of straight kerbs.",
+      "clause_id": "IS 5758:1984#3.4",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "3.5",
+      "title": "Gutter Aprons",
+      "text": "3.5Gutter Aprons — Width shall range from 150 to 2 500 or 3 000 mm but usual width shall rage from 300 to 900 mm. Usual range of height 125 to 200 mm. The thickness of precast kerb shall be 75 to 150 mm while minimum thickness of channel  shall be 125 or 100 mm.",
+      "clause_id": "IS 5758:1984#3.5",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "3.6",
+      "title": "Lengths",
+      "text": "3.6Lengths —  Uniform length of 1m for straight kerb, straight channels, edgings and 1m maximum normally for gutters. Note— For standard section of concrete kerbs, channel, standard sections of concrete edgings, standard concrete quadrants and typical sections of kerb and gutter, see Fig 1 to 5 of the standard.",
+      "clause_id": "IS 5758:1984#3.6",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "4",
+      "title": "Tolerances",
+      "text": "4. Tolerances— ±3 mm on length and height; + 1.5 and - 3 mm on width.",
+      "clause_id": "IS 5758:1984#4",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "5",
+      "title": "Moulding",
+      "text": "5. Moulding — When made under hydraulic pressure the pressure employed shall not be less than 7 MN/m2.",
+      "clause_id": "IS 5758:1984#5",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "6",
+      "title": "Tests",
+      "text": "6. Tests",
+      "clause_id": "IS 5758:1984#6",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "6.1",
+      "title": "Transverse Strength",
+      "text": "6.1Transverse Strength —  When tested 28 days after they are manufactured, the unit shall support without injury, at least for one minute, the loads given in the Table. SUMMARY OF IS  5758 : 1984 PRECAST CONCRETE KERBS (First Revision) Type of Product Dimensions (mm) Load to be Supported (N) a) Rectangular kerbs 150 × 300 22 750 125 × 250 13 600 100 × 250 9  100 b) Splayed kerbs 150 × 300 22  750 125 × 250 13  600 c) Half-batter kerbs 150 × 300 22 750 125 × 250 13 600 d) Half-section kerbs 150 × 125 8 200 e) Channels 250 × 125 13  600 f) Edgings 50 × 250 3 180 50 × 200 2 720 50 × 150 2 040",
+      "clause_id": "IS 5758:1984#6.1",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 42,
+      "page_end": 42,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "6.1.1",
+      "title": "If tests are carried",
+      "text": "6.1.1 If tests are carried out after a longer period, the load to be supported shall be increased by the ageing factor given below— Age of sample (months) 3 6 12 Ageing factor 1.1 1.15 1.20",
+      "clause_id": "IS 5758:1984#6.1.1",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "6.1",
+      "role": "other",
+      "page_start": 43,
+      "page_end": 43,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5758:1984",
+      "clause": "6.2",
+      "title": "Water Absorption",
+      "text": "6.2 Water Absorption — Shall not exceed 3 percent in the first 10 minutes and 8 percent after 24 hours. Note — For methods of tests, refer to Appendices A and B of the standard. For  detailed information, refer to IS 5758:1984 Specification for  precast concrete kerbs (first revision).",
+      "clause_id": "IS 5758:1984#6.2",
+      "family": "IS 5758",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 43,
+      "page_end": 43,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5758:1984",
+    "record_id": 25388,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      42,
+      43
+    ],
+    "n_clauses": 15,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

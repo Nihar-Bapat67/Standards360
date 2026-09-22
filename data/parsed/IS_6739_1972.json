@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6739:1972",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope -  Requirements for slotted  round head wood screws.",
+      "clause_id": "IS 6739:1972#1",
+      "family": "IS 6739",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 801,
+      "page_end": 801,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6739:1972",
+      "clause": "2",
+      "title": "Dimensions (in mm)",
+      "text": "2. Dimensions (in mm) No.              Dia of Unthreaded  Shank     Range of Screw Preferred Designation) Nom Max Min Lengths (See Note1) 0 1.52 1.55 1.47 8-12 1 1.78 1.85 1.70 8-12 2 2.08 2.16 1.98 8-12 3 2.39 2.46 2.29 8-12 4 2.74 2.87 2.64 12-25 5 3.10 3.23 2.97 12-30 6 3.45 3.58 3.33 12-40 7 3.81 3.94 3.68 12-40 8 4.17 4.29 4.04 12-75 9 4.52 4.65 4.39 15-75 10 4.88 5.00 4.72 15-75 12 5.59 5.72 5.38 20-75 14 6.30 6.43 6.05 25-75 16 7.01 7.14 6.76 30-75 18 7.72 7.85 7.47 30-75 20 8.43 8.56 8.18 30-75 24 9.86 9.98 9.60 30-75 Note 1— Preferred lengths - 8, 10, 12, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60,65, 70 and 75 mm Note 2— Threaded portion of the screw shall nearly  be equal to 2/3 times the total length of the screw. Note 3— Dia of head (Max) shall be 2 times the diameter of unthreaded shank (Nom). Note 4— For detailed dimensions, refer to Table 1of the standard. Note 5— For tolerances, see Fig 1 of thestandard.",
+      "clause_id": "IS 6739:1972#2",
+      "family": "IS 6739",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 801,
+      "page_end": 801,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6739:1972",
+      "clause": "3",
+      "title": "Designation – As an",
+      "text": "3. Designation - As an example, a slotted round head wood screw No. 8, length 20 mm and made of steel shall be designated as `Wood Screw No. 8×20 -  IS  6739 Steel'. For detailed information, refer to IS 6739 : 1972 Specification for slotted round head wood screws. Note - In regard to the requirements not covered in the standard, Refer to IS  451 : 1999. Technical supply conditions for wood screws (third revision).",
+      "clause_id": "IS 6739:1972#3",
+      "family": "IS 6739",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "references",
+      "page_start": 801,
+      "page_end": 801,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6739:1972",
+    "record_id": 13603,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      801,
+      801
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

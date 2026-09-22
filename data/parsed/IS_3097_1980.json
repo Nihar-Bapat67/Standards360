@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3097:1980",
+      "clause": "1",
+      "title": "Scope – Requirements, such",
+      "text": "1. Scope - Requirements, such as, grades and types, material, manufacture, dimensions and tests for veneered particle boards.",
+      "clause_id": "IS 3097:1980#1",
+      "family": "IS 3097",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 576,
+      "page_end": 576,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3097:1980",
+      "clause": "2",
+      "title": "Grades and Types –",
+      "text": "2. Grades and Types -  Shall be of two grades, namely, Grade I  and Grade II",
+      "clause_id": "IS 3097:1980#2",
+      "family": "IS 3097",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 576,
+      "page_end": 576,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3097:1980",
+      "clause": "2.1",
+      "title": "Each grade of veneered",
+      "text": "2.1 Each grade of veneered particle board shall be of the following four types : a) Type 1 — Solid  core, general purpose (boards with faces of veneer of general purpose type). b) Type 2 — Solid core, decorative (boards with solid core but faced with ornamental veneers on one or both sides). c) Type 3 —Tubular core, general purpose boards with tubular core and faced with veneer of general purpose type). d) Type 4 — Tubular core, decorative (boards with tubular core faced with decorative veneers on one or both sides).",
+      "clause_id": "IS 3097:1980#2.1",
+      "family": "IS 3097",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 576,
+      "page_end": 576,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3097:1980",
+      "clause": "2.2",
+      "title": "Designation",
+      "text": "2.2 Designation —The grades and types shall be designated as follows : Sl .Grade Type Designation No. 1. Grade I Solid core, general purpose SO GP - I 2. Grade l Solid core, decorative SO D - I 3. Grade I Tubular core, general purpose TU GP - I 4. Grade I Tubular core, decorative TU D - I 5. Grade II Solid core, general purpose SO GP- II 6. Grade II Solid core, decorative SO D - II 7. Grade II Tubular core, general purpose TU GP - II 8. Grade II Tubular core, decorative TU D - II",
+      "clause_id": "IS 3097:1980#2.2",
+      "family": "IS 3097",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 576,
+      "page_end": 576,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3097:1980",
+      "clause": "3",
+      "title": "Material",
+      "text": "3. Material a) Particle boards shall be of medium density. surface absorption. 6.6 Adhesion of Plies - Adhesion of face veneers to the board core shall offer appreciable resistance and the exposed surface of veneer shall show sizes of some adherent fibres distributed more or less uniformly. 6.7 Static Bending Strength - (Maximum Transverse Strength or Modulus of Rupture in Bending) - Average value of modulus of rupture shall not be less than 300 kg/cm2. 6.8 Deflection Under Sustained Load (Long Time Loading Test) —  The deflection under load and residual deflection after removal of load shall be as agreed to mutually. Note—For test procedure, refer to the standard and various parts  of  IS  2380  : 1977 Method of test for wood particle boards and boards from other lignocellulosic materials (first revision). For detailed information, refer to IS  3097 : 1980  Specification for  veneered  particle  boards (first revision).",
+      "clause_id": "IS 3097:1980#3",
+      "family": "IS 3097",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 576,
+      "page_end": 577,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3097:1980",
+    "record_id": 33994,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      576,
+      577
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.601,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

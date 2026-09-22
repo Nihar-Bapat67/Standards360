@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4671:1984",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and the methods of sampling and test for expanded polystyrene in the form of rough shapes, finished boards and blocks, and pipe sections / segments for thermal insulation primarily for use in refrigeration and building applications in the temperature range - 150º to 80ºC.",
+      "clause_id": "IS 4671:1984#1",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types Type 1- Non-self extinguishing type and, Type 2- Self extinguishing type",
+      "clause_id": "IS 4671:1984#2",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 4671:1984#3",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "3.1",
+      "title": "Bulk Density – The",
+      "text": "3.1 Bulk Density - The bulk density of the material, calculated at nominal thickness, excluding facing, shall be 15, 20, 25, 30 or 35 kg/m3. A tolerance of ±5 percent shall be allowed on bulk density.",
+      "clause_id": "IS 4671:1984#3.1",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "3.2",
+      "title": "Dimensions",
+      "text": "3.2 Dimensions",
+      "clause_id": "IS 4671:1984#3.2",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "3.2.1",
+      "title": "Size – 1.0 x",
+      "text": "3.2.1 Size - 1.0 x 0.5 m or other agreed sizes. Pipe sections / segments — 1.0 m or 0.5 m in length, or other agreed length.",
+      "clause_id": "IS 4671:1984#3.2.1",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "3.2.2",
+      "title": "Thickness – 15, 20,",
+      "text": "3.2.2  Thickness -  15, 20, 25, 40, 50, 60, 75 and 100 mm unless otherwise agreed.",
+      "clause_id": "IS 4671:1984#3.2.2",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "3.2.3",
+      "title": "Tolerance",
+      "text": "3.2.3  Tolerance Finished Boards and Blocks Tolerance Length, width and thickness ± 2 mm Pipe Laggings Outside diameter ± 3 mm Inside diameter ± 2 mm",
+      "clause_id": "IS 4671:1984#3.2.3",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "3.3",
+      "title": "Thermal Conductivity – Shall",
+      "text": "3.3 Thermal Conductivity - Shall not exceed the values given below: Bulk Density Thermal Conductivity kg/m3 mW/cm0C 0ºC 10ºC 15.0 0.34 0.37 20.0 0.32 0.35 25.0 0.30 0.33 30.0 0.29 0.32 35.0 0.28 0.31 Note - To convert values from mW/cm deg to kcal/m h deg or vice versa, the following conversion factors are used : Kilocolories / m h ºC Milliwalts / cm ºC 1 11.630 0 0.085 985 1",
+      "clause_id": "IS 4671:1984#3.3",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "3.4",
+      "title": "The material of both",
+      "text": "3.4 The material of both the types shall also comply with the requirements given in Table 1.",
+      "clause_id": "IS 4671:1984#3.4",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "3.5",
+      "title": "Special requirement for Type 2 only.",
+      "text": "3.5 Special requirement for Type 2 only.",
+      "clause_id": "IS 4671:1984#3.5",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 835,
+      "page_end": 835,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4671:1984",
+      "clause": "3.5.1",
+      "title": "Flammability – The material",
+      "text": "3.5.1 Flammability - The material shall be of self extinguishing type when tested by the method prescribed in Appendix F of the standard. TABLE 1    REQUIREMENTS  FOR  EXPANDED  POLYSTYRENE Sl. Characteristic Requirements at Various Nominal No. Apparent Densities, kg/m3 15 20 25 30 35 i) Compressive strength at 0.7 0.9 1.1 1.4 1.7 10 percent deformation, at kg/cm2, Min ii) Cross-breaking 1.4 1.6 1.8 2.2 2.6 strength, kg/cm2, Min iii) Water vapour  permeance, 50 40 30 20 15 in g/m2.24 h, Max iv) Thermal stability, 1 1 1 1 1 percent, Max v) Moisture absorption, 2 1 1 1 1 percent Note - For method of tests, refer to Appendices A to F of the standard and IS 3346 : 1980 Method of determination of thermal conductivity of thermal insulation materials (two slab, guard hot-plate method) (first revision). For detailed information, refer to IS 4671 : 1984  Specifications  for expanded polystyrene for thermal insulation purposes (first revision).",
+      "clause_id": "IS 4671:1984#3.5.1",
+      "family": "IS 4671",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.5",
+      "role": "requirements",
+      "page_start": 835,
+      "page_end": 836,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4671:1984",
+    "record_id": 11411,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      835,
+      836
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

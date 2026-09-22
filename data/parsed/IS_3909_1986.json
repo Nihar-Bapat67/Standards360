@@ -1,0 +1,76 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3909:1986",
+      "clause": "1",
+      "title": "Scope – Covers the",
+      "text": "1. Scope - Covers the material, dimensions and sectional properties of aluminium unequal leg angles for structural use and other applications.",
+      "clause_id": "IS 3909:1986#1",
+      "family": "IS 3909",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 712,
+      "page_end": 712,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3909:1986",
+      "clause": "2",
+      "title": "Designation – Aluminium unequal leg angles",
+      "text": "2. Designation - Aluminium unequal leg angles sections shall be designated as ALU followed by lengths SUMMARY OF IS 3909 : 1986 ALUMINIUM UNEQUAL LEG ANGLES (First  Revision) of longer and shorter legs and thickness of the section in mm. For example Alu 80 ×  60 × 6",
+      "clause_id": "IS 3909:1986#2",
+      "family": "IS 3909",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 712,
+      "page_end": 712,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3909:1986",
+      "clause": "3",
+      "title": "Dimensions –",
+      "text": "3. Dimensions - | 3.1 Designation and Size in mm ALU 20×10×1.5 ALU 50×25×3.0 ALU 80×40×4.0 ALU 125×80× 8.0 ALU 20×10×2.0 ALU 50×25×4.0 ALU 80×40×6.0 ALU 125×80× 10.0 ALU 20×15×1.5 ALU50×30×5.0 ALE 80×40×8.0 ALU 125×80×12.0 ALU 20×15×2.0 ALU 20×15×3.0 ALU 50×30×3.0 ALU 80×60×4.0 ALU150×80× 8.0 ALU 50×30×4.0 ALU 80×60×6.0 ALU150×80×10.0 ALU 30×15×2.0 ALU 50×30×5.0 ALU 80×60×8.0 ALU150×80× 12.0 ALU 30×15×3.0 ALU 90×60×6.0 ALU 30×20×2.0 ALU 60×30×3.0 ALU 200×100× 10.0 ALU 30×20×3.0 ALU 60×30×4.0 ALU100×50×6.0 ALU 200×100× 12.0 ALU 30×20×4.0 ALU 60×30×5.0 ALU100×50×8.0 ALU 200×100× 16.0 ALU100×50×10.0 ALU 40×20×2.0 ALU 60×40×4.0 ALU 200×150×12.0 ALU 40×20×3.0 ALU 60×40×5.0 ALU100×80×6.0 ALU 200×150×16.0 ALU 40×20×4.0 ALU 60×40×6.0 ALU 100×80×8.0 ALU 200×150×20.0 ALU100×80×10.0 ALU 40×25×2.0 ALU 65×45×4.0 ALU 40×25×3.0 ALU 65×45×5.0 ALU120×80×8.0 ALU 40×25×4.0 ALU120×80×10.0 ALU 75×50×5.0 ALU120×80×12.0 ALU 45×30×3.0 ALU 75×50×6.0 ALU 45×30×4.0 ALU 45×30×5.0 |  |  | | --- | --- | --- | | ALU 20×10×1.5 ALU 20×10×2.0 ALU 20×15×1.5 ALU 20×15×2.0 ALU 20×15×3.0 ALU 30×15×2.0 ALU 30×15×3.0 ALU 30×20×2.0 ALU 30×20×3.0 ALU 30×20×4.0 ALU 40×20×2.0 ALU 40×20×3.0 ALU 40×20×4.0 ALU 40×25×2.0 ALU 40×25×3.0 ALU 40×25×4.0 ALU 45×30×3.0 ALU 45×30×4.0 ALU 45×30×5.0 | ALU 50×25×3.0 ALU 50×25×4.0 ALU50×30×5.0 ALU 50×30×3.0 ALU 50×30×4.0 ALU 50×30×5.0 ALU 60×30×3.0 ALU 60×30×4.0 ALU 60×30×5.0 ALU 60×40×4.0 ALU 60×40×5.0 ALU 60×40×6.0 ALU 65×45×4.0 ALU 65×45×5.0 ALU 75×50×5.0 ALU 75×50×6.0 | ALU 80×40×4.0 ALU 80×40×6.0 ALE 80×40×8.0 ALU 80×60×4.0 ALU 80×60×6.0 ALU 80×60×8.0 ALU 90×60×6.0 ALU100×50×6.0 ALU100×50×8.0 ALU100×50×10.0 ALU100×80×6.0 ALU 100×80×8.0 ALU100×80×10.0 ALU120×80×8.0 ALU120×80×10.0 ALU120×80×12.0 | | Note— For sectional properties, refer to Table 1 of the appropriate temper : 19000, 24345, 24534, 52000, 53000, standard. dimensional tolerances for the sections shall 54300, 63400, 64423, 64430, 65032 and 74530. be as specified in IS 3965 :1981* 4.2 Aluminium alloys and temper selected shall conform 4. Material - to the provisions of IS 733 : 1983.+ 4.1 Aluminium sections covered in this standard shall + Wrought aluminium and aluminium alloy bar rods and sections be manufactured from the following alloys in for general engineering purposes (third revision) * Dimensions for wrought aluminium and aluminium alloy bar, rod and section (first revision). |  |  |",
+      "clause_id": "IS 3909:1986#3",
+      "family": "IS 3909",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 712,
+      "page_end": 712,
+      "has_table": true,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3909:1986",
+    "record_id": 10499,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      712,
+      712
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.964,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

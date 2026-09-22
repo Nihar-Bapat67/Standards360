@@ -1,0 +1,346 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2002:1979",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope",
+      "clause_id": "IS 2002:1979#1",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "1.1",
+      "title": "Requirements for sand cast",
+      "text": "1.1 Requirements for sand cast iron spigot and socket soil, waste and ventilating pipes together with details of fittings and accessories.  These pipes and fittings are accessories.  These pipes and fittings are sutiable for use above ground only.",
+      "clause_id": "IS 2002:1979#1.1",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 2002:1979#2",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "2.1",
+      "title": "Shall be free from",
+      "text": "2.1 Shall be free from defects, other than any unavoidable surface imperfections and shall be such that they could be cut.  Shall emit clear ringing sound when struck with light hand hammer.",
+      "clause_id": "IS 2002:1979#2.1",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "2.2",
+      "title": "Shall emit clear ringing",
+      "text": "2.2 Shall emit clear ringing sound when struck with light hand hammer.",
+      "clause_id": "IS 2002:1979#2.2",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "2.3",
+      "title": "Hydraulic Test",
+      "text": "2.3 Hydraulic Test—  Pipes and fittings shall withstand a hydrostatic pressure of 0.07 N/mm2 for minimum 15 seconds without showing any signs of leakage.  These tests shall  be carried out after an internal or external coating.",
+      "clause_id": "IS 2002:1979#2.3",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "2.4",
+      "title": "Ears shall be provided",
+      "text": "2.4 Ears shall be provided only if specifically required. When provided, they shall have following projections: 50 and 75 mm dia 32 mm 100 and 150 mm dia 38  mm",
+      "clause_id": "IS 2002:1979#2.4",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "3",
+      "title": "Dimensions (in mm)",
+      "text": "3. Dimensions (in mm)",
+      "clause_id": "IS 2002:1979#3",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "3.1",
+      "title": "Straight Pipes and Scokets–",
+      "text": "3.1 Straight Pipes and Scokets- 50 75 100 150 Pipe External diameter 60 85 110 160 Thickness 5 5 5 5 Socket Internal diameter 76 101 129 181 Thickness 6 6 6 6 Nominal mass 1500 mm length 9.56 13.86 18.14 26.70 of pipe(kg) 1800 mm length 11.41 16.52 21.67 31.92 excluding ears 2000 mm length 12.65 18.37 24.15 35.66 SUMMARY OF IS 2002 : 1979 SAND CAST IRON SPIGOT AND SOCKET SOIL, WASTE AND VENTILATING PIPES, FITTINGS AND ACCESSORIES (Second Revision)",
+      "clause_id": "IS 2002:1979#3.1",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "3.2",
+      "title": "Short Radius Bends with",
+      "text": "3.2 Short Radius Bends with and without Access Doors Nominal Size θ (Bend) 50, 75,100,150,                         92½°, 95°, 100°, 112½° ,120°, 135°, 100 104°",
+      "clause_id": "IS 2002:1979#3.2",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "3.3",
+      "title": "Large Radius Bends",
+      "text": "3.3 Large Radius Bends Nominal Size θ   (Bend) 50, 75,100,150,                           92½°,95°, 100°, 112½° ,120°, 135°,",
+      "clause_id": "IS 2002:1979#3.3",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "3.4",
+      "title": "Off Sets",
+      "text": "3.4 Off Sets Nominal Size Projection 50,75,100,150 76, 114, 152, 229, and 305 {",
+      "clause_id": "IS 2002:1979#3.4",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "3.5",
+      "title": "Equal Branches with and",
+      "text": "3.5 Equal Branches with and without oval Access Doors Nominal                             θ (Bend) 50,75,100,150 92½°,95°, 100°, 12½° 100 120°, 135° ,104°",
+      "clause_id": "IS 2002:1979#3.5",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "3.6",
+      "title": "Unequal Branches with and without Oval",
+      "text": "3.6 Unequal Branches with and without Oval Accces Doors Nominal (Bend) Main pipe        50,75,100,150             92½°, 95°, 100°, Branch pipe     50, 50,75, 100             112½°,120°, 135°",
+      "clause_id": "IS 2002:1979#3.6",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 304,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "3.7",
+      "title": "Parallel Branches, Singles, Equal and",
+      "text": "3.7 Parallel Branches, Singles, Equal and Unequal — Main Pipe Branch Pipe 100 100 100 50 { { { { { { { 3.17 Bossed Pipes and Connections for  One Pipe Systems. Nominal size of basin and bath connector (single and double) = 100 mm Note — For dimensions of rectangular access doors (for straight pipes and large radius bends, roof outlet square grating, circular grating, \"D\" grating, bent), straight inspection pieces with rectangular access door, vent pipe, roof connectors , floor  trap, floor trap (Nahani), 90 and 100 mm WC connectors with anti-syphon socket, refer to the standard.",
+      "clause_id": "IS 2002:1979#3.7",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 304,
+      "page_end": 305,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "4",
+      "title": "Tolerances",
+      "text": "4. Tolerances Wall thickness 1.0 mm External dia of barrel 3 mm for 50 and 75 mm dia 3.5 mm for 100 mm dia 4 mm for 150 mm dia Internal  dia of socket 3 mm for all dia Depth of socket 10 mm for all dia Length 20 mm for pipes and 10 mm for fittings",
+      "clause_id": "IS 2002:1979#4",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 305,
+      "page_end": 305,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "5",
+      "title": "Weigth",
+      "text": "5. Weigth — Density of cast iron taken as               7.15 kg/dm3    Tolerance : 10 percent.",
+      "clause_id": "IS 2002:1979#5",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 305,
+      "page_end": 305,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2002:1979",
+      "clause": "6",
+      "title": "Coating",
+      "text": "6. Coating —  Where coating material has tar or similar base, it shall be smooth and tenacious and hard enough not to flow  when exposed to a temperature of 77°C but not so brittle at  0°C as to chip off when scribed lightly with a penknife. 3.8 Inverted Branches, Socket and SpigotType— Nominal Size                    θ Bend Main Pipe    50 100 100 950, 112½0 , 1800 Branch Pipe 50  100 50 3.9 Trap Nominal Size 50 75 100 150 3.10 Oval Access Doors Nominal Size 50 75 100 150 3.11 Diminishing Pieces Large Diameter 50 75 100 100 3.12 Straight Inspection Pieces Nominal Size 50 75 100 150 3.13 Loose Sockets and Collars Nominal Size 50 75 100 150 3.14 Cast Iron Holderbats Nominal Size 50 75 100 150 3.15 Ware Balloons Galvanished Steel or Copper Nominal Size 50 75 100 150 3.16 Sanitary connection 3.16.1     Socket to Fit WC Outlet Nominal Size Dimension— 100 Pipe —  Internal dia, Min 100 Socket—  Internal dia, Min 150 3.16.2   S and P Branches and Bends— Nominal Size 100 3.16.3   Bends Nominal Size 100 3.16.4  Short  Connection Pipe Nominal Size Length 100 150, 225, 450, 600 For detailed information refer to IS 1729:2002. Specification for sand cast  iron spigot and socket soil, waste and ventilating pipes, fittings and accessories (first revision). { ± ± ± ± ± ± ± ±",
+      "clause_id": "IS 2002:1979#6",
+      "family": "IS 2002",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 305,
+      "page_end": 305,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2002:1979",
+    "record_id": 31590,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      304,
+      305
+    ],
+    "n_clauses": 18,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

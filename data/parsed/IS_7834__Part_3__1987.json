@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7834 (Part 3):1987",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —Requirements for manufacture, dimensions, tolerances and marking for 900 elbows made of injections moulded PVC for water supplies.",
+      "clause_id": "IS 7834 (Part 3):1987#1",
+      "family": "IS 7834 (Part 3)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 345,
+      "page_end": 345,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7834 (Part 3):1987",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 7834 (Part 3):1987#2",
+      "family": "IS 7834 (Part 3)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 345,
+      "page_end": 345,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7834 (Part 3):1987",
+      "clause": "2.1",
+      "title": "The laying length",
+      "text": "2.1 The laying length  and the tolerances there on shall comply with those given in Table 1. * General  requirements SUMMARY OF IS 7834 (PART 3) : 1987 - INJECTION MOULDED PVC SOCKET FITTINGS WITH SOLVENT CEMENT JOINTS FOR WATER SUPPLIES PART-3 SPECIFIC REQUIREMENTS FOR 900 ELBOWS First Revision Note— For typical illustration of 90° elbow see Fig.1 of the standard. For detailed information, refer to IS :7834 (Part 3) : 1987  Specification for  injection moulded PVC socket fittings with solvent cement joints for water supplies ; Part 3 - for 90° elbows (first revision). TABLE 1 DIMENSIONS FOR LAYING LENGTH OF 90° ELBOWS Size 900 Elbow Laying Length, mm mm 16 9    1 20 11   1 25 13.5 + 1.6 - 1 32 17 + 1.6 - 1 40 21+ 2 - 1 50 26 + 2.5 - 1 63 32.5+3.2 - 1 75 38.5 + 4 - 1 90 46 + 5 - 1 110 56 + 3 - 1 125 63.5 + 6 - 1 140 71 + 7 - 1 160 81 + 8 - 1 180 91+ 9 - 1 200 101 + 9 - 1 225 114 +10 - 1 250 126 + 11 - 1 280 141 +12 - 1 315 158+13 - 1",
+      "clause_id": "IS 7834 (Part 3):1987#2.1",
+      "family": "IS 7834 (Part 3)",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 345,
+      "page_end": 345,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7834 (Part 3):1987",
+      "clause": "2.2",
+      "title": "The inside diameter of",
+      "text": "2.2 The inside diameter of the socket and the socket length  shall comply with those given in IS 7834 (Part 1) :1987.* ± ±",
+      "clause_id": "IS 7834 (Part 3):1987#2.2",
+      "family": "IS 7834 (Part 3)",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 345,
+      "page_end": 345,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7834 (Part 3):1987",
+    "record_id": 14869,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      345,
+      345
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

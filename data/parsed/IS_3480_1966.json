@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3480:1966",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope -  Requirements for flexible steel conduits for protection of cables in electrical installations. Such conduits shall not be used as an earth continuity conductor.",
+      "clause_id": "IS 3480:1966#1",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 3480:1966#2",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "2.1",
+      "title": "Strip steel used in",
+      "text": "2.1 Strip steel used in manufacture shall be of mild steel, bright, cold-rolled and annealed. Shall be electrogalvanized or electro-tinned to a minimum thickness of 0.0025 mm, or otherwise provided with equally effective protective coating.",
+      "clause_id": "IS 3480:1966#2.1",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "2.2",
+      "title": "Conduit shall be wound",
+      "text": "2.2 Conduit shall be wound tightly and the strip so overlapped in subsequent helicis that no openings are seen in normal position.",
+      "clause_id": "IS 3480:1966#2.2",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "2.3",
+      "title": "Internal surfaces shall be",
+      "text": "2.3 Internal surfaces shall be free from burrs and sharp edges.",
+      "clause_id": "IS 3480:1966#2.3",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "3",
+      "title": "Dimensions (See Table 1 )",
+      "text": "3. Dimensions (See Table 1 )",
+      "clause_id": "IS 3480:1966#3",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "4",
+      "title": "Tests",
+      "text": "4. Tests",
+      "clause_id": "IS 3480:1966#4",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "4.1",
+      "title": "Tests for Dimensions",
+      "text": "4.1 Tests for Dimensions",
+      "clause_id": "IS 3480:1966#4.1",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "test_methods",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "4.2",
+      "title": "Linear Breaking Test –",
+      "text": "4.2 Linear Breaking Test - Shall show no indication of yielding under a load less than that specified in above table maintained for 3 minutes when undergone the prescribed test.",
+      "clause_id": "IS 3480:1966#4.2",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "4.3",
+      "title": "Test for Flexibility –",
+      "text": "4.3 Test for Flexibility - Shall show no crack or flaws and shall return to normal position without damage to its outer or inner diameter.",
+      "clause_id": "IS 3480:1966#4.3",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "4.4",
+      "title": "Bend Fracture Test –",
+      "text": "4.4 Bend Fracture Test - Radius of bend shall be decreased until the yield point is reached under a load, not less than that specified in Table given in 3.",
+      "clause_id": "IS 3480:1966#4.4",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3480:1966",
+      "clause": "4.5",
+      "title": "Crushing Test – There",
+      "text": "4.5 Crushing Test - There shall be no permanent distortion. Note - For test details, refer to 8 of the standard. SUMMARY OF IS 3480 : 1966 FLEXIBLE STEEL CONDUITS FOR ELECTRICAL WIRING TABLE 1 REQUIREMENTS FOR FLEXIBLE STEEL CONDUCTS NOMINAL INTERNAL TOLERANCE EXTERNAL TURNS *BENDING +LINEAR BENDING INTERNAL DIAMETER ON INTERNAL DIAMETER METRE IN DIAMETRE BREAKING FRACTURE DIAMETER DIAMETER IN NORMAL NORMAL LOAD LOAD POSITION POSITION Max Min Min Min MIN (1) (2) (3) (4) (5) (6) (7) (8) m m m m m m m m m m m m m m m m 6.5 6.5 9.0 315 55 35 11.5 10 10.0 ±0.5 13.0 235 63 60 18.0 16 16.0 -0.8 20.0 200 90 110 35 25 25.0 31.0 160 150 210 45 40 40.0 46.0 100 225 330 70 63 63.0 +1.0 70.0 100 350 430 125 100 100.0 -0.0 108.0 100 450 500 190 * Inner diameter of bend without straining conduit. + Linear breaking load - load at which coils pull off adjacent beading.",
+      "clause_id": "IS 3480:1966#4.5",
+      "family": "IS 3480",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 903,
+      "page_end": 903,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3480:1966",
+    "record_id": 10067,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      903,
+      903
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

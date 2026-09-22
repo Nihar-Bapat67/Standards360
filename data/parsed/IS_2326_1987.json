@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2326:1987",
+      "clause": "1",
+      "title": "Scope – Lays down",
+      "text": "1. Scope -  Lays down the materials, nominal sizes, construction, performance requirements and finish for automatic flushing cisterns of the type used for flushing urinals.",
+      "clause_id": "IS 2326:1987#1",
+      "family": "IS 2326",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 425,
+      "page_end": 425,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2326:1987",
+      "clause": "2",
+      "title": "Materials – Cast iron,",
+      "text": "2. Materials - Cast iron, vitreous china or enamelled pressed steel compiled with  specified requirements.",
+      "clause_id": "IS 2326:1987#2",
+      "family": "IS 2326",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 425,
+      "page_end": 425,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2326:1987",
+      "clause": "3",
+      "title": "Nominal Sizes – 5",
+      "text": "3. Nominal Sizes - 5 and 10 littres with a tolerance of ± 0.5 litres. Note — The nominal size of any urinal cistern shall be based on a minimum capacity of 2.5 litres per  urinal served.",
+      "clause_id": "IS 2326:1987#3",
+      "family": "IS 2326",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 425,
+      "page_end": 425,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2326:1987",
+      "clause": "4",
+      "title": "Construction",
+      "text": "4. Construction a)  Cistern - The thickness of the body and the cover shall not be less than 5 and 6 mm for cast iron and vitreous china cisterns respectively.  The body of the pressed steel cistern shall be of seamless or welded construction.  The thickness of body and cover shall not be less than 1.60 mm and 1.25 mm respectively before coating and shall be porcelain enamelled or otherwise protected against corrosion by equally efficient coating. b)  Depth of Cistern Body  — The depth of the body of cistern shall provided for a clearance of not less than 25 mm between the highest level that can be reached by water before siphonage commences and the spillover level of the top of cistern. c)  Siphonic Apparatus — Siphons shall be made of vitreous china, HDEP, LDEP, polypropylene, cast iron suitably protected both internally and externally against corrosion or of both smooth finished material which is impervious to liquids, corrosion-resistant and of adequate thickness and rigidity. d) Outlet Connection — The nominal diameter of the outlet of the siphon shall not be less than 25 mm for all sizes of cistern e) Lid and Cover — Cisterns shall be provided with mosquito-proof lids. f) Feeding Device — The outlet of the feeding  device shall be so located that it is not less than 3 mm above the highest water-level thatcan be reached by water before siphonage commences.",
+      "clause_id": "IS 2326:1987#4",
+      "family": "IS 2326",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 425,
+      "page_end": 425,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2326:1987",
+      "clause": "5",
+      "title": "Finish",
+      "text": "5. Finish — Cast iron cisterns shall be painted inside with suitable anti-corrosive paint and with a protective coating on the outside before delivery.  Alternatly, cast iron cisterns shall be protected against corrosion by a coating of enamel.",
+      "clause_id": "IS 2326:1987#5",
+      "family": "IS 2326",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 425,
+      "page_end": 425,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2326:1987",
+      "clause": "6",
+      "title": "Performance Requirements",
+      "text": "6. Performance Requirements a) Shall  deliver not less than 2.5 litres per urinal of not less than 10 minutes and not more than 20 minutes. b) Shall discharge at an  average of not less than 5 litres in 7  seconds when fitted with a  straight open ended flush pipe of  20 mm bore and 900 mm length.",
+      "clause_id": "IS 2326:1987#6",
+      "family": "IS 2326",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 425,
+      "page_end": 425,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2326:1987",
+      "clause": "7",
+      "title": "Endurance Test",
+      "text": "7. Endurance Test — Shall be operated for 3000 times and after this test, the cistern and component parts shall not show any damage or defects and all the parts shall be satisfactory For detailed information, refer to IS  2326 : 1987 Specification for automatic flushing cisterns for urinals (other than plastic cisterns)(second revision).",
+      "clause_id": "IS 2326:1987#7",
+      "family": "IS 2326",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 425,
+      "page_end": 425,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2326:1987",
+    "record_id": 8857,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      425,
+      425
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.978,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

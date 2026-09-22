@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 781:1984",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirements for copper alloy screw down bib taps and stop valves suitable for cold nonshock working pressure up to 1.0 MPa.  Bib taps shall have screwed male inlet.  Stop valves shall have screwed female end or male ends or mixed ends (mixed ends means one end screwed male and the other end screwed female). Note — Cold service means a temperature not exceeding 45ºC.",
+      "clause_id": "IS 781:1984#1",
+      "family": "IS 781",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 467,
+      "page_end": 467,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 781:1984",
+      "clause": "2",
+      "title": "Nominal sizes",
+      "text": "2. Nominal sizes a) Bib taps shall be 8, 10, 15, 20 and 25 mm. b) Stop valves shall be 8, 10, 15, 20, 25, 32, 40 and 50 mm. Nominal size of the bib tap and stop valves shall be designated by the nominal bore of the socket or pipe outlet to which the tap or valve is normally fitted.",
+      "clause_id": "IS 781:1984#2",
+      "family": "IS 781",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 467,
+      "page_end": 467,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 781:1984",
+      "clause": "3",
+      "title": "Materials",
+      "text": "3. Materials Sl No. Component Material i) Body  and bonnet a)  Cast brass b)  Leaded  tin bronze ii) Spindle nuts Brass (extruded rolled or forged) iii) Gland Crutch Brass (extruded, rolled, cast, die (handle) cast washer, plate etc. iv) Washer Leaded  tin bronze",
+      "clause_id": "IS 781:1984#3",
+      "family": "IS 781",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 467,
+      "page_end": 467,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 781:1984",
+    "record_id": 14841,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      467,
+      467
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.479,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

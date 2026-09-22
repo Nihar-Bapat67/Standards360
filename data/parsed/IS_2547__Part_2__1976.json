@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2547 (Part 2):1976",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for premixed lightweight plaster consisting esentially of gypsum plaster and lightweight aggregate used in general building operations.",
+      "clause_id": "IS 2547 (Part 2):1976#1",
+      "family": "IS 2547 (Part 2)",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 153,
+      "page_end": 153,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 2547 (Part 2):1976",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification Type A - Under coat plasters — a) Browning plaster, b) Metal lathing paster, c) Bonding plaster Type B - Final coat plaster — Finish plaster.",
+      "clause_id": "IS 2547 (Part 2):1976#2",
+      "family": "IS 2547 (Part 2)",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 153,
+      "page_end": 153,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 2547 (Part 2):1976",
+      "clause": "3",
+      "title": "Physical and Chemical Requirements",
+      "text": "3. Physical and Chemical Requirements — See Table  1. TABLE -1 PROPERTIES OF DIFFERENT TYPES OF PLASTERS. SL.No.        Particulars                                                     UnderCoat Plasters Final Coat Plasters (TypeA) (Type B) Browning Metal Bonding Finish Plaster Lathing          Plaster Plaster Plaster (1)                      (2) (3) (4) (5) (6) I) Sum of soluble sodium and 0.25 0.25        No upper limit 0.25 magnesium salt contents, expressed as percentages of sodium oxide (Na2O), and magnesium oxide (MgO) by mass, Max ii) Dry bulk density, Max, kg/m3 640 770 770 - iii) Dry set density, Max, kg/m3 850 1 040 1 040 - iv) Compressive strength, Min, N/mm2 0.93 1.0 1.0 - v) Free lime content, by percent, - 2½ - - mass, Min, vi) Mechanical resistance - - - Diameter of the indentation shall not be less than 4 mm  and not more than 5.5 mm. SUMMARY OF IS 2547 (PART 2) : 1976 GYPSUM BUILDING PLASTER PART 2    PREMIXED LIGHTWEIGHT PLASTERS (First Revision) Note—For methods of tests, refer to Appendices A and B of the standard and relevant parts of IS 2542 Methods of test for Gypsum plaster, Concrete and Products. For detailed information, refer to IS 2547 (Part 2): 1976 Specification for gypsum building plasters: Part 2 Premixed lightweight plasters .",
+      "clause_id": "IS 2547 (Part 2):1976#3",
+      "family": "IS 2547 (Part 2)",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 153,
+      "page_end": 153,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2547 (Part 2):1976",
+    "record_id": 9057,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      153,
+      153
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

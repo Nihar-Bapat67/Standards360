@@ -1,0 +1,256 @@
+{
+  "clauses": [
+    {
+      "is": "IS 11307:1985",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and methods of sampling and test for cellular glass block and pipe thermal insulation intended for use on surfaces operating at temperatures between  - 2000C and 4250C.",
+      "clause_id": "IS 11307:1985#1",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 11307:1985#2",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.1",
+      "title": "General – Shall consist",
+      "text": "2.1 General -  Shall consist of a glass composition that has been formed or cellulated under molten conditions, annealed, and set to form a rigid incombustible material with hermetically-sealed cells. The material shall be trimmed into blocks of standard dimensions or commercial sizes. It shall not have visible defects that may adversely affect its service qualities.",
+      "clause_id": "IS 11307:1985#2.1",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.2",
+      "title": "Bulk Density – The",
+      "text": "2.2 Bulk Density - The average value shall be 160 ±15 kg/m3.",
+      "clause_id": "IS 11307:1985#2.2",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.3",
+      "title": "Thermal Conductivity – The",
+      "text": "2.3 Thermal Conductivity -  The average value shall be as given below: Mean Thermal Conductivity,Max Temperature ºC W/mK 150 0.082 65 0.064 0 0.048 -65 0.043",
+      "clause_id": "IS 11307:1985#2.3",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.4",
+      "title": "Compressive Strength – The",
+      "text": "2.4 Compressive Strength - The average value shall be not less than 520 kPa with the exception  given in 3.4 of the standard.",
+      "clause_id": "IS 11307:1985#2.4",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.5",
+      "title": "Flexural Strength – The",
+      "text": "2.5 Flexural Strength - The average minimum value shall be 410 kPa with the exceptions given in 3.5 of the standard .",
+      "clause_id": "IS 11307:1985#2.5",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.6",
+      "title": "Water Absorption – Shall",
+      "text": "2.6 Water Absorption -  Shall be not more than 0.6 percent by volume.",
+      "clause_id": "IS 11307:1985#2.6",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.7",
+      "title": "Standard Shapes, Sizes and Dimensional",
+      "text": "2.7 Standard Shapes, Sizes and Dimensional Tolerances",
+      "clause_id": "IS 11307:1985#2.7",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.7.1",
+      "title": "Flat Blocks – Block",
+      "text": "2.7.1 Flat Blocks - Block shall be of rectangular sections and shall be true to form and dimension, the corners square and the sides and edges parallel. Sizes and thickness shall be as given below, and the tolerance on each nominal dimension shall be ±1.6 mm. Length 450 or 600 mm Width 300 or 450 mm Thickness 25, 40, 50, 60, 75, 100 or 125 mm",
+      "clause_id": "IS 11307:1985#2.7.1",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 3,
+      "parent_clause": "2.7",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.7.2",
+      "title": "Pipe Sections – Pipe",
+      "text": "2.7.2 Pipe Sections -  Pipe sections shall be supplied, with or without facing as agreed to between the purchaser and the supplier, as hollow cylindrical shapes split in half lengthwise (in plane including the cylindrical axis) or as curved segments. The insulation shall be furnished in sections or segments of dimensions given below, and the tolerance on each nominal dimensions shall be ± 3.2 mm. Length 450  or  600 mm Diameter To fit standard pipes of external dia up to 219 mm Thickness 20, 25, 40, 50, 60, 75 or 100 mm",
+      "clause_id": "IS 11307:1985#2.7.2",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 3,
+      "parent_clause": "2.7",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.7.3",
+      "title": "Special Shapes – Dimensions",
+      "text": "2.7.3  Special Shapes -  Dimensions and tolerances on nominal dimensions of special shapes shall be as agreed to between the purchaser and the supplier.",
+      "clause_id": "IS 11307:1985#2.7.3",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 3,
+      "parent_clause": "2.7",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11307:1985",
+      "clause": "2.7.4",
+      "title": "Uniformity – The local",
+      "text": "2.7.4  Uniformity -  The local thickness of the insulation material at any point shall not vary from the average thickness by more than ± 3 mm. Note - For method of tests, refer to Appendix A  of the standard,  IS 3346 : 1980 Method of determination of  thermal conductivity of thermal insulating materials (two slab guarded hot plate method) (first revision), and IS 5688 : 1982 Methods of test for preformed block-type and pipe covering type thermal insulation (first revision). For detailed information, refer to IS 11307 : 1985 Specifications for cellular glass block and pipe thermal insulation.",
+      "clause_id": "IS 11307:1985#2.7.4",
+      "family": "IS 11307",
+      "year": 1985,
+      "level": 3,
+      "parent_clause": "2.7",
+      "role": "other",
+      "page_start": 851,
+      "page_end": 851,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 11307:1985",
+    "record_id": 2382,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      851,
+      851
+    ],
+    "n_clauses": 13,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.997,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

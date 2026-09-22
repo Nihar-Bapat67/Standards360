@@ -1,0 +1,58 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1478:1992",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for dimensions, quality and strength for clay flooring tiles.",
+      "clause_id": "IS 1478:1992#1",
+      "family": "IS 1478",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 138,
+      "page_end": 138,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1478:1992",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification — Class 1, class 2, and class 3 with characteristics given in Table 1. TABLE 1 CLASSIFICATION OF FLOORING TILES SI.No. Characteristic Requirements for Class 1 Class 2   Class 3 i) Water absorption 10 19 24 percent, Max ii) Flexural strength, kg/cm width, Min a)   Average 6 3.5 2.5 b)   Individual 5 3.0 2.0 iii) Impact maximum height in mm of drop of steel ball: a)    15 mm thick 25 20 15 b)    20 mm thick 60 50 40 c)    25 mm thick 75 65 50 d)    30 mm thick 80 70 60 SUMMARY OF IS 1478 : 1992 CLAY FLOORING  TILES (Second Revision)",
+      "clause_id": "IS 1478:1992#2",
+      "family": "IS 1478",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 138,
+      "page_end": 138,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1478:1992",
+    "record_id": 6738,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      138,
+      138
+    ],
+    "n_clauses": 2,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.453,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

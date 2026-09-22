@@ -1,0 +1,220 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1977:1996",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope -  Requirements of low carbon steel plates, sections, flats, bars, etc. for general structural purposes in the tensile range of 290 to 470 MPa.",
+      "clause_id": "IS 1977:1996#1",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1977:1996",
+      "clause": "1.1",
+      "title": "The steels are equally",
+      "text": "1.1 The steels are equally suitable for bolted and riveted structures and for general engineering purposes.",
+      "clause_id": "IS 1977:1996#1.1",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1977:1996",
+      "clause": "1.2",
+      "title": "When welding is employed",
+      "text": "1.2 When welding is employed for fabrication and guranteed weldability is required, welding procedure should be as specified in  IS 9595 : 1996. Metal-arc welding of carbon and carbon manganese steels  (first revision)'.",
+      "clause_id": "IS 1977:1996#1.2",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1977:1996",
+      "clause": "2",
+      "title": "Grades – These shall",
+      "text": "2. Grades -   These shall   be   three     Grades - Fe 290, Fe 330, and Fe 370.",
+      "clause_id": "IS 1977:1996#2",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1977:1996",
+      "clause": "3",
+      "title": "Freedom from Defects",
+      "text": "3. Freedom from Defects  - The finished material shall be reasonably free from surface flaws; laminations; rough/jagged and imperfect edges; and all other harmful defects.",
+      "clause_id": "IS 1977:1996#3",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1977:1996",
+      "clause": "3.1",
+      "title": "Minor surface defects may",
+      "text": "3.1 Minor surface defects may be removed by grinding provided the thickness is not reduced locally by more than 4 percent below the minimum specified thickness.",
+      "clause_id": "IS 1977:1996#3.1",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1977:1996",
+      "clause": "4",
+      "title": "Chemical Analysis",
+      "text": "4. Chemical Analysis   : See Table - 1 TABLE1  CHEMICAL COMPOSITION Grade Ladle Analysis, Percent, Max Designation C     Mn      S         P (1) (2)     (3)      (4)       (5) Fe 290 0.25    1.25    0.055  0.055 Fe 330 0.25    1.25    0.055  0.055 Fe 370 0.25     1.25     0.055    0.055 SUMMARY OF IS 1977 : 1996  LOW TENSILE STRUCTURAL  STEEL (Third Revision)",
+      "clause_id": "IS 1977:1996#4",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1977:1996",
+      "clause": "5",
+      "title": "Tensile Properties",
+      "text": "5. Tensile Properties: See Table 2 TABLE 2   TENSILE PROPERTIES Grade      Tensile         Yield        Percent Internal Desig- Strength        Stress     Elogation Diameter nation MPa      Min at Gauge of Bend MPa     Length 5.65 So Min (1) (2) (3) (4) (5) Fe 290 290-390 165 23 2t Fe 330 330-430 170 23 3t Fe 370       370-470 215 23 3t Where t is the thickness of test piece.",
+      "clause_id": "IS 1977:1996#5",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1977:1996",
+      "clause": "6",
+      "title": "Bend Test – For",
+      "text": "6. Bend Test -  For bend test, the test piece at room temperature shall withstand bending through 1800 to an internal diameter not greater than that given in Table 2 without cracking.",
+      "clause_id": "IS 1977:1996#6",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1977:1996",
+      "clause": "7",
+      "title": "Dimensions– Nominal dimensions of rolled",
+      "text": "7. Dimensions- Nominal dimensions of rolled products conforming to this specification shall be in accordance with the relevant Indian Standard . Currently available Indian Standards are listed in Table 4 of the standard.",
+      "clause_id": "IS 1977:1996#7",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1977:1996",
+      "clause": "8",
+      "title": "Tolerances – Rolling and",
+      "text": "8. Tolerances - Rolling and cutting tolerances for steel products conforming to this standard shall be those specified in IS 1852 : 1985 ++. ++ Rolling and cutting tolerances for hot rolled steel products (fourth revision). Note — For test proceedures, refer to  IS 1599 : 1985 Method of bend test (second revision) and IS 1608 : 1995 Mechanical testing of metals-tensile testing (second revision) For detailed information, refer to  IS  1977: 1996 low tensile structural steels. (third revision).",
+      "clause_id": "IS 1977:1996#8",
+      "family": "IS 1977",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "references",
+      "page_start": 667,
+      "page_end": 667,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1977:1996",
+    "record_id": 18674,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      667,
+      667
+    ],
+    "n_clauses": 11,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

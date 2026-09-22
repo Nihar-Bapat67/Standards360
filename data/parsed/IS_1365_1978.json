@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1365:1978",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for slotted countersunk head screws in the diameter range 1 to 20 mm.",
+      "clause_id": "IS 1365:1978#1",
+      "family": "IS 1365",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 774,
+      "page_end": 774,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1365:1978",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 1365:1978#2",
+      "family": "IS 1365",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 774,
+      "page_end": 774,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1365:1978",
+      "clause": "2.1",
+      "title": "Mechanical Properties – Shall conform to",
+      "text": "2.1 Mechanical Properties - Shall conform to IS : 1367*. Where brass or aluminium alloy is used, it shall have minimum tensile strength of 300 MPa.",
+      "clause_id": "IS 1365:1978#2.1",
+      "family": "IS 1365",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 774,
+      "page_end": 774,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1365:1978",
+      "clause": "2.2",
+      "title": "Grade",
+      "text": "2.2 Grade—  Precision Grade (P) of IS : 1367*—",
+      "clause_id": "IS 1365:1978#2.2",
+      "family": "IS 1365",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 774,
+      "page_end": 774,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1365:1978",
+      "clause": "3",
+      "title": "Designation",
+      "text": "3. Designation — Shall be designated by name, nominal size, length, the number of this standard and the property class. For example, a slotted countersunk head screw of size M4, length 10 mm and of property class 4.8 shall be designated as : Countersunk Screw M4 × 10 —IS  1365—4.8 For  detailed information, refer to IS 1365 : 1978 Specification for slotted countersunk head screws (third revision).",
+      "clause_id": "IS 1365:1978#3",
+      "family": "IS 1365",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 774,
+      "page_end": 774,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1365:1978",
+      "clause": "4",
+      "title": "Dimensions (in mm)",
+      "text": "4. Dimensions (in mm) Nominal Diameter                   Length Size Nom Max Min M1 1.9 1.90 1.76             1.10 M1.2 2.3 2.30 2.16             1.12 (M1.4) 2.6 2.60 2.46             1.14 M1.6 3.0 3.00 3.00             2.16 (M1.8) 3.4 3.40 3.10             2.18 M2 3.8 3.80 3.50             2.52 (M2.2) 4.2 4.20 3.90             2.52 M2.5 4.7 4.70 4.40             3.25 M3 5.6 5.60 5.30             4.30 (M3.5) 6.5 6.50 6.14             4.35 M4 7.5 7.50 7.14             5.40 (M4.5) 8.3 8.30 7.94             7.45 M5 9.2 9.20 8.84             7.50 M6 11 11.0         10.57             7.55 M8 14.5 14.5 14.07             9.80 M10 18 18.00 17.57         11.100 M12 22 22.00 21.48         14.120 (M14) 25 25.00 24.48         18.140 M16 29 29.00 28.48         22.160 (M18) 33 33.00 32.38         28.180 M20 36 36.00 35.38         28.200 Note 1— Sizes shown in the Parantheses are of  second preference. * Technical supply conditions for threaded fasteners.",
+      "clause_id": "IS 1365:1978#4",
+      "family": "IS 1365",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 774,
+      "page_end": 774,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1365:1978",
+    "record_id": 27571,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      774,
+      774
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

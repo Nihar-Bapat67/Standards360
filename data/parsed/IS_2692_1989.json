@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2692:1989",
+      "clause": "1",
+      "title": "Scope – Lays down",
+      "text": "1. Scope -  Lays down nominal sizes and requirements regarding material, manufactrue and workmanship, construction, sampling and testing of copper alloy screwdown ferrules for use on water supply mains.",
+      "clause_id": "IS 2692:1989#1",
+      "family": "IS 2692",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 472,
+      "page_end": 472,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 2692:1989",
+      "clause": "2",
+      "title": "Nominal Size",
+      "text": "2. Nominal Size 8, 10, 15, 20, 25, 32, 40 and 50 mm.",
+      "clause_id": "IS 2692:1989#2",
+      "family": "IS 2692",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 472,
+      "page_end": 472,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 2692:1989",
+      "clause": "3",
+      "title": "Materials – See Table 1.",
+      "text": "3. Materials - See Table 1.",
+      "clause_id": "IS 2692:1989#3",
+      "family": "IS 2692",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 472,
+      "page_end": 472,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 2692:1989",
+      "clause": "4",
+      "title": "Testing – Every ferrule,",
+      "text": "4. Testing - Every ferrule, complete with its component parts, shall withstand hydraulic pressure of at least 1.5 MPa, applied for two minutes, and during this period it shall neither leak nor   sweat. TABLE 1   MATERIALS  FOR  DIFFERENT  PARTS OF  FERRULES SL. COMPONENT MATERIAL (1) (2) (3) i) Body, plug and Leaded tin cap bronze ii) Washer plate Brass and nut (extrudedrolled, cast, diecast) Leaded brass iii) Resilient washer Leather Vulcanized fibre, rubber iv) Copper washer Copper Note — For detailed dimensions refer to the standard. For detailed informaton, refer to IS  2692 : 1989 Specification for ferrules for water  services  (second revision)",
+      "clause_id": "IS 2692:1989#4",
+      "family": "IS 2692",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 472,
+      "page_end": 472,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2692:1989",
+    "record_id": 9204,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      472,
+      472
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.965,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

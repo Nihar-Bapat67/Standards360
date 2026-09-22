@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2556 (Part 9):1994",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope—Requirements for patterns, construction,dimensions and tolerances, finish, inspection and marking of pedestal type bidets made of vitreous china.",
+      "clause_id": "IS 2556 (Part 9):1994#1",
+      "family": "IS 2556 (Part 9)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 453,
+      "page_end": 453,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 9):1994",
+      "clause": "2",
+      "title": "Patterns",
+      "text": "2. Patterns i) Pattern 1 — Pedestal bidets with flushing rim and spray  hole (See Fig. 1A &1B). FIG. 1 TYPICAL  ILLUSTRATION OF  BIDET  (WITH  FLUSHING RIM) SUMMARY OF IS 2556 (PART 9) : 1994 VITREOUS  SANITARY APPLIANCES (VITREOUS CHINA ) PART 9 SPECIFIC REQUIREMENTS OFPEDASTAL TYPE BIDETS (Fourth Revision) ii) Pattern  2 —  Pedestal bidets without flushing rim and over rim supply (See Fig. 2A & 2B).",
+      "clause_id": "IS 2556 (Part 9):1994#2",
+      "family": "IS 2556 (Part 9)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 453,
+      "page_end": 453,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 9):1994",
+      "clause": "3",
+      "title": "Construction",
+      "text": "3. Construction — Shall be of one piece construction.",
+      "clause_id": "IS 2556 (Part 9):1994#3",
+      "family": "IS 2556 (Part 9)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 453,
+      "page_end": 453,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 9):1994",
+      "clause": "4",
+      "title": "Finish",
+      "text": "4. Finish —  The inside surface of the bidet and waste outlet shall be glazed uniform, smooth for effcient drawing. FIG. 2 TYPICAL  ILLUSTRATION OF  BIDET  WITHOUT  FLUSHING RIM Note1 — For detailed dimensions and tolerances, refer  to 6 of the standard. Note 2 — For general requirements refer to Part 1 general requirements of the standard. For detailed information, Refer to IS  : 2556 (Part 9) : 1995  Specification for vitreous sanitary appliances (vitreous china)Part 9 Specific requirements of pedestal type bidets (Fourth Revision).",
+      "clause_id": "IS 2556 (Part 9):1994#4",
+      "family": "IS 2556 (Part 9)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 453,
+      "page_end": 454,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2556 (Part 9):1994",
+    "record_id": 9080,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      453,
+      454
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

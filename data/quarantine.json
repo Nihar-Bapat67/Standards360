@@ -1,0 +1,74 @@
+[
+  {
+    "is_number": "IS 12027:1987",
+    "reason": "not_in_catalogue",
+    "details": "Standard 'IS 12027:1987' (family 'IS 12027') from page 263 not found in A1 catalogue.db",
+    "page_range": [
+      263,
+      263
+    ]
+  },
+  {
+    "is_number": "IS 14399 (Part 1 and 2):1996",
+    "reason": "not_in_catalogue",
+    "details": "Standard 'IS 14399 (Part 1 and 2):1996' (family 'IS 14399 (Part 1 and 2)') from page 291 not found in A1 catalogue.db",
+    "page_range": [
+      291,
+      292
+    ]
+  },
+  {
+    "is_number": "IS 1626:1984",
+    "reason": "not_in_catalogue",
+    "details": "Standard 'IS 1626:1984' (family 'IS 1626') from page 70 not found in A1 catalogue.db",
+    "page_range": [
+      70,
+      70
+    ]
+  },
+  {
+    "is_number": "IS 1785 (Part I):1983",
+    "reason": "not_in_catalogue",
+    "details": "Standard 'IS 1785 (Part I):1983' (family 'IS 1785 (Part I)') from page 652 not found in A1 catalogue.db",
+    "page_range": [
+      652,
+      652
+    ]
+  },
+  {
+    "is_number": "IS 2046:1995",
+    "reason": "not_in_catalogue",
+    "details": "Standard 'IS 2046:1995' (family 'IS 2046') from page 861 not found in A1 catalogue.db",
+    "page_range": [
+      861,
+      863
+    ]
+  },
+  {
+    "is_number": "IS 432 (Part II):1982",
+    "reason": "not_in_catalogue",
+    "details": "Standard 'IS 432 (Part II):1982' (family 'IS 432 (Part II)') from page 650 not found in A1 catalogue.db",
+    "page_range": [
+      650,
+      650
+    ]
+  },
+  {
+    "is_number": "IS 7834:1987",
+    "reason": "not_in_catalogue",
+    "details": "Standard 'IS 7834:1987' (family 'IS 7834') from page 342 not found in A1 catalogue.db",
+    "page_range": [
+      342,
+      343
+    ]
+  },
+  {
+    "is_number": "IS 9537(Part II):1981",
+    "reason": "not_in_catalogue",
+    "details": "Standard 'IS 9537(Part II):1981' (family 'IS 9537(Part II)') from page 919 not found in A1 catalogue.db",
+    "page_range": [
+      919,
+      919
+    ]
+  }
+]

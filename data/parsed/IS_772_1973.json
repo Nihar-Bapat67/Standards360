@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 772:1973",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — General requirement of  material, thickness, warpage, enamelling, acid and alkali resistance, inspection rules and marking, for enamelled cast iron sanitary appliance like water-closets and commodes.",
+      "clause_id": "IS 772:1973#1",
+      "family": "IS 772",
+      "year": 1973,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 419,
+      "page_end": 419,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 772:1973",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements — Thickness of cast iron base not less than 6.5 mm.Tolerance ± 3 percent on specified dimensions. Warpage shall not exceed 5 mm per metre for edges set against wall or floor and 7.5 mm per metre for other edges. Finishing in vitreous enamel fused to cast iron base; enamel thickness not less than 0.5 mm.",
+      "clause_id": "IS 772:1973#2",
+      "family": "IS 772",
+      "year": 1973,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 419,
+      "page_end": 419,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 772:1973",
+      "clause": "2.1",
+      "title": "Defects",
+      "text": "2.1 Defects —  Not more than one of the following when examined through inspection window is permitted: a) Crazing; b) Dimples, rundown, sagging; c) Blisters— not more than on interior surface: d) Pinholes — not  more  than  two for coloured wares  and  not  more than  four  for  white wares; Note-    For test procedures refer to the Standard. For detailed information, refer to IS  772:1973 Specification for general requirements for enamelled cast iron sanitary appliances (second revision). e) Specks — less than 1mm and not exceeding 5 in number. Specks less  than 0.25 mm in  size shall not be treated  as defects unless in sufficient number to form  discolouration; and f) Flaw — The number shall not exceed Small : 2, Max Medium : 2, Max Large : None.",
+      "clause_id": "IS 772:1973#2.1",
+      "family": "IS 772",
+      "year": 1973,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 419,
+      "page_end": 419,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 772:1973",
+      "clause": "3",
+      "title": "Tests for Enamel",
+      "text": "3. Tests for Enamel a) Enamel shall be of acid and alkali resisting quality. b) Abrasion test — Shall   withstand test for resistance  to  scratching by  Powder no.5 (on Moh's scale).",
+      "clause_id": "IS 772:1973#3",
+      "family": "IS 772",
+      "year": 1973,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 419,
+      "page_end": 419,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 772:1973",
+    "record_id": 14718,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      419,
+      419
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.955,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

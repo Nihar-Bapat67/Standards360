@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 281:1991",
+      "clause": "1",
+      "title": "Scope – Requirements regarding materials,",
+      "text": "1. Scope - Requirements regarding materials, dimensions, manufacture and finish of mild steel sliding door bolts commonly used in general building constrcution for locking doors, gates, etc, with padlocks.",
+      "clause_id": "IS 281:1991#1",
+      "family": "IS 281",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 509,
+      "page_end": 509,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 281:1991",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types i) Plate Type, and ii) Clip or bolt type.",
+      "clause_id": "IS 281:1991#2",
+      "family": "IS 281",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 509,
+      "page_end": 509,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 281:1991",
+      "clause": "3",
+      "title": "Sizes",
+      "text": "3. Sizes (a) Plate type sliding bolts— 150, 200,  250, 300, 375 and 450 mm; and (b)Clip or bolt type sliding bolts— 200, 250,   300, 375 and 450 mm",
+      "clause_id": "IS 281:1991#3",
+      "family": "IS 281",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 509,
+      "page_end": 509,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 281:1991",
+      "clause": "4",
+      "title": "Materials",
+      "text": "4. Materials Mild Steel Mild Steel Wire Mild Steel Rod Note— For details of material see 5 of the standard.",
+      "clause_id": "IS 281:1991#4",
+      "family": "IS 281",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 509,
+      "page_end": 509,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 281:1991",
+      "clause": "5",
+      "title": "Sizes",
+      "text": "5. Sizes a) Plate type sliding bolts — 150,  200, 250,   300, 375 and 450 mm. b) Clip or bolt type sliding bolts - 200, 250, 300, 375 and 450 mm",
+      "clause_id": "IS 281:1991#5",
+      "family": "IS 281",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 509,
+      "page_end": 509,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 281:1991",
+      "clause": "5.1",
+      "title": "Tolerances–Length of bolt -",
+      "text": "5.1 Tolerances-Length of bolt - Sizes up to and including 300 mm  ±  2 mm Sizes 375 mm and  450 mm               ±  3 mm Note—  Size represents length of the bolt. For detailed dimensions and tolerances see 6 of  the standard.",
+      "clause_id": "IS 281:1991#5.1",
+      "family": "IS 281",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 509,
+      "page_end": 509,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 281:1991",
+      "clause": "6",
+      "title": "Finish–",
+      "text": "6. Finish- i) Sliding Bolts, Plate Type - Back plate straps and staple plate shall be stove enamalled black before assmebling. Hasp and bolt shall be finished bright or copper-oxidized or shall be plated with nickel or chromium. ii) Sliding Bolts, Clip or Bolt Type — Hasp, bolt, staple and clips or fixing bolts shall  be copper oxidized or shall be plated with  nickel or chromium . Note—When the sliding bolts is to be finished bright, a thin coating of rust preventive shall  be given. For detailed information, refer to IS  281 : 1991 Specification for mild steel sliding door bolt  for use with padlocks  (third revision). SUMMARY OF IS 281 : 1991 MILD STEEL SLIDING DOOR BOLTS FOR USE WITH PADLOCKS (Third Revision)",
+      "clause_id": "IS 281:1991#6",
+      "family": "IS 281",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 509,
+      "page_end": 509,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 281:1991",
+    "record_id": 9341,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      509,
+      509
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

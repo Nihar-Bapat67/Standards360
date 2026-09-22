@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1293:1988",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and tests for three-pin twopole and earthing plugs and socket-outlets (shuttered and non-shuttered) including multi-socket-outlet (shuttered and non-shuttered) suitable for ac circuits with a rated voltage above 50 V but not exceeding 250 volts and a rated current of 6 A or 16 A. Note  1- 2 pin plugs and socket outlets are considered nonstandard. Note  2- Fused plugs are not covered  under the scope of this standard.",
+      "clause_id": "IS 1293:1988#1",
+      "family": "IS 1293",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 895,
+      "page_end": 895,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1293:1988",
+      "clause": "2",
+      "title": "General",
+      "text": "2.  General  Requirements - Accessories shall be so designed and constructed that in normal use their performance is reliable and without danger to the user or the surroundings.",
+      "clause_id": "IS 1293:1988#2",
+      "family": "IS 1293",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 895,
+      "page_end": 895,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1293:1988",
+      "clause": "3",
+      "title": "Ratings",
+      "text": "3. Ratings",
+      "clause_id": "IS 1293:1988#3",
+      "family": "IS 1293",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 895,
+      "page_end": 895,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1293:1988",
+      "clause": "3.1",
+      "title": "Rated Voltage",
+      "text": "3.1 Rated Voltage  - The rated voltage shall not exceed 250 V. The preferred voltage shall be 240 V.",
+      "clause_id": "IS 1293:1988#3.1",
+      "family": "IS 1293",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 895,
+      "page_end": 895,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1293:1988",
+      "clause": "3.2",
+      "title": "Rated Current – Shall",
+      "text": "3.2 Rated Current - Shall be 6 or 16 A in line with international practice. However, for the convenience of manufacturers and users used to the present series of 5 and 15 A and in order to facilitate a smooth change over, both the series shall be used con-currently.",
+      "clause_id": "IS 1293:1988#3.2",
+      "family": "IS 1293",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 895,
+      "page_end": 895,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1293:1988",
+      "clause": "4",
+      "title": "Classification – Shall be",
+      "text": "4.  Classification - Shall be  classified according to: a)    Absence or  presence of enclosures: i)    Unenclosed, and ii)   Enclosed. b)    Absence or the presence of shutters: i)    Without shutters, and ii)   With shutters c)    The method of application: i)     Surface-type socket-outlets, ii)    Flush-type socket-outlets, iii)    Portable type socket-outlets.",
+      "clause_id": "IS 1293:1988#4",
+      "family": "IS 1293",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 895,
+      "page_end": 895,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1293:1988",
+      "clause": "5",
+      "title": "Dimensions",
+      "text": "5. Dimensions Reference Rating to Fig 1",
+      "clause_id": "IS 1293:1988#5",
+      "family": "IS 1293",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 895,
+      "page_end": 895,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1293:1988",
+      "clause": "6",
+      "title": "A",
+      "text": "6A 16A m m mm A 22.2 28.6 B 19.1 25.4 +0.025 +0.025 C 7.06 8.71 - 0.050 - 0.050 +0.025 +0.025 D 5.08 7.06 - 0.050 - 0.050 +1.04 +1.04 E 15.9 20.6 - 0.13 - 0.13 +1.04 +1.04 F 20.06 28.6 - 0.13 - 0.13 G.min. 7.94 9.52 H 5.16 to 7.54 6.76 to 9.12 6. Materials Part Material a) Plug base, plug Though, non-ignitable cover, socketinsulating material outlet cover shutter b) Socket base Tough, non-ignitable insulating material or vitrified ceramic material c)  Pins, terminals Phosphor-bronze, and currentbrass aluminium alloy carrying parts, or suitable material including earthing-pin and earthing contact d) Noncurrent Mild steel, aluminium carrying parts alloy, brass or similar alloys, or insulating material. Note 1- For constructional requirements with regard to aspect such as protection against electric shocks, provisions for earthing, terminal and screw, construction of fixed socket-outlets and construction of plugs and portable socket outlets refer to 9 to 13 of the standard. Note 2 - For detailed requirements and methods of tests refer to the standard For detailed requirements  refer to IS 1293 : 1988  Specification for plugs and socket-outlets-rated  voltage up to and including  of 250 volts and rated current up to and including 16 amperes (second revision).",
+      "clause_id": "IS 1293:1988#6",
+      "family": "IS 1293",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 895,
+      "page_end": 896,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1293:1988",
+      "clause": "7",
+      "title": "Tests",
+      "text": "7. Tests a) Visual examination, b) Checking of dimensions, c) Protection against electric shock, d) Construction, e) Interchangability, f) Resistance to ageing and moisture, g) Insulation resistance and  electric  strength, h) Effectiveness of contact, j) Temperature rise, k) Breaking capacity, m)Endurance test for shutters, n) Withdrawal pull, p) Cord grip, q) Mechanical strength, r) Resistance to heat, s) Screws and connections, t) Water absorption, u) Resistance to rusting, v)  Resistance to abnormal heat and fire,",
+      "clause_id": "IS 1293:1988#7",
+      "family": "IS 1293",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 896,
+      "page_end": 896,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1293:1988",
+    "record_id": 25470,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      895,
+      896
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.988,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

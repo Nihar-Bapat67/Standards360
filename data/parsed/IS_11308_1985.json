@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 11308:1985",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and methods of sampling and test for hydraulic setting thermal insulating castables for use as either hot face or cold face backing of refractory linings, at temperatures up to 12500C.",
+      "clause_id": "IS 11308:1985#1",
+      "family": "IS 11308",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 852,
+      "page_end": 852,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11308:1985",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types a) Type 1050 - Suitable for use at temperatures up to 1 0500C, and b) Type 1 250-  Suitable for use at temperatures up to 1 2500C.",
+      "clause_id": "IS 11308:1985#2",
+      "family": "IS 11308",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 852,
+      "page_end": 852,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11308:1985",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 11308:1985#3",
+      "family": "IS 11308",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 852,
+      "page_end": 852,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11308:1985",
+      "clause": "3.1",
+      "title": "General – Shall be",
+      "text": "3.1 General -  Shall be in the form of dry powder with maximum grain size 5 mm.",
+      "clause_id": "IS 11308:1985#3.1",
+      "family": "IS 11308",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 852,
+      "page_end": 852,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11308:1985",
+      "clause": "3.2",
+      "title": "Moisture Content – Shall",
+      "text": "3.2 Moisture Content -  Shall not contain more than 2 percent moisture by mass.",
+      "clause_id": "IS 11308:1985#3.2",
+      "family": "IS 11308",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 852,
+      "page_end": 852,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11308:1985",
+      "clause": "3.3",
+      "title": "The material shall also",
+      "text": "3.3 The material shall also conform to the reqirements given in Table 1.",
+      "clause_id": "IS 11308:1985#3.3",
+      "family": "IS 11308",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 852,
+      "page_end": 852,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11308:1985",
+      "clause": "3.4",
+      "title": "Ferric Oxide Content –",
+      "text": "3.4 Ferric Oxide Content -  For temperatures up to 1 2500C shall be 5 percent, maximum TABLE 1   REQUIREMENTS FOR HYDRAULIC SETTING THERMAL INSULATING CASTABLES FOR TEMPERATURES UP TO 1 2500C. Sl Characterstic Requirements No. Type 1 050 Type 1 250 i) Density after moulding and 1 000 1 400 drying at 1100C kg/m3, Max ii) Crushing strength after curing 1 350 3 000 and drying at 1100C, kN/m2, Min iii) Thermal conductivity, W/mk Max: Mean Hot face Temperature Temperature (Approximate) ºC ºC 200 350 0.23 0.46 400 725 0.30 0.51 500 900 0.30 0.58 iv) Heat resistance when subjected to soaking heat for 24 hours at 1 0500C and 1 2500C respectively: a) Linear shrinkage (length) 1.5 1.5 percent, Max b) Loss in mass, percent, Max 15 15 c) Crushing strength, kN/m2, Min 900 2000 Note - For method of tests, refer to Appendix A  of the standard, IS 3144 : 1992 Mineral wool thermal  insulation materials - Methods of test (second revision), IS 3346 : 1980 Method of determination of  thermal conductivity of thermal insulating materials (two slab guarded hot plate method) (first revision), IS 5688 : 1982 Methods of test for preformed block-type and pipe covering type thermal insulation  (first revision), and IS 5724 : 1970 Method of test for thermal insulating cements, and IS 9490 : 1980 Method of determination of thermal conductiviy of insulation  materials (water calorimeter method). For detailed information, refer to IS 11308 : 1985  Specification  for hydraulic setting thermal insulating castables for temperatures up to 1250ºC.",
+      "clause_id": "IS 11308:1985#3.4",
+      "family": "IS 11308",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 852,
+      "page_end": 852,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 11308:1985",
+    "record_id": 2383,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      852,
+      852
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.99,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

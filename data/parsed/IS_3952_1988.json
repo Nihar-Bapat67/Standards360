@@ -1,0 +1,220 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3952:1988",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Covers the dimensions, quality and strength requirements of hollow bricks made from burnt clay and having perforations through and at right angle to the bearing surface.",
+      "clause_id": "IS 3952:1988#1",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3952:1988",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements",
+      "clause_id": "IS 3952:1988#2",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3952:1988",
+      "clause": "2.1",
+      "title": "Bricks shall be free",
+      "text": "2.1 Bricks shall be free from cracks, flaws and nodules of free lime. Shall be of uniform colour. Shall have plane rectangular faces with parallel sides and shall have sharp straight edges at right angle; and a fine compact and uniform texture.",
+      "clause_id": "IS 3952:1988#2.1",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3952:1988",
+      "clause": "2.2",
+      "title": "The bricks shall be",
+      "text": "2.2 The bricks shall be free from excessive winding or bowing. Winding or bowing in length dimension concaity or converxity in external face of brikcs, and angles between sides and joining edges shall be not more than 5 mm. Note— For testing details refer to 3.2 of  the standard.",
+      "clause_id": "IS 3952:1988#2.2",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3952:1988",
+      "clause": "3",
+      "title": "Types",
+      "text": "3. Types a) Type A — Bricks with both faces keyed for plastering or rendering. b) Type B — Bricks with both faces smooth and suitable for use without plastering or rendering on either side, and c) Type C — Bricks with one face keyed and one face smooth.",
+      "clause_id": "IS 3952:1988#3",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3952:1988",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4. Dimensions Length Width Height mm mm mm 190 190 90 290 90 90 290 140 90 Thickness of any shell and web shall not be less than 11 mm and 8 mm respectively.",
+      "clause_id": "IS 3952:1988#4",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3952:1988",
+      "clause": "5",
+      "title": "Tolerances",
+      "text": "5. Tolerances Dimensions Overall Measurements of 20 Bricks (mm) Min Max 290 5680 5920 190 3720 3880 140 2740 2860 90 1760 1840",
+      "clause_id": "IS 3952:1988#5",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3952:1988",
+      "clause": "5.1",
+      "title": "In addition, the size",
+      "text": "5.1 In addition, the size of any individual brick in the sample shall not exceed the corresponding modular size as given below : Dimension of Bricks Modular Size mm mm 290 300 190 200 140 150 90 100",
+      "clause_id": "IS 3952:1988#5.1",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3952:1988",
+      "clause": "6",
+      "title": "Crushing Strength",
+      "text": "6. Crushing Strength — Minimum average value shall be 3.5 N/mm2. The strength of any individual brick shall  not fall below the average value by more than 20 percent.",
+      "clause_id": "IS 3952:1988#6",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3952:1988",
+      "clause": "7",
+      "title": "Water Absorption",
+      "text": "7. Water Absorption — Shall not be more than 20 percent  by mass.",
+      "clause_id": "IS 3952:1988#7",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3952:1988",
+      "clause": "8",
+      "title": "Efflorescence",
+      "text": "8. Efflorescence— Shall have a rating not more than 'slight'. Note —  For methods of tests, refer to Appendices A and B of the standard, and relevant parts of IS 3495 : 1992 Method of test for burnt clay building bricks (third revision). For detailed information, refer to IS 3952:1988 Specification for burnt clay hollow bricks for walls and partitions (second revision). SUMMARY OF IS 3952 : 1988 BURNT CLAY HOLLOW  BRICKS FOR WALLS AND PARTITIONS (Second Revision)",
+      "clause_id": "IS 3952:1988#8",
+      "family": "IS 3952",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "references",
+      "page_start": 130,
+      "page_end": 130,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3952:1988",
+    "record_id": 441,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      130,
+      130
+    ],
+    "n_clauses": 11,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

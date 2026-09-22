@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1077:1992",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Requirements for classification, general quality, dimensions and physical requirements of common burnt clay building bricks used in buildings with compressive strength less than 40 N/mm2 Note— For burnt clay bricks having higher strength, see IS 2180*.",
+      "clause_id": "IS 1077:1992#1",
+      "family": "IS 1077",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 125,
+      "page_end": 125,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1077:1992",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification — Class Average Compressive Strength Designation not Less Than N/mm2 35 35.0 30 30.0 25 25.0 20 20.0 17.5 17.5 15 15.0 12.5 12.5 10 10.0 7.5 7.5 5 5.0 3.5 3.5",
+      "clause_id": "IS 1077:1992#2",
+      "family": "IS 1077",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 125,
+      "page_end": 125,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1077:1992",
+      "clause": "3",
+      "title": "General Quality",
+      "text": "3. General Quality — Shall be hand or machinemoulded and shall be  free from cracks and flaws and nodules of free lime. Hand-moulded bricks of 90 mm or 70 mm height shall be moulded with a frog 10 to 20 mm deep on one of its flat sides. Bricks of  40mm hieght as well as those made  by extrusion process may not be provided with frogs. The bricks shall have smooth rectangular faces with sharp corners and uniform colour. *IS 2180:1988 Heavy-duty burnt clay building bricks (second revision). Shapes and sizes of the frog shall conform to either Fig.1A or Fig.1B of the standard.",
+      "clause_id": "IS 1077:1992#3",
+      "family": "IS 1077",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 125,
+      "page_end": 125,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1077:1992",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4. Dimensions",
+      "clause_id": "IS 1077:1992#4",
+      "family": "IS 1077",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 125,
+      "page_end": 125,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1077:1992",
+      "clause": "4.1",
+      "title": "The standard modular size",
+      "text": "4.1 The standard modular size of common building bricks shall be as follows: Modular 190 × 90 × 90 mm 190 × 90 × 40 mm Non-Modular 230 × 110 × 70 mm 230 × 110 × 30 mm Modular and  Non-Modular for proper  bond arrangement 70 × 110 × 70 mm ½ length brick.",
+      "clause_id": "IS 1077:1992#4.1",
+      "family": "IS 1077",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 125,
+      "page_end": 125,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1077:1992",
+      "clause": "5",
+      "title": "Tolerances",
+      "text": "5. Tolerances — Dimensions of bricks shall be within  the following limits per 20 bricks Modular size              Non-Modular size mm mm a)      Length   3 800 ± 80 4 600 ± 80 b)      Width    1 800 ± 40 2 200  ± 40 c)       Height  1 800 ± 40 1 400  ± 40 (For 90 mm high bricks)       (For 70 mm high bricks) 800    ± 40 600    ±    40 (For 40 mm high bricks)       (For 30 mm high bricks)",
+      "clause_id": "IS 1077:1992#5",
+      "family": "IS 1077",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 125,
+      "page_end": 125,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1077:1992",
+      "clause": "6",
+      "title": "Physical",
+      "text": "6. Physical  Requirements",
+      "clause_id": "IS 1077:1992#6",
+      "family": "IS 1077",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 125,
+      "page_end": 125,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1077:1992",
+      "clause": "6.1",
+      "title": "Compressive Strength",
+      "text": "6.1 Compressive Strength — Minimum average strength shall be as given in 2.",
+      "clause_id": "IS 1077:1992#6.1",
+      "family": "IS 1077",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 125,
+      "page_end": 125,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1077:1992",
+      "clause": "6.2",
+      "title": "Water Absorption",
+      "text": "6.2 Water Absorption — Shall not be more than 20 percent by weight upto class 12.5 and 15 percent for higher classes.",
+      "clause_id": "IS 1077:1992#6.2",
+      "family": "IS 1077",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 125,
+      "page_end": 125,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1077:1992",
+      "clause": "6.3",
+      "title": "Efforescence",
+      "text": "6.3 Efforescence— Shall not be more than 'moderate' upto class 12.5 and 'slight' for higher classes. Note  — For  methods of tests, refer to relevent parts of  IS 3495 : 1992  Methods of tests of burnt  clay buildings bricks (third revision). For detailed information, refer to IS 1077:1992 Specification for common burnt clay bricks (fifth revision). SUMMARY OF IS 1077 : 1992 COMMON BURNT CLAY BUILDING BRICKS (Fifth Revision)",
+      "clause_id": "IS 1077:1992#6.3",
+      "family": "IS 1077",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 125,
+      "page_end": 125,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1077:1992",
+    "record_id": 1662,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      125,
+      125
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

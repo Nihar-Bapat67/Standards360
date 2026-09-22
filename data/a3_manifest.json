@@ -1,0 +1,3810 @@
+[
+  {
+    "is_number": "IS 10019:1981",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1003 (Part 1):2003",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1003 (Part 2):1994",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (PART 1 ):1988",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 10):1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 11):1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 12):1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 13):1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 2):1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 3):1988",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 4):1988",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 5):1988",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 6):1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 7):1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 8):1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10124 (Part 9):1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1019:1974",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10238:2001",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10292:1988",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10299:1982",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10342:1982",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10360:1982",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10388:1982",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1038:1983",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10394:1982",
+    "n_citations_found": 11,
+    "n_edges_emitted": 9,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10451:1983",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10521:1983",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10701:1983",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10772:1983",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1077:1992",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1079:1994",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 10889:1984",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 110:1983",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 11128:1984",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1120:1975",
+    "n_citations_found": 4,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 11246:1992",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1127:1970",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1128:1974",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 11307:1985",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 11308:1985",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1130:1969",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 11433 (Part 1):1985",
+    "n_citations_found": 2,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1148:1982",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1149:1982",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 11587:1986",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1161:1998",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1173:1978",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 11925:1986",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1195:2002",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12049:1987",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12118 (Part 1):1987",
+    "n_citations_found": 10,
+    "n_edges_emitted": 10,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12234:1988",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12269:1987",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1230:1979",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12313:1988",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12330:1988",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1237:1980",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1239 (Part 1):2004",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1239 (Part 2)",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12406:2003",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12427:2001",
+    "n_citations_found": 12,
+    "n_edges_emitted": 9,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12436:1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12440:1988",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1254:1991",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12592:2002",
+    "n_citations_found": 2,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12701:1996",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12709:1994",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12778:2004",
+    "n_citations_found": 13,
+    "n_edges_emitted": 12,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1278:1972",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12817:1997",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12818:1992",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12820:2004",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12823:1990",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12830:1989",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1285:2002",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12866:1989",
+    "n_citations_found": 8,
+    "n_edges_emitted": 6,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12867:1989",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12894:2002",
+    "n_citations_found": 16,
+    "n_edges_emitted": 14,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12896:1990",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1293:1988",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12987:1991",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12988:1991",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 12994:1990",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13000:1990",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13008:1990",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13026:1991",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13049:1991",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13114:1991",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13204:1991",
+    "n_citations_found": 14,
+    "n_edges_emitted": 14,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1322:1993",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1326:1992",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1328:1996",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13349:1992",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13382:2004",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1341:1992",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13592:1992",
+    "n_citations_found": 8,
+    "n_edges_emitted": 6,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1361:1978",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13620:1993",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1363 (Part 1):2002",
+    "n_citations_found": 3,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1363 (Part 2):2002",
+    "n_citations_found": 3,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1363 (Part 3):2002",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1364 (Part 1):2002",
+    "n_citations_found": 3,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1364 (Part 2):2002",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1364 (Part 3):2002",
+    "n_citations_found": 3,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1364 (Part 4):2003",
+    "n_citations_found": 3,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1364 (Part 5):2002",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1365:1978",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1366:2002",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13753:1993",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13754:1993",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13755:1993",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13756:1993",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13757:1993",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13957:1994",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13958:1994",
+    "n_citations_found": 43,
+    "n_edges_emitted": 42,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1395:1982",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13983:1994",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 13990:1994",
+    "n_citations_found": 8,
+    "n_edges_emitted": 6,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14143:1994",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14182:1994",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14201:1994",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14223 (Part 1):1995",
+    "n_citations_found": 27,
+    "n_edges_emitted": 25,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14241:1995",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14268:1995",
+    "n_citations_found": 20,
+    "n_edges_emitted": 18,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14276:1995",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14333:1996",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14402:1996",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14443:1997",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14587:1998",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14616:1999",
+    "n_citations_found": 8,
+    "n_edges_emitted": 7,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14643:1999",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1464:1992",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14695:1999",
+    "n_citations_found": 100,
+    "n_edges_emitted": 98,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14735:1999",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14753:1999",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14772:2000",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1478:1992",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14846:2000",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14856:2000",
+    "n_citations_found": 21,
+    "n_edges_emitted": 20,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14862:2000",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14871:2000",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1489 (Part 1):1991",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1489 (Part 2):1991",
+    "n_citations_found": 8,
+    "n_edges_emitted": 7,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 14912:2001",
+    "n_citations_found": 34,
+    "n_edges_emitted": 32,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1536:2001",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1537:1976",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 15380:2003",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1538:1993",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1542:1992",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1554 (Part 1):1988",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1566:1982",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1580:1991",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1592:2003",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1626 (Part 1):1994",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1626 (Part 2):1994",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1658:1977",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1659:2004",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1700:1973",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1701:1960",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1703:2000",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1711:1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1726:1991",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1730:1989",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1732:1989",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1785 (Part 2):1983",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1786:1985",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1795:1982",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1823:1980",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1834:1984",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1838 (Part 2):1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1863:1979",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1879:1987",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 190:1991",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1929:1982",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1948:1961",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1949:1961",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 1977:1996",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2002:1979",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2016:1967",
+    "n_citations_found": 4,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2036:1995",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 204 (Part 1):1991",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 205:1992",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2062:1999",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 206:1992",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 207:1964",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2086:1993",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 208:1996",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2090:1983",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2095 (Part 1):1996",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2095 (Part 3):1996",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2096:1992",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2098:1997",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2104:1981",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2116:1980",
+    "n_citations_found": 5,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 212:1983",
+    "n_citations_found": 8,
+    "n_edges_emitted": 6,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2140:1978",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2155:1982",
+    "n_citations_found": 4,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 215:1995",
+    "n_citations_found": 10,
+    "n_edges_emitted": 8,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 216:1961",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2180:1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2185 (Part 1):1979",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2185 (Part 2):1983",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2185 (Part 3):1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 218:1983",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2191 (Part 1):1983",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2191 (Part 2):1983",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2202 (Part 1):1999",
+    "n_citations_found": 2,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2202 (Part 2):1983",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2209:1976",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2222:1991",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2314:1986",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2326:1987",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2365:1977",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2372:2004",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2373:1981",
+    "n_citations_found": 45,
+    "n_edges_emitted": 45,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2412:1975",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2501:1995",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2508:1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2525:1982",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2547 (Part 1):1976",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2547 (Part 2):1976",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2548 (Part 1):1996",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2548 (Part 2):1996",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2553 ( PART 1):1990",
+    "n_citations_found": 9,
+    "n_edges_emitted": 8,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 1):1994",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 14):1994",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 15):1994",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 2):1994",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 3)",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 4):1994",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 5):1994",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 6):1994",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 7):1994",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 8):1994",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2556 (Part 9):1994",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2585:1968",
+    "n_citations_found": 7,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 7,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2645:2003",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2676:1981",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2677:1979",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2678:1987",
+    "n_citations_found": 18,
+    "n_edges_emitted": 17,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2681:1993",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2686:1977",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2687:1991",
+    "n_citations_found": 7,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 4,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2690 (Part 1):1993",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2690 (Part 2):1992",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2691:1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2692:1989",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 269:1989",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2721:1979",
+    "n_citations_found": 7,
+    "n_edges_emitted": 6,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 277:2003",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 278:1978",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 281:1991",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2835:1987",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2849:1983",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2907:1998",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2963:1979",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 2998:1982",
+    "n_citations_found": 6,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3004:1979",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3006:1979",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3037:1986",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3063:1994",
+    "n_citations_found": 4,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3068:1986",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3076:1985",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3087:1985",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3097:1980",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3115:1992",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3117:2004",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3121:1981",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3129:1985",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3182:1986",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3308:1981",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3311:1979",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3316:1974",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3337:1978",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3367:1993",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3384:1986",
+    "n_citations_found": 9,
+    "n_edges_emitted": 7,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3419:1989",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3438:1994",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3443:1980",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3461:1980",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3462:1986",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3466:1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3468:1991",
+    "n_citations_found": 10,
+    "n_edges_emitted": 6,
+    "n_rejected_false_positive": 4,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3478:1966",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3480:1966",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3489:1985",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3502:1994",
+    "n_citations_found": 11,
+    "n_edges_emitted": 9,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3513 (Part 1)",
+    "n_citations_found": 22,
+    "n_edges_emitted": 21,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3513 (Part 3)",
+    "n_citations_found": 10,
+    "n_edges_emitted": 8,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3583:1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3589:2001",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3620:1979",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3622:1977",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3629:1986",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 362:1991",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 363:1993",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3677:1985",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3709:1966",
+    "n_citations_found": 16,
+    "n_edges_emitted": 15,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3731:1985",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3757:1985",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3818:1992",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3828:1966",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3837:1976",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 383:1970",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3843:1995",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3847:1992",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3854:1997",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3908:1986",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3909:1986",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3921:1985",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3951 (Part 1):1975",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3951 (Part 2):1975",
+    "n_citations_found": 8,
+    "n_edges_emitted": 6,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3952:1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3954:1991",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3964:1980",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 3989:1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 399:1963",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4021:1995",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 404 (Part 1):1993",
+    "n_citations_found": 1,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 407:1981",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4098:1983",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 412:1975",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4139:1989",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4160:1967",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 419:1967",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 423:1961",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4270:2001",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 432 (Part 1):1982",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4346:1982",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4350:1967",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4351:2003",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4457:1982",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 452:1973",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 454:1994",
+    "n_citations_found": 17,
+    "n_edges_emitted": 16,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 455:1989",
+    "n_citations_found": 2,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 458:2003",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 459:1992",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4615:1968",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4621:1975",
+    "n_citations_found": 9,
+    "n_edges_emitted": 7,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4649:1968",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4671:1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4762:1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4832 (Part 1):1969",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4832 (Part 2):1969",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4832 (Part 3):1968",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4860:1968",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4885:1988",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4895:1985",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4923:1997",
+    "n_citations_found": 15,
+    "n_edges_emitted": 13,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4962:1968",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4972:1968",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4984:1995",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4985:2000",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4990:1993",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 4996:1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 513:1994",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5187:1972",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5219:1969",
+    "n_citations_found": 2,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5246:2000",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5312 (Part 1):2004",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5312 (Part 2):1986",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5317:2002",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5369:1975",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5372:1975",
+    "n_citations_found": 4,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5373:1969",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5374:1975",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5382:1985",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5384:1985",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5437:1994",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5455:1969",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5504:1997",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5509:2000",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5511:1991",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5531:1988",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5539:1969",
+    "n_citations_found": 13,
+    "n_edges_emitted": 12,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5624:1993",
+    "n_citations_found": 12,
+    "n_edges_emitted": 7,
+    "n_rejected_false_positive": 5,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5751:1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5758:1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5779:1986",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5820:1970",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5871:1987",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5897:1985",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5898:1970",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5899:1970",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5930:1970",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 5961:1970",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6003:1983",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6006:1983",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6056:1970",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6072:1971",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6073:1971",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6113:1970",
+    "n_citations_found": 3,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6163:1978",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6165:1992",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6198:1992",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6248:1979",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6250:1981",
+    "n_citations_found": 1,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6286:1971",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6307:1985",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6315:1992",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6318:1971",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6343:1982",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 638:1979",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6411:1985",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6418:1971",
+    "n_citations_found": 8,
+    "n_edges_emitted": 6,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6445:1985",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6452:1989",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 651:1992",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6523:1983",
+    "n_citations_found": 2,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6538:1971",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 653:1992",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 654:1992",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6560:1996",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6579:1981",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6598:1972",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6607:1972",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6610:1972",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6623:2004",
+    "n_citations_found": 4,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6639:1972",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6649:1985",
+    "n_citations_found": 8,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 4,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6733:1972",
+    "n_citations_found": 4,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 4,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6736:1972",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6739:1972",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6760:1972",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6908:1991",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 6909:1990",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 694:1990",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7098 (Part 1):1988",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 712:1984",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7181:1986",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7193:1974",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7196:1974",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7197:1974",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7226:1974",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7231:1994",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 723:1972",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 724:1964",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 725:1961",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7280:1974",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7308:1999",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 730:1978",
+    "n_citations_found": 7,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7316:1974",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7319:1974",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7322:1985",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 733:1983",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 736:1986",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 737:1986",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 738:1994",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 739:1992",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 73:1992",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 740:1977",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7452:1990",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7509:1993",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7534:1985",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7540:1974",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7556:1988",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 771 (PART 3/SEC 1):1979",
+    "n_citations_found": 1,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 771 (Part 1):1979",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 771 (Part 2):1985",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 771 (Part 5):1979",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 771 (Part 7):1981",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 771(PART 3/ SEC 2):1985",
+    "n_citations_found": 1,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 772:1973",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 773:1988",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 774:2004",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 775:1970",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 778:1984",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 779:1994",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 781:1984",
+    "n_citations_found": 0,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 782:1978",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7834 (Part 2):1987",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7834 (Part 3):1987",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7834 (Part 4):1987",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7834 (Part 5):1987",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7834 (Part 6):1987",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7834 (Part 7):1987",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7834 (Part 8):1987",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 784:2001",
+    "n_citations_found": 5,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 7887:1992",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8008 (Part 1):2003",
+    "n_citations_found": 7,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8008 (Part 2):2003",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8008 (Part 3):2003",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8008 (Part 4):2003",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8008 (Part 5):2003",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8008 (Part 6):2003",
+    "n_citations_found": 3,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8008 (Part 7):2003",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8033:1976",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8041:1990",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8042:1989",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8043:1991",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 804:1967",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8081:1976",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 808:1989",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 809:1992",
+    "n_citations_found": 13,
+    "n_edges_emitted": 11,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8112:1989",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 811:1987",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 814:2004",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8154:1993",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8183:1993",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8272:1984",
+    "n_citations_found": 19,
+    "n_edges_emitted": 17,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8329:2000",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8360 (Part 1):1977",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8360 (Part 2):1977",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8360 (Part 3):1977",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8363:1976",
+    "n_citations_found": 42,
+    "n_edges_emitted": 41,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8374:1977",
+    "n_citations_found": 16,
+    "n_edges_emitted": 15,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8412:1977",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 849:1994",
+    "n_citations_found": 2,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8500:1991",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 851:1978",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 852:1994",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8718:1978",
+    "n_citations_found": 2,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 0,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8727:1978",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 875 (Part 1):1987",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8760:1978",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 876:1992",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8794:1988",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8828:1996",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8869:1978",
+    "n_citations_found": 4,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 3,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8870:1978",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8887:2004",
+    "n_citations_found": 33,
+    "n_edges_emitted": 32,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 8931:1993",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9106:1979",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9131:1979",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9142:1979",
+    "n_citations_found": 6,
+    "n_edges_emitted": 5,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9197:1979",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9338:1984",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9394:1979",
+    "n_citations_found": 6,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9428:1993",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9523:2000",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9537 (Part 1):1980",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9537 (Part 3):1983",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9537 (Part 4):1983",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9537 (Part 5):2000",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9627:1980",
+    "n_citations_found": 5,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9739:1981",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9742:1993",
+    "n_citations_found": 7,
+    "n_edges_emitted": 6,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9743:1990",
+    "n_citations_found": 4,
+    "n_edges_emitted": 3,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9758:1981",
+    "n_citations_found": 4,
+    "n_edges_emitted": 2,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9762:1994",
+    "n_citations_found": 3,
+    "n_edges_emitted": 1,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9763:2000",
+    "n_citations_found": 1,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9842:1994",
+    "n_citations_found": 5,
+    "n_edges_emitted": 4,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9893:1981",
+    "n_citations_found": 2,
+    "n_edges_emitted": 0,
+    "n_rejected_false_positive": 2,
+    "n_target_not_in_catalogue": 0
+  },
+  {
+    "is_number": "IS 9968 (Part 1):1998",
+    "n_citations_found": 33,
+    "n_edges_emitted": 32,
+    "n_rejected_false_positive": 1,
+    "n_target_not_in_catalogue": 0
+  }
+]

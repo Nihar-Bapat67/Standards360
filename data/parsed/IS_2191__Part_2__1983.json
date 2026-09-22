@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "1",
+      "title": "Scope – Requirements regarding material, grade,",
+      "text": "1. Scope - Requirements regarding material, grade, types, sizes, construction, finishes and tests of wooden flush door shutters of cellular and hollow core type with particle board face panels (both veneered and unveneered) and hard board face panels.",
+      "clause_id": "IS 2191 (Part 2):1983#1",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "2",
+      "title": "Types and designation",
+      "text": "2. Types and designation",
+      "clause_id": "IS 2191 (Part 2):1983#2",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "2.1",
+      "title": "Cellular",
+      "text": "2.1 Cellular— Decorative with skins of CDPV decorative veneered  particle board. Non-decorative with CNP skins of particle boards unveneered Non-decorative with skins CNPV of  particle boards veneered with commercial veneers.",
+      "clause_id": "IS 2191 (Part 2):1983#2.1",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "2.2",
+      "title": "Hollow",
+      "text": "2.2 Hollow — Decorative with skins of HDPV decorative veneered  particle board. Non-decorative with skins HNP of particle boards unveneered. Non-decorative with HNPV skins of particle  boards veneered with commercial veneers.",
+      "clause_id": "IS 2191 (Part 2):1983#2.2",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "3",
+      "title": "Sizes and Tolerance –",
+      "text": "3. Sizes and Tolerance - Shall be as given in   IS 2191 (Part 1) : 1983.",
+      "clause_id": "IS 2191 (Part 2):1983#3",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "4",
+      "title": "Materials",
+      "text": "4. Materials",
+      "clause_id": "IS 2191 (Part 2):1983#4",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "4.1",
+      "title": "Timber – As specified",
+      "text": "4.1 Timber - As specified in IS 2191(Part 1) : 1983 Note : For details of materials see 4 of the standard.",
+      "clause_id": "IS 2191 (Part 2):1983#4.1",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "5",
+      "title": "Requirements",
+      "text": "5. Requirements",
+      "clause_id": "IS 2191 (Part 2):1983#5",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "5.1",
+      "title": "Face Panels",
+      "text": "5.1 Face Panels — Particle board or veneered particle board shall not be less than 6 mm thick for cellular core and not less than 9 mm thick for hollow core shutters. Hardboard thickness shall not be less than 4 mm for cellular core and not less than 6 mm for hollow core shutters.",
+      "clause_id": "IS 2191 (Part 2):1983#5.1",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "5.2",
+      "title": "Shutter shall be shop",
+      "text": "5.2 Shutter shall be shop-prepared for taking mortice locks or latches.",
+      "clause_id": "IS 2191 (Part 2):1983#5.2",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "6",
+      "title": "Workmanship",
+      "text": "6. Workmanship  and Finish -  All the four edges of the door shutter shall be square. The shutter shall be free from twist or warp in its plane. Both faces of door shutter shall be sanded to a smooth even texture.",
+      "clause_id": "IS 2191 (Part 2):1983#6",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 2):1983",
+      "clause": "7",
+      "title": "Tests",
+      "text": "7. Tests —As per 9 of IS 2191 (Part 1) :1983. For detailed information, refer to IS 2191 (Part 2) : 1983  Specification for wooden  flush  door shutters (cellular and hollow core type) : Part 2  Particle board and hard board face panels (third revision).",
+      "clause_id": "IS 2191 (Part 2):1983#7",
+      "family": "IS 2191 (Part 2)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 619,
+      "page_end": 619,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2191 (Part 2):1983",
+    "record_id": 8722,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      619,
+      619
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.94,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12406:2003",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements of medium density fibre boards for general purposes having density in the range of 600 - 900 kg/m3. This standard does not cover veneered or laminated or other specially treated boards, moulded boards, etc.",
+      "clause_id": "IS 12406:2003#1",
+      "family": "IS 12406",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 583,
+      "page_end": 583,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12406:2003",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types—Medium density fibreboards for general purpose shall be of one type only, that is flat pressed single layer. It may, however, be of two grades, designated as follows— Grade Designation Solid board Grade-1 SBF-I Solid board Grade-2 SBG-II",
+      "clause_id": "IS 12406:2003#2",
+      "family": "IS 12406",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 583,
+      "page_end": 583,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12406:2003",
+      "clause": "3",
+      "title": "Materials",
+      "text": "3. Materials",
+      "clause_id": "IS 12406:2003#3",
+      "family": "IS 12406",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 583,
+      "page_end": 583,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12406:2003",
+      "clause": "3.1",
+      "title": "Wood",
+      "text": "3.1 Wood —Any spicies of wood or any other lignocellulosic material may be used",
+      "clause_id": "IS 12406:2003#3.1",
+      "family": "IS 12406",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 583,
+      "page_end": 583,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12406:2003",
+      "clause": "3.2",
+      "title": "Adhesive",
+      "text": "3.2 Adhesive—Any suitable type of synthetic resin adhesive be used. For the purpose of bonding to comply with physical  and mechanical requirements given in Table 1.",
+      "clause_id": "IS 12406:2003#3.2",
+      "family": "IS 12406",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 583,
+      "page_end": 583,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12406:2003",
+      "clause": "3.3",
+      "title": "Sizing Material",
+      "text": "3.3 Sizing Material—Paraffin wax dissolved in mineral spirit, or alternatively emulsified with water, or melted shall be used as sizing material. + Synthetic  resin adhesives for plywood (phenolic  and aminoplastic) (first revision).",
+      "clause_id": "IS 12406:2003#3.3",
+      "family": "IS 12406",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 583,
+      "page_end": 583,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12406:2003",
+      "clause": "4",
+      "title": "Finish – Medium density",
+      "text": "4. Finish - Medium density fibre board shall be flat and   of uniform   thickness and density throughout the length and width of the boards. Both surfaces of the boards shall be sanded to a smooth finish.",
+      "clause_id": "IS 12406:2003#4",
+      "family": "IS 12406",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 583,
+      "page_end": 583,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12406:2003",
+      "clause": "5",
+      "title": "Dimensions and Tolerances –",
+      "text": "5. Dimensions and Tolerances - The boards shall be rectangular and , unless otherwise specified, shall have square edges. The lengths of the two diagonals of the board shall not differ by more than ±3 mm per metre length of the diagonal. a) Thickness - The thickness of medium density fibreboard shall be as given below—  6, 9, 12, 15, 18, 22, 25, 30, 35, 40 mm  the tolerance on thickness shall be ± 0.3 mm b) Width and Length—Unless  otherwise specified, the width and length of  medium density fibreboard  shall be as given below- a)    Width — 1.22 m b)   Length — 5.49, 4.89, 3.66, 3.05, 2.44, 1.83, 1.22m Any other dimesions as agreed to between the purchaser and the manufacturer may be used. Tolerance on length and  width shall be ±3 mm /m. TABLE 1   PHYSICAL AND MECHANICAL REQUIEMENTS OF MEDIUM DENSITY FIBRE BOARDS Sl. Properties Grade II Grade I No. (SBG II) (SBG I) (1) (2) (3) (4) i) Density (Kg/m3) 600-900 600-900 ii) Variation from mean density, percent ± 10 ± 10 iii) Moisture content, percent 5-10 5-10 iv) Variation from mean moisture content percent (absolute) ± 3 ± 3 v) Water absorption percent, Max a) After 2 h soaking 9 6 b) After 24 h soaking: Up to and including 6 mm thick 45 30 7 to 12 mm thick 30 20 13 to 19 mm thick 20 13 20 mm thick and above 18 12 vi) Linear expansion (swelling in water) percent, Max a) Due to general absorption after 24 h soaking: Thickness",
+      "clause_id": "IS 12406:2003#5",
+      "family": "IS 12406",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 583,
+      "page_end": 584,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12406:2003",
+      "clause": "7",
+      "title": "4",
+      "text": "7 4 Length 0.4 0.3 Width 0.4 0. b) Due to surface absorption (in thickness) after 2 h soaking 5 4 vii) Modulus of rupture, N/mm2 a) Up to 20 mm thickness: Average 28 28 Minimum individual 25 25 b) Above 20 mm thickness: Average 25 25 Minimum individual 22 22 viii) Modulus of elasticity, N/mm2 a) Up to 20 mm thickness: Average 2 800 2 800 Minimum individual 2 300 2 300 b) Above 20 mm thickness: Average 2 500 2 500 Minimum individual 2 300 2 300 ix) Internal bond, N/mm2 a) Up to 20 mm thickness: Average 0.8 0.9 Minimum individual 0.7 0.8 b) Above 20 mm thickness: Average 0.7 0.8 Minimum individual 0.6 0.7 x) Internal bond, N/mm2 a) After cyclie test Average - 0.45 Minimum individual - 0.4 b) After accelerated water resistance test Average - 0.30 Minimum individual - 0.25 xi) Screw withdrawal strength (Min).N a) FAce 1 500 1 500 b) Edge (for thickness 12 mm) 1 250 1 250 Cyclic test - Specimens are immersed in water at 27 ± 2ºC for a period of 72 h, followed b drying in air at 27 ± 2ºC for 24 h and then heating in dry air at 70ºC for 72 h. There such cycles are to be followed and then the specimens are tested for internal bond strength. Accelerated water resistance test - Specimens are immersed in water 27 ± 2ºC and water is brought to boiling and kept at boiling temperature for 2 hours. Specimens are then cooled in water 27 ± 2ºC and then tested for internal bond strength.",
+      "clause_id": "IS 12406:2003#7",
+      "family": "IS 12406",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 584,
+      "page_end": 584,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12406:2003",
+    "record_id": 3732,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      583,
+      584
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 459:1992",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Covers corrugated and semi-corrigutated asbestos cement sheets, designed to provide structural weather exposed surfaces of roofs and building walls of industrial, residential, agricultural commercial and institutional types of buildings and for decorative and other purposes.",
+      "clause_id": "IS 459:1992#1",
+      "family": "IS 459",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 62,
+      "page_end": 62,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 459:1992",
+      "clause": "2",
+      "title": "Dimensions",
+      "text": "2. Dimensions  and Tolerances —  See Table 1.",
+      "clause_id": "IS 459:1992#2",
+      "family": "IS 459",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 62,
+      "page_end": 62,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 459:1992",
+      "clause": "3",
+      "title": "Physical and Mechanical Characteristics",
+      "text": "3. Physical and Mechanical Characteristics",
+      "clause_id": "IS 459:1992#3",
+      "family": "IS 459",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 62,
+      "page_end": 62,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 459:1992",
+      "clause": "3.1",
+      "title": "The load bearing capacity of corrugated and semi",
+      "text": "3.1 The load bearing capacity of corrugated and semicorrugated sheets shall be not less than 5 N/mm width of specimen. SUMMARY OF IS 459 : 1992 CORRUGATED AND SEMI-CORRUGATED ASBESTOS CEMENT SHEETS (Third Revision) Note 1 — For method of measurement of different dimensions of sheets, refer to 5 of the standard. Note 2 — For methods of tests, refer to IS 5913: 2003 Methods of tests for absestos cement products  (second revision). For detailed informatoin refer to IS 459:1992 Specification for corrugated and semi-corrugated asbestos cement sheets (third revision). TABLE1 DIMENSIONS AND TOLERANCES OF CORRUGATED AND SEMI-CORRUGATED SHEETS All dimensions in milimetres Sl.         Types of              Depth of                     Pitch of Overall Effective Nominal Length of No.        Sheets            Corrugation               Corrugation Width Width Thickness Sheet (1) (2)          (3)                       (4) (5) (6) (7) (8) (9) (10)(11) (12)   (13) (14) i) Corrugated           48                       +3 146 +6 1050 +10 1010 +10     6 +free     1500 +5 -5 -2 -5 -5 -0.5     1750 -10 2000 2250 2500 2750 3000 ii) Semi-corrugated  45 +3 338 +6 1100 +10 1014 +10     6 +free      1500 +5 -5 -2 -5 -5                                      -0.5      1750 -10 2000 2250 2500 2750 3000 1. Tolerance given in this table for pitch of corrugation relates to measurement over six pitches for corrugated sheets and three pitches for semi corrugated sheets. 2. Nominal lengths other than those specified in col 13 may also be manufactured by mutual agreement between D             Tolerances      P             Tolerances    B              Tolerances   C              Tolerances    T              Tolerances    A              Tolerances Note — Corrugated sheets of overall width 1086 mm and effective width 1016 mm with tolerances and other parameters same as in this table 1 may also be manufactured by mutual agreement between the manufacturer as the purchaser (see Fig 1A of the standard)",
+      "clause_id": "IS 459:1992#3.1",
+      "family": "IS 459",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "references",
+      "page_start": 62,
+      "page_end": 62,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 459:1992",
+    "record_id": 11315,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      62,
+      62
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 0.87,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

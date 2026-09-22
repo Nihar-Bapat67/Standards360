@@ -1,0 +1,52 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6250:1981",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements of dimensions, physical properties and workmanship of slate tiles used for sloped roof covering.  Requirements in regard to method of laying and fixing of slate tiles for roofing covered in  IS 5119 (Part 1):1968*.",
+      "clause_id": "IS 6250:1981#1",
+      "family": "IS 6250",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 119,
+      "page_end": 119,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6250:1981",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements —  Slate shall be free from veins, cracks, or other similar source of weakness. shall be of uniform colour and texture and shall not contain white patches and deleterious minerals. Slate shall be of reasonably straight cleavage and the grains shall be longitudinal. *Code of practice for laying and fixing of sloped  roof coverings, Part 1 Slating. be true. The exposed surface shall be finished as specified and in accordance with an approved sample.",
+      "clause_id": "IS 6250:1981#2",
+      "family": "IS 6250",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 119,
+      "page_end": 119,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6250:1981",
+    "record_id": 13110,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      119,
+      119
+    ],
+    "n_clauses": 2,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.321,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

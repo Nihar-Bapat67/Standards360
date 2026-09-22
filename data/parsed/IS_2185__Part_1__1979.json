@@ -1,0 +1,346 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for the following concrete masonry building units which are used in construction of loadbearing and partition walls: a) Hollow (open and closed cavity) load bearing concrete blocks. b) Hollow (open and closed cavity) non-load bearing concrete blocks, and c) Solid load-bearing concrete blocks. Note—Concrete masonry units are used for both load-bearing and non-load bearing walls, for partitions and panel walls, as backing for other types of facing materials, for piers, pilasters and columns, for retaining walls, garden walls, chimneys and fire places, as fillers in concrete joist floor construction and as shuttering for beams, columns and lintels.",
+      "clause_id": "IS 2185 (Part 1):1979#1",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "2",
+      "title": "Terminology",
+      "text": "2. Terminology",
+      "clause_id": "IS 2185 (Part 1):1979#2",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "terminology",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "2.1",
+      "title": "Hollow (Open or Closed Cavity) Block",
+      "text": "2.1Hollow (Open or Closed Cavity) Block—A block having one or more large holes or cavities which either pass through the block (open cavity) or do not effectively pass through the block (closed cavity) and having the solid material between 50 and 75 percent of the total volume of the block calculated from the overall dimensions.",
+      "clause_id": "IS 2185 (Part 1):1979#2.1",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "2.2",
+      "title": "Solid Block",
+      "text": "2.2 Solid Block — A block which has solid material not less than 75 percent of the total volume of the block calculated from the overall dimensions.",
+      "clause_id": "IS 2185 (Part 1):1979#2.2",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "3",
+      "title": "Dimension",
+      "text": "3. Dimension",
+      "clause_id": "IS 2185 (Part 1):1979#3",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "3.1",
+      "title": "Normal Dimension",
+      "text": "3.1 Normal Dimension— Length 400, 500 or 600 mm Height 200 or 100 mm Width 200, 250, or 300 mm Note 1 — Actual dimensions shall be 10 mm short of nominal dimensions or 6mm short in special cases where finer jointing is specified. SUMMARY OF IS  2185 (PART  1) : 1979 CONCRETE MASONRY UNITS PART 1 HOLLOW AND SOLID CONCRETE BLOCKS (Second Revision) Note 2 — Block shall also be manufactured in half lengths of 200, 250 or 300 mm.",
+      "clause_id": "IS 2185 (Part 1):1979#3.1",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "3.2",
+      "title": "Tolerances",
+      "text": "3.2 Tolerances — Not more than ± 5 mm in length and 3 mm in height and width of unit.",
+      "clause_id": "IS 2185 (Part 1):1979#3.2",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "3.3",
+      "title": "Face shells and webs",
+      "text": "3.3 Face shells and webs shall increase in thickness from the bottom to the top of unit; the thickness shall be not less than the value given in Table 1, as appropriate.",
+      "clause_id": "IS 2185 (Part 1):1979#3.3",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "4",
+      "title": "Classification",
+      "text": "4. Classification  — see Table 2",
+      "clause_id": "IS 2185 (Part 1):1979#4",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "4.1",
+      "title": "Hollow (Open and Closed Cavity) Concrete",
+      "text": "4.1 Hollow (Open and Closed Cavity) Concrete Blocks — a) Grade A b) Grade B (see Table 2) c) Grade C",
+      "clause_id": "IS 2185 (Part 1):1979#4.1",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "4.2",
+      "title": "Solid Concrete Blocks",
+      "text": "4.2 Solid Concrete Blocks — Grade D  (See Table 2).",
+      "clause_id": "IS 2185 (Part 1):1979#4.2",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "5",
+      "title": "Physical Requirement",
+      "text": "5. Physical Requirement",
+      "clause_id": "IS 2185 (Part 1):1979#5",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "5.1",
+      "title": "General",
+      "text": "5.1 General — All units shall be sound and free of cracks or other defects.",
+      "clause_id": "IS 2185 (Part 1):1979#5.1",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "5.2",
+      "title": "Blocks Density and Compressive",
+      "text": "5.2 Blocks Density and Compressive Strength -  Shall be as given in Table  2.",
+      "clause_id": "IS 2185 (Part 1):1979#5.2",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "5.3",
+      "title": "Water Absorption",
+      "text": "5.3 Water Absorption — Average value of three units shall be not more than 10 percent by mass.",
+      "clause_id": "IS 2185 (Part 1):1979#5.3",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "5.4",
+      "title": "Drying Shrinkage",
+      "text": "5.4 Drying Shrinkage — Average value of three units shall not exceed 0.1 percent.",
+      "clause_id": "IS 2185 (Part 1):1979#5.4",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 35,
+      "page_end": 35,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "5.5",
+      "title": "Moisture Movement",
+      "text": "5.5 Moisture Movement —Average value of three units shall not exceed 0.09 percent. ± Note 1 — For requirements regarding materials, surface texture, texture and finish, refer to the  standard. Note 2 — For methods of tests, refer to Appendices A to F of the standard. For detailed information, refer to IS  2185 (Part 1):1979 Specification for concrete mansory units : Part 1 Hollow and solid concrete blocks (second revision). TABLE 1 MINIMUM FACE SHELL AND WEB THICKNESSES All dimensions in millimetres. Nominal Block Face Shell Thickness of Total Web Thickness Per Width Thickness, Min Web, Min Courses in Any 200 mm Length of Walling, Min (1) (2) (3) (4) 100 or less 25 25 25 Over 100 to 150 25 25 30 Over 150 to 200 30 25 30 Over 200 35 30 38 TABLE 2 BLOCK DENSITY AND COMPRESSIVE STRENGTH Type Grade Density of Block kg/m3 Minimum Minimum Average Strength of Compressive Individual Strength of Units  at Units at 28 28 days Days N/mm2 N/mm2 (1) (2) (3) (4) (5). Hollow (open and closed A (3.5) Not less than 1500 3.5 2.8 cavity) load bearing unit A (4.5) 4.5 3.6 A (5.5) 5.5 4.4 A (7.0) 7.0",
+      "clause_id": "IS 2185 (Part 1):1979#5.5",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "requirements",
+      "page_start": 35,
+      "page_end": 36,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2185 (Part 1):1979",
+      "clause": "5.6",
+      "title": "B (2.0)",
+      "text": "5.6 B (2.0) Less than 1 500 but not 2.0 1.6 less  than 1 000 B (3.0) 3.0 2.4 B (5.0) 5.0 4.0 Hollow (open and closed C (1.5) Less than 1 500 but 1.5 1.2 cavity) non-load bearing units not less than 1000 Solid load bearing units D (5.0) Not less than 1 800 5.0 4.0 D (4.0) 4.0 3.2",
+      "clause_id": "IS 2185 (Part 1):1979#5.6",
+      "family": "IS 2185 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 36,
+      "page_end": 36,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2185 (Part 1):1979",
+    "record_id": 8713,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      35,
+      36
+    ],
+    "n_clauses": 18,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

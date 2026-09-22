@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2678:1987",
+      "clause": "1",
+      "title": "Scope – Lays down",
+      "text": "1. Scope - Lays down the dimensions and tolerances for wrought aluminium and aluminium   alloy drawn round tube with parallel bore. } } } }",
+      "clause_id": "IS 2678:1987#1",
+      "family": "IS 2678",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 707,
+      "page_end": 707,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 2678:1987",
+      "clause": "2",
+      "title": "Dimensions – See Table 1",
+      "text": "2. Dimensions - See Table 1",
+      "clause_id": "IS 2678:1987#2",
+      "family": "IS 2678",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 707,
+      "page_end": 707,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 2678:1987",
+      "clause": "3",
+      "title": "Tolerances",
+      "text": "3. Tolerances — See Tables 2, 3 and  4. } } Note1: Nominal dimension means specified dimensions Note2:  Sizes other than standard shall be as agreed to between the manufacturer and the purchaswer TABLE  3    TOLERANCES ON OUTSIDE OR INSIDE DIAMETERS OF  DRAWN ROUND TUBE WITH PARALLEL BORE All dimemsions in millimeters. Nominal                                                        Nominal Wall Thickness of Tube Outside Diameter 0.50 0.63 0.80 1.00 1.25 1.60 2.00 2.50 3.15 4.0 5.0 6.3 8.0 10.0 12.5 16.0 ± ± ± ± ± ± ± ± ± ± ± ± ± ± ± ± 4.0 0.13 0.13 0.13 0.13 5.0 0.13 0.13 0.13 0.13 6.3 0.13 0.13 0.13 0.13 8 .0 0.13 0.13 0.13 0.13 0.13 0.13 0.13 10.0 0.13 0.13 0.13 0.13 0.13 0.13 0.13 0.13 12.5 0.13 0.13 0.13 0.13 0.13 0.13 0.13 0.13 16.0 - 0.13 0.13 0.13 0.13 0.13 0.13 0.13 0.13 20.0 - 0.15 0.15 0.13 0.13 0.13 0.13 0.13 0.13 25.0 - 0.18 0.15 0.15 0.15 0.13 0.13 0.13 0.13 31.5 - 0.20 0.18 0.18 0.15 0.13 0.13 0.13 0.13 0.13 0.13 40.0 - 0.23 0.23 0.20 0.18 0.15 0.15 0.15 0.15 0.15 0.15 0.15 50.0 - - 0.28 0.25 0.20 0.18 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 63.0 - - - - 0.35 0.28 0.25 0.23 0.20 0.20 0.20 0.20 0.20 0.20 0.20 80.0 - - - - - 0.43 0.35 0.30 0.25 0.23 0.23 0.23 0.23 0.23 0.23 100 - - - - - 0.61 0.51 0.46 0.41 0.36 0.33 0.33 0.30 0.30 0.28 125 - - - - - - 0.64 0.56 0.48 0.40 0.38 0.38 0.36 0.36 0.33 160 - - - - - - - - 0.64 0.58 0.58 0.58 0.56 0.56 0.51 200 - - - - - - - - - - 0.94 0.94 0.92 0.92 0.86 0.84 250 - - - - - - - - - - - - 1.37 1.37 1.32 1.30 TABLE  4  TOLERANCES ON STRAIGHTNESS OF DRAWN ROUND TUBES WITH PARALLEL BORE All dimensions in millimetres. Nominal outside Tolerance on Diameter straightness From 10 up to and including 150 1.25 mm/m Over 150 2.00 mm/m For detailed information, refer to IS  2678 : 1987 Specification for dimensions and tolerances for wrought aluminiu and aluminium  alloy drawn round tubes (second revision). SECTION  17 STRUCTURAL SHAPES CONTENTS Title page ALUMINIUM SECTIONS IS 3908 : 1986 Aluminium equal  leg angles  (first revision) 17.3 IS 3909 : 1986 Aluminium unequal  leg angles  (first revision) 17.4 IS 3921 : 1985 Aluminium channels  (first revision) 17.5 IS 5384 : 1985 Aluminium I- beam  (first revision) 17.6 IS 6445 : 1985 Aluminium Tee-sections  (first revision) 17.7 STEEL SECTIONS IS 808 : 1989 Dimensions for hot rolled steel beam, column, channel and angle sections 17.8 (third revision) IS 811 : 1987 Cold formed light gauge structural steel sections (second revision) 17.11 IS 1173 : 1978 Hot rolled slit steel bars (second revision) 17.15 IS 1730 : 1989 Dimensions for steel plates, sheet strips and flats for general engineering 17.16 purposes  (second revision) IS 1732 : 1989 Dimensions for round and square steel bars , for structural and general 17.18 engineering  purposes IS 1863 : 1979 Hot rolled steel bulb flats (first revision). 17.19 IS 2314 : 1986 Steel sheet piling sections (first revision) 17.20 IS 3443 : 1980 Crane rail sections (first revision) 17.21 IS 3954  : 1991 Hotrolled steel channel sections for general engineering purpose 17.22 (first revision) IS 3964 : 1980 Light rails (first revision). 17.23 IS 8081: 1976* Slotted sections. 17.24 IS 12778 : 2004 Hot rolled steel parallel flange beam and column sections-dimensions. 17.25 * This covers both aluminium and steel. Note - See  also Section 15 Structural steel and Section 16 Light metal and their alloys.",
+      "clause_id": "IS 2678:1987#3",
+      "family": "IS 2678",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 707,
+      "page_end": 710,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2678:1987",
+    "record_id": 9192,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      707,
+      710
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.836,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

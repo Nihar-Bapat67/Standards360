@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 14695:1999",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Covers the requirement for glass fibre base coal tar pitch outerwrap used for corrosion protection of buried mild steel pipelines.",
+      "clause_id": "IS 14695:1999#1",
+      "family": "IS 14695",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 264,
+      "page_end": 264,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 14695:1999",
+      "clause": "2",
+      "title": "Dimensions and",
+      "text": "2. Dimensions and  Weight",
+      "clause_id": "IS 14695:1999#2",
+      "family": "IS 14695",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 264,
+      "page_end": 264,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 14695:1999",
+      "clause": "2.1",
+      "title": "Dimensions",
+      "text": "2.1 Dimensions— Glass fibre base outerwrap shall be supplied in width of one metre and in lengths of 100 m. 3.2 Weight — See Table 1. TABLE 1 MINIMUM WEIGHT OF GLASS FIBRE BASE OUTERWRAPS FOR 10 m2 Untreated Treated              Total Weight in Dry Base Base condition Including kg kg Surfacing Material. kg (1) (2) (3) 0.4 4.5 5.5 SUMMARY OF IS  14695  : 1999 GLASS FIBRE BASE COAL TAR PITCH OUTER WRAP Note— For test procedure, refer to IS 13826 : 1993 Methods of test for bitumen based felts: (Part 1) Breaking strength test. (Part 2) Pliability test. For detailed information, refer to IS 14695 : 1999 Specification for glass fibre base coal tar pitch outer  wrap.",
+      "clause_id": "IS 14695:1999#2.1",
+      "family": "IS 14695",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 264,
+      "page_end": 264,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 14695:1999",
+      "clause": "3",
+      "title": "Other Requirements",
+      "text": "3. Other Requirements — See Table 2 TABLE 2 REQUIREMENTS OF GLASS FIBRE OUTER WRAPS Sl.No. Properties Requirement (1) (2) (3) i)     Breaking strength a)   Wrap 30 in Kg, min b)   Weft 15 ii)   Pliability after a)   Roll shall not conditioning the show cracks on unrolling sample for 3 h at 5 oC. b)   Consider any surface repture exceeding  5 mm in length as fracture. SECTION 10 SANITARY APPLIANCES AND WATER FITTINGS g CONTENTS Title Page GENERAL IS 775 :1970 Cast iron brackets and supports for wash basins and sink (second  revision) 10.8 IS 782 :1978 Caulking lead (third revision) 10.9 IS 804 :1967 Rectangular presssed steel tanks (first revision) 10.10 IS 1700 :1973 Drinking fountains (first revision) 10.11 IS 2963 :1979 Copper alloy wastage-fittings for wash basins and sinks (first revision) 10.12 IS 3489 :1985 Enamelled steel bath tubs (first revision) 10.13 IS 5219  (Part1) :1969 Cast copper   alloy  traps Part1 - 'P' and 'S' traps. 10.16 IS 6411:1985 Gel-Coated glass fibre reinorced polyester resin bath tubs (first revision)       10.18 IS 8718 :1978 Vitreous   enamelled steel kitchen sinks 10.20 IS 8727:1978 Vitreous   enamelled steel wash-basins. 10.21 IS 12701:1996 Rotational moulded polyethylene water storage tanks (first revision) 10.22 IS 13983:1994 Stainless steel sinks for domestic purposes. 10.25 IS 14399 (Part & 2) :1996 Hot press moulded thermosetting glass fibre reinforced poltester resin 10.27 (GRP) Sectional water storage tanks. PIPES AND FITTINGS EXCLUDING VALVES Brass and Copper IS 407 : 1981 Brass  tube for general purposes (third revision) 10.29 IS 2501 : 1995 Solid drawn copper tubes for general engineering purposes (third revision)      10.31 Cast - Iron IS: 1230 : 1979 Cast iron rain  water pipes and fittings (second revision). 10.32 IS 1536 : 2001 Centrufugally cast (spun) iron pressure pipes  for water, gas  and sewage 10.33 (fourth revision) IS 1537 : 1976 Vertically cast iron pressure pipes for water, gas and sewage (first revision)            10.35 IS 1538 : 1993 Cast iron fitting for  pressure pipes for water, gas and sewage (third revision)         10.36 IS 1729 : 2002 Sand cast iron spigot and socket soil  waste and ventilating pipes, fittings and accessories (second revision) 10.40 IS 1879 : 1987 Malleable cast iron pipe fittings    (second revision) 10.42 IS 3989 : 1984 Centrifugally cast (spun) iron spigot and socket soil, waste and ventilating pipes,   fittings and accessories (second revision) 10.46 IS 5382 : 1985 Rubber sealing rings for gas mains, water mains and sewers   (first revision) 10.48 IS 5531 :1988 Cast iron specials for asbestos-cement pressure pipes for water, gas and sewage  (first revision) 10.50 Title Page IS 6163 : 1978 Centrifugally cast (spun) iron low pressure pipes for water, gas and sewage 10.52 (first revision) IS 6418 : 1971 Cast iron and malleable cast iron flanges for general engineering purpose. 10.54 IS 7181:1986 Horizontally cast  iron double flanged pipes for water, gas and   sewage 10.56 (first revision) IS 8329 : 2000 Centrifugally cast (spun) ductile iron pressure pipes for  water, gas and 10.57 sewage  (third revision) IS 8794 : 1988 Cast iron detachable joints for use with asbestos cement pressure pipes 10.59 first revision) IS 9523 : 2000 Ductile iron fitting for pressure pipes  for water, gas and   sewage (first revision) 10.60 IS 10292 : 1988 Dimensional requirements of  rubber  sealing rings for  CID  joints in asbestos cement   piping  (first revision) 10.61 IS 10299 : 1982 Cast iron saddle pieces for service connection from asbestos cement pressure pipes. 10.62 IS 12820 : 2004 Dimensional requirements of  rubber  gaskets for mechanical joints and push   on joints for  use with cast iron pipes and  fittings for  carrying water,  gas and sewage (first revision) 10.63 IS 12987 : 1991 Cast  iron  detachable joints for  use with  asbestos cement pressure pipes (light duty) 10.65 IS 12988 : 1991 Dimensional requirements for  rubber sealing rings for  CID joints in asbestos cement  piping for light duty AC pipes. 10.66 IS 13382 : 2004 Cast iron specials for mechanical  and push- on flexible joints for pressure pipe  lines   for   water, gas and sewage (first revision) 10.67 FIBRE PIPES IS 11925 : 1986 Pitch impregnated fibre pipes  and fittings for drainage puposes 10.69 LEAD PIPES IS 404 (Part 1) : 1993 Lead pipes (Part I) for other than chemical purposes (third revision) 10.71 PLASTIC PIPES IS 3076 : 1985 Low density polyethylene pipes for potable water supplies (second  revision). 10.72 IS 4984 : 1995 High density polyethylene pipes for potable water supplies   (fourth revision) 10.74 IS 4985 : 2000 Unplasticised PVC pipes for potable water supplies (third revision). 10.76 IS 7834 : 1987 Injection moulded PVC fittings   with solvent cement  joints for water supplies (first revision) Part I      General requirements 10.78 Part 2     Specific requirement  for  450  elbows 10.80 Title Page Part 3 Specific requirement for   90°  elbows 10.81 Part 4 Specific requirement  for   90° tees 10.82 Part 5 Specific requirement  for  45°  tees 10.83 Part 6 Specific  requirement  for sockets 10.84 Part 7 Specific requirement for unions 10.85 Part 8 Specific requirement  for  caps 10.86 IS 8008 : 2003 Injection moulded HDPE  fitting for  potable water supplies (first revision) Part I General requirements for fittings 10.87 Part 2 Specific  requirements  for  90°   bends 10.88 Part 3 Specific requirements for 90°  tees. 10.89 Part 4 Specific  requirements  for   reducers 10.90 Part 5 Specific  requirement s for ferrule reducers 10.91 Part 6 Specific  requirements  for  pipe ends. 10.92 Part 7 Specific requirements for  sandwich flanges 10.93 IS 8360 : 1977 Fabricated high density polyethylene (HDPE) fitting  for  potable water supplies Part I General requirements 10.94 Part 2 Specific  requirements  for  90°  tees 10.95 Part 3 Specific requirements for  90°  bends 10.96 IS 10124 : 1988 Specification for fabricated PVC fitting water supplies (first revision) Part I General requirements 10.97 Part 2 Specific requirements  for sockets. 10.98 Part 3 Specific requirements for straight reducers 10.99 Part 4 Specific requirements  for  caps 10.101 Part 5 Specific  requirements  for  equal tees. 10.102 Part 6 Specific  requirements  for  flanged tail piece with metallic flanges 10.104 Part  7 Specific requirements fors  threaded adaptors. 10.106 Part 8 Specific requirements  for   90° bends 10.108 Part 9 Specific  requirements  for  60° bends 10.109 Part10 Specific requirements for  45° bends 10.110 Part 11 Specific requirements  for   30° bends 10.111 Part12 Specific requirement s  for   22.1/2° bends 10.112 Part 13 Specific requirements  for   11.1/4° bends 10.113 IS 12709 : 1994 Glass fibre reinforced plaster (GRP) pipes joints and fittings for  use for potable water supply  (first revision). 10.114 IS 12818 : 1992 Unplasticised  PVC screens and casting pipes for  bore / tubewell   supplyuse 10.118 (first revision). Title Page IS 13592:1992 UPVC pipes for soil and waste discharge systems for  inside and outside buildings including ventilation and rain water  system 10.122 IS 14333:1996 High density  polyethylene pipe for   sewage 10.125 IS 14402:1996 GRP pipes joint  and fitting for sewerage, industrial waste and water (other than potable) 10.127 IS 14735: 1999 Unplasticised polyvinyl chloride (UPVC) injection moulded fitting for soil and waste discharge system for inside and outside buildings including ventilation and rain water systems. 10.130 STEEL TUBES, PIPES AND FITTINGS IS     1239: Steel tubes, tubulars and other wrought steel fittings Part I:2004 Steel tubes (sixth revision) 10.133 Part 2:1992 Steel tubulars and other wrought steel fittings  (fourth revision) 10.136 IS 3589:2001 Seamless or electrically welded steel pipes for water, gas and sewage (168.3 to 2032 mm outside diameter) (third revision) 10.138 IS     4270: 2001 Steel tubes used for water wells (thir drevision) 10.140 IS 5504:1997 Spiral welded  pipes.(first revision) 10.142 IS     6286:1971 Seamless welded steel pipes for sub zero temperature  service 10.143 STONEWARE IS 651: 1992 Salt glazed stoneware pipes and  fittings (fifth revision) 10.145 IS     3006 :1979 Chemically resistant glazed stoneware pipes and fittings (first revision) 10.147 Note— Asbestos, cement and concrete pipes have been covered in Section 1 On cement and concrete SANITARY APPLIANCES IS 771: Glazed fire-clay sanitary appliances Part 1: 1979 General requirements (second revision) 10.149 Part 2 :1985 Specific requirements for  kitchen and laboratory sinks (third revision) 10.150 Part 3 : 1979 Specific requirements for  urinals. Section-1, slab urinals (second revision) 10.151 Part 3 : 1985 Specific requirements for  urinals. Section-2, Stall urinals (third revision) 10.152 Part 5 : 1979 Specific requirements for  shower trays (second revision) 10.153 Part 7 : 1981 Specific requirements of slop sink (second revision) 10.154 IS 772 : 1973 General requirements of enamelled cast iron sanitary appliances (second revision) 10.155 Title Page IS 773 : 1988 Enamelled cast iron  water- closets, railway coaching stock type (fourth revision). 10.156 IS 774 : 2004 Flushing cistern for water closets and urinals (other than plastic cistern) ( fifth revision) 10.157 IS 1726 :1991 Cast iron man-hole covers and frames (third revision) 10.159 IS 2326 : 1987 Automatic flushing cisterns  for urinals other than plastic interms (first revision) 10.161 IS 2548 : 1996 Plastic seats and covers for water closets (fifth revision) Part 1: Thermoset seats and covers. 10.162 Part 2 : Thermoplastic seats and covers 10.164 IS 2556 : Vitreous sanitary appliances (vitreous china) Part 1 : 1994 General requirements (third revision) 10.166 Part 2 : 1994 Specific requirements of washdown, water closet(fourth revision) 10.169 Part 3 : 1994 Specific requirements for squatting pans (fourth revision) 10.171 Part 4 : 1994 Specific requirements of wash basins (third revision) 10.173 Part 5 : 1994 Spcific requirements of laboratory sinks (third revision) 10.174 Part 6 : 1995 Specific requirements of urinals and partition plates (fourth revision) 10.175 Part 7 : 1995 Specific requirements of accessories for sanitary appliances  (third revision) 10.180 Part 8 :1995 Specific requirements of Kedastal close  coupled washdown andsiphonic water-closets (fourth revision) 10.184 Part 9 : 1995 Specific requirements of Biets (fourth revision) 10.188 Part 14 : 1995 Specific requirements of integrated sqatting pans (first revision) 10.190 Part 15 : 1995 Specific requirements of universal waterclosets (first revision) 10.191 IS    5455 : 1969 Cast iron steps for man-holds 10.193 IS    5961 : 1970 Cast-iron gratings for drainage purposes 10.195 IS    7231 : 1994 Plastic flushing cisterns for water closets and urinals (second revision) 10.196 IS   11246 : 1992 Glass fibre reinforced polyester resin (GRP) squatting pans (first revision) 10.198 VALVES    AND    FITTINGS   ( INCLUDING FERRULES) IS 778 : 1984 Copper alloy gate, globe and check valves for water works purposes (fourth revision) 10.200 IS 781:1984 Cast copper alloy screw down bib taps and stop valves for water services (third revision) 10.202 IS 1701: 1960 Mixing valves for ablutionary and domestic purposes 10.203 IS 1703 : 2000 Water fittings copper alloy float valves (horizontal plunger type) for water supply fittings (fourth revision) 10.204 Title Page IS 1711:1984 Self closing taps for water supply purposes (second revision) 10.205 IS 1795 :1982 Pillar taps for water supply purposes (second revision) 10.206 IS 2692 : 1989 Ferrules for water services (second revision) 10.207 IS 3004 :1979 Plug cocks for water supply purposes (first revision) 10.208 IS 3311:1979 Waste plug and its accessories for sink and wash basins (first revision) 10.209 IS 4346 :1982 Washers for use with fittings for water serices (first revision) 10.210 IS 5312: Swing check type reflux (non-return) valves Part 1:2004 Single door pattern (second revision) 10.211 Part 2:1986 Multi door pattern 10.213 IS 8931:1993 Copper alloy fancy single taps, combination tap assembly and stop valve for water services (first revision) 10.214 IS 9338 :1984 Cast-iron screw-down stop valves and stop check valves for water works purposes  (first revision) 10.216 IS 9739 :1981 Pressure reducing valves for domestic water supply systems 10.218 IS 9758 :1981 Flush valves and fittings for water closets and urinals 10.219 IS 9762 : 1994 Polyethylene floats (spherical) for float valves (first revision) 10.220 IS 9763 :  2000 Plastic bib taps,  pillar taps, angle valves  for   hot  and cold water services (second revision) 10.221 IS 12234 : 1988 Plastic equilibrium float valves  for cold water services 10.223 IS 13049 : 1991 Diaphragm type (Plastic body) float operated valves for cold water services 10.224 IS 13114 : 1991 Forged brass gate, globe and check valves for water works purposes 10.225 IS 13349 : 1992 Single faced cast-iron thimble mounted sluice gates 10.227 IS 14845 : 2000 Resilient seated cast iron air relief valves for water works purposes 10.229 IS 14846 : 2000 Sluice valves for water works purposes (50 to 1 200 mm size) 10.231 WATER METERS IS 779 : 1994 Water meters (domestic type) (sixth revision) 10.232 IS 2104 : 1981 Water meter boxes domestric types (first revision) 10.234 IS 2373 : 1981 Water meters (bulk type) (third revision) 10.235 Note— IS  638 : 1979 Sheet rubber jointing and rubber insertion jointing (second revision)is covered  in Section  8 Floor Covering and Finishing.",
+      "clause_id": "IS 14695:1999#3",
+      "family": "IS 14695",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 264,
+      "page_end": 271,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 14695:1999",
+    "record_id": 6629,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      264,
+      271
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

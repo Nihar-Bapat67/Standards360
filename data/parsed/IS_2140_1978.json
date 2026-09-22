@@ -1,0 +1,220 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2140:1978",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for  galvanized strand fencing wire of 3-ply and 7-ply construction. For detailed information, refer to  IS 2140 : 1978 Specifications for stranded galvanized steel wire for fencing (first revision).",
+      "clause_id": "IS 2140:1978#1",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2140:1978",
+      "clause": "2",
+      "title": "Dimensions",
+      "text": "2. Dimensions",
+      "clause_id": "IS 2140:1978#2",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2140:1978",
+      "clause": "2.1",
+      "title": "Wire Strand, 3",
+      "text": "2.1 Wire Strand, 3-Ply Construction Nominal Dia Minimum Breaking Load Length of Tolerance on of Single Wire Lay Length of Lay SingleWire Completed 540 N/mm2 Strand* mm N N mm mm 1.60 1080 3078 40 ±10 2.24 2160 6156 50 ±10 2.50 2700 7695 60 ±10 2.80 3240 9234 60 ±10 3.15 4320 12312 70 ±10 3.55 5400 15390 80 ±10 *The minimum breaking load of the completed strand is 95 percent of the minimum aggregate breaking load.",
+      "clause_id": "IS 2140:1978#2.1",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2140:1978",
+      "clause": "2.2",
+      "title": "Wire Strand, 7",
+      "text": "2.2. Wire Strand, 7- Ply Construction Nominal Dia Minimum Breaking Load Length of Tolerance on of Single Wire Lay Length of Lay SingleWire Completed 540 N/mm2 Strand ** mm N N mm mm 0.50 135 898 40 ±10 0.80 270 1796 50 ±10 1.25 735 4888 60 ±10 1.60 1080 7182 60 ±10 2.24 2160 14362 70 ±10 2.50 2700 17955 80 ±10 2.80 3240 21546 80 ±10 3.15 4320 28728 90 ±10 3.55 5400 35910 100 ±10 **The minimum breaking load of the completed strand is 95 percent of the minimum aggregate breaking load.",
+      "clause_id": "IS 2140:1978#2.2",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2140:1978",
+      "clause": "3",
+      "title": "Material –",
+      "text": "3. Material -",
+      "clause_id": "IS 2140:1978#3",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2140:1978",
+      "clause": "3.1",
+      "title": "Shall be manufactured from",
+      "text": "3.1 Shall be manufactured from galvanized mild steel wire conforming to IS 280 : 1978*. The wire shall have a tensile strength of 540 N/mm2, Min.",
+      "clause_id": "IS 2140:1978#3.1",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2140:1978",
+      "clause": "3.2",
+      "title": "The galvanized Mild steel",
+      "text": "3.2 The galvanized Mild steel wire used shall conform to the requirements for galvanizing as laid down  for the' heavily- coated wire' or ' medium coated wire as per the prescribed standard. *  Mild steel wire for general engineering purposes (third revision).",
+      "clause_id": "IS 2140:1978#3.2",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2140:1978",
+      "clause": "4",
+      "title": "Lay – Shall be",
+      "text": "4. Lay - Shall be right-hand. The strand shall be evenly and uniformly laid . The length  of the lay shall be as specified in 2.1 and 2.2.",
+      "clause_id": "IS 2140:1978#4",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2140:1978",
+      "clause": "5",
+      "title": "Freedom from",
+      "text": "5. Freedom from  Defects -  Shall be free  from scale, irregularities,imperfections, flaws, sand- spilts and other defects. The galvanizing shall be smooth,  even and bright.",
+      "clause_id": "IS 2140:1978#5",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2140:1978",
+      "clause": "6",
+      "title": "Tests",
+      "text": "6. Tests",
+      "clause_id": "IS 2140:1978#6",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2140:1978",
+      "clause": "6.1",
+      "title": "Minimum Breaking Load",
+      "text": "6.1 Minimum Breaking Load — As given in 2.1 and 2.2",
+      "clause_id": "IS 2140:1978#6.1",
+      "family": "IS 2140",
+      "year": 1978,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 812,
+      "page_end": 812,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2140:1978",
+    "record_id": 8677,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      812,
+      812
+    ],
+    "n_clauses": 11,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

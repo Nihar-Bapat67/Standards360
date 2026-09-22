@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4832 (Part 3):1968",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Requirements of sulphur type chemical resistant mortars for bonding chemical resistant masonry units. Note — Such mortars have good resistance against most of the acids except concentrated oxidizing acids, but have poor resistance to alkalis. Used for jointing acid resistance bricks or tiles.",
+      "clause_id": "IS 4832 (Part 3):1968#1",
+      "family": "IS 4832 (Part 3)",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 209,
+      "page_end": 209,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 3):1968",
+      "clause": "2",
+      "title": "Composition",
+      "text": "2. Composition a)    Sulphur—55 to 70 percent b)    Inert filler—30 to 45 percent c)    Sieve analysis of silica filler The percent material retained on different sieves shall not exceed the following: IS Sieve Percentage Retained Designation by Mass 425 micron 5 max 150 micron 10 min 75 micron 35 min Note —  For other fillers, requirements gi ven  at  Sl No. (vii) of  Table 1 shall apply.",
+      "clause_id": "IS 4832 (Part 3):1968#2",
+      "family": "IS 4832 (Part 3)",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 209,
+      "page_end": 209,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 3):1968",
+      "clause": "3",
+      "title": "Physical Requirements",
+      "text": "3. Physical Requirements — See Table 1 SUMMARY OF IS 4832 (PART 3) : 1968 CHEMICAL RESISTANT MORTARS PART 3 - SULPHUR TYPE TABLE 1 PHYSICAL REQUIRE- MENTS OF SULPHUR TYPE CHEMI- CAL RESISTANT MORTARS S.No.              Property Requirement (1) (2) (3) i) Compressive strength at  48 hours, 280 Min, kgf/cm 2 ii) Tensile strength at 48 hours, Min, 30 kg/cm 2 iii) Flexural strength at 48 hours, Min 70 kg/cm 2 iv) Bond strength at 48 hours Min kg/cm 2 10 v) Proportion of original strength retained after Shock test, Min percent 20.0 vi) Moisture absorption, Max, present 1.0 vii) Tendency of aggregate to settle, Max 0.6 variation from unity",
+      "clause_id": "IS 4832 (Part 3):1968#3",
+      "family": "IS 4832 (Part 3)",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 209,
+      "page_end": 209,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 3):1968",
+      "clause": "4",
+      "title": "Chemical Resistance Requirements",
+      "text": "4. Chemical Resistance Requirements— The limits may be settled between the purchaser and the supplier.",
+      "clause_id": "IS 4832 (Part 3):1968#4",
+      "family": "IS 4832 (Part 3)",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 209,
+      "page_end": 209,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 3):1968",
+      "clause": "5",
+      "title": "Storage Life",
+      "text": "5. Storage Life — Shall not be less than 2 years. Shall be placed in a dry place away from fire. Note 1 — For methods of tests, refer to IS 4456(Part 2) : 1967 Methods of test for chemical resistant  mortars: Part 2  Sulphur type. Note 2— For general guide for chemical resistance of sulphur type mortars to various substances, refer to Table 1 of IS 4442:1980 Code of  practic for use of resin type chemical resistant mortar (First Revision.) For detailed information, refer to IS 4832 (Part 3) : 1968 Specification for chemical resistant mortars: Part 3 Sulphur type.",
+      "clause_id": "IS 4832 (Part 3):1968#5",
+      "family": "IS 4832 (Part 3)",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 209,
+      "page_end": 209,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4832 (Part 3):1968",
+    "record_id": 11554,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      209,
+      209
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

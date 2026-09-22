@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3709:1966",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope  - Requirements and  methods of  sampling and test for mastic cement for bedding of metal windows. The material is intended for application by hand or with a putty knife. It is used for bedding, one metal window into another, metal windows into wooden frames, or metal frames into masonry or concrete. It is expected to be suitable for taking paint without lifting, bleeding or cracking.",
+      "clause_id": "IS 3709:1966#1",
+      "family": "IS 3709",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 830,
+      "page_end": 830,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3709:1966",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 3709:1966#2",
+      "family": "IS 3709",
+      "year": 1966,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 830,
+      "page_end": 830,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3709:1966",
+      "clause": "2.1",
+      "title": "Shall be in the form of a homogeneous paste",
+      "text": "2.1 Shall be in the form of a homogeneous paste  which after working in the hands, shall have good plastic quality. Shall work smoothly under a knife without crumbling or cracking and without sticking unduly to hand or knife.",
+      "clause_id": "IS 3709:1966#2.1",
+      "family": "IS 3709",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 830,
+      "page_end": 830,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3709:1966",
+      "clause": "2.2",
+      "title": "Composition",
+      "text": "2.2 Composition a) Whiting 80 to 85 percent by weight b) Oils 15 to 20 percent by weight Note 1 — Up to 10 percent of whiting may be replaced  by asbestos fibrous powder. One to two percent shall be replaced by yellow ochre to distinguish it from putty for fixing glass. Note 2 — Oils shall be a mixture of 85 percent raw linseed oil and 15 percent castor oil.",
+      "clause_id": "IS 3709:1966#2.2",
+      "family": "IS 3709",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 830,
+      "page_end": 830,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3709:1966",
+      "clause": "2.3",
+      "title": "Adhesion",
+      "text": "2.3 Adhesion  - The material shall satisfactorily adhere to wood, masonry, concrete and metal frames of painted or etched galvanized steel or pre-treated aluminium.",
+      "clause_id": "IS 3709:1966#2.3",
+      "family": "IS 3709",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 830,
+      "page_end": 830,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3709:1966",
+      "clause": "2.4",
+      "title": "Water Content",
+      "text": "2.4 Water Content  -  Not more than 0.5 percent.",
+      "clause_id": "IS 3709:1966#2.4",
+      "family": "IS 3709",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 830,
+      "page_end": 830,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3709:1966",
+      "clause": "2.5",
+      "title": "Setting Properties – Spread",
+      "text": "2.5 Setting Properties - Spread material to a thickness of  5 to 6 mm on a  mild steel plate 300 × 300 mm and approximately 2.5 mm thick. Keep it in  vertical position under standard atmospheric conditions for 7 days. There shall be no cracks or sagging of the film and shall remain plastic.",
+      "clause_id": "IS 3709:1966#2.5",
+      "family": "IS 3709",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 830,
+      "page_end": 830,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 3709:1966",
+      "clause": "2.6",
+      "title": "Keeping Properties",
+      "text": "2.6 Keeping Properties  - Six months from the date of manufacture in original sealed containers. Note - For Methods of test, refer to IS 85 : 1950  Methods of test for oil pastes for paints. For detailed information, refer to  IS 3709 : 1966 Specification  for mastic cement for bedding of metal windows. SECTION 23 THERMAL INSULATION MATERIALS CONTENTS Title Page IS 3677 : 1985 Unbonded rock and slag wool for thermal insulation (second revision) 23.3 IS 4671 : 1984 Expanded polystyrene for thermal insulation purposes (first revision) 23.5 IS 6598 : 1972 Cellular concrete for thermal insulation 23.7 IS 7509 : 1993 Thermal insulating cement  (first revision) 23.8 IS 8154 : 1993 Preformed calcium silicate insulation (for temperature up to 650ºC) 23.9 (first revision) IS 8183 : 1993 Bonded mineral wool  (first revision) 23.11 IS 9428 : 1993 Preformed Calcium silicate insulation (for temperatures upto 950ºC) 23.13 (first revision) IS 9742 : 1993 Sprayed mineral wool thermal insulation  (first revision) 23.15 IS 9743 : 1990 Thermal insulation finishing cements   (first revision) 23.16 IS 9842 : 1994 Preformed fibrous pipe insulation (first revision) 23.18 IS 11128 : 1984 Spray applied hydrated Calcium silicate thermal insulation 23.20 IS 11307: 1985 Cellular glass block and pipe thermal insulation 23.21 IS 11308 : 1985 Hydraulic setting thermal insulating castables for temperatures 23.22 up to 1250º C. IS 12436 : 1988 Preformed rigid polyurethane (PUR) and polyisocyanurate (PIR) foams 23.23 for thermal insulation IS 13204 : 1991 Rigid phenolic foams for thermal insulation 23.25",
+      "clause_id": "IS 3709:1966#2.6",
+      "family": "IS 3709",
+      "year": 1966,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "references",
+      "page_start": 830,
+      "page_end": 832,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3709:1966",
+    "record_id": 10309,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      830,
+      832
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

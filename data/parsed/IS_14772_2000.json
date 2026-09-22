@@ -1,0 +1,574 @@
+{
+  "clauses": [
+    {
+      "is": "IS 14772:2000",
+      "clause": "1",
+      "title": "Scope – This standard",
+      "text": "1. Scope - This standard applies to enclosures or parts of enclosures or parts for accessories with a rated voltage not exceeding 440 V intended for household or similar fixed electrical installatinos, either indoors or outdoors. This standard may be used as a guide for enclosures having a rated vltage up to 100 V. Enclosures complying with this standard are suitable for use, after installation, an ambient temperatures not normally exceeding 35oC, but occasionally reaching 45oC. For the purpose of this standard the enclosures include surface, flush and semi-flush mounting boxes provided, for electrical accessories, where the cover or cover plate may or may not be part of the accessory. This standard does not apply to enclosures for assemblies containing overcurrent protective devices, not to enclosures of the busbar trunking of luminaires. This standard also applies to boxes intended for the mounting or suspension of luminaries. This standard is intended to apply to enclosures for electrical accessories but is also intended to serve as a reference document for other Indian Standards. As enclosures which is an integral part of an electrical accessory and provides protection for that accessory against external influences (for example mechanical impact, ingress of solid objects or water etc) is covered by the relevant standard for such an accessory. (AQL) for lot-by-lot inspection (second revision) 2824 : 1975 Method for determining the comparative tracking index of solid insulating  material under moist condition (first revision) 11000 (Part 2/ Fire hazard testing: Part 2  Test method, Sec 1) : 1984 method, Section I Glow wire test and guidance 12063 : 1987 Classification of degree of protection provided by enclosures of electrical equipment. 13588 : 1993/ Spring operated impact test apparatus IEC 817:1984 and calibration 14763 : 2000 conduits for electrical purposes, inside diameters of conduits for electrical installations and thread for conduits and fittings",
+      "clause_id": "IS 14772:2000#1",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements",
+      "clause_id": "IS 14772:2000#2",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "2.1",
+      "title": "Enclosures shall be so",
+      "text": "2.1  Enclosures shall be so designed and constructed that, when mounted as for normal use, they ensure adequate electrical and mechanical protection to the parts so enclosed and prevent danger to the user or surroundings. Compliance is checked by carrying out all the relevant tests specified.",
+      "clause_id": "IS 14772:2000#2.1",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3",
+      "title": "Classification – Enclosures are classified according",
+      "text": "3. Classification - Enclosures are classified according to:",
+      "clause_id": "IS 14772:2000#3",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.1",
+      "title": "The nature of their material",
+      "text": "3.1     The nature of their material",
+      "clause_id": "IS 14772:2000#3.1",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.1.1",
+      "title": "Insulating material",
+      "text": "3.1.1  Insulating material",
+      "clause_id": "IS 14772:2000#3.1.1",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.1.2",
+      "title": "Metallic",
+      "text": "3.1.2   Metallic",
+      "clause_id": "IS 14772:2000#3.1.2",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.1.3",
+      "title": "Composite",
+      "text": "3.1.3  Composite",
+      "clause_id": "IS 14772:2000#3.1.3",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.2",
+      "title": "The method of installatino",
+      "text": "3.2  The method of installatino",
+      "clause_id": "IS 14772:2000#3.2",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.2.1",
+      "title": "Flush",
+      "text": "3.2.1  Flush - type",
+      "clause_id": "IS 14772:2000#3.2.1",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.2.2",
+      "title": "Semi",
+      "text": "3.2.2  Semi-flush type",
+      "clause_id": "IS 14772:2000#3.2.2",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.2.3",
+      "title": "Surface",
+      "text": "3.2.3  Surface - type",
+      "clause_id": "IS 14772:2000#3.2.3",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.3",
+      "title": "The Nature of installation",
+      "text": "3.3  The Nature of installation",
+      "clause_id": "IS 14772:2000#3.3",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.3.1",
+      "title": "Enclosures flush mounted in",
+      "text": "3.3.1  Enclosures flush mounted in :",
+      "clause_id": "IS 14772:2000#3.3.1",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 3,
+      "parent_clause": "3.3",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.3.1.1",
+      "title": "Solid non",
+      "text": "3.3.1.1  Solid non - combustible walls and ceillilngs: a)  Suitable to be placed before the building process (for example not suitable for casting into concrete) b)  Suitable to be placed after the building process (for example not suitable for casting into concrete).",
+      "clause_id": "IS 14772:2000#3.3.1.1",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 4,
+      "parent_clause": "3.3.1",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.3.1.2",
+      "title": "Solid combustible walls and ceilings",
+      "text": "3.3.1.2  Solid combustible walls and ceilings",
+      "clause_id": "IS 14772:2000#3.3.1.2",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 4,
+      "parent_clause": "3.3.1",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.3.1.3",
+      "title": "Hollow walls, hollow ceillings, furniture,",
+      "text": "3.3.1.3  Hollow walls, hollow ceillings, furniture, architraves",
+      "clause_id": "IS 14772:2000#3.3.1.3",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 4,
+      "parent_clause": "3.3.1",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.3.1.4",
+      "title": "Trunking and ducting",
+      "text": "3.3.1.4  Trunking and ducting",
+      "clause_id": "IS 14772:2000#3.3.1.4",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 4,
+      "parent_clause": "3.3.1",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.3.2",
+      "title": "Enclosures surface mounted on",
+      "text": "3.3.2  Enclosures surface mounted on :",
+      "clause_id": "IS 14772:2000#3.3.2",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 3,
+      "parent_clause": "3.3",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.3.2.1",
+      "title": "Non",
+      "text": "3.3.2.1  Non-combustible walls and ceilings",
+      "clause_id": "IS 14772:2000#3.3.2.1",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 4,
+      "parent_clause": "3.3.2",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 923,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.3.2.2",
+      "title": "Combustible walls and/or ceilings and/or",
+      "text": "3.3.2.2  Combustible walls and/or ceilings and/or furniture",
+      "clause_id": "IS 14772:2000#3.3.2.2",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 4,
+      "parent_clause": "3.3.2",
+      "role": "other",
+      "page_start": 923,
+      "page_end": 924,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.4",
+      "title": "The temperature range during installation",
+      "text": "3.4 The temperature range during installation 3.4.1  from -5oC to + 60oC 3.4.2 from - 15oC to + 60oC 3.4.3 from - 25oC to + 60oC (see Note) Note - These tpes aer intended for enclosures to be used nutdoor conditions with a cold climate.",
+      "clause_id": "IS 14772:2000#3.4",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 924,
+      "page_end": 924,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.5",
+      "title": "The maximum temperature during the building",
+      "text": "3.5  The maximum temperature during the building process.",
+      "clause_id": "IS 14772:2000#3.5",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 924,
+      "page_end": 924,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.5.1",
+      "title": "+60oC",
+      "text": "3.5.1  +60oC",
+      "clause_id": "IS 14772:2000#3.5.1",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 3,
+      "parent_clause": "3.5",
+      "role": "other",
+      "page_start": 924,
+      "page_end": 924,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "3.5.2",
+      "title": "+ 60oC (see Note)",
+      "text": "3.5.2 + 60oC (see Note) Note - These tpes aer intended for enclosures to be used nutdoor conditions with a cold climate. 3.3  The degree of protection against direct contact and harmful ingress of solid objects and harmful ingress of water. According to IP given in IS 12063. 3.7  The provision for suspension means 3.7.1  Without suspension means 3.7.2  With suspension mens Enclosures intended to provide double or reinforced insulation are under consideration. The time interval between one drop and the next is 30 ± 5s. No flashover or breakdown between electrodes shall occur before a total of 50 drops has fallen. Note- 1. Care is taken that the electrodes are clean, correctly shaped and correctly positioned before each test is started. 2. In case of doubt the test is repeated, if necessary, on a new set of samploes.",
+      "clause_id": "IS 14772:2000#3.5.2",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 3,
+      "parent_clause": "3.5",
+      "role": "other",
+      "page_start": 924,
+      "page_end": 924,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "4",
+      "title": "Tests –",
+      "text": "4. Tests -",
+      "clause_id": "IS 14772:2000#4",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 924,
+      "page_end": 924,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "4.1",
+      "title": "Category of Test –",
+      "text": "4.1 Category of Test -  Tests are classified as type, acceptance and routine test. Table 3 Scheduled of Test (Clause 18.1) Sl. No. Test i) Making ii) Dimensions iii) Protection against electric shock iv) Provision for earthing v) Construction vi) Resistance to ageing, to humid conditinos, ingress of solid objects and to harmful ingress of water vii) Mechanical strenghs viii) Resistance to heat ix) Resistance of insulating material to abnormal heat and fire x) Resistance to rusting xi) Resistance of tracking",
+      "clause_id": "IS 14772:2000#4.1",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 924,
+      "page_end": 924,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "4.2",
+      "title": "Acceptance test – The",
+      "text": "4.2 Acceptance test -  The follosing shall constitue the accpetance test: Test Making Protection against electric shock Provision for earthing Construction Resistance to ageing, to humid condition, to ingress of solid objects and to harmful ingress of water Mechanical Strength",
+      "clause_id": "IS 14772:2000#4.2",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 924,
+      "page_end": 924,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14772:2000",
+      "clause": "4.3",
+      "title": "Routine Test",
+      "text": "4.3 Routine Test Test Protection against electric shock Provision for earthing Note - For  detail requirements refer to the standard For detailed  information, refer to  IS 14772 : 2000. Specification for  conduits for electric installations - Part 3 Rigid plain conduits of insulation materials. SECTION 27 GENERAL CONTENTS Title Page IS 875 : Code of practice for Design loads (Other than Earthquake)for Buildings and Structures (Part-1): 1987 Dead loads — Unit Weights of Building Materials and stored materials .27.2",
+      "clause_id": "IS 14772:2000#4.3",
+      "family": "IS 14772",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 924,
+      "page_end": 926,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 14772:2000",
+    "record_id": 25191,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      923,
+      926
+    ],
+    "n_clauses": 29,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.999,
+    "flags": [
+      "standard_withdrawn",
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

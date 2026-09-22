@@ -1,0 +1,76 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7509:1993",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements  and the methods of sampling and test for thermal linsulating cements for use at temperatures up to 950ºC.",
+      "clause_id": "IS 7509:1993#1",
+      "family": "IS 7509",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 838,
+      "page_end": 838,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7509:1993",
+      "clause": "2",
+      "title": "Types –",
+      "text": "2. Types - Type 350 -  for use of temperatures up to 350º C, Type 750 -  for use of temperatures up to 750ºC,and Type 950 -  for use of temperatures up to 950º C. TABLE 1 REQUIREMENTS  OF   THERMAL  INSULATING  CEMENTS SI No. Characteristic Requirements Type 350 Type 750 Type 950 i) Service temperature 3500 C 7500 C 9500 C ii) Consistency, percent a) Method A 35 to 45 35 to 45 — b) Method B 175 to 230 175 to 235 — iii) Dry covering capacity m2, 1 cm, 17.5 20.0 14.0 in thickness per 100 kg of dry cement, Min iv) Compressive strength at 5 3.5 3.5 5.0 percent deformation, kg/cm2, Min v) Volume change (shrinkage) 25 25 30 upon drying, percent, Max vi) Linear shrinkage (length) 2.0 3.0 3.0 after heat soaking at service temperature, percent, Max vii) Dry adhesion to steel, kg/cm2, Min 0.35 0.35 0.50 viii) Thermal conductivity W/mK, Max Mean Temp, 0C 100 0.09 0.07 0.14 200 0.11 0.09 0.16 300 — 0.11 0.18 400 — — 0.20 Note - For methods of tests, refer to IS 3346 : 1980 Method for determination of thermal conductivity of thermal insulation materials (two slab, guarded hot - plate method) (first revision) IS 5724 : 1970 Method of tests for thermal insulation cements; and IS 9490 : 1980 Method for determination of thermal conductivity of insulation material (water calorimeter method) For detailed information, refer to IS 7509 : 1993 Specification  for  thermal insulating cements  (first revision).",
+      "clause_id": "IS 7509:1993#2",
+      "family": "IS 7509",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 838,
+      "page_end": 838,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7509:1993",
+      "clause": "3",
+      "title": "Requirements – The material",
+      "text": "3. Requirements - The material shall be in the form of dry powder and/or granulated aggregate. The material shall also conform to the requirements given in Table 1.",
+      "clause_id": "IS 7509:1993#3",
+      "family": "IS 7509",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 838,
+      "page_end": 838,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7509:1993",
+    "record_id": 14472,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      838,
+      838
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

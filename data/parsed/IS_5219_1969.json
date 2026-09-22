@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5219:1969",
+      "clause": "1",
+      "title": "Scope – Covers copper",
+      "text": "1. Scope - Covers copper alloy cast traps P and S types and their associated components of nominal sizes 32 mm, 40 mm and 50 mm for use in wash-basins, sinks, bath tubs and similar waste appliances.",
+      "clause_id": "IS 5219:1969#1",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "2",
+      "title": "Materials–",
+      "text": "2. Materials- Castings - Shall be of brass with copper   content not less than 56 percent. Pressing - Pressings where used for associated Components shall be  forgeable brass with the follow ing composition: Min Max Copper 56.5 60.0 Lead 1.0 2.5 Zinc — Remainder Note— Total impurities not more than 0.75 percent",
+      "clause_id": "IS 5219:1969#2",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "3",
+      "title": "Workmanship and Finish",
+      "text": "3. Workmanship and Finish",
+      "clause_id": "IS 5219:1969#3",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "3.1",
+      "title": "Casting shall be sound",
+      "text": "3.1  Casting shall be sound in all respects, free from blow holes, laps and sand pittings. Both the external and internal surface shall be clean, smooth and free from sand. No casting shall be plugged, stoped or patched.",
+      "clause_id": "IS 5219:1969#3.1",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "3.2",
+      "title": "The external surface of",
+      "text": "3.2  The external surface of traps and associated components shall have one of the following finishes— a) Self-colour, free from grease and tool marks; b) Polished; and c) Nickel or chromium plated.",
+      "clause_id": "IS 5219:1969#3.2",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "4",
+      "title": "Design and Construction",
+      "text": "4. Design and Construction Note—Typical illustrations of traps are shown in  Tables 1 to 8 of the standard.",
+      "clause_id": "IS 5219:1969#4",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "4.1",
+      "title": "Inlet",
+      "text": "4.1 Inlet — Inlet of every trap shall have internal threads conforming to the basic profile of ISO metric screw threads and shall be provided with a tail pipe and a coupling nut. the tail pipe shall be screwed on to the inlet with a minimum engagement of 8 mm and secured in position by soldering.",
+      "clause_id": "IS 5219:1969#4.1",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "4.2",
+      "title": "Outlet",
+      "text": "4.2 Outlet — The outlet of 'P' and 'S' trap shall be either with plain ends suitable for conection to lead pipe or with external parallel pipe threads of fastening type.",
+      "clause_id": "IS 5219:1969#4.2",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "4.3",
+      "title": "Tail Pipes",
+      "text": "4.3 Tail Pipes — Tail pipes shall be of any of the following types: a) Screwed inlet straight tail  pipes—   shall conform to   Table 6 of   the  standard and shall be threaded externally to a length sufficient to   have a minimum  engagement of 8mm into trap  inlet. Collar shall be  integral with the tail  pipe. b) Bent rail pipe — when used for bathtrap,overflow connections shall conform to Table 7 of the standard and shall have an integral collar. It  may also be used for converting a  'P' trap to an 'S' trap.",
+      "clause_id": "IS 5219:1969#4.3",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "4.4",
+      "title": "Coupling Nuts",
+      "text": "4.4 Coupling Nuts — The dimensions of coupling  nuts for trail piples shall coform to Table 8 of the standard.",
+      "clause_id": "IS 5219:1969#4.4",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "4.5",
+      "title": "Blank Nuts",
+      "text": "4.5 Blank Nuts —Blank nuts for bath traps shall be of 25 mm nominal size conforming to Table 8 of the standard except that the flange shall be without hole.",
+      "clause_id": "IS 5219:1969#4.5",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "4.6",
+      "title": "Access for Inspection and Cleaning",
+      "text": "4.6 Access for Inspection and Cleaning — Every trap of the type shown in Tables 1 and 2 of the standard shall be provided with a clean out in the position shown in the figures and shall be fitted with the clean out plugs (see Table 5 of the standard).",
+      "clause_id": "IS 5219:1969#4.6",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "4.7",
+      "title": "Lower Flow Openings –",
+      "text": "4.7 Lower Flow Openings - Bath traps shall be provided with branches in4 positions shown in Tables 3 and 4 of the standard and shall be screwed externall with 25 mm (P-1) parallel pipe theads conforming to IS 2643 : 1975 with a minimum thread lenght of 10 mm.",
+      "clause_id": "IS 5219:1969#4.7",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "4.7.1",
+      "title": "One branch shall be",
+      "text": "4.7.1 One branch shall be fitted with a blank cap, complete with washer.",
+      "clause_id": "IS 5219:1969#4.7.1",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 3,
+      "parent_clause": "4.7",
+      "role": "other",
+      "page_start": 280,
+      "page_end": 280,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "5",
+      "title": "Dimensions",
+      "text": "5. Dimensions",
+      "clause_id": "IS 5219:1969#5",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 281,
+      "page_end": 281,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "5.1",
+      "title": "The traps and associated components shall",
+      "text": "5.1 The traps and associated components shall conform to the dimensions given in Tables 1 to 8 of the stndard.",
+      "clause_id": "IS 5219:1969#5.1",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "requirements",
+      "page_start": 281,
+      "page_end": 281,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "5.2",
+      "title": "Thickness of Wall",
+      "text": "5.2 Thickness of Wall — The average thickness of the wall of the traps shall be not less than 2.3 mm and at no point shall be the thickness less than 1.6 mm.",
+      "clause_id": "IS 5219:1969#5.2",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 281,
+      "page_end": 281,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "5.3",
+      "title": "Depth of Seal",
+      "text": "5.3 Depth of Seal — The minimum depth of the seal shall be either 35 mm or 75 mm as ordered.",
+      "clause_id": "IS 5219:1969#5.3",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 281,
+      "page_end": 281,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5219:1969",
+      "clause": "5.4",
+      "title": "Rake of Outlet",
+      "text": "5.4 Rake of Outlet — In \"P\" traps, the outlet shall be in possession of a rake of 1 1/40 Min and 50  Max below the horizontal when the access of the inlet is vertical. Variation shall be ermissible when so ordered. For detailed information, refer to IS 5219 (Part 1) : 1969 Specification for cast copper alloys traps Part 1: 'P' and 'S' traps.",
+      "clause_id": "IS 5219:1969#5.4",
+      "family": "IS 5219",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 281,
+      "page_end": 281,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5219:1969",
+    "record_id": 458,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      280,
+      281
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

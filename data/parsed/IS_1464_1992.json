@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1464:1992",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Covers machine pressed clay ridge and ceiling tiles. It does not cover tiles of irregular sizes, shapes and colour and those made to meet special requirements. Sl No. Characteristic Requirement for Class AA Class A (1) (2) (3) (4) i) Water absorption percent (for ridge 18 20 and ceilling tiles), Max ii) Breaking strength (for ridge 0.015 0 (1.5 kg) 0.011 0 (1.10 kg) tiles only) kN, Min 0.012 5 (1.25 kg) 0.009  5 (0.95 kg)",
+      "clause_id": "IS 1464:1992#1",
+      "family": "IS 1464",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 137,
+      "page_end": 137,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1464:1992",
+      "clause": "2",
+      "title": "Classification– Class AA and",
+      "text": "2. Classification- Class AA and class A with characteristics given in Table 1. TABLE 1 CLASSIFICATION OF RIDGE AND CEILLING TILES",
+      "clause_id": "IS 1464:1992#2",
+      "family": "IS 1464",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 137,
+      "page_end": 137,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1464:1992",
+      "clause": "3",
+      "title": "Shape – Common patterns",
+      "text": "3. Shape - Common patterns of ridge and ceiling tiles are shown in Fig. 1 and 2 of the standard.  Gap at corners of celing tiles, when placed on a plane surface in normal position, shall be not more than 6 mm. Ceiling tiles are of two types, namely double lug and single lug.",
+      "clause_id": "IS 1464:1992#3",
+      "family": "IS 1464",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 137,
+      "page_end": 137,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1464:1992",
+      "clause": "4",
+      "title": "General Quality",
+      "text": "4. General Quality —  shall be uniform in shape and shall be free from irregularities, such as twists, bends, cracks and laminations. shall be free from impurities like particles of stone, lime or other foreign materials. When struck, the tile shall give a ringing sound and when broken, the fracture shall be clen, dense and sharp at the edges.",
+      "clause_id": "IS 1464:1992#4",
+      "family": "IS 1464",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 137,
+      "page_end": 137,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1464:1992",
+      "clause": "5",
+      "title": "Dimensions of Ridge Tiles",
+      "text": "5. Dimensions of Ridge Tiles a) Length— 375, 400 and 435 mm. The tolerance shall be ± 5 mm. b) Width and Height — Shall have a base of  265 mm and height of 100 mm with a tolerance of ± 5 mm. c)    Thickness — shall be not less than 10 mm throughtout excluding ornamentation, etc. d)     Rib — The rib at the rear end of the tile shall be of such a height and shape as to prevent effectively the tendency of the front face of the tile interlocked to slide over it.",
+      "clause_id": "IS 1464:1992#5",
+      "family": "IS 1464",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 137,
+      "page_end": 137,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1464:1992",
+      "clause": "6",
+      "title": "Dimension of Ceiling Tiles",
+      "text": "6. Dimension of Ceiling Tiles — The length of the double lug ceiling tile at the bottom shall be such that when a tile is placed between two battens the space between the face of the batten and that of end of tile shall be between 3 and 6 mm. The length of the single lug ceiling tile at the bottom shall be 30 mm less than the face to face spacing of battens. The length of the lug shall not be more than 20 mm. Thickness of the tile or lug shall be not less than 10 mm. Note — For methods of tests, refer to Appendices A and B of the standard. For detailed information, refer to IS 1464:1992 Specification for clay ridge and ceiling tiles (second revision). SUMMARY OF IS 1464 : 1992 CLAY RIDGE AND  CEILING TILES (Second Revision)",
+      "clause_id": "IS 1464:1992#6",
+      "family": "IS 1464",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 137,
+      "page_end": 137,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1464:1992",
+    "record_id": 6556,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      137,
+      137
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

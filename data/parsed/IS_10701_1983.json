@@ -1,0 +1,256 @@
+{
+  "clauses": [
+    {
+      "is": "IS 10701:1983",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope - Requirements of plywood for structural purposes, such as stressed skin panels, plywood web beams, sheathing, silos, rail and ship containers.",
+      "clause_id": "IS 10701:1983#1",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2. Materials",
+      "clause_id": "IS 10701:1983#2",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "2.1",
+      "title": "Timber –The species of",
+      "text": "2.1 Timber -The species of timber recommended for use  shall be from the species mentioned in Appendix A of the standard.",
+      "clause_id": "IS 10701:1983#2.1",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "2.2",
+      "title": "Adhesive",
+      "text": "2.2 Adhesive — Shall conform to BWP type specified in   IS  848 : 1974*.",
+      "clause_id": "IS 10701:1983#2.2",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "3",
+      "title": "Plywood – Shall conform",
+      "text": "3. Plywood - Shall conform to BMP grade in accordance with  IS  303 : 1989 +.",
+      "clause_id": "IS 10701:1983#3",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "4",
+      "title": "Treatment – Shall be",
+      "text": "4. Treatment - Shall be given preservative treatment with fixed type of preservatives as per IS 5539 :1969 ++.",
+      "clause_id": "IS 10701:1983#4",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "5",
+      "title": "Quality Requirements",
+      "text": "5. Quality Requirements   — See Table 1.",
+      "clause_id": "IS 10701:1983#5",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "6",
+      "title": "Dimensions and Tolerances",
+      "text": "6. Dimensions and Tolerances",
+      "clause_id": "IS 10701:1983#6",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "6.1",
+      "title": "Size – Structural plywood",
+      "text": "6.1. Size - Structural plywood panels shall be of the sizes given below: 240 × 120 cm; 210 × 120 cm;180 × 120 cm; 240 × 90 cm; 210 × 90 cm;180 × 90 cm; TABLE 1   QUALITY  REQUIREMENTS  ON  VENEERS USED IN  MANUFACTURE OF  PLYWOOD  FOR STRUCTURAL  PURPOSES Requirements Sl. No. Defects Face Core i ) Blister Nil Nil ii) Checks Nil No restriction iii) Discolouration 3 percent of the area if it will 6 percent of the area if it not impair the board properties. will not impair the board  properties. iv) Dote Nil 5 cm/m2 v) Insect holes Nil No restriction vi) Knots (dead) Nil 2 up to 12mm dia/m2 Pin knots (dead) Nil 2/m2 Pin knots (live) Permitted provided they do not mar No restriction the appearance Knots (tight) 3 up to 25 mm dia/m2 6 up to 25 mm dia/ m2 vii) Split on each panel One split not more than 2 splits not more than 0.8 mm wide and length 6 mm wide and length 50mm provided it is filled 200 mm provided it is with suitable filler. filled with suitable filler. viii) Swirl Up to 4/m2 provided No restriction. they do not mar  the appearance. {",
+      "clause_id": "IS 10701:1983#6.1",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "requirements",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "6.2",
+      "title": "Thickness –Thickness of plywood",
+      "text": "6.2. Thickness -Thickness of plywood panels shall be as given below - No. of Plies Thickness m m 3 4 5 6 9",
+      "clause_id": "IS 10701:1983#6.2",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "7",
+      "title": "12",
+      "text": "7 12 16",
+      "clause_id": "IS 10701:1983#7",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "9",
+      "title": "16",
+      "text": "9 16 19",
+      "clause_id": "IS 10701:1983#9",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 567,
+      "page_end": 567,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10701:1983",
+      "clause": "11",
+      "title": "19",
+      "text": "11 19 25 { { { +  Plywood for general purposes(third revision) ++  Preservative treated plywood. * Synthetic resin adhesives for plywood (phenolic and aminoplastic) (first revision) } TABLE 2    MINIMUM  AVERAGE  FAILING  LOAD  AND  WOOD FAILURE  REQUIREMENTS OF  PLYWOOD FOR  STRUCTURAL PURPOSES Dry State                                Resistance to Water Resistance to Micro Organism Average               Average               Average               Average                  Average                      Average Failing                  Wood                   Failing                 Wood                       Failing                         Wood Load, N                Failure                 Load, N Failure                   Load, N Failure Percent                                              Percent                                                         Percent 1324 and above    No restriciion          981and above No restriction     981 and above    No restriction 1226-1323                  60                         883- 980                         60                        883- 980                  60 1079-1225                  80                         785- 882 80 785- 882 80 <1079 Panel to be              <785                     Panel to be                <785                 Panel  to be considered considered considered as  failed as  failed as  failed irrespective irrespective irrespective of percentage of percentage of percentage TABLE 3   MINIMUM  STRENGTH   REQUIREMENTS  OF   PLYWOOD FOR STRUCTURAL PURPOSES Sl. No. Property Strength Requirement N/mm2 i) Ultimate tensile strength : Along the grain 54 Across the grain 34 ii) Compressive strength : Along the grain 34 Across the grain 29 iii) Modulus of rupture : Along the grain 49 Across the grain 29 iv) Modulus of elasticity : Along the grain 7 355 Across the grain 3 923 v) Panel shear strength : 125 vi) Modulus of rigidity : 588 vii) Rolling shear strength : 3 Note - For methods of tests refer to various parts of  IS 1734. Methods of tests for plywood  and all parts of  IS 2753 :1991. Methods for estimation of preservatives in treated timber and in treating solutions (first revision). For detailed information, refer to IS 10701:1983 specification for Structural plywood. 6.3. Tolerance -The tolerances on the nominal sizes of finished panels shall be as given below: Length ± 6 mm - 0 mm Width ± 3 mm - 0 mm Thickness up to and excluding ±10 percent 6mm 6 to 9 mm ±7 percent Above 9 mm ±5 percent 7. Workmanship and Finish —The faces of plywood panels shall be smooth. 8. Tests 8.1 Moisture Content  -  Shall not be less than 5 percent and not more than 15 percent. 8.2 Glue Shear Strength in Dry State— See Table 2 8.3 Resistance to Water —See Table 2 8.4 Resistance to Micro Organism — See Table 2 8.5 Preservation Retention — Shall not be less than 12 kg m3 for  water  soluble fixed type. 8.6 Tensile strength —  See Table 3",
+      "clause_id": "IS 10701:1983#11",
+      "family": "IS 10701",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 567,
+      "page_end": 568,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 10701:1983",
+    "record_id": 1562,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      567,
+      568
+    ],
+    "n_clauses": 13,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

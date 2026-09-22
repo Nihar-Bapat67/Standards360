@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 733:1983",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope  -  Requirements for wrought aluminium and aluminium alloy bars, rods and sections for general engineering purposes.",
+      "clause_id": "IS 733:1983#1",
+      "family": "IS 733",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 695,
+      "page_end": 695,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 733:1983",
+      "clause": "2",
+      "title": "Freedom from Defects –",
+      "text": "2. Freedom from Defects - The material shall be sound and free from harmful defects.",
+      "clause_id": "IS 733:1983#2",
+      "family": "IS 733",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 695,
+      "page_end": 695,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 733:1983",
+      "clause": "3",
+      "title": "Dimensions and Tolerances –",
+      "text": "3. Dimensions and Tolerances -  Shall be as laid in IS 3965 : 1981.",
+      "clause_id": "IS 733:1983#3",
+      "family": "IS 733",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 695,
+      "page_end": 695,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 733:1983",
+      "clause": "4",
+      "title": "Designation and Typical Uses of Alloys",
+      "text": "4. Designation and Typical Uses of Alloys Designation Typical uses 19000 Panelling and moulding, refrigeration tubing, equipment for chemical, food and brewing industrial packaging, cooking utensils, sheet metal work, architectural and builder's hardware, spun / pressed hollow ware, deep drawn parts, cladding, welding wire, electrical appliances. 19500 Corosion resistant cladding on stronger alloys impact extruded containers; food, chemical brewing and processing equipments; tanks and pipes; marine fittings; reflectors; pressed and anodized utility items, jewellery, and cable sheating. 19600 Similar to 19500. 24345 Heavy duty forgings, structures where high mechanical properties are of utmost importance, aircraft application of clad sheets, extrusions and armaments. 24534 Stressed parts in aircrafts and other structures where high strength is of primary consideration. 43000 Filler wire of welding. * Dimensions for  wrought aluminium and  aluminium alloybars, rods and sections (first revision) Designation Typical uses 45000 Filler wire for brazing. 52000 Panelling and structures, shear metal work and domestic appliances, marine applications like sheathing lining of boat bottom, etc. 53000 Shipbuilding; rivets; pressure vessels and other processing tanks, cryogenics, and welded structures. 54300 Welded structures, cryogenic applications, structural marine applications, rail and road tank cars, rivets and missile components. 63400 Architectural uses, such as, windows, door frames, wall facings, partitions, hand rails etc. and other similar applications where surface finish is important and medium strength would suffice. 63401 Bus bar application 64401 Conductor application 64423 Applications requiring good strength and machinability, such as, missile machinery components. 64430 Structural applications of all kinds, such as, road and rail transport vehicles, bridges,cranes, roof trusses, rivets, etc. Cargo containers, milk containers, deep-drawn containers, and flooring. 65032 Similar to 64430 74530 Stressed structural applications requiring welding, such as bridges, chequered plates, dump-truck bodies, pressure vessels and rail coaches, etc. 76528 Stressed structural applications capable of being used at low temperature. Note — For chemical composition and mechanical properties see 5  (Tables 1 and 2) of the standard. For detailed information, refer  to IS 733 : 1983  Specifications for  wrought aluminium and  aluminium alloy bars, rods  and sections for General enginering purposes (third revision).",
+      "clause_id": "IS 733:1983#4",
+      "family": "IS 733",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 695,
+      "page_end": 695,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 733:1983",
+    "record_id": 14251,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      695,
+      695
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.987,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

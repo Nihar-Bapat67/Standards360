@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8008 (Part 1):2003",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — General requirements for materials, manufacture, methods of test and inspection and marking of all types of injection moulded HDPE pipes covered by IS  4984:1995* for potable water supplies.",
+      "clause_id": "IS 8008 (Part 1):2003#1",
+      "family": "IS 8008 (Part 1)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 351,
+      "page_end": 351,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 1):2003",
+      "clause": "2",
+      "title": "Composition",
+      "text": "2. Composition — The fitting shall be made from a compared consisting of origin poly ethylen grades of fibric PE 63/ PE 80/ PE 100, whichever is applicable.",
+      "clause_id": "IS 8008 (Part 1):2003#2",
+      "family": "IS 8008 (Part 1)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 351,
+      "page_end": 351,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 1):2003",
+      "clause": "3",
+      "title": "Sizes and Dimensions of Fittings",
+      "text": "3. Sizes and Dimensions of Fittings — Sizes of fittings shall be designated by their outside diameters at free ends, which shall correspond to outside diameters of pipes given in IS  4984 :1995. Out side diameters and corresponding wall thickness of fittings at free ends for weld shall comply with those given in  IS  4984 :1995",
+      "clause_id": "IS 8008 (Part 1):2003#3",
+      "family": "IS 8008 (Part 1)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 351,
+      "page_end": 351,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 1):2003",
+      "clause": "4",
+      "title": "Weld Length",
+      "text": "4.  Weld Length —  A minimum weld length of 15 mm is specified to make provision for revelding and to avoid wastage of whole fitting due to shortage of weld length. Size, mm Weld Length, mm 20 3 25 4 32",
+      "clause_id": "IS 8008 (Part 1):2003#4",
+      "family": "IS 8008 (Part 1)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 351,
+      "page_end": 351,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 1):2003",
+      "clause": "5",
+      "title": "40",
+      "text": "5 40",
+      "clause_id": "IS 8008 (Part 1):2003#5",
+      "family": "IS 8008 (Part 1)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 351,
+      "page_end": 351,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 1):2003",
+      "clause": "6",
+      "title": "50",
+      "text": "6 50",
+      "clause_id": "IS 8008 (Part 1):2003#6",
+      "family": "IS 8008 (Part 1)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 351,
+      "page_end": 351,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 1):2003",
+      "clause": "8",
+      "title": "63",
+      "text": "8 63",
+      "clause_id": "IS 8008 (Part 1):2003#8",
+      "family": "IS 8008 (Part 1)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 351,
+      "page_end": 351,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 1):2003",
+      "clause": "10",
+      "title": "75",
+      "text": "10 75",
+      "clause_id": "IS 8008 (Part 1):2003#10",
+      "family": "IS 8008 (Part 1)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 351,
+      "page_end": 351,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 1):2003",
+      "clause": "12",
+      "title": "90",
+      "text": "12 90",
+      "clause_id": "IS 8008 (Part 1):2003#12",
+      "family": "IS 8008 (Part 1)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 351,
+      "page_end": 351,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 1):2003",
+      "clause": "14",
+      "title": "110",
+      "text": "14 110 15 5. Performance Requirements 5.1   Hydraulic Characteristic -  There shall be no signs of localised swelling, leakage or weeping. 5.2   Sanduich Flange Hydraulic Testing - Sanduich hange shall be tested on per 9.1 of the standard. 5.2   Ovality —Shall conform to Table 2 of  IS 4984 : 1995 *High density polyethylene pipes for  potable water supply (fourth revision) SUMMARY OF IS 8008 (PART 1) : 2003 INJECTION MOULDED HIGH DENSITY POLYETHYLENE (HDPE) FITTINGS FOR POTABLE WATER SUPPLIES PART 1 GENERAL REQUIREMENTS FOR FITTINGS (First Revision) Note - For  test procedures refer to annex. B and C  of  IS  4984:1995. For  detailed information, refer to IS: 8008(Part I ):2003. Specification for  injection moulded high density polyethylene (HDPE) fittings for potable water supplies : Part I General requirements.",
+      "clause_id": "IS 8008 (Part 1):2003#14",
+      "family": "IS 8008 (Part 1)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 351,
+      "page_end": 351,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8008 (Part 1):2003",
+    "record_id": 20409,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      351,
+      351
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

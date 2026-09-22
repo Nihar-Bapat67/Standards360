@@ -1,0 +1,292 @@
+{
+  "clauses": [
+    {
+      "is": "IS 14587:1998",
+      "clause": "1",
+      "title": "Scope – Requirement of prelaminated medium",
+      "text": "1. Scope - Requirement of prelaminated medium density fibre board for general purposes and also for special applications.",
+      "clause_id": "IS 14587:1998#1",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 588,
+      "page_end": 588,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "2",
+      "title": "Grades and Types –",
+      "text": "2. Grades and Types - Based on surface  abrasion characteristics.  The grades and types of prelaminated medium density fibre boards shall be represented by symbols as follows : Grade and Type Designation Grade I Type I PLMDF-11 Type II PLMDF-12 Type III PLMDF-13 Type IV PLMDF-14 Grade II Type I PLMDF-21 Type II PLMDF-22 Type III PLMDF-23 Type IV PLMDF-24",
+      "clause_id": "IS 14587:1998#2",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 588,
+      "page_end": 588,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "3",
+      "title": "Materials",
+      "text": "3. Materials",
+      "clause_id": "IS 14587:1998#3",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 588,
+      "page_end": 588,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "3.1",
+      "title": "Medium Density Fibre Board",
+      "text": "3.1 Medium Density Fibre Board —Synthetic resin bonded medium density fibre board  shall conform to IS  12406 : 1988 +",
+      "clause_id": "IS 14587:1998#3.1",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 588,
+      "page_end": 588,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "3.2",
+      "title": "Impregnated Base Paper –",
+      "text": "3.2 Impregnated Base Paper - Printed or plain colour absorbant basepaper having a weight of 60-140 g/m2 impregnated in a suitable synthetic resin and dried to a volatile content of 4-8 percent shall be used: 3. Impregnated Overlay - An absorbant tissue paper having a weigth of 18-40 g/m3 impregnated in a suitable synthetic resin and dried to a volatile content of 4-8 percent, shall be used.",
+      "clause_id": "IS 14587:1998#3.2",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 588,
+      "page_end": 588,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "4",
+      "title": "Finish",
+      "text": "4. Finish — The finish of the paper overlaid board depends on the surface of caul plates used. .",
+      "clause_id": "IS 14587:1998#4",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 588,
+      "page_end": 588,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "5",
+      "title": "Dimensions and Tolerances",
+      "text": "5. Dimensions and Tolerances —Dimensions and tolerances shall conform to IS 12049 : 1987 ++",
+      "clause_id": "IS 14587:1998#5",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 588,
+      "page_end": 588,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "6",
+      "title": "Physical and Mechanical Properties–",
+      "text": "6. Physical and Mechanical Properties- see Table 1. +  Medium density fibre boards for general purposes. ++Dimensions and tolerances relating to wood based panel material SUMMARY OF IS 14587 : 1998 PRE-LAMINATED MEDIUM DENSITY FIBRE BOARD TABLE 1    PHYSICAL AND MECHANICAL PROPERTIES PROPERTY REQUIREMENT Grade I Grade II 1.1 Density variation Max, percent ±10 ±10 1.2 Water absorption Max, percent: a)  2 hours 6 9 b)  24 hours 12 18 1.3 Thickness swelling Max, percent, 2 hours 4 7 1.4 Modulus of rupture Min, N/mm2: a)  Up to 20mm thickness 28 28 b)  Above 20mm thickness 25 25 1.5 Tensile strength perpendicular to surface Min, N/mm2: a)  Up to   20mm thickness 0.8 0.7 b)  Above 20mm thickness 0.7 0.6 1.6 Tensile strength perpendicular to surface Min, N/mm.2: a)  After cyclic test 0.4 __ b)  After acceleratedwater resistance test 0.25 __ 1.7 Screw withdrawal strength(Min),N: a)  Face 1500 1500 b)  Edge 1250 1250 1.8 Abrasion resistance (Min) in number of revolutions: a)  Type I 1000 1000 b)  Type II 450 450 c)  Type III 250 250 d)  Type  IV 75 75",
+      "clause_id": "IS 14587:1998#6",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 588,
+      "page_end": 588,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "6.1",
+      "title": "Density – 500 to 900 kg/m3",
+      "text": "6.1 Density - 500 to 900 kg/m3",
+      "clause_id": "IS 14587:1998#6.1",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 589,
+      "page_end": 589,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "6.2",
+      "title": "Moisture Content – 5",
+      "text": "6.2 Moisture Content -  5 to 15 percent.",
+      "clause_id": "IS 14587:1998#6.2",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 589,
+      "page_end": 589,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "6.3",
+      "title": "Resistance to Steam",
+      "text": "6.3 Resistance to Steam — Shall not  show any sign of blister, delamination or   change in surface finish. There many be slight colour change in dark colour/patterns.",
+      "clause_id": "IS 14587:1998#6.3",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 589,
+      "page_end": 589,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "6.4",
+      "title": "Crack Resistance – Shall",
+      "text": "6.4 Crack Resistance - Shall not show  any sign of cracks or delamination.",
+      "clause_id": "IS 14587:1998#6.4",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 589,
+      "page_end": 589,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "6.5",
+      "title": "Resistance to Cigarette Burn",
+      "text": "6.5 Resistance to Cigarette Burn — Shall not leave any mark or stain on the specimen after cleaning with water or solvent.",
+      "clause_id": "IS 14587:1998#6.5",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 589,
+      "page_end": 589,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "6.6",
+      "title": "Resistance to Stain",
+      "text": "6.6 Resistance to Stain — Shall not leave any stain on the specimen after cleaning with  water , solvent or detergent.",
+      "clause_id": "IS 14587:1998#6.6",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 589,
+      "page_end": 589,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14587:1998",
+      "clause": "6.7",
+      "title": "For",
+      "text": "6.7 For  Other Tests - See Table 1 Note: For methods of tests, refer to various parts of IS 2380 : 1977  Methods of tests for wood particle boards and boards from other lignocellulsic materials (first revision). For  detailed Information, refer to IS  14587:1998  Specification for prelaminated medium density  fibre board.",
+      "clause_id": "IS 14587:1998#6.7",
+      "family": "IS 14587",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 589,
+      "page_end": 589,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 14587:1998",
+    "record_id": 6499,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      588,
+      589
+    ],
+    "n_clauses": 15,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

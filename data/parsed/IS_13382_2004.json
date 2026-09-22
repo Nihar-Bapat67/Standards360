@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 13382:2004",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for cast iron special castings to be used with pressure pipes for carrying water, gas and sewage for sizes from DN 80 mm up to 1 500 mm cast iron and ductile iron. 1.2. This standard is applicable to fittings meant for mechanical joints (bolted gland), push-on-joints (single rubber gasket) and flanged joints.",
+      "clause_id": "IS 13382:2004#1",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "2",
+      "title": "Metal",
+      "text": "2. Metal — Shall conform to appropiate grade of IS 210 : 1993*",
+      "clause_id": "IS 13382:2004#2",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "3",
+      "title": "Joints",
+      "text": "3. Joints",
+      "clause_id": "IS 13382:2004#3",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "3.1",
+      "title": "In case of push",
+      "text": "3.1 In case of push-on joints the spigot ends of pipes and fittings shall be suitably chamfered  for smooth entry of pipe in the socket of the casting fitted with rubber gasket.",
+      "clause_id": "IS 13382:2004#3.1",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "3.2",
+      "title": "In case of flange",
+      "text": "3.2 In case of flange and mechanical joint castings, the flanges shall be at right angle to the axis of the joint. The bolt holes shall be cored or drilled. SUMMARY OF IS  13382 : 2004 CAST IRON SPECIALS FOR MECHANICAL AND PUSH ON FLEXIBLE JOINTS FOR PRESSURE PIPE LINES FOR WATER, GAS AND SEWAGE (First revision)",
+      "clause_id": "IS 13382:2004#3.2",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "3.3",
+      "title": "The bolt hole circles",
+      "text": "3.3 The bolt hole circles shall be concentric with the bore and shall be located off the centre line, unless otherwise specified by the purchaser. Where there are two or more flanges, the bolt holes shall be correctly aligned.",
+      "clause_id": "IS 13382:2004#3.3",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "3.4",
+      "title": "The flanges shall be",
+      "text": "3.4 The flanges shall be plain faced over the contact surface with a tool mark finishing having a pitch of 1 0.3 mm, serrations may be spiral or concentric.",
+      "clause_id": "IS 13382:2004#3.4",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "4",
+      "title": "Rubber Gaskets – Shall",
+      "text": "4. Rubber Gaskets -  Shall  conform to IS 12820 : 1989+",
+      "clause_id": "IS 13382:2004#4",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "5",
+      "title": "Tests Requirement",
+      "text": "5. Tests Requirement",
+      "clause_id": "IS 13382:2004#5",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "5.1",
+      "title": "Tensile Test",
+      "text": "5.1 Tensile Test — Minimum 150 MPa.",
+      "clause_id": "IS 13382:2004#5.1",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "5.2",
+      "title": "Hardness Test",
+      "text": "5.2 Hardness Test — Not more than 210 HBS.",
+      "clause_id": "IS 13382:2004#5.2",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 331,
+      "page_end": 331,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "5.3",
+      "title": "Hydrostatic Test",
+      "text": "5.3 Hydrostatic Test — shall not show leakage, sweating or any other defect, under test pressures given below and maintained for 15 s. Nominal Test Presure Diameter dn Castings without Branches Castings with Branches or with Branches not Greater Greater than Half the than Half the Principal Dia Principal Diameter mm MPa MPa (1) (2) (3) Up to and including 300 2.5 2.5 Over 300 and upto 2.0 2.0 and including 600 Over 600 and upto 1.5 1.0 and including 1 500 *  Grey iron castings (fourth revision) †Dimensional requirements of rubber gaskets and  push-on joints for use with cast iron pipes and fittings   for carrying water, gas and sewage. ± For detailed information, refer to  IS 13382 : 2004. Specification for cast Iron specials for mechanical and push-on flexible joints for pressure pipe lines for water, gas and sewage (first revision)",
+      "clause_id": "IS 13382:2004#5.3",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 331,
+      "page_end": 332,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "6",
+      "title": "Sizes",
+      "text": "6. Sizes  Nominal Diameter of  the casting —  80, 100, 125, 150, 200, 250, 300, 350, 400, 450, 500, 600, 700,750, 800, 900,1 000, 1 050, 1 100, 1 200 and 1 500. Note — 1 For dimensional and other requirements for  socket/ spigot of push on joints mechanicaljoints and flanges see section 2 = ( Tables 5 to10) of the standard. Note — 2 For dimensional and other requirements for   castings see section 3 (Tables 11 to 34) of the standard.",
+      "clause_id": "IS 13382:2004#6",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 332,
+      "page_end": 332,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "7",
+      "title": "Tolerances",
+      "text": "7. Tolerances",
+      "clause_id": "IS 13382:2004#7",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 332,
+      "page_end": 332,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "7.1",
+      "title": "Tolerances on Thickness",
+      "text": "7.1 Tolerances on Thickness —Tolerances on wall thickness and flange thickness of fittings are limited as follows : Dimensions Tolerances mm Wall thickness -(2+0.05 e) Flange thickness (3+0.05b) Where e  = standard thickness of the wall in millimetres, and b = standard thickness of the flanges in millimetres. Note — No limit for the plus tolerances is specified.",
+      "clause_id": "IS 13382:2004#7.1",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 332,
+      "page_end": 332,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "7.2",
+      "title": "Tolerances on Lengths",
+      "text": "7.2 Tolerances on Lengths — Tolerances on lengths of fittings normally manufactured shall be as follows Type of Fitting Length Deviation / Tolerance mm Flanged scket L DN 80 to 1 200 : ± 25 Flanged spigot DN 1 400 to 1 600 : ± 35 collar & taper Bend 90o L ± (15 + 0.03 DN ) Bend 45o L ± (10 + 0.025 DN) Bend 221/2o L DN 80 to DN 1 000 : and 111/4o ± (10 + 0.02 DN) DN 1 200 to 1 600 : ± (10  ±  0.025 DN) Tee L and h DN 80 to 1 200 : +50 - 25 DN 1 400 to 1 600: + 75 - 35 Note: For details on tolerances, see 12 of the standard.",
+      "clause_id": "IS 13382:2004#7.2",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 332,
+      "page_end": 332,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "8",
+      "title": "Coating",
+      "text": "8. Coating",
+      "clause_id": "IS 13382:2004#8",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 332,
+      "page_end": 332,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "8.1",
+      "title": "The coating material shall",
+      "text": "8.1 The coating material shall set rapidly with good adherence and shall not scale off.",
+      "clause_id": "IS 13382:2004#8.1",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 332,
+      "page_end": 332,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 13382:2004",
+      "clause": "8.2",
+      "title": "Where the coating material",
+      "text": "8.2 Where the coating material has a tar or similar base, it shall be smooth and tenacious and hard enough not to flow when exposed to a temperature of 65°C but not so brittle at a temperature of 0°C as to chip off when scribed with a penknife. ±",
+      "clause_id": "IS 13382:2004#8.2",
+      "family": "IS 13382",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 332,
+      "page_end": 332,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 13382:2004",
+    "record_id": 5000,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      331,
+      332
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

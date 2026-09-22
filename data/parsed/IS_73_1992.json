@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 73:1992",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Covers physical and chemical requirements of paving bitumens for use in roadways, runways and allied constructions.",
+      "clause_id": "IS 73:1992#1",
+      "family": "IS 73",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 185,
+      "page_end": 185,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 73:1992",
+      "clause": "2",
+      "title": "Types and Gades",
+      "text": "2. Types and Gades a) Type 1— Paving bitumen from non-waxy crude; and b)  Type 2 —Paving bitumen from waxy crude.",
+      "clause_id": "IS 73:1992#2",
+      "family": "IS 73",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 185,
+      "page_end": 185,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 73:1992",
+      "clause": "2.1",
+      "title": "Paving Bitumen Type 1",
+      "text": "2.1 Paving Bitumen Type 1— Shall  be classified into six grades according to their penetration and each grade shall be given a designation as given in Table 1 with letter 'S' denoting the type and a numeral representing the mean of the limits of the penetration specified for the grade.",
+      "clause_id": "IS 73:1992#2.1",
+      "family": "IS 73",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 185,
+      "page_end": 185,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 73:1992",
+      "clause": "2.2",
+      "title": "Paving bitumen Type 2",
+      "text": "2.2 Paving bitumen Type 2— Shall be classified into four grades according to their penetration and each grade shall be given a designation as given in Table 2 with letter 'A' denoting the type and a numeral representing the mean of the limit of the penetation specified for the grade.",
+      "clause_id": "IS 73:1992#2.2",
+      "family": "IS 73",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 185,
+      "page_end": 185,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 73:1992",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements — The material shall be homogeneous and shall not foam when heated to 175°C. For a given lot under each type the softening point for samples taken from different parts of the lot shall not vary by more than 8°C from maximum to minimum and shall not fall outside the range of the test range of the test limits specified in Tables 1 and 2. TABLE 1  REQUIREMENTS  FOR  PAVING  BITUMEN  TYPE 1 Sl Characteristics Requirements for Grades S35 S45 S55 S65 S90 S200 (1)                   (2) (3) (4) (5) (6) (7) (8) i) Specific gravity at 27 °C, Min 0.99 0.99 0.99 0.99 0.99 0.99 ii) Water, percent by mass, Max 0.2 0.2 0.2 0.2 0.2 0.2 iii)  Flash point, cleveland open cup, °C, Min 175 175 175 175 175 175 iv)  Softening point °C 50 to 65 45 to 60 45 to 60 40 to 55 35 to 50 30 to 45 v) Penetration at 25oC 100g, 5Second.,1/10 mm    30 to 40        40 to 50 50 to 60 60 to 70 80 to 100      175 to 225 vi)  Penetration ratio*, Min 35 35 35 35 35 35 vii) Ductility at27 ° C, cm, Min 50 75 75 75 75 -- viii)Paraffin wax content, percent by mass, Max 4.5 4.5 4.5 4.5 4.5 4.5 ix) Frass breaking point, °C, Min - 4 -4 -6 -6 -8 -10 x) Loss on heating, in thin film oven test, percent by mass, Max 1 1 1 1 1 2 xi) Retained penetration after 55 55 52 52 47 42 thin film oven test, 25 °C 100g, 5 second, 1/10mm percent of original, Min xii) Matter soluble in trichloroethylene 99 99 99 99 99 99 percent by mass, Min xiii)Viscosity at a) 60°C, Poises 2 500±500 2 000±400 1 500±300 1 000±200 500±100 250±50 b) 135°C, CSt, Min 220 210 180 150 110 20 SUMMARY OF IS 73 : 1992   PAVING BITUMEN (Second Revision) Penetrationat C g s Penetrationat C g s x",
+      "clause_id": "IS 73:1992#3",
+      "family": "IS 73",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 185,
+      "page_end": 185,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 73:1992",
+      "clause": "4",
+      "title": "200",
+      "text": "4 200 60 25 100",
+      "clause_id": "IS 73:1992#4",
+      "family": "IS 73",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 185,
+      "page_end": 185,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 73:1992",
+      "clause": "5",
+      "title": "100",
+      "text": "5 100 0 0 , , , , * Penetration ratio= Note—For methods of tests, refer to. IS 1202 : 1978 Methods of testing tar and bituminous material: Determination of specific gravity (first revision). IS 1203 : 1978 Determination of penetration (first revision). IS 1205 : 1978 Determination of softening point (first revision). IS 1206 (Part 2):1978 Determination of viscosity, Part 2 Absolute viscosity (first revision). IS 1206 (Part 3):1978 Determination of viscosity Part 3 Kinematric viscosity (first revision). IS 1208 : 1978 Determination of ductility (first revision). IS 1211 : 1978 Determination of water content (dean and Stark method) (first revision). IS 1212 : 1978 Determination of loss on heating (first revision). IS 1216 : 1978 Determination of solubility in carbon disulphide trichloroethylene (first revision) IS 1448 (Part 69):1969 Methods of tests for petroleum and its products Part 69: Flash and fire point by Cleveland (open) cup IS 9381:1979 Methods of testing tar and bituminous materials: Determination of FRAASS breaking point of bitumen. IS 9382 : 1979 Determination of effect of heat and air by thin film oven tests. IS 10512:1983 Methods for determination of wax content in bitumen. For detailed information, refer to IS 73:1992. Specification for paving bitumen (second revision). TABLE 2 REQUIREMENTS  FOR  PAVING  BITUMEN  TYPE  2 Sl Characteristics Requirements for Grades No. A35 A55 A65 A90 (1)          (2) (3) (4) (5) (6) i) Specific gravity at 27°C, Min 0.99 0.99 0.99 0.98 ii) Water, percent by mass, Max 0.2 0.2 0.2 0.2 iii) Flash point, Cleveland open cup, °C, Min 175 175 175 175 iv) Softening point °C 55 to 70 45 to 60 45 to 60 35 to 50 v) Penetration at 25°C, 100g,5 sec., 1/10mm 30 to 40 50 to 60 60 to 70 80 to 100 vi) Penetration ratio*, Min 25 25 25 25 vii) Ductility at 27°C, cm, Min 10 15 15 15 viii)Paraffin wax content, 10 10 10 10 percent by mass, Max ix) Frass breaking point,°C, Min -4 -6 -8 -10 x) Loss on heating in thin film oven test, percent by mass, Max 1 1 1 1 xi) Retained penetration after thin film 57 57 47 42 oven test,25°C 100 g, 5 second, 1/10 mn percent of original, Min xii) Matter soluble in trichloroethylene 99 99 99 99 percent by mass, Min xiii)Viscosity at a)    60°C, Poises 1 000 ±300           400 ±300 300 ±100 200 ±50 b)     135°C, cost, Min 250 100 70 50 0 0 Penetration 4 C,200g,60s Penetration ratio 100 Penetration at 25 C, 100g, 5s = × *",
+      "clause_id": "IS 73:1992#5",
+      "family": "IS 73",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 185,
+      "page_end": 186,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 73:1992",
+    "record_id": 221,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      185,
+      186
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

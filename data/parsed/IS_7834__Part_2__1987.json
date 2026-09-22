@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7834 (Part 2):1987",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —Requirements for manufacture, dimensions, tolerances and marking for 45° elbows made of injection moulded PVC for water supplies.",
+      "clause_id": "IS 7834 (Part 2):1987#1",
+      "family": "IS 7834 (Part 2)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 344,
+      "page_end": 344,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7834 (Part 2):1987",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 7834 (Part 2):1987#2",
+      "family": "IS 7834 (Part 2)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 344,
+      "page_end": 344,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7834 (Part 2):1987",
+      "clause": "2.1",
+      "title": "Laying Length and tolerance",
+      "text": "2.1 Laying Length and tolerance thereon shall be as follows — TABLE 1 DIMENSIONS FOR LAYING LENGTHS OF 45°ELBOWS Size 45° Elbow Laying mm Length, mm 16 4.5    1 20 5    1 25 6 + 1.2 - 1 32 7.5 + 1.6 - 1 40 9.5 + 2 - 1 50 11.5 + 2.5 SUMMARY OF IS 7834 (PART 2) : 1987  INJECTION MOULDED PVC SOCKET FITTINGS WITH SOLVENT CEMENT JOINTS FOR WATER SUPPLIES PART  2  SPECIFIC REQUIREMENTS FOR 45° ELBOWS. (First Revision) - 1 63 14 + 3.2 - 1 75 16.5 + 4 - 1 90 19.5 + 5 - 1 110 23.5 + 6 - 1 125 27 + 6 - 1 140 30 + 7 - 1 160 34 + 8 - 1 180 38 + 8 - 1 200 43 + 9 - 1 225 48 + 10 - 1 250 53 + 11 - 1 280 60 + 12 - 1 315 67 + 13 - 1",
+      "clause_id": "IS 7834 (Part 2):1987#2.1",
+      "family": "IS 7834 (Part 2)",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 344,
+      "page_end": 344,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7834 (Part 2):1987",
+      "clause": "2.2",
+      "title": "The inside diameter of",
+      "text": "2.2 The inside diameter of the socket and the socket length shall comply with those given in IS 7834 (Part 1) : 1987* . +General requirements. Note — For typical illustration, see Fig 1 of the standard. For detailed information, refer to IS 7834 (Part 2) :1987 Specification for  injection moulded PVC socket fittings with solvent cement joints for water suplies : Part 2 Specific requirements for 45° elbows (first revision). ± ±",
+      "clause_id": "IS 7834 (Part 2):1987#2.2",
+      "family": "IS 7834 (Part 2)",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 344,
+      "page_end": 344,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7834 (Part 2):1987",
+    "record_id": 14868,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      344,
+      344
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

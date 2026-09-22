@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 206:1992",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for mild steel Tee and strap hinges that are commonly used in generall building construction.",
+      "clause_id": "IS 206:1992#1",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types",
+      "clause_id": "IS 206:1992#2",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "2.1",
+      "title": "Tee hinges shall be of the following types",
+      "text": "2.1  Tee hinges shall be of the following types— Type    Designation 1 Light weight 2 Medium weight",
+      "clause_id": "IS 206:1992#2.1",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "3",
+      "title": "Heavy weight",
+      "text": "3 Heavy weight 2.2 Strap hinges shall be of the following types — Type    Designation 1 Light weight strap 2 Medium weight 3 Heavy weight 3. Materials i) Mild steel sheet ii) Mild steel wire",
+      "clause_id": "IS 206:1992#3",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4. Dimensions",
+      "clause_id": "IS 206:1992#4",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "4.1",
+      "title": "Light Weight Tee Hinges",
+      "text": "4.1 Light Weight Tee Hinges — 75, 100, 125, 150, 200, 250, 300, 350, and 400 mm sizes.",
+      "clause_id": "IS 206:1992#4.1",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "4.2",
+      "title": "Medium Weight Tee Hinges",
+      "text": "4.2 Medium Weight Tee Hinges — 75, 100, 125, 150, 200, 250, 300, 350, 400, 450 and 500 mm sizes.",
+      "clause_id": "IS 206:1992#4.2",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "4.3",
+      "title": "Heavy Weight Tee Hinges",
+      "text": "4.3 Heavy Weight Tee Hinges — 150, 200, 250, 300, 350, 400, 450, 500 and 600 mm sizes.",
+      "clause_id": "IS 206:1992#4.3",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "4.4",
+      "title": "Light Weight Strap Hinges–",
+      "text": "4.4 Light Weight Strap Hinges- 75, 100, 125, 150, 200, 250, 300, 350 and  400 mm sizes.",
+      "clause_id": "IS 206:1992#4.4",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "4.5",
+      "title": "Medium Weight Strap Hinges",
+      "text": "4.5 Medium Weight Strap Hinges—  75, 100, 125, 150, 200, 250, 300, 350, 450 and 500 mm",
+      "clause_id": "IS 206:1992#4.5",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "4.6",
+      "title": "Heavy Weight Strap Hinges",
+      "text": "4.6 Heavy Weight Strap Hinges— 150, 200, 250, 300, 350, 400, 450, 500 and 600 mm sizes. Note— For detailed dimensions and tolerances, refer to Tables 2 to  7 of the standard.",
+      "clause_id": "IS 206:1992#4.6",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 206:1992",
+      "clause": "5",
+      "title": "Finish – Tee and",
+      "text": "5. Finish - Tee and strap hinges shall  be either bright finished or stove enamelled black, as specified by the purchaser. Note - For details of materials, see 4 and Table 1 of the standard. For detailed information, refer to IS 206 : 1992 Specification for tee and strap hinges (fourth revision). SUMMARY OF IS 206 : 1992 TEE AND STRAP HINGES (Fourth Revision)",
+      "clause_id": "IS 206:1992#5",
+      "family": "IS 206",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 507,
+      "page_end": 507,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 206:1992",
+    "record_id": 8600,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      507,
+      507
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 14856:2000",
+      "clause": "1",
+      "title": "Scope – Requirements regarding types, sizes,",
+      "text": "1. Scope - Requirements regarding types, sizes, material, construction, workmanship, finish, performance requirements and sampling of fibre glass reinforced plastic door shutters for use in residential and industrial building.",
+      "clause_id": "IS 14856:2000#1",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2. Materials",
+      "clause_id": "IS 14856:2000#2",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "2.1",
+      "title": "Glass Fibre Chopped Strand",
+      "text": "2.1 Glass Fibre Chopped Strand Mat (CSM) -  The glass fibre chopped strand mat used shall be as per IS 11551 : 1996*",
+      "clause_id": "IS 14856:2000#2.1",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "2.2",
+      "title": "Glass Fibre Rovings –",
+      "text": "2.2 Glass Fibre Rovings -  The glass fibre rovings shall be as per IS 11320 : 1997. **",
+      "clause_id": "IS 14856:2000#2.2",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "2.3",
+      "title": "Isophthalic Resin – Isophthalic",
+      "text": "2.3 Isophthalic Resin -  Isophthalic resin shall be as per IS 6746 :1994.+",
+      "clause_id": "IS 14856:2000#2.3",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "2.4",
+      "title": "Curing Agents – Catalyst",
+      "text": "2.4 Curing Agents - Catalyst used shall be methyl  ethyl ketone peroxide (MEKP), benzyl peroxide,  acetyl acto peroxide etc. Accelerator used shall be  cobalt napthalate, cobalt octonate, N.N.Dinethyl Anilene etc.",
+      "clause_id": "IS 14856:2000#2.4",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "2.5",
+      "title": "Fillers and Additives –",
+      "text": "2.5 Fillers and Additives -  Permissible fillers and french chalk powder (talc) and clacium carbonate. Aluminium trihydrite, antimony trioxide, minimum 5 percent, by weight of isophthalic resin, shall be used for fire retardancy. The fillers and additives content shall not exceed 10 percent by weight of isophthalic resin.",
+      "clause_id": "IS 14856:2000#2.5",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "2.6",
+      "title": "Auxiliary chemical – Polyvinyl",
+      "text": "2.6 Auxiliary chemical -  Polyvinyl alchohol (PVA) or other semipenetrant release agents and wax shall be used as a mould release agent.",
+      "clause_id": "IS 14856:2000#2.6",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "2.7",
+      "title": "Pigments – Pigments compatible with isophthalic",
+      "text": "2.7 Pigments - Pigments compatible with isophthalic resin and gelcoat shall be used to obtain the shade of finish as mutually agreed between the manufacturer and the purchaser.",
+      "clause_id": "IS 14856:2000#2.7",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "2.8",
+      "title": "Base Blocks – Base",
+      "text": "2.8 Base Blocks -  Base Blocks for fixing fixtures in shutter with screws shall be of seasoned and treated hard wood or any other suitable material.",
+      "clause_id": "IS 14856:2000#2.8",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "2.9",
+      "title": "Polyurethene Foam – Slabs",
+      "text": "2.9 Polyurethene Foam -  Slabs of minimum density of 32 kg/m2 and of thickness 4 mm less than the shutter thickness with ± 0.5 mm, tolerance shall be used.",
+      "clause_id": "IS 14856:2000#2.9",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "3",
+      "title": "Dimensions, Sizes and Tolerances",
+      "text": "3 Dimensions, Sizes and Tolerances -See Table 1 & 2 TABLE 1 DIMENSIONS AND TOLERANCES OF COMPONENTS OF DOOR SHUTTERS Sl          Description Width       Thickness No. mm mm 1. Vertical stile, top and          90 ± 3 30 ± 1 or Freeze rail 35 ± 1 2. Lock rail 120 ± 3 30 ± 1 or 35 ± 1 3. Bottom rail 150 ± 3 30 ± 1 or 35 ± 1",
+      "clause_id": "IS 14856:2000#3",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "3.1",
+      "title": "Minimum thickness of GRP",
+      "text": "3.1 Minimum thickness of GRP laminate of hollow rails and stiles shall be 3 mm.",
+      "clause_id": "IS 14856:2000#3.1",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 642,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "3.2",
+      "title": "Minimum thickness of GRP",
+      "text": "3.2 Minimum thickness of GRP laminate used for panel in the shutter shall be 5 mm. TABLE 2   DIMENSIONS OF DOOR SHUTTERS Designation  of Doors Width Height mm mm 8 DS 20 700 1905 (1945) 8 DS 21 700 2005 (2045) 9 DS 20 800 1905 (1945) 9 DS 21 800 2005 (2045) 10 DS 20 900 1905 (1945) 10 DS 21 900 2005 (2045) 12 DT 20 1100+ 1905 (1945) 12 DT 21 1100+ 2005 (2045) Note 1 - The dimensions refers to modular sizes of  door openings. first number stands for width and the last for  height in  module (M =100 mm). Alphabet 'D' refers to doors, 'S' to single shutter and 'T' to double leaf shutter. Note 2—The standard widths and heights for panel doors are arrived at as shown in Fig 2 of the standard.  In case the modular height is taken from the  finished floor level, the height of the door shall be the one given in bracket. + Combined width of double leaf shutters. *   Glass fibre chopped strand mat for the  reinforcement of , phenolic and polyster resin systems (first revision) ** Glass fibre rovings for the reinforcement of  polyster and epoxide resin systems (first revision) +   Unsaturated polyster resin system (first revision) +  As per 2.1 of IS 4020 (Part 10).  Door shutters methods of tests or * As per 3.1 of IS 4020 (Part 10) For detailed information, refer to IS  14856 : 2000  Specification for glass fibre reinforced plastic (GRP) panel type door shutters for internal use. Toelrances — Tolerances on the sizes of door shutters shall be",
+      "clause_id": "IS 14856:2000#3.2",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 642,
+      "page_end": 643,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "4",
+      "title": "Finish",
+      "text": "4. Finish  -  The surface of the moulded shutters shall be free from any visible defects such as small pores, crazing, blistering, wrinkling, impurities, defective impregnation, colour blots and aggregates defects. Scattered pin holes duly  repaired and finished by applying resing and not noticeable shall be acceptable. Panels, rails and stiles of the doors shutters shall be flat and shall have smooth and level surface. Surface shall be finished in colour and design as required by the purchaser.",
+      "clause_id": "IS 14856:2000#4",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 643,
+      "page_end": 643,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "5",
+      "title": "Tests",
+      "text": "5. Tests",
+      "clause_id": "IS 14856:2000#5",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 643,
+      "page_end": 643,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "5.1",
+      "title": "Test on materials",
+      "text": "5.1 Test on materials TABLE 3   TESTS ON GRP LAMINATE Sl No. Test Acceptable Value 1. Fibre Glass content 25% (Min) 2. Barchol hardness 30 BHU(Min) 3. Tensile Strength (Mpa) 100(Min) 4. Bending Strengths (Mpa) 120(Min) 5. Elastic Modulus in bend(Mpa) 1500 (Min)",
+      "clause_id": "IS 14856:2000#5.1",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 643,
+      "page_end": 643,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "6",
+      "title": "Water Absorption",
+      "text": "6. Water Absorption 5% (Max)",
+      "clause_id": "IS 14856:2000#6",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 643,
+      "page_end": 643,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 14856:2000",
+      "clause": "7",
+      "title": "Fire Retardancy",
+      "text": "7. Fire Retardancy 100 mm length of the specimen shall not burn within 60 Seconds. 5.2 Requirements for shutters 5.2.1 Dimensions and Squareness Test - The dimensions of nominal width and height shall be within a limit ± 5mm. The door shutter shall not deviate by more than 1 mm on a length of 500 mm. The thickness of the door shutter shall be uniform through out with the permissible variation of not more than 0.8 mm between any two points. The nominal thickness of the shutter shall be within a limit of ±1.5 mm. 5.2.2 General Flatness Test - The twist, cuping and warping shall not exceed 6 mm. 5.2.3 Local  Planeness Test - The depth of deviation measured at any points shall not be more than 0.5mm. 5.2.4 Impact Indentation Test - Shall have no defects such as cracking, tearing or delamination and the depth of indentation shall not be more than 0.2mm. 5.2.5 Edge Loading Test -  The deflection of the edge at the maximum load shall not be more than 5mm. On removal of the loads, the residual deflection shall not be more than 0.5 mm failing which the test may be repeated on the other edge in the reverse direction. Also there shall be no lateral buckling by more than 2 mm during loaded condition and no residual lateral buckling after removal of the load. 5.2.6 Shock Resistance Test - There shall be no visible damange in any part of the door after twenty-five blows on each end. The normally hung shutter, with hangings, fixings and fastenings should withstand any significant permanent deformation and without deterioration the five impacts on both sides of the shutter. 5.2.7 Buckling Test - Shall not show any detoriation and any residual deformation more than 5 mm after 15 minutes of unloading and the initial deflection also shall not be more than 50 mm. 5.2.8 Slamming test - Shall not have any visible damage in any Slamming Test part of the door at the end of 50 successive impacts+ or. Shall not have any visible damange in any part of the door at the end of 100 successive impacts*. 5.2.9 Misuse Test,there shall not be any permanent deformation of the fixing or any other part of the door set in hindering its normal working after the test. mm 4 0 − + SECTION 14 CONCRETE REINFORCEMENT CONTENTS Title Page IS 280  : 1978 Mild steel wire  for general engineering purposes  (third revision) 14.3 IS      432 Mild steel and medium tensile steel bars and hard drawn  steel  wire for concrete reinforcement (Part 1): 1982 Mild steel and   medium tensile  steel bars (third revision) 14.4 (Part 2) : 1982 Hard - drawn steel wire (third revision) 14.6 IS 1566 : 1982 Hard - drawn steel wire fabric for  concrete reinforcement  (second revision) 14.7 IS      1785 Plain hard-drawn steel  wire for prestressed  concrete (Part 1) : 1983 Cold  drawn   stress-relieved wire  (second revision) 14.8 (Part 2) : 1983 As drawn  wire  (first revision) 14.9 IS 1786  : 1985 High strength defomed  steel   bars and wire for concrete reinforcement (third revision) 14.10 IS 2090 : 1983 High tensile steel bars used in prestressed concrete. (first  revision) 14.12 IS 6003  : 1983 Intented   wire for  pre-stressed  concrete (first revision) 14.13 IS 6006  : 1983 Uncoated stress relieved strand for  prestressed  concrete (first revision) 14.14 IS 7887  : 1992 Mild steel wire rod for   general  engineering purposes  (first  revision) 14.16 IS 13620 :  1993 Fusion bonded  epoxy   coated reinforcing bars 14.18 IS 14268 :  1995 Uncoated stress relieved  low relaxation seven-ply strand for prestressed concrete 14.19 SUMMARY  OF IS  280 : 1978 MILD STEEL WIRE FOR GENERAL ENGINEERING PURPOSES (Third Revision) 1. Scope - Requirement for mild steel wire of sizes 0.125 mm to 12.5 mm diameter for general engineering purposes. 2. Sizes Diameter  in   mm 0.125 0.315 0.80 2.00 5.00 0.140 0.355 0.90 2.24 5.60 0.160 0.400 1.00 2.50 6.30 0.180 0.450 1.12 2.80 7.10 0.200 0. 500 1.25 3.15 8.00 0.224 0. 560 1.40 3.55 9.00 0.250 0.630 1.60 4.00 10.00 0.280 0.710 1.80 4.50 11.2 12.5 Note - Other  sizes by mutual agreement. 3. Tolerance on Diameter Applicable to coils only a)     Galvanized -  All sizes ± 2.5  percent with a minimum of ± 0.025 mm. b)   Other finishes - Size of Wire Tolerance (mm) (mm) Up to 0.25 ± 0.01 Over 0.25 up to 0.50 ± 0.015 Over 0.50 up to 1.00 ± 0.02 Over 1.00 up to 1.50 ± 0.03 Over 1.50 up to 2.50 ± 0.04 Over 2.50 up to 5.00 ± 0.05 Over 5.0                            ±  0.06 4. Mechanical Properties 4.1 Tensile Test Condition            Tensile Strength, MPa Finishes           Galvanized other than Annealed 500,  Max            300-550 Soft drawn                 550,  Max - 1/4 hard 450-650                     - 1/2 hard 600-800                     - Hard 700-950               550-900 1 MPa = 1 N/mm2 = 1 MN/m2 = 0.102 0 kgf/mm2. 4.2 Wrapping Test   (For Wire smaller than 5 mm Dia) — Shall withstand without breaking or splitting being wrapped 8 times round its own diameter and subsequently straightened. 4.3 Bend Test  (For Wire Dia 5 mm and Over) -   Shall withstand being bent through 900 round a former of diameter equal to twice its own dia without breaking or splitting. 5.  Finish  - Annealed; annealed cleaned and limed; bright drawn; dull grey (dry drawn); galvanized; coppered; or tinned. Note 1 -  For test procedures, refer to IS  1608 : 1995 Mechanical  testing of metals. Tensile  testing  (second revision), IS 1755 :  1983 Method for wrapping test for metallic wire (first revision). and 8 of the standard. Note 2   —  For chemical composition see 5 of the standard. For  detailed information, refer to IS  280 : 1978. Specification for mild steel wire for general engineering purposes (third revision).",
+      "clause_id": "IS 14856:2000#7",
+      "family": "IS 14856",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 643,
+      "page_end": 647,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 14856:2000",
+    "record_id": 6838,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      642,
+      647
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "pages_without_text:2"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

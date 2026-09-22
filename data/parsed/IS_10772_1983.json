@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 10772:1983",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Covers the requirements for lime pozzolana mixtures which tend to set fast, for use in construction works except reinforced concrete.",
+      "clause_id": "IS 10772:1983#1",
+      "family": "IS 10772",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 107,
+      "page_end": 107,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 10772:1983",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification Type 1 Type 2 Type 3",
+      "clause_id": "IS 10772:1983#2",
+      "family": "IS 10772",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 107,
+      "page_end": 107,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 10772:1983",
+      "clause": "3",
+      "title": "Chemical Requirements",
+      "text": "3. Chemical Requirements—See Table 1.",
+      "clause_id": "IS 10772:1983#3",
+      "family": "IS 10772",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 107,
+      "page_end": 107,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 10772:1983",
+      "clause": "4",
+      "title": "Physical Requirements",
+      "text": "4. Physical Requirements — See Table 2.",
+      "clause_id": "IS 10772:1983#4",
+      "family": "IS 10772",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 107,
+      "page_end": 107,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 10772:1983",
+      "clause": "5",
+      "title": "Delivery – The mixture",
+      "text": "5. Delivery - The mixture shall be packed in bags (jute, multiply paper, HDPE or cloth) with a net massof 50 kg with a tolerance of ± 2.5 percent per bag. TABLE 1 CHEMICAL REQUIRE- MENTS Sl Characteristics Requirements No (1) (2) (3) i) Available lime, percent, Min 25 ii) Carbon dioxide, percent, Max 2 iii) Magnesium oxide, percent Max 6 iv) Sulphate content as SO3 percent,Max 3 v) Free moisture, percent, Max 2 vi) Loss on ignition, percent, Max 20 TABLE 2 PHYSICAL REQUIREMENT Sl.No.             Characteristics Requirements Type 1 Type 2 Type 3 ( 1) (2) (3) (4) (5) i) Fineness, residue by mass on 150-micron 5 5 5 IS Sieve, percent Max. ii) Setting time, hours a) Initial, Min 0.5 0.5 0.5 b) Final, max 24 24 24 iii) Compressive strength a) Average of at least 3 mortar cubes 2.5 1.0 0.4 at 7 days, N/mm2, Min b)Average of at least 3 mortar cubes 6.0 2.5 1.0 at 28 days N/mm2. Min. c)Average of at least  3 mortar 8.0 4.0 1.5 cubes at  90 days, N/mm2, Min iv) Water retention, percent, Min. 70                    70                         70 v) Soundness, expansion mm , Max. 10 10 10 Note— Types 1, 2 and 3 may be obtained with the pozzolana having lime reactivity values of 70 50 and 30 kgf/cm2 respectively. SUMMARY OF IS 10772 :1983 QUICK SETTING LIME POZZOLANA MIXTURE Note —For methods of tests, refer to various parts of  IS 1514:1990 Methods of sampling and tests for quicklime and  hydrated lime (first revision)   IS 1727:1967 Method of test for pozzolanic material (first revision). Various parts of  IS 4031 Methods of physical tests for hydraulic cement IS  4098:1983 Lime-pozzolana mixture (first revision), and  Various parts of IS 6932   Methods of test for building limes. For  detailed information, refer to IS 10772 : 1983 Specification for quick setting lime pozzolana mixture.",
+      "clause_id": "IS 10772:1983#5",
+      "family": "IS 10772",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "packing",
+      "page_start": 107,
+      "page_end": 107,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 10772:1983",
+    "record_id": 1665,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      107,
+      107
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

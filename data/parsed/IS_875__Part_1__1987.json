@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 875 (Part 1):1987",
+      "clause": "1",
+      "title": "Scope – Covers unit",
+      "text": "1. Scope - Covers unit weight mass of materials, and parts or components in a building that apply to the determination of dead loads in the design of buildings. The unit weight mass of materials that are likely to be stored in a building are also specified in the standard for the purpose of load calculations along with angles internal friction as appropriate.",
+      "clause_id": "IS 875 (Part 1):1987#1",
+      "family": "IS 875 (Part 1)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 927,
+      "page_end": 927,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 875 (Part 1):1987",
+      "clause": "2",
+      "title": "Building Materials – Table",
+      "text": "2. Building Materials - Table 1 of the standard gives the unit weight mass of the following materials used in building construction: Acoustical materials Aggregate, coarse Aggregate, organic Asbestos Asbestos cement building pipes Asbestos cement gutters Asbestos cement pressure pipes Asbestos cement sheeting Bitumen Blocks Boards Bricks Brick chips and broken bricks Brick dust (SURKHI) Cast iron, manhole covers Cast iron, manhole frames Cast iron pipes Cement Cement concrete, plain Cement concrete, reinforced Cement concrete pipes Cement concrete, prestressed Cement mortar Cement plaster Cork Expanded metal Felt, bituminous for water-proofing and damp-proofing Foam slag, foundry pumice Glass Gutter, asbestos cement Gypsum Iron Lime Linoleum Mastic asphalt. Masonry brick Masonry stone Metal sheeting, protected galvanized steel sheets and plain. Mortar Pipes Plaster Sheeting Slagwool Soil and gravels Steel sections Stones Tar, coal Thermal Insulation Terra cotta Terrazzo Tiles Timber Water Wood-wool building slabs",
+      "clause_id": "IS 875 (Part 1):1987#2",
+      "family": "IS 875 (Part 1)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 927,
+      "page_end": 927,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 875 (Part 1):1987",
+      "clause": "3",
+      "title": "Building Parts and Components",
+      "text": "3. Building Parts and Components - Table 2 of the standard gives the unit weights of the following building parts or components:",
+      "clause_id": "IS 875 (Part 1):1987#3",
+      "family": "IS 875 (Part 1)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 927,
+      "page_end": 927,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 875 (Part 1):1987",
+      "clause": "4",
+      "title": "Store and Miscellaneous Materials",
+      "text": "4. Store and Miscellaneous Materials - Unit weights of the following store and miscellaneous materials are given in Appendix A of the standard. Agricultural and Chemicals and allied food products materials For detailed information, refer to IS  875 (Part 1) : 1987 Code of  practice for design loads (other than earth quake) for building and structures. Part 1 Dead codes - Unit weight of building materials and stread materials. Fuels Metals and alloys Ores Textiles paper and  allied materials Manures Miscellaneous materials",
+      "clause_id": "IS 875 (Part 1):1987#4",
+      "family": "IS 875 (Part 1)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 928,
+      "page_end": 928,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 875 (Part 1):1987",
+    "record_id": 15931,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      927,
+      929
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.951,
+    "flags": [
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

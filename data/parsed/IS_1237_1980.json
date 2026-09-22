@@ -1,0 +1,418 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1237:1980",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope  —  Requirements for cement concrete flooring tiles of plain cement, plain coloured and terrazo types. Chequered tiles are not  covered.",
+      "clause_id": "IS 1237:1980#1",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "2",
+      "title": "Terminology",
+      "text": "2. Terminology",
+      "clause_id": "IS 1237:1980#2",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "terminology",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "2.1",
+      "title": "Plain Cement Tiles –",
+      "text": "2.1. Plain Cement Tiles - Tiles having a wearing surface wherein no pigments and stone chips are used.",
+      "clause_id": "IS 1237:1980#2.1",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "2.2",
+      "title": "Plain Coloured Tiles– Tiles",
+      "text": "2.2 Plain Coloured Tiles-  Tiles having a plain wearing surface wherin pigments are used but no stone chips.",
+      "clause_id": "IS 1237:1980#2.2",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "2.3",
+      "title": "Terrazo Tiles– Tiles at",
+      "text": "2.3 Terrazo Tiles- Tiles at least 25 percent of whose wearing surface is composed of stone chips in a matrix of ordinary or coloured Portland cement mixed with or without pigments and  mechanically ground and filled.",
+      "clause_id": "IS 1237:1980#2.3",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "3",
+      "title": "Classification",
+      "text": "3. Classification a) General Purpose — Used for flooring of normally lightly loaded, such as in  office building, schools colleges, hospitals and residential buildings. b) Heavy Duty Floor Tiles— Used for heavy conditions, foot paths, entrances and staircases of public buildings, passages of auditoriums and storage godowns.",
+      "clause_id": "IS 1237:1980#3",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4. Dimensions",
+      "clause_id": "IS 1237:1980#4",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "4.1",
+      "title": "Size shall be as follows",
+      "text": "4.1 Size shall be as follows: Length            Breadth            Thickness mm mm mm 200 200 20 250                   250 22 300                   300 25",
+      "clause_id": "IS 1237:1980#4.1",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "4.1.1",
+      "title": "Half tiles rectangular in",
+      "text": "4.1.1 Half tiles rectangular in shape shall also be available.",
+      "clause_id": "IS 1237:1980#4.1.1",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "4.1.2",
+      "title": "Other shapes and sizes",
+      "text": "4.1.2 Other shapes and sizes of tiles may be manufactured when agreed to mutually provided all other requirements are met.",
+      "clause_id": "IS 1237:1980#4.1.2",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "requirements",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "5",
+      "title": "Tolerances",
+      "text": "5. Tolerances",
+      "clause_id": "IS 1237:1980#5",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "5.1",
+      "title": "On length or breadth,",
+      "text": "5.1 On length or breadth, it shall be ±1 mm and on thickness +5 mm.",
+      "clause_id": "IS 1237:1980#5.1",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "5.2",
+      "title": "Thickness of Wearing Layer",
+      "text": "5.2 Thickness of Wearing Layer — The minimum thickness for various classes of tiles shall be as specified in Table 1. TABLE 1 THICKNESS OF WEARING LAYER Sl. No. Class of Tile Minimum Thickness of Wearing Layer mm i) Plain cement and plain coloured tiles for general purpose 5 ii) Terrazo tiles with chips of sizevarying from the smallest up to6 mm, for general purpose 5 iii) Terrazo tiles with chips of sizevarying from the smallest upto12 mm, for general purpose 5 iv) Terrazo tiles with chips of sizevarying from the smaller up to 20 mm, for general purpose 6 v) Plain cement and plain coloured tiles for heavy duty 6 vi) Terrazo tiles with chips of size varying from the smallest upto 20 mm, for heavy duty 6",
+      "clause_id": "IS 1237:1980#5.2",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "6",
+      "title": "General Quality",
+      "text": "6. General Quality — Wearing layer of tiles shall be free from projections, depressions , cracks, holes, cavities and other blemishes. Edges of wearing layer may be rounded.",
+      "clause_id": "IS 1237:1980#6",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "7",
+      "title": "Finish",
+      "text": "7. Finish   —   Colour and texture of wearing layer shall be uniform throughout its thickness. No appreciable difference in appearance of tiles from point of view of colour of aggregate, its type and its distribution on surface of  wearing layer shall be present.",
+      "clause_id": "IS 1237:1980#7",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "8",
+      "title": "Physical Requirements",
+      "text": "8. Physical Requirements —  All tests shall be carried out not earlier  than 28 days from the date of manufacture. SUMMARY OF IS  1237 :  1980  CEMENT CONCRETE FLOORING TILES (Second Revision)",
+      "clause_id": "IS 1237:1980#8",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 202,
+      "page_end": 202,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "8.1",
+      "title": "Flatness of tile Surface",
+      "text": "8.1 Flatness of tile Surface -The amount of concavity and convexity shall not exceed 1 mm.",
+      "clause_id": "IS 1237:1980#8.1",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 203,
+      "page_end": 203,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "8.2",
+      "title": "Perpendicularity – The longest",
+      "text": "8.2 Perpendicularity - The longest gap between the arm of the 'square' and the edge of tile shall not exceed 2 percent of length of edge.",
+      "clause_id": "IS 1237:1980#8.2",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 203,
+      "page_end": 203,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "8.3",
+      "title": "Straightness – The gap",
+      "text": "8.3 Straightness - The gap between the thread and the plane of tile shall not exceed 1 percent of length of edge.",
+      "clause_id": "IS 1237:1980#8.3",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 203,
+      "page_end": 203,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "8.4",
+      "title": "Water Absorbtion – Average",
+      "text": "8.4 Water Absorbtion - Average value shall not exceed 10 percent.",
+      "clause_id": "IS 1237:1980#8.4",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 203,
+      "page_end": 203,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "8.5",
+      "title": "Wet Transverse Strength –Average",
+      "text": "8.5 Wet Transverse Strength -Average value shall not be less than 3 N/mm",
+      "clause_id": "IS 1237:1980#8.5",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 203,
+      "page_end": 203,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1237:1980",
+      "clause": "8.6",
+      "title": "Resistance of Wear –",
+      "text": "8.6 Resistance of Wear - The wear shall not exceed the following values — a) For  general purpose tiles— 1) Average wear 3.5 mm 2) Wear on individual specimen 4 mm b) For heavy duty floor tiles — 1) Average wear 2    mm 2) Wear on individual specimen  2.5 mm Note — For requirements in regard to materials, manufacture and for methods of tests refer to the standard. For detailed information, refer to IS 1237 : 1980 Specification for cement concrete flooring tiles (first revision).",
+      "clause_id": "IS 1237:1980#8.6",
+      "family": "IS 1237",
+      "year": 1980,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "requirements",
+      "page_start": 203,
+      "page_end": 203,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1237:1980",
+    "record_id": 3683,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      202,
+      203
+    ],
+    "n_clauses": 22,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

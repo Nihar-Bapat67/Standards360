@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 771 (Part 7):1981",
+      "clause": "1",
+      "title": "Scope – Lays down",
+      "text": "1. Scope - Lays down the pattern, sizes, construction, dimensions, tolerances  of slop sinks made of fire-clay.",
+      "clause_id": "IS 771 (Part 7):1981#1",
+      "family": "IS 771 (Part 7)",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 418,
+      "page_end": 418,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 7):1981",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 771 (Part 7):1981#2",
+      "family": "IS 771 (Part 7)",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 418,
+      "page_end": 418,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 7):1981",
+      "clause": "2.1",
+      "title": "General requirements for materials, manufacture,",
+      "text": "2.1 General requirements for materials, manufacture, methods of test , sampling and inspection, shall conform to Part 1 General requirements of the standard. 2 .2 Pattern and Size — The wall mounted slope sink shall be size 610 × 630 mm.  The floor mounted slop sink shall be of size 430 × 460 mm.",
+      "clause_id": "IS 771 (Part 7):1981#2.1",
+      "family": "IS 771 (Part 7)",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 418,
+      "page_end": 418,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 7):1981",
+      "clause": "3",
+      "title": "Construction",
+      "text": "3. Construction —  The slop sink shall be of one piece construction and shall have a suitable flushing rim which may be boxed or open type.  In the case of box rim, adequate number of holes on allsides shall be provided for clean flushing of the bowl of the sink.  The rim shall have an inlet or supply horn of dimensions conforming to those given in Fig. 1 and Fig. 2 of the standard for connecting the flush pipe. The wall mounted slop sink shall have an integral trap with outlet.  The floor mounted slop sink shall have an integral trap with P or S outlet. The inside surface of the slop sink and trap shall be uniform and smooth in order to ensure efficient flush. The serrated part of the outlet shall not be glazed extrenally.",
+      "clause_id": "IS 771 (Part 7):1981#3",
+      "family": "IS 771 (Part 7)",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 418,
+      "page_end": 418,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 7):1981",
+      "clause": "4",
+      "title": "Tolerances",
+      "text": "4. Tolerances a) On dimensions of 50 mm and over ± 4% and b) On dimensions less than 50 mm ± 2 mm. Note —  For dimensions see Fig. 1 and  2 of the standard. For detailed information, refer to IS  771 (Part 7) : 1981 Glazed  fire-clay sanitary appliances: Part 7 Specific requirements of slop sinks (second revision).",
+      "clause_id": "IS 771 (Part 7):1981#4",
+      "family": "IS 771 (Part 7)",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 418,
+      "page_end": 418,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 771 (Part 7):1981",
+    "record_id": 14708,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      418,
+      418
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.936,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

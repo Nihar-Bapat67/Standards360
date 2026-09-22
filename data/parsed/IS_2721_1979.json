@@ -1,0 +1,327 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2721:1979",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for galvanized steel chain fence fabric intended for various purposes. This standard does not cover the requirements pertaining to straining posts, struts, base plates and other fittings. *Mild steel wire for general engineering purposes (third revision)",
+      "clause_id": "IS 2721:1979#1",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 814,
+      "page_end": 814,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "2",
+      "title": "Dimensions – See Table",
+      "text": "2. Dimensions - See Table",
+      "clause_id": "IS 2721:1979#2",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 814,
+      "page_end": 814,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "2.1",
+      "title": "Mesh Size – Shall",
+      "text": "2.1 Mesh Size - Shall be determined by measuring the minimum clear distance between the wires forming the parallel sizes of the mesh when measured in normal structured condition.",
+      "clause_id": "IS 2721:1979#2.1",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 814,
+      "page_end": 814,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "2.2",
+      "title": "Width – Shall be",
+      "text": "2.2 Width - Shall be the overall dimension from one extreme line wire to other extreme line wire and shall be checked in fully stretched condition. The tolerance on the width shall be ± 0.7 of the mesh size.",
+      "clause_id": "IS 2721:1979#2.2",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 814,
+      "page_end": 814,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "2.3",
+      "title": "Length – Shall be",
+      "text": "2.3 Length - Shall be supplied in rolls of 5, 10, 15,20, and 25m or as per the requirements of the purchaser The supplied length shall not be less than the above values when measured in fully stretched condition.",
+      "clause_id": "IS 2721:1979#2.3",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 814,
+      "page_end": 814,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "2.4",
+      "title": "Tolerances – As per",
+      "text": "2.4 Tolerances -  As per IS 280 *",
+      "clause_id": "IS 2721:1979#2.4",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 814,
+      "page_end": 814,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "3",
+      "title": "Material – The mesh",
+      "text": "3. Material - The mesh wire and the line wire of the fabric shall be manufactured from galvanized steel conforming to IS 280*  having a tensile strength within the range of 400 to 550 MPa.",
+      "clause_id": "IS 2721:1979#3",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 814,
+      "page_end": 814,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "4",
+      "title": "Galvanizing – The chain",
+      "text": "4. Galvanizing - The chain link fence fabric shall have zinc coating of type ' heavy' as given in the prescribed standards.",
+      "clause_id": "IS 2721:1979#4",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 814,
+      "page_end": 814,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "5",
+      "title": "Workmanship and Finish –",
+      "text": "5. Workmanship and Finish - Each roll shall be warranted to contain no weld joint or splice whatever. The wire  shall be circular and shall be free from scales, irregularities, imperfections, flaws, sand splits and other defects. The zinc coating shall be smooth, even and bright.",
+      "clause_id": "IS 2721:1979#5",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 814,
+      "page_end": 814,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "5.1",
+      "title": "The fabric shall be",
+      "text": "5.1 The fabric shall be manufactured in widths of 0.90 m, 1.20m, 1.50 m, 1.80 m, 2.00 m, 2.50, and 3.00 m, or as per the requirements of the purchaser. Table 1 Dimensions and Tolerances Mesh Nominal                 Line Wire Size Dia of Mesh Wire Diameter      Number of wires mm mm mm Up to and Above 2 m including width 2 m width (1) (2) (3) (4) (5) 2.00 2.50 2 3 25 ± 3 2.50 3.15 2 3 3.15 4.00 2 5 2.00 2.50 2 3 40 ± 4 2.50 3.15 2 3 3.15 4.00 2 3 4.00 4.50 2 3 2.00 2.50 2 3 50 ± 4 2.50 3.15 2 3 3.15 4.00 2 3 4.00 4.50 2 3 3.15 4.00 2 3 63 ± 4 4.00 4.50 2 3 4.50 5.00 2 3 3.15 4.00 2 3 75 ± 4 4.00 4.50 2 3 4.50 5.00 2 3 5.00 5.50 2 3 3.15 4.00 2 3 100 ± 5 4.00 4.50 2 3 4.50 5.00 2 3 5.00 5.50 2 3 125 ± 5 4.00 4.50 2 3 4.50 5.00 2 3 5.00 5.50 2 3 150 ± 5 4.00 4.50 2 3 4.50 5.00 2 3 5.00 5.50 2 3 Note - Sizes  other than those mentinoed above shall be supplied subject to agreement between the purchaser and the manufacturer.",
+      "clause_id": "IS 2721:1979#5.1",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "requirements",
+      "page_start": 814,
+      "page_end": 814,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "6",
+      "title": "Test –",
+      "text": "6. Test -",
+      "clause_id": "IS 2721:1979#6",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 815,
+      "page_end": 815,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "6.1",
+      "title": "Tensile Test – Tensile",
+      "text": "6.1 Tensile Test - Tensile strength shall be within the range of  400 to 550 N/mm2.",
+      "clause_id": "IS 2721:1979#6.1",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 815,
+      "page_end": 815,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "6.2",
+      "title": "Wrapping Test – Wires",
+      "text": "6.2 Wrapping Test -  Wires shall not break or split when wrapped eight times round its own diameter and subsequently straightened.",
+      "clause_id": "IS 2721:1979#6.2",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 815,
+      "page_end": 815,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "6.3",
+      "title": "Twist Test – Mesh",
+      "text": "6.3 Twist Test -  Mesh and line wires shall withstand not less than 18 twists on a length equal to 100 diameters between rices.",
+      "clause_id": "IS 2721:1979#6.3",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 815,
+      "page_end": 815,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "6.4",
+      "title": "Bend test– Mesh wire",
+      "text": "6.4 Bend test- Mesh wire and line wire of 5 mm diameter and above shall be subjected to this test. The wire shall withstand being bent through an angle of 900 round a former of diameter equal to twice its own diameter without breaking or splitting.",
+      "clause_id": "IS 2721:1979#6.4",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 815,
+      "page_end": 815,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 2721:1979",
+      "clause": "6.5",
+      "title": "Galvanizing Test – Shall",
+      "text": "6.5 Galvanizing Test - Shall be up to 10 percent less than the minimum mass of zinc coating specified in the prescribed standard and withstand one dip of half minute duration less than specified. For detailed information, refer to IS  2721 : 1979 Specifications for galvanized steel chain link fence fabric (first revision). for details of tests for fabric refer to cl.9. of the standard SECTION 21 GLASS CONTENTS Title Page IS    2553 : (Part 1):1990 Safety Glass: Part 1- General purposes (third revision) 21.3 IS    2835 : 1987 Flat transparent sheet glass (third revision) 21.5 IS    3438 : 1994 Silvered glass mirror for General purposes (second revision) 21.7 IS    5437 : 1994 Figured rolled and wired glass (first revision) 21.8",
+      "clause_id": "IS 2721:1979#6.5",
+      "family": "IS 2721",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 815,
+      "page_end": 818,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2721:1979",
+    "record_id": 65758,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      814,
+      818
+    ],
+    "n_clauses": 16,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current",
+      "pages_without_text:2"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

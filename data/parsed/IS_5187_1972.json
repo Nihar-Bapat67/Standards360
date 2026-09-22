@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5187:1972",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for flush bolts for use in cupboards and doors",
+      "clause_id": "IS 5187:1972#1",
+      "family": "IS 5187",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 529,
+      "page_end": 529,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 5187:1972",
+      "clause": "2",
+      "title": "Material",
+      "text": "2. Material a) Body and plate — Cast brass, cast aluminium and extruded aluminium alloy b) Bolt— Cast brass, extruded brass and extruded aluminium alloy. c) Spring— Phosphor bronze and steel strip.",
+      "clause_id": "IS 5187:1972#2",
+      "family": "IS 5187",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 529,
+      "page_end": 529,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 5187:1972",
+      "clause": "3",
+      "title": "Manufacture",
+      "text": "3. Manufacture — Rod shall be retained in its maximum bolting position by the spring.",
+      "clause_id": "IS 5187:1972#3",
+      "family": "IS 5187",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 529,
+      "page_end": 529,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 5187:1972",
+      "clause": "4",
+      "title": "Dimensions and Tolerances",
+      "text": "4. Dimensions and Tolerances Type Size FacePlate Throw of Bolt Bolt Dia Length Min. (mm) (mm) (mm) (mm) 1 100 100 20 8 ± 1 For detailed information, refer to IS  5187 : 1972 Specification for flush bolt (first revision). Type Size FacePlate Throw of Bolt Bolt Dia Length Min. (mm) (mm) (mm) (mm) 1 150 150 25 8 ± 1 1 200 200 30 8 ± 1 2 100 100 15 8 ± 1 2 150 150 15 8 ± 1 2 200 200 15 8 ± 1 2 250 250 15 8 ± 1 2 300 300 15 8 ± 1 Note— For detailed dimensions and tolerances, See 5 of the standard.",
+      "clause_id": "IS 5187:1972#4",
+      "family": "IS 5187",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 529,
+      "page_end": 529,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 5187:1972",
+      "clause": "5",
+      "title": "Worksmanship and Finish",
+      "text": "5. Worksmanship and Finish — Shall have smooth and easy working when assembled. Brass bolts shall be satin or bright polished, or nickel or chromium plated or copper oxidized. Aluminium flush bolts shall be anodized. SUMMARY OF IS 5187 : 1972 FLUSH BOLTS (First Revision)",
+      "clause_id": "IS 5187:1972#5",
+      "family": "IS 5187",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 529,
+      "page_end": 529,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5187:1972",
+    "record_id": 11958,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      529,
+      529
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 771 (Part 1):1979",
+      "clause": "1",
+      "title": "Scope – General requirements for materials,",
+      "text": "1. Scope - General requirements for materials, manufacture, finish, methods of test, sampling and inspection of all glazed fire-clay sanitary appliances.",
+      "clause_id": "IS 771 (Part 1):1979#1",
+      "family": "IS 771 (Part 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 413,
+      "page_end": 413,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 1):1979",
+      "clause": "2",
+      "title": "Material and Manufacture",
+      "text": "2. Material and Manufacture",
+      "clause_id": "IS 771 (Part 1):1979#2",
+      "family": "IS 771 (Part 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 413,
+      "page_end": 413,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 1):1979",
+      "clause": "2.1",
+      "title": "Fire – Clay bodies",
+      "text": "2.1 Fire -  Clay bodies are moderately fine,     porous, off-white bodies using natural fire clays, ball clays or stoneware clays and clay grogs covered by a glaze properly matured and fitted to the body.",
+      "clause_id": "IS 771 (Part 1):1979#2.1",
+      "family": "IS 771 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 413,
+      "page_end": 413,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 1):1979",
+      "clause": "2.2",
+      "title": "Permissible defects and blemishes",
+      "text": "2.2 Permissible defects and blemishes - See Table 1 TABLE 1 BLEMISHES AND DEFECTS PERMITTED IN VARIOUS APPLIANCES SL LOCATION    BLEMISH OR MAXIMUM PERMITTED DEFECT (1) (2) (3) (4) i) General Warpage Not to exceed ± 2% on all planes or 10 mm which ever  is less Spots and A  total of not over 6 Bilsters ii) Service Bubbles, A  total of not over 8 space, top of pinholes rim and or slab, specks inside of bowl Polishing A  total of not over 4 marks and exposed bodies Spots and A  total of not over 6 blisters iii) Visible Bubbles, Not over 3 in surfaces Pinholes one pottery other than andsquare, a above specks A total of not over 10 Polishing A total of not marks and over 4 exposed bodies.",
+      "clause_id": "IS 771 (Part 1):1979#2.2",
+      "family": "IS 771 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 413,
+      "page_end": 413,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 1):1979",
+      "clause": "2.3",
+      "title": "Minimum Thickness",
+      "text": "2.3 Minimum Thickness — At any place shall not be less than 8 mm",
+      "clause_id": "IS 771 (Part 1):1979#2.3",
+      "family": "IS 771 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 413,
+      "page_end": 413,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 1):1979",
+      "clause": "2.4",
+      "title": "Glazing",
+      "text": "2.4 Glazing — All visible surfaces of the body shall be glazed.  Surfaces coming in contact with floor or wall and the underside of sinks, etc, and points where appliances are supported in the kiln may be unglazed. The glaze shall be uniform, free from craze and shall posses an impervious surface. It shall have a high gloss and shall normally be white.  In the case of glazes containing lead, the lead content shall not exceed 5 percent of soluble lead.",
+      "clause_id": "IS 771 (Part 1):1979#2.4",
+      "family": "IS 771 (Part 1)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 413,
+      "page_end": 413,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 1):1979",
+      "clause": "3",
+      "title": "Performance Requirements",
+      "text": "3. Performance Requirements a) Warpage — See Table 1 b) Crazing — None of the test pieces shall show crazing. c) Water absorption — Shall not exceed 15 percent. d)Thermal shock — (See 8.4 of the Standard) -The appliance shall not show any sign of injury. e) Chemical Resistance — See Appendix A of the Standard) - No loss of reflectivity of glaze. f) Modulus of Rupture — Not less than 20 MPa. g)Resistance to staining and Burning —  No stain shall remain. (See Appendix B of the    Standard). Note — For methods of tests, refer to B of the standard. For detailed information, refer to IS 771 (Part1) :  1979 Specification for fire-clay sanitary appliances, Part 1 general requirements (second revision)",
+      "clause_id": "IS 771 (Part 1):1979#3",
+      "family": "IS 771 (Part 1)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 413,
+      "page_end": 413,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 771 (Part 1):1979",
+    "record_id": 14703,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      413,
+      413
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.988,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

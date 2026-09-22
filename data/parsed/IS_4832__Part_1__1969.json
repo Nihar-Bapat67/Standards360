@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4832 (Part 1):1969",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for chemically setting silicate type of chemical resistant mortars for bonding chemical resistant mansonry units. Such mortars are resistant to most type of acids except hydrofluoric acid and concentrated orthophosphoric acids. They are not resistant to alkalis or to boiling water and steam. They deteriorate by continued exposure to water.",
+      "clause_id": "IS 4832 (Part 1):1969#1",
+      "family": "IS 4832 (Part 1)",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 207,
+      "page_end": 207,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 1):1969",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2. Materials",
+      "clause_id": "IS 4832 (Part 1):1969#2",
+      "family": "IS 4832 (Part 1)",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 207,
+      "page_end": 207,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 1):1969",
+      "clause": "2.1",
+      "title": "Binder",
+      "text": "2.1 Binder — Solution of sodium silicate or potassium silicate with silica/sodium oxide or silica/potassium oxide molecular  ratio of 3 to 3.7. Specific gravity 1.4.",
+      "clause_id": "IS 4832 (Part 1):1969#2.1",
+      "family": "IS 4832 (Part 1)",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 207,
+      "page_end": 207,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 1):1969",
+      "clause": "2.2",
+      "title": "Fillers",
+      "text": "2.2 Fillers — Silica, quartz, ganister, andesite, etc.",
+      "clause_id": "IS 4832 (Part 1):1969#2.2",
+      "family": "IS 4832 (Part 1)",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 207,
+      "page_end": 207,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 1):1969",
+      "clause": "2.3",
+      "title": "Selling Agent",
+      "text": "2.3 Selling Agent — Fluoride or acid compound.",
+      "clause_id": "IS 4832 (Part 1):1969#2.3",
+      "family": "IS 4832 (Part 1)",
+      "year": 1969,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 207,
+      "page_end": 207,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 1):1969",
+      "clause": "3",
+      "title": "Physical Requirements",
+      "text": "3. Physical Requirements — See Table 1.",
+      "clause_id": "IS 4832 (Part 1):1969#3",
+      "family": "IS 4832 (Part 1)",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 207,
+      "page_end": 207,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4832 (Part 1):1969",
+      "clause": "4",
+      "title": "Chemical Requirements",
+      "text": "4. Chemical Requirements — Limits of chemical resistance may be settled between the purchaser and the supplier. TABLE  1  PHYSICAL  REQUITEMENTS OF SILICATE TYPE CHEMICAL RESISTANT MOTARS Sl No.       Property                                   Requirement Sodium       Potassium Silicate        Silicate Type Type (1) (2) (3) (4) (i)        Working time at 27 ± 2o C, 15 20 Min,minutes (ii)       Flexural strength at 35 40 7 days,Min, kgf/cm2 (iii)      Compressive  strength at        100 150 7 days Min, kgf/cm2 (iv)      Bond strength, Min kgf/cm2       5                          5 (v)      Absorption of toluene, Max, 18 18 percent by weight SUMMARY OF IS 4832 (PART 1) : 1969 CHEMICAL RESISTANT MORTARS PART I - SILICATE TYPE Note 1— For method of tests, refer to IS 4456 (Part 1) : 1967 Methods of test for chemical resistant mortar: Part I Silicate  type and resin type Note 2— For general guide for chemical resistance of sillicate type mortars to various substances, refer to Table 1 of  IS 4441:1980 Code of practice for use of silicate type chemical resistant mortars (first revision). For detailed informations, refer to IS 4832 (Part 1) : 1969  Specificaion for  chemical resistant mortars: Part 2 Silicate type.",
+      "clause_id": "IS 4832 (Part 1):1969#4",
+      "family": "IS 4832 (Part 1)",
+      "year": 1969,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 207,
+      "page_end": 207,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4832 (Part 1):1969",
+    "record_id": 11553,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      207,
+      207
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

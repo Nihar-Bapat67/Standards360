@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6607:1972",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1.  Scope - Requirements for rebated mortice locks suitable for use on double leaf doors with rebated meeting stiles.",
+      "clause_id": "IS 6607:1972#1",
+      "family": "IS 6607",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 535,
+      "page_end": 535,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6607:1972",
+      "clause": "2",
+      "title": "Sizes – 65, 75",
+      "text": "2. Sizes -  65,  75 and 100 mm. Sizes shall  be denoted by length of the body measured from the outside face of  the fore end to the rear end over the body in mm. The measured length shall not vary more than ± 3 mm from the length specified for size. Note — For typical design of rebated mortice locks see Fig. 1 of the standard.",
+      "clause_id": "IS 6607:1972#2",
+      "family": "IS 6607",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 535,
+      "page_end": 535,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6607:1972",
+      "clause": "3",
+      "title": "Non",
+      "text": "3. Non-interchangeability - Two-lever locks shall have non-interchangeable keys in a batch of minimum of 24 locks. Locks with more than two levers shall have non-interchangeable keys in a batch of a minimum of 100 locks.",
+      "clause_id": "IS 6607:1972#3",
+      "family": "IS 6607",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 535,
+      "page_end": 535,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6607:1972",
+      "clause": "4",
+      "title": "Requirements",
+      "text": "4. Requirements a) Body - Depth of body shall not exceed 15  mm. b) Locking bolt  -  Section shall not be less than Note  — For requirements for materials for component parts of mortice locks see Table 1 of the standard. For  detailed information, refer to IS 6607 : 1972 Specification for rebated mortice locks (vertical type). 12 × 16 mm for all sizes of locks. c) Mechanism  — Locking mechanism shall be lever type with not less than two levers. d) Lever Spring — Shall withstand the prescribed test. e) Keys  — Two for each lock usable from inside and outside. f) Latch Bolt — Section not less than 12  × 16  mm.",
+      "clause_id": "IS 6607:1972#4",
+      "family": "IS 6607",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 535,
+      "page_end": 535,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6607:1972",
+      "clause": "5",
+      "title": "Workmanship and Finish",
+      "text": "5. Workmanship and Finish —  Brass body shall be finished smooth and polished. Aluminium alloy body may be anodized. Rebated face plate and striking plate may be polished,  chormium plated or oxidized. Steel body shall be given protective coating. Steel  parts shall be given specified protective teatment before painting.",
+      "clause_id": "IS 6607:1972#5",
+      "family": "IS 6607",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 535,
+      "page_end": 535,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6607:1972",
+      "clause": "6",
+      "title": "Tests",
+      "text": "6. Tests — Shall withstand the tests specified in 9 of the standard.",
+      "clause_id": "IS 6607:1972#6",
+      "family": "IS 6607",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 535,
+      "page_end": 535,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6607:1972",
+    "record_id": 13469,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      535,
+      535
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.989,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

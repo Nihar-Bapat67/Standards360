@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3068:1986",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirements for coarse aggregate prepared from broken bricks (burnt clay) for use in lime concrete.",
+      "clause_id": "IS 3068:1986#1",
+      "family": "IS 3068",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 101,
+      "page_end": 101,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3068:1986",
+      "clause": "2",
+      "title": "Quality",
+      "text": "2. Quality —  Shall be prepared from the well/ overburnt bricks conforming to class designation 50 and above  of IS 1077:1992.* It shall be free from underburnt clay particles, soluble salt and adherent coating of soil or silt. Brick aggregate should be handled least number of times before being used in concrete.",
+      "clause_id": "IS 3068:1986#2",
+      "family": "IS 3068",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 101,
+      "page_end": 101,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3068:1986",
+      "clause": "3",
+      "title": "Physical Requirements",
+      "text": "3. Physical Requirements",
+      "clause_id": "IS 3068:1986#3",
+      "family": "IS 3068",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 101,
+      "page_end": 101,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3068:1986",
+      "clause": "3.1",
+      "title": "Grading for broken brick coarse aggregate",
+      "text": "3.1 Grading for broken brick coarse aggregate -shall be as  fallows — IS Sieve Percent  Passing Designation (By Mass) 75  mm 100 37.5 mm 95-100 19.0 mm 45- 75 4.75 mm 0- 5",
+      "clause_id": "IS 3068:1986#3.1",
+      "family": "IS 3068",
+      "year": 1986,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 101,
+      "page_end": 101,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3068:1986",
+      "clause": "3.2",
+      "title": "Requirements of broken brick coarse aggregate",
+      "text": "3.2 Requirements of broken brick coarse aggregateshall be as  follows: Characteristic Requirement Bulk density, kg/m3 1 100 - 1 350 Aggregate impact value, 50 percent, Max water absorption, 20 percent, Max Water soluble matter, 1 percent, Max SUMMARY OF IS 3068 : 1986 BROKEN BRICK (BURNT CLAY) COARSE AGGREGATE FOR USE IN LIME CONCRETE (Second  Revision) Note — For methods of tests, refer to Appendices A and B  of the standard and IS 2386: 1963 Methods of tests for aggregates for concrete. IS 5640: 1970 Methods of test for determining aggregate impact value of soft coarse aggregates. For detailed information, refer to IS 3068:1986  Specification for broken brick (burnt clay) coarse aggregate for use in lime concrete (second revision). *Common burnt clay building bricks (fifth revision)",
+      "clause_id": "IS 3068:1986#3.2",
+      "family": "IS 3068",
+      "year": 1986,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 101,
+      "page_end": 101,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3068:1986",
+    "record_id": 9640,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      101,
+      101
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

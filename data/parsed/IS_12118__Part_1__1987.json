@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12118 (Part 1):1987",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — General requirements of two grades of two-part polysulphide based sealants for use in general building applications, namely, pouring grade and gun grade. Pouring grade sealants are intended for use in horizental joints. Gun grade sealants are intended for use in vertical and inclined joints (that is, glazing applications).",
+      "clause_id": "IS 12118 (Part 1):1987#1",
+      "family": "IS 12118 (Part 1)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 93,
+      "page_end": 93,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12118 (Part 1):1987",
+      "clause": "2",
+      "title": "Grades of Sealants",
+      "text": "2. Grades of Sealants",
+      "clause_id": "IS 12118 (Part 1):1987#2",
+      "family": "IS 12118 (Part 1)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 93,
+      "page_end": 93,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12118 (Part 1):1987",
+      "clause": "2.1",
+      "title": "Pouring Grade",
+      "text": "2.1 Pouring Grade  — A sealant which flows sufficiently to give reasonably smooth level surface when applied in a horizontal upward facing joint at ambient temperature.",
+      "clause_id": "IS 12118 (Part 1):1987#2.1",
+      "family": "IS 12118 (Part 1)",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 93,
+      "page_end": 93,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12118 (Part 1):1987",
+      "clause": "2.2",
+      "title": "Gun Grade",
+      "text": "2.2 Gun Grade — A sealant which permits application in a suitable joint of any aspect or inclination without appreciable slumping at ambient temperature.",
+      "clause_id": "IS 12118 (Part 1):1987#2.2",
+      "family": "IS 12118 (Part 1)",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 93,
+      "page_end": 93,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12118 (Part 1):1987",
+      "clause": "3",
+      "title": "Selection of Material",
+      "text": "3. Selection of Material — The salient shall cure at ambient temperature.",
+      "clause_id": "IS 12118 (Part 1):1987#3",
+      "family": "IS 12118 (Part 1)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 93,
+      "page_end": 93,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12118 (Part 1):1987",
+      "clause": "4",
+      "title": "Test Requirements",
+      "text": "4. Test Requirements",
+      "clause_id": "IS 12118 (Part 1):1987#4",
+      "family": "IS 12118 (Part 1)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 93,
+      "page_end": 93,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12118 (Part 1):1987",
+      "clause": "4.1",
+      "title": "Rheological Properties",
+      "text": "4.1 Rheological Properties",
+      "clause_id": "IS 12118 (Part 1):1987#4.1",
+      "family": "IS 12118 (Part 1)",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 93,
+      "page_end": 93,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12118 (Part 1):1987",
+      "clause": "4.1.1",
+      "title": "Pouring grade sealant",
+      "text": "4.1.1 Pouring grade sealant — The sealant shall exhibit a smooth and level surface.",
+      "clause_id": "IS 12118 (Part 1):1987#4.1.1",
+      "family": "IS 12118 (Part 1)",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 93,
+      "page_end": 93,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12118 (Part 1):1987",
+      "clause": "4.1.2",
+      "title": "Gun",
+      "text": "4.1.2 Gun-grade sealant — The sealant shall not stump in vertical displacement by more than 1.0 mm, when tested in a vertical position and shall not protrude in front of SECTION 2 BUILDING LIMES CONTENTS Title Page IS 712 : 1984 Building limes (third revision) 2.3 IS 2686 : 1977 Cinder as fine aggregate for use in lime concrete  (first revision) 2.6 IS 3068 : 1986 Broken brick (Burnt clay) coarse aggregates for use in lime concrete  ( second revision) 2.7 IS 3115 : 1992 Lime based blocks (second revision) 2.8 IS 3182 : 1986 Broken brick (Burnt clay) fine aggregate for use in lime mortar (second revision) 2.9 IS 4098 : 1983 Lime pozzolana mixture (first revision) 2.10 IS 4139 : 1989 Calcum silicate bricks (second revision) 2.11 IS 10360 : 1982 Lime pozzolana concrete blocks for paving 2.12 IS 10772 : 1983 Quick setting lime pozzolana mixture 2.13 IS 12894 : 2002 Pulverized fuel ash-lime bricks (first Revision) 2.14",
+      "clause_id": "IS 12118 (Part 1):1987#4.1.2",
+      "family": "IS 12118 (Part 1)",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "references",
+      "page_start": 93,
+      "page_end": 96,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12118 (Part 1):1987",
+    "record_id": 3395,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      93,
+      96
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 0.573,
+    "flags": [
+      "pages_without_text:2"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

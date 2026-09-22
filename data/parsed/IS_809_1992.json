@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 809:1992",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —   Lays down the composition, minimum requirements, workmanship and prescribes tests for rubber flooring material suitable for covering floors of domestic and public buildings, cinemas, hospitals, large stores, ships, transport vehicles, etc. This standard does not cover the requirements for special types of rubber flooring used for electrical insulating purposes, conductive or antistatic flooring or rubber flooring having chemical and oil-resistant properties.",
+      "clause_id": "IS 809:1992#1",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "2",
+      "title": "Composition",
+      "text": "2. Composition",
+      "clause_id": "IS 809:1992#2",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "2.1",
+      "title": "Shall be made from",
+      "text": "2.1 Shall be made from a compound of natural or synthetic rubber which may also contain reclaim rubber and suitable fillers. All colouring matter shall be of good quality, insoluble in water, resistant to alkalies and direct sunlight or artificial light.",
+      "clause_id": "IS 809:1992#2.1",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "2.2",
+      "title": "Suitable cotton sheeting shall",
+      "text": "2.2 Suitable cotton sheeting shall be used as backing, impregnated with a high grade rubber compound. The hessian used  shall conform to Type II hessian as specified in IS 2818 (Part 2) : 1971.* The hessian shall be impregnated with a high grade rubber compound.",
+      "clause_id": "IS 809:1992#2.2",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "3",
+      "title": "Workmanship",
+      "text": "3. Workmanship",
+      "clause_id": "IS 809:1992#3",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "3.1",
+      "title": "Appearance",
+      "text": "3.1 Appearance — Shall be of first class workmanship, satisfactorily vulcanized, free from sulphur bloom and objectionable odour and blisters, cracks and embedded foreign matter. There shall be no porosity on the surface or throughout the thickness of the sheet. The surface finish of the flooring shall be either glossy or mat. The underside of the floor covering shall be either furnished with a cloth impression or be buffed smooth.The edges and ends shall be cut true and square.",
+      "clause_id": "IS 809:1992#3.1",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "3.2",
+      "title": "Colour",
+      "text": "3.2 Colour — The colour of the flooring shall not be permanently affected by cleaning with water and a washing somap or by treatment with a suitable floor polish.",
+      "clause_id": "IS 809:1992#3.2",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "4",
+      "title": "Dimension",
+      "text": "4. Dimension",
+      "clause_id": "IS 809:1992#4",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "4.1",
+      "title": "Thickness",
+      "text": "4.1 Thickness —3 mm, 4 mm, 5 mm, 6 mm",
+      "clause_id": "IS 809:1992#4.1",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "4.2",
+      "title": "Overall thickness shall not",
+      "text": "4.2 Overall thickness shall not differ from the declared nominal value by more than 0.3 mm at any of the twenty measuring points.",
+      "clause_id": "IS 809:1992#4.2",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "4.3",
+      "title": "Tile Sizes and Squareness",
+      "text": "4.3 Tile Sizes and Squareness— Rubber flooring, when supplied in the form of tiles, shall be of any thickness (in the case of ribbed or fluted rubber flooring, the thickness refers to the thickness of the base) specified in 4.1 and of the following sizes: 200 mm × 200 mm 300 mm × 300 mm 500 mm × 500 mm",
+      "clause_id": "IS 809:1992#4.3",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "4.4",
+      "title": "The length of side",
+      "text": "4.4 The length of side shall not vary from the nominal value by more than 0.15 percent.",
+      "clause_id": "IS 809:1992#4.4",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "4.5",
+      "title": "Sheet Width",
+      "text": "4.5 Sheet Width— 0.9  m, 1.2  m, 1.5  m, 1.8  m, 2.0 m, 2.1m. The width of the sheet at any point shall not be less than the nominal value, and shall not exceed the nominal value by more than 6 mm.  The sponge-backed rubber flooring shall have a wearing surface of solid rubber at least 3 mm thick on a sponge rubber base of 3 mm thickness.",
+      "clause_id": "IS 809:1992#4.5",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "5",
+      "title": "Performance",
+      "text": "5. Performance",
+      "clause_id": "IS 809:1992#5",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "5.1",
+      "title": "Hardness",
+      "text": "5.1 Hardness — Shall be neither less than 65 IRHD  nor greater than 96 IRHD. TABLE 1 TOLERANCE IN HARDNESS Nominal Hardness Tolerances on Hardness IRHD IRHD 65 to 76 ± 5 Over 76 to 86 ± 4 Over 86 to 96 ± 3",
+      "clause_id": "IS 809:1992#5.1",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "5.2",
+      "title": "Water Absorption",
+      "text": "5.2 Water Absorption — Shall not absorb water by weight more than 0.5 percent of the original weight",
+      "clause_id": "IS 809:1992#5.2",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "5.3",
+      "title": "Compression Set",
+      "text": "5.3 Compression Set — Shall not exceed 15 percent conditional for 24 + − 0 2 hours and 27+1°C",
+      "clause_id": "IS 809:1992#5.3",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "5.3.1",
+      "title": "The test pieces shall",
+      "text": "5.3.1 The test pieces shall show no signs of cracking after the test is conducted.",
+      "clause_id": "IS 809:1992#5.3.1",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 3,
+      "parent_clause": "5.3",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 248,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 809:1992",
+      "clause": "5.4",
+      "title": "Resistance to Abrasion",
+      "text": "5.4 Resistance to Abrasion — Shall be as agreed between purchaser and supplier. SUMMARY OF IS  809 : 1992 RUBBER FLOORING MATERIALS FOR GENERAL PURPOSE (First Revision) * Indian Hessian, Part 2-305 and 229g/m2 at 16 percent contact regain (first  revision) Note: For methods of tests refer to Appendices B to F of the standard and  IS 3400. Methods of test for vulcanized  rubbers Part 2 : 1995   Hardness (first revision) Part  3 : 1987   Abrasion resistance using rotating cylindrical drum device (first revision) Part  10 : 1977 Compression set at constant strain (first revision) For  detailed information, refer  to IS  809 : 1992 Specification for  rubber flooring materials for general  purposes (second revision). SECTION 9 WATERPROOFING AND DAMP - PROOFING MATERIALS CONTENTS Title Page IS 1322 : 1993 Bitumen felts for water-proofing and damp-proofing (fourth revision) 9.3 IS 1580 :1991 Bituminous compounds for water-proofing and caulking purposes 9.6 (second revision) IS 2645 : 2003 Integral cement water-proofing compounds (second revision) 9.7 IS 3037 : 1986 Bitumen mastic for use in water-proofing of roofs (first revision) 9.8 IS 3384 : 1986 Bitumen primer for use in water-proofing and damp proofing (first revision) 9.10 IS 5871 : 1987 Bitumen mastic for tanking and damp proofing (first revision) 9.11 IS 7193 : 1994 Glass fibre base bitumen felts.(first revision) 9.12 IS 12027 : 1987 Silicone-based water repellents. 9.13 IS 14695 : 1999 Glass fibre base coal tar pitch outer wraps 9.14",
+      "clause_id": "IS 809:1992#5.4",
+      "family": "IS 809",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 248,
+      "page_end": 252,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 809:1992",
+    "record_id": 15154,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      248,
+      252
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

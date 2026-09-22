@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8008 (Part 6):2003",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1.    Scope",
+      "clause_id": "IS 8008 (Part 6):2003#1",
+      "family": "IS 8008 (Part 6)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 356,
+      "page_end": 356,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 6):2003",
+      "clause": "1.1",
+      "title": "Requirements for manufacture, dimensions and",
+      "text": "1.1  Requirements for manufacture, dimensions and tolerances, and marking  for injection moulded and machined HDPE pipe ends  for potable water supplies. SUMMARY OF IS 8008 (PART 6) : 2003 INJECTION MOULDED HIGH DENSITY POLYETHYLENE (HDPE) FITTINGS FOR POTABLE WATER SUPPLIES PART 6 SPECIFIC REQUIREMENTS FOR  PIPE ENDS (First Revision) Note —For general requirements regarding material, manufacture, methods of test, etc, refer to IS  8008 (Part  1)  : 2003. Injection moulded high density polyethylene (HDPE)  fittings for portable water supplies : Part 1 General requirements for fittings",
+      "clause_id": "IS 8008 (Part 6):2003#1.1",
+      "family": "IS 8008 (Part 6)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 356,
+      "page_end": 356,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 6):2003",
+      "clause": "2",
+      "title": "Dimensions and Tolerances",
+      "text": "2. Dimensions and Tolerances",
+      "clause_id": "IS 8008 (Part 6):2003#2",
+      "family": "IS 8008 (Part 6)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 356,
+      "page_end": 356,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 6):2003",
+      "clause": "2.1",
+      "title": "Overall dimensions and tolerances",
+      "text": "2.1 Overall dimensions and tolerances there on shall be as follows : Table 1 Dimensions for Injectino and Machined Pipe Ends Sl. Nominal Diameter for Collar PN6 PN 10 No. Diameter Manufacturing Diameter Laying Collar Welding Laying Collar Welding Length Height Length Length Height Length D D3 D4 Z H L Z H L (1) (2) (3) (4) (5) (6) (7) (8) (9) (10) i) 20 28 47 50 - - 50 7 28 ii) 25 34 57 50 9 28 50 9 27 iii) 32 40 67 50 10 27 50 10 27 iv) 40 49 78 50 11 24 50 11 24 v) 50 60 88 50 12 23 50 12 23 vi) 63 72 103 50 14 16 50 14 16 vii) 75 84 123 50 16 14 50 16 14 viii) 90 99 138 80 17 43 80 17 43 ix) 110 119 158 80 18 37 80 18 17 x) 125 134 188 80 18 42 80 25 35 xi) 140 150 188 80 18 34 80 25 27 xii) 160 170 214 80 18 34 80 25 27 xiii) 180 190 214 80 20 30 80 30 20 xiv) 200 210 269 100 24 36 100 32 28 xv) 225 235 269 100 24 46 100 32 38 xvi) 250 261 320 100 25 35 100 35 35 xvii) 280 291 320 100 25 45 100 35 35 xviii) 315 327 370 100 25 35 100 35 35 xix) 355 373 430 120 30 50 120 40 40 xx) 400 427 482 120 33 42 120 46 29 xxi) 450 514 585 120 46 14 130 60 10 xxii) 500 530 585 120 46 24 120 60 10 xxiii) 560 615 685 120 50 10 130 60 10 xxiv) 630 642 685 120 50 30 120 60 20 xxv) 710 737 800 120 50 20 120 - - xxvi) 800 840 905 120 52 18 120 - - xxii) 900 944 1 005 120 55 15 120 - - xxviii) 1 000 1 047 1 110 140 60 10 140 - - Note 1 — For typical illustration of pipe end see Fig.1 of the standard. Note 2 — Outside diameter and wall thickness of  the end to be welded to pipe shall  complywith the requirements given in IS 8008 (Part 1) : 2003.",
+      "clause_id": "IS 8008 (Part 6):2003#2.1",
+      "family": "IS 8008 (Part 6)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 356,
+      "page_end": 356,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8008 (Part 6):2003",
+    "record_id": 15065,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      356,
+      356
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

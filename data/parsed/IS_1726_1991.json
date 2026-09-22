@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1726:1991",
+      "clause": "1",
+      "title": "Scope – Lays down",
+      "text": "1. Scope - Lays down basic and performance requirements for manhole covers and frames in castiron, intended for use in drainage and water works.",
+      "clause_id": "IS 1726:1991#1",
+      "family": "IS 1726",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 423,
+      "page_end": 423,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1726:1991",
+      "clause": "2",
+      "title": "Grades and Types",
+      "text": "2. Grades and Types Grades Grade Type/Shape Designation of Covers Light-duty LD-2.5 Rectangular, Square Circular Medium-Duty MD-10 Circular Rectangular Heavy- Duty HD-20 Circular Lamphole Square Rectangular (Scrapper Manhole) Extra-Heavy EHD-35 Circular Duty Square Rectangular (Scrapper manhole)",
+      "clause_id": "IS 1726:1991#2",
+      "family": "IS 1726",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 423,
+      "page_end": 423,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1726:1991",
+      "clause": "2.1",
+      "title": "Recommended Locations",
+      "text": "2.1 Recommended Locations LD-2.5 - Rectangular, Square or Circular Solid Types — Suitable for use within residential and institutional complexes/areas with pedestrain but occassional light motor vehicle traffic.  These covers are also used for `Inspection Chambers MD-10  Circular or Rectangular Types - 5. Manufacture 5.1 Covers and Frames —  Covers and frames shall  be cleanly cast and they shall be free from air and sand holes, cold shuts and warping which are likely to impair the utility of the castings.  Covers shall have on its operative top a raised chequered design to provide for an adequate no-slip grip.  The rise of the chequer shall be not less than 4 mm. 5.2 Key Holes and Keys — Key holes, keys and lifting devices shall be  provided in the manhole covers to facilitate their placement in the frames, and their operative maintenance during use in the field. 5.3 Locking Devices — Suitable locking devices including that with galvanized chain or a lock, or a combination of both shall be provided in the manhole cover system, if so desired bythe purchaser. 5.4 Coating — shall be coated with a material having base with a black bitumen composition. 6. Load Test —  Shall with stand without fracture, the loads specified in 4 for a  minimum period of 30s. Note 1— For dimensions and tolerances, see 7 of the standard Note 2— For  testing procedure see 10.2 of the standard. For detailed information, refer to IS  1726 : 1991 specification for cast iron manhole covers and frames (third revision) IS  210 : 1993 Grey iron castings (fourth revision). TABLE 1   BASIC AND PERFORMANCE REQUIREMENTS OF MANHOLE COVERS AND FRAMES GRADE TYPE/SHAPE OF CLEAR OPENING FRAME TEST  LOAD TONNES DESIGNATION COVER OF FRAME Depth Seating mm mm mm (1) (2) (3) (4) (5) (6) LD-2.5 Rectangular 450 × 600 35 50 2.5 Square 450 × 450 30 50 400 × 400 30 50 Circular 370 (dia) 45 40 370 (dia) 45 40 MD-10 Circular 450 (dia) 60 40 10 480 (dia) 70 40 500 (dia) 80 50 Rectangular 450 × 600 80 50 HD-20 Circular 500 (dia) 100 50 20 560 (dia) 110 60 600 (dia) 110 75 Lamphole cover 350 (dia) 130 25 Square 560 × 560 110 75 Rectangular 450 × 900 100 60 (Scrapper manhole) EHD-35 Circular 560 (dia) 130 60 35 600 (dia) 140 75 Square 560 × 560 130 60 Rectangular 600 × 900 120 70 (Scrapper manhole)",
+      "clause_id": "IS 1726:1991#2.1",
+      "family": "IS 1726",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 423,
+      "page_end": 424,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1726:1991",
+    "record_id": 8137,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      423,
+      424
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.753,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

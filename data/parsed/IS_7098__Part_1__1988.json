@@ -1,0 +1,472 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope",
+      "clause_id": "IS 7098 (Part 1):1988#1",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "1.1",
+      "title": "Requirements for both armoured and unarmoured",
+      "text": "1.1 Requirements for both armoured and unarmoured single, twin, three, four and multi-core cross-linked polyethylene (XLPE) insulated and PVC sheathed cables for electric supply and control purpose.",
+      "clause_id": "IS 7098 (Part 1):1988#1.1",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "1.2",
+      "title": "The cables covered in",
+      "text": "1.2 The cables covered in this standard are suitable for use on ac single phase or three phase (earthed or unearthed) systems for rated voltages up to and including 1 100 volts. These cables may be used on dc systems for rated voltage up to and including 1 500 volts to earth. Note -The cables conforming to this standard may be operated continuously at a power frequency voltage 10 percent higher than rated voltage.",
+      "clause_id": "IS 7098 (Part 1):1988#1.2",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "1.3",
+      "title": "Armoured cables specified in",
+      "text": "1.3 Armoured cables specified in this standard are suitable for use in mines also. However, for such cables, additional requirements have been included.",
+      "clause_id": "IS 7098 (Part 1):1988#1.3",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "1.4",
+      "title": "These cables are suitable",
+      "text": "1.4 These cables are suitable for use where combination of ambient temperature and temperature rise due to load results in conductor temperature not exceeding 90ºC under normal operation and 250ºC under short circuit condition.",
+      "clause_id": "IS 7098 (Part 1):1988#1.4",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "1.5",
+      "title": "This standard also covers",
+      "text": "1.5 This standard also covers cables with improved fire performance categories C1 and C2 for  which additional requirements have been included.",
+      "clause_id": "IS 7098 (Part 1):1988#1.5",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 7098 (Part 1):1988#2",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.1",
+      "title": "Materials",
+      "text": "2.1 Materials",
+      "clause_id": "IS 7098 (Part 1):1988#2.1",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.1.1",
+      "title": "Conductor – Shall be",
+      "text": "2.1.1 Conductor - Shall be composed of plain copper or aluminium wires complying with IS  8130: 1984+. Mining cables to be used in gassy mines   shall be of copper   conductor   only.",
+      "clause_id": "IS 7098 (Part 1):1988#2.1.1",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.1.2",
+      "title": "Insulation – Shall be",
+      "text": "2.1.2 Insulation -  Shall be of  cross linked polyethylene conforming to the requirements given in Table 1 of the standard.",
+      "clause_id": "IS 7098 (Part 1):1988#2.1.2",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "requirements",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.1.3",
+      "title": "Filler",
+      "text": "2.1.3 Filler  and Inner  Sheath - Shall be of the following: a) Vulcanized or unvulcanized rubber, or b) Thermoplastic materials.",
+      "clause_id": "IS 7098 (Part 1):1988#2.1.3",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.1.4",
+      "title": "Armouring – Shall be",
+      "text": "2.1.4 Armouring -  Shall be of the following : a)   Galvanized round steel wire, or b)   Galvanized steel strip, or c)    Any metallic non-magnetic wire/strip.",
+      "clause_id": "IS 7098 (Part 1):1988#2.1.4",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.1.5",
+      "title": "Outer Sheath – Shall",
+      "text": "2.1.5 Outer Sheath - Shall be of  polyviny choride (PVC) compound conforming to the requirements of type ST 2 compound of IS   5831 : 1984*.",
+      "clause_id": "IS 7098 (Part 1):1988#2.1.5",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "requirements",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.2",
+      "title": "Construction",
+      "text": "2.2 Construction",
+      "clause_id": "IS 7098 (Part 1):1988#2.2",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.2.1",
+      "title": "Conductor – Shall be",
+      "text": "2.2.1 Conductor - Shall be as follows : Nominal  Cross Sectional Area          Solid /              Flexiblitity stranded              class Copper        Alluminium mm2               mm2 -- 1.5 Solid 1 1.5- 6 2.5-10 Solid/ Stranded         1 for solid 2 for stranded 10 and                 16 and         Stranded             2 above                above Cables with  reduced neutral conductor shall have size as given in Table 2 of the standard.",
+      "clause_id": "IS 7098 (Part 1):1988#2.2.1",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.2.2",
+      "title": "Insulation – Shall be",
+      "text": "2.2.2 Insulation - Shall be provided with cross linked polyethylene insulation applied by extrusion. The average thickness of insulation shall be not less than the nominal value specified in Table 3 of the standard.",
+      "clause_id": "IS 7098 (Part 1):1988#2.2.2",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 886,
+      "page_end": 886,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.2.3",
+      "title": "Core identification – Cores",
+      "text": "2.2.3 Core identification -  Cores shall be identified as specified below : †Conductors for insulated  electric  cables and  flexible cords (first  revision). * PVC insulation and  sheath of electric  cables (first revision) a) Coloured strip applied on the core b) Colouring of XLPE insulation as follows : 1 Core—Red, black, yellow, blue or natural; 2 Core—Red and black; 3 Core—Red, yellow and blue; 4 Core—Red, yellow, blue and black; 5 Core—Red, yellow, blue, black and grey; 6 Core— and above—Two adjacent cores (counting and direction core) in  each layer, blue and yellow, remaining cores, grey; or c) By numerals either by applying numbered strips or by printing on the cores as follows 2 Core - 0, 1 3 Core - 0, 1, 2, 3 4 Core - 0, 1, 2 and 3 Note 1- For reduced neutral conductors, the core shall be black. Note  2 -  For cables of more than 5 cores, the core identification may be done by numbers",
+      "clause_id": "IS 7098 (Part 1):1988#2.2.3",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 886,
+      "page_end": 887,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.2.4",
+      "title": "Laying",
+      "text": "2.2.4  Laying  of  core -  Shall be laid up togather with a suitable lay, the outermost layer having right hand  lay and successive layers with opposite layers. Recommended plan  up to 100 be is given in Table 4 of the standard.",
+      "clause_id": "IS 7098 (Part 1):1988#2.2.4",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 887,
+      "page_end": 887,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.2.5",
+      "title": "Inner Sheath – Shall",
+      "text": "2.2.5  Inner Sheath - Shall be applied either by extrusion or by  wrapping. Thickness of inner sheath shall be as given in Table 5 of the standard.",
+      "clause_id": "IS 7098 (Part 1):1988#2.2.5",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 887,
+      "page_end": 887,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.2.6",
+      "title": "Armouring – Shall be",
+      "text": "2.2.6  Armouring -  Shall be applied over the insulation in case of single core cables and over the inner sheath in case of twin, three and multicore cables",
+      "clause_id": "IS 7098 (Part 1):1988#2.2.6",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 887,
+      "page_end": 887,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "2.2.7",
+      "title": "Outer sheath – Shall",
+      "text": "2.2.7  Outer sheath - Shall be applied by extrusion as below: a) Over the insulation in case  of unarmoured single core cables, b) Over the inner  sheath in case of  unarmoured twin, three and multi-core cables; and c) Over the armouring in case of armoured cables. Thickness shall be as given in Table 8 of the standard",
+      "clause_id": "IS 7098 (Part 1):1988#2.2.7",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 887,
+      "page_end": 887,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "3",
+      "title": "Tests",
+      "text": "3. Tests",
+      "clause_id": "IS 7098 (Part 1):1988#3",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 887,
+      "page_end": 887,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "3.1",
+      "title": "Types Tests –",
+      "text": "3.1 Types Tests - a) Tests on conductor: i)      Annealing test (for copper) ii)     Tensile test (for aluminium) iii)    Wrapping test (for aluminium) iv)   Resistance test b) Test for armouring wires/strips. c) Test for thickness of insulation and  sheath d) Physical tests for insulation : i) Tensile strength and elongation at break ii)    Ageing in air oven iii)   Shrinkage test iv)   Hot set test v)    Water absorption (gravimetric) e) Physical tests for outer sheath i) Tensile strength and elongation at break ii)    Ageing in air oven, iii)   Loss of mass in air oven iv)   Shrinkage test, and v)    Hot deformation vi)   Heat shock test vii)  Thermal stability f) Insulation resistence (Volume resistivity Test) g) High voltage test, h) Flammability test, Note - For acceptance, routine, optional tests and additional tests for cables with improved fine performance refer to 15 of the standard.",
+      "clause_id": "IS 7098 (Part 1):1988#3.1",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 887,
+      "page_end": 887,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "4",
+      "title": "Identification",
+      "text": "4. Identification",
+      "clause_id": "IS 7098 (Part 1):1988#4",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 887,
+      "page_end": 887,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7098 (Part 1):1988",
+      "clause": "4.1",
+      "title": "The following code shall",
+      "text": "4.1 The following code shall be used for designating the cable: Sl. No.     Constituent Code Letter i) Aluminium conductor A ii) XLPE insulation 2X iii) Steel round wire armour W iv) Non-magnetic round wire armour Wa v) Steel strip armour F vi) Non-magnetic strip armour Fa vii) Double steel strip armour F F viii) Double steel round wire armour W W ix) PVC outer sheath Y Note - No code letter for conductor is required when the conductor material is  copper. Cables with heat resisting insulation suitable for 85ºC conductor temperature shall be identified by the letters 'HR 85' marked on it. Note - For methods tests, refer to relevant parts of IS 10810 Methods of test for cables. For detailed information, refer to IS 7098 (Part I) : 1988  Specification for cross-linked polyethylene insulated thermoplastic sheathed cables: Part I   For working voltages upto and including 1100 volts (first revision).",
+      "clause_id": "IS 7098 (Part 1):1988#4.1",
+      "family": "IS 7098 (Part 1)",
+      "year": 1988,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 887,
+      "page_end": 887,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7098 (Part 1):1988",
+    "record_id": 14013,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      886,
+      887
+    ],
+    "n_clauses": 25,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.998,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

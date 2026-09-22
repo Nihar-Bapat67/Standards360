@@ -1,0 +1,382 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4985:2000",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope",
+      "clause_id": "IS 4985:2000#1",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "1.1",
+      "title": "Requirements for plain end",
+      "text": "1.1 Requirements for plain end as well as socket end pipes including those for use with electronic sealing rings.",
+      "clause_id": "IS 4985:2000#1.1",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "1.2",
+      "title": "This standard does not cover",
+      "text": "1.2 This standard does not cover  unplasticized PVC pipes  use in suction and delivery lines of agricultural pumps.",
+      "clause_id": "IS 4985:2000#1.2",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "1.3",
+      "title": "The pipes covered in",
+      "text": "1.3 The pipes covered in this standard are not suitable for use as casing pipes in tubewells.",
+      "clause_id": "IS 4985:2000#1.3",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification— Shall be classified  by pressure ratings (working pressure at 270C . Class of Pipe Working Pressure (PN) Class 1 0.25 MPa (2.5kg/cm2) Class 2 0.4   MPa (4.0  kg/cm2) Class 3 0.6   MPa (6.0  kg/cm2) Class 4 0.8   MPa (8.0  kg/cm2) Class 5 1.0   MPa (10.0  kg/cm2) Class 6 1.25 MPa (12.5kg/cm2) Note—  The above pipes are recommended for water temperature ranging from + 1 to 450C, The recommended maximum safe working stress for these pipes is 8.6 MPa at 270C. At higher temperature upto 450C  the strength of pipes reduce and working pressure shall be modified in accordance with fig1 of the standard.",
+      "clause_id": "IS 4985:2000#2",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "3",
+      "title": "Composition–Material",
+      "text": "3. Composition-Material shall consist substantially of unplasticized polyvinyl chloride to which maybe added additives that are needed to facilitate the manufacture of pipe and production of sound and durable pipe of good surface finish mechanical strength and opacity. The monomer consent (VCM) in the resin shall be within the links of IS 10151:1982*",
+      "clause_id": "IS 4985:2000#3",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "4",
+      "title": "Dimension",
+      "text": "4. Dimension",
+      "clause_id": "IS 4985:2000#4",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "4.1",
+      "title": "Dimensions of UPVC Pipes",
+      "text": "4.1 Dimensions of UPVC Pipes: SUMMARY OF IS 4985 : 2000 UNPLASTICIZED PVC PIPES FOR POTABLE WATER SUPPLIES (Third Revision) DIMENSION OF UPVC PIPES Nominal outside Mean outside Diameter  mm Diameter  mm Min Max 20 20.0 20.3 25 25.0 25.3 32 32.0 32.3 40 40.0 40.3 50 50.0 50.3 63 63.0 63.3 75 75.0 75.3 90 90.0 90.3 110 110.0 110.4 125 125.0 125.4 140 140.0 140.5 160 160.0 160.5 180 180.0 180.6 200 200.0 200.6 225 225.0 225.8 280 280.0 280.9 315 315.0 316.0 335 355.0 356.1 400 400.0 401.2 450 450.0 451.2 500 500.0 501.5 560 560.0 561.7 630 630.0 631.9",
+      "clause_id": "IS 4985:2000#4.1",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "4.2",
+      "title": "Dimensions of UPVC Plain",
+      "text": "4.2 Dimensions of UPVC Plain End Pipe for Plumbing in Buildings Nominal Outside                       Mean Outside Diameter,  mm Diameter mm Min Max 20 20.0 20.3 25 25.0 25.3 32 32.0 32.3 40 40.0 40.3 50 50.0 50.3 Note— For detailed dimensions including wall thickness of all classes of pipes and tolerances refer to 7 of the  standard.",
+      "clause_id": "IS 4985:2000#4.2",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "5",
+      "title": "Physical and Chemical",
+      "text": "5. Physical and Chemical  Characteristics",
+      "clause_id": "IS 4985:2000#5",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "5.1",
+      "title": "Visual Appearance",
+      "text": "5.1 Visual Appearance: The colour of pipes shall be light grey. The internal and external surfaces of the pipes shall be smooth clean and free from grooving and other defects.",
+      "clause_id": "IS 4985:2000#5.1",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "5.2",
+      "title": "Opacity – Wall of",
+      "text": "5.2 Opacity - Wall of the plain pipe shall not transit more than 0.2 percent of the visible light falling on it. +   Polyvinyl chloride (PVC) and  its copoplymers for  use in contact with    food  stuffs, pharmaceuticals and drinking  water",
+      "clause_id": "IS 4985:2000#5.2",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 340,
+      "page_end": 340,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "5.3",
+      "title": "Effect on Water",
+      "text": "5.3 Effect on Water — Pipes shall not have any detrimental effect on composition of water flowing through them. When tested toxic substances extracted from internal walls of the pipes shall not exceed the concentrations in the test solution as given in 10.3 of the standard.",
+      "clause_id": "IS 4985:2000#5.3",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 341,
+      "page_end": 341,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "5.4",
+      "title": "Reversion Test",
+      "text": "5.4 Reversion Test — A length of pipe 200±20 mm long shall not alter in length by more than 5 percent.",
+      "clause_id": "IS 4985:2000#5.4",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 341,
+      "page_end": 341,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "5.5",
+      "title": "Vicat Softening Temperature",
+      "text": "5.5 Vicat Softening Temperature —Shall not be less than 800C.",
+      "clause_id": "IS 4985:2000#5.5",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 341,
+      "page_end": 341,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "5.6",
+      "title": "Density",
+      "text": "5.6 Density—Shall be between 1.40 and 1.46 g/cm3",
+      "clause_id": "IS 4985:2000#5.6",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 341,
+      "page_end": 341,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "5.7",
+      "title": "Sulphated Ash content",
+      "text": "5.7 Sulphated Ash content— Shall not exceed 11 percent.",
+      "clause_id": "IS 4985:2000#5.7",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 341,
+      "page_end": 341,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "6",
+      "title": "Mechanical",
+      "text": "6. Mechanical  properties",
+      "clause_id": "IS 4985:2000#6",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 341,
+      "page_end": 341,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "6.1",
+      "title": "Hydrostatic Characteristics",
+      "text": "6.1 Hydrostatic Characteristics—Shall not fail during the prescibed test duration.",
+      "clause_id": "IS 4985:2000#6.1",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 341,
+      "page_end": 341,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4985:2000",
+      "clause": "6.2",
+      "title": "Resistance to external blows",
+      "text": "6.2 Resistance to external blows at 00C shall have a true impact rate of not more than 10 percent. Note — For methods of measurements and tests, refer to IS 6307 : 1987 Rigid PVC sheets (first revision) relevant parts of IS 12235 : 1986. Methods of test for unplasticized PVC pipes for potable water supplies, IS1 3360 (Part 3/ sec 1): 1995 Plastics Methods of testing, Part 3  Physical and dimensional properties, Section 1 Determination of density and relative density of noncellular plastics For detailed information, refer to IS 4985 : 2000  Specification for  unplasticised PVC pipes for potable water supplies (third revision).",
+      "clause_id": "IS 4985:2000#6.2",
+      "family": "IS 4985",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 341,
+      "page_end": 341,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4985:2000",
+    "record_id": 11695,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      340,
+      341
+    ],
+    "n_clauses": 20,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

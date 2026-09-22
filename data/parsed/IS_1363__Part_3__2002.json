@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1363 (Part 3):2002",
+      "clause": "1",
+      "title": "Scope – Gives specifications",
+      "text": "1.   Scope -  Gives specifications for hexagon nuts with thread diameters from M5 to M64 inclusive and product grade C.",
+      "clause_id": "IS 1363 (Part 3):2002#1",
+      "family": "IS 1363 (Part 3)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 768,
+      "page_end": 768,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1363 (Part 3):2002",
+      "clause": "2",
+      "title": "Dimensions – M5, M6,",
+      "text": "2.   Dimensions - M5, M6, M8, M10,  M12,  M16,  M20, M24, M30, M36, M42, M48, M56 and M64. Note — For  Corresponding Indian standards  of cerain International standards referred, along with their degree of equivalence, refer, the National Foreward of the standard. For detailed information, refer to IS 1363 (Part 3) : 2002-  ISO 4034 : 1986. Specification for hexagon head bolts, screws and nuts  of product grade C : Part 3  Hexagon nuts (size range M5 to M64) (third revision). TABLE 1   SPECIFICATIONS AND REFERENCE STANDARDS Material Steel General requirements International Standard ISO 8992 Tolerance 7H Thread International Standards ISO 724, ISO 965 -1 Class d  ≤ M16 : 5 Mechanical properties M16 < d≤Μ 39 : 4,5 d  >  39 mm : as agreed International Standards d  ≤  39 mm : ISO 898-2 d  >  39 mm : as agreed Product grade C Tolerance International Standard ISO 4759-1 SUMMARY OF IS 1363 (PART 3) : 2002 ISO 4034 : 1999 HEXAGON HEAD BOLTS, SCREWS & NUTS OF PRODUCT GRADE C PART 3 : HEXAGON NUTS (SIZE RANGE M5 TO M64) (Fourth Revision) Note —For details, of preferred and non preferred size refer to Tables 1 and 2 of the Standard.",
+      "clause_id": "IS 1363 (Part 3):2002#2",
+      "family": "IS 1363 (Part 3)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 768,
+      "page_end": 768,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1363 (Part 3):2002",
+      "clause": "2.1",
+      "title": "Preferred threads",
+      "text": "2.1 Preferred threads",
+      "clause_id": "IS 1363 (Part 3):2002#2.1",
+      "family": "IS 1363 (Part 3)",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 768,
+      "page_end": 768,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1363 (Part 3):2002",
+      "clause": "2.2",
+      "title": "Non – preferred threads",
+      "text": "2.2 Non - preferred threads - M14, M18, M22, M27, M33,  M39, M45, M52, M60 | Material |  | Steel | | --- | --- | --- | | General requirements | International Standard | ISO 8992 | | Thread | Tolerance | 7H | |  | International Standards | ISO 724, ISO 965 -1 | | Mechanical properties | Class | d ≤ M16 : 5 M16 < d≤Μ 39 : 4,5 d > 39 mm : as agreed | |  | International Standards | d ≤ 39 mm : ISO 898-2 d > 39 mm : as agreed | | Tolerance | Product grade | C | |  | International Standard | ISO 4759-1 | | Finish | 2) Requirement for non - electrolytically applied zero flake coategs are covered in ISO 10683. | As processed | |  |  | Requirements for electroplating are covered in ISO 4042 If different electroplating requirements are desired or if requirements are needed for other finishes, they should be agreed between customer and supplier. | | Acceptability |  | For acceptance procedure see ISO 3269 | | 4. Designation — Example for the designation of a 5 — Hexagon Nut ISO— 4034: M12—5 hexagon nut with thread size d=M12 and property class |  |  | | Note — For Corresponding Indian standards of cerain International standards referred, along with their degree of equivalence, refer, the National Foreward of the standard. |  |  |",
+      "clause_id": "IS 1363 (Part 3):2002#2.2",
+      "family": "IS 1363 (Part 3)",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 768,
+      "page_end": 768,
+      "has_table": true,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1363 (Part 3):2002",
+    "record_id": 25528,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      768,
+      768
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

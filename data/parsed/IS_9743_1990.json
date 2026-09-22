@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9743:1990",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope",
+      "clause_id": "IS 9743:1990#1",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "1.1",
+      "title": "Requirements for thermal insulation finishing",
+      "text": "1.1 Requirements for thermal insulation finishing cements, prepared by mixing with water for application to insulating materials after they have been applied at site to the plant of piping systems. Note - Some of these finishing cements are used for services at temperatures below ambient, in which case a vapour barrier is required. This standard does not prescribe requirements for setting time.",
+      "clause_id": "IS 9743:1990#1.1",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "1.2",
+      "title": "This standard does not",
+      "text": "1.2 This standard does not prescribe requirements for setting time.",
+      "clause_id": "IS 9743:1990#1.2",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types Type 1 -  Hard-setting compositions. Type 2 - Self-setting cements Type 3 - Gypsum plaster ompositions, and Type 4 -  Fire-proof finishing cements",
+      "clause_id": "IS 9743:1990#2",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "2.1",
+      "title": "Type 1 – finishing",
+      "text": "2.1  Type 1 - finishing cements are a mixture of inorganic fillers and well distributed reinforcing fibres  with a clay bonding agent, and set by removal of water by natural drying or on heating. The normal ratio of hard-setting cements will be 1 part of hydraulic cement to 4 parts of hard-setting composition.",
+      "clause_id": "IS 9743:1990#2.1",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "2.2",
+      "title": "Type 2 – finishing",
+      "text": "2.2  Type 2 - finishing cements consist of well distributed reinforcing fibres (1 part) with a hydraulic cement (3 parts) as binder, with or without plasticizing agents or fillers. These set without the application of heat.",
+      "clause_id": "IS 9743:1990#2.2",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "2.3",
+      "title": "Type 3 – finishing",
+      "text": "2.3  Type 3 -  finishing cements set without the application of heat and consist of calcium sulphate hemihydrate, and well distributed reinforcing fibres, usually to a lower percentage by mass than for selfsetting cement.",
+      "clause_id": "IS 9743:1990#2.3",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "2.4",
+      "title": "Type 4 – fire-proof",
+      "text": "2.4  Type 4 - fire-proof cement is non-combustible and could effectively be used as a finishing cement over turbine insulation applications, etc. where the finishing cement should not give rise to fire due to oil leakage, etc. Note - Thermal insulation finishing cements of Type 1 and Type 3 are not suitable for exposure to weather conditions without further protection",
+      "clause_id": "IS 9743:1990#2.4",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 9743:1990#3",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "3.1",
+      "title": "Description – Shall be",
+      "text": "3.1 Description - Shall be thoroughly permixed and free from unopened or badly distributed fibres or coarse constituents.",
+      "clause_id": "IS 9743:1990#3.1",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "3.2",
+      "title": "Bulk Density – The",
+      "text": "3.2 Bulk Density -  The average value shall be as given below : Type of the Density Finishing Cement kg/m3, Max 1 1 500 2 1 800 3 1 600",
+      "clause_id": "IS 9743:1990#3.2",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 846,
+      "page_end": 846,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 9743:1990",
+      "clause": "4",
+      "title": "1 300",
+      "text": "4 1 300 3.3 Wet Covering Capacity -  Wet covering of the four types of finishing cements shall be not less than 6 m2/ 100 kg at 10 mm thickness. 3.4 Inertness — Shall not include any substance that may promote corrosive attack of the surfaces with which it is in contact, for example, wire netting used as reinforcement. 3.5 Compresive Strength Type of the Compressive Strength Material kN/m3, Min 1 1 030 2 1 720 3 820 4 1 800 Note - For method of test refer to Annex A of the standard, IS 3144 : 1992 Mineral wool thermal insulation materials methods of test (second revision), IS 5688 : 1982 Method of test for preformed block type and pipe covering type thermal insulation (first revision) and IS 5724 : 1970 Mehtods of test for  thermal  insulating cement. For detailed information, refer to IS 9743 : 1990 Specifications for thermal insulation finishing cement (first revision). 3.6 Flexural Strength - For Type 1 shall be not less than 2000 kN/m2. 3.7 Resistance to Impact - The average diameter of five indentations shall not exceed 30 mm. Any cracking of the specimen that is observed shall be reported. 3.8 Heat Resistance - The blocks of the finishing cement shall neither disintegrate, nor have observable cracks. 3.9 Consistency of Wet Mixed Material -  Shall be 35 to 45 percent. 3.10  Moisture Content -  For hard setting compositions, the maximum free moisture content shall be not greater than 5 percent, and self-setting compositions and gypsum plaster shall be supplied dry.",
+      "clause_id": "IS 9743:1990#4",
+      "family": "IS 9743",
+      "year": 1990,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 846,
+      "page_end": 847,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9743:1990",
+    "record_id": 520,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      846,
+      847
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

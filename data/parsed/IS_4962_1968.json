@@ -1,0 +1,220 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4962:1968",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements regarding  material, type, shape fabrication, assembly and finish of wooden side sliding doors (of the straight sliding type), its gear components and fittings.",
+      "clause_id": "IS 4962:1968#1",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4962:1968",
+      "clause": "2",
+      "title": "Types and Sizes",
+      "text": "2. Types and Sizes — Classified in accordance with mode of sliding of panels into the frame unit. Types 1 to 5 give clear opening, while Types 6 and 7 need no space at the sides. Overall size of door shall be such as to cover modular opening completely. Note - For   typical arrangement of panels of side sliding door see Fig. 2 of the standard.",
+      "clause_id": "IS 4962:1968#2",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4962:1968",
+      "clause": "3",
+      "title": "Materials",
+      "text": "3. Materials",
+      "clause_id": "IS 4962:1968#3",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4962:1968",
+      "clause": "3.1",
+      "title": "Rolled steel sections shall",
+      "text": "3.1 Rolled steel sections shall be of weldable quality conforming to the prescribed standard.",
+      "clause_id": "IS 4962:1968#3.1",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4962:1968",
+      "clause": "3.2",
+      "title": "Tracks – Made of",
+      "text": "3.2 Tracks - Made of 2 mm thick structural steel sheet, galvanized.",
+      "clause_id": "IS 4962:1968#3.2",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4962:1968",
+      "clause": "3.3",
+      "title": "Roller – Shall conform",
+      "text": "3.3 Roller - Shall conform to the prescribed standard.",
+      "clause_id": "IS 4962:1968#3.3",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4962:1968",
+      "clause": "3.4",
+      "title": "Guides –   Gun metal.",
+      "text": "3.4 Guides -   Gun metal.",
+      "clause_id": "IS 4962:1968#3.4",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4962:1968",
+      "clause": "3.5",
+      "title": "Brackets –  Cast iron.",
+      "text": "3.5 Brackets -  Cast iron.",
+      "clause_id": "IS 4962:1968#3.5",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4962:1968",
+      "clause": "3.6",
+      "title": "Shutter – Made of",
+      "text": "3.6 Shutter -  Made of wood in accordance with the prescribed standard.",
+      "clause_id": "IS 4962:1968#3.6",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4962:1968",
+      "clause": "4",
+      "title": "Operation – Shall be",
+      "text": "4. Operation -  Shall be capable of being operated in either direction with force not exceeding 3 kg/m of panel width, when panel is in motion.",
+      "clause_id": "IS 4962:1968#4",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4962:1968",
+      "clause": "5",
+      "title": "Finish",
+      "text": "5. Finish  -  All components machined and finished smooth. Roller guides, fittings for locking arrangement, brackets, etc may be hot-dip galvanized.",
+      "clause_id": "IS 4962:1968#5",
+      "family": "IS 4962",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 625,
+      "page_end": 625,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4962:1968",
+    "record_id": 19680,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      625,
+      625
+    ],
+    "n_clauses": 11,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.903,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

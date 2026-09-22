@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4351:2003",
+      "clause": "1",
+      "title": "Scope – Requirements regarding material,",
+      "text": "1. Scope - Requirements regarding material, dimensions and construction of steel door frames for internal and external use.",
+      "clause_id": "IS 4351:2003#1",
+      "family": "IS 4351",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 637,
+      "page_end": 637,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4351:2003",
+      "clause": "2",
+      "title": "Material – Shall be",
+      "text": "2. Material -  Shall be manufactured from the materials conforming to relevant Indian standards as per Table 1 of the standard.",
+      "clause_id": "IS 4351:2003#2",
+      "family": "IS 4351",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 637,
+      "page_end": 637,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4351:2003",
+      "clause": "3",
+      "title": "Standard Sizes, Tolerances and Designation– For",
+      "text": "3. Standard Sizes, Tolerances and Designation- For details refer 6 of the standard.",
+      "clause_id": "IS 4351:2003#3",
+      "family": "IS 4351",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 637,
+      "page_end": 637,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4351:2003",
+      "clause": "4",
+      "title": "Base Ties",
+      "text": "4. Base Ties —  Base ties of pressed mild steel angle size of 20 mm × 20 mm × 1.25 mm thick either  screwed  or welded as per Fig. 3 of the standard to suit floor thickness of 25, 30, 35 or 40 mm.",
+      "clause_id": "IS 4351:2003#4",
+      "family": "IS 4351",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 637,
+      "page_end": 637,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4351:2003",
+      "clause": "5",
+      "title": "Fittings",
+      "text": "5. Fittings",
+      "clause_id": "IS 4351:2003#5",
+      "family": "IS 4351",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 637,
+      "page_end": 637,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4351:2003",
+      "clause": "5.1",
+      "title": "Fixing Lugs – There",
+      "text": "5.1 Fixing Lugs - There shall be three adjustable lugs with split end tail to each jamb without fan light, and For detailed information, refer to IS 4351 : 2003 Specification for steel door frames ( second revision). four for jamb with fan light.  For details refer 10.1 of the standard.",
+      "clause_id": "IS 4351:2003#5.1",
+      "family": "IS 4351",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 637,
+      "page_end": 637,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4351:2003",
+      "clause": "5.2",
+      "title": "Hinges",
+      "text": "5.2 Hinges - Frames shall be provided with any one type of the hinges, conforming to the relevant Indian standards as given in Table 3 of the standard.",
+      "clause_id": "IS 4351:2003#5.2",
+      "family": "IS 4351",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 637,
+      "page_end": 637,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4351:2003",
+      "clause": "5.3",
+      "title": "Lock",
+      "text": "5.3 Lock-Strike Plate of Steel - A slot suitable for lock strike plate shall be pierced into the rebate of the frame and necessary fixing arrangement and mortar guard from the inside of the frame shall be provided (see Fig. 6A of the standard).",
+      "clause_id": "IS 4351:2003#5.3",
+      "family": "IS 4351",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 637,
+      "page_end": 637,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4351:2003",
+      "clause": "5.4",
+      "title": "Shock Absorbers – Minimum",
+      "text": "5.4 Shock Absorbers - Minimum 3 buffers, for side hung door , and 2 buffer for double shutter door.",
+      "clause_id": "IS 4351:2003#5.4",
+      "family": "IS 4351",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 637,
+      "page_end": 637,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4351:2003",
+      "clause": "6",
+      "title": "Finish – For details",
+      "text": "6.   Finish -  For details refer 11 of the standard.",
+      "clause_id": "IS 4351:2003#6",
+      "family": "IS 4351",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 637,
+      "page_end": 637,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4351:2003",
+    "record_id": 10987,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      637,
+      637
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.974,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8718:1978",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope :  Requirmements regading material construction and workmanship, patterns and sizes, dimensions and tolerance and marking for vitreous enamelled steel kitchen sinks. Sl. Pattem Overall Overall OverallDepth (in mm) No. length Width mm mm Min Max mm mm i) Flat-rim 750 450 150 200 600 450 150 200 500 400 150 200 450 400 150 200 400 400 150 200 ii) Flat-rim-ledge 750 500 150 200 600 500 150 200 iii) Flat-rim- ledge, 1050 500 150 200 with doule compartment 800 500 150 200 4. Tolerances — Overall length and width shall not vary by more than +2 percent. Note —  Kitchen sinks may be made in other patterns and   sizes where mutually agreed. 5 . Surface Coating — Interiors of sinks shall be adequately and evenly coated with vitreous enamel of quality complying with requirements given 4.1 to 4.5 of the standard. Atleast one ground or primer coating preferably white, or coloured enamel coating preferably white or coloured enamel coating shall be applied on the outer surface. 5.1 Finish — Gloss, colour and opacity shall be uniform and visually satisfactory . 5.2 Abrasion  — shall withstand resisrtance to scratching. 5.3 Alkali Resistance — There shall be no loss in weight after the test. 5.4 Acid Resistancer 5.4.1 White enamelled sinks —There shall be no loss in weight . 5.4.2 Coloured enamelled sinks-Shall conform to classes AA,a and B. 5.5 Defects —  Shall be liable to rejection if finish shows any of the following defects: a) Crazing b) Dimples, rundown and sagging. c) Bisters — not more than two in number on the interior surface shall be permitted provided they can not be broken by pressure of a finger nail. d) Pin holes — maximum 2 for coloured sinks and 4 for white enamelled siniks.  There shall be no grouping and they shall not penetrate to the metal. e) Specks — shall be less than 1 mm in size and maximum 5 in number and there shall and maximum 0.5 mm. 5.6 Thickness of Enamel — Minimum 0.2 m, and maximum 0.5 mm. 5.7 Warpage of edges set against wall and edged of roll rims shall not exceed 5 mm/m.  Warpage of all other edges shal not exceed 7.5 mm/m.",
+      "clause_id": "IS 8718:1978#1",
+      "family": "IS 8718",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 284,
+      "page_end": 284,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8718:1978",
+      "clause": "2",
+      "title": "Material",
+      "text": "2. Material : Mild steel sheet minimum 1 mm thick.",
+      "clause_id": "IS 8718:1978#2",
+      "family": "IS 8718",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 284,
+      "page_end": 284,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8718:1978",
+      "clause": "3",
+      "title": "Patterns and Sizes",
+      "text": "3. Patterns and Sizes: Note —For test procedures refer to IS 772 : 1973 General requirements for enamelled casti iron sanitary appliances (second revision)  and IS 3972 Methods of test for vitreous  enamel ware.",
+      "clause_id": "IS 8718:1978#3",
+      "family": "IS 8718",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 284,
+      "page_end": 284,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8718:1978",
+    "record_id": 20565,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      284,
+      284
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

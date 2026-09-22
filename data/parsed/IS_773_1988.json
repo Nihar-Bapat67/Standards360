@@ -1,0 +1,76 @@
+{
+  "clauses": [
+    {
+      "is": "IS 773:1988",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope—Requirements for material, workmanship, manufacture, dimensions and finish of enamelled cast iron-railway type water-closets generally used in the coaching stock of the   Indian Railways.",
+      "clause_id": "IS 773:1988#1",
+      "family": "IS 773",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 420,
+      "page_end": 420,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 773:1988",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements — Shall be of one piece construction. Each water closet shall have flushing pipe housed in the water closet casting. Bottom flange shall not be less than 13 mm thick and shall be provided with not less than six holes of 10 mm diameter.The inlet or supply horn shall consists of a threaded adopter, nipple fixed to a plain hole of the water closet and secured rigidly by a  socket union",
+      "clause_id": "IS 773:1988#2",
+      "family": "IS 773",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 420,
+      "page_end": 420,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 773:1988",
+      "clause": "3",
+      "title": "Finish",
+      "text": "3. Finish — The inside and outside surfaces of each fixture shall be coated with vitreous enamel thoroughly fixed to the cast iron base.  The enamel shall be uniform, non-crazing and free from discoloration, and shall posses an impervious surface. Note  1— These shall conform to the requirement of IS 772 : 1973 General requirement of enamelled cast iron  sanitary   appliances. Note  2 — For detailed dimensions and tolerances, refer to standard. For detailed  information, refer to IS  773 : 1988  Specification  for enamelled cast iron water - closets, railway coaching stock type (third revision).",
+      "clause_id": "IS 773:1988#3",
+      "family": "IS 773",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 420,
+      "page_end": 420,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 773:1988",
+    "record_id": 20337,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      420,
+      420
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.934,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

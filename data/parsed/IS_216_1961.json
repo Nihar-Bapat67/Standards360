@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 216:1961",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope  —    Requirements for the range of four grades of coal tar pitch from soft to hard consistencies with softening points varying from 45 to 92°C intended for the production of waterproofing, protective and binding compounds employed in masonary, steel, timber and concrete structures and also for the preparation of roofing felts. Note — Coal tar pitch is also used for caulking of decks, as a binder for carbon electrodes and coal briquetters, for damp-proof courses, fllooring mastics and as a base for coal tar paints. This is not suitable for formulation of quick drying black enamels nor for road construction.",
+      "clause_id": "IS 216:1961#1",
+      "family": "IS 216",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 190,
+      "page_end": 190,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 216:1961",
+      "clause": "2",
+      "title": "Grades",
+      "text": "2. Grades — Shall be classified into the following four grades: a)   Soft pitch, b)   Soft medium pitch, c)   Hard medium pitch, d)   Hard pitch.",
+      "clause_id": "IS 216:1961#2",
+      "family": "IS 216",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 190,
+      "page_end": 190,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 216:1961",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 216:1961#3",
+      "family": "IS 216",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 190,
+      "page_end": 190,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 216:1961",
+      "clause": "3.1",
+      "title": "Composition",
+      "text": "3.1 Composition  — The material shall be: a) either the residue of the direct distillation of crude tar produced by the high temperature carbonization of coal in coke ovens or retorts, or b) obtained by fluxing back such pitch residues with high boiling coal tar distillates to give products of the desired softening point.",
+      "clause_id": "IS 216:1961#3.1",
+      "family": "IS 216",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 190,
+      "page_end": 190,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 216:1961",
+      "clause": "3.2",
+      "title": "The material shall also",
+      "text": "3.2 The material shall also comply with the requirements, according to grade, given in Table1. Note — For methods of tests, refer to IS 1202:1978 methods of testing tar bituminous material: Determination of specific gravity (first revision) IS 1205:1978 Determination of softening point (first revision). IS 1213:1978 Distillation test (first revision). IS 1215:1978 Determination of matter insoluble in toulene (first revision). IS 1217:1978 Determination of mineral matter (first revision). For detailed information, refer to 216 : 1961 Specifications for Coal tar pitch (Revised). SUMMARY OF IS  216 : 1961   COAL TAR PITCH (Revised) TABLE 1 EQUIREMENTS FOR COAL TAR PITCH Sl. Characteristics Requirements for Grades No. Soft Pitch Soft Medium Hard Medium Hard Pitch Pitch Pitch (1) (2) (3) (4) (5) (6) i) Specific gravity at 27°C 1.20 to 1.30 1.22 to 1.32 1.22 to 1.32 1.28 to 1.38 ii) Softening point 45 to 55°C 58 to 68°C 70 to 80°C 82 to 92°C iii) Distillate : Percent by weight below 270°C, Max",
+      "clause_id": "IS 216:1961#3.2",
+      "family": "IS 216",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 190,
+      "page_end": 190,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 216:1961",
+      "clause": "4",
+      "title": "4",
+      "text": "4 4 3 No Test Percent by weight below 300°C, Max 8 8 4 No Test iv) Matter insoluble in toluene (free carbon), percent by weight, Max 25 28 30 35 v) Ash, percent by weight, Max 0.5 0.5 0.75 0.8",
+      "clause_id": "IS 216:1961#4",
+      "family": "IS 216",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 190,
+      "page_end": 190,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 216:1961",
+    "record_id": 8692,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      190,
+      190
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

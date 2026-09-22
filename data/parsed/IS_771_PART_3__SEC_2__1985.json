@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 771(PART 3/ SEC 2):1985",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Lays down the  sizes, construction, dimensions, tolerances and finish of stall urinals  made of fire-clay.",
+      "clause_id": "IS 771(PART 3/ SEC 2):1985#1",
+      "family": "IS 771(PART 3/ SEC 2)",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 416,
+      "page_end": 416,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771(PART 3/ SEC 2):1985",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 771(PART 3/ SEC 2):1985#2",
+      "family": "IS 771(PART 3/ SEC 2)",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 416,
+      "page_end": 416,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771(PART 3/ SEC 2):1985",
+      "clause": "2.1",
+      "title": "General requirements for materials, manufacture,",
+      "text": "2.1 General requirements for materials, manufacture, methods of test and inspection, shall conform to Part 1 General requirements of the standard.",
+      "clause_id": "IS 771(PART 3/ SEC 2):1985#2.1",
+      "family": "IS 771(PART 3/ SEC 2)",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 416,
+      "page_end": 416,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771(PART 3/ SEC 2):1985",
+      "clause": "2.2",
+      "title": "Type and Size",
+      "text": "2.2 Type and Size Note—  For details of dimensions and tolerances see Table 2 of the standard For detailed information, refer to IS  771 (Part 3/ Sec. 2) : 1985 Specification for glazed fire-clay sanitary appliances Part 3  Specific requirements of Section 2   Stall urinals (third revision).",
+      "clause_id": "IS 771(PART 3/ SEC 2):1985#2.2",
+      "family": "IS 771(PART 3/ SEC 2)",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 416,
+      "page_end": 416,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 771(PART 3/ SEC 2):1985",
+    "record_id": 14706,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      416,
+      416
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.51,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

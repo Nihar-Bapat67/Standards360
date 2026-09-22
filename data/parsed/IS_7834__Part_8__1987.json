@@ -1,0 +1,52 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7834 (Part 8):1987",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for manufacture, dimensions, tolerances and marking for caps made of injections moulded PVC for water supplies. Note— For General requirements,refer to IS 7834 (Part 1) 1987. For detailed information, refer to IS 7834 (Part 8) : 1987 Specification for  injection moulded PVC socket fittings with solvent cement joints for water supplies: Part 8 Specific requirements for caps (first revision).",
+      "clause_id": "IS 7834 (Part 8):1987#1",
+      "family": "IS 7834 (Part 8)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 350,
+      "page_end": 350,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 7834 (Part 8):1987",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements — The diameter of the socket of cap shall be  as follows: 16, 20, 25, 32, 40, 50, 63,75, 90 110, 12 5, 140, 160, 180, 200, 225, 250, 280 or  315 mm.",
+      "clause_id": "IS 7834 (Part 8):1987#2",
+      "family": "IS 7834 (Part 8)",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 350,
+      "page_end": 350,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7834 (Part 8):1987",
+    "record_id": 14874,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      350,
+      350
+    ],
+    "n_clauses": 2,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.785,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

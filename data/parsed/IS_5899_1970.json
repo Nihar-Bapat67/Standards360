@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5899:1970",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for material, size and finish of bathroom latches.",
+      "clause_id": "IS 5899:1970#1",
+      "family": "IS 5899",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 530,
+      "page_end": 530,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 5899:1970",
+      "clause": "2",
+      "title": "Shape and Size",
+      "text": "2. Shape and Size Overall size — 40 × 50 mm Thickness   - 10 mm Note— For typical illustration see Fig. 1 of the standard.",
+      "clause_id": "IS 5899:1970#2",
+      "family": "IS 5899",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 530,
+      "page_end": 530,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 5899:1970",
+      "clause": "3",
+      "title": "Material",
+      "text": "3. Material For detailed information, refer to IS  5899 : 1970  Specification for bathroom latches. a)  Body  - Cast brass, cast iron, aluminium alloy, and aluminium extrusions. b)   Bolts - Brass cast, brass extruded, mild steel rod, cast iron, aluminium alloy and aluminium extrusions. c)   Knob - Cast brass, cast iron, aluminium alloy and aluminium extrusions.",
+      "clause_id": "IS 5899:1970#3",
+      "family": "IS 5899",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 530,
+      "page_end": 530,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 5899:1970",
+      "clause": "4",
+      "title": "Workmanship and Finish",
+      "text": "4. Workmanship and Finish— Latch shall be smoothly finished. Aluminium alloy body may be anodized. Cast brass body shall be given a protective coating such as painting.",
+      "clause_id": "IS 5899:1970#4",
+      "family": "IS 5899",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 530,
+      "page_end": 530,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5899:1970",
+    "record_id": 12714,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      530,
+      530
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.973,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

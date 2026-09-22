@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1489 (Part 2):1991",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Manufacture, Physical and Chemical requriements of Portland- pozzolana cement manufactured by using calcined clay pozzolana or a mixture of calcined clay and fly ash pozzolana.",
+      "clause_id": "IS 1489 (Part 2):1991#1",
+      "family": "IS 1489 (Part 2)",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 25,
+      "page_end": 25,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 2):1991",
+      "clause": "2",
+      "title": "Raw Materials",
+      "text": "2. Raw Materials",
+      "clause_id": "IS 1489 (Part 2):1991#2",
+      "family": "IS 1489 (Part 2)",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 25,
+      "page_end": 25,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 2):1991",
+      "clause": "2.1",
+      "title": "Pozzolana",
+      "text": "2.1Pozzolana",
+      "clause_id": "IS 1489 (Part 2):1991#2.1",
+      "family": "IS 1489 (Part 2)",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 25,
+      "page_end": 25,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 2):1991",
+      "clause": "2.1.1",
+      "title": "Pozzolana used shall be",
+      "text": "2.1.1 Pozzolana used shall be either calcined clay pozzolana conforming to IS 1344: 1981*.  or a mixture of calcined clay pozzolana conforming to IS 1344: 1981 and fly ash conforming to IS 3812 : 1981† .",
+      "clause_id": "IS 1489 (Part 2):1991#2.1.1",
+      "family": "IS 1489 (Part 2)",
+      "year": 1991,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 25,
+      "page_end": 25,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 2):1991",
+      "clause": "2.1.2",
+      "title": "Fineness and average compressive strength in",
+      "text": "2.1.2 Fineness and average compressive strength in lime reactivity of pozzolana shall not be less than 320 m2/kg and 4.0 MPa respectively.",
+      "clause_id": "IS 1489 (Part 2):1991#2.1.2",
+      "family": "IS 1489 (Part 2)",
+      "year": 1991,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 25,
+      "page_end": 25,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 2):1991",
+      "clause": "2.1.3",
+      "title": "Average compressive strength in lime reactivity",
+      "text": "2.1.3 Average compressive strength in lime reactivity of pozzolana shall not be less than 4.0 MPa.",
+      "clause_id": "IS 1489 (Part 2):1991#2.1.3",
+      "family": "IS 1489 (Part 2)",
+      "year": 1991,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 25,
+      "page_end": 25,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1489 (Part 2):1991",
+      "clause": "2.2",
+      "title": "Portland cement clinker",
+      "text": "2.2 Portland cement clinker-shall confirm to IS 269:1989‡ Note — For methods of tests, refer to relevant parts of  IS 1727:1967 Methods of test of pozzolanic material (first revision), IS 4031— Method of physical tests of hydraulic cement and IS 4032: 1985 Methods of  Chemical analysis of hydraulic cement (first revision) For detailed information, refer to IS 1489(Part 2):1991 Specification for Portland pozzolana cement Part 2 calcined clay based (third revision). * Calcined clay pozzolana (second revision). † Fly ash for use as pozzolana and admiscture (first revision). ‡ Ordinary portland cement 33 Grade  (fourth revision). ± ±",
+      "clause_id": "IS 1489 (Part 2):1991#2.2",
+      "family": "IS 1489 (Part 2)",
+      "year": 1991,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 25,
+      "page_end": 25,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1489 (Part 2):1991",
+    "record_id": 25280,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      25,
+      25
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.547,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

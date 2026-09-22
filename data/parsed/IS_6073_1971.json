@@ -1,0 +1,274 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6073:1971",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for autoclaved reinforced cellular concrete floor and roof having density above 450 and up to 1 000 kg/m3",
+      "clause_id": "IS 6073:1971#1",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "2",
+      "title": "Terminology",
+      "text": "2. Terminology —The cellular concrete consists of an inorganic binder (such as lime and cement) in combination with finely ground material containing silicon dioxide (such as sand), gas generating material (such as aluminium powder), water and additives (optional); and steam cured under high pressure in autoclabes.",
+      "clause_id": "IS 6073:1971#2",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "terminology",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "3",
+      "title": "Classification",
+      "text": "3. Classification — Shall be classified on basis of oven-dry density (without reinforcement) and compressive strength— Class Gross Density (kg/m3) A Over 850 and up to 1 000 B Over 750 and up to 850 C Over 650 and up to 750 D Over 550 and up to 650 E Over 450 and up to 550",
+      "clause_id": "IS 6073:1971#3",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "4",
+      "title": "Designation",
+      "text": "4. Designation — By indicating compressive strength (kgf/cm2), load bearing capacity, that is, design load (kgf/cm2), length (m), breadth  (mm) and thickness (mm).",
+      "clause_id": "IS 6073:1971#4",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "5",
+      "title": "Sizes",
+      "text": "5. Sizes",
+      "clause_id": "IS 6073:1971#5",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "5.1",
+      "title": "Preferred Dimensions",
+      "text": "5.1 Preferred Dimensions— Length 1 to 6 m; width 600 mm; thickness 75 to 250 mm with increments of 25 mm. SUMMARY OF IS 6073 : 1971 AUTOCLAVED REINFORCED CELLULAR CONCRETE FLOOR AND ROOF SLABS",
+      "clause_id": "IS 6073:1971#5.1",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "5.2",
+      "title": "Tolerances",
+      "text": "5.2Tolerances —  For 500 mm and below, ± 2 mm over 500 mm, ± 5 mm. Note —  For form tolerances for wall slabs, refer to Table 1 of the standard.",
+      "clause_id": "IS 6073:1971#5.2",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "6",
+      "title": "Finish",
+      "text": "6. Finish — Tongue at one side and groove on the other side. Alternatively groove on both sides for filling with cement mortar. Longitudinal edges shall be chamfered.",
+      "clause_id": "IS 6073:1971#6",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "7",
+      "title": "Physical Properties",
+      "text": "7. Physical Properties",
+      "clause_id": "IS 6073:1971#7",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "7.1",
+      "title": "Density",
+      "text": "7.1 Density — Range as specified in 3.",
+      "clause_id": "IS 6073:1971#7.1",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "7.2",
+      "title": "Dry Shrinkage",
+      "text": "7.2 Dry Shrinkage — Not more than 0.09 percent.",
+      "clause_id": "IS 6073:1971#7.2",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "7.3",
+      "title": "Residual water content at",
+      "text": "7.3 Residual water content at the time of delivery shall be declared by the manufacturer.",
+      "clause_id": "IS 6073:1971#7.3",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "7.4",
+      "title": "Fire Resistance",
+      "text": "7.4 Fire Resistance — Not less than 2 hours.",
+      "clause_id": "IS 6073:1971#7.4",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6073:1971",
+      "clause": "7.5",
+      "title": "Compressive",
+      "text": "7.5 Compressive Strength and Thermal Conductivity— Class Compressive Thermal Strength, Min Conductivity Max (kgf/cm2) (kcal/m/h/oC) A 70 0.36 B 60 0.32 C 50 0.26 D 35 0.21 E 20 0.18 Note  1 — For methods of tests, refer to IS 3809 : 1979 Specification for fire resistance test for structures (first revision),  and relevant parts of IS 6441 Part 1 to 9 Methods of test for autoclaved cellular concrete products. Note  2 — For details of manufacture with regard to aspects such as reinforcement, formation of cells of  cellular concrete (method of autoclavation) and finish, refer to 6 of the standard. Note  3 — For structural requirements, refer to 8 of the standard. For detailed information, refer to IS 6073:1971 Specification for autoclaved reinforced cellular concrete floor  and roof slabs.",
+      "clause_id": "IS 6073:1971#7.5",
+      "family": "IS 6073",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 46,
+      "page_end": 46,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6073:1971",
+    "record_id": 12899,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      46,
+      46
+    ],
+    "n_clauses": 14,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

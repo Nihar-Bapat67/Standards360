@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9106:1979",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements regarding materials, dimensions, manufacture and finish of rising butt hinges.",
+      "clause_id": "IS 9106:1979#1",
+      "family": "IS 9106",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 541,
+      "page_end": 541,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9106:1979",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types Type Material 1. Cold rolled mild steel 2. Cast iron",
+      "clause_id": "IS 9106:1979#2",
+      "family": "IS 9106",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 541,
+      "page_end": 541,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9106:1979",
+      "clause": "3",
+      "title": "Extruded brass",
+      "text": "3. Extruded brass 3. Materials Flap (i)    Mild steel (ii)    Cast iron (iii)   Extruded brass Pin  -    Mild steel wire Note — For details on material see 3  and Table1 of  the standard. For  detailed information, refer to : IS 9106 :1979  Specification for rising butt  hinges.",
+      "clause_id": "IS 9106:1979#3",
+      "family": "IS 9106",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 541,
+      "page_end": 541,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9106:1979",
+      "clause": "4",
+      "title": "Sizes –",
+      "text": "4. Sizes - Steel rising butt hinges - 75 and 100 mm Cast iron rising butt hinges - 75 and 100 mm Brass rising butt hinges - 75,100, and 125 mm. Note — For detailed dimensions and tolerances see Table 5 of the standard.",
+      "clause_id": "IS 9106:1979#4",
+      "family": "IS 9106",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 541,
+      "page_end": 541,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9106:1979",
+      "clause": "5",
+      "title": "Finish",
+      "text": "5. Finish  -  Hinges shall be well made and shall be free from flaws and defects. Hinges shall be finished bright with smooth surfaces. The brass hinges shall have bright or satin finish and shall be suitably protected against discolouration. SUMMARY OF IS 9106 : 1979 RISING BUTT HINGES",
+      "clause_id": "IS 9106:1979#5",
+      "family": "IS 9106",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 541,
+      "page_end": 541,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9106:1979",
+    "record_id": 16374,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      541,
+      541
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7231:1994",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope  -   Requirements for manually operated highlevel and low-level plastic flushing cisterns of capacities 5 litres and 10 litres, both single flush and dual-flush types, for water-closets, squatting pans and urinals.",
+      "clause_id": "IS 7231:1994#1",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2. Materials a) Cistern  and Cover — High density polyethylene (HDPE) or Polystyrene high impact or Polyproylene T or Acrylonitrile butadiene - styrene or glass fibre reinforced plastic (GRP) conforming to prescribed standards b) Flush Pipe - Steeltube, seamless or welded, medium or light completely protected inside and outside by hot dip galvanizing electroplatting or vitreous enamelling or lead pipe or copper alloy tube, HDPE pipes or VPVC plumbing pipe conforming to prescribed standard. c) Overflow pipe— HDPE or VPVC or any other corrosion resistant material conforming to prescribed",
+      "clause_id": "IS 7231:1994#2",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "3",
+      "title": "Construction",
+      "text": "3.  Construction",
+      "clause_id": "IS 7231:1994#3",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "3.1",
+      "title": "Cistern – It shall",
+      "text": "3.1 Cistern - It shall be mosquito-proof. The thickness of the body including cover at any point shall not be less than 2 mm for GRP, and not less than 3 mm for other plastic materials.",
+      "clause_id": "IS 7231:1994#3.1",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "3.2",
+      "title": "Cover – Removable cover",
+      "text": "3.2. Cover - Removable cover which shall fit closely and shall be secured against displacement.",
+      "clause_id": "IS 7231:1994#3.2",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "3.3",
+      "title": "Flush Pipe",
+      "text": "3.3 Flush Pipe — The flush pipe (except plastic flush pipe) shall have an internal diameter of 32 ± 1 mm for high-level cistern and 38 ± 1 mm for low-level cistern. The steel flush pipe shall be not less than 1 mm thick whereas the lead flush pipe shall have a minimum thickness of 3.5 mm. For high density polyethylene pipes, the outside diameter of the pipes shall be 40 mm. For unplasticized PVC plumbing pipes the outside diameter of the pipe shall be 40 mm for high-level cisterns, and 50 mm for low-level cistern.",
+      "clause_id": "IS 7231:1994#3.3",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "3.3.1",
+      "title": "Flush Pipe Connection to Cistern",
+      "text": "3.3.1 Flush Pipe Connection to Cistern —The flush pipe shall be securely connected to the cistern outlet and made airtight by means of a coupling nut. The nominal internal diameter of the cistern outlet shall be not less than 32 mm and 38 mm for high-level and lowlevel cisterns respectively.",
+      "clause_id": "IS 7231:1994#3.3.1",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 3,
+      "parent_clause": "3.3",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "3.4",
+      "title": "Inlet and Outlet Holes",
+      "text": "3.4 Inlet and Outlet Holes —The cistern shall be provided with inlet and overflow holes, situated one at each end, which shall be capable of accommodating overflow pipe of not less than 20 mm nominal bore and a 15 mm  size float valve.",
+      "clause_id": "IS 7231:1994#3.4",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "3.5",
+      "title": "Operating Lever",
+      "text": "3.5 Operating Lever — The operating mechanism/lever shall not project beyond the side of the cistern for a distance greater than 350 mm measured from the centre of the cistern to the end of the lever arm.",
+      "clause_id": "IS 7231:1994#3.5",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "3.6",
+      "title": "String (Chain)",
+      "text": "3.6 String (Chain) — The string (chain) shall be of such a strength as to sustain a dead load of 500 N without any apparent or permanent deformation.",
+      "clause_id": "IS 7231:1994#3.6",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "3.7",
+      "title": "Overflow Pipe",
+      "text": "3.7 Overflow Pipe — The overflow piepe shall be of not less than 20 mm nominal bore and shall incorporate a non-corrodible mosquito-proof device.",
+      "clause_id": "IS 7231:1994#3.7",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "3.8",
+      "title": "Float Valve",
+      "text": "3.8 Float Valve — Shall be 15 mm nominal size",
+      "clause_id": "IS 7231:1994#3.8",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "4",
+      "title": "Operational and Performance Requirements",
+      "text": "4. Operational and Performance Requirements",
+      "clause_id": "IS 7231:1994#4",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "4.1",
+      "title": "Flushing Arrangement",
+      "text": "4.1 Flushing Arrangement — The cistern under working conditions and with the float valve in closed position shall operate on a single operation of the operating mechanism/lever without calling for a sudden jerk in pulling. If a valve is used instead of siphon for flushing purposes, the valve shall be completely leakproof.",
+      "clause_id": "IS 7231:1994#4.1",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 461,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "4.2",
+      "title": "Working Water Level",
+      "text": "4.2 Working Water Level  — The working water level shall be a minimum of 6.5 cm below the effective top edge of the cistern and  shall be legibly and permanently marked on the inside of the cistern. SUMMARY OF IS  7231 : 1994  PLASTIC FLUSHING CISTERNS FOR WATER CLOSETS AND URINALS (Second  Revision) T Talc as filler  if used shall not exceed 20% Note— For materials of other components See Table1 of the standard. Note — For method of test, refer to 9  and Appendices B to D of the standard. For detailed information, refer to IS  7231 : 1994 Specification for plastic flushing cisterns for water closets and urinals (second revision).",
+      "clause_id": "IS 7231:1994#4.2",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 461,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "4.3",
+      "title": "Freedom from Self Siphonage",
+      "text": "4.3 Freedom from Self Siphonage — The siphonic system shall be capable of being rapidly brought into action when the water is at the working water level, but shall not self-siphon or leak into the flush pipe when the water is up to 1 cm above the invert of the overflow pipe.",
+      "clause_id": "IS 7231:1994#4.3",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 462,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "4.4",
+      "title": "Reduced Water Level –",
+      "text": "4.4 Reduced Water Level - The discharge shall operate satisfactorily when the cistern is filled to a level up to 1 cm below the working water level.",
+      "clause_id": "IS 7231:1994#4.4",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 462,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "4.5",
+      "title": "Discharge Capacity – Cistern",
+      "text": "4.5 Discharge Capacity -  Cistern of 5 litres and 10 litres capacities, when required to give a full flush, shall respectively discharge 5 litres and 10 litres with variation of ± 0.5 litres. Dual-flush cistern of 10 litres capacity shall discharge alternatively a short flush of 5 ± 0.5 litres. Dual flush western 6/3 liture capacity shall discharge 6 ± 0.5 liters and atternatively a half flush of 3 ± 0.5 litre",
+      "clause_id": "IS 7231:1994#4.5",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 462,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "4.6",
+      "title": "Discharge Rate – The",
+      "text": "4.6 Discharge Rate - The discharge rate shall be 10 ± 0.5 litres within 6 seconds and 5 ± 0.5 litres and 6±0.5 litre within 6 s and 3 ± 0.5 litres within 35 for liters of capacity 6/3 litre. 3 seconds for cistern of capacities 10 litres and 5 litres respectively.",
+      "clause_id": "IS 7231:1994#4.6",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 462,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "5",
+      "title": "Tests",
+      "text": "5. Tests",
+      "clause_id": "IS 7231:1994#5",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 462,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "5.1",
+      "title": "Distortion Resistance Test",
+      "text": "5.1 Distortion Resistance Test — The cistern shall not buldge more than 6 mm and the cover shall not be dislodged.",
+      "clause_id": "IS 7231:1994#5.1",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 462,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "5.2",
+      "title": "Dead Load Test",
+      "text": "5.2 Dead Load Test  - When tested by the application of a dead load of 230 N applied 6 mm from the end of the operating lever arm for 30 seconds, shall not distort to such an extent that any part becomes detached.",
+      "clause_id": "IS 7231:1994#5.2",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 462,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "5.3",
+      "title": "Front Thrust Test –",
+      "text": "5.3 Front Thrust Test -  Only to cisterns intendent for low level use shall not distort to such an extent as to be inoperable or unsighhtly when the load is removed.",
+      "clause_id": "IS 7231:1994#5.3",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 462,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "5.4",
+      "title": "Impact Test – The",
+      "text": "5.4 Impact Test - The cistern, complete with its fittings, shall show no defect after one impact.",
+      "clause_id": "IS 7231:1994#5.4",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 462,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7231:1994",
+      "clause": "5.5",
+      "title": "Endurance Test – The",
+      "text": "5.5 Endurance Test - The cistern and its component parts shall not show any damage or defects and all the parts shall be satisfactory, after 3000 operations.",
+      "clause_id": "IS 7231:1994#5.5",
+      "family": "IS 7231",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 462,
+      "page_end": 462,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7231:1994",
+    "record_id": 14158,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      461,
+      462
+    ],
+    "n_clauses": 25,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6006:1983",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope : Requirements for manufacture, supply and testing of uncoated, stress relieved, high tensile steel strands for use in prestressed concrete. The following types of strands are covered: a) Two wire strand b) Three wire strand c) Seven wire strand-Class 1 and Class 2 (For classification, see Table 2 and 3)",
+      "clause_id": "IS 6006:1983#1",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 658,
+      "page_end": 658,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "2",
+      "title": "Manufacture",
+      "text": "2. Manufacture",
+      "clause_id": "IS 6006:1983#2",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 658,
+      "page_end": 658,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "2.1",
+      "title": "Wire",
+      "text": "2.1 Wire",
+      "clause_id": "IS 6006:1983#2.1",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 658,
+      "page_end": 658,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "2.1.1",
+      "title": "The elements wire to",
+      "text": "2.1.1  The elements wire to be used for strand shall be cold-drawn from plain carbon steel and shall contain not more than 0.040 percent of sulphur and not more than 0.040  percent of phosphorus.",
+      "clause_id": "IS 6006:1983#2.1.1",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 658,
+      "page_end": 658,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "2.1.2",
+      "title": "The wire used",
+      "text": "2.1.2  The wire used  shall be sound and free from splits, surface flaws, piping. and any other defects.",
+      "clause_id": "IS 6006:1983#2.1.2",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 658,
+      "page_end": 658,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "2.2",
+      "title": "Strand – Seven wire",
+      "text": "2.2 Strand - Seven wire strand shall have a centre wire at least 1.5 percent greater in diameter than the surrounding wires enclosed tightly by six helically placed outer wires with a uniform length of lay of at least 12 times but more than 16 times of nominal  diameter  of the TABLE 1   DIMENSIONS, TOLERANCES AND MASS OF TWO AND THREE WIRE STRANDS Designation Nominal               Tolerance on Nominal Cross Nominal Diameter of Diameter of Sectional Mass of Element Wire Element Wire Area of Strand Strand (1) (2) (3) (4) (5) mm mm mm2 kg/m 2-ply 2 mm 2.0 ±0.03 6.28 0.0493 2-ply 3 mm 3.0 ±0.03                                14.14 0.111 3-ply 3 mm 3.0 ±0.03                                21.21 0.166 strand. The length of lay for the two and three wire strands shall be uniform throughout and shall be 24 to 36 times the diameter of element wire. The wires in the strand shall not  unravel when the strand is cut and they shall not fly out of position when the strand is cut without seizing.",
+      "clause_id": "IS 6006:1983#2.2",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 658,
+      "page_end": 658,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "3",
+      "title": "Size and Designation",
+      "text": "3. Size and Designation",
+      "clause_id": "IS 6006:1983#3",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 658,
+      "page_end": 658,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "3.1",
+      "title": "Two Wire Strand and",
+      "text": "3.1 Two Wire Strand and  Three Wire Strand - They shall be designated by the number of element wires (plies) and the diameter of the element wire making the strand, for example , 2-ply 2 mm strand will mean a strand consisting of two element wires of diameter 2.0 mm each. (see Table 1)",
+      "clause_id": "IS 6006:1983#3.1",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 658,
+      "page_end": 658,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "3.2",
+      "title": "Seven Wire Strand",
+      "text": "3.2 Seven Wire Strand  - The seven wire strand shall be designated by the approximate overall diameter of the strand and number of element wires (plies) making the strand, for example, 6.3 mm 7-ply strand will mean a strand of approximate diameter 6.3 mm and made out of seven (six outer and one central) wires. (See Table 2)",
+      "clause_id": "IS 6006:1983#3.2",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 658,
+      "page_end": 658,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "4",
+      "title": "Dimensions and Tolerances",
+      "text": "4. Dimensions and Tolerances  :  See Tables 1 and 2 SUMMARY OF IS 6006  : 1983 UNCOATED STRESS RELIEVED STRAND FOR PRESTRESSED CONCRETE (First  Revision)",
+      "clause_id": "IS 6006:1983#4",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 658,
+      "page_end": 658,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "5",
+      "title": "Physical Requirements",
+      "text": "5. Physical Requirements",
+      "clause_id": "IS 6006:1983#5",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 659,
+      "page_end": 659,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "5.1",
+      "title": "Breaking Strength",
+      "text": "5.1 Breaking Strength  : See Table 3.",
+      "clause_id": "IS 6006:1983#5.1",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 659,
+      "page_end": 659,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "5.2",
+      "title": "Proof Load",
+      "text": "5.2 Proof Load   : See Table 3.",
+      "clause_id": "IS 6006:1983#5.2",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 659,
+      "page_end": 659,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "5.3",
+      "title": "Elongation",
+      "text": "5.3 Elongation  :  Elongation of the strand shall not be less than 3.5 percent and shall be  measured on a gauge length of not less than 200 mm for  2 ply and 3 ply strand and not less than 600 mm for 7ply strands.",
+      "clause_id": "IS 6006:1983#5.3",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 659,
+      "page_end": 659,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 6006:1983",
+      "clause": "5.4",
+      "title": "Relaxation – The relaxation",
+      "text": "5.4 Relaxation -  The relaxation stress in the wire, shall not exceed 5 percent of the initial stress at the end of 1000 h. TABLE 3   MINIMUM  BREAKING LOAD Class                 Designation Breaking Load 0.2 percent Min Proof load Min (1) (2) (3) (4) N N - 2-ply 2 mm 12 750 10 840 2-ply 3 mm 25 500 21 670 3-ply 3 mm 38 250 42 460 1 6.3 mm 7-ply 40 000 34 000 7.9 mm 7-ply 64 500 54 700 9.5 mm 7-ply 89 000 75 600 11.1 mm 7-ply 120 100 102 300 12.7 mm 7-ply 160 100 136 200 15.2 mm 7-ply 240 200 204 200 2 9.5 mm 7-ply 102 300 87 200 11.1 mm 7-ply 137 900 117 200 12.7 mm 7-ply 183 700 156 100 15.2 mm 7-ply 260 700 221 500 Note-The modulus of elasticity is to be taken as 195 ± 10 kN/mm2, unless otherwise indicated by the manufacturer. Note - For test procedures, refer to 7 of the standard  and  IS 1608 : 1995 Mechanical testing of metals-tensile testin (second revision). For  detailed information, refer to IS 6006:1983 Uncoated stress relieved strand  for prestressed concrete (first revision). TABLE 2   DIMENSIONS, TOLERANCES AND MASS OF SEVEN WIRE STRANDS Class Designation Nominal                    Tolerances Nominal Cross-        Nominal Diameter                    on the Nominal Sectional Area           Mass of of Strand                     Diameter of Strand of Strand Strand (1) (2) (3) (4) (5) (6) mm mm mm2 kg/m 1 6.3 mm 7-ply 6.3                              ±   0.4 23.2 0.182 7.9 mm 7-ply 7.9                              ±   0.4 37.4 0.294 9.5 mm 7-ply 9.5                              ±   0.4 51.6 0.405 11.1 mm 7-ply 11.1                              ±   0.4 69.7 0.548 12.7 mm 7-ply 12.7 ±  0.4 92.9 0.730 15.2 mm 7-ply 15.2 ±  0.4 139.4 1.094 2 9.5 mm 7-ply 9.5                              + 0.66 54.8 0.432 -0.15 11.1 mm 7-ply 11.1 + 0.66 74.2 0.582 -0.15 12.7 mm 7-ply          12.7 + 0.66 98.7 0.775 -0.15 15.2 mm 7-ply           15.2                               + 0.66 140.0 1.102 -0.15",
+      "clause_id": "IS 6006:1983#5.4",
+      "family": "IS 6006",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 659,
+      "page_end": 659,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6006:1983",
+    "record_id": 12840,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      658,
+      659
+    ],
+    "n_clauses": 15,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

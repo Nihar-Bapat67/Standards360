@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 455:1989",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Covers the manufacture and chemical and physical requirements for Portland slag cement.",
+      "clause_id": "IS 455:1989#1",
+      "family": "IS 455",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 23,
+      "page_end": 23,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 455:1989",
+      "clause": "2",
+      "title": "Chemical Requirement",
+      "text": "2.  Chemical Requirement Percent, Max Magnesium oxide (MgO) 8.0 Sulphur trioxide (SO3) 3.0 Sulphide sulphur (S) 1.5 Loss on ignition 5.0 Insoluble residue 4.0 Notes1—Total chloride content in cement shall not exceed 0.05 percent by mass for cement used in prestressed concrete structures and long span reinforced concrete structures. (Method of test for  determination of chloride content in  cement is given in IS 12423:1988.)* Notes 2. Granulated slag conforming to IS 12089:1987 † has been found suitable for the manufacture of Portland slag cement.",
+      "clause_id": "IS 455:1989#2",
+      "family": "IS 455",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 23,
+      "page_end": 23,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 455:1989",
+      "clause": "3",
+      "title": "Physical Requirements",
+      "text": "3. Physical Requirements",
+      "clause_id": "IS 455:1989#3",
+      "family": "IS 455",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 23,
+      "page_end": 23,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 455:1989",
+      "clause": "3.1",
+      "title": "Fineness",
+      "text": "3.1Fineness — Specific surface , not less than 225 m2/kg. * Method for colorimetric analysis of hydraulic cement. †    Granulated slag for manufacture of Portland slag Cement. ± ±",
+      "clause_id": "IS 455:1989#3.1",
+      "family": "IS 455",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 23,
+      "page_end": 23,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 455:1989",
+    "record_id": 25203,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      23,
+      23
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.515,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

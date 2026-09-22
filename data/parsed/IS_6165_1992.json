@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6165:1992",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Dimensions for special shapes of clay brick used in building and other civil engineering construction. It does not lay down the specification of the special shapes for clay bricks and same shall conform to IS 1077:1991* and IS: 2180:1988†. Note  —For exact shape of clay bricks and detailed dimensions, refer to Fig. 1 to 7 of the standard. For detailed information, refer to IS 6165:1992 Specification  for  dimensions for special shapes of clay bricks (first revision) SUMMARY OF IS 6165 : 1992 DIMENSIONS FOR SPECIAL SHAPES OF CLAY BRICKS (First Revision) Shape Major  Overall Dimensions m m a)  Closers — i)     Snapheader closer 90 × 90 × 90 ii)    King closer 190 × 90 × 90 iii)   Queen closer 190 × 40 × 90 b)  Copings — i)     Half round coping 290 × 90 ii)    Saddle back coping 290 × 90 ×145 c) Bullnose Bricks — i)     Single bullnose or bullnose header ii)    Double bullnose iii)   Bullnose stretcher 190 × 90 × 90 iv)   Bullnose mitre v)    Bullnose double vi)   Bullnose on end d) Corner bricks — i)     Squint 300 ii)    Birdsmouth 300 iii)   Header splay 190 × 90 × 90 iv)   Single cant or plinth header v)    Double cant",
+      "clause_id": "IS 6165:1992#1",
+      "family": "IS 6165",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 133,
+      "page_end": 133,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6165:1992",
+      "clause": "2",
+      "title": "Dimensions",
+      "text": "2. Dimensions",
+      "clause_id": "IS 6165:1992#2",
+      "family": "IS 6165",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 133,
+      "page_end": 133,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6165:1992",
+      "clause": "2.1",
+      "title": "Size of modular and non",
+      "text": "2.1 Size of modular and non-modular bricks shall be : Length         Width Height mm mm mm Modular Size 190 90 90 Non-Modular Size 230 110 70",
+      "clause_id": "IS 6165:1992#2.1",
+      "family": "IS 6165",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 133,
+      "page_end": 133,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 6165:1992",
+      "clause": "2.2",
+      "title": "Sizes of special shapes",
+      "text": "2.2 Sizes of special shapes of clay bricks shall be as follows : * Common burnt clay building bricks (fifth revision). † Heavy duty burnt clay building bricks (third revision). Shape Major  Overall Dimensions m m e)   Plinth bricks — i)     Plinth stop ii)    Plinth stretcher iii)   Plinth internal return iv)   Plinth header v)    Plinth internal return vi)   Plinth external return                   190 × 90 × 90 f)  Culvert bricks — i)     Culvert 10 cm ii)    Culvert 20 cm g)  Chimney or well type bricks— i)     Chimney or well header ii)     chimney or well stretcher",
+      "clause_id": "IS 6165:1992#2.2",
+      "family": "IS 6165",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 133,
+      "page_end": 133,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6165:1992",
+    "record_id": 13002,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      133,
+      133
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

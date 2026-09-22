@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1361:1978",
+      "clause": "1",
+      "title": "Scope – Deals with",
+      "text": "1. Scope -  Deals with steel windows suitable for use in industrial buildings and designed to suit openings based on a module of 10 cm.",
+      "clause_id": "IS 1361:1978#1",
+      "family": "IS 1361",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 631,
+      "page_end": 631,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1361:1978",
+      "clause": "2",
+      "title": "Handing – Handing and",
+      "text": "2. Handing -  Handing and direction of closing of sashes shall be according to IS 4042 : 1969. *",
+      "clause_id": "IS 1361:1978#2",
+      "family": "IS 1361",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 631,
+      "page_end": 631,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1361:1978",
+      "clause": "3",
+      "title": "Designation – By symbols",
+      "text": "3. Designation -  By symbols denoting in sequence, IN (to indicate industrial window) ×  Width expressed in number of modules × Type (F= fixed sash, C=centrehung sash, B=bottom hung sash, T= top hung sash) × Height expressed in number of modules. Examples a) IN 10 C 15 indicates industrial window for open ing 10 module wide (100 cm) by 15 module high (150 cm) with centre hung ventilator. b) IN 10 C 10 / IN 10 C 10 IN 10 C 15 / IN 10 C 15 indicates the combination of four windows, two of the type IN10 C 10 on top and two of the type IN10 C 15 at the bottom, all the four of them coupled both horizontally and vertically.",
+      "clause_id": "IS 1361:1978#3",
+      "family": "IS 1361",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 631,
+      "page_end": 631,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1361:1978",
+      "clause": "4",
+      "title": "Sizes and Tolerances",
+      "text": "4. Sizes and Tolerances a)    Window Sizes IN 10 C 10 IN 22 C 10 IN 16 C 15 IN 10 T 10 IN 22 T 10 IN 16 T 15 IN 10 B 10 IN 22 B 10 IN 16 B 15 IN 16 C 10 IN 10C 15 IN 22 C 15 IN 16 T 10 IN 10 T 15 IN 22 T 15 IN 16 B 10 IN 10 B 15 IN 22 B 15 IN 10 C 20 IN 22 C 20 IN 22 F 10 IN 10 T 20 IN 22 T 20 IN 22 F 15 IN 10 B 20 IN 22 B 20 IN 22 F 20 IN 16 C 20 IN 10 F 10 IN 22 F 10 IN 16 T 20 IN 10 F 15 IN 22 F 15 IN 16 B 20 IN 10 F 20 IN 22 F 20 * Symbolic designations of directions of closing and faces of doors, windows and shutters. For detailed information, refer to IS  1361 : 1978 Specification for steel windows for Industrial buildings (first revision) 8.  Composite Windows - Shall be desptached unassembled, but complete with necessary coupling components. Each coupling member will increase the overall height or width by 25 mm maximum which includes manufacturing tolerances. 9. Glass — Sizes shall be as given below: Pane Designation— a b c d e     f Width, mm 269   304  292  304   304    292 Height, mm 425   425  460   460  492    492 Note — For number of glass panes for each type of window see Fig. 4 of the standard. 10. Finish — All sashes and coupling members shall be either galvanised or painted.",
+      "clause_id": "IS 1361:1978#4",
+      "family": "IS 1361",
+      "year": 1978,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 631,
+      "page_end": 632,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1361:1978",
+    "record_id": 5278,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      631,
+      632
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.54,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

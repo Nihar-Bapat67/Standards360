@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1363 (Part 1):2002",
+      "clause": "1",
+      "title": "Scope – Gives specifications",
+      "text": "1.    Scope - Gives specifications for hexagon head botts with threads from M5 up to and including M64 of product grade C.",
+      "clause_id": "IS 1363 (Part 1):2002#1",
+      "family": "IS 1363 (Part 1)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 766,
+      "page_end": 766,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1363 (Part 1):2002",
+      "clause": "2",
+      "title": "Dimensions",
+      "text": "2. Dimensions  M5, M6, M8, M10, M12, M16, M20, M24,  M30,  M36,  M42,   M48,  M56  and  M64. Note - For details,of preferred and non preferred threads refer to Tables 1 and 2 of the standard. SUMMARY OF IS  1363 (Part 1) : 2002 ISO 4016 : 1999 HEXAGON HEAD BOLTS, SCREWS AND NUTS OF PRODUCT GRADE C PART  1 : HEXAGON HEAD BOLTS (SIZE RANGE M5 TO M64) (Fourth Revision)",
+      "clause_id": "IS 1363 (Part 1):2002#2",
+      "family": "IS 1363 (Part 1)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 766,
+      "page_end": 766,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1363 (Part 1):2002",
+      "clause": "2.1",
+      "title": "Prefered threads – M5,",
+      "text": "2.1 Prefered threads - M5, M6 and M64",
+      "clause_id": "IS 1363 (Part 1):2002#2.1",
+      "family": "IS 1363 (Part 1)",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 766,
+      "page_end": 766,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1363 (Part 1):2002",
+      "clause": "2.2",
+      "title": "Non",
+      "text": "2.2  Non - Prfered threads - M14, M18, M22, M27, M33, M39,  M45,  M52, and M60",
+      "clause_id": "IS 1363 (Part 1):2002#2.2",
+      "family": "IS 1363 (Part 1)",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 766,
+      "page_end": 766,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1363 (Part 1):2002",
+      "clause": "3",
+      "title": "Specifications",
+      "text": "3.    Specifications  - See Table 1 | TABLE 1 SPECIFICATIONS AND REFERENCE STANDARDS |  |  | | --- | --- | --- | | Material |  | Steel | | General requirements | International Standard | ISO 8992 | | Thread | Tolerance International Standards | 8g ISO 724, ISO 965-1 | | Mechanical properties | Property class a) International Standards | d≤ 39 mm : 3.6, 4.6, 4.8 d > 39 mm : as agreed d ≤ 39 mm : ISO 898-1 d > 39 mm : as agreed | | Tolerance | Product grade | C | |  | International Standard | ISO 4759-1 | | Finish in | 2) Requirement for non - electrolytically applied zero flake coategs are covered in ISO 10683. | As processed | |  |  | (1)Requirements for electroplating are covered ISO 4042. (2)If different electroplating requirements are desired or if requirements are needed for other finishes, they should be agreed between customer and supplier | | Acceptability |  | For acceptance procedure see ISO 3269 | | a) For other property classes see ISO 898 - 1 |  |  | | 4. Designation - Example for the designation of a hexagon head bolt, with thread M12, nominal length l = 80 mm and property class 4.6 : Hexagon head bolt IS 1363 (Part I) - ISO 4016 M12 × 80 - 4.6' |  |  | | Note - For corresponding Indian Standards of certain International standard refer, along with their degree of equivalence, refer the National Foreward of the standard. |  |  | | For detailed information, refer to IS 1363 (Part I) : 2002 - ISO 4016 : 1999. Specification for Hexagon head bolts, screws and nuts of product grade C : Part I Heaxagon head bolts (size range M5 to M64) (fourth revision). |  |  |",
+      "clause_id": "IS 1363 (Part 1):2002#3",
+      "family": "IS 1363 (Part 1)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 766,
+      "page_end": 766,
+      "has_table": true,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1363 (Part 1):2002",
+    "record_id": 25527,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      766,
+      766
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

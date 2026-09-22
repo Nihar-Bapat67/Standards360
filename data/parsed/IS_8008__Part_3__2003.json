@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8008 (Part 3):2003",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1.  Scope — Requirements for manufacture, dimensions and tolerances, and marking for injection moulded and machined HDPE 90° tees for portable water supplies.",
+      "clause_id": "IS 8008 (Part 3):2003#1",
+      "family": "IS 8008 (Part 3)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 353,
+      "page_end": 353,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 3):2003",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 8008 (Part 3):2003#2",
+      "family": "IS 8008 (Part 3)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 353,
+      "page_end": 353,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 3):2003",
+      "clause": "2.1",
+      "title": "Overall laying lengths and tolerances thereon",
+      "text": "2.1 Overall laying lengths and tolerances thereon shall be as follows : Nominal Diameter Laying Length mm mm 20 36.5 ± 1 25 39 ± 1 32 46 ± 1 Note — For general requirements, regarding material, manufacture, methods of test, etc.refer toIS 8008 (Part1):2003. Injection moulded high density polyethylene (HDPE)  fittings for portable water supplies : PART 1General requirements for fittings. For detailed information, refer to IS  8008 (Part 3 ) :2003  Specification for injection moulded high density polyethylene (HDPE) fittings for potable water supplies : Part3  specific requirements for 90° tees. SUMMARY OF IS 8008 (PART 3) : 2003 INJECTION MOULDED HIGH DENSITY POLYETHYLENE (HDPE) FITTINGS FOR POTABLE WATER SUPPLIES PART 3 SPECIFIC REQUIREMENTS FOR 90O TEES (First Revision) 40 63 ± 2 50 75 ± 2 63 80 ± 2 75 88 ± 2 90 98.5 ± 2 110 122.5 ± 3 125 135 ± 3 140 145 ± 3 160 157 ± 3 Note — For typical illustration of 90° tee see  Fig.1 of   the standard.",
+      "clause_id": "IS 8008 (Part 3):2003#2.1",
+      "family": "IS 8008 (Part 3)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 353,
+      "page_end": 353,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 3):2003",
+      "clause": "2.2",
+      "title": "Outside diameter and wall",
+      "text": "2.2 Outside diameter and wall thickness at ends for welding shall be in accordance with IS 8008 (Part 1) : 2003.",
+      "clause_id": "IS 8008 (Part 3):2003#2.2",
+      "family": "IS 8008 (Part 3)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 353,
+      "page_end": 353,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8008 (Part 3):2003",
+    "record_id": 15062,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      353,
+      353
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

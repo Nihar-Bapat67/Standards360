@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2314:1986",
+      "clause": "1",
+      "title": "Scope – Stipulates dimensions and dimensional",
+      "text": "1. Scope - Stipulates dimensions and dimensional tolerances for  Z-type , U-type an flat-type profile of hot rolled steel sheet piling sections. Sectional properties of these sections as calculated with the nominal dimensions are also included.",
+      "clause_id": "IS 2314:1986#1",
+      "family": "IS 2314",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 728,
+      "page_end": 728,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2314:1986",
+      "clause": "2",
+      "title": "Material – Piling sections",
+      "text": "2. Material - Piling sections shall be made from steel of any one grade conforming to IS 2062 : 1992* or IS 8500 : 1991† . Where steel is required in copper bearing quality, the copper content shall be between 0.20 and 0.35 percent.",
+      "clause_id": "IS 2314:1986#2",
+      "family": "IS 2314",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 728,
+      "page_end": 728,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2314:1986",
+      "clause": "3",
+      "title": "Type –",
+      "text": "3. Type - Z- Type - Roughly  Z shape with joints of piles when driven located alternately at inner and outsides of the pililng wall. U -Type - Roughly U shape with joints of piles when driven located on the neutral axis of the piling wall. Flat-Type - Having flat shape with high  resistance to tensile forces.",
+      "clause_id": "IS 2314:1986#3",
+      "family": "IS 2314",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 728,
+      "page_end": 728,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2314:1986",
+      "clause": "4",
+      "title": "Designation – Steel sheet piling sections",
+      "text": "4. Designation - Steel sheet piling sections conforming to this specification shall be designated with the letters ISPS followed by the section modulus per metre of wall in cm3  and letter symbols  Z, U and  F which denote Z-type , U-type and flat-type sections respectively. Designation for available piling sections shall be as follows: For detailed information, refer to IS 2314 : 1986  Steel sheet piling section (first revision). a)  Z  Type Piling Sections ISPS 1021 Z ISPS 1888 Z ISPS 1481 Z ISPS 2322 Z b) U Type Piling Sections ISPS 1625 U    ISPS 2222 U      ISPS 2770 U c)  Flat - Type Piling Sections Designation IS PS 100 F Note - For detailed dimensions, tolerances and geometrical properties refer to Figs 1 to 3 and Table 1 to 5 of  the Standard. 4.  Tolerances -",
+      "clause_id": "IS 2314:1986#4",
+      "family": "IS 2314",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 728,
+      "page_end": 728,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2314:1986",
+      "clause": "4.1",
+      "title": "On Length – The",
+      "text": "4.1 On Length - The sections shall be supplied in lengths between 9 m and 13.4 m subject to a tolerance of  + 75 mm and -50 mm. Note -  For detailed toleances, refer to 6 of the  standard.",
+      "clause_id": "IS 2314:1986#4.1",
+      "family": "IS 2314",
+      "year": 1986,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 728,
+      "page_end": 728,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2314:1986",
+      "clause": "5",
+      "title": "Surface Defects – Sheet",
+      "text": "5. Surface Defects - Sheet piles shall not show defects under use steel sheet piles shall be straight and the cut and surface shall be flat.",
+      "clause_id": "IS 2314:1986#5",
+      "family": "IS 2314",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 728,
+      "page_end": 728,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2314:1986",
+      "clause": "6",
+      "title": "Strength of Joint –",
+      "text": "6. Strength of Joint - Tensile strength of joints of flat-type sheet piles shall not be less than  400 t/m. * Steel for general structural purposes (fourth revision) † Structural steel - Micro alloyed medium and high strength qualities (first revision)",
+      "clause_id": "IS 2314:1986#6",
+      "family": "IS 2314",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 728,
+      "page_end": 728,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2314:1986",
+    "record_id": 8844,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      728,
+      728
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.992,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

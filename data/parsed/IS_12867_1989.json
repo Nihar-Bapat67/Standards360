@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12867:1989",
+      "clause": "1",
+      "title": "Scope – Covers the",
+      "text": "1. Scope -  Covers the dimensions and requirements for PVC handrail covers for use on metal strip handrails.",
+      "clause_id": "IS 12867:1989#1",
+      "family": "IS 12867",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 547,
+      "page_end": 547,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 12867:1989",
+      "clause": "2",
+      "title": "Material – Handrails covers",
+      "text": "2. Material -  Handrails covers are manufactured by extrusion using plasticized PVC compound of desired formulation and colour.",
+      "clause_id": "IS 12867:1989#2",
+      "family": "IS 12867",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 547,
+      "page_end": 547,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 12867:1989",
+      "clause": "3",
+      "title": "Sizes – PVC handrail",
+      "text": "3. Sizes - PVC handrail covers are normally made available in widths to match the desired width of metal TABLE 1 - REQUIREMENTS  OF  PVTC  HANDRAIL  COVERS Sl. No. Characteristics Requirements i) Heat ageing and exudation No exudation of plasticizer shall be apparent nor shall there be any change in appearance. ii) Tensile strength test Tensile strength shall not be les than 10 N/mm2 iii) Elongation Minimum elongation shall be 115 percent iv) Hardness Minimum value of Rockwell hardness number shall be L65 v) Resistance to combustion The specimen shall not burn to the 25 mm mark and shall not show any flame or after glow after 5 s after the burner has been removed. strip, suitably welded as part of the handrail, with a view to providing comforable grip. The common sizes shall suit metallic flats of width 25 mm, 40 mm, 50 mm and 65 mm. For general use handrail covers should be supplied in 25 m lengths.",
+      "clause_id": "IS 12867:1989#3",
+      "family": "IS 12867",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 547,
+      "page_end": 547,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 12867:1989",
+      "clause": "4",
+      "title": "Requirements – See Table 1",
+      "text": "4. Requirements - See Table 1 Note 1 — For methods of tests, refer to Appendices A to C of the standard and IS 8543 (Part 4/ Sec 1): 1984  Method of testing plastics: Part 4 short term mechanical properties, Section 1 Determination of tensile properties. Note 2 — Method of installation is given in Annex D of  the standard. For   detailed information, refer to  IS  12867 : 1989  Specification for  PVC handrail covers. SUMMARY OF IS 12867 : 1989 PVC HAND RAIL COVERS",
+      "clause_id": "IS 12867:1989#4",
+      "family": "IS 12867",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 547,
+      "page_end": 547,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12867:1989",
+    "record_id": 4326,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      547,
+      547
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

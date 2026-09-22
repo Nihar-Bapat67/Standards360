@@ -1,0 +1,400 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8887:2004",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope  —  Covers the physical and chemical requirements of bitumen emulsions (cationic type) for roads.",
+      "clause_id": "IS 8887:2004#1",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 196,
+      "page_end": 196,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "2",
+      "title": "Grades",
+      "text": "2. Grades Grade a) Rapid setting - 1 Rs - 1 b) Rapid setting -2 Rs -2 For  detailed information, refer to IS 8887 : 2004.  Specifications for Bitumen emulsion for roads (Cationic type)  (first revision). TABLE 1 PHYSICAL AND CHEMICAL REQUIREMENTS OF BITUMEN EMULSION (CATIONIC TYPE) c) Medium setting MS d) Show setting - 1 SS - 1 e) Show setting - 2 SS - 2 Requirement 3.1 Shall be homogeneous. Within one year after manufacture date it shall show no undispersed bitumen after thorough mixing. Sl No. Characteristic Grade of Emulsion Method of Test Ref. to RS-1 RS-2 MS SS-1 SS-2 IS No. Annex of this Standard 1 2",
+      "clause_id": "IS 8887:2004#2",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 196,
+      "page_end": 196,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "3",
+      "title": "4",
+      "text": "3",
+      "clause_id": "IS 8887:2004#3",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 196,
+      "page_end": 196,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "4",
+      "title": "5",
+      "text": "4",
+      "clause_id": "IS 8887:2004#4",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 196,
+      "page_end": 196,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "5",
+      "title": "6",
+      "text": "5",
+      "clause_id": "IS 8887:2004#5",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 196,
+      "page_end": 196,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "6",
+      "title": "7",
+      "text": "6",
+      "clause_id": "IS 8887:2004#6",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 196,
+      "page_end": 196,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "7",
+      "title": "8",
+      "text": "7",
+      "clause_id": "IS 8887:2004#7",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 196,
+      "page_end": 196,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "8",
+      "title": "9",
+      "text": "8 9 i) Resideue on 600 micron 0.05 0.05 0.05 0.05 0.05 - B IS Sieve, percent by mass, Max ii) Viscosity by saybolt furol 3117 viscometer, seconds: 1) At 25o C - - - 20-100 31-150 - - 2) At 50o C 20-100 100-300 50-300 - - iii) Coagulation of emulsion at Nil Nil Nil Nil Nil C low temperature1 iv) Storage stability after 24 h, 2 1 1 2 2 - D percent, Max v) Particle charge Positive Positive Positive Weak Positive Positive - E vi) Coating ability and water resistance: - F 1) Coating, dry aggregate - - Good - - - 2) Coating, after spraying - - Fair - - - 3) Coating, wet aggregate - - Fair - - - 4) Coating, after spraying - - Fair - - - vii) Stability to mixing with cement - - - 2 2 - G (percentage coagulation), Max viii) Miscibility with water No No No - No - H Coagulation Coagulation Coagulation Coagulation ix) Test on residue: 1) Residue by evaporation 60 67 65 50 60 - J percent, Min 1) Penetration 25 0C/100 g/ 5sec 80-150 80-150 60-150 60-350 60-120 1203 - 3) Ductility 270 C/cm, Min 50 50 50 50 50 1208 - 4) Solubility : 98 98 98 98 98 1216 - In Irichloreothylene, Percent by mass, Min x) Distillation in percent, by volue at: 1) 190 0C - - - 20-55 - - - 2) 225 0C - - - 30-75 - - - 3) 260 0C - - - 40-90 - - - 4) 315 0C - - - 60-100 - - - xi) Water content, percent by mass, Max - - - 20 - - - 1)This requirement shall be applicable only under situations where the ambient temeprature is below 15 0C SUMMARY  OF IS 9912 : 1981 COAL TAR BASED COATING MATERIALS AND SUTABLE PRIMERS FOR  PROTECTING IRON  OR STEEL PIPE LINES 1. Scope —  Requirements of hot applied coal tar based coatings and their associated primers used for protecting iron and steel pipes. This standard covers two types of coating materials suitable for extremes of temperature   (See Table 1). 2. Hot Applied Coating Material  — The material shall be produced by digestion of bituminous coal or its selected fractions suitable for this purpose together with an approved inert filler (like talc, etc) sized to ensure that not less than 100 percent passes through 45-micron IS Sieve. 3. Primers 3.1 The primers shall be of two types, namely, Type A and Type B. 3.2 Type A primer shall be composed of processed coal tar pitch suitably blended with selected grades of solvents, to a fluid that may be applied cold by brushing, spraying or any other method. The primer shall also comply with the requirement given in  Table 2. 3.3 Type B primer shall consist of chlorinated rubber and synthetic plasticiser together with solvents needed to give a consistency suitable for application by brush or spray. Type B primer shall comply with the requirements of Table 3. TABLE 1 REQUIREMENTS OF HOT APPLIED COATING MATERIAL Sl Characteristics Requirements No. Type I Type II Min Max Min Max (1)                       (2) (3) (4) (5) (6) i) Softening point (R&B)°C 105 115 105 115 ii) Penetration (see Note): at 25°C/100 g/5 seccond 5",
+      "clause_id": "IS 8887:2004#8",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 196,
+      "page_end": 197,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "10",
+      "title": "12",
+      "text": "10",
+      "clause_id": "IS 8887:2004#10",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 197,
+      "page_end": 197,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "12",
+      "title": "20",
+      "text": "12 20 at 45°C/50g/5 second 10 25 20 50 iii) Specific gravity at 270C 1.4 1.6 1.4 1.6 iv) Ash, percent 25 35 25 35 v) Sag test at 70°C — 1.5 mm — 1.5 mm vi)       Cracking at 20°C Not applicable None vii) Impact test Disbonded area, Max : Direct 70 cm2 50 cm2 Indirect 20 cm2 10 cm2 viii)     Peel-initial/delayed at 30°C, Max 3 mm 3 mm at 40°C, Max 3 mm 3 mm at 50°C, Max 3 mm 3 mm at 60°C, Max 3 mm 3 mm at 70°C, Max 3 mm 3 mm Note — Coal dispersion pitches have a tendency to form a hard thin skin while hot, and penetration values tend to show a wide variation, on the prior preparation of the sample, which is not easy to control, and dependent  on the point  chosen on the surface for the test. The behaviour and performance of these coal   dispersion pitches are functions of the property of the body of the material and not of any surface skin. To overcome this, fill the cup up to the brim and after cooling down, pour a little excess of material slowly and  carefully to form  a convex surface. The excess material is to be cut with a hot knife after cooling for 15 min  at room  temperature. Sl     Characterics                      Requirements No. i) Viscosity at 25oC 20 to 40 Second ii) Flash point 35°C (Min) iii) Volatile matter at 40 to 60 percent 145°C-150°C by weight iv)    Drying time Conditions of",
+      "clause_id": "IS 8887:2004#12",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 197,
+      "page_end": 198,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "APPENDIX C",
+      "title": "Clause APPENDIX C",
+      "text": "Appendix C shall apply Note — For methods of tests, refer to Appendices of the standard and the following: IS    82:1973  Methods of sampling and test for thinners and solvent for paints (first revision). IS 1202:1978  Methods of testing tar and bituminous materials, Determination of specific gravity (first revision). IS 1203:1978  Determination of penetration (first revision). IS 1205:1978  Determination of softening point (first revision). IS 1206 (Part 1):1978  Determination of Viscosity : Part 1 Industrial viscosity  (first revision). IS 1207:1978   Determination of equiviscous temperature (first revision). For detailed informatiom   refer to IS 9912 : 1981 Specifications for coal tar based coating materials and suitable primers  for protecting iron or steel pipe lines. TABLE 2  REQUIREMENTS OF TYPE  A  PRIMER TABLE  3 REQUIREMENTS  OF TYPE B PRIMER Sl   Characteristics                    Requirements No. i) Viscosity at 25°C 20 to 40 Second ii) Flash point 35°C (Min) iii) Volatile matter at 60 to 80 percent 100-110°C by weight iv) Drying time Conditions of",
+      "clause_id": "IS 8887:2004#APPENDIX C",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "annex",
+      "page_start": 198,
+      "page_end": 198,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "APPENDIX C",
+      "title": "Clause APPENDIX C",
+      "text": "Appendix C shall apply SECTION 8 FLOOR, WALL, ROOF COVERINGS AND FINISHES CONTENTS Title Page GENERAL IS 1237:1980 Cement concrete flooring tiles (first revision)",
+      "clause_id": "IS 8887:2004#APPENDIX C",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "annex",
+      "page_start": 198,
+      "page_end": 200,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "8.4",
+      "title": "IS",
+      "text": "8.4 IS 1542:1992 Sand for  plaster (second revision)",
+      "clause_id": "IS 8887:2004#8.4",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 200,
+      "page_end": 200,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "8.6",
+      "title": "IS",
+      "text": "8.6 IS 2116:1980 Sand for masonry mortars (first revision)",
+      "clause_id": "IS 8887:2004#8.6",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 200,
+      "page_end": 200,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "8.7",
+      "title": "IS",
+      "text": "8.7 IS 4457:1982 Ceramic unglazed vitreous acid resisting tile (first revision).",
+      "clause_id": "IS 8887:2004#8.7",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 200,
+      "page_end": 200,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "8.8",
+      "title": "IS",
+      "text": "8.8 IS     4832 Chemical resistant mortars : (Part 1) :1969 Silican type.",
+      "clause_id": "IS 8887:2004#8.8",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 200,
+      "page_end": 200,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "8.9",
+      "title": "(Part 2)",
+      "text": "8.9 (Part 2) :1969 Resin type.",
+      "clause_id": "IS 8887:2004#8.9",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 200,
+      "page_end": 200,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "8.10",
+      "title": "(Part 3)",
+      "text": "8.10 (Part 3) :1968 Sulphur type",
+      "clause_id": "IS 8887:2004#8.10",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 200,
+      "page_end": 200,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "8.11",
+      "title": "IS",
+      "text": "8.11 IS     4860:1968 Acid Resistant bricks",
+      "clause_id": "IS 8887:2004#8.11",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 200,
+      "page_end": 200,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "8.12",
+      "title": "IS",
+      "text": "8.12 IS   13753:1993 Dust pressed ceramic tiles with water absorption E>10 percent Group  (B III)",
+      "clause_id": "IS 8887:2004#8.12",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 200,
+      "page_end": 200,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8887:2004",
+      "clause": "8.13",
+      "title": "IS",
+      "text": "8.13 IS   13754:1993 Dust pressed ceramic tiles with water absorption of 6<E ≤ 10 percent Group (B IIb)8.15 IS   13755:1993 Dust pressed ceramic tiles with water absorption of 3<E <6 percent Group (BII a) 8.18 IS   13756:1993 Dust pressed ceramic tiles with Low water absorption of E  ≤3  percent Group (B I)8.21 IS  14862 :2000 Fibre cement flat sheets 8.24 IS   14871-2000 Products in fibre reinforced cement- Long corrugated or asymetrical section sheets and fittings for  roofing and cladding 8.27 BITUNINOUS IS     1195:2002 Bitumen mastic for flooring (third  revision) 8.30 IS      5317:2002 Bitumen mastic for bridge decking and roads (second revision) 8.32 IS 8374:1977 Bitumen mastic, anti-static and electrically conducting  grade 8.33 IS      9510:1980 Bitumen mastic acid-resisting grade 8.34 IS    12583:1988 Corrugated bitumen roofing sheets 8.36 IS    13026:1991 Bitumen mastic for flooring for industries handling LPG and other light hydrocarbon products 8.38 LINOLEUM IS        653:1992 Linoleum sheets and tiles (third revision) 8.39 PLASTIC PVC AND EPOXY RESIN IS     3461:1980 PVC  asbestos floor tiles (first revision) 8.41 Title Page IS     3462:1986                  Unbacked flexible PVC flooring (second revision) 8.42 IS      9197:1979 Epoxy resin, hardeners and epoxy resin composition for floor topping. 8.44 IS    12866:1989 Plastic translucent sheets made from thermosetting 8.46 polyester resin (Glassfibre reinforced) RUBBER IS        638:1979 Sheet rubber jointing and rubber insertion jointing (second revision) 8.48 IS        809:1992 Rubber flooring materials for general purposes (second revision) 8.50",
+      "clause_id": "IS 8887:2004#8.13",
+      "family": "IS 8887",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 200,
+      "page_end": 201,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8887:2004",
+    "record_id": 25225,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      196,
+      201
+    ],
+    "n_clauses": 21,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1148:1982",
+      "clause": "1",
+      "title": "Scope – Requirement for",
+      "text": "1. Scope -  Requirement for hot-rolled steel rivet bars in size  up to 40 mm diameter  used for the  manufacture of hot  forged rivets for structural purposes.",
+      "clause_id": "IS 1148:1982#1",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "2",
+      "title": "Chemical",
+      "text": "2. Chemical  Composition",
+      "clause_id": "IS 1148:1982#2",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "2.1",
+      "title": "Ladle Analysis – Ladle",
+      "text": "2.1 Ladle Analysis - Ladle analysis of the steel,shall be as given below: Constituent Per cent,Max Carbon 0.23 Sulphur 0.050 Phosphorus 0.050",
+      "clause_id": "IS 1148:1982#2.1",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "2.2",
+      "title": "Product Analysis – Permissible",
+      "text": "2.2 Product Analysis - Permissible variation in  the case of product analysis, from the  limits   specified under  2.1 shall be as fallows: Constituent Variation Over the Specified Limit Percent,Max. Carbon 0.02 Sulphur 0.005 phosphorus 0.005",
+      "clause_id": "IS 1148:1982#2.2",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "2.3",
+      "title": "When",
+      "text": "2.3 When  steel is required in copper bearing quality, copper content shall be between 0.20 to 0.35 percent. In case of product analysis, permissible variation shall not exceed  ±0.3 percent.",
+      "clause_id": "IS 1148:1982#2.3",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "2.4",
+      "title": "When",
+      "text": "2.4 When  steel  is  silicon - killed, silicon content  on the product analysis, shall not be less than 0.1 percent. When the steel is silicon- aliminium - killed or  aluminiumkilled, the requirement regarding minimum silicon content shall not apply.",
+      "clause_id": "IS 1148:1982#2.4",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "3",
+      "title": "Freedom",
+      "text": "3. Freedom  from  Defects - The finished material shall be free from  such surface and internal flaws as would be determined to the end use of the material.",
+      "clause_id": "IS 1148:1982#3",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "4",
+      "title": "Lengths – In multiples",
+      "text": "4. Lengths -  In multiples of 250 mm.",
+      "clause_id": "IS 1148:1982#4",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "5",
+      "title": "Dimensional",
+      "text": "5. Dimensional  Tolerances - The bar  shall comply with the  following  dimensional tolerances: : Diameter of Bar Total Tolerance mm mm Below    20 0.40 20 0.45 22 and 24 0.50 Over    24 2 percent of   diameter All the tolerances specified shall be minus tolerances. When special plus and  minus tolerances are required by the purchaser, the sum of such  tolerances shall not be  specified as less  than the  above total tolerances.",
+      "clause_id": "IS 1148:1982#5",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "6",
+      "title": "Tests",
+      "text": "6. Tests",
+      "clause_id": "IS 1148:1982#6",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "6.1",
+      "title": "Tensile Test",
+      "text": "6.1 Tensile Test Characteristic Requirement Tensile strength, MPa                410- 530 Min Yield stress, min, MPa a)      6mm upto and 260 including 12mm b)   Over 12 mm upto 250 and including 20 mm c)   Over 20 mm upto 240 and including 40mm Elongation percent, Min, guage length 5.65 Min      22",
+      "clause_id": "IS 1148:1982#6.1",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "requirements",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "6.1.1",
+      "title": "No tensile test",
+      "text": "6.1.1 No tensile test  shall be carried out on bars below 6mm",
+      "clause_id": "IS 1148:1982#6.1.1",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 3,
+      "parent_clause": "6.1",
+      "role": "other",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "6.2",
+      "title": "Dump Test",
+      "text": "6.2 Dump Test  - Minor surface fiaws which do not tend to open out wider than 0.4 mm +  0.04 times the diameter of the rivet bar shall not be the cause for rejection. Dump test shall not be applicable to bars  below 6 mm.",
+      "clause_id": "IS 1148:1982#6.2",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "6.3",
+      "title": "Bend",
+      "text": "6.3 Bend  Test -  In the  case of bars over 25mm in diameter the test piece when cold shall withstand, without fracture, being doubled  over, either  by  pressure or by slow and steady  blows from a hammer , till the internal diameter is not  greater than three times the diameter of the  test piece, and sides are parallel. For bars 25mm in diameter and under, the  internal  diameter  of the bend shall  be not greater than twice the diameter of the bar.",
+      "clause_id": "IS 1148:1982#6.3",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1148:1982",
+      "clause": "6.4",
+      "title": "Shear Test – The",
+      "text": "6.4 Shear Test - The ultimate shear strength of the bars as rolled shall be not less than 260 MPa. Note - For  test proceedures, refer  to IS  1599 : 1985  Method of bend  test (second revision),  and  IS 1608 : 1995 Mechanical testing of metals-Tensile testing (second revision). For detailed information, refer to IS 1148 : 1982 Hot rolled rivet bars upto 40mm diameter) for structural purposes (third revision). So",
+      "clause_id": "IS 1148:1982#6.4",
+      "family": "IS 1148",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 684,
+      "page_end": 684,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1148:1982",
+    "record_id": 2591,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      684,
+      684
+    ],
+    "n_clauses": 15,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.99,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

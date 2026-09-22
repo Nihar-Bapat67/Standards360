@@ -1,0 +1,274 @@
+{
+  "clauses": [
+    {
+      "is": "IS 6538:1971",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and tests for three-pin (two - pole and earthing-pin) plugs having the base and cover, or either of these components, constructed of rubber or other suitable resilient material and suitable for use in ac and dc circuits having voltage up to 250 V. Note -These are intended to be used  with socket outlet conforming to IS 1293:1988*",
+      "clause_id": "IS 6538:1971#1",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "2",
+      "title": "Standard Ratings – 5",
+      "text": "2. Standard Ratings - 5 and 15 A",
+      "clause_id": "IS 6538:1971#2",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 6538:1971#3",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "3.1",
+      "title": "Materials",
+      "text": "3.1 Materials a) Plug base and cover- of rubber (hardness < 85 IRHD) or tough non-ignitable insulating material. b) Pins, terminals, current-carrying parts- of phosphor-bronze, brass, aluminium alloy, etc. c) Non-current-carrying parts - of mild steel, aluminium alloy, or insulating material.",
+      "clause_id": "IS 6538:1971#3.1",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "3.2",
+      "title": "Construction",
+      "text": "3.2 Construction",
+      "clause_id": "IS 6538:1971#3.2",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "3.2.1",
+      "title": "During insertion of plug into socket",
+      "text": "3.2.1  During insertion of plug into socket-outlet, it shall not be possible to touch a live pin after contact has been established between pins and socket contacts. Earthing pin shall make and break contact respectively before and after the associated current-carrying pins make and break contact with corresponding contacts.",
+      "clause_id": "IS 6538:1971#3.2.1",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "3.2.2",
+      "title": "Dimensions of plugs (in",
+      "text": "3.2.2     Dimensions of plugs (in mm) - See Table 1.",
+      "clause_id": "IS 6538:1971#3.2.2",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "requirements",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "3.2.3",
+      "title": "Terminals and screws –The",
+      "text": "3.2.3 Terminals and screws -The design shall allow a conductor to be connected without special preparations, such as soldering, use of cable lugs and formation of eyelets. When pillar type terminals are used, their dimensions shall be as follows Current  rating 6A 16A Nom thread dia, Min 3.5 mm 4.0 mm Dia of hole for conductor, Min 3.5 mm 4.0 mm Length of thread in pillar, Min 2.5 mm 3.0 mm Difference between dia of 0.6 mm 0.6 mm hole and nominal dia of screw, Max Plugs and socket outlets of 250 volts and rated current up to 16 ampheres (second revision) TABLE 1   DIMENSIONS OF PLUGS Current Rating 6A              16A i) Distance between earthing-pin 22.2 28.6 and current-carrying pin (centre to centre) ii) Distance between current-carrying 19.1 25.4 pins (centre to centre) iii) Dia of earthing  pin 7.06 8.71 iv) Dia of current -carrying pin 5.08 7.06 v) Projection of current-carrying 15.9 20.6 pins from plug face vi) Projection of earthing-pin from 20.6 28.6 plug face Note - For detailed dimensions and tolerances refer to Table 1 of the standard.",
+      "clause_id": "IS 6538:1971#3.2.3",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "3.3",
+      "title": "Ageing",
+      "text": "3.3 Ageing—Plugs shall be resistant to ageing.",
+      "clause_id": "IS 6538:1971#3.3",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "3.4",
+      "title": "Clearances and Creepage Distances",
+      "text": "3.4 Clearances and Creepage Distances - Not less than 3.0 mm. Note - For constructional requirements of three-pin plugs with regard to aspects such as earthing, plug cover and base, pins, cord entry and cord grip, current-carrying parts, finger grip, plugs with integral flexible cord, and terminals and screws, refer to 5 of the standard.",
+      "clause_id": "IS 6538:1971#3.4",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "4",
+      "title": "Tests",
+      "text": "4. Tests",
+      "clause_id": "IS 6538:1971#4",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 912,
+      "page_end": 912,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "4.1",
+      "title": "Type Tests",
+      "text": "4.1 Type Tests a) Visual examination, b) Test for interchangeability, c) Test for effectiveness of contact d) Test for insulation resistance (dry), e) High voltage test, f) Test for moisture resistance, g) Temperature-rise test, h) Breaking capacity test, j) Test for mechanical strength, k) Test for mechanical strength, m) Ageing test, n) Plug pin deflection test, SUMMARY OF IS 6538 : 1971 THREE-PIN PLUGS MADE OF RESILIENTMATERIAL p) Test for water absorption q) Test for screws and connections (not applicable for moulded-on type plugs), r) Test for cord grip, s) Test for resistance to heat, and t) Test for resistance to rust. Note - For test details, refer to 9 of the standard and IS : 1293-1988 Three-pin plugs and socket-outlets (second revision) For detailed information, refer to  IS 6538: 1971 Specification for three-pin plugs made of resilient material.",
+      "clause_id": "IS 6538:1971#4.1",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "test_methods",
+      "page_start": 912,
+      "page_end": 913,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "4.2",
+      "title": "Acceptance Test – Tests",
+      "text": "4.2 Acceptance Test - Tests specified in (a) to (m) of 4.1",
+      "clause_id": "IS 6538:1971#4.2",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 913,
+      "page_end": 913,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 6538:1971",
+      "clause": "4.3",
+      "title": "Routine Tests–Tests specified in",
+      "text": "4.3 Routine Tests-Tests specified in (a), (b) and (e) of 4.1",
+      "clause_id": "IS 6538:1971#4.3",
+      "family": "IS 6538",
+      "year": 1971,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 913,
+      "page_end": 913,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 6538:1971",
+    "record_id": 20090,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      912,
+      913
+    ],
+    "n_clauses": 14,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

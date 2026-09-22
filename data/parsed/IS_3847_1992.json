@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3847:1992",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for mortice night latches for general use.",
+      "clause_id": "IS 3847:1992#1",
+      "family": "IS 3847",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 525,
+      "page_end": 525,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3847:1992",
+      "clause": "2",
+      "title": "General",
+      "text": "2. General — Nominal size shall be denoted by overall length of the body measured from the outside face of the fore end to the rear end. Termed 'Left hand' if fitted on 'Left hand door' and 'Right Hand' if fitted in 'Right Hand door'. Two lever latches and latches with more than two livers shall have non-interchangeable keys for a batch of minimum 12 and 60 latches respectively.",
+      "clause_id": "IS 3847:1992#2",
+      "family": "IS 3847",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 525,
+      "page_end": 525,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3847:1992",
+      "clause": "3",
+      "title": "Materials –",
+      "text": "3. Materials - For body, body covers, i) Mild Steel (shall satisfy the prescribed bend test) Note— For methods of tests refer to 10 of the standard. For detailed information, refer  to  IS 3847 : 1992 Specification for mortice night latches (first revision). SUMMARY OF IS 3847 : 1992 MORTICE NIGHT LATCHES (First Revision) Case plate, face plate ii) Aluminium alloy sheet and striking plate iii) Cast brass (copper content shall not be less than 60 percent iv) Brass sheet Note—For materials for the other components see 6 and Table 1 of the standard.",
+      "clause_id": "IS 3847:1992#3",
+      "family": "IS 3847",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 525,
+      "page_end": 525,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3847:1992",
+      "clause": "4",
+      "title": "Finish – Steel body",
+      "text": "4. Finish - Steel body shall be given suitable protective coating, such as painting. Face plate and striking, plate shall be finished smooth and  polished bright or satin.",
+      "clause_id": "IS 3847:1992#4",
+      "family": "IS 3847",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 525,
+      "page_end": 525,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3847:1992",
+      "clause": "5",
+      "title": "Test – Shall satisfy",
+      "text": "5. Test - Shall satisfy the prescribed tests.",
+      "clause_id": "IS 3847:1992#5",
+      "family": "IS 3847",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 525,
+      "page_end": 525,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3847:1992",
+    "record_id": 10448,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      525,
+      525
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

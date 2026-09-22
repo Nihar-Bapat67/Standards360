@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9142:1979",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements of artificial lightweight aggregates, such as foamed blast furnace slag, bloated clay aggregate, sintered fly ash aggregate and cinder aggregate intended for use in concrete masonry units in which prime consideration is lightness in mass.",
+      "clause_id": "IS 9142:1979#1",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 9142:1979#2",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2.1",
+      "title": "Grading",
+      "text": "2.1 Grading — The grading of the aggregate, that is, its particle size distribution as obtained by sieve analysis shall be as given in Table 1.",
+      "clause_id": "IS 9142:1979#2.1",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2.2",
+      "title": "Bulk Density",
+      "text": "2.2 Bulk Density — The dry loose bulk density of combined aggregate shall not exceed 1100 kg/m3.",
+      "clause_id": "IS 9142:1979#2.2",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2.3",
+      "title": "Uniformity of Mass",
+      "text": "2.3 Uniformity of Mass — The bulk density of successive supplies of lightweight aggregate shall not differ by more than 10 percent from that of the sample submitted for acceptance tests.",
+      "clause_id": "IS 9142:1979#2.3",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2.4",
+      "title": "Deleterious Substances",
+      "text": "2.4 Deleterious Substances",
+      "clause_id": "IS 9142:1979#2.4",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2.4.1",
+      "title": "Organic Impurities",
+      "text": "2.4.1 Organic Impurities — Lightweight aggregates, upon being subjected to the test for organic impurities, that produce a colour darker than the standard colour shall be rejected, unless it can be demonstrated that the discolouration is due to small quantities of materials not harmful to the concrete",
+      "clause_id": "IS 9142:1979#2.4.1",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 3,
+      "parent_clause": "2.4",
+      "role": "other",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2.4.2",
+      "title": "Clay Lumps",
+      "text": "2.4.2 Clay Lumps — Shall not exceed 2 percent by dry mass.",
+      "clause_id": "IS 9142:1979#2.4.2",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 3,
+      "parent_clause": "2.4",
+      "role": "other",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2.4.3",
+      "title": "Loss on Ignition",
+      "text": "2.4.3 Loss on Ignition — Loss on ignition of aggregates except cinder aggregates  shall not exceed 4 percent by dry mass. For cinder aggregates, loss on ignition shall be as specified in IS 2686:1977* .",
+      "clause_id": "IS 9142:1979#2.4.3",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 3,
+      "parent_clause": "2.4",
+      "role": "other",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2.5",
+      "title": "Concrete Making Properties",
+      "text": "2.5 Concrete Making Properties",
+      "clause_id": "IS 9142:1979#2.5",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2.5.1",
+      "title": "Drying Shrinkage",
+      "text": "2.5.1 Drying Shrinkage  — Shall not exceed 0.10 percent.",
+      "clause_id": "IS 9142:1979#2.5.1",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 3,
+      "parent_clause": "2.5",
+      "role": "other",
+      "page_start": 20,
+      "page_end": 20,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9142:1979",
+      "clause": "2.5.2",
+      "title": "Sulphate Content",
+      "text": "2.5.2 Sulphate Content —  Shall not be more than one percent when expressed as sulphuric anhydride (SO3) by mass. TABLE 1 GRADING REQUIREMENTS FOR LIGHTWEIGHT COMBINED AGGREGATES FOR CONCRETE MASONRY UNITS Sl No. Size Percentages (By Mass) Passing IS Sieves Designations 20 12.5 10 4.75 2.36 1.18 300 mm mm mm mm mm mm microns (1) (2) (3) (4) (5) (6) (7) (8) (9) i) Fine aggregate — — 100 85-100 — 40-80 10-35 (4.75 to 0 mm) ii) Coarse aggregate (12.5 to 4.75 mm) 100 90-100 40-80 0-20 0-10 — — (10 to 2.36 mm) — 100 80-100 5-40 0-20 — — iii) Combined fine and — 100 90-100 65-90 35-65 — 10-25 coarse aggregate (10 mm to 0) *Cinder as fine aggregates for use in lime concrete (first revision) Note — For   methods of tests refer to IS 2185 (Part 2):1983 Concrete masonry units Part 2 Hollow and solid light  weight concrete blocks (first revision), IS 2386:1963 Methods of tests for aggregates for concrete, (Part 1) Particle size and shape, (Part 2) Organic Estimation of deleterious materials and organic impurities, Part 3 Specific  gravity, density, voids, absorption and bulking, (IS 2686:1977 Cinder aggrerate  for  use in lime concrete, and IS 4032:1985 Method of chemical analysis of hydraulic cement (first revision). For detailed information, refer to IS 9142:1979  Specification for artificial lightweight aggregates for concrete masonry units.",
+      "clause_id": "IS 9142:1979#2.5.2",
+      "family": "IS 9142",
+      "year": 1979,
+      "level": 3,
+      "parent_clause": "2.5",
+      "role": "requirements",
+      "page_start": 20,
+      "page_end": 21,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9142:1979",
+    "record_id": 16410,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      20,
+      21
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

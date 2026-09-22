@@ -1,0 +1,137 @@
+{
+  "clauses": [
+    {
+      "is": "IS 14268:1995",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope -  Requirements for manufacture, supply and testing of un-coated,stress relieved 'low relaxation' seven -ply steel strand for prestressed concrete. SUMMARY OF IS  14268 : 1995  UNCOATED STRESS RELIEVED  LOW RELAXATION SEVEN- PLY STRAND FOR  PRESTRESSED CONCRETE . TABLE 1   PHYSICAL  PROPERTIES Class             Nominal Breaking 0.2% Proof Load Dia of Strand                Strength  of Strand (90% of Breaking Strength) mm kN kgs kN kgs (1) (2) (3) (4) (5) (6) 1 9.5 89.0 9078 80.1 8170 11.1 120.1 12250 108.1 11026 12.7 160.1 16330 144.1 14698 15.2 240.2 24500 216.2 22052 II 9.5 102.3 10434 92.1 9394 11.1 137.9 14065 124.1 12658 12.7 183.7 18737 165.3 16860 15.2 260.7 26592 234.6 23929 Note — The Modulus of  Elasticity is to be  taken as 195 ±10 kN/mm2",
+      "clause_id": "IS 14268:1995#1",
+      "family": "IS 14268",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 663,
+      "page_end": 663,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14268:1995",
+      "clause": "3",
+      "title": "Dimension, Tolerances and Mass",
+      "text": "3. Dimension, Tolerances and Mass - See Table 2. TABLE 2   DIMENSION, TOLERANCES AND MASS  OF WIRE STRANDS Class Nominal Tolerance Nominal Nominal Dia of Strand Area of Strand Mass of Strand (1) (2) (3) (4) (5) mm mm mm2 kg/km 1 9.5 ±0.40 51.6 405 11.1 ±0.40 69.7 548 12.7 ±0.40 92.9 730 15.2 ±0.40 139.4 1094 II 9.5 +0.66 54.8 432 -0.15 11.1 +0.66 74.2 582 -0.15 12.7 +0.66 98.7 775 -0.15 15.2 +0.66 140.0 1102 -0.15 2. Class -  Class I or class II  depending upon  breaking strength of  strand given in Table 1",
+      "clause_id": "IS 14268:1995#3",
+      "family": "IS 14268",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 663,
+      "page_end": 663,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14268:1995",
+      "clause": "4",
+      "title": "Mechanical Properties",
+      "text": "4. Mechanical Properties",
+      "clause_id": "IS 14268:1995#4",
+      "family": "IS 14268",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 664,
+      "page_end": 664,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14268:1995",
+      "clause": "4.1",
+      "title": "Breaking Strength and 0.2",
+      "text": "4.1 Breaking Strength and 0.2 Percent Proof Load-  It shall  be not less than the values specified in Table 1.",
+      "clause_id": "IS 14268:1995#4.1",
+      "family": "IS 14268",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 664,
+      "page_end": 664,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14268:1995",
+      "clause": "4.2",
+      "title": "Elongation – The total",
+      "text": "4.2 Elongation - The total elongation under load shall not be less than 3.5 percent on a minimum gauge length of 600 mm.",
+      "clause_id": "IS 14268:1995#4.2",
+      "family": "IS 14268",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 664,
+      "page_end": 664,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 14268:1995",
+      "clause": "4.3",
+      "title": "Relaxation Properties – Low",
+      "text": "4.3 Relaxation Properties - Low relaxation strand, when initially loaded to 70 percent of specified minimum breaking strength of the strand shall have relaxation losses of not more than 1.8 percent after 100 h and not more than 2.5 percent after 1000 h. Note —  For  test procedures, refer to 6.2, 6.3, and 6.4 of the standard and IS 1608 :1995 Mechanical testing  of metals- Tensile testing (second revision). For detailed information, refer to IS 14268 : 1995   Specification for uncoated stress relieved low relaxation seven-ply strand for  prestressed concrete. SECTION 15 STRUCTURAL STEELS CONTENTS Title Page GENERAL IS  1977 : 1996 Low tensile structural steels (third revision) 15.3 IS  2062 : 1999 Steel for general structural purposes (fifth revision) 15.4 IS  8500 : 1991 Structural steel - micro alloyed (medium and high  strength qualities) 15.6 (first revision) IS 11587 : 1986 Structural weather  resistance steels 15.7 PLATES, SHEETS AND STRIPS IS  277 :  2003 Galvanised steel sheet (plain and corrugated) (fifth revision) 15.9 IS  412  : 1975 Expanded metal sheets for general purposes (second revision) 15.11 IS  513  : 1994 Cold rolled low carbon steel sheets and strips (fourth revision) 15.13 IS  1079 : 1994 Hot-rolled carbon steel sheet and strip (fifth revision) 15.15 IS  3502 : 1994 Steel chequered  plates (second revision) 15.16 IS  7226 : 1974 Cold rolled, medium high carbon and low  alloy steel strip for  general engineering purposes 15.17 IS  12313 :  1988                 Hot dip terne coated carbon  steel   sheet 15.18 BARS  WIRES IS  1148 : 1982 Hot-rolled steel  rivet bars (up to 40 mm dia) for  structural  purposes (third revision) 15.20 IS  1149 :  1982 High tensile steel rivet bars for structural purposes  (third revision) 15.21 TUBES AND TUBULARS IS  1161 : 1998 Steel tubes for structural purposes (fourth revision) 15.22 IS  4923  : 1997 Hollow steel sections for structural use (second revision) 15.25 Note1 -  See also Section 17 Structural Shapes Note2 - IS 280 : 1978  Mild steel wire for general engineering purposes and IS 7887 : 1992. Mild steel wire rods for general engineering  purposes (first revision) have been covered in Section 14 Concrete reinforcement.",
+      "clause_id": "IS 14268:1995#4.3",
+      "family": "IS 14268",
+      "year": 1995,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 664,
+      "page_end": 666,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn",
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 14268:1995",
+    "record_id": 25241,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      663,
+      666
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn",
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

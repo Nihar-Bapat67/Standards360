@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "1",
+      "title": "Scope – Requirements  regarding types, sizes,",
+      "text": "1. Scope - Requirements  regarding types, sizes, material, construction, workmanship and finish, and tests of cellular and hollow core wooden flush door shutters with face panels of plywood or cross-band and face veneers.",
+      "clause_id": "IS 2191 (Part 1):1983#1",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types Core Type Abbreviation Cellular Decorative CD Non-decorative CN Hollow Decorative HD Non-decorative HN",
+      "clause_id": "IS 2191 (Part 1):1983#2",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "3",
+      "title": "Sizes",
+      "text": "3. Sizes Designation Width Height mm mm 8 DS 20 700 1905 (1945) 8 DS 21 700 2005 (2045) 9 DS 20 800 1905 (1945) 9 DS 21 800 2005 (2045) 10 DS 20 900 1905 (1945) 10 DS 21 900 2005 (2045) 12 DS 20 1100 1905 (1945) 12 DS 21 1100 2005 (2045) Note 1 - In case the modular height is taken from the finished floor level. the height of the doors hall be the one given in bracket. Note 2 - In arriving at the standard widths and heights, an allowance has been made of 60 mm for door frames, 40 mm for floor finish and 5 mm clearance all round for the shutter into the frame. Note 3 - D = Doors, S = Single shutter, and T = Double  shutter Note 4 - The designation indicates the size of door openings. The first number denoting width in modules of 100 mm and the last number, the height in modules.",
+      "clause_id": "IS 2191 (Part 1):1983#3",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "3.1",
+      "title": "Thickness – 25, 30",
+      "text": "3.1 Thickness - 25, 30 or 35 mm nominal.",
+      "clause_id": "IS 2191 (Part 1):1983#3.1",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "3.2",
+      "title": "Tolerances",
+      "text": "3.2 Tolerances Nominal width and height     +3 mm - 0 mm Nominal thickness 1.2 mm",
+      "clause_id": "IS 2191 (Part 1):1983#3.2",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "3.2.1",
+      "title": "Thickness shall be uniform",
+      "text": "3.2.1. Thickness shall be uniform throughtout with a permissible variation of not more than 0.8 mm when measured at any two points.",
+      "clause_id": "IS 2191 (Part 1):1983#3.2.1",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "4",
+      "title": "Materials",
+      "text": "4. Materials",
+      "clause_id": "IS 2191 (Part 1):1983#4",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "4.1",
+      "title": "Timber – Moisture content",
+      "text": "4.1 Timber -  Moisture content shall not be more than 12 percent. For species of timber see Appendix A of the standard.",
+      "clause_id": "IS 2191 (Part 1):1983#4.1",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "4.1.1",
+      "title": "Timber shall be",
+      "text": "4.1.1 Timber shall be  free from decay and insect attack. Knots and knot holes less than half the width of cross section of the members in which they occur may be permitted. Pitch pockets, pitch streaks and harmless pinholes shall be permissible except in the exposed edges of the core members where they shall be cut out and filled in with carefully fitted glued pieces of wood of similar species and character with their grain running in the same direction. Note— For details of materials see 5 of the standard.",
+      "clause_id": "IS 2191 (Part 1):1983#4.1.1",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "5",
+      "title": "Requirements",
+      "text": "5. Requirements",
+      "clause_id": "IS 2191 (Part 1):1983#5",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "5.1",
+      "title": "Plywood for Face Panels",
+      "text": "5.1 Plywood for Face Panels Minimum thickness for cellular core sutters - 3mm Minimum thickness for hollow core shutters  for 25 mm thickness - 4 mm. Minimum thickness for hollow core shutters of other thickness - 6 mm",
+      "clause_id": "IS 2191 (Part 1):1983#5.1",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "5.2",
+      "title": "Rebating – One third",
+      "text": "5.2  Rebating -  One third thickness for double leaved shutters.",
+      "clause_id": "IS 2191 (Part 1):1983#5.2",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "5.3",
+      "title": "Shutters – Shall be",
+      "text": "5.3  Shutters -  Shall be shop prepared for taking mortice locks or laches.",
+      "clause_id": "IS 2191 (Part 1):1983#5.3",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "6",
+      "title": "Workmanship and Finish",
+      "text": "6. Workmanship and Finish —  All the four edges of the door shutter shall be square. The shutter shall be free from twist or warp in its plane. ±",
+      "clause_id": "IS 2191 (Part 1):1983#6",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 617,
+      "page_end": 617,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "6.1",
+      "title": "Both faces of door",
+      "text": "6.1 Both faces of door shutter shall be sanded to a smooth even texture. If required by the purchaser, all surfaces of shutters which are required to be painted shall be covered evenly by brush painting with a priming coat or primer. In the case of shutters to be polished or varnished, a priming coat of suitable polish or varnish shall be given before delivery. However, only unpainted doors shall be subjected to the tests.",
+      "clause_id": "IS 2191 (Part 1):1983#6.1",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 618,
+      "page_end": 618,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "7",
+      "title": "Tests – Shall satisfy",
+      "text": "7. Tests - Shall satisfy the following tests:",
+      "clause_id": "IS 2191 (Part 1):1983#7",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 618,
+      "page_end": 618,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "7.1",
+      "title": "End",
+      "text": "7.1 End  Immersion Test",
+      "clause_id": "IS 2191 (Part 1):1983#7.1",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 618,
+      "page_end": 618,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "7.2",
+      "title": "Knife Test",
+      "text": "7.2 Knife Test",
+      "clause_id": "IS 2191 (Part 1):1983#7.2",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 618,
+      "page_end": 618,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2191 (Part 1):1983",
+      "clause": "7.3",
+      "title": "Adhesion Test",
+      "text": "7.3 Adhesion Test Note :  For methods of test, refer to 9 of the standard. For  detailed information, refer to IS 2191 (Part 1) : 1983   Specification for wooden  flush  door shutters (cellular and hollow core type) : Part 1  Plywood face panels (fourth revision).",
+      "clause_id": "IS 2191 (Part 1):1983#7.3",
+      "family": "IS 2191 (Part 1)",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 618,
+      "page_end": 618,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2191 (Part 1):1983",
+    "record_id": 8721,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      617,
+      618
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.99,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

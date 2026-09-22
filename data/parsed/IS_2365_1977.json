@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2365:1977",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope - Requirements of steel wire ropes for use with lifts, elevators and hoists having cars or platforms carrying passengers or goods and working in guides. Does not apply to ropes used for winding purposes in mines.  Following rope constructions and size ranges are covered: Nominal Approximate Range of Minimum Breaking Load Corresponsing Diameter Mass Range to Tensile Designation of  Wires of mm kg/100m 1230 1420 1570 kN kN kN 6 12.5 t o 13.7 13.6 t o 15 15.7 t o 17.3 17.4 to 19.1 7 17.0 t o 18.6 18.5 t o 20.4 21 t o 23 24 t o 26 8 22.1 t o 24.3 23 t o 27 26 t 31 29 t o 34 9 28.0 t o 30.8 29 t o 34 33 t o 39 37 t o 43 10 34.6 t o 38.0 35 t o 42 41 t o 48 45 t o 53 11 41.9 t o 46.0 43 t o 50 49 t o 58 55 t o 64 12 49.8 t o 54.7 51 t o 60 59 t o 69 65 t o 76 13 58.9 t o 64.3 60 t o 70 69 t o 81 76 t o 90 14 68.3 t o 74.5 69 t o 81 80 t o 94 88 t o 104 16 89.2 t o 97.3 90 t o 106 104 t o 123 115 t o 136 18 113 t o 123 114 t o 135 132 t o 155 146 t o 172 19 126 t o 137 127 t o 150 147 t o 173 161 t o 191 20 139 t o 152 141 t o 166 163 t o 192 180 t o 212 Note 1-The nominal diameter 19 mm is non-preferred. Note 2-For exact value of minimum breaking load and approximate mass corresponding to each rope construction.  refer to Tables 1 to 5 of the standard. For detailed information, refer to IS 2365 : 1977 Specifications for  steel wire suspension ropes for lifts, elevators and hoists (first revision) Construction Tensile Disignation Core Size Range 1230    1420    1570 Fibre    Steel               mm 6×19(12/6/1) × × × ×     -- 6 to 12 6×19(9/9/1) × × × ×     -- 6 to 20 6×19(12/6+6F/1) × × × ×     -- 6 to 20 8×19(9/9/1) × × × ×     -- 8 to 20 8×19(12/6+6 F/1) × × × ×     -- 8 to 20",
+      "clause_id": "IS 2365:1977#1",
+      "family": "IS 2365",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 813,
+      "page_end": 813,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2365:1977",
+      "clause": "2",
+      "title": "Rope Size, Tolerance and",
+      "text": "2. Rope Size, Tolerance and Minimum Breaking load",
+      "clause_id": "IS 2365:1977#2",
+      "family": "IS 2365",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 813,
+      "page_end": 813,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2365:1977",
+      "clause": "2.1",
+      "title": "The sizes of the",
+      "text": "2.1 The sizes of the rope, designated as 'nominal diameter' shall be 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 18, 19 and 20 mm. Size range of breaking load and mass for different rope construction is given  below: 3.1 The main core of rope shall be of  fibre only. 3.2 If jointing by tucking is required, it shall be in case of wires 0.5 mm diameter and smaller. 3.3 The mass of ropes given in 2.1 are for fully greased ropes.",
+      "clause_id": "IS 2365:1977#2.1",
+      "family": "IS 2365",
+      "year": 1977,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 813,
+      "page_end": 813,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2365:1977",
+      "clause": "2.2",
+      "title": "The actual diameter of",
+      "text": "2.2 The actual diameter of rope shall be within +4 and- 1 percent of the nominal diameter.",
+      "clause_id": "IS 2365:1977#2.2",
+      "family": "IS 2365",
+      "year": 1977,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 813,
+      "page_end": 813,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2365:1977",
+      "clause": "3",
+      "title": "General Requirements – The",
+      "text": "3. General Requirements - The wire ropes shall conform to IS  6594 : 1977* and also meet the following requirements of 3.1 to 3.3. * Technical supply conditions for wire ropes and strands (first revision).",
+      "clause_id": "IS 2365:1977#3",
+      "family": "IS 2365",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 813,
+      "page_end": 813,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2365:1977",
+    "record_id": 25478,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      813,
+      813
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

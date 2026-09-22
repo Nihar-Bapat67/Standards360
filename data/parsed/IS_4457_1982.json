@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4457:1982",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for ceramic unglazed vitreous acid resisting titles.",
+      "clause_id": "IS 4457:1982#1",
+      "family": "IS 4457",
+      "year": 1982,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 206,
+      "page_end": 206,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4457:1982",
+      "clause": "2",
+      "title": "Dimensions and Tolerances",
+      "text": "2. Dimensions and Tolerances",
+      "clause_id": "IS 4457:1982#2",
+      "family": "IS 4457",
+      "year": 1982,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 206,
+      "page_end": 206,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4457:1982",
+      "clause": "2.1",
+      "title": "Sizes",
+      "text": "2.1 Sizes — (i) 100 × 100 mm or 98.5 × 98.5 mm (ii) 150 × 150 mm or 148.5 × 148.5 mm and (iii)   200 × 200 mm or 198.5 mm × 198.5 mm",
+      "clause_id": "IS 4457:1982#2.1",
+      "family": "IS 4457",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 206,
+      "page_end": 206,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4457:1982",
+      "clause": "2.2",
+      "title": "Thickness",
+      "text": "2.2 Thickness — Shall be 25, 20, 12 and 10 mm.",
+      "clause_id": "IS 4457:1982#2.2",
+      "family": "IS 4457",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 206,
+      "page_end": 206,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4457:1982",
+      "clause": "2.3",
+      "title": "The depth of the grooves",
+      "text": "2.3 The depth of the grooves  on the under  side of the tiles shall not exceed 3 mm. Note — The thickness of the tiles shall be measured after filling the grooves with cement mortar and  drying.",
+      "clause_id": "IS 4457:1982#2.3",
+      "family": "IS 4457",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 206,
+      "page_end": 206,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4457:1982",
+      "clause": "2.4",
+      "title": "Half",
+      "text": "2.4 Half  tiles for use as full tiles, if  manufactured, shall have dimensions which shall be such as to make the half tiles, when jointed together, match with the dimension of a full tile.",
+      "clause_id": "IS 4457:1982#2.4",
+      "family": "IS 4457",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 206,
+      "page_end": 206,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4457:1982",
+      "clause": "2.5",
+      "title": "Tolerances",
+      "text": "2.5 Tolerances — Tolerances on length, width and thickness of the tiles shall be ± 2.5 percent.",
+      "clause_id": "IS 4457:1982#2.5",
+      "family": "IS 4457",
+      "year": 1982,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 206,
+      "page_end": 206,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4457:1982",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements TABLE 1 REQUIREMENT OF CERAMIC UN- GLAZED VITREOUS ACID  RESISTING TILES Sl. No.       Characteristic                      Requirement (1) (2) (3) i) Squareness The gap between the inner edge of the square and the adjacent side of the tile shall not exceed 1 mm per100 mm run ii) Warpage for  size(i) ± 1.5 mm for  size(ii) ± 2.0 mm for  size(iii) ± 2.5 mm iii) Water absorption 2 percent, Max iv) Compressive strength 70 N/mm 2 (700 kgf/ cm2),  Min v) Flexural strength 20 N/mm2(200kgf/ cm2), Min vi) Resistance to acid Loss in mass shall not exceed 1.5  percent vii) Abrasion resistance i)  Average wear 2 mm, Max ii) Wear on individual specimen 2.5mm, Max.",
+      "clause_id": "IS 4457:1982#3",
+      "family": "IS 4457",
+      "year": 1982,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 206,
+      "page_end": 206,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4457:1982",
+    "record_id": 11123,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      206,
+      206
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.858,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4762:1984",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for worm drive hose clamps for general purposes.",
+      "clause_id": "IS 4762:1984#1",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "2",
+      "title": "Size – 12, 16,",
+      "text": "2. Size - 12, 16, 20, 22, 25,28, 30, 35, 38, 40, 45, 55, 60, 65, 70, 75, 80, 90, 100, 110, 115, 120, 130, 140, 145, 150 and 160. Note —For detailed dimensions refer to Table 1 of the standard.",
+      "clause_id": "IS 4762:1984#2",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "3",
+      "title": "Materials – Shall be",
+      "text": "3.   Materials - Shall be selected at the manufacturer's discretion provided that the finished clamps meet the test requirements.",
+      "clause_id": "IS 4762:1984#3",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "4",
+      "title": "Manufacture",
+      "text": "4. Manufacture",
+      "clause_id": "IS 4762:1984#4",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "4.1",
+      "title": "Screw – Shall be",
+      "text": "4.1 Screw - Shall be held captive in the clamp housing",
+      "clause_id": "IS 4762:1984#4.1",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "4.2",
+      "title": "Band – Shall have",
+      "text": "4.2 Band - Shall have a thread form commencing at the free end and extending for a length sufficent  to enable the clamp to be tightened on to the smallest diameter of component  within the working range for which it is designed.",
+      "clause_id": "IS 4762:1984#4.2",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "4.3",
+      "title": "Housing – Shall be",
+      "text": "4.3 Housing - Shall be readily removable from the band.",
+      "clause_id": "IS 4762:1984#4.3",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "5",
+      "title": "Designation – Shall be",
+      "text": "5. Designation - Shall be designated by nomenclature, size and number  of this standard.",
+      "clause_id": "IS 4762:1984#5",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "5.1",
+      "title": "A hose clamp of size 25 mm",
+      "text": "5.1 A hose clamp of size 25 mm  shall be designated as - Hose clamp 25 - IS 4762.",
+      "clause_id": "IS 4762:1984#5.1",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "6",
+      "title": "General Requirements",
+      "text": "6. General Requirements",
+      "clause_id": "IS 4762:1984#6",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "6.1",
+      "title": "When the loop is",
+      "text": "6.1 When the loop is formed, the screw shall be held firmly in engagement with the band during tightening and the clamp shall be capable of being decreased in diameter by turning the screw in clockwise direction and increased in diameter by turning the screw in anticlockwise direction.",
+      "clause_id": "IS 4762:1984#6.1",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "6.2",
+      "title": "After expanding until the band is",
+      "text": "6.2 After expanding until the band is  disconnected from the screw, it shall be to open clamps of size 35 and above  to  provide a gap equal to the largest diameter of the hose for which the clamp is designed and to permit easy fitting and removal of the clamp by passing the clamp over the hose in position without disturbing any connections.",
+      "clause_id": "IS 4762:1984#6.2",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "6.3",
+      "title": "The clamp shall be",
+      "text": "6.3 The clamp shall be so designed that when tightened on the hose, it shall remain positively secured in position without the need for any additional locking device and in firm engagement with the hose on which it is fitted.",
+      "clause_id": "IS 4762:1984#6.3",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "7",
+      "title": "Finish – Shall be",
+      "text": "7. Finish - Shall be smooth and free from burrs and sharp edges. Clamps other than those manufactured from corrosion-resistant materials shall be protected against corrosion by electroplating as specified.",
+      "clause_id": "IS 4762:1984#7",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "8",
+      "title": "Tests",
+      "text": "8. Tests",
+      "clause_id": "IS 4762:1984#8",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "8.1",
+      "title": "Free",
+      "text": "8.1 Free  Turning Toque Test - Shall be conducted to ensure smooth action of the lubricated clamp in its freeturning state.",
+      "clause_id": "IS 4762:1984#8.1",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "8.2",
+      "title": "Torque Test",
+      "text": "8.2 Torque Test — Shall reveal no sign of permanent distortion of the housing nor damage determental to the efficient functioning of the clamp when tightened to 75 percent of torque load specified. Also, the torque load at premanent distortion or failure shall be in excess of the appropriate value specified.",
+      "clause_id": "IS 4762:1984#8.2",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "8.3",
+      "title": "Fatique Torque Loading Test",
+      "text": "8.3 Fatique Torque Loading Test - These shall be no distortion or permanent deformation of the clamp as a whole when tested as prescribed.",
+      "clause_id": "IS 4762:1984#8.3",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4762:1984",
+      "clause": "8.4",
+      "title": "Hydraulic Pressure Test –",
+      "text": "8.4 Hydraulic Pressure Test - At leakage or other failure, the pressure shall not be less than the appropriate value specified. For detailed  information, refer to IS 4762 : 1984  Specification for worm drive clamps for general purposes (first revision). Note— For methods of tests, refer to Table 1 of  the standard.",
+      "clause_id": "IS 4762:1984#8.4",
+      "family": "IS 4762",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "8",
+      "role": "other",
+      "page_start": 788,
+      "page_end": 788,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4762:1984",
+    "record_id": 11498,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      788,
+      788
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.989,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,688 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1879:1987",
+      "clause": "1",
+      "title": "Topic",
+      "text": "1. Topic",
+      "clause_id": "IS 1879:1987#1",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "1.1",
+      "title": "Requirements for following types of malleablecast",
+      "text": "1.1 Requirements for following types of malleablecast iron pipe fittings threaded in accordance with IS 554:1985 for general purposes for the transmission of fluid and gas upto the limit of pressure and temperature specified in 1.3 : a) Elbows including twin elbows, union elbows and side outlet elbows, b) Tees including pitcher tees and side outlet  tees, c) Crosses, d) Bends including long sweep bends and return bends, e) Sockets, f) Bushing and hexagon nipples, g) Backnuts, h) Caps and plugs, and j) Unions",
+      "clause_id": "IS 1879:1987#1.1",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "1.2",
+      "title": "Dimensions which are not",
+      "text": "1.2 Dimensions which are not included in the standard are left to the discretion of the manufacturer depending on the end use of the fittings.",
+      "clause_id": "IS 1879:1987#1.2",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "1.3",
+      "title": "These fittings shall be",
+      "text": "1.3 These fittings shall be suitable for working pressure of up to 1.4 MPa in the case of water and up to 0.7 MPa in the case of steam, air, gas and oil at a temperature not exceeding 100°C. Note—Relationship between nominal size (in inch) of  the thread at the outlet of the fitting and the corresponding nominal diameter DN in mm is given in Appendix A of the standard.",
+      "clause_id": "IS 1879:1987#1.3",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "2",
+      "title": "Designation",
+      "text": "2. Designation",
+      "clause_id": "IS 1879:1987#2",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "2.1",
+      "title": "Malleable cast iron fittings",
+      "text": "2.1 Malleable cast iron fittings shall be designated giving the following particulars in the sequence shown: a) Type of fitting b) Size designation c) Right and left-hand thread where applicable, d) Code number",
+      "clause_id": "IS 1879:1987#2.1",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "3",
+      "title": "Material",
+      "text": "3. Material",
+      "clause_id": "IS 1879:1987#3",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "3.1",
+      "title": "Shall conform to",
+      "text": "3.1 Shall conform to— IS 14329:1995+",
+      "clause_id": "IS 1879:1987#3.1",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "4",
+      "title": "Galvanising",
+      "text": "4. Galvanising",
+      "clause_id": "IS 1879:1987#4",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "4.1",
+      "title": "Shall be galvanised to meet",
+      "text": "4.1 Shall be galvanised to meet  the standard.",
+      "clause_id": "IS 1879:1987#4.1",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "5",
+      "title": "Threads",
+      "text": "5. Threads",
+      "clause_id": "IS 1879:1987#5",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "5.1",
+      "title": "Outlets of fittings shall",
+      "text": "5.1 Outlets of fittings shall be threaded to dimensions and tolerances as per the prescribed standard.",
+      "clause_id": "IS 1879:1987#5.1",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6",
+      "title": "Dimensions",
+      "text": "6. Dimensions",
+      "clause_id": "IS 1879:1987#6",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.1",
+      "title": "Wall Thickness ad Reinforcement",
+      "text": "6.1 Wall Thickness ad Reinforcement Shall be as Follows: Size             Wall-Thickness              Reinforcement Designation Basic size Tolerance * Projection width (1) (2) (3) (4) (5) m m m m m m m m m m 1/8 2.0 -0.5 1.0 3.0 1/4 2.5 -0.5 1.3 3.6 3/8 2.5 -0.5 1.3 4.0 1/2 2.5 -0.5 1.5 4.6 3/4 3.0 -0.7 1.5 4.6 1 3.0 -0.7 1.8 5.1 1¼ 3.5 -0.7 1.8 5.1 1½ 3.5 -0.7 2.0 5.6 2 4.0 -0.7 2.3 6.1 2½ 4.5 -1.0 2.5 6.1 3 5.0 -1.0 2.8 6.1 4 6.0 -1.0 3.3 7.1 5 6.5 -1.0 4.0 8.1 6 7.5 -1.0 4.6 8.9 * No limit for plus tolerance.",
+      "clause_id": "IS 1879:1987#6.1",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 306,
+      "page_end": 306,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.2",
+      "title": "Tolerances on Dimensions",
+      "text": "6.2 Tolerances on Dimensions— Where maximum and minimum dimensions are not specified shall be as follows: SUMMARY OF IS 1879 : 1987 MALLEABLE CAST IRON PIPE FITTINGS (Second Revision) + Malleable Iron Castings Designations              Upto and Tolerances Above Including (1) (2) (3) mm mm mm — 30 +1.5 30 50 + 2.0 50 75 ± 2.5 75 100 + 3.0 100 150 + 3.5 150 200 + 4.0 200 — + 5.0",
+      "clause_id": "IS 1879:1987#6.2",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 306,
+      "page_end": 307,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.3",
+      "title": "Size Designation of Elbows,",
+      "text": "6.3 Size Designation of Elbows, Reducing A1, and Male and Female Elbows, Reducing A4. a)Elbows, reducing A1—  3/8 × 1/4, 1/2 × 3/8,     3/ 4 × 3/8, 3/4 × 1/2, 1 × 1/2, 1 × 3/4, 1¼ ×  ½,        1¼ × 3/4, 1¼×1,1½ × ½, 1½ × 3/4, 1½ × 1,                 1½ × 1¼, 2 × ½, 2 × 3/4, 2 × 1, 2 × 1¼, 2 × 1½ and 2½ × 2. b) Male and female elbows, reducing A4 — ½ × 3/8, 3/4 × ½, 1 × 3/4 and 1¼ x 1.",
+      "clause_id": "IS 1879:1987#6.3",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 307,
+      "page_end": 307,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.4",
+      "title": "Size Designation of 45°",
+      "text": "6.4 Size Designation of 45° Elbows A1/45° and 45° Male and Female Elbows A4/45° 3/8, 1/2, 3/4, 1, 1¼, 1½ and 2.",
+      "clause_id": "IS 1879:1987#6.4",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 307,
+      "page_end": 307,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.5",
+      "title": "Size Designation of Twin Elbows E2",
+      "text": "6.5 Size Designation of Twin Elbows E2 3/8, 1/2, 3/4, 1, 1¼, 1½ and 2.",
+      "clause_id": "IS 1879:1987#6.5",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 307,
+      "page_end": 307,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.6",
+      "title": "Size Designation of Elbows, Reducing E2",
+      "text": "6.6 Size Designation of Elbows, Reducing E2 3/4 × ½ × ½, 1 × ½ × ½, 1 × 3/4 × 3/4, 1¼ × 3/4 × 3/4, 1¼ × 1 × 1, 1½ × 1 × 1, 1½ × 1¼ × 1¼, 2 × 1¼ × 1¼ and 2 × 1½ × 1½.",
+      "clause_id": "IS 1879:1987#6.6",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 307,
+      "page_end": 307,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.7",
+      "title": "Size Designation of Union",
+      "text": "6.7 Size Designation of Union Elbows, Flat Seat UA1; Male and Female Union Elbows, Flat Seat UA2; Union Elbows, Taper Seat UA11; and Male and Female Union Elbows, Taper Seat UA12— Size Designation UA1 UA2 UA11 UA12 — — ¼ ¼ * * * * ½ ½ ½ ½ ¾ ¾ ¾ ¾ 1 1 1 1 1¼ 1¼ 1¼ 1¼ 1½ 1½ 1½ 1½ 2 2 2 2",
+      "clause_id": "IS 1879:1987#6.7",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 307,
+      "page_end": 307,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.8",
+      "title": "Size Designation of Tees",
+      "text": "6.8 Size Designation of Tees B1 and Side Outlet Tees, Za2— Tees B1— 1/8, 1/4, 3/8, 1/2, 3/4, 1, 1¼, 1½, 2, 2½, 3, 3½, 4, 5 and 6. Side Outlet Tees, Za2 — 3/8, 1/2, 3/4, 1, 1¼, 1½",
+      "clause_id": "IS 1879:1987#6.8",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 307,
+      "page_end": 307,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.9",
+      "title": "Size Designation of Tees",
+      "text": "6.9 Size Designation of Tees - Reducing or Increasing on the Branch B1- 3/8×1/4×3/8 1×3/8×1 1½×2×1½ 3/8×1/2×3/8 1×1/2×1 2×½×2 1/2×1/4×1/2 1×3/4×1 2×¾×2 1/2×3/8×1/2 1×1¼×1 2×1×2 1/2×3/4×1/2 1×1½×1 2×1¼×2 1/2×1×1/2 1¼×3/8×1¼ 2×1½×2 3/4×1/4×3/4 1¼×½×1¼ 2½×1×2½ 3/4×3/8×3/4 1¼×3/4×1¼ 2½×1¼×2½ 3/4×1/2×3/4 1¼×1×1¼ 2½×1½×2½ 3/4×1×3/4 1¼×1½×1¼ 2½×2×2½ 3/4×1¼×3/4 1¼×2×1¼ 3×3/4×3 1×1¼×1 1½×½×1½ 3×1×3 1½×3/4×1½ 3×1¼×3 1½×1×1½ 3×1½×3 1½×1¼×1½ 3×2×3 3×2½×3 4×2×4 4×3×4",
+      "clause_id": "IS 1879:1987#6.9",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 307,
+      "page_end": 307,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.10",
+      "title": "Size Designation of Tees",
+      "text": "6.10 Size Designation of Tees — Reducing on the Run, Reducing Equal to or Increasing on the Branch B1 — 1/2×3/8×3/8 1×3/8×3/4 1¼×½×1 1½×½×1¼ 2×1½x1½ 1/2×1/2×1/2              1¼×¾×¾ 1¼×1×1¼ 1½×¾×1¾ 2×2×¾ 1×1/2×3/4 1¼×¾×1 1½×1¼×¾ 2×2×1 3/4×3/8×3/8 1×3/4×3/8 1¼×1×½ 1½×1¼×1 2×2×1¼ 3/4×3/8×1/2 1×3/4×1/2 1¼×1×¾ 1½×1¼×1¼ 2×2×1½ 3/4×1/2×3/8 1×3/4×3/4 1¼×1×1 1½×1½×½ 3/4×1/2×1/2 1×1×3/8 1¼×1¼×½ 1½×1½×¾ 3/4×3/4×3/8 1×1×1/2 1¼×1¼×¾ 1½×1½×1 3/4×3/4×1/2 1×1×3/4 1¼×1¼×1 1½×1½×1¼ 3/4×1×1/2 1×1¼×3/4 1¼×1½×1 1½×¾×1¼ 2×¾×1½ 2×1×1½ 2×1¼×1¼ 2×1¼×1½ 2×1½×1¼",
+      "clause_id": "IS 1879:1987#6.10",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 307,
+      "page_end": 307,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.11",
+      "title": "Size Designation of Pitcher Teees E1",
+      "text": "6.11 Size Designation of Pitcher Teees E1 3/8, 1/2, 3/4, 1, 1¼, 1½ and 2.",
+      "clause_id": "IS 1879:1987#6.11",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 308,
+      "page_end": 308,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.12",
+      "title": "Size Designation of Pitcher Tees",
+      "text": "6.12 Size Designation of Pitcher Tees Reducing on the Branch, Reducing the Run, and Reducing on Branch and Run E1. ¾×½×½ 1¼×½×1¼ 1½×¾×1½ 2×1×2 2×1¼×2 ¾×½×¾ 1¼×¾×1 1½×1×1¼ 2×1¼×1½ 2×1½×1¼ ¾×¾×½ 1¼×¾ ×1¼ 1½×1×1½ 2×1½×1½ 1×½×¾ 1¼×1×¾ 1½×1¼×1 2×1½×2 1×½×1 1¼×1×1 1½×1¼×1¼ 1×¾×½ 1¼×1×1¼ 1½×1¼×1½ 1×¾×¾ 1¼×1¼×1 1×¾×1 1×1×¾",
+      "clause_id": "IS 1879:1987#6.12",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 308,
+      "page_end": 308,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.13",
+      "title": "Size Designation of Crosses C1",
+      "text": "6.13 Size Designation of Crosses C1 1/4, 3/8, 1/2, 3/4, 1, 1¼, 1½, 2, 2½, 3 and 4.",
+      "clause_id": "IS 1879:1987#6.13",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 308,
+      "page_end": 308,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.14",
+      "title": "Size Designation of Crosses",
+      "text": "6.14 Size Designation of Crosses — Reducing C1. 3/8× ½× ×3/8 1¼×½×1¼×½ 1/4×3/8×¾×3/8 1¼×¾×1¼×¾ 3/8×1×3/8 1¼×1×1¼×1 1×½×1×½ 1½×¾×1½×¾ 1×½×1×½ 1½×1×1½×1 1×¾×1×¾ 1½×1¼×1½×1¼ 2×1×2×1 2×1¼×2×1¼ 2×1½×2×1½",
+      "clause_id": "IS 1879:1987#6.14",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 308,
+      "page_end": 308,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.15",
+      "title": "Size Designation of Bends",
+      "text": "6.15 Size Designation of Bends D1 and Male and Female Bends D4 ¼, 3/8, ½, ¾, 1¼, 1½ and 2.",
+      "clause_id": "IS 1879:1987#6.15",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 308,
+      "page_end": 308,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.16",
+      "title": "Size Designation of Long",
+      "text": "6.16 Size Designation of Long Sweep Bends G1, Male and Female Long Sweep Bends G4, and Male Long Sweep Bends G8. a) Long sweep bends G1, and male and female long sweep bends G4 1/8, 1/4,   3/8, 1/2, 3/4, 1, 1¼, 1½, 2, 2½, 3, 3½ and 4. b) Male long sweep bend G8: 3/8, 1/2, 3/4, 1, 1¼, 1½ and 2.",
+      "clause_id": "IS 1879:1987#6.16",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 308,
+      "page_end": 308,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.17",
+      "title": "Size Designation of 45°",
+      "text": "6.17 Size Designation of 45° Long Sweeep Bends G1/ 45° and Male and Female Long Sweep Bends G4/45°: ¼, 3/8, ½, ¾, 1, 1¼, 1½, 2, 2½ and 3.",
+      "clause_id": "IS 1879:1987#6.17",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 308,
+      "page_end": 308,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.18",
+      "title": "Size designation of Return Bends Kb1",
+      "text": "6.18 Size designation of Return Bends Kb1 : ½, ¾, 1, 1¼, 1½ and 2.",
+      "clause_id": "IS 1879:1987#6.18",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 308,
+      "page_end": 308,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.19",
+      "title": "Size Designation of Sockets",
+      "text": "6.19 Size Designation of Sockets M2; Sockets, Right and Left Hand Thread M2R-L; Sockets, Reducing M2; and Eccentric Sockets, Reducing M3: a)   Sockets M2 — 1/8, 1/4, 3/8, 1/2, 3/4, 1, 1¼, 1½, 2, 2½, 3, 3½, 4,5 and 6. b) Sockets, right and left hand thread M2R-L: 1/4, 3/8, 1/2, 3/4, 1, 1¼, 1½, 2, 2½ and 3. c)    Sockets, reducing M2 : 1/4 × 1/8,  3/8 ×  1/8, 3/8 × 1/4, 1/2 ×  1/4, 1/2 × 3/8, 3/4 × 1/4, 3/4 × 3/8, 3/4 × 1/2, 1 × 3/8, 1 × 1/2, 1 × 3/4, 1¼ × 3/8, 1¼  × 1/2, 1¼ × 3/4, 1¼ × 1, 1½ × ½, 1½ × ¾, 1½ × 1, 1½ × 1¼, 2 ×  ½, 2 × ¾, 2 × 1, 2 × 1¼, 2 × 1½, 2½ × ½, 2½ × ¾, 2½ × 1, 2½ ×1¼, 2½ × 1½, 2½   × 2, 3 × ½, 3 × ¾, 3  × 1, 3 × 1¼, 3 × 1½, 3  × 2, 3 × 2½, 4 × 2, 4 × 2½ and 4 × 3. d)   Eccentric sockets, reducing M3 ¾ × ½,1 ×1½, 1 × ¾, 1¼ × ½, 1¼ × ¾, 1¼ × 1, 1½ × ½, 1½ × ¾, 1½ × 1 , 1½ × 1¼, 2 × ¾, 2 × 1, 2 × 1¼ and 2 × 1½.",
+      "clause_id": "IS 1879:1987#6.19",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 308,
+      "page_end": 308,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.20",
+      "title": "Size Designation of Male",
+      "text": "6.20 Size Designation of Male and Female Sockets M4, and Male and Female Sockets, Reducing  M4 a) Equal Socket size designation M4 3/8, ½, ¾, 1 and 1¼. b) Reducing socket size designation  M4 3/8 × ¼, ½ × ¼, ½ × 3/8  ×¾×  3/8, ¾ × ½, 1 × ½, 1 × ¾, 1¼ × ¾, 1¼    × 1, 1½ × 1, 1½ × 1¼, 2 × 1¼ and 2 × 1½. 6. 21 Size Designation of Bushings N4 1/4 ×  1/8, 3/8 × 1/8, 3/ 8 × 1/4, 1/2 × 1/8,  1/2  × 1/4, 1/2 × 3/8, 3/4 × 1/4, 3/4 × 3/8, 3/4 × 1/2,  1 × 1/4, 1 × 3/8, 1× 1/2, 1 × 3/4, 1¼ × 3/8, 1¼ × ½, 1¼ × ¾, 1¼ × 1, 1½ × 3/8,1½ × ½, 1½ × ¾, 1½ × 1, 1½ × 1¼, 2 × ½, 2 × ¾, 2 × 1, 2 × 1¼, 2 × 1½, 2½  × 1, 2½ × 1¼, 2½ × 1½, 2½ × 2, 3 × 1, 3 × 1¼, 3× 1½, 3 ×  2, 3 × 2½,  3½ × 3, 4 × 2½, 4 × 3and 4 × 3½.",
+      "clause_id": "IS 1879:1987#6.20",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 308,
+      "page_end": 309,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "6.22",
+      "title": "Size Designation of Hexagon Nipples N8;",
+      "text": "6.22 Size Designation of Hexagon Nipples N8; Hexagon Nipples, Right - and Left- Hand Thread N8, R-L ; and Hexagon Nipples, Reducing N8: a) Equal nipple size designation N8 : 1/8, 1/4, 3/8, 1/2, 3/4, 1, 1¼, 1½, 2, 2½, 3, 3½ and 4. b) Equal nipple size designation N8 R-L : 3/8, 1/2, 3/4, 1, 1/¼, 1½ and 2. c) Reducing nipple size reducing N8 : 3/8 × 1/4 1¼ × ½ 2 × ½ 1¼ × ¾ 2 × ¾ ½ × ¼ 1¼ × 1 2 × 1 ½ × 3/8 2 × 1¼ 1½ × ½ 2 × ½ ¾ × 3/8 1½ × ¾ ¾ × ½ 1½ × 1 2½ × 1½ 1½ × 1 2½ × 2 1 × ½ 1 × ¾ 3 x 2 3 x 2½ 6. 23 Size Designation of Back Nuts P4 1/4,   3/8, 1/2, 3/4, 1, 1¼, 1½, 2, 2½ and 3. 6. 24 Size Designation of Hexagon Caps T1, Round Caps T2, Plain Plugs T8, Beaded Plugs T9 and Countersunk Plugs T11. Size Designation T 1 T 2 T 8 T 9 T11 — 1/8 1/8 1/8 — 1/4 1/4 1/4 1/4 — 3/8 3/8 3/8 3/8 3/8 1/2 1/2 1/2 1/2 1/2 3/4 3/4 3/4 3/4 3/4 1 1 1 1 1 1¼ 1¼ 1¼ 1¼ — 1½ 1½ 1½ 1½ — 2 2 2 2 — 2½ — 2½ 2½ — 3 — 3 3 — — — — 3½ — 4 — 4 4 — 6. 25 Size Designation of Unions, Flat Seat U1; Male and Female Unions, Flat Seat U2; Unions, Taper Seat U11; and Male and Female Unions, Raper SEat U12 Size Designation U1 U2 U11 U12 1/8 — 1/8 — 1/4 1/4 1/4 1/4 3/8 3/8 3/8 3/8 1/2 1/2 1/2 1/2 3/4 3/4 3/4 3/4 1 1 1 1 1¼ 1¼ 1¼ 1¼ 1½ 1½ 1½ 1½ 2 2 2 2 2½ — 2½ 2½ 3 — 3 3 4 — 4 — 5 — — — 6 — — — 6. 26 Gasket for Unions, Flat seat — U1, U2, UA1 and UA2 Fitting Sizesof Unions — 1/8, 1/4, 3/8, 1/2, 3/4, 1, 1¼, 1½, 2, 2½, 3 and 4. 6.27 Nominal Sizes of Pipe Threads and corresponding Nominal diameter DN Nominal Size of Corresponding Pipe Threads Bore (Size Designation) mm 1/8 6 1/4 8 3/8 10 1/2 15 3/4 20 1 25 1¼ 32 1½ 40 2 50 2½ 65 3 80 4 100 5 125 6 150",
+      "clause_id": "IS 1879:1987#6.22",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 309,
+      "page_end": 309,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "7",
+      "title": "Pressure Test",
+      "text": "7. Pressure Test",
+      "clause_id": "IS 1879:1987#7",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 309,
+      "page_end": 309,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "7.1",
+      "title": "Shall be subjected to",
+      "text": "7.1 Shall be subjected to either of the two following pressure tests a) Internal hydraulic pressure of not less than 2.1 MPa, or b) Internal air pressure of 1.05 MPa whilst the fitting is completely immersed in water or light oil.",
+      "clause_id": "IS 1879:1987#7.1",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 309,
+      "page_end": 309,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1879:1987",
+      "clause": "8",
+      "title": "Compression Test",
+      "text": "8. Compression Test  —Shall satisfy the prescribed test. For detailed information, refer to IS 1879 : 1987 Specification for malleable cast iron pipe fittings (second revision).",
+      "clause_id": "IS 1879:1987#8",
+      "family": "IS 1879",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 309,
+      "page_end": 309,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1879:1987",
+    "record_id": 8280,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      306,
+      309
+    ],
+    "n_clauses": 37,
+    "has_scope": false,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

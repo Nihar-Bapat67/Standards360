@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12778:2004",
+      "clause": "1",
+      "title": "Scope – Covers the",
+      "text": "1 Scope - Covers the nominal dimensions, mass and sectional properties of hot rolled parallel flange beams, columns and bearing piles.",
+      "clause_id": "IS 12778:2004#1",
+      "family": "IS 12778",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 733,
+      "page_end": 733,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12778:2004",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2 Classification",
+      "clause_id": "IS 12778:2004#2",
+      "family": "IS 12778",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 733,
+      "page_end": 733,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12778:2004",
+      "clause": "2.1",
+      "title": "Beams, column and pile",
+      "text": "2.1  Beams, column and pile sections are classified as follows. a) Indian Standard Narrow Parallel Flange Beams, NPB. b) Indian Standard Wide Parallel Flange Beams, WPB. c) Indian Standard Parallel Flange Bearing Piles, PBP.",
+      "clause_id": "IS 12778:2004#2.1",
+      "family": "IS 12778",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 733,
+      "page_end": 733,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12778:2004",
+      "clause": "2.3",
+      "title": "The following abbreviated reference symbols have",
+      "text": "2.3 The following abbreviated reference symbols have been used in designating the Indian Standard sections mentioned in 2.1: Sl.No. Section Classification Abbreviated Reference Symbol (1) (2) (3) (4) i) Beams ISNPB NPB ii) Beams/Columns ISWPB WPB iii) Pile Sections ISPBP PBP For detailed information, refer to IS 12778 : 2004  Specifications for  hot rolled steel sections for parallel flange beams, columns - dimensions and section properties and bearing piles (first revision).",
+      "clause_id": "IS 12778:2004#2.3",
+      "family": "IS 12778",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 733,
+      "page_end": 733,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12778:2004",
+      "clause": "3",
+      "title": "Dimensions, Mass and Tolerances",
+      "text": "3 Dimensions, Mass and Tolerances",
+      "clause_id": "IS 12778:2004#3",
+      "family": "IS 12778",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 733,
+      "page_end": 733,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12778:2004",
+      "clause": "3.1",
+      "title": "Nominal dimensions and mass",
+      "text": "3.1 Nominal dimensions and mass of narrow and wide parallel flange beams and bearing piles shall conform to the values given in Tables 1 to 3, respectively of the standard.",
+      "clause_id": "IS 12778:2004#3.1",
+      "family": "IS 12778",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 733,
+      "page_end": 733,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12778:2004",
+      "clause": "3.2",
+      "title": "Dimensional and mass tolerances",
+      "text": "3.2 Dimensional and mass tolerances of the various sections shall conform to the appropriate values stipulated in IS 12779*.",
+      "clause_id": "IS 12778:2004#3.2",
+      "family": "IS 12778",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 733,
+      "page_end": 733,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12778:2004",
+      "clause": "4",
+      "title": "Sectional Properties",
+      "text": "4  Sectional Properties Sectional properties of the beam, column and pile sections are given in Tables 1 to 3 of the standard, for information. * Rolling and cutting tolerances for hot rolled parallel flange beam and column sections - specification. SECTION 18 WELDING ELECTRODES AND WIRES CONTENTS Title Page IS 814 : 2004 Covered electrodes for manual metal arc welding of carbon and 18.3 carbon  manganese steel (Sixth revision) IS 1278 : 1972 Filler rods and wires for gas welding (second revision) 18.7 IS 1395 : 1982 Low and medium alloy steel covered electrodes for manual metal 18.8 arc  welding (third revision) IS 4972 : 1968 Resistance spot welding electrodes 18.10 IS 5511 : 1991 Covered electrodes for manual metal arc welding of cast iron (first revision) 18.12 IS 5897 : 1985 Aluminium and aluminium alloy welding rods and wires and 18.14 magnesium alloy welding rods (first revision) IS 5898 : 1970 Copper and copper alloy bare solid welding rods and electrodes 18.15 IS 6419 : 1996 Welding rods and bare electrodes for gas shielded are welding of 18.16 structural steel (first revision) IS 6560 : 1996 Molybdenum and chromium-molybdenum low alloy welding rods 18.18 and bare electrodes (first revision) IS 7280 : 1974 Bare wire electrodes for submerged arc welding of structural steels 18.20 IS 8363 : 1976 Base wire electrodes for electroslag welding of steels. 18.21",
+      "clause_id": "IS 12778:2004#4",
+      "family": "IS 12778",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 733,
+      "page_end": 736,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12778:2004",
+    "record_id": 4229,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      733,
+      736
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.98,
+    "flags": [
+      "pages_without_text:2"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

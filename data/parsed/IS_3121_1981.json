@@ -1,0 +1,256 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3121:1981",
+      "clause": "1",
+      "title": "Scope – Requirements regarding materials,",
+      "text": "1. Scope - Requirements regarding materials, components, dimensions, finishing and tests for rigging screws and stretching screws (double-ended and singleended) of the following nominal size : a) Rigging screws -  M12 to M90 b) Stretching screws -  M6 to M52",
+      "clause_id": "IS 3121:1981#1",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "2",
+      "title": "Dimensions",
+      "text": "2. Dimensions",
+      "clause_id": "IS 3121:1981#2",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "2.1",
+      "title": "Rigging Screws (With Screwed Eye at Both Ends)",
+      "text": "2.1 Rigging Screws (With Screwed Eye at Both Ends): Nom. Siz                     Length Proof (Dia of Load Screw)        Closed/mm            Open/ mm kN M12 330 525 10.0 M16 370 550 18.0 M20 400 570 28.0 M24 475 700 36.0 M27 550 825 44.0 M30 550 825 63.0 M33 600 875 75.0 M36 600 875 86.0 M39 660 960 100.0 M45 700 960 112.0 M52 750 1 000 144.0 M56 775 1 025 194.0 M60 800 1 050 214.0 M64 1 070 1 450 286.0 M68 1 120 1 590 342.0 M75 1 270 1 700 400.0 M80 1 360 1 760 500.0 M90 1 440 1 860 624.0",
+      "clause_id": "IS 3121:1981#2.1",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "2.2",
+      "title": "Stretching Screws",
+      "text": "2.2 Stretching Screws Nominal SizeLoad      Body Length             Proof (Dia of Screw)               mm kN M6 100 2.0 M8 125 3.0 M10 160 6.0 M12 200 9.0 M14 225 12.0 M16 250 15.2 M20 315 22.4 M22 355 32.4 M24 400 40.0 M30 450 63.0 M36 450 90.0 M45 450 142.0 M52 450 190.0 Note 1— Safe working load = 1/2 proof load Note 2-  Tolerance ±5 percent on all dimensions Note 3-  For detailed dimensions and shapes of riggings crews, tubular body, screwed eye, screwed fork, screwed stud eye and stretching screws (open body, screw eyes and swivel eye), refer to Tables 1 to 6 of the Standard.",
+      "clause_id": "IS 3121:1981#2.2",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 3121:1981#3",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "3.1",
+      "title": "Galvanizing – All components of assembled",
+      "text": "3.1 Galvanizing - All components of assembled stretching screw shall be  galvanized as per IS 4759 : 1996 All screw threads shall be `brush' or `spun' galvanized.",
+      "clause_id": "IS 3121:1981#3.1",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "3.2",
+      "title": "Workmanship",
+      "text": "3.2 Workmanship",
+      "clause_id": "IS 3121:1981#3.2",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "3.2.1",
+      "title": "Rigging screw – The",
+      "text": "3.2.1 Rigging screw - The tubular body shall be neatly and clearly made and finished. The screwed eye, screwed fork and screwed stud eye shall be cleanly forged and finished. The thimble, when in place in the fork, shall be capable of free movement.",
+      "clause_id": "IS 3121:1981#3.2.1",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "3.2.2",
+      "title": "Stretching",
+      "text": "3.2.2 Stretching  screw - The body, the screw eye and the swivel eye shall be solid forging without weld, neatly and cleanly made and finished.",
+      "clause_id": "IS 3121:1981#3.2.2",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "3.2.3",
+      "title": "Each component of the",
+      "text": "3.2.3 Each component of the completed rigging screw or stretching screw shall be free from any visible flaw or defect.",
+      "clause_id": "IS 3121:1981#3.2.3",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "4",
+      "title": "Tests",
+      "text": "4. Tests",
+      "clause_id": "IS 3121:1981#4",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "4.1",
+      "title": "Proof Testing – Each",
+      "text": "4.1 Proof Testing - Each screw shall withstand the proof load without any sign of defect.",
+      "clause_id": "IS 3121:1981#4.1",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3121:1981",
+      "clause": "4.2",
+      "title": "Tests for Galvanizing",
+      "text": "4.2 Tests for Galvanizing : Shall be tested in accordance with IS  2633 : 1986+ and  IS 6745 : 1972+ if specified. * Methods of testing uniformity of coating on fine coated articles (second revision). + Methods for determination of weight of zinc coating on zinc coated iron and steel articles. * Hot dip zinc coatings on structural steel and other allied products (third revision). For detailed information, refer to IS 3121 : 1981 Specification for ringging screws and stretching screws (first revision).",
+      "clause_id": "IS 3121:1981#4.2",
+      "family": "IS 3121",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "test_methods",
+      "page_start": 785,
+      "page_end": 785,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3121:1981",
+    "record_id": 9690,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      785,
+      785
+    ],
+    "n_clauses": 13,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2547 (Part 1):1976",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Covers the classification and chemical and physical requirements for gypsum building plasters which possess a definite set due to hydration of calcium sulphate, anhydrous or hemihydrate, to form gypsum and are used in the manufacture of gypsum building products. Premixed lightweight building plasters are not included.",
+      "clause_id": "IS 2547 (Part 1):1976#1",
+      "family": "IS 2547 (Part 1)",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 151,
+      "page_end": 151,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 2547 (Part 1):1976",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification a)    Plaster of paris, b)   Retarded hemihydrate gypsum plaster SUMMARY OF IS 2547 (PART 1) : 1976 GYPSUM BUILDING PLASTERS PART  1  EXCLUDING PREMIXED LIGHTWEIGHT PLASTERS (First Revision) TABLE 2 PHYSICAL REQUIREMENT Requirements S.LNo. Particulars Plaster of Paris                            Anhydrous Keene's Plaster Gypsum Plaster Type A (short) Type B (long time setting time setting (1) (2) (3) (4) (5) (6) i) Setting time - - - - minutes: a)Plaster sand 45-120 120-900 - - mixture b)Neat 20-40 60-180 20-360 20-360 plaster ii) Transverse 5 4* - - strength kg/cm2,Min iii) Soundness Set plaster pats Set plaster pats Set plaster pats Set plaster pats shall not show shall not show shall not show shall not show any sign of any sign of any sign of any sign of disintegration, disintegration, disintegration, disintegration, popping or popping or popping or popping or pitting pitting pitting pitting iv) Mechanical - †Diameter of Diameter of the Diameter of the resistance of the indentation indentation shall indentation set neat shall not be not be more than shall plaster less than 3 mm 4 mm not be more and not more than  3.5 mm than 4.5 mm v) Residue on 90 5.0 5.0* 2.0 2.0 mm sieve (1.0) † percenage, Max vi) Expansion on -- 0.20 at 24 h ‡ - 0.5 at 96 h setting percentage, Max * Applicable to undercoat plasters only. † Applicable to final coat plasters. ‡ Applicable to board finish plasters only.",
+      "clause_id": "IS 2547 (Part 1):1976#2",
+      "family": "IS 2547 (Part 1)",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 151,
+      "page_end": 152,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 2547 (Part 1):1976",
+      "clause": "4",
+      "title": "Physical Requirements",
+      "text": "4. Physical Requirements — See Table 2. Purity — No material shall be added to gypsum plasters except those which are necessary to control the setting, such as sodium citrate, break drown products of keratin, potassium sulphate, sodium sulplate alum and zine sulphate; or working characteristics such as alkyl - Aryl sulphonate or to impart anti-corrosion such as nitrates and nitrites of alkali metals or  fungicidal properties. Note — For methods of tests, refer to Appendices A to C of the standard, IS 1288:1982 Methods of test for mineral gypsum (second revision) and relevant parts of IS 2542 Methods of test for gypsum plaster, concrete and products. For detailed information, refer to IS  2547 (Part 1):1976 Specification for  gypsum building plaster: Part 1 Excluding premixed light weight plasters .",
+      "clause_id": "IS 2547 (Part 1):1976#4",
+      "family": "IS 2547 (Part 1)",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 152,
+      "page_end": 152,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2547 (Part 1):1976",
+    "record_id": 9056,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      151,
+      152
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.77,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

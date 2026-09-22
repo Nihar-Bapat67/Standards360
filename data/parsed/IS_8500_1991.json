@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8500:1991",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope  -  Requirements of microalloyed steels of different strength levels for use in structural work. The steels may be suitable for other application also.",
+      "clause_id": "IS 8500:1991#1",
+      "family": "IS 8500",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 670,
+      "page_end": 670,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8500:1991",
+      "clause": "2",
+      "title": "Grades – It shall",
+      "text": "2. Grades - It  shall be in 10 grades given in Table 1.",
+      "clause_id": "IS 8500:1991#2",
+      "family": "IS 8500",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 670,
+      "page_end": 670,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8500:1991",
+      "clause": "3",
+      "title": "Freedom from Defects",
+      "text": "3. Freedom from Defects— The finished material shall be free from surface defects, such as pits, rolled in scales, deep scratches, grooves, laminations, cracks, rough jagged and imperfect edges, and any other harmful defects.",
+      "clause_id": "IS 8500:1991#3",
+      "family": "IS 8500",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 670,
+      "page_end": 670,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8500:1991",
+      "clause": "4",
+      "title": "Mechanical Properties",
+      "text": "4. Mechanical Properties — See Table 1. TABLE 1 MECHANICAL PROPERTIES Grade Tensile         Yield Strength Min Elongation        Bend Charpy V-notch Strength Percent Internal Impact Toughness, Min <16 16-40 41-63 >63         Min Diameter Joules, Min, (Average mm       mm mm mm of 3 Values) Room MPa    MPa         MPa MPa    MPa 5.65 So     Min** Temp *  -200C <12 mm  12-25 mm Fe 440 440 300 290 280 By 22 2t 3t - - agreement Fe 440B    440 300 290 280 - 22 2 t 3 t 50 30 Fe 490 490 350 330 320 - 22 2 t 3 t - - Fe 490B    490 350 330 320 - 22 2 t 3 t 50 25 Fe 540      540 410 390 380 - 20 2 t 3 t - - Fe 540B    540 410 390 380 - 20 2 t 3 t 50 25 Fe 570      570 450 430 420 - 20 2 t 3 t - - Fe 570B    570 450 430 420 - 20 2 t 3 t 45 20 Fe 590      590 450 430 420 - 20 2 t 3 t -                   - Fe 590B    590 450 430 420 - 20 2 t 3 t 45 20 *      Room Temperature = 25 ± 2ºC; ** + is the thickness of the test piece. Note 1- For test procedures, refer to IS 1599: 1985 Method of bend test (second revision), IS 1608:1995 Mechanical testing of metals - Tensile testing (second revision) and the standard. Note 2 - For  chemical composition see 7 of the standard. For detailed information, refer to IS  8500 : 1991. Specification for structural steel -  Microalloyed (medium and high strength qualities) (third revision). SUMMARY OF IS 8500 : 1991 STRUCTURAL  STEEL- MICRO ALLOYED (MEDIUM AND HIGH STRENGTH QUALITIES) (First Revision)",
+      "clause_id": "IS 8500:1991#4",
+      "family": "IS 8500",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 670,
+      "page_end": 670,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8500:1991",
+    "record_id": 20507,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      670,
+      670
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

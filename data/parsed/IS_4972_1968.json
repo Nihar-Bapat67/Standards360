@@ -1,0 +1,328 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4972:1968",
+      "clause": "1",
+      "title": "Scope – Code numbers",
+      "text": "1.   Scope - Code numbers (in metric units), dimensional requirements, and physical and mechanical properties for a series of spot-welding electrodes, cap electrodes and shanks, mainly intented for resistance spot welding of ferrous and non-ferrous metals. This standard covers . electrodes with standard ISO tapers and with Morse tapers.",
+      "clause_id": "IS 4972:1968#1",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 744,
+      "page_end": 744,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "2",
+      "title": "Materials Recommended",
+      "text": "2.   Materials Recommended Class Material Conductivity Percent Vickers Application (that for Standard Pyramid Annealed Copper) Hardness (HV) I Cadmium copper con- 85 90 Spot-welding of coated steels, taining 0.5 to 1 percent aluminium and its alloys cadmium II Chromium copper con- 80-85 110 Spot-welding of steels other taining 0.5 to 0.8 percent than covered under class Chromium II and III III Cobalt, beryllium copper 45-50 180 Spot-welding of stainless and heat resisting alloys",
+      "clause_id": "IS 4972:1968#2",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 744,
+      "page_end": 744,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "3",
+      "title": "Specification for Electrodes with Standard ISO",
+      "text": "3. Specification for Electrodes with Standard ISO Tapers  -",
+      "clause_id": "IS 4972:1968#3",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 744,
+      "page_end": 744,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "3.1",
+      "title": "Sizes and Dimensions",
+      "text": "3.1 Sizes and Dimensions",
+      "clause_id": "IS 4972:1968#3.1",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 744,
+      "page_end": 744,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "3.1.1",
+      "title": "The size of an",
+      "text": "3.1.1 The size of an electrode with taper engagement with dimensions of electrode shanks and electrode holders is given Table 1.",
+      "clause_id": "IS 4972:1968#3.1.1",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 744,
+      "page_end": 744,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "3.1.2",
+      "title": "Straight electrodes with tapered shanks",
+      "text": "3.1.2 Straight electrodes with tapered shanks: Pointed, dome, flat, offset, truncated cone and spherical types. Overall length range from 38 to 102 mm for nominal sizes 1, 2 and 3 and 64 to 125 mm, 76 to 125 mm and 89 to 125 mm for nominal sizes 4, 9 and 10 respectively.",
+      "clause_id": "IS 4972:1968#3.1.2",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 744,
+      "page_end": 744,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "3.1.3",
+      "title": "Electrode nose configurations –",
+      "text": "3.1.3 Electrode nose configurations - Types same as given in 3.1.2. Available in all sizes (1 to 10).",
+      "clause_id": "IS 4972:1968#3.1.3",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 744,
+      "page_end": 744,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "3.1.4",
+      "title": "Standard single – Bend electrodes, cold-formed",
+      "text": "3.1.4 Standard single - Bend electrodes, cold-formed form standard straight electrodes: Pointed, dome, flat, eccentric and truncated types. Overall  length 64, 70, 83 and 83 for nominal sizes 5, 6, 7 and 8 respectively.",
+      "clause_id": "IS 4972:1968#3.1.4",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 744,
+      "page_end": 744,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "3.1.5",
+      "title": "Standard double",
+      "text": "3.1.5 Standard double-bend electrodes, cold-formed from standard electrodes - Types, overall length and sizes are same as given in 3.1.4. TABLE 1    DIMENSIONS OF ELECTRODE SHANKS AND ELECTRODE HOLDERS Nominal Major Engage Cooling Hole Taper Load Size Dia Dia Dia (Inclusive) mm mm mm 01 13.0 12.7 7.0 1/10 02 16.0 15.5 8.5 1/10 03 20.0 19.0 10.5 1/10 For straight loading not over 1500 kgf 04 25.0 24.5 13.5 1/10 05 13.0 12.7 7.0 1/10 06 16.0 15.5 8.5 1/10 07 20.0 19.0 10.5 1/10 For eccentric loading 08 25.0 24.5 13.5 1/10 09 31.5 31.0 14.0 1/5 10 40.0 39.0 16.0 1/5 For straight loading over 1500 kgf",
+      "clause_id": "IS 4972:1968#3.1.5",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 744,
+      "page_end": 744,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "3.1.6",
+      "title": "Caps and adapter shanks Types A to F",
+      "text": "3.1.6 Caps and adapter shanks Types A to F. Nominal sizes 1 to 3. Note  1 - For dimensions of socket gauges for shanks, refer to Tables 2 and 3 with Fig. 1 of the standard. Note 2 - For electrode designations and other dimensional details, refer to Tables 1 and 4 to 8 and Fig. 2 of the standard.",
+      "clause_id": "IS 4972:1968#3.1.6",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 745,
+      "page_end": 745,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "4",
+      "title": "Specification for Electrodes with Standard Morse",
+      "text": "4.  Specification for Electrodes with Standard Morse Tapers",
+      "clause_id": "IS 4972:1968#4",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 745,
+      "page_end": 745,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "4.1",
+      "title": "Sizes and Dimensions",
+      "text": "4.1 Sizes and Dimensions — Nominal size 1, 2 and 3. Major dia 12.24, 15.87 and 22.22 mm for sizes 1, 2 and 3 respectively.",
+      "clause_id": "IS 4972:1968#4.1",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 745,
+      "page_end": 745,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "4.1.1",
+      "title": "Morse electrode nose configurations – Pointed,",
+      "text": "4.1.1  Morse electrode nose configurations - Pointed, dome, flat, offset, truncated cone and spherical type. Nose lengths  (19.0 and 6.5 mm),  (22.0  and 10.0 mm) and (28.5 and 10.0 mm) for nominal sizes 1, 2 and 3 respectively in case of pointed and dome types.",
+      "clause_id": "IS 4972:1968#4.1.1",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 745,
+      "page_end": 745,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "4.1.2",
+      "title": "Straight electrode with tapered",
+      "text": "4.1.2 Straight electrode with tapered shanks - Types same as given in 4.1.1. Overall length range 32 to 102 mm for sizes 1 and 2 and 38 to 102 mm for size 3.",
+      "clause_id": "IS 4972:1968#4.1.2",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 745,
+      "page_end": 745,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "4.1.3",
+      "title": "Single",
+      "text": "4.1.3 Single-bend electrodes, cold-formed from standard straight electrodes - Pointed, dome, flat, eccentric and truncated types. Overall length 64, 70 and 83 mm for nominal sizes 1, 2 and 3 respectively.",
+      "clause_id": "IS 4972:1968#4.1.3",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 745,
+      "page_end": 745,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "4.1.4",
+      "title": "Double",
+      "text": "4.1.4 Double-bend electrodes; cold-formed from standard straight electrodes - Types, overall lengths and sizes are same as given in 4.1.3.",
+      "clause_id": "IS 4972:1968#4.1.4",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 745,
+      "page_end": 745,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4972:1968",
+      "clause": "4.1.5",
+      "title": "Morse caps and adapter",
+      "text": "4.1.5 Morse caps and adapter shanks Types A to F. Note 1- For dimensions of shanks of electrodes, refer to Fig. 3 and for taper ring and plug gauges, refer to Table 9 of the standard. Note 2 - For electrode designations and other dimensional details, refer to Tables 10 to 14 and Fig. 4 of the standard. For detailed information, refer to IS 4972 : 1968 Specifications for resistance spot - welding electrodes.",
+      "clause_id": "IS 4972:1968#4.1.5",
+      "family": "IS 4972",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 745,
+      "page_end": 745,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4972:1968",
+    "record_id": 11682,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      744,
+      745
+    ],
+    "n_clauses": 17,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

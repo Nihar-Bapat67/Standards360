@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5624:1993",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for  foundation bolts in the size range M8 to M72.",
+      "clause_id": "IS 5624:1993#1",
+      "family": "IS 5624",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 793,
+      "page_end": 793,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5624:1993",
+      "clause": "2",
+      "title": "Technical Supply Conditions",
+      "text": "2. Technical Supply Conditions 5. Designation - Shall be designated by the nomenclature, thread  size, length and number of this standard. Example - A foundation bolt of thread size M20 and length 200 mm shall be designated as - Foundation Bolt M20 × 200 IS 5624 5.1 When foundation bolts are required/supplied with hexagon nuts conforming to IS 1363 (Part 3)§ letter `N' shall be added after length, in the designation. Example - A foundation bolt of therad size M20, length 200 mm supplied with hexagon nut shall be designated as—Foundation Bolt M20 × 200 N IS 5624 a) Hexagon head bolts screws and nuts of product grade C. Note — For some typical shank forms and their   dimensions see Annex A of the standard. 5.2 If foundation bolts are to be hot dip galvanized the word `GALV' shall be added at the end of the designation. Example - A foundation bolt of thread size M20, length 200 mm and hot dip galvanized shall be designated as- Foundation Bolt M20 × 200 IS 5624 GALV 5.3 In addition, type of the shank form required may also be indicated with the designation. However, if no shank form is specified in the designation it shall be at the discretion of the manufacturer. 6. General Requirements- In respect of requirements not covered in this standard, the nuts shall conform to IS 1367 (Part 1) § + Technical  supply conditions for threaded steel fasteners. * ISO Metric Screw Threads. §  Hexagen head bolts, screwesand nuts of product grade C-Part 3: Hexagen Nuts (size range M5 to M64) (third revision) For detailed information, refer to IS 5624 : 1993 Specification for foundation bolts (first revision)",
+      "clause_id": "IS 5624:1993#2",
+      "family": "IS 5624",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 793,
+      "page_end": 793,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5624:1993",
+      "clause": "3",
+      "title": "Dimensions – M8, M10,",
+      "text": "3. Dimensions - M8, M10, M12, M16, M20, M24, M30, M36, M42, M48, M56, M64, and M72",
+      "clause_id": "IS 5624:1993#3",
+      "family": "IS 5624",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 793,
+      "page_end": 793,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5624:1993",
+      "clause": "3.1",
+      "title": "Dimensions and Preferred –",
+      "text": "3.1  Dimensions and Preferred - SeeTable 1 of the standard  Length-Dia Combination SUMMARY OF IS 5624 : 1993 FOUNDATION BOLTS (First Revision) | Material |  | Steel | | --- | --- | --- | | Thread | Tolerances | 8g | |  | Indian Standards | IS 4218 (Part 5) : 1979 * IS 4218 (Part 6) : 1978 + | | Mechanical Properties | Property Class | 4.6 | |  | Indian Standard | IS 1367 (Part 3) : 1991 ++ | | Tolerance | Produce Grade | C | |  | Indian Standard | IS 1367 (Part 2) : 1979 t | |  |  | As produced or Hot-dip galvanized,IS 1367** (Part 13):1983,+ if agreed between supplier and purchaser. |",
+      "clause_id": "IS 5624:1993#3.1",
+      "family": "IS 5624",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 793,
+      "page_end": 793,
+      "has_table": true,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5624:1993",
+    "record_id": 12412,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      793,
+      793
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

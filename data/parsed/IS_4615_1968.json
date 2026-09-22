@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4615:1968",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope -  Requirements for switch socket-outlets of the non-interlocking type of the surface and flush type (shuttered and non-shuttered) having ratings up to 30 A and suitable for use on ac and dc circuits at rated voltage not exceeding 250 V.",
+      "clause_id": "IS 4615:1968#1",
+      "family": "IS 4615",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 909,
+      "page_end": 909,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4615:1968",
+      "clause": "2",
+      "title": "Standard Current Ratings –",
+      "text": "2. Standard Current Ratings - 5,15, and 30 A.",
+      "clause_id": "IS 4615:1968#2",
+      "family": "IS 4615",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 909,
+      "page_end": 909,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4615:1968",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements:",
+      "clause_id": "IS 4615:1968#3",
+      "family": "IS 4615",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 909,
+      "page_end": 909,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4615:1968",
+      "clause": "3.1",
+      "title": "Materials – Parts shall",
+      "text": "3.1 Materials - Parts shall be manufactured with following  materials - a) Base - Vitrified ceramic material or tough nonignitable moulded insulating material. b) Covers, cover plates and actuating member- Tough, non ignitable insulating material- c) Current-carrying parts - Brass, copper, phosphor bronze, aluminium alloy, etc. d) Springs - Corrosion resistant material e) Attachment fittings, screws, non current carrying parts - Mild steel, aluminium alloy or insulating material.",
+      "clause_id": "IS 4615:1968#3.1",
+      "family": "IS 4615",
+      "year": 1968,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 909,
+      "page_end": 909,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4615:1968",
+      "clause": "3.2",
+      "title": "Terminals – Shall allow",
+      "text": "3.2 Terminals - Shall allow a conductor to be connected without special preparation such as  soldering of stands, use of cable lugs and formation of eyelets. Shall be designed to clamp the conductor between metal surfaces with sufficient contact pressure and without damage to the conductor.",
+      "clause_id": "IS 4615:1968#3.2",
+      "family": "IS 4615",
+      "year": 1968,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 909,
+      "page_end": 909,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4615:1968",
+      "clause": "3.2.1",
+      "title": "Dimensions of pillar type terminals (in mm)",
+      "text": "3.2.1  Dimensions of pillar type terminals (in mm): Rated current, A 5 15 30 Nominal thread dia, Min 3.5",
+      "clause_id": "IS 4615:1968#3.2.1",
+      "family": "IS 4615",
+      "year": 1968,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "requirements",
+      "page_start": 909,
+      "page_end": 909,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4615:1968",
+      "clause": "4",
+      "title": "6",
+      "text": "4",
+      "clause_id": "IS 4615:1968#4",
+      "family": "IS 4615",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 909,
+      "page_end": 909,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4615:1968",
+      "clause": "6",
+      "title": "Dia of hole for conductor, Min",
+      "text": "6 Dia of hole for conductor, Min 3.5 4.5",
+      "clause_id": "IS 4615:1968#6",
+      "family": "IS 4615",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 909,
+      "page_end": 909,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 4615:1968",
+      "clause": "7",
+      "title": "Length of thread in pillar Min",
+      "text": "7 Length of thread in pillar Min 2.5 3 4 Difference between dia of hole 0.6       0.6      1.2 and nominal dia of screw,Max 3.2.2 Dimensions of pillar type terminals(in mm): Rated current, A 5 15 30 Nominal thread dia, Min 3.5 5 5 Length of screw under the head Min 4         7       8.5 Length of thread in nut, Min 1.5 3 3 Normal differences between dia 3.5 5 5 of head and thread part, Min Height of head, Min 2 3 3.5 3.3 Clearances and Creepage Distances - Not less than 3mm Note 1 - For constructional details in respect of enclosures, covers, cover plates, mounting of switch socket outlet, current carrying parts, precautions against electrical contact, earthing, socket contacts, prevention against charring of base sealing and holes, refer to 5 of the standard. Note 2 - For requirements regarding terminals and screws, and switch actuating mechanism, refer 6 and 7 of the standard. 4. Tests 4.1 Type Tests a) Visual examination b) Dimensional check c) Effectiveness of contact - Voltage drop between terminals of switch socket outlet and corresponding plug pin shall not exceed 25 and 60 millivolts in unswitched neutral pole and switched pole respectively. d) Withdrawal pull - Between 3 to 60, 4 to 80 and 7 to 100 Newtons for 5, 15, and 30A rating respectively. e) Insulation resistance (dry) - Shall not be less than 100 megohms. f) High voltage - Shall withstand ac voltage of 1500 V rms for a period of one minute under specified test conditions. g) Moisture resistance - Insulation resistance shall not be less than 2 megohms after moisture treatment. h) Contact resistance and temperature Rise - Not more than 25ºc j) Overvoltage and overcurrent capacity - 130 percent of rated current at 110 percent of rated voltage, 10 times in succession at intervals of 30 seconds. k) Endurance - 15 000 switch cycles for 5 and 15 A and 10 000 for 30 A. SUMMARY OF IS 4615 : 1968 SWITCH SOCKET-OUTLETS (NON-INTERLOCKING TYPE) m) Switch socket - outlets for ac inductive circuits125 percent or rated current at 110 percent of rated voltage at 0.3 power factor, 100 times, at a rate approximate 7.5 switch cycles per minute. n) Screws and connections - o) Mechanical strength - p) Water absorption q) Resistance to heat s) Resistance to rusting - Shall show no sign of rust after the prescribed ammonium chloride test. t) Endurance of shutters - 5 000 operations 4.2 Acceptance tests - Tests specified in 4.1(a) to (p) and(s) 4.3 Routine tests - Tests specified in 4.1(a), (b)  (e), and (f) Note 1 - Test for tracking shall be applicable to mould insulating materials only and be carried out by manufacturer for proper selection of raw materials. Note 2- For detailed requirement and methods of tests, refer to 10 of the standard. For detailed information, refer to  IS 4615 : 1968  Specification for switch socket- outlets (non-interlocking type)",
+      "clause_id": "IS 4615:1968#7",
+      "family": "IS 4615",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 909,
+      "page_end": 910,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4615:1968",
+    "record_id": 19557,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      909,
+      910
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9842:1994",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and methods of sampling and test for preformed fibrous pipe sections for thermal imsulation.",
+      "clause_id": "IS 9842:1994#1",
+      "family": "IS 9842",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 848,
+      "page_end": 848,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9842:1994",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 9842:1994#2",
+      "family": "IS 9842",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 848,
+      "page_end": 848,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9842:1994",
+      "clause": "2.1",
+      "title": "Description – Shall be",
+      "text": "2.1 Description - Shall be mineral wool made from rock, slag or glass, processed from a molten state into fibrous form and bonded with a suitable binder. The sections shall normally be supplied unfaced. Certain applications may require an applied finish of aluminium foil, paper, roofing felt or other material.",
+      "clause_id": "IS 9842:1994#2.1",
+      "family": "IS 9842",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 848,
+      "page_end": 848,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9842:1994",
+      "clause": "2.2",
+      "title": "Bulk Density",
+      "text": "2.2 Bulk Density Group Bulk Density, Maximum kg/m3 Recommended Hot Face Temperature, ºC 1 50-80 Up to 400 2 81-120 Up to 550",
+      "clause_id": "IS 9842:1994#2.2",
+      "family": "IS 9842",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 848,
+      "page_end": 848,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9842:1994",
+      "clause": "3",
+      "title": "121",
+      "text": "3 121-160 Up to 650",
+      "clause_id": "IS 9842:1994#3",
+      "family": "IS 9842",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 848,
+      "page_end": 848,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9842:1994",
+      "clause": "4",
+      "title": "161",
+      "text": "4 161-250 Up to 750 2.2.1 For any particular product, the variation from the manufacturer's declared value for bulk density, calculated at the nominal thickness, shall not exceed ±15 percent. The actual bulk density shall, however, be within the bulk density range given in 2.2. 2.3 Shot Content - Shall be not more than the values given below. Any shot present in the bonded mineral wool shall not be greater than 5 mm in any dimension. IS Sieve Shot Content, Percent by Mass, Max 500  micron",
+      "clause_id": "IS 9842:1994#4",
+      "family": "IS 9842",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 848,
+      "page_end": 848,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9842:1994",
+      "clause": "5",
+      "title": "250",
+      "text": "5 250  micron 15 2.4       Moisture Content and Moisture Absorption - Shall not contain more than 2 percent moisture and shall not gain in mass by more than 2 percent. 2.5 Incombustibililty - Shall be found to be incombustible. The loss in total mass, when tested for incombustibility, shall not exceed 5 percent. 2.6 Thermal Conductivity -  Shall not exceed the values given below: Mean Thermal Conductivity Tempe- mW/cm0C rature ºC Group 1     Group 2  Group 3    Group 4 50 0.43 0.43 0.43 0.43 100 0.52 0.52 0.52 0.52 150 0.64 0.62 0.62 0.62 200 0.78 0.73 0.70 0.68 250 0.93 0.85 0.8 5 0.80 300 1.10 1.00 1.00 0.90 2.7 Dimensions  - Shall be supplied as hollow cylinders split lengthwise on one or both sides of the cylindrical axis, with lengths of 50 cm, 60 cm, 75 cm, 90 cm and 100 cm to fit standard size of pipe and tubing. The nominal thicknesses regularly furnished shall be 25 mm, 40 mm, 50 mm, 60 mm, 75 mm, 90 mm and 100 mm. Nominal thicknesses greater than 60 mm may be furnished in multiple layers. 2.7.1 Dimensional Tolerance - For length, the tolerance shall be  0.5 percent; excess is permitted. For nominal thickness up to 75 mm the tolerance shall be + 5 mm, - 2 mm. For greater nominal thicknesses, the toleracne on thickness shall be as agreed to between the purchaser and the supplier. When installed on the pipe of the specified size, sections shall fit snugly and shall have tight longitudinal land circumferential joints. 2.8 Linear Shrinkage - Shall be not greater than 2 percent when subjected to condition of soaking heat at the static maximum temperature of use for 24 hours. Note- To avoid crushing the ends of the specimen, travelling microscope should be used. 2.9 Heat Resistance - Shall not suffer any visible deterioration of the fibrous structure and shall not show any evidence of internal self-heating when heated to the maximum recommended temperature of use, as specified by the manufacturer. Note - For method of tests, refer to Appendices A and B of the standard, IS 3144 : 1992 Mineral wool thermal  insulation materials - Methods of test (second revision),  IS 3346 : 1980  Method of determination of  thermal conductivity of thermal insulating materials (two slab guarded hot plate method) (first revision), IS 5688 : 1982 Methods of test for preformed block-type and pipe covering type thermal insulation (first revision), and IS 5724 : 1970 Method of test for thermal insulating cements. For detailed information, refer to IS 9842 : 1994 Specifications for Preformed fibrous pipe insulation (first revision). 2.10 Recovery After Compression - The recovery, after compression to 75 percent of the original thickness, shall be not less than 90 percent of the original thickness. 2.11 Sulphur Content - Shall not contain more than 0.6 percent of sulphur. 2.12 Optional Requirements 2.12.1 Alkalinty - The the pH of the solution of the material shall be between 7.0 and 10.0. 2.12.2 Resistance to Micro-organisms - Shall not show any mould or bacterial growth. 2.12.3 Odour Emission Test - There shall be no apparent difference in odour of the butter, when compared with the blanks. 2.12.4 Corrosive Attack - Shall not cause corrosion of the surface on which it is applied.",
+      "clause_id": "IS 9842:1994#5",
+      "family": "IS 9842",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 848,
+      "page_end": 849,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9842:1994",
+    "record_id": 17271,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      848,
+      849
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4990:1993",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope - Requirements of plywood for concrete shuttering and form work.",
+      "clause_id": "IS 4990:1993#1",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 561,
+      "page_end": 561,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "2",
+      "title": "Types – Plywood for",
+      "text": "2. Types - Plywood for concrete shuttering work shall be preservative treated, of BWP grade and shall be of three types as given below Type Description Designation 1 Plywood for concrete CS shuttering work (plain) 2 Plywood for concrete CSC shuttering work with plastic coating (coated)",
+      "clause_id": "IS 4990:1993#2",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 561,
+      "page_end": 561,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "3",
+      "title": "Plywood for concrete",
+      "text": "3 Plywood for concrete CSFF shuttering work with suitable overlay (film faced) 3. Materials",
+      "clause_id": "IS 4990:1993#3",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 561,
+      "page_end": 561,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "3.1",
+      "title": "Timber",
+      "text": "3.1 Timber — Any species of timber may be used , However a list of species given in Annex B of the standard  may be used for selection  of species.",
+      "clause_id": "IS 4990:1993#3.1",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 561,
+      "page_end": 561,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "3.2",
+      "title": "Adhesives for Bonding of Veneers",
+      "text": "3.2 Adhesives for Bonding of Veneers—Shall be of the hot press synthetic resin (phenol formaldehyde) type and shall conforn to BWP type specified in IS  848 : 1974.+",
+      "clause_id": "IS 4990:1993#3.2",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 561,
+      "page_end": 561,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "4",
+      "title": "Dimensions and Tolerances",
+      "text": "4. Dimensions and Tolerances",
+      "clause_id": "IS 4990:1993#4",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 561,
+      "page_end": 561,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "4.1",
+      "title": "Size",
+      "text": "4.1. Size Unless otherwise specified, plywood boards for concrete shuttering work shall be of length and width as specfied below— mm mm mm mm 2400 × 1200 1500 × 1200 2400 × 900 1500 × 900 2100 × 1200 1200 × 1200 2100 × 900 1200 × 900 1800 × 1200 1200 × 600 1800 x 900 900 × 900 Note - Plywood boards for concrete shuttering  may  also be manufactured under the following  alternative sizes if specified by the   purchaser mm mm mm mm 2400 × 1220 1540 × 1220 2440 × 920 1540 × 920 2140 × 1220 1220 × 1220 2140 × 920 1220 × 920 1840 × 1220 1220 × 610 1840 × 920 920 × 920 + Synthetic resin adhesives for plywood (Phenolic and  amino plastic (first revision)",
+      "clause_id": "IS 4990:1993#4.1",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 561,
+      "page_end": 561,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "4.2",
+      "title": "Thickness – Unless other",
+      "text": "4.2 Thickness - Unless other wise specified, thickness of plywood board shall be as specified below for the respective number of plies Board Thickness 3-ply 4  mm 5  mm 6  mm 5-ply 6  mm 8  mm 9  mm 7-ply 12  mm 16  mm 9-ply 16  mm 19  mm More than 9- ply 22  mm 25  mm 30  mm 35 mm 40  mm",
+      "clause_id": "IS 4990:1993#4.2",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 561,
+      "page_end": 561,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "4.3",
+      "title": "Tolerances",
+      "text": "4.3 Tolerances— The tolerances on the nomial sizes of finished boards shall be as specified in IS 12049 :1987*.",
+      "clause_id": "IS 4990:1993#4.3",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 561,
+      "page_end": 561,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "5",
+      "title": "Workmanship and Finish",
+      "text": "5. Workmanship and Finish— Shall be smooth and the faces and back shall be free from harmful discolouration, pleats, overlaps and loose knots. The edges shall be of smooth uniform finish. * Dimensions and tolerances relating to wood based panel materials. Gaps and  open joints shall be permitted as  follows a) In Face — The gap  or opening shall not exceed a width of 0.4  mm, If it exceeds 0.4mm this may be rectified by well-fitted veneer inserts of  suitable width    provided the grain of the veneer insert does not  deviate by more than 10 percent from the  grain direction of the surrounding veneer. b) In Core (Cross-Band) — The width of the opening shall of exceed 1 mm in the case of  3- ply and 5-ply, and 2 mm in the case of plywod of more than 5 ply, pnomided that such openings are not less than 300 mm apart in any reneer and staggered not less than 150 mm between any neveer and the next one with the same direction. The faces  of plywood for concrete shuttering work with plastic coating, or with suitable overlay shall be dense smooth, without blisters and patch marks and of uniform colour.",
+      "clause_id": "IS 4990:1993#5",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 561,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6",
+      "title": "Tests –",
+      "text": "6. Tests -",
+      "clause_id": "IS 4990:1993#6",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.1",
+      "title": "Moisture Content – Shall",
+      "text": "6.1 Moisture Content - Shall  be not less than 5 percent and not more than 15 percent.",
+      "clause_id": "IS 4990:1993#6.1",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.2",
+      "title": "Glue Adhesion in Dry State",
+      "text": "6.2 Glue Adhesion in Dry State",
+      "clause_id": "IS 4990:1993#6.2",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.2.1",
+      "title": "Glue shear strength –",
+      "text": "6.2.1  Glue shear strength - Average failing load shall be not less than 1350 N (135 kgf) and no individual value shall be less than 1100 N (110 kgf ).",
+      "clause_id": "IS 4990:1993#6.2.1",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "6.2",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.2.2",
+      "title": "Adhesion of plies –",
+      "text": "6.2.2 Adhesion of plies - The veneers shall  offer appreciable resistance to separation and the   fractured samples shall show some adherent fibres  distributed more or less uniformly.",
+      "clause_id": "IS 4990:1993#6.2.2",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "6.2",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.3",
+      "title": "Water Resistance Test",
+      "text": "6.3 Water Resistance Test Note — For method of tests, refer to various parts of  IS 1734 : 1983  Method of tests for plywood (second revision) For detailed informations, refer to IS 4990 : 1993 Specification for plywood for concrete shuttering work (second revision).",
+      "clause_id": "IS 4990:1993#6.3",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.3.1",
+      "title": "Glue shear strength –",
+      "text": "6.3.1 Glue shear strength - The average failing load shall be not less than 1000 N (100 kgf) and no individual value shall be less tha n 800 N (80 kgf).",
+      "clause_id": "IS 4990:1993#6.3.1",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "6.3",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.3.2",
+      "title": "Adhesion of plies –",
+      "text": "6.3.2 Adhesion of plies - Same as in 6.2.2",
+      "clause_id": "IS 4990:1993#6.3.2",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "6.3",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.3.3",
+      "title": "Plywood for concrete shuttering work with",
+      "text": "6.3.3 Plywood for concrete shuttering work with plastic coating or with suitable overlay, after being subjected to 72 hours boiling, shall not show any softening, checking, craking or deterioration of the surface layer.",
+      "clause_id": "IS 4990:1993#6.3.3",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "6.3",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.3.4",
+      "title": "When tested plywood shall",
+      "text": "6.3.4 When tested plywood shall have retention of preservative chemical not less than 12 kg/m3",
+      "clause_id": "IS 4990:1993#6.3.4",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 3,
+      "parent_clause": "6.3",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.4",
+      "title": "Tensile Strength",
+      "text": "6.4 Tensile Strength — The tensile strength,  shall comply with the following requirements— a) Tensile strength shall be not less than 32..5 N/ mm2 ( 325 kgf/cm2 ) in the direction parallel to the grain direction of the face veneers, b) Tensile strength shall be not less than 22.5 N/ mm2 (225 kgf/cm2) in the direction of the  face veneers, and c) The sum of  the tensile strengths in both directions shall be not less than 60.0 N/mm2 (60 kgf/cm2).",
+      "clause_id": "IS 4990:1993#6.4",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "requirements",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.5",
+      "title": "Mycological Test – The",
+      "text": "6.5 Mycological Test - The test piece shall show no appreciable signs of separation at the  edges of the veneers.",
+      "clause_id": "IS 4990:1993#6.5",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4990:1993",
+      "clause": "6.6",
+      "title": "Modulus of Elasticity –",
+      "text": "6.6 Modulus of Elasticity - The modulus of elasticity shall be not less than 8000 N/mm2 along the direction parallel to the grain direction of the face  veneer and not less than 4000 N/ mm2 perpendicular to the grain direction of the face veneers, when tested in dry condition.",
+      "clause_id": "IS 4990:1993#6.6",
+      "family": "IS 4990",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 562,
+      "page_end": 562,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4990:1993",
+    "record_id": 30765,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      561,
+      562
+    ],
+    "n_clauses": 23,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

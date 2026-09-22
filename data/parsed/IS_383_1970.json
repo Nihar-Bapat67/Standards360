@@ -1,0 +1,256 @@
+{
+  "clauses": [
+    {
+      "is": "IS 383:1970",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for aggregates, crushed or uncrushed, derived from natural sources for use in the production of structural concrete including mass concrete works.",
+      "clause_id": "IS 383:1970#1",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 17,
+      "page_end": 17,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 383:1970#2",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 17,
+      "page_end": 17,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "2.1",
+      "title": "Aggregates shall consist of naturally occurring",
+      "text": "2.1 Aggregates shall consist of naturally occurring stones, gravel and sand, and shall be hard, strong, dense, durable, clear and free from veins, adherent coating and injurious amounts of disintegrated pieces and deleterious substances.",
+      "clause_id": "IS 383:1970#2.1",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 17,
+      "page_end": 17,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "2.2",
+      "title": "Deleterious Materials",
+      "text": "2.2 Deleterious Materials — Aggregates shall not contain harmful materials, such as pyrites, laminated material, alkali, seashells, and organic impurities and those which may attack the reinforcement,  in  excess of   the  limits given in Table 1 of the standard. Aggargates shall not be chemically reactive with alkalis of cement.",
+      "clause_id": "IS 383:1970#2.2",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 17,
+      "page_end": 17,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "2.3",
+      "title": "Aggregate crushing value shall",
+      "text": "2.3 Aggregate crushing value shall not exceed 30 percent for concrete for wearing surfaces (such as runways and roads) and 45 percent for other concrete.",
+      "clause_id": "IS 383:1970#2.3",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 17,
+      "page_end": 17,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "2.4",
+      "title": "Aggregate impact value (alternative",
+      "text": "2.4 Aggregate impact value (alternative to 2.3) shall not exceed 30 percent by weight for concrere for wearing surface and 45 percent by weight for other concrete.",
+      "clause_id": "IS 383:1970#2.4",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 17,
+      "page_end": 17,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "2.5",
+      "title": "Aggregate abrasion value shall",
+      "text": "2.5 Aggregate abrasion value shall not exceed 30 percent for concrete for wearing surfaces and 50 percent for other concrete.",
+      "clause_id": "IS 383:1970#2.5",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 17,
+      "page_end": 17,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "2.6",
+      "title": "Soundness (for concrete liable",
+      "text": "2.6 Soundness (for concrete liable to be exposed to frost action) — Coarse and fine aggregates shall pass a sodium or magnesium sulphate accelerated soundness test specified in IS : 2386 (Part V) 1963, for concrete liable to be exposed to the action of frost.",
+      "clause_id": "IS 383:1970#2.6",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 17,
+      "page_end": 17,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "3",
+      "title": "Size and Grading",
+      "text": "3. Size and Grading",
+      "clause_id": "IS 383:1970#3",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 17,
+      "page_end": 17,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "3.1",
+      "title": "Single–Sized and Graded Coarse Aggregates–",
+      "text": "3.1 Single-Sized and Graded Coarse Aggregates- Shall be supplied in normal sizes given in the following table: IS Sieve Percentage Passing for Single-Sized Percentage Passing for Graded Designation Aggregate of Nominal Size Aggregate of  Nominal Size 63 mm 40 mm 20 mm 16 mm 12.5 mm 10 mm 40 mm 20 mm 16 mm 12.5 mm 80 mm 100 - - - - - 100 - - - 63 mm 85 to 100 100 - - - - - - - - 40 mm 0 to 30 85 to 100 100 - - - 95 to 100 100 - - 20 mm 0 to 5 0 to 20 85 to 100 100 - - 30 to 70 95 to 100 100 100 16 mm - - - 85 to 100 100 - - -  90 to 100 - 12.5 mm - - - - 85 to 100 100 - - - 90 to 100 10 mm 0 to 5 0 to 5 0 to 20 0 to 30 0 to 45 85 to 100 10 to 35 25 to 55 30 to 70 40 to 85 4.75 mm - - 0 to 5 0 to 5 0 to 10 0 to 20 0 to 5 o to 10 0 to 10 0 to 10 2.36 mm - - - - - 0 to 5 - - - -",
+      "clause_id": "IS 383:1970#3.1",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 17,
+      "page_end": 17,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "3.2",
+      "title": "Coarse Aggregates for Mass",
+      "text": "3.2 Coarse Aggregates for Mass Concrete - Shall be in sizes specified in the following table. Class and Size IS Sieve Designation Percentage Passing Very large, 160-80 mm 160 mm 90-100 80 mm 0-10 Large, 80-40 mm 80 mm 90-100 40 mm 0-10 Medium, 40-20 mm 40 mm 90-100 20 mm 0-10 Small, 20-4.75 mm 20 mm 90-100 4.75 mm 0-10 2.36 mm 0-2",
+      "clause_id": "IS 383:1970#3.2",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 18,
+      "page_end": 18,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "3.3",
+      "title": "Fine Aggregates – Grading",
+      "text": "3.3 Fine Aggregates - Grading in zones I to IV shall be within the follwoing limits: IS Sieve Percentage Passing for Designation Grading Grading Grading Grading Zone I Zone II Zone III Zone IV 10 mm 100 100 100 100 4.75 mm 90-100 90-100 90-100 95-100 2.36 mm 60-95 75-100 85-100 95-100 1.18 mm 30-70 55-90 75-100 90-100 600 micron 15-34 35-59 60-79 80-100 300 micron 5-20 8-30 12-40 15-50 150 micron 0-10 0-10 0-10 0-15",
+      "clause_id": "IS 383:1970#3.3",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 18,
+      "page_end": 18,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 383:1970",
+      "clause": "3.4",
+      "title": "All",
+      "text": "3.4 All-in Aggregates - When available, grading shall be according to the following table: IS Sieve Designation Percentage Passing for All in Aggregate of Nominal Size 40 mm 20 mm 80 mm 100 — 40 mm 95-100 10 20 mm 45-75 95-100 4.75 mm 25-45 30-50 600 micron 8-30 10-35 150 micron 0-6 0-6 Note 1 — For methods of tests, refer to all parts of IS : 2386 Methods of test for aggregates for  concrete: Note 2 — Description and physical characteristics of aggregates for concrete is given in Appendix C of the standard. For detailed information, refer to IS 383:1970 Specification for coarse and fine aggregates from natural sources for concrete (second revision).",
+      "clause_id": "IS 383:1970#3.4",
+      "family": "IS 383",
+      "year": 1970,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 18,
+      "page_end": 18,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 383:1970",
+    "record_id": 10425,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      17,
+      18
+    ],
+    "n_clauses": 13,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

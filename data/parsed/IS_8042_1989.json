@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8042:1989",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1 Scope",
+      "clause_id": "IS 8042:1989#1",
+      "family": "IS 8042",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 30,
+      "page_end": 30,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8042:1989",
+      "clause": "1.1",
+      "title": "Manufacture and chemical and physical",
+      "text": "1.1 Manufacture and chemical and physical requirements of white Portland cement. Note-White Portland cement is generally used for architectural and decorative purposes and is generally meant for nonstructural  use. It is made from raw materials containing very little iron  oxide and magnesium oxide.",
+      "clause_id": "IS 8042:1989#1.1",
+      "family": "IS 8042",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 30,
+      "page_end": 30,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8042:1989",
+      "clause": "2",
+      "title": "Chemical Reqrirements",
+      "text": "2. Chemical Reqrirements  — See Table 1.",
+      "clause_id": "IS 8042:1989#2",
+      "family": "IS 8042",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 30,
+      "page_end": 30,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8042:1989",
+      "clause": "3",
+      "title": "Physical Requirements",
+      "text": "3. Physical Requirements — Physical requirements of white portland cement shall be as laid down in IS 269: 1989* except that compressive strength of mortar SUMMARY OF IS 8042 : 1989  WHITE  PORTLAND CEMENT (Second Revision) prepared from white portland cement shall not be less than 90 percent of those specified for 33 grade ordinary Portland cement.",
+      "clause_id": "IS 8042:1989#3",
+      "family": "IS 8042",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 30,
+      "page_end": 30,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8042:1989",
+      "clause": "4",
+      "title": "Degree of Whiteness",
+      "text": "4. Degree of Whiteness — The reflectance of neat cement ring prepared and tested in accordance with the test specified shall not be less than 70 percent.",
+      "clause_id": "IS 8042:1989#4",
+      "family": "IS 8042",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 30,
+      "page_end": 30,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8042:1989",
+      "clause": "5",
+      "title": "Delivery",
+      "text": "5. Delivery— Packed in specified bags of 50 kg, 10 kg, 5 kg, 2 kg or 1 kg net or in bulk subject to tolerances specified in the standard. TABLE 1 CHEMICAL REQUIREMENTS FOR WHITE PORTLAND CEMENT Sl No.                Characteristic Requirements (1)                             (2) (3) i)             Ratio of percentages of lime to percentage of Not greater than 1.02 silica, alumina and iron oxide and not less than 0.66 ii)              Iron oxide, percent by mass Not more than 1.0 percent iii)             Insoluble residue, percent by mass Not more than 2.0 percent iv)             Magenesisa, percent by mass Not more than 6 percent v)              Total sulphur content calculated as Not more than 3.5 percent sulphuric anhydride (SO3), percent by mass Note —For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement and IS 4032:1985 Methods of  chemical analysis of hydraulic cement. (first revision) For detailed information, refer to IS 8042:1989 Specification for white Portland cement (second revision). * Ordinary portland cement 33 Grade (fourth revision)",
+      "clause_id": "IS 8042:1989#5",
+      "family": "IS 8042",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "packing",
+      "page_start": 30,
+      "page_end": 30,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8042:1989",
+    "record_id": 25281,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      30,
+      30
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

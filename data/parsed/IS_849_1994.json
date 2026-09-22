@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 849:1994",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for cold setting casein glue used in the wood panel industry, wood-work and joinery industry.",
+      "clause_id": "IS 849:1994#1",
+      "family": "IS 849",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 554,
+      "page_end": 554,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 849:1994",
+      "clause": "2",
+      "title": "General Quality – The",
+      "text": "2. General Quality - The glue shall be in the form of powder, the adhesive constituent of which shall be mainly casein conforming to IS 850 : 1994*. When prepared in water in accordance with the manufacturer's instruction, it shall yield a homogeneous pasty  fluid, free from grit and of satisfactory consistency. The glue shall be supplied in non-absorbent airtight containers.",
+      "clause_id": "IS 849:1994#2",
+      "family": "IS 849",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 554,
+      "page_end": 554,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 849:1994",
+      "clause": "3",
+      "title": "Tests",
+      "text": "3. Tests",
+      "clause_id": "IS 849:1994#3",
+      "family": "IS 849",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 554,
+      "page_end": 554,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 849:1994",
+      "clause": "3.1",
+      "title": "Adhesive Strength",
+      "text": "3.1 Adhesive Strength— The mean failing load  shall be not less than 270 kg and 45 kg (2 700 N and 450 N) for dry and wet tests, respectively.",
+      "clause_id": "IS 849:1994#3.1",
+      "family": "IS 849",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 554,
+      "page_end": 554,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 849:1994",
+      "clause": "3.2",
+      "title": "Mycological Test",
+      "text": "3.2 Mycological Test— Where specified by the purchaser, the mycological test shall be conducted. The test pieces shall comply with the requirements specified under 3.1 for wet  test.",
+      "clause_id": "IS 849:1994#3.2",
+      "family": "IS 849",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 554,
+      "page_end": 554,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 849:1994",
+      "clause": "3.3",
+      "title": "Test for Chloride Content",
+      "text": "3.3 Test for Chloride Content -The aqueous extract of the  paper joined with casein glue shall not contain chlorides calculated as sodium chloride exceeding 0.1 percent. This test shall only be conducted when specifically required by the purchaser.",
+      "clause_id": "IS 849:1994#3.3",
+      "family": "IS 849",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 554,
+      "page_end": 554,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 849:1994",
+      "clause": "3.4",
+      "title": "Test for Sulphate Content",
+      "text": "3.4 Test for Sulphate Content —When specifically required by the purchaser, the aqueous extract of the paper joined with casein glue shall not contain sulphates calculated as anhydrous sodium sulphate exceeding 0.6 percent.",
+      "clause_id": "IS 849:1994#3.4",
+      "family": "IS 849",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 554,
+      "page_end": 554,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 849:1994",
+      "clause": "4",
+      "title": "Storage Properties –The glue after being",
+      "text": "4. Storage Properties -The glue after being manufactured when stored in the original closed containers in a cool place for 12 months or for the period specified by the manufacturer shall comply with the requirements specified under 3.1. *  Natural sour [(lactic)] casein for glue manufacture (first revision). Note: For method of tests, refer to Appendices A to C of the standard. For detailed information, refer to IS  849 : 1994 Specification for cold setting casein glue for wood  (first revision)",
+      "clause_id": "IS 849:1994#4",
+      "family": "IS 849",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 554,
+      "page_end": 554,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 849:1994",
+    "record_id": 21305,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      554,
+      554
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.977,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

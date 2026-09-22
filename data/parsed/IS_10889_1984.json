@@ -1,0 +1,382 @@
+{
+  "clauses": [
+    {
+      "is": "IS 10889:1984",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and the methods of sampling and test for natural and black colour (carbon black pigment) high density polyethylene films. Coloured films other than black shall be as a greed to between the purchaser and the supplier.",
+      "clause_id": "IS 10889:1984#1",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "2",
+      "title": "Grades",
+      "text": "2. Grades Grade1- High molecular mass, high density polyethylene (HM HDPE); and Grade 2 - Medium molecular mass, high density polyethylene (MM HDPE).",
+      "clause_id": "IS 10889:1984#2",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 10889:1984#3",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.1",
+      "title": "General",
+      "text": "3.1 General",
+      "clause_id": "IS 10889:1984#3.1",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.1.1",
+      "title": "Appearance – Shall be",
+      "text": "3.1.1 Appearance -  Shall be uniform in colour, texture and finish. The material shall be substantially free from pinholes and reasonably free from undispersed raw materials, streaks and particles of foreign matter. There shall be no other visible defects, such as holes, tears or blisters. The edges shall be free from nicks and cuts visible to unaided eye.",
+      "clause_id": "IS 10889:1984#3.1.1",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.1.2",
+      "title": "Film Form – Shall",
+      "text": "3.1.2 Film Form - Shall be furnished in the form of flat sheet or rolls or in the form of flat tubing or in any other form as agreed.",
+      "clause_id": "IS 10889:1984#3.1.2",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.1.3",
+      "title": "Odour – Shall be",
+      "text": "3.1.3 Odour - Shall be free from any objectionable odour.",
+      "clause_id": "IS 10889:1984#3.1.3",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.1.4",
+      "title": "Density – Shall be as prescribed.",
+      "text": "3.1.4 Density - Shall be as prescribed.",
+      "clause_id": "IS 10889:1984#3.1.4",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.1.5",
+      "title": "Melt",
+      "text": "3.1.5 Melt  flow index (i5 ) -  The melt flow index (i5) of the film shall be as prescribed for the appropriate grade.",
+      "clause_id": "IS 10889:1984#3.1.5",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.1.6",
+      "title": "Black Film",
+      "text": "3.1.6 Black Film a) The percentage of carbon black in the  material shall be 2.5 ± 0.5 percent by mass; and b) The dispersion of the carbon black shall be satisfactory.",
+      "clause_id": "IS 10889:1984#3.1.6",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.2",
+      "title": "Dimensional Requirements",
+      "text": "3.2 Dimensional Requirements",
+      "clause_id": "IS 10889:1984#3.2",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.2.1",
+      "title": "Nominal Thickness – Is",
+      "text": "3.2.1 Nominal Thickness - Is the theoretically desired thickness of a film for a particular application.",
+      "clause_id": "IS 10889:1984#3.2.1",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.2.1.1",
+      "title": "Tolerance on Thickness –",
+      "text": "3.2.1.1 Tolerance on Thickness - At any given point and the average thickness of polyethylene films for various thicknesses shall be as follows Nominal Thickness Tolerance, percent Grade 1 film Grade 2 film Up to and including 40 µm ± 25 ± 25 Above 40 µm ± 20 ± 20",
+      "clause_id": "IS 10889:1984#3.2.1.1",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 4,
+      "parent_clause": "3.2.1",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.2.2",
+      "title": "Nominal Width – The",
+      "text": "3.2.2 Nominal Width -  The theoretically desired width of a film for a particular application.",
+      "clause_id": "IS 10889:1984#3.2.2",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.2.2.1",
+      "title": "Tolerance on Width –",
+      "text": "3.2.2.1 Tolerance on Width -  Shall be as given below: Nominal Width Tolerance, mm cm Grade 1 film Grade 2 film Up to to 50 ± 5 ± 5 Above 50 and up to 125 ± 8 ± 8 Above 125 and up to 250 ± 20 ± 20 Above 250 and up to 300 ± 40 ± 40 Above 300 ± 65 ± 65",
+      "clause_id": "IS 10889:1984#3.2.2.1",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 4,
+      "parent_clause": "3.2.2",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.3",
+      "title": "Yield Tolerance – The",
+      "text": "3.3 Yield Tolerance - The actual yield shall be within the following tolerance limits of the nominal yields: Grade 1 film Grade 2 film One roll ± 10 percent ± 10 percent Lots of 250 kg ± 10 percent ± 10 percent Lots over 250 kg and ± 5 percent ± 5 percent upto 1 250 kg Lots over 1 250 kg ± 3 percent ± 3 percent",
+      "clause_id": "IS 10889:1984#3.3",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.4",
+      "title": "Physical Properties",
+      "text": "3.4 Physical Properties",
+      "clause_id": "IS 10889:1984#3.4",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 867,
+      "page_end": 867,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.4.1",
+      "title": "Tensile Strength at Break",
+      "text": "3.4.1 Tensile Strength at Break -  The minimum tensile strength at break for all thickness of polyethylene film shall be as under: Grade 1 film  Grade 2 film Machine direction, kgf/cm2 300 250 Transverse direction, kgf/cm2 250 200",
+      "clause_id": "IS 10889:1984#3.4.1",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.4",
+      "role": "other",
+      "page_start": 868,
+      "page_end": 868,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.4.2",
+      "title": "Elongation at Break –",
+      "text": "3.4.2 Elongation at Break - The elongation at break for all thickness of polyethylene film shall be as under: Elongation at Break, Min Grade 1 film Grade 2 film Machine direction 300 300 Transverse direction 300 300",
+      "clause_id": "IS 10889:1984#3.4.2",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.4",
+      "role": "other",
+      "page_start": 868,
+      "page_end": 868,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10889:1984",
+      "clause": "3.4.3",
+      "title": "Impact Resistance (Falling Dart)",
+      "text": "3.4.3 Impact Resistance (Falling Dart) : The impact failure load obtained from the drop of 66 cm shall not be less than that given below for appropriate average thickness of film: Average Thickness Impact Failure Load, of Film N(gf), Min µm Grade 1 film Grade 2 film 12.5 35 — 25.0 70 25 50.0 140 50 100.0 280 100 Note - Values for impact failure loads for intermediate thickness may be obtained by interpolation., Note - For methods of tests, refer to Appendix A of the standard. For detailed information, refer to IS 10889 : 1984 Specifications for high density polythylene films.",
+      "clause_id": "IS 10889:1984#3.4.3",
+      "family": "IS 10889",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "3.4",
+      "role": "other",
+      "page_start": 868,
+      "page_end": 868,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 10889:1984",
+    "record_id": 1860,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      867,
+      868
+    ],
+    "n_clauses": 20,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

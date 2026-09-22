@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 14846:2000",
+      "clause": "1.0",
+      "title": "PN 1.6",
+      "text": "1.0 PN 1.6 Body 2.4 Seat 1.6 TEST  DURATION  FOR  SLUICE VALVES Valve Size Test for Test Duration (mm) Body/Seat (Minutes) 50 to1200 Body 5 Seat 2 7.2. Liquid Penetrant Test - After forming of a collar no stem shall show any sign of flaw when subjected to liquid penetrant flaw detection test in accordance with IS : 3658. 1. Scope —  Requirements for non-rising stem type sluice valves from 50 to 1 200 mm sizes used for water supply up to 45º C and having double flanged ends for connections.",
+      "clause_id": "IS 14846:2000#1.0",
+      "family": "IS 14846",
+      "year": 2000,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 496,
+      "page_end": 496,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 14846:2000",
+      "clause": "2",
+      "title": "Nominal Pressures",
+      "text": "2. Nominal Pressures— (Maximum permissible gauge working pressur) Nominal Pressure (PN) Nominal Sized MPa mm PN 1.0 50 to 1200 PN 1.6 50 to 600",
+      "clause_id": "IS 14846:2000#2",
+      "family": "IS 14846",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 496,
+      "page_end": 496,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 14846:2000",
+      "clause": "3",
+      "title": "Nominal Sizes – 50,",
+      "text": "3. Nominal Sizes -  50, 65, 80, 100, 125, 150,200,250, 300, 350, 400,450, 500, 600, 700, 750,800, 900, 1000,1100 and 1 200 mm.   The nominal size shall refer to the nominal bore of the waterway. The actual bore at any point shall not be less than the nominal size.",
+      "clause_id": "IS 14846:2000#3",
+      "family": "IS 14846",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 496,
+      "page_end": 496,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 14846:2000",
+      "clause": "4",
+      "title": "Materials",
+      "text": "4. Materials Sl.No. Component Material i) Body, Bonnet, Grey cast iron Dome, Stool cover, Wedge, Stuffing box, gland, thrust Plate and Cap ii) Hand wheel Grey Cast iron iii) Stem Stainless Steel iv) Wedge nut, Leaded tin Shoe, Channel Bronze v) Body seat ring, Leaded tin Wedge facing Bronze ring and Bushes vi) Bolts Carbon Steel vii) Nuts Carbon Steel viii) Gasket Rubber ix) Gland Packing Jute and  hemp x) Gear Spheroidal graphite iron xi) Gear Housing Grey cast iron xii) Pinion & Pinion Wrought Shaft Carbon Steel SUMMARY OF IS 14846 : 2000  SLUICE VALVES  FOR WATER WORKS  PURPOSES (50 TO 1200 mm SIZE)",
+      "clause_id": "IS 14846:2000#4",
+      "family": "IS 14846",
+      "year": 2000,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 496,
+      "page_end": 496,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 14846:2000",
+    "record_id": 6824,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      496,
+      496
+    ],
+    "n_clauses": 4,
+    "has_scope": false,
+    "has_references": false,
+    "text_coverage_ratio": 0.576,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

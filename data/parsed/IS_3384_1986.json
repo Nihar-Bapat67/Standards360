@@ -1,0 +1,52 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3384:1986",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Covers the requirements for bitumen primer for application to concrete and masonry surfaces and to be used with bitumen in damp-proofing and waterproofing below or above ground level. SUMMARY OF IS  3384 : 1986 BITUMEN PRIMER FOR USE IN WATER-PROOFING AND DAMP-PROOFING (First Revision) TABLE 1 REQUIREMENTS OF PRIMER Sl.No. Characteristic Requirement (1) (2) (3) i) Viscosity by standard tar viscometer,4-mm orifice, in sec, at 25oC 4 to 24 ii) Distillation fractions, percent by volume of the primer- a) Up to 225oC, Min 35 b) Up to 360oC, Max                                                                                                                                                65 iii) Flash point, Pensky Martens closed  type, Min 40 iv) Water content, percent, Max 0.2 v) Tests on residue from distillation up to 360oC a) Ductility,  27oC, Min 3 b) Penetration at 25oC, 100g, 5 sec in 1/100 cm 20 to 50 c) Matter soluble in carbon disulphide or carbon tetrachloride or trichloroethylene, 99.0 percent by  weight, Min Note— For test rocedures, refer to Methods of testing tar and bituminous materials; IS 1203 : 1978 Determination of penetration IS 1206 (Part 1): 1978 Determination of viscosity: Part 1 Industrial viscosity. IS 1208 : 1978 Determination of ductility. IS 1209 : 1978 Determination of flash point and fire point. IS 1211 : 1978 Determination of water content (Dean and Stark Method). IS 1213 : 1978 Distillation test IS 1216 : 1978 Determination of solubility in carbon disulphide tricholoroethyelne For detailed information, refer to IS 3384 : 1986 Specification for  bitumen primer for use in water-proofing and damp-proofing.",
+      "clause_id": "IS 3384:1986#1",
+      "family": "IS 3384",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 260,
+      "page_end": 260,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3384:1986",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements — See Table 1",
+      "clause_id": "IS 3384:1986#2",
+      "family": "IS 3384",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 260,
+      "page_end": 260,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3384:1986",
+    "record_id": 17791,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      260,
+      260
+    ],
+    "n_clauses": 2,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

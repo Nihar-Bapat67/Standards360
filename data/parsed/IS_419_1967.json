@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 419:1967",
+      "clause": "1",
+      "title": "Scope – Requirements, and",
+      "text": "1. Scope - Requirements, and the methods of sampling and test for  putty for use in fixing glass panes on wood and metal frames and for filling splits, cracks and holes in wood or metal.",
+      "clause_id": "IS 419:1967#1",
+      "family": "IS 419",
+      "year": 1967,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 828,
+      "page_end": 828,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 419:1967",
+      "clause": "2",
+      "title": "Requirements –",
+      "text": "2. Requirements -",
+      "clause_id": "IS 419:1967#2",
+      "family": "IS 419",
+      "year": 1967,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 828,
+      "page_end": 828,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 419:1967",
+      "clause": "2.1",
+      "title": "Form and Condition –",
+      "text": "2.1 Form and Condition -  Shall be homogeneous paste and shall be free from grit and other visible impurities.",
+      "clause_id": "IS 419:1967#2.1",
+      "family": "IS 419",
+      "year": 1967,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 828,
+      "page_end": 828,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 419:1967",
+      "clause": "2.2",
+      "title": "Composition – Shall consist",
+      "text": "2.2 Composition -  Shall consist of mainly whiting and linsed oil, if necessary, varnish and suitable additives.",
+      "clause_id": "IS 419:1967#2.2",
+      "family": "IS 419",
+      "year": 1967,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 828,
+      "page_end": 828,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 419:1967",
+      "clause": "2.2.1",
+      "title": "The calcium carbonate content of extracted",
+      "text": "2.2.1 The calcium carbonate content of extracted pigment, from putty, shall be not less than 80 percent.",
+      "clause_id": "IS 419:1967#2.2.1",
+      "family": "IS 419",
+      "year": 1967,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 828,
+      "page_end": 828,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 419:1967",
+      "clause": "2.3",
+      "title": "Consistency – The material,",
+      "text": "2.3 Consistency - The material, after thorough working in hands, shall have good plastic quality without sliminess or stickness that would render it difficult to handle and apply. It shall work readily and smoothly under a palette knife without crumbling or cracking. After being moulded in place, it shall convert itself into a cohesive mass which will not yield to specified pressure after 72 hours.",
+      "clause_id": "IS 419:1967#2.3",
+      "family": "IS 419",
+      "year": 1967,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 828,
+      "page_end": 828,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 419:1967",
+      "clause": "2.4",
+      "title": "The material shall also",
+      "text": "2.4 The material shall also comply with the requirements given  in Table 1. TABLE 1 REQUIREMENTS FOR PUTTY, FOR USE ON WINDOW FRAMES 1 2",
+      "clause_id": "IS 419:1967#2.4",
+      "family": "IS 419",
+      "year": 1967,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 828,
+      "page_end": 828,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 419:1967",
+      "clause": "3",
+      "title": "4",
+      "text": "3 4 i) Residue on sieve, 5.0 IS 101 (Part 8/Sec 1):19891) percent by weight, Max ii) Water content, percent 1.5 IS 101 (Part 2/Sec 1):19882) by weight, Max iii) Keeping properties Not less than 6 IS 101 (Part 6/Sec2): 19893) months Note—For methods of tests, refer to IS 85 : 1950 Methods of test for oil pastes for paints; and for method of  determination of calcium carbonate content and setting time, refer to Appendix A and B  of the standard. For detailed information, refer to IS 419 : 1967  Specifications  for putty, for use on window frames (first revision). 1) Method of sampling and test for paints, varnishes and related products : Part 8 Tests for pigments and other solids. Section 1 Residue on sieve (third revision) 2) Method of sampling and test for paints, varnishes and related products : Part 2 Tests on liquid paints (chemical examination), Section 1 Water content (thrid revision). 3) Method of sampling and test for paints, varnishes and related products : Part 6 Durability tests on paint films, Section 2 Keeping properties (third revision)",
+      "clause_id": "IS 419:1967#3",
+      "family": "IS 419",
+      "year": 1967,
+      "level": 1,
+      "parent_clause": null,
+      "role": "references",
+      "page_start": 828,
+      "page_end": 828,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 419:1967",
+    "record_id": 10830,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      828,
+      828
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 0.987,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

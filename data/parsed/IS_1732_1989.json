@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1732:1989",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope  -  Specifies dimensions, sectional areas and mass of hot-rolled round and square steel bars for structural and general engineering purposes. This standard does not cover bars for rivets and threaded components.",
+      "clause_id": "IS 1732:1989#1",
+      "family": "IS 1732",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 726,
+      "page_end": 726,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1732:1989",
+      "clause": "2",
+      "title": "Designation",
+      "text": "2. Designation  -  Hot rolled round and square steel bars conforming to this standard shall be designated by the letters ISRO and ISSQ respectively followed by the diameter in mm in the case of round bars and the side width in mm in the case of square bars (See Tables 1 and 2).",
+      "clause_id": "IS 1732:1989#2",
+      "family": "IS 1732",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 726,
+      "page_end": 726,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1732:1989",
+      "clause": "3",
+      "title": "Dimensions and Mass",
+      "text": "3. Dimensions and Mass  -  The dimensions of hotrolled round and square steel bars shall be as given in Tables 1 and 2. TABLE 1   DIMENSIONS OF HOT- ROLLED ROUND STEELBARS Designation ISRO    5 ISRO    28 ISRO    70 ISRO    6 ISRO    30 ISRO    75 ISRO    8 ISRO    32 ISRO    80 ISRO  10 ISRO    35 ISRO    90 ISRO  12 ISRO    40 ISRO  100 ISRO  14 ISRO    45 ISRO  110 ISRO  16 ISRO    50 ISRO  120 ISRO  18 ISRO    55 ISRO  140 ISRO  20 ISRO    60 ISRO  160 ISRO  22 ISRO    65 ISRO  180 ISRO  25 ISRO  200 TABLE 2   DIMENSIONS OF HOT-ROLLED SQUARE  STEEL BARS Designation ISSQ    5 ISSQ  18 ISSQ    50 ISSQ    6 ISSQ  20 ISSQ    60 ISSQ    8 ISSQ  22 ISSQ    70 ISSQ  10 ISSQ  25 ISSQ    80 ISSQ  12 ISSQ  30 ISSQ  100 ISSQ  14 ISSQ  35 ISSQ  120 ISSQ  16 ISSQ  40 Note -  For sectional areas and mass of bars, refer to Tables 1 and 2 of the standard. For detailed information, refer to IS 1732 : 1989  Specifications for steel bars, round and square for structural and general engineering  purposes-Dimensions  (second revision).",
+      "clause_id": "IS 1732:1989#3",
+      "family": "IS 1732",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 726,
+      "page_end": 726,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1732:1989",
+    "record_id": 8141,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      726,
+      726
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.965,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

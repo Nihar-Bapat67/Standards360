@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2209:1976",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for mortice locks (vertical type)",
+      "clause_id": "IS 2209:1976#1",
+      "family": "IS 2209",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 519,
+      "page_end": 519,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2209:1976",
+      "clause": "2",
+      "title": "Sizes",
+      "text": "2. Sizes  -  65, 75 and 100 mm.  Size shall be denoted by the overall length of body measured from the outside face of the fore end to the rear end. Measured length shall not vary by more than 3 mm from the length specified for size. Note 1—Mortice locks of other size may be made if mutally agreed. Note 2 — For typical design of mortice lock see Fig. 1 of the standard",
+      "clause_id": "IS 2209:1976#2",
+      "family": "IS 2209",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 519,
+      "page_end": 519,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2209:1976",
+      "clause": "3",
+      "title": "Material –Material for different component parts",
+      "text": "3. Material -Material for different component parts shall comply with the requirements given in Tables 2 and 3 of the standard.",
+      "clause_id": "IS 2209:1976#3",
+      "family": "IS 2209",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 519,
+      "page_end": 519,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2209:1976",
+      "clause": "4",
+      "title": "Non",
+      "text": "4. Non-Interchangeability — Two lever locks shall be manufactured to have non-interchangeable keys in a batch consisting of a minimum of 24 locks. In case of locks with more than two levers, these shall have noninterchangeable keys in a batch of minimum 100 locks. For detailed information, refer to IS 2209 : 1976  Specification for mortice locks (vertical type) (third revision).",
+      "clause_id": "IS 2209:1976#4",
+      "family": "IS 2209",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 519,
+      "page_end": 519,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2209:1976",
+      "clause": "5",
+      "title": "Manufacture",
+      "text": "5. Manufacture a) Body—Clear depth 15 mm, Max. b) Locking bolt— Section not less than 8 ×  25 mm. c) Lever spring — Lever spring fitted into the lever shall withstand the prescribed tests without showing signs of permanent set. d) Lock shall be capable of being opened  with the key from both inside and  outside.",
+      "clause_id": "IS 2209:1976#5",
+      "family": "IS 2209",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 519,
+      "page_end": 519,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2209:1976",
+      "clause": "6",
+      "title": "Finish –",
+      "text": "6. Finish - a) Brass body -  Finished smooth. b) Steel body -  Protective coating such as painting. c) Aluminium alloy body -  Anodized. d) Face plate and striking plate— Finished smooth and polished bright or satin (or may be chromium plated anodized or  oxidized).",
+      "clause_id": "IS 2209:1976#6",
+      "family": "IS 2209",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 519,
+      "page_end": 519,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2209:1976",
+      "clause": "7",
+      "title": "Tests",
+      "text": "7. Tests  —  Shall withstand the performance and endurance tests as given in 9.1 and 9.2 of the standard.",
+      "clause_id": "IS 2209:1976#7",
+      "family": "IS 2209",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 519,
+      "page_end": 519,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2209:1976",
+    "record_id": 8740,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      519,
+      519
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.985,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

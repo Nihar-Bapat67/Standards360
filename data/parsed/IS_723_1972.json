@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 723:1972",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope - Requirements of steel countersunk head wire nails.",
+      "clause_id": "IS 723:1972#1",
+      "family": "IS 723",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 761,
+      "page_end": 761,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 723:1972",
+      "clause": "2",
+      "title": "Dimensions and Tolerances (in mm)",
+      "text": "2. Dimensions and Tolerances (in mm)",
+      "clause_id": "IS 723:1972#2",
+      "family": "IS 723",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 761,
+      "page_end": 761,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 723:1972",
+      "clause": "2.1",
+      "title": "Dimensions",
+      "text": "2.1 Dimensions Shank Length Head Diameter Diameter 1.25 20 3.4 1.4 20 3.8 1.6 15, 20, 25 4 1.8 25, 30 4.5 2 25, 30, 40, 50 4 2.24 40 4.5 2.5 50 5 2.8 60 5.6 3.15 60 5.7 3.55 80 6.4 4 100 7.2 4.5 90, 100, 125 8.1 5 100, 125, 150 9 6.3 150 11.3 8 200, 225 14.4 10 250 18",
+      "clause_id": "IS 723:1972#2.1",
+      "family": "IS 723",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 761,
+      "page_end": 761,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 723:1972",
+      "clause": "2.2",
+      "title": "Tolerances (in mm)",
+      "text": "2.2 Tolerances (in mm) a) On shank dia 1.25 to 2.24 ±0.04 2.5 ±0.05 2.8 to 10 ±0.06 b)  On length 15 to 20 ±1 25 to 30 ±1.2 40 ±1.5 50 to 60 ±2.1 80 ±2.6 90 ±3.1 100 ±3.4 125 to 150 ±3.8 200 to 250 ±4.4",
+      "clause_id": "IS 723:1972#2.2",
+      "family": "IS 723",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 761,
+      "page_end": 761,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 723:1972",
+      "clause": "2.3",
+      "title": "Bend of shank shall",
+      "text": "2.3 Bend of shank shall not exceed 1 percent of length.",
+      "clause_id": "IS 723:1972#2.3",
+      "family": "IS 723",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 761,
+      "page_end": 761,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 723:1972",
+      "clause": "2.4",
+      "title": "Eccentricity and ovality of",
+      "text": "2.4 Eccentricity and ovality of centre of nail head from axis of shank: a) Maximum12 percent of shank diameter  for nails with shank diameter 2 mm and above. b) Maximum14 percent of shank diameter for nails with shank diameter below 2 mm. Note - For detailed dimensions and tolerances, refer to Tables 1 to 4 of the standard.",
+      "clause_id": "IS 723:1972#2.4",
+      "family": "IS 723",
+      "year": 1972,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 761,
+      "page_end": 761,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 723:1972",
+      "clause": "3",
+      "title": "Designation – As an",
+      "text": "3. Designation - As an example, a countersunk head nail of size  4.00 mm and length 100 mm shall be designated  as `Nail 4 × 100  IS : 723'.",
+      "clause_id": "IS 723:1972#3",
+      "family": "IS 723",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 761,
+      "page_end": 761,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 723:1972",
+      "clause": "4",
+      "title": "Finish – Shall be",
+      "text": "4.   Finish - Shall be supplied plain finished.",
+      "clause_id": "IS 723:1972#4",
+      "family": "IS 723",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 761,
+      "page_end": 761,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 723:1972",
+      "clause": "5",
+      "title": "Test (Bend Test) –",
+      "text": "5.  Test (Bend Test) - Test piece shall not break or develop crack when doubled over by pressure or hammer blows until internal radius equals diameter of test piece and sides are parallel. For detailed information, refer to IS 723 : 1972 Specification for steel countersunk head wire nails (second revision).",
+      "clause_id": "IS 723:1972#5",
+      "family": "IS 723",
+      "year": 1972,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 761,
+      "page_end": 761,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 723:1972",
+    "record_id": 14156,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      761,
+      761
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

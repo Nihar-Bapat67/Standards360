@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 11128:1984",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and methods of sampling and test for spray-applied, hydrated calcium silicate thermal insulation.",
+      "clause_id": "IS 11128:1984#1",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 11128:1984#2",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2.1",
+      "title": "Sprayable hydrated calcium silicate insulation shall",
+      "text": "2.1 Sprayable hydrated calcium silicate insulation shall be composed predominantly of calcium silicate mineral or refractory fibres and a suitable proportion of inorganic, heat-resistant binder. The binder and the fibres shall be uniformly blended and shall not separate during normal handling and spraying operations. The fibre content shall be less than 15 percent.",
+      "clause_id": "IS 11128:1984#2.1",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2.2",
+      "title": "Density",
+      "text": "2.2 Density — The applied and dried density of the material shall be in the range of 160-350 kg/m3 and shall not vary by more than ±10 percent from the value declared by the manufacturer.",
+      "clause_id": "IS 11128:1984#2.2",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2.3",
+      "title": "Compressive Strength",
+      "text": "2.3 Compressive Strength — Shall be as given below: Deformation, Compressive Strength, Percent kPa (kN/m2), Min 5 285 10 500",
+      "clause_id": "IS 11128:1984#2.3",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2.4",
+      "title": "Thermal Conductivity – Shall",
+      "text": "2.4 Thermal Conductivity -  Shall not exceed the values given below: Mean Temp- Thermal Conductivity erature ºC W/m.K 100 0.069 200 0.081 300 0.097 400 0.117 500 0.144",
+      "clause_id": "IS 11128:1984#2.4",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2.5",
+      "title": "Adhesion – Adhesion of",
+      "text": "2.5 Adhesion -  Adhesion of dried thermal insulation to steel shall be 3.65 kN/m2.",
+      "clause_id": "IS 11128:1984#2.5",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2.6",
+      "title": "Heat Resistance – Shall",
+      "text": "2.6 Heat Resistance -  Shall not suffer visible deterioration when tested to the maximum recommended temperature of use. At increasing temperatures, the material shall be deemed suitable for use conditions of soaking heat for 24 hours up to the specified temperature at which the following requirements are met : a)  Linear shrinkage         - 2 percent, Max b)  Loss in mass - 15 percent, Max c)  Compressive strength -        10 percent, Max reduction in thickness under a load of 345 kN/m2",
+      "clause_id": "IS 11128:1984#2.6",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2.7",
+      "title": "Incombustibility – Shall be",
+      "text": "2.7 Incombustibility - Shall be found to be incombustible.",
+      "clause_id": "IS 11128:1984#2.7",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2.8",
+      "title": "Moisture Content – Shall",
+      "text": "2.8 Moisture Content - Shall not exceed 7.5 percent.",
+      "clause_id": "IS 11128:1984#2.8",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2.9",
+      "title": "Optical Requirement",
+      "text": "2.9 Optical Requirement",
+      "clause_id": "IS 11128:1984#2.9",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 11128:1984",
+      "clause": "2.9.1",
+      "title": "Fire Protection – When",
+      "text": "2.9.1 Fire Protection - When the material is to be used for fire protection, it shall satisty the timetemperature curve as agreed to between the purchaser and the supplier. Note - For method of tests, refer to IS 3144 : 1992 Mineral wool thermal insulation materials - Methods of test (second revision), IS 3346 : 1980 method of determination of thermal conductivity of thermal insulating  materials (two slab guarded hot plate method) (first revision), IS 5688 : 1982 Methods of test for preformed block-type and pipe covering type thermal insulation (first revision), and IS 5724 : 1970 Method of test for thermal insulating cements. For detailed information, refer to IS 11128 : 1984  Specificatiosns for spray - applied hydrated calcium silicate thermal insulation.",
+      "clause_id": "IS 11128:1984#2.9.1",
+      "family": "IS 11128",
+      "year": 1984,
+      "level": 3,
+      "parent_clause": "2.9",
+      "role": "other",
+      "page_start": 850,
+      "page_end": 850,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 11128:1984",
+    "record_id": 2149,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      850,
+      850
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.99,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

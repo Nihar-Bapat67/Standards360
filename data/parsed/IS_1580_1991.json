@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1580:1991",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements and methods of sampling and tests for bituminous compound, applied cold and used for stopping leaks through cracks of roofs, floors, walls, etc; as sealant for plate joints of wagons, coaches and buses; as caulking agent for crevices and vertical joints between steel plates, folded sections, wood joints, precast concrete cladding, etc; and as adhesives for rainguards for rubber trees.",
+      "clause_id": "IS 1580:1991#1",
+      "family": "IS 1580",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 256,
+      "page_end": 256,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1580:1991",
+      "clause": "2",
+      "title": "Grades",
+      "text": "2. Grades a) Grade 1 - Shall be semistiff, smooth and homogenous paste suitable for application by spreading with hand, trowel, spatula or gun. b) Grade 2 - Shall be of light consistency and homogenous paste suitable for application by putty knife.",
+      "clause_id": "IS 1580:1991#2",
+      "family": "IS 1580",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 256,
+      "page_end": 256,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1580:1991",
+      "clause": "3",
+      "title": "Composition",
+      "text": "3. Composition — The material shall consist of bitumen and flus oils with or without addition of vegetable or resinous oils, cut back with volatile thinners and intimately mixed with non-gritty absorbent, inorganic fibrous material (with or without powder) in suitable proportions as to comply with the requirements of this standard.(see Table 1).",
+      "clause_id": "IS 1580:1991#3",
+      "family": "IS 1580",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 256,
+      "page_end": 256,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1580:1991",
+      "clause": "4",
+      "title": "Keeping Quality",
+      "text": "4. Keeping Quality — When stored under cover in a dry place in the original sealed container under normal temperature the material shall retain the specified properties for a period of not less than six months from the date of manufacture as declared on container. TABLE 1 REQUIREMENTS FOR BITUMINOUS COMPOUNDS Sl. No. Characteristic Requirements Grade 1 Grade 2 (1)                                (2) (3) (4) i) Water content, percent by mass, Max 0.5 0.5 ii) Ash content, percent by mass, Max 40 30 iii) Flow Shall satisfy the Shall satisfy the requirement requirement iv)    Flash point oC, Min 35 35 v)     Flexibility and adhesion Shall satisfy the Shall satisfy the requirement requirement vi) Consistency a) Before setting (test after 1h) Min 100 225 b) After setting (test after 24 h) Min 80 200",
+      "clause_id": "IS 1580:1991#4",
+      "family": "IS 1580",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 256,
+      "page_end": 256,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1580:1991",
+    "record_id": 17783,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      256,
+      256
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.784,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

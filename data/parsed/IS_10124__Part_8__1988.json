@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 10124 (Part 8):1988",
+      "clause": "1",
+      "title": "Scope – Requirements of manufacture, dimensions",
+      "text": "1. Scope - Requirements of manufacture, dimensions and marking for fabricated PVC 90 o bends for      potable water supplies.",
+      "clause_id": "IS 10124 (Part 8):1988#1",
+      "family": "IS 10124 (Part 8)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 372,
+      "page_end": 372,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 8):1988",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements — The general requirements for materials, sizes, methods of test, sampling and critieria for  conformity shall conform to  IS 10124 (Part 1) : 1988.",
+      "clause_id": "IS 10124 (Part 8):1988#2",
+      "family": "IS 10124 (Part 8)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 372,
+      "page_end": 372,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 8):1988",
+      "clause": "3",
+      "title": "Dimensions – See Table 1.",
+      "text": "3. Dimensions - See Table 1. TABLE 1 DIMENSIONS  FOR  90O  BENDS All Dimensions in millimetres. Size Y L R    Minimum Wall Thickness(t) Min Min Min for Working Pressure (Only for Plain Bends) 0.4 MPa 0.6 MPa 1.0 MPa (Class 2) (Class 3) (Class 4) (1) (2) (3) (4) (5) (6) (7) 63 297 63 189 1.4 2.0 3.2 75 354 75 225 1.7 2.4 3.8 90 424 90 270 1.9 2.8 4.5 110 519 110 330 2.3 3.4 5.5 125 589 125 375 2.7 3.9 6.3 140 660 140 420 2.9 4.4 7.0 160 754 160 480 3.4 4.9 8.0 180 848 180 540 3.8 5.5 9.0 200 942 200 600 4.2 6.2 10.0 225 1060 225 675 4.7 6.9 11.2 250 1178 250 750 5.2 7.7 12.5 280 1319 280 840 5.8 8.6 13.9 315 1484 315 945 6.5 9.7 15.6 355 1673 355 1065 7.3 10.8 17.7 400 1884 400 1200 8.2 12.2 19.8 450 2120 450 1350 9.3 13.7 22.4 500 2355 500 1500 10.3 15.3 24.8 560 2638 560 1680 11.6 17.2 27.8 630 2968 630 1890 13.0 19.2 31.3 SUMMARY OF IS 10124 (PART 8) : 1988 FABRICATED PVC FITTING FOR POTABLE WATER SUPPLIES PART  8 SPECIFIC REQUIREMENTS FOR 90O BENDS. (First Revision)",
+      "clause_id": "IS 10124 (Part 8):1988#3",
+      "family": "IS 10124 (Part 8)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 372,
+      "page_end": 372,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 8):1988",
+      "clause": "4",
+      "title": "Marking",
+      "text": "4. Marking —The bend shall be marked in colour as indicated below for different class of fittings— Class of Fitting Colour Class 2 (0.4 MPa) Blue Class 3 (0.6 MPa) Green Class 4 (1.0 MPa) Yellow Note 1— For 0.25 MPa pressure class, fabricated bends should not be made from 0.25 MPa pressure class pipes. For this, bends made from 0.4 MPa pressure class pipe should be used. Note 2—Y is calculated from × 2 π r, where r, radius of the bend is equal to 3 times the nominal outside diameter (D) For detailed information, refer to IS  10124 (Part 8) : 1988 Specification for  fabricated PVC fittings for potable water supplies: Part 8  Specific requirements for 90 o bends. (first revision). FIG. 1 90O BEND r o 360 90",
+      "clause_id": "IS 10124 (Part 8):1988#4",
+      "family": "IS 10124 (Part 8)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "marking",
+      "page_start": 372,
+      "page_end": 372,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 10124 (Part 8):1988",
+    "record_id": 897,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      372,
+      372
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

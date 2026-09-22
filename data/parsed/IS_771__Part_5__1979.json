@@ -1,0 +1,76 @@
+{
+  "clauses": [
+    {
+      "is": "IS 771 (Part 5):1979",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Lays down the pattern, size, construction, dimensions, tolerances and finsh of shower trays made of fire-clay.",
+      "clause_id": "IS 771 (Part 5):1979#1",
+      "family": "IS 771 (Part 5)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 417,
+      "page_end": 417,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 5):1979",
+      "clause": "2",
+      "title": "Size",
+      "text": "2. Size — 600 × 600 × 100 mm with skirting all around. 2. Requirements",
+      "clause_id": "IS 771 (Part 5):1979#2",
+      "family": "IS 771 (Part 5)",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 417,
+      "page_end": 417,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 771 (Part 5):1979",
+      "clause": "2.1",
+      "title": "General requirements for materials, manufacture,",
+      "text": "2.1 General requirements for materials, manufacture, methods of test and inspection, shall conform to Part 1 General requirements of the standard.",
+      "clause_id": "IS 771 (Part 5):1979#2.1",
+      "family": "IS 771 (Part 5)",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 417,
+      "page_end": 417,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 771 (Part 5):1979",
+    "record_id": 20334,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      417,
+      417
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.316,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

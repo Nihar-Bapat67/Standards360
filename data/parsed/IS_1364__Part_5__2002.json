@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1364 (Part 5):2002",
+      "clause": "1",
+      "title": "Scope – Gives specifications",
+      "text": "1. Scope - Gives specifications for hexagon thin nuts with metric  dimensions and thread diameters from 1.6, up to and including 10 mm and product grade B.",
+      "clause_id": "IS 1364 (Part 5):2002#1",
+      "family": "IS 1364 (Part 5)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 773,
+      "page_end": 773,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1364 (Part 5):2002",
+      "clause": "2",
+      "title": "Dimensions – M1.6, M2,",
+      "text": "2. Dimensions -  M1.6, M2, M2.5, M(3.5), M4, M5, M6, M8, M10. Note -  For  details see 3 of the standard",
+      "clause_id": "IS 1364 (Part 5):2002#2",
+      "family": "IS 1364 (Part 5)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 773,
+      "page_end": 773,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1364 (Part 5):2002",
+      "clause": "3",
+      "title": "Specifications",
+      "text": "3. Specifications — See Table Note — For  corresponding Indian standards of certain International standards referred, along with their degree of equivalence, refer  to National foreward of the  standard.",
+      "clause_id": "IS 1364 (Part 5):2002#3",
+      "family": "IS 1364 (Part 5)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 773,
+      "page_end": 773,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1364 (Part 5):2002",
+      "clause": "4",
+      "title": "Designation",
+      "text": "4. Designation — Example for the designation of an hexagon  thin nut with metric thread d=M6 For  detailed information, refer to  IS 1364 (Part 5) :1992 - ISO 4036 : 1979  Hexagon head bolts,screw and nuts of product grades A and B  Part 5   Hexagon thin nuts (unchamfered) (Size range M1.6 to M10) (fourth revision). made from steel with 110 HV 30.(st): Hexagon nut IS 1364 (Part 5) — ISO  4036 M6-st TABLE  4  SPECIFICATION AND REFERENCE STANDARDS | Material | Steel (S) | Non - ferrous metal | | --- | --- | --- | | General International requirments Standard | ISO 8992 |  | | Thread Tolerance International Standards | 6H |  | |  | ISO 724, ISO 965-1 |  | | Mechanical Hardness min. International Standard | 110 HV30 | Materials as specified in ISO 8839 | |  |  |  | | Tolerances Product grade International Standard | B |  | |  | ISO 4759-1 |  | |  | As processed Plain Requirements for electroplating are covered in ISO 4042. Requirements for non-electrolytically applied zinc flake coatings are covered in ISO 10683. If different electroplating requirements are desired or if requirements are needed for other finishes, they should be agreed between customer and supplier. Limits for surface discontinuities are covered in ISO 6157- 2 |  | | Acceptability | For acceptance procedure, see ISO 3269. |  |",
+      "clause_id": "IS 1364 (Part 5):2002#4",
+      "family": "IS 1364 (Part 5)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 773,
+      "page_end": 773,
+      "has_table": true,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1364 (Part 5):2002",
+    "record_id": 5317,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      773,
+      773
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.912,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

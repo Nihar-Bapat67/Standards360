@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5369:1975",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — General requirements and permissible deviation for plain washers, lock washers and similar parts.",
+      "clause_id": "IS 5369:1975#1",
+      "family": "IS 5369",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 789,
+      "page_end": 789,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5369:1975",
+      "clause": "2",
+      "title": "Grades",
+      "text": "2. Grades— Precision and ordinary. For detailed information, refer to IS 5369 : 1975  Specification for general requirements for plain washers and lock washers  (first revision) Note- For permissible deviation on main dimensions and concentricity of the hole with respect to outside diameter of precision grade washers as well as of ordinary grade washers, refer to Tables 1 to 4 of the standard.",
+      "clause_id": "IS 5369:1975#2",
+      "family": "IS 5369",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 789,
+      "page_end": 789,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5369:1975",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 5369:1975#3",
+      "family": "IS 5369",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 789,
+      "page_end": 789,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5369:1975",
+      "clause": "3.1",
+      "title": "Finish",
+      "text": "3.1 Finish —Natural. May be phosphate-coated, nickel plated, tinned, galvanized, copper-plated or cadmium-coated.",
+      "clause_id": "IS 5369:1975#3.1",
+      "family": "IS 5369",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 789,
+      "page_end": 789,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5369:1975",
+      "clause": "3.2",
+      "title": "Shall be free from",
+      "text": "3.2 Shall be free from cracks, burrs, pits and other defects. All sharp edges shall be removed.",
+      "clause_id": "IS 5369:1975#3.2",
+      "family": "IS 5369",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 789,
+      "page_end": 789,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5369:1975",
+    "record_id": 12131,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      789,
+      789
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.898,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

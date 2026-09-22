@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 458:2003",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for reinforced and unreinforced precast cement concrete pipes, of both pressure and non- pressure varieties used  for water mains, sewers, culverts and  irrigation. The requirements for collars are also covered by this standard.",
+      "clause_id": "IS 458:2003#1",
+      "family": "IS 458",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 80,
+      "page_end": 80,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 458:2003",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification — For  the purpose of this standard, concrete pipes shall be classifed as per clause 4.1 of the standard",
+      "clause_id": "IS 458:2003#2",
+      "family": "IS 458",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 80,
+      "page_end": 80,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 458:2003",
+      "clause": "3",
+      "title": "Dimensions and Tolerances",
+      "text": "3. Dimensions and Tolerances",
+      "clause_id": "IS 458:2003#3",
+      "family": "IS 458",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 80,
+      "page_end": 80,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 458:2003",
+      "clause": "3.1",
+      "title": "Dimension",
+      "text": "3.1 Dimension The internal diameter, barrel wall thickness, length, the minimum reinforcements and strength test requierments for different classes of pipes (see 4.1 of the standard) shall be as specified in Tables 1 to 11of the standard. Dimensions of collar for class NP1 and dimensions and reinforcement of collar for class NP2 shall be as per Tables 1 and 21 of the standard respectively.",
+      "clause_id": "IS 458:2003#3.1",
+      "family": "IS 458",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 80,
+      "page_end": 80,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 458:2003",
+      "clause": "3.2",
+      "title": "Tolerances",
+      "text": "3.2 Tolerances The following tolerances shall be permitted : Sl. No. Dimensions Tolerances i) Overal length : ± 1 percent of standard length ii) Internal diameter of pipes: a) Up to and including 300 mm : ± 3 mm b) Over 300 mm and up to and including 600 mm : ± 5 mm c) Over 600 mm : ± 10 mm iii) Barrel wal thickness: a) Up to and including : +2 30 mm : - 1 b) Over 30 mm up to and : + 3 including 50 mm - 1.5 c) Over 50 mm up to and : + 4 including 65 mm - 2 d) Over 65 mm up to : + 5 and including 80 mm - 2.5 e) Over 80 mm up to and : + 6 including 95 mm : - 3 f) Over 95 mm : +7 -3.5 Note —  In case of pipes with flexible rubber ring joints, the tolerance on thickness near the ends wiill have to be reduced. Near the rubber ring joints, the tolerance on thickness shall be as given in Tables 13 to 19 in case of pipes manufactured by spinning process and as given in Table 15 and Table 16 in case of pipes manufactured by vibrated casting process.",
+      "clause_id": "IS 458:2003#3.2",
+      "family": "IS 458",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 80,
+      "page_end": 80,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 458:2003",
+      "clause": "4",
+      "title": "Workmanship and Finish",
+      "text": "4. Workmanship and Finish",
+      "clause_id": "IS 458:2003#4",
+      "family": "IS 458",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 80,
+      "page_end": 80,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 458:2003",
+      "clause": "4.1",
+      "title": "Pipes shall be straight",
+      "text": "4.1  Pipes shall be straight and free from cracks except that craze cracks may be permitted. The ends of the pipes shall be square with their longitudinal axis so that when placed in a straight line inthe trench, no opening between ends in contact shall exceed 3 mm in pipes up to 600 mm diameter (inclusive), and 6 mm in pipes larger than 600 mm diameter.",
+      "clause_id": "IS 458:2003#4.1",
+      "family": "IS 458",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 80,
+      "page_end": 80,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 458:2003",
+      "clause": "4.2",
+      "title": "The outside and inside",
+      "text": "4.2  The outside and inside surfaces of the pipes shall be dense and hard and shall not be coated with cement wash or other preparation unless otherwise agreed to between the purchaser and the manufacturer or the supplier. The inside surface of the pipe shall be smooth. For better bond, inner surface of the collar may be finished rough.",
+      "clause_id": "IS 458:2003#4.2",
+      "family": "IS 458",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 80,
+      "page_end": 80,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 458:2003",
+      "clause": "5",
+      "title": "Tests",
+      "text": "5. Tests",
+      "clause_id": "IS 458:2003#5",
+      "family": "IS 458",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 80,
+      "page_end": 80,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 458:2003",
+      "clause": "5.1",
+      "title": "Every pipe shall be",
+      "text": "5.1 Every pipe shall be tested, for hydrostatic pressure, three-edge bearing and absorption tests. mm mm mm mm mm mm Note 1 — For requirements of materials, design, reinforcement, spigots and sockets refer to the standard. Note 2 — For methods of tests refer to IS 3597 : 1998 Methods of test for concrete pipes (second revision). For detailed information, refer to IS 458 : 2003 Specification for precast concrete pipes (with and without reinforcement) (fourth revision).",
+      "clause_id": "IS 458:2003#5.1",
+      "family": "IS 458",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "requirements",
+      "page_start": 80,
+      "page_end": 80,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 458:2003",
+    "record_id": 11295,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      80,
+      80
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.992,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

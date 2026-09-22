@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2104:1981",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for materials, dimensions and construction of boxes for water meters of nominal size conforming to IS  779 - 1994*.",
+      "clause_id": "IS 2104:1981#1",
+      "family": "IS 2104",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 499,
+      "page_end": 499,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2104:1981",
+      "clause": "2",
+      "title": "Sizes and Shape",
+      "text": "2. Sizes and Shape",
+      "clause_id": "IS 2104:1981#2",
+      "family": "IS 2104",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 499,
+      "page_end": 499,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2104:1981",
+      "clause": "2.1",
+      "title": "Shall be of two",
+      "text": "2.1. Shall be of two sizes and suitable for the water meters of following sizes : Size 1  - for 15, 20 and 25 mm water meters, and Size 2  -  for 40 and 50 mm water meters.",
+      "clause_id": "IS 2104:1981#2.1",
+      "family": "IS 2104",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 499,
+      "page_end": 499,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2104:1981",
+      "clause": "2.2",
+      "title": "Shape",
+      "text": "2.2. Shape  :   Oval or rectangular.",
+      "clause_id": "IS 2104:1981#2.2",
+      "family": "IS 2104",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 499,
+      "page_end": 499,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2104:1981",
+      "clause": "3",
+      "title": "Dimensions –",
+      "text": "3. Dimensions - Minimum inside clear dimensions : Size Length Width               Height mm mm mm 1 600 600 500 2 900 600 600",
+      "clause_id": "IS 2104:1981#3",
+      "family": "IS 2104",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 499,
+      "page_end": 499,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2104:1981",
+      "clause": "4",
+      "title": "Manufacture",
+      "text": "4. Manufacture For detailed information, refer to IS  2104 : 1981 Specification for water meter boxes (domestic type) ( first revision) SUMMARY OF IS  2104 : 1981. WATER METER BOXES (DOMESTIC TYPE) (First Revision) *  Water meters (domestic type) (sixth revision)",
+      "clause_id": "IS 2104:1981#4",
+      "family": "IS 2104",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 499,
+      "page_end": 499,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2104:1981",
+    "record_id": 18715,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      499,
+      499
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.512,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

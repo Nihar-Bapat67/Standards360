@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope -  Requirements  for flanged reflux valves of multi-door, swing check type used for water works purpose of sizes from 400 to 1200 mm.",
+      "clause_id": "IS 5312 (Part 2):1986#1",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "2",
+      "title": "Class – PN 0.6",
+      "text": "2. Class - PN 0.6 and PN 1.0 where PN is Nominal Pressure defined as the maximum permissible gauge working pressure in MPa.",
+      "clause_id": "IS 5312 (Part 2):1986#2",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "3",
+      "title": "Nominal Sizes",
+      "text": "3. Nominal Sizes- 400, 450, 500, 600, 700, 750, 800, 900, 1000, 1100 and 1 200 mm. The nominal size shall refer to the nominal bore of the water way.",
+      "clause_id": "IS 5312 (Part 2):1986#3",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "4",
+      "title": "Materials",
+      "text": "4. Materials Sl. No. Component Material (1) (2) (3) i) Body with hinge Grey cast iron and diaphragm ii) Hinge pin High tensile brass iii) Bolts Carbon  steel iv) Nuts, nuts for Carbon hinge pins steel v) Bearing bushes Leaded tin bronze vi) Face and seat Leaded tin rings bronze vii) Flange jointing Rubber material SUMMARY OF IS  5312 (PART 2) : 1986    SWING  CHECK  TYPE  REFLUX (NON-RETURN) VALVES FOR  WATER WORKS PURPOSES PART  2  MULTI - DOOR PATTERN (First Revision) Note— For alternative material see Table 1of the standard.",
+      "clause_id": "IS 5312 (Part 2):1986#4",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "5",
+      "title": "Design and",
+      "text": "5. Design and  Manufacture",
+      "clause_id": "IS 5312 (Part 2):1986#5",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "5.1",
+      "title": "Body may be made in two parts",
+      "text": "5.1 Body may be made in two parts-inlet shell (having duck foot support) and outlet shell.",
+      "clause_id": "IS 5312 (Part 2):1986#5.1",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "5.2",
+      "title": "Area of waterway through",
+      "text": "5.2 Area of waterway through the multidoor in the diaphragm shall not be less than the bore area except that this area may be reduced by not more than 15 percent  for any properietory designs.",
+      "clause_id": "IS 5312 (Part 2):1986#5.2",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "5.3",
+      "title": "Minimum two number of",
+      "text": "5.3 Minimum two number of doors shall be provided in the diaphran plate.",
+      "clause_id": "IS 5312 (Part 2):1986#5.3",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "5.4",
+      "title": "By",
+      "text": "5.4 By-pass shall be made for  connection if required.",
+      "clause_id": "IS 5312 (Part 2):1986#5.4",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "5.5",
+      "title": "Minimum finished mass of",
+      "text": "5.5 Minimum finished mass of valves shall be as prescribed.",
+      "clause_id": "IS 5312 (Part 2):1986#5.5",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "6",
+      "title": "Coating",
+      "text": "6. Coating — Shall be smooth-glossy and tenacious sufficiently hard so as not to flow when scratched lightly with the point of a pen knife.",
+      "clause_id": "IS 5312 (Part 2):1986#6",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 5312 (Part 2):1986",
+      "clause": "7",
+      "title": "Testing",
+      "text": "7. Testing: 7.2 Body Test -  Shall not  show  leakage or permanent distortion of any coponent when subjected to the prescribed test. For detailed information, refer to IS : 5312 (Part 2) : 1986 Specification for swing check type reflux (non-return) valves for waterworks purposes Part 2- Multi-door door pattern.",
+      "clause_id": "IS 5312 (Part 2):1986#7",
+      "family": "IS 5312 (Part 2)",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 478,
+      "page_end": 478,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5312 (Part 2):1986",
+    "record_id": 12065,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      478,
+      478
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

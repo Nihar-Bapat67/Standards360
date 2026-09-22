@@ -1,0 +1,346 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3087:1985",
+      "clause": "1",
+      "title": "Scope–  Requirements of medium density wood",
+      "text": "1. Scope-  Requirements of medium density wood particle boards for general purposes, having specific grativity in the range 0.5 to 0.9. This standard does not cover  veneered particle boards, moulded particle boards, high and low density particle boards or particle boards faced by impregnated paper surfaces.",
+      "clause_id": "IS 3087:1985#1",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "2",
+      "title": "Classes and Grades",
+      "text": "2. Classes and Grades",
+      "clause_id": "IS 3087:1985#2",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "2.1",
+      "title": "The particle boards shall be of the",
+      "text": "2.1 The particle boards shall be of the  following classes : Class Grade Designation Flat pressed, single layers — FPS Flat pressed, three layer, 1 FPT-1 multilayer and graded II FPT-2 Extrusion pressed solid — XPS Extrusion pressed,tubular — XPT",
+      "clause_id": "IS 3087:1985#2.1",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "3",
+      "title": "Materials",
+      "text": "3. Materials",
+      "clause_id": "IS 3087:1985#3",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "3.1",
+      "title": "Any species of wood or any other ligno",
+      "text": "3.1 Any species of wood or any other ligno-cellulosic material may be used in the manufacture of particle board.",
+      "clause_id": "IS 3087:1985#3.1",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "3.2",
+      "title": "Adhesive",
+      "text": "3.2 Adhesive —Any suitable type of synthetic resin conforming to IS  848:1974* may be used . However, for flat-pressed  three layer, multilayer and graded boards of Grade I, BWR or BWP type adhesive should be used.",
+      "clause_id": "IS 3087:1985#3.2",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "3.3",
+      "title": "Sizing Material – Paraffin",
+      "text": "3.3 Sizing Material - Paraffin wax dissolved in mineral spirit or alternatively emulsified with water or melted shall be used as sizing material.",
+      "clause_id": "IS 3087:1985#3.3",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "4",
+      "title": "Dimensions and tolerances",
+      "text": "4. Dimensions and tolerances",
+      "clause_id": "IS 3087:1985#4",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "4.1",
+      "title": "The sizes of wood",
+      "text": "4.1 The sizes of wood particle boards in mm shall be as follows : Length - 4850 (4800) , 3650 3600) , 3000  , 2750 (2700), 2400 , 2100  , 1800 , 1500  , 1200 , 1000 and 900 Width - 1850, 1800, 1500 , 1200 , 1000, 900  , 600 , and 450 Note— Values which are underlined are multiples of the300 mm module for building boards.",
+      "clause_id": "IS 3087:1985#4.1",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "4.2",
+      "title": "Thickness",
+      "text": "4.2 Thickness — The thickness of particle boards shall be as given below—6, 9, 12,15, 18, 19, 22, 25, 27, 30, 35 and 40 mm",
+      "clause_id": "IS 3087:1985#4.2",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "4.3",
+      "title": "Dimensional Tolerance",
+      "text": "4.3 Dimensional Tolerance Dimensions Tolerance a) Length : for all lengths ± 8 mm b) Width : for all width           ± 8 mm c) thickness : Above 25 mm ± 2.5 per. up to and ± 5 per. including 25 mm The lengths of two diagonals of a rectangular panel shall not differ by more than 2.5 mm. The edge of the board shall be straight with a tolerance of  3 mm. * Synthetic resin adhesives for plywood(Phenolic and aminoplastic) (first revision)",
+      "clause_id": "IS 3087:1985#4.3",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 573,
+      "page_end": 573,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "5",
+      "title": "Physical, Mechanical Properties",
+      "text": "5. Physical, Mechanical Properties —   See Table  1 TABLE 1  PHYSICAL  AND MECHANICAL PROPERTIES OF VARIOUS TYPES OF   PARTICLES BOARDS S.l. Properties Flat Presses Flat Presses Extrusion                       Extrusion No. Single Layer Three Layers Pressed Pressed multi Layers Solid                            Tubular & Graded                               (XPS)                             (XPT) Grade1          Grade 2 (1)                          (2)                  (3)                      (4)                               (5)                              (6) 1.1 Density variation ±10 ±10 ±10 ±10 ±10 1.2 Water absorption percent, 2 h soaking 25 10 40 40 40 24 h soaking 50 20 80 80 80 1.3 a) Linear expansion (Swelling in water) percent 2 h soaking i) Length 0.5 0.5 0.5 2 2 ii) Width 0.5 0.5 0.5 0.5 0.5 b) Thickness swelling percent 2 h soaking 10 8 12 5 5 1.4 Swelling due to surfce absorption percent, 9",
+      "clause_id": "IS 3087:1985#5",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 574,
+      "page_end": 574,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "6",
+      "title": "9",
+      "text": "6 9 4 4 1.5 Modulus of rupture, N/mm2 up to 20 mm thickness 11 15.0 11 2 1 above 20 mm thickness 11 12.5 11 2 1 1.6 Tensile strength perpendicular to surface,N/mm2 up to 20 mm thickness 0.8 0.45 0.3 1.2 0.4 above 20 mm thickness 0.8 0.40 0.3 1.2 0.4 1.7 Tensile Strength perpendicular to surface N/mm2 *a) After cycle test -- 0.2 -- -- -- †b) Accelerated water -- 0.15 -- -- -- resistance test 1.8 Screw withdrawal strength, N Face 1250 1250 1250 -- -- Edge 850 850 700 -- -- * Cyclic test: specimens are immeresed in water at 27± 2ºCfor a period of 72 h, followed by drying in air  at 27± 2ºC for 24h and then heating dry air at 70ºC for  72h. Three such cycles are to be followed, and then the specimens are tested for tensile strength perpendicular to surface. † Accelerated water resistance test- Specimens are immersed in water at 27± 2ºC and water is brought to boiling and kept at boiling temperature for 2 h. Specimens are then cooled in water to 27 ±2ºC and then tested for tensile strength perpendicular to surface. 6. Physical  Characteristics",
+      "clause_id": "IS 3087:1985#6",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 574,
+      "page_end": 575,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "6.1",
+      "title": "Density – Between 500",
+      "text": "6.1 Density - Between 500 and 900 kg",
+      "clause_id": "IS 3087:1985#6.1",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 575,
+      "page_end": 575,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "6.2",
+      "title": "Moisture Content – Between",
+      "text": "6.2 Moisture Content - Between 5 and 15 percent.",
+      "clause_id": "IS 3087:1985#6.2",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 575,
+      "page_end": 575,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "6.3",
+      "title": "See Table 1 for other tests.",
+      "text": "6.3 See Table 1 for other tests.",
+      "clause_id": "IS 3087:1985#6.3",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 575,
+      "page_end": 575,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "6.4",
+      "title": "Workability – The particle",
+      "text": "6.4 Workability - The particle boards shall not   crack or split when drilled, sawed and nailed perpendicular to the surface.",
+      "clause_id": "IS 3087:1985#6.4",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 575,
+      "page_end": 575,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3087:1985",
+      "clause": "7",
+      "title": "Preservative Treatment – A suitable preservative",
+      "text": "7. Preservative Treatment - A suitable preservative may be added to the particle mix at the  time of rinsing of the  adhesive. The following percentages of preservatives are  regarded as suitable : a) Sodium pentachlorophenate - 1 percent on the basis of oven dry weight of particles,or b) Trichlorophenol - 5percent on the basis of resin  adhesive mix. Note — For methods of tests, refer to various parts of IS 2380 : 1977 Methods of tests for wood particle boards and boards from other lignocellulosic materials.(first revision) For detailed Information, refer to IS  3087 : 1985  Specification for wood particle boards (medium density) for general purposes (first revision).",
+      "clause_id": "IS 3087:1985#7",
+      "family": "IS 3087",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 575,
+      "page_end": 575,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3087:1985",
+    "record_id": 34006,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      573,
+      575
+    ],
+    "n_clauses": 18,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

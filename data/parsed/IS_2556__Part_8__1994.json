@@ -1,0 +1,220 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for patterns, construction, dimensions and tolerances, finish, inspection and marking of pedestal water closets with close-coupled cisterns both syphonic and washdown type including water saving types made of vitreous china.",
+      "clause_id": "IS 2556 (Part 8):1994#1",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 449,
+      "page_end": 449,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 2556 (Part 8):1994#2",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 449,
+      "page_end": 449,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "2.1",
+      "title": "Patterns",
+      "text": "2.1  Patterns i) Pattern 1 —Double trap syphonic pattern with  'S' trap or 'P' trap (See Fig. 1). ii) Pattern 2 — Single trap syphonic pattern with  'S' trap or 'P' trap (See Fig. 1). iii) Pattern 3 — Washdown pattern with 'P' trap or 'S' trap (Fig. 2 or concealed 'S'  trap see (Fig. 3). iv) Pattern 4 — Washdown   pattern   with horizontal outlet see (Fig. 4). Note1 —  For dimensions and tolerances, refer to 6,  of  the standard. SUMMARY OF IS : 2556 (PART 8) : 1994 VITREOUS  SANITARY APPLIANCES (VITREOUS CHINA) PART 8 SPECIFIC REQUIREMENTS OF PEDESTAL CLOSE COUPLED WASHDOWN AND SYPHONIC WATER CLOSETS (Fourth Revision) All dimensions in millimetres. FIG.  3 WASHDOWN  WATER  CLOSET  FOR CLOSE COUPLED  SUITE -CONCEALED  S TRAP FIG.  2 WASHDOWN  WATER  CLOSET  FOR CLOSE COUPLED SUITE, P OR S TRAP Fig.  4  HORIZONTAL  OUTLET  WC  FOR  CLOSED  COUPLED SUITE TABLE  1  FUNCTIONAL DIMENSIONS SI. NO. DESCRIPTION REF TO SYPHONIC P OR S WASHODOWN WASHDOWN FIGURES OUTLET OUTLET HORIZONTAL  OUTLET (FIG. 1A) (FIG. 2A AND 3A) (FIG. 4A) (1) (2) (3) (4) (5) (6) i) Pattern No. - 1 and 2",
+      "clause_id": "IS 2556 (Part 8):1994#2.1",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 449,
+      "page_end": 451,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "3",
+      "title": "4",
+      "text": "3 4 ii) Height H 390±10 390±10 390±10 iii) Width W 390±10 390±10 390±10 iv) Depth of water  seal D1 50 Min 50 Min 50 Min a)  Back to front W1 — 150 Min 150 Min b) Side to Side W2 — 110 Min 110 Min vi) Distance from centre line of seal bolts noles to front of WC D2 415 to 445 415 to 445 415 to 445 vii) Length of opening P 290 Min 290 Min 290 Min viii) Width of opening Q 240 Min 240 Min 240 Min ix) Distance  between a vertical line from tip of back plate to inside face of flush rim at back D3 — 70 Max 70 Max x) Distance from centre of seat bolt hole to inside face to flush rim  at back D4 80 Max 80 Max 80 Max xi) Trap inlet depth T — 75 Min 75 Min All dimensions in millimetres. 2.2 Shall be of one piece construction with not less than two floor fixing holes having a minimum diameter of 6.5 mm 2.3 Flushing rim  and inlet shall be of self draining type. 2.4 Low level coupled type flushing cistern with discharge capacity not less than10 litres. 3. Finish — Inside surface of water closet and trap shall be glazed uniform and smooth in order to ensure an efficient flush.",
+      "clause_id": "IS 2556 (Part 8):1994#3",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 451,
+      "page_end": 452,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "4",
+      "title": "Flushing Test",
+      "text": "4. Flushing Test",
+      "clause_id": "IS 2556 (Part 8):1994#4",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 452,
+      "page_end": 452,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "4.1",
+      "title": "Toilet Paper Test",
+      "text": "4.1 Toilet Paper Test — When repeated four times the pan shall discharge the full charge of paper at least thrice. Note1 — For For method of test, refer to 9  of the standard. Note 2 — For general requirements refer to Part 1  General requirements of the standard. For detailed information, refer to IS  2556 (Part 8) : 1995 Specification for vitreous sanitary appliances (vitreous china): Part 8 Specific requirements of pedestal close coupled washdown and syphonic water closets (fourth revision).",
+      "clause_id": "IS 2556 (Part 8):1994#4.1",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 452,
+      "page_end": 452,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "4.2",
+      "title": "Smudge Test",
+      "text": "4.2 Smudge Test — Immediately after flushing there shall be no smudge left  on the bowl.",
+      "clause_id": "IS 2556 (Part 8):1994#4.2",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 452,
+      "page_end": 452,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "4.3",
+      "title": "Holding Capacity Test",
+      "text": "4.3 Holding Capacity Test — Shall be capable of holding not less than highest possible water  level of the closet.",
+      "clause_id": "IS 2556 (Part 8):1994#4.3",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 452,
+      "page_end": 452,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "4.4",
+      "title": "Ball Tests",
+      "text": "4.4 Ball Tests",
+      "clause_id": "IS 2556 (Part 8):1994#4.4",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 452,
+      "page_end": 452,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "4.4.1",
+      "title": "Single ball test",
+      "text": "4.4.1 Single ball test — The  ball shall be discharge in normal manner.",
+      "clause_id": "IS 2556 (Part 8):1994#4.4.1",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 3,
+      "parent_clause": "4.4",
+      "role": "other",
+      "page_start": 452,
+      "page_end": 452,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2556 (Part 8):1994",
+      "clause": "4.4.2",
+      "title": "Fifty ball Test",
+      "text": "4.4.2  Fifty ball Test — A minimum of 85 percent of all balls should be flushed out.",
+      "clause_id": "IS 2556 (Part 8):1994#4.4.2",
+      "family": "IS 2556 (Part 8)",
+      "year": 1994,
+      "level": 3,
+      "parent_clause": "4.4",
+      "role": "other",
+      "page_start": 452,
+      "page_end": 452,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2556 (Part 8):1994",
+    "record_id": 26838,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      449,
+      452
+    ],
+    "n_clauses": 11,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

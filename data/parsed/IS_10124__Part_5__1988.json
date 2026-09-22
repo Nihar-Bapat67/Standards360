@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 10124 (Part 5):1988",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements of manufacture, dimensions and marking for fabricated PVC tees for potable water supplies.",
+      "clause_id": "IS 10124 (Part 5):1988#1",
+      "family": "IS 10124 (Part 5)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 366,
+      "page_end": 366,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 5):1988",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements—The   general   requirements for materials, sizes, methods of test, sampling and critieria for conformity shall conform to  IS  10124 (Part 1) :  1988.",
+      "clause_id": "IS 10124 (Part 5):1988#2",
+      "family": "IS 10124 (Part 5)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 366,
+      "page_end": 366,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 5):1988",
+      "clause": "3",
+      "title": "Dimensions",
+      "text": "3. Dimensions —See Table 1",
+      "clause_id": "IS 10124 (Part 5):1988#3",
+      "family": "IS 10124 (Part 5)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 366,
+      "page_end": 366,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 5):1988",
+      "clause": "4",
+      "title": "Marking",
+      "text": "4. Marking— The equal tee shall be marked in colour as indicated below for different class of fittings: Class of Fitting Colour Class 2 (0.4 MPa) Blue Class 3 (0.6 MPa) Green Class 4 (1.0 MPA) Yellow TABLE  1  DIMENSION  OF  EQUAL  TEES   ALL  DIMENSIONS  IN  MILLIMETRES Size B Minimum Wall Thickness (t )For Working Pressures Min 0.4 MPa 0.6 MPa 1.0 MPa (Class 2) (Class 3) (Class 4) (1) (2) (3) (4) (5) 63 98 1.4 2.0 3.2 75 115 1.7 2.4 3.8 90 137 1.9 2.8 4.5 110 166 2.3 3.4 5.5 125 188 2.7 3.9 6.3 140 209 2.9 4.4 7.0 160 238 3.4 4.9 8.0 180 267 3.8 5.5 9.0 200 296 4.2 6.2 10.0 225 333 4.7 6.9 11.2 250 369 5.2 7.7 12.5 280 412 5.8 8.6 13.9 315 463 6.5 9.7 15.6 355 521 7.3 10.8 17.7 400 586 8.2 12.2 19.8 450 659 9.3 13.7 22.4 500 731 10.3 15.3 24.8 560 818 11.6 17.2 27.8 630 920 13.0 19.2 31.3 Note — For pipes of  0.25 MPa  pressure class, there are no equal tees for these,  equal  tees designed  for 0.4 MPa  may be   used. * PVC welded by solvent or welding rod and with fibre glass reinforcement of 40 m width and 3 mm minimum thickness. D = mean socket internal diameter at mid-point of socket length as specified in IS : 10124 (Part 1) - 1988*. L = minimum socket length in accordance with IS : 10124 (Part 1) 1988*. B = 1.45 x nominal outside diameter of the pipe + 6 mm. t = minimum wall thickness of equal tees calculated on the basis of 90 percent of the minimum wall thickness of the corresponding size and pressure class of pipe rounded off to the next higher 0.1 mm. Note — The figure is only intended to define the terms used in Table 1 and is not intended to illustrate specific design features. FIG. 1 EQUAL  TEE For detailed information, refer to IS  10124 (Part 5) : 1988 Specification for fabricated PVC fittings for  potable water supplies : Part 5  Specific requirements for equal tees (first revision). * General requirements",
+      "clause_id": "IS 10124 (Part 5):1988#4",
+      "family": "IS 10124 (Part 5)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "marking",
+      "page_start": 366,
+      "page_end": 367,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 10124 (Part 5):1988",
+    "record_id": 894,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      366,
+      367
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.993,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

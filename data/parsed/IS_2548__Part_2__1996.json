@@ -1,0 +1,472 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for thermoplastic seats and covers for water-closets.",
+      "clause_id": "IS 2548 (Part 2):1996#1",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 428,
+      "page_end": 428,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "2",
+      "title": "Grades – 1 and",
+      "text": "2. Grades - 1 and 2 based on deflection characteristics",
+      "clause_id": "IS 2548 (Part 2):1996#2",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 428,
+      "page_end": 428,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "3",
+      "title": "Materials",
+      "text": "3. Materials",
+      "clause_id": "IS 2548 (Part 2):1996#3",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 428,
+      "page_end": 428,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "3.1",
+      "title": "Seats and Covers",
+      "text": "3.1 Seats and Covers a) Polystyrene  or b) Polypropylene conforming to requirments specified",
+      "clause_id": "IS 2548 (Part 2):1996#3.1",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 428,
+      "page_end": 428,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "3.2",
+      "title": "Hinging Device",
+      "text": "3.2 Hinging Device —  Bronze or brass or mild steel with nickel chromium plating or aluminium alloy with anodic coating or suitable plastic (with reinforcement), conforming to the prescribed standards.",
+      "clause_id": "IS 2548 (Part 2):1996#3.2",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 428,
+      "page_end": 428,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "4",
+      "title": "Manufacture",
+      "text": "4. Manufacture",
+      "clause_id": "IS 2548 (Part 2):1996#4",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 428,
+      "page_end": 428,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "4.1",
+      "title": "Seat",
+      "text": "4.1 Seat — The underside of the seats may be either flat or recessed.  Where the underside is flat, the seat shall be a solid moulding, and where the underside is recessed, the section shall be not less than 3 mm at any point.  The seats may be of the closed or open front pattern (see Fig. 1).",
+      "clause_id": "IS 2548 (Part 2):1996#4.1",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 428,
+      "page_end": 428,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "4.2",
+      "title": "The cover shall completely",
+      "text": "4.2 The cover shall completely cover the aperture of the seat and shall be so designed that it is capable of being raised easily from the seat.  The cover shall be not less than 3 mm in thickness at any point.",
+      "clause_id": "IS 2548 (Part 2):1996#4.2",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 428,
+      "page_end": 428,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "4.3",
+      "title": "Dimensions",
+      "text": "4.3 Dimensions — See Table 1 SUMMARY OF IS  2548 (PART 2) : 1996 PLASTIC SEATS AND COVERS FOR WATER-CLOSETS, PART 2 - THERMOPLASTIC SEATS AND COVERS (Fifth Revision) TABLE 1  DIMENSIONS OF SEATS AND COVERS                              ALL DIMENSIONS IN MILLIMETRES. SL NO. DESCRIPTION DIMENSION Min Max (1) (2) (3) (4) i) Distance from centre line of hinge 445 475 bolts to extreme edge of rim at front, A ii) Length of opening at longest point, B 250 290 iii) Width of opening at widest point, C 215 240 iv) Overall width at widest point, D 380 -- v) Distance between inner and outer rims, E 55 -- vi) Centre-to-centre distance of seat bolt holes, F 145 175 vii) Distance from centre line of hinge bolts to 85 -- inner rim of seat at the back, G viii) Thickness of seat at thinnest point 3 -- ix) Thickness of cover at thinnest point 3 -- FIG. 1",
+      "clause_id": "IS 2548 (Part 2):1996#4.3",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 428,
+      "page_end": 429,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "4.4",
+      "title": "Finish – The surfaces",
+      "text": "4.4 Finish - The surfaces of the seats, covers and components shall be smooth, free from blisters and delamination and reasonably free from flowlines, contamination, streaking and unintended colour variation colour variation.",
+      "clause_id": "IS 2548 (Part 2):1996#4.4",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "4.6",
+      "title": "Hinging Device – The",
+      "text": "4.6 Hinging Device - The bolts shall have a minimum shank length of 65 mm and a coarse thread of M8 size within 25 mm of the flange of fixing to the pan.",
+      "clause_id": "IS 2548 (Part 2):1996#4.6",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "4.7",
+      "title": "Buffers and Distance Pieces",
+      "text": "4.7 Buffers and Distance Pieces - Each seat (if not provided with distance pipes) shall be provided with not less than three rubber or plastic buffers of size 25 mm × 40 mm × 10 mm for closed front seats and not less than 4 for open front seats, which shall be securely fixed to underside of the seat.",
+      "clause_id": "IS 2548 (Part 2):1996#4.7",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5",
+      "title": "Test",
+      "text": "5. Test",
+      "clause_id": "IS 2548 (Part 2):1996#5",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.1",
+      "title": "Strength – The seats",
+      "text": "5.1 Strength - The seats shall withstand, without permanent distortion of the seat or the hinge fit tings or damage to any finish, a load of 1 150 N applied for a period of 30 minutes.",
+      "clause_id": "IS 2548 (Part 2):1996#5.1",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.2",
+      "title": "Water Absorption – The",
+      "text": "5.2 Water Absorption - The  increase in mass shall be 0.75 percent, Max and on visual in spection after immersion, it shall shown no impairment.",
+      "clause_id": "IS 2548 (Part 2):1996#5.2",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.3",
+      "title": "Impact",
+      "text": "5.3 Impact  Resistance",
+      "clause_id": "IS 2548 (Part 2):1996#5.3",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.3.1",
+      "title": "Seats – When tested",
+      "text": "5.3.1  Seats - When tested for impact, the seat, hinges and buffers/distance pieces shall show no  visible damage.",
+      "clause_id": "IS 2548 (Part 2):1996#5.3.1",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 3,
+      "parent_clause": "5.3",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.3.2",
+      "title": "Covers – When tested",
+      "text": "5.3.2  Covers - When tested for impact, the cover, cover hinges and cover buffers shall show no visible damage.",
+      "clause_id": "IS 2548 (Part 2):1996#5.3.2",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 3,
+      "parent_clause": "5.3",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.4",
+      "title": "Rigidity",
+      "text": "5.4 Rigidity",
+      "clause_id": "IS 2548 (Part 2):1996#5.4",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.4.1",
+      "title": "Seats",
+      "text": "5.4.1 Seats — The maximum deflection shall be as given below and on visual inspection after the load is removed, the seats shall not show any fracture (See Annex F of the standard) Grade Deflection, mm 1 12.5 2 20.0",
+      "clause_id": "IS 2548 (Part 2):1996#5.4.1",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 3,
+      "parent_clause": "5.4",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.4.2",
+      "title": "Covers – The maximum",
+      "text": "5.4.2  Covers -  The maximum deflection shall be as given below and on visual inspection after the load is removed, the cover shall not show any fracture and no part of the edge of the cover shall be pushed through the seat opening Grade Deflection, mm 1 25 2 40",
+      "clause_id": "IS 2548 (Part 2):1996#5.4.2",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 3,
+      "parent_clause": "5.4",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.5",
+      "title": "Staining by Seats and Covers",
+      "text": "5.5 Staining by Seats and Covers — There shall not be any visible colour transfer to the white cloth.",
+      "clause_id": "IS 2548 (Part 2):1996#5.5",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.6",
+      "title": "Staining and/or Other Surface",
+      "text": "5.6 Staining and/or Other Surface  Deterioration of Seats and Covers — There shall not be any change of colour or other adverse change in surface characteristics.",
+      "clause_id": "IS 2548 (Part 2):1996#5.6",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.7",
+      "title": "Surface Hardness",
+      "text": "5.7 Surface Hardness - Minimum value of Rockwell Hardness Number (HR) shall be `L45'.",
+      "clause_id": "IS 2548 (Part 2):1996#5.7",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2548 (Part 2):1996",
+      "clause": "5.8",
+      "title": "Endurance Test",
+      "text": "5.8 Endurance Test  for Seats, Covers   and  Buffers— Neither seat, cover or buffer should be damaged or dislocated.  This is a type test. Note — For method of test, refer to Appendixs B to M of the standard. For  detailed information, refer to IS 2548 (Part 1) : 1996 Specification for plastic seats and covers for water closets: Part 1  Thermoplastic seats and covers (fifth revision).",
+      "clause_id": "IS 2548 (Part 2):1996#5.8",
+      "family": "IS 2548 (Part 2)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 430,
+      "page_end": 430,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2548 (Part 2):1996",
+    "record_id": 9059,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      428,
+      430
+    ],
+    "n_clauses": 25,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

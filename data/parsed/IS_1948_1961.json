@@ -1,0 +1,364 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1948:1961",
+      "clause": "1",
+      "title": "Scope – Requirements regarding material, fabrication",
+      "text": "1. Scope - Requirements regarding material, fabrication and dimensions of aluminium doors, windows and ventilators, manufactured from extruded aluminium alloy sections of standard sizes and designs, complete with fittings, ready for being fixed into the buildings. This standard does not cover the requirements for industrial doors, windows and ventilators.",
+      "clause_id": "IS 1948:1961#1",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "2",
+      "title": "Handing",
+      "text": "2. Handing — Side-hung opening position of all doors and windows shall be said to be right hand or left hand according to the side on which they are hinged looking from the inside.",
+      "clause_id": "IS 1948:1961#2",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "3",
+      "title": "Standard Sizes,Tolerances and",
+      "text": "3. Standard Sizes,Tolerances and  Designations a)    Types and Sizes — 6HF6, 10HF6, 12HF6, 15HF6, 18HF6 6HT6, 10HT6, 12HT6, 15HT6, 18HT6 6HC6, 10HC6, 12HC6, 15HC6, 18HC6 6HF9, 10HF9, 12HF9, 15HF9, 18HF9 6HS9, 10HS9, 12HS9, 15HS9, 18HS9 6HT9 6HF12, 10HF12,  12HF12,  15HF12,  18HF12 6HS12, 10HS12,  12HS12,   15HS12,  18HS12 6HF15, 10HF15,  12HF15,  15HF15,  18HF15 6HS15, 10HS15,  12HS15,   15HS15,  18HS15 6HF21, 8HS21,    2HS21,     8HF6,      8HT6, 8HC6. b)    Tolerances — For f rames ± 1.5 mm. Note 1 - The external dimensions of width and height   derived after allowing 1.25 cm clearance  all round for fitting   into a modular  opening based on 10 cm module. Note 2 - Designated in by symbols denoting width      (number of modules in width of opening) ;  Type (C = centre hung shutters; F= fixed glass panes; H = with horizontal glazing  bars; N = without horizontal glazing bars;   S = side-hung shutters; T =  top-hung  shutter); and height (number of modules in  height of opening). Examples a) A window of width 10 modules (97.5 cm) and height 9 modules (87.5 cm), having horizontal glazing bars and side-hung shutters is designated by 10 HS 9. b) Two 10 module wide and 12 module high horizontally glazed side-hung window coupled side by side with two fixed glass  pane ventilators at top, each 10  module wide and 6 module high, is designated by: 10 HF 6 / 10 HF 6 10 HS 12 / 10 HS 12 Note 3 - Windows without horizontal glazing bars shall be designated by 'N' in place of 'H' in the range shown above. Note 4 -  Doors and side lights shall only be coupled with 12 module (117.5 cm) high windows.",
+      "clause_id": "IS 1948:1961#3",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "4",
+      "title": "Materials",
+      "text": "4. Materials",
+      "clause_id": "IS 1948:1961#4",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "4.1",
+      "title": "Aluminium Panes – Shall",
+      "text": "4.1 Aluminium Panes -  Shall conform to the prescribed standard.",
+      "clause_id": "IS 1948:1961#4.1",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "4.2",
+      "title": "Glass Panes – Shall",
+      "text": "4.2 Glass Panes -  Shall weigh at least 7.5 kg/m2. Glazing shall be outside of frames. Note- For sizes of glass panes see Table 1 of the  standard.",
+      "clause_id": "IS 1948:1961#4.2",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "5",
+      "title": "Fabrication",
+      "text": "5. Fabrication",
+      "clause_id": "IS 1948:1961#5",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "5.1",
+      "title": "Side – Hung Shutters",
+      "text": "5.1 Side -  Hung Shutters  - Hinges projecting type 67 mm wide. Friction hinges or peg stays (300 mm long) shall be provided.",
+      "clause_id": "IS 1948:1961#5.1",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "5.2",
+      "title": "Centre Hung Ventilators –",
+      "text": "5.2 Centre Hung Ventilators -  Shall be hung on two pairs of cup pivots of aluminium alloy.",
+      "clause_id": "IS 1948:1961#5.2",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "5.3",
+      "title": "Doors – Outer fixed",
+      "text": "5.3 Doors - Outer fixed frame shall be of section A1 - FX 8. Shutter frame shall be of either hollow sections A1 - HF X 5 and A1 - HF X 6 or of solid sections A1-F X 5 and A1- F X 6 shown in Fig 5 of the standard.",
+      "clause_id": "IS 1948:1961#5.3",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "5.3.1",
+      "title": "Hinges shall be of",
+      "text": "5.3.1 Hinges shall be of 50 mm projecting type.",
+      "clause_id": "IS 1948:1961#5.3.1",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 3,
+      "parent_clause": "5.3",
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "5.3.2",
+      "title": "A suitable lock for",
+      "text": "5.3.2 A suitable lock for the door operable either from inside or outside shall be provided.",
+      "clause_id": "IS 1948:1961#5.3.2",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 3,
+      "parent_clause": "5.3",
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "5.3.3",
+      "title": "In double shutter doors",
+      "text": "5.3.3 In double shutter doors the first closing shutter shall have a concealed aluminium alloy bolt at top and bottom. SUMMARY OF IS 1948 : 1961 ALUMINIUM DOORS, WINDOWS AND VENTILATORS",
+      "clause_id": "IS 1948:1961#5.3.3",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 3,
+      "parent_clause": "5.3",
+      "role": "other",
+      "page_start": 633,
+      "page_end": 633,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "5.4",
+      "title": "Composite Units – Doors",
+      "text": "5.4 Composite Units -  Doors shall be coupled to windows or side lights by extruded aluminium sections made from aluminium conforming to IS Designation HE 9-WP.",
+      "clause_id": "IS 1948:1961#5.4",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 634,
+      "page_end": 634,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "5.5",
+      "title": "Weather Bar – Where",
+      "text": "5.5 Weather Bar -  Where a coupling member is fitted over an external opening shutter, the coupling member should incorporate an integrally extruded weather bar.",
+      "clause_id": "IS 1948:1961#5.5",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 634,
+      "page_end": 634,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "6",
+      "title": "Positions of Bolts, Fixing",
+      "text": "6. Positions of Bolts, Fixing Screws and Lugs -  Outer frames shall be provided with fixing holes centrally in the web of the sections. Note — For details regarding positions of fixing holes and member of fixing lugs see 7 of the  standard.",
+      "clause_id": "IS 1948:1961#6",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 634,
+      "page_end": 634,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "7",
+      "title": "Finish",
+      "text": "7. Finish",
+      "clause_id": "IS 1948:1961#7",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 634,
+      "page_end": 634,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "7.1",
+      "title": "Matt, scratch",
+      "text": "7.1 Matt, scratch-brush or polished. May be anodized additionally.",
+      "clause_id": "IS 1948:1961#7.1",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 634,
+      "page_end": 634,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1948:1961",
+      "clause": "7.2",
+      "title": "A thick layer of",
+      "text": "7.2 A thick layer of clear transparent lacquer based on methacrylates or cellulose butyrate shall be applied by suppliers to protect the surface from wet cement during construction. This lacquer coating shall be removed after installation is completed. For detailed information, refer to IS 1948 : 1961  Specification for aluminium doors, windows and ventilators.",
+      "clause_id": "IS 1948:1961#7.2",
+      "family": "IS 1948",
+      "year": 1961,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 634,
+      "page_end": 634,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1948:1961",
+    "record_id": 8455,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      633,
+      634
+    ],
+    "n_clauses": 19,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

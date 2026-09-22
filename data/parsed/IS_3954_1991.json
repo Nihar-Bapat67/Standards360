@@ -1,0 +1,68 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3954:1991",
+      "clause": "1",
+      "title": "Scope – Lays down",
+      "text": "1.   Scope -  Lays down the nominal dimensions, mass and sectional properties of hot- rolled steel channel sections for general engineering purpose.",
+      "clause_id": "IS 3954:1991#1",
+      "family": "IS 3954",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 730,
+      "page_end": 730,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3954:1991",
+      "clause": "2",
+      "title": "Designation – Hot rolled",
+      "text": "2. Designation - Hot rolled steel channel sections conforming to this standard shall be designated by the letters CHG followed by a figure denoting the depth of the channel in mm. For detailed information, refer to IS 3954 : 1991. Specifications for hot rolled  steel channel sections for general engineering purposes - Dimensions (first revision).",
+      "clause_id": "IS 3954:1991#2",
+      "family": "IS 3954",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 730,
+      "page_end": 730,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 3954:1991",
+      "clause": "3",
+      "title": "Dimensions and Sectional Properties",
+      "text": "3. Dimensions and Sectional Properties Designation   Mass Sectional         Width    Moment of Inertia Area Flange kg/m cm2 mm Ixx           Iyy CHG 16 0.76 0.971 10 0.29 0.075 CHG 20 0.86 1.099 10 0.53 0.081 CHG 40 4.82 6.144 32 13.59 5.752 Note — For more sectional properties refer to  Table 1 of the standard. SUMMARY OF IS 3954 : 1991  HOT ROLLED CHANNEL SECTIONS FOR GENERAL ENGINEERING PURPOSES - DIMENSIONS (First Revision)",
+      "clause_id": "IS 3954:1991#3",
+      "family": "IS 3954",
+      "year": 1991,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 730,
+      "page_end": 730,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3954:1991",
+    "record_id": 10544,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      730,
+      730
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1364 (Part 2):2002",
+      "clause": "1",
+      "title": "Scope – Gives specifications",
+      "text": "1. Scope - Gives specifications for hexagon head screws with threads  from M1.6 upto  and including M64, of product grade A for threads M1  6 to M24 and nominal lengths up to and including 10 d or 150 mm, whichever is shorter and product grade B for threads over M24 or nominal lengths over 10 d or 150 mm, whichever is shorter.",
+      "clause_id": "IS 1364 (Part 2):2002#1",
+      "family": "IS 1364 (Part 2)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 770,
+      "page_end": 770,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1364 (Part 2):2002",
+      "clause": "2",
+      "title": "Dimensions",
+      "text": "2. Dimensions Note —For  corresponding Indian standards of certain International standards referred, along with their degree of equivalence  refer  to the National foreward of the  standard. For  detailed information, refer to  IS 1364(Part 2) :1992— ISO 4017 : 1998. Specification for  Hexagon head bolts,screw and nuts  of product  grades A and B - Part 2- Hexagon head  screws (Size range M1.6 to M64) (third revision).",
+      "clause_id": "IS 1364 (Part 2):2002#2",
+      "family": "IS 1364 (Part 2)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 770,
+      "page_end": 770,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 1364 (Part 2):2002",
+      "clause": "4",
+      "title": "Designation",
+      "text": "4. Designation —Example for the designation of a hexagon screw with thread size M12, nominal length l = 2.1 Prefered threads - M1.6, M2, M2.5, M3, M4, M5, M6, M8, M10, M12, M16, M20, M24, M30, M36, M42, M48, M56 and M64. 2.2 Non- Preferred threads - M3.5, M14, M18, M22, M27, M33, M39, M45, M52, and M60. Note —For details, of preferred and non preferred threads refer to Tables 1 and 2 of the Standard. 3. Specifications — See Table 1 80 mm and property class 8.8—Hexagon head bolt  IS 1364 (Part 2) — ISO  4017 — M12 x 80— 8.8 TABLE 2 SPECIFICATION AND REFERENCE STANDARDS | Material | Steel | Stainless steel Non-ferrous metal |  | | --- | --- | --- | --- | | General International Standard requirements | ISO 8992 |  |  | | Thread Tolerance International Standards | 6g |  |  | |  | ISO 724, ISO 965-1 |  |  | | Mechanical Property classa properties International Standard | d < mm: as agreed 3 mm ≤ d ≤ 39 mm 5.6, 8.8, 9.8, 10.9 d > 39 mm: as agreed | d ≤ 24 m: A2-70, A4-70 24 mm < d ≤ mm: A2-50, A4-50 d > 39 mm: as agreed | Materials specified ISO 8839 | |  | d ≤ 39 mm: ISO 898-1 d < 3 mm and d > 39 mm: as agreed | d ≤ 39 mm: ISO 3506-1 d > 39 mm: as agreed |  | | Tolerance Product grade International Standard | Ford ≤ 24 mm and / ≤ 10 d or 150 mmb: A Ford > 24 mm or / > 10 d or 150 mmb: B |  |  | |  | ISO 4759-1 |  |  | | Finish and/or coating | As processed Plain Plain Requirements for Requirements for electroplating are covered in electroplating are ISO 4042 covered in ISO 4042 Requirements for non-electrolytically applied zinc flake coating are covered in ISO 10683 If different electroplating requirements are desired or if requirements are needed for other finishes, thy should be agreed between customer and supplier. Limits for surface discontinuities are covered in ISO 6157-1 |  |  | | Acceptability | For acceptance procedure, see ISO 3269. |  |  | | a For other property classes see ISO 898-1 for steel and ISO 3506-1 for stainless steel respectively. b Whichever is shorter. |  |  |  |",
+      "clause_id": "IS 1364 (Part 2):2002#4",
+      "family": "IS 1364 (Part 2)",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 770,
+      "page_end": 770,
+      "has_table": true,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1364 (Part 2):2002",
+    "record_id": 29758,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      770,
+      770
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.95,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1834:1984",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Specifies hot applied sealing compounds intended for use in  sealing joints in  concrete roads, runways, bridges and other structures. The  material covered by this standard is suitable only for longitudinal and transverse joints   not more than 12 m apart.",
+      "clause_id": "IS 1834:1984#1",
+      "family": "IS 1834",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 89,
+      "page_end": 89,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1834:1984",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2. Materials— Joint sealing compounds, composed of suitable mixtures of materials, shall form a resilient and adhesive barrier in  concrete joints and shall be capable of  resisting the infiltration of water and the ingress of solid particles. They shall not be unduly affected by temperature variation and shall resist any tendency to flow out of the  joint or be picked up by vehicle tyres under hot weather conditions. They shall not  become brittle or suffer loss of resiliency during cold weather conditions. On heating in suitably designed kettles they shall be capable of acquiring a pouring consistency enabling them to be run molten in a uniform manner into all types of  horizontal joints without difficulty. SUMMARY OF IS 1834 : 1984 HOT APPLIED SEALING COMPOUNDS FOR JOINTS  IN CONCRETE (First   Revision) TABLE 1 PHYSICAL REQUIREMENTS OF SEALING COMPOUNDS OF GRADES A AND B Sl No.                    Characteristic Requirement (1) (2) (3) i) Pour point, Max 180°C ii) Flow test, percentage, Max 5 iii) Extensibility, Min 6 mm iv) Penetration, at 250c, 15 Min 100g, 5s, 1/10 50 Max v) Aviation fuel resistance — ( for Grade B only) a) Increase in penetration as measured in (iv) After 7 days immersion in aviation fuel 15 Max b) Change in mass, after 7 days immersion in aviation fuel, percent, 1 Max Note —  For methods of tests refer to the standard For detailed information, refer to IS 1834 : 1984 Specification for  hot applied sealing compounds for  joint in concrete (first revision). Note—Sealing compound shall be  employed for filling contraction and construction joints as well as a sealing medium above expansion joint filler  to a depth not exceeding 40 mm.",
+      "clause_id": "IS 1834:1984#2",
+      "family": "IS 1834",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 89,
+      "page_end": 89,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1834:1984",
+      "clause": "3",
+      "title": "Grades",
+      "text": "3. Grades a) Grade A ( Ordinary ), and b) Grade B  (Fuel Resistant) Grade A is suitable for concrete comstructions other than those which are subjected to spillage of kerosine or other petroleum oils. Grade B is suitable for  use in construction where resistance  to kerosine or other  petroleum oils is required.",
+      "clause_id": "IS 1834:1984#3",
+      "family": "IS 1834",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 89,
+      "page_end": 89,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 1834:1984",
+      "clause": "4",
+      "title": "Physical Requirements",
+      "text": "4. Physical Requirements — See Table 1. For detailed information, refer to IS 1838(Part 1) :1983 Specification for  preformed fillers for expansion Joint in concrete pavement and structures (non extruding and resilient type): Part 1 Bitumen impregnated fibre (first revision). IS 1838 (PART 1) : 1983 PREFORMED  FILLERS FOR  EXPANSION JOINT IN CONCRETE PAVEMENT AND STRUCTURES (NON- EXTRUDING  AND RESILIENT  TYPE) PART 1 BITUMEN IMPREGNATED FIBRE (First Revision) SUMMARY OF 1. Scope — Specifies  the requirements for bitumen impregnated fibre fillers for expansion joints. The fillers may be used  for filling expansion joints in  concrete roads, runwaysand buildings. 2. Dimensions and  Tolerances 2.1 Dimensions — The length,width and  thickness of the preformed strips shall be as agreed to  between the purchaser and the manufacturer. 2.2      Tolerances On length ± 5 mm On width ± 3 mm On thickness ± 5 mm 3. Physical requirements TABLE 1 PHYSICAL REQUIREMENTS OF BITUMEN IMPREGNATED FIBRE FILLERS Sl. Characteristic Requirement No. (1) (2) (3) i) Resistance to handling Strips shall not be deformed or broken by twisting, bending or  other types  of ordinary handling when exposed to atmospheric condition. ii) Recovery Shall recover at least 70 percent of its thickness before the test. iii) Compression a)  Load required to compress the specimen to 50 percent of its original thickness before the  test shall be 7 Kgf/cm2 (0.7 N/mm2), Min. 53kgf/ cm2 (5.3 N/mm2), Max. b)  Loss in bitumen 3 percent,  Max. iv) Extrusion Amount of extrusion of the free edge  shall not  exceed 6.5 mm. v) Water absorption 20 percent, Max. vi) Density 300 kg/m3, , Min. vii) Bitumen content 35 percent, Min. viii) Weathering a)  Shall show no sign of  disintegration or   separation of fibres after the test. b)  Shall satisfy the requirement of recovery, compression and extrusion after the test. ix) Penetration of recovered bitumen Shall be between 25 to 100 at 250C Note — For methods of tests, refer to IS 10566 : 1983 Methods of test for preformed fillers for expansion joints in concrete paving and  structural construction.",
+      "clause_id": "IS 1834:1984#4",
+      "family": "IS 1834",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 89,
+      "page_end": 90,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1834:1984",
+    "record_id": 8237,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      89,
+      90
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

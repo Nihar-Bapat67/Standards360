@@ -1,0 +1,436 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12049:1987",
+      "clause": "1",
+      "title": "Scope – Covers the",
+      "text": "1. Scope - Covers the dimensions, such as length, measurement for wood based panel materials. The wood based panels considered are plywood, blockboard, hardboard, fibre insulation board, particle board, veneered particle board, particle board for insulation and high density particle board.",
+      "clause_id": "IS 12049:1987#1",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2",
+      "title": "Dimensions",
+      "text": "2. Dimensions",
+      "clause_id": "IS 12049:1987#2",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.1",
+      "title": "Plywood",
+      "text": "2.1 Plywood",
+      "clause_id": "IS 12049:1987#2.1",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.1.1",
+      "title": "Size– Plywood panels shall",
+      "text": "2.1.1 Size- Plywood panels shall be of the sizes specified below Length Width mm mm 2400 × 1200 2100 × 1200 2100 × 900 1800 × 1200 1800 × 900",
+      "clause_id": "IS 12049:1987#2.1.1",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.1.2",
+      "title": "Thickness–The thickness shall be",
+      "text": "2.1.2 Thickness-The thickness shall be as given in the specification.",
+      "clause_id": "IS 12049:1987#2.1.2",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.2",
+      "title": "Hardboard",
+      "text": "2.2 Hardboard",
+      "clause_id": "IS 12049:1987#2.2",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.2.1",
+      "title": "Size– Hardboards shall be",
+      "text": "2.2.1 Size- Hardboards shall be of the sizes specified bel ow: Length Width mm mm 4800 × 1200 3600 × 1200 3000 × 1200 2400 × 1200 2100 × 1200 2100 × 900 1800 × 1200 1800 × 900 1200 × 1200",
+      "clause_id": "IS 12049:1987#2.2.1",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.2.2",
+      "title": "Thickness –The thicknesses shall",
+      "text": "2.2.2 Thickness -The thicknesses shall be as given in the specification.",
+      "clause_id": "IS 12049:1987#2.2.2",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.3",
+      "title": "Blockboard",
+      "text": "2.3 Blockboard",
+      "clause_id": "IS 12049:1987#2.3",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.3.1",
+      "title": "Sizes – Blockboards shall",
+      "text": "2.3.1 Sizes - Blockboards shall be of the sizes specified below : Length Width mm mm 2400 × 1200 2100 × 1200 2100 × 900 1800 × 1200 1800 × 900",
+      "clause_id": "IS 12049:1987#2.3.1",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "2.3",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.3.2",
+      "title": "Thickness – The thickness",
+      "text": "2.3.2 Thickness - The thickness shall be as given in the specification.",
+      "clause_id": "IS 12049:1987#2.3.2",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "2.3",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.4",
+      "title": "Fibre Insulation Board",
+      "text": "2.4 Fibre Insulation Board",
+      "clause_id": "IS 12049:1987#2.4",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.4.1",
+      "title": "Size – Fibre insulation",
+      "text": "2.4.1 Size - Fibre insulation boards shall be of the sizes specified below : Length Width mm mm 3600 × 1200 3000 × 1200 2400 × 1200 2100 × 1200 2100 × 900 1800 × 1200 1800 × 900",
+      "clause_id": "IS 12049:1987#2.4.1",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "2.4",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.4.2",
+      "title": "Thickness",
+      "text": "2.4.2 Thickness  - The thickness shall be as given in the specification.",
+      "clause_id": "IS 12049:1987#2.4.2",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "2.4",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 552,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "2.5",
+      "title": "Wood Particle Board (Medium Density)",
+      "text": "2.5 Wood Particle Board (Medium Density)  - and prelamination particle board. SUMMARY OF IS 12049 : 1987 DIMENSIONS AND TOLERANCES RELATING TO WOOD BASED PANEL MATERIALS 2.7.2 Thickness -The thicknesses shall be as given in the specification. 2.8 Wood Particle Board (High Density) 2.8.1 Size  - Wood particle boards (high density) shall be of the sizes specified below : Length Width mm mm 2400 × 1200 2100 × 1200 2100 × 900 1800 × 1200 1800 × 900 2.8.2 Thickness -The thicknesses shall be as given in the specification.",
+      "clause_id": "IS 12049:1987#2.5",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 552,
+      "page_end": 553,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "3",
+      "title": "Tolerances –",
+      "text": "3. Tolerances -",
+      "clause_id": "IS 12049:1987#3",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 553,
+      "page_end": 553,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "3.1",
+      "title": "The following tolerances for",
+      "text": "3.1 The following tolerances for the dimensions shall be permitted.",
+      "clause_id": "IS 12049:1987#3.1",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 553,
+      "page_end": 553,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "3.1.1",
+      "title": "Length",
+      "text": "3.1.1 Length + 6 mm - 0 mm",
+      "clause_id": "IS 12049:1987#3.1.1",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 553,
+      "page_end": 553,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "3.1.2",
+      "title": "Width",
+      "text": "3.1.2 Width + 3 mm - 0 mm",
+      "clause_id": "IS 12049:1987#3.1.2",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 553,
+      "page_end": 553,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "3.1.3",
+      "title": "Thickness – as specified",
+      "text": "3.1.3 Thickness - as specified in relevant standard.",
+      "clause_id": "IS 12049:1987#3.1.3",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 553,
+      "page_end": 553,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "3.2",
+      "title": "Edge Straightness – 2",
+      "text": "3.2 Edge Straightness - 2 mm per 1000 mm.",
+      "clause_id": "IS 12049:1987#3.2",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 553,
+      "page_end": 553,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "3.3",
+      "title": "Squareness – 2 mm",
+      "text": "3.3 Squareness - 2 mm per 1000 mm.",
+      "clause_id": "IS 12049:1987#3.3",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 553,
+      "page_end": 553,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 12049:1987",
+      "clause": "3.4",
+      "title": "Variation in thickness on",
+      "text": "3.4 Variation in thickness on a board thickness variation between any two points on a board shall not be more than 0.5 mm. For  detailed information, refer to IS 12049 :1987  Specification for dimensions and tolerances relating to wood based panel materials. 2.5.1 Size  — Shall be as sizes specified below: Length Width m m mm 4800 × 1800 3600 × 1200 3000 × 1800 3000 × 1200 2400 × 1800 2400 × 1200 2100 × 1200 2100 × 900 1800 × 1800 1800 × 1200 1800 × 900 2.5.2 Thickness - The thickness shall be as given in the specification. 2.6 Veneered Particle Board 2.6.1 Size— Veneered particle boards shall be of the sizes specified below: Length Width mm mm 2400 × 1200 2100 × 1200 2100 × 900 1800 × 1200 1800 × 900 2.6.2 Thickness - The thickness shall be as given in the specification. 2.7 Particle Board for Insulation 2.7.1 Size  - Particle boards for insulation shall be of the sizes specified below : Length Width mm mm 2400 × 1200 2100 × 1200 2100 × 900 1800 × 1200 1800 x 900",
+      "clause_id": "IS 12049:1987#3.4",
+      "family": "IS 12049",
+      "year": 1987,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 553,
+      "page_end": 553,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12049:1987",
+    "record_id": 3313,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      552,
+      553
+    ],
+    "n_clauses": 23,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

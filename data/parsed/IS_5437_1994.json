@@ -1,0 +1,328 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5437:1994",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and methods of sampling and test for figured, rolled and wired glass.",
+      "clause_id": "IS 5437:1994#1",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements",
+      "clause_id": "IS 5437:1994#2",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "2.1",
+      "title": "May be clear or",
+      "text": "2.1 May be clear or tinted as agreed.",
+      "clause_id": "IS 5437:1994#2.1",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "2.2",
+      "title": "Shall not contain any",
+      "text": "2.2 Shall not contain any stones with cracks.",
+      "clause_id": "IS 5437:1994#2.2",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "2.3",
+      "title": "Shall not contain any",
+      "text": "2.3 Shall not contain any stones bigger than 2 mm diameter or  which protrude from either side of the glass.",
+      "clause_id": "IS 5437:1994#2.3",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "2.4",
+      "title": "Stones shall be",
+      "text": "2.4 Stones shall be  seperated by at least 60 cms.",
+      "clause_id": "IS 5437:1994#2.4",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "2.5",
+      "title": "The glass sheet",
+      "text": "2.5 The glass sheet  shall have  not   more than  one gaseous inclusion greater than 3.5 mm or equivalent elliptical inclusion up to 20 mm long in 1m2 of each cut sheet.",
+      "clause_id": "IS 5437:1994#2.5",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "2.6",
+      "title": "Warpage – Shall not",
+      "text": "2.6 Warpage -  Shall not be more than 1 percent.",
+      "clause_id": "IS 5437:1994#2.6",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "3",
+      "title": "Thickness and Dimensional Tolerance of Figured",
+      "text": "3. Thickness and Dimensional Tolerance of Figured and Rolled Glass",
+      "clause_id": "IS 5437:1994#3",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "3.1",
+      "title": "Thickness and dimensional tolerances of figured",
+      "text": "3.1 Thickness and dimensional tolerances of figured and rolled  glass  shall be as given below. Any other thickness as agreed to between purchaser and  supplier may be provided. Sl. Nominal          Thickness             Dimensional No. Thickness          Tolerance Tolerance (mm) (mm) (mm) (1) (2) (3) (4) i. 2.0 ±0.2 ±1.5 ii. 3.0 ±0.2 ±2.0 iii. 4.0 ±0.2 ±2.0 iv. 5.0 ±0.3 ±2.0 v. 6.0 ±0.3 ±2.0",
+      "clause_id": "IS 5437:1994#3.1",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "4",
+      "title": "Specific Requirements for Wired Glass –",
+      "text": "4. Specific Requirements for Wired Glass -",
+      "clause_id": "IS 5437:1994#4",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "4.1",
+      "title": "Thickness",
+      "text": "4.1 Thickness — Thickness of wired glass shall be 6.0 ± 0.4  mm. Note - The thickness can also be as agreed to between the purchaser and the supplier and the maximum   tolerance on thickness shall be 9 percent of the  nominal thickness",
+      "clause_id": "IS 5437:1994#4.1",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "4.2",
+      "title": "Dimensional Tolerance – Tolerance",
+      "text": "4.2 Dimensional Tolerance - Tolerance on cut size of wired glass shall be ± 3.0 mm.",
+      "clause_id": "IS 5437:1994#4.2",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "4.3",
+      "title": "Wire Mesh – The",
+      "text": "4.3 Wire Mesh - The wire mesh used in the wired glass or wired figured glass shall be made of steel wire 0.46 to 0.56 mm  in diameter.  The pattern of  mesh shall be square or diamond with wires welded or hexagonal with wires twisted. In the  case of welded mesh, the wire running across the manufacturing width  shall be measured.",
+      "clause_id": "IS 5437:1994#4.3",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "4.4",
+      "title": "Position of Wire Mesh",
+      "text": "4.4 Position of Wire Mesh - The wire mesh shall be embedded completely in the glass sheet at least 1mm from the surface and shall not be exposed at any place.",
+      "clause_id": "IS 5437:1994#4.4",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "4.5",
+      "title": "Broken Wires – Wire",
+      "text": "4.5 Broken Wires - Wire mesh shall not contain more than 3 broken wires per square metre of the wired glass or wired figured glass.",
+      "clause_id": "IS 5437:1994#4.5",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 824,
+      "page_end": 824,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5437:1994",
+      "clause": "4.6",
+      "title": "Flame Proofness – Shall",
+      "text": "4.6 Flame Proofness - Shall satisfy the prescribed test. Note - For methods of measurements and tests, refer to the standard. For detailed information, refer to  IS 5437 : 1994  Specifications for figured, rolled and wired glass (first revision). SECTION 22 FILLERS, STOPPERS AND PUTTIES CONTENTS Title Page IS 110 : 1983 Ready mixed paint, brushing, grey filler, for enamels for use over primers 22.3 (second revision) IS 419 : 1967 Putty for use on window frames (first revision) 22.4 IS 423 : 1961 Plastic wood for joiners filler (revised) 22.5 IS 3709:1966 Mastic cement for bedding of metal windows 22.6",
+      "clause_id": "IS 5437:1994#4.6",
+      "family": "IS 5437",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "references",
+      "page_start": 824,
+      "page_end": 826,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5437:1994",
+    "record_id": 12202,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      824,
+      826
+    ],
+    "n_clauses": 17,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

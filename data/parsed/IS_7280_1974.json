@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7280:1974",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope - Requirements of solid filler wires for submerged arc welding of structural steels (28-50 kgf/mm2 yield strength and 34-70 kgf/mm2 ultimate tensile strength). Note - This standard is intended to serve as a guide for the manufacture and selection of bare wire electrodes for  submerged arc welding of  structural steels.",
+      "clause_id": "IS 7280:1974#1",
+      "family": "IS 7280",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 754,
+      "page_end": 754,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7280:1974",
+      "clause": "2",
+      "title": "Dimensions and Tolerances",
+      "text": "2. Dimensions and Tolerances",
+      "clause_id": "IS 7280:1974#2",
+      "family": "IS 7280",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 754,
+      "page_end": 754,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7280:1974",
+      "clause": "2.1",
+      "title": "The diameters of wires",
+      "text": "2.1 The diameters of wires shall be 1.6, 2.0, 2.5, 3.15, 4.0, 5.0, 6.3 and 8.0 mm.",
+      "clause_id": "IS 7280:1974#2.1",
+      "family": "IS 7280",
+      "year": 1974,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 754,
+      "page_end": 754,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7280:1974",
+      "clause": "2.2",
+      "title": "Tolerance on the diameters",
+      "text": "2.2 Tolerance on the diameters of wires shall be ± 0.05 mm.",
+      "clause_id": "IS 7280:1974#2.2",
+      "family": "IS 7280",
+      "year": 1974,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 754,
+      "page_end": 754,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7280:1974",
+      "clause": "3",
+      "title": "Conditions of Wires",
+      "text": "3. Conditions of Wires—  Filler wires shall have smooth finish and they shall be free from surface imperfections, corrosion products, grease, excessive oxide or other foreign matter. Temper and surface conditions shall be suitable for uniform uninterrupted feeding on automatic or semi-automatic welding equipment. The copper content of the coated wire expressed as a percentage of the wire and the coating shall not exceed 0.4 percent by weight.",
+      "clause_id": "IS 7280:1974#3",
+      "family": "IS 7280",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 754,
+      "page_end": 754,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7280:1974",
+      "clause": "4",
+      "title": "Classification",
+      "text": "4. Classification— AS-1, AS-1 Si, AS-2, AS-2Si, AS- 2 Mo, AS-2 Ni, AS-3, AS-3 Mo, AS-3 Mo Ni, AS-4, AS- 4 Mo, AS-6 and AS-6 Mo based on their chemical composition. Note 1- For requirements of reels for wires and reeling conditions, refer to 5 and 6 of the standard. Note 2- For chemical composition details, refer to 9 of the standard. For detailed information, refer to IS  7280 : 1974  Specifications for bare wire electrodes for submerged arc welding  of  structural  steels.",
+      "clause_id": "IS 7280:1974#4",
+      "family": "IS 7280",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 754,
+      "page_end": 754,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7280:1974",
+    "record_id": 14200,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      754,
+      754
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.957,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

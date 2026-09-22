@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1364 (Part 4):2003",
+      "clause": "1",
+      "title": "Scope – Gives specifications",
+      "text": "1. Scope -  Gives specifications for  chamfered hexagon thin nuts, with thread diameters from M1.6 to M64,including , with product grade A for  threads d ≤ M16 and product grade B for  threads d > M16.",
+      "clause_id": "IS 1364 (Part 4):2003#1",
+      "family": "IS 1364 (Part 4)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 772,
+      "page_end": 772,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1364 (Part 4):2003",
+      "clause": "2",
+      "title": "Dimensions –",
+      "text": "2. Dimensions -",
+      "clause_id": "IS 1364 (Part 4):2003#2",
+      "family": "IS 1364 (Part 4)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 772,
+      "page_end": 772,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1364 (Part 4):2003",
+      "clause": "2.1",
+      "title": "Preferred threads –M1.6, M2,",
+      "text": "2.1 Preferred threads -M1.6, M2, M2.5, M3, M4, M5, M6, M8, M10, M12, M16, M20, M24, M30, M36, M42, M48, M56 and M64",
+      "clause_id": "IS 1364 (Part 4):2003#2.1",
+      "family": "IS 1364 (Part 4)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 772,
+      "page_end": 772,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1364 (Part 4):2003",
+      "clause": "2.2",
+      "title": "Non–preferred threads – M3.5,",
+      "text": "2.2 Non-preferred threads - M3.5, M14, M18, M22, M2.7, M33, M39, M45, M52, M60 Note - For  details,  on preferred and non -preferred sizes refer to Tables 1 and 2 of the  standard.",
+      "clause_id": "IS 1364 (Part 4):2003#2.2",
+      "family": "IS 1364 (Part 4)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 772,
+      "page_end": 772,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1364 (Part 4):2003",
+      "clause": "3",
+      "title": "Specifications – See Table 1",
+      "text": "3. Specifications - See Table 1 SUMMARY OF IS 1364 (PART 4) : 2003   ISO 4035 : 1999 HEXAGON HEAD BOLTS,SCREWS&NUTS OFPRODUCTGRADEA &B PART 4 HEXAGON THIN NUTS (CHAMFERED) (SIZE RANGE M1.6 TO M64) (Fourth Revision) Note - For corresponding Indian standards of certain International standards referred, along with their degree of equivalence, refer  to National Foreward of the  standard. For  detailed information, refer to  IS 1364 (Part 4):1992. - ISO 4035: 1986 hexagon head bolts, screw and nuts of product  grades A and B - Part 4 - Hexagon thin nuts (chamfered) (size range M1.6 to M64) (third revision).",
+      "clause_id": "IS 1364 (Part 4):2003#3",
+      "family": "IS 1364 (Part 4)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 772,
+      "page_end": 772,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1364 (Part 4):2003",
+      "clause": "4",
+      "title": "Designation",
+      "text": "4. Designation : Example for the designation of a hexagon chamfered haxagon thin nut with thread size d= M12, and property class 05 :Hexagon thin nut  IS 1364 (Part 4) — ISO  4035—  M12 — 05 TABLE 3 SPECIFICATION AND REFERENCE STANDARDS | Material | Steel | Stainless steel Non-ferrous metal |  | | --- | --- | --- | --- | | General International Standard requirements | ISO 8992 |  |  | | Thread Tolerance International Standards | 6H |  |  | |  | ISO 724, ISO 965-1 |  |  | | Mechanical Property classa properties International Standard | d < M3: as agreed M3 ≤ d ≤ M39: 4, 5, d > M39: as agreed | d ≤ M24: A2-35, A4-35 M24 < d ≤ M39: A2-25 A4-025 | Materials specified ISO 8839 | |  | d ≤ M3: as agreed M3 ≤ d ≤ M39: ISO 898-2 d > M39: as agreed | d ≤ M39: ISO 3506-2 d > M39: as agreed |  | | Tolerance Product grade International Standard | d ≤ M16:A d < M16: B |  |  | |  | ISO 4759-1 |  |  | | Finish and/or coating | As processed Plain Plain Requirements for Requirements for electroplating are covered in electroplating are ISO 4042 covered in ISO 4042 Requirements for non-electrolytically applied zinc flake coating are covered in ISO 10683 If different electroplating requirements are desired or if requirements are needed for other finishes, thy should be agreed between customer and supplier. Limits for surface discontinuities are covered in ISO 6157-1 |  |  | | Acceptability | For acceptance procedure, see ISO 3269. |  |  |",
+      "clause_id": "IS 1364 (Part 4):2003#4",
+      "family": "IS 1364 (Part 4)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 772,
+      "page_end": 772,
+      "has_table": true,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1364 (Part 4):2003",
+    "record_id": 5316,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      772,
+      772
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

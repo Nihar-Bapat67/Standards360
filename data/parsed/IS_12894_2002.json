@@ -1,0 +1,328 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12894:2002",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for classification, general quality, dimensions and physical requirements of fly ash-lime bricks used in buildings. Note— Pulverized fuel ash lime  bricks having wet compressive strength less than 30 N/mm2 approximately 300 kg/cm2 are covered in this standard and for higher strength see IS 2180 and IS 1077.",
+      "clause_id": "IS 12894:2002#1",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements",
+      "clause_id": "IS 12894:2002#2",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "2.1",
+      "title": "Visually the bricks shall",
+      "text": "2.1 Visually the bricks shall be sound, compact and uniform in shape. The bricks shall be free from visible cracks, warpage and organic matter.",
+      "clause_id": "IS 12894:2002#2.1",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "2.2",
+      "title": "The bricks shall be",
+      "text": "2.2 The bricks shall be solid and with or without frog 10 to 20 mm deep on one of its flat side. The shape and size of the frog shall conform to either Fig. 1A or Fig. 1B of the standard.",
+      "clause_id": "IS 12894:2002#2.2",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "3",
+      "title": "Classification",
+      "text": "3. Classification",
+      "clause_id": "IS 12894:2002#3",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "3.1",
+      "title": "Pulverized fuel ash",
+      "text": "3.1  Pulverized fuel ash - lime bricks shall be classified on the basis of average wet compresive strength as given in Table 1. Table 1 Classes of Pulverized Fuel Ash-Lime Bricks Class Average Wet Compressive Strength Desingnation not less than N/mm2 Kgf/cm2 (Approx) (1) (2) (3) 30 30.0 (300) 25 25.0 (250) 20 20.0 (200) 17.5 17.5 (175) 15 15.0 (150) 12.5 12.5 (125) 10 10.0 (100) 7.5 7.5 (75) 5 5.0 (50) 3.5 3.5 (35)",
+      "clause_id": "IS 12894:2002#3.1",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "4",
+      "title": "Dimensions and Tolerances",
+      "text": "4. Dimensions and Tolerances",
+      "clause_id": "IS 12894:2002#4",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "4.1",
+      "title": "Dimensions",
+      "text": "4.1 Dimensions",
+      "clause_id": "IS 12894:2002#4.1",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "4.1.1",
+      "title": "The standard modular sizes",
+      "text": "4.1.1  The standard modular sizes of pulverized fuel ash-lime bricks shall be as follows (see Fig. 1A and 1B): Length (L) Width (W) Height (H) mm mm mm 190 90 90 190 90 90",
+      "clause_id": "IS 12894:2002#4.1.1",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "4.1.2",
+      "title": "The following non",
+      "text": "4.1.2  The following non-modular sizes of the bricks may also be used (see Fig. 1A and Fig. 1B) Length (L) Width (W) Height (H) mm mm mm 230 110 70 230 110 30",
+      "clause_id": "IS 12894:2002#4.1.2",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "4.1.2.1",
+      "title": "For obtaining proper bond arrangement and",
+      "text": "4.1.2.1  For obtaining proper bond arrangement and modular dimensions for the brickwork, with the nonmodular sizes, the following sizes of the bricks may also be used: Length (L) Width (W) Height (H) mm mm mm 70 110 701/3 length brick 230 50 701/2 width brick",
+      "clause_id": "IS 12894:2002#4.1.2.1",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 4,
+      "parent_clause": "4.1.2",
+      "role": "other",
+      "page_start": 108,
+      "page_end": 108,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "4.2",
+      "title": "Tolerances",
+      "text": "4.2 Tolerances The dimensions of bricks when tested in accordance with 5.2.1 shall be within the following limits per 20 bricks: (a) For Modular size Length 3 720 to 3 880 mm (3 800 ± 80 mm) Width 1 760 to 1 840 mm (1 800 ± 40 mm) Height 1 760 to 1 840 mm (1 800 ± 40 mm) (For 90 mm high bricks) 760 to 840 mm (800 ± 40 mm) (For 40 mm high bricks) (b) For Non-modular Size Length 4 520 to 4 680 mm (4 600 ± 80 mm) Width 2 160 mm to 2 240 (2 200 ± 40 mm) Height 1 360 mm to 1 440 (1 400 ± 40 mm) (Fro 70 mm high bricks) SUMMARY OF IS 12894 : 2002 PULVERIZED FUEL ASH-LIME BRICKS (First Revision) Note —  For methods of tests, refer to various part of  IS 3495 :1992 Methods of tests of burnt clay building bricks (third revision) and IS 4139:1989. Calcium silicate bricks (second revision). For detailed information, refer to IS 12894:2002 Specification for pulverized fuel ash-lime bricks (first revision). 560 to 640 mm (600 ± 40 mm) (For 30 mm high bricks)",
+      "clause_id": "IS 12894:2002#4.2",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 108,
+      "page_end": 109,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "5",
+      "title": "Physical Characteristics.",
+      "text": "5. Physical Characteristics.",
+      "clause_id": "IS 12894:2002#5",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 109,
+      "page_end": 109,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "5.1",
+      "title": "Compressive Strength",
+      "text": "5.1 Compressive Strength— Shall be as per 3. The compressive strength of any individual brick shall not fall below the minimum average compressive strength of corresponding class of bricks by more than 20 percent.",
+      "clause_id": "IS 12894:2002#5.1",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 109,
+      "page_end": 109,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "5.2",
+      "title": "Drying Strinkage",
+      "text": "5.2 Drying Strinkage — Shall not exceed 0.15 percent.",
+      "clause_id": "IS 12894:2002#5.2",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 109,
+      "page_end": 109,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "5.3",
+      "title": "Efflorescence test",
+      "text": "5.3 Efflorescence test — Shall have rating  not more than 'moderate' upto class 12.5 and 'slight' for higher classes.",
+      "clause_id": "IS 12894:2002#5.3",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 109,
+      "page_end": 109,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 12894:2002",
+      "clause": "5.4",
+      "title": "Water Absorption",
+      "text": "5.4 Water Absorption— Not more than 20 percent by mass upto class 12.5 and 15 percent by mass for higher classes when immersed in cold water for 24 hours. SECTION 3 STONES CONTENTS Title Page IS 1127 : 1970 Dimensions and workmanship of natural building stones for masonry work (first revision) 3.3 IS 1128 : 1974 Lime stone (slab and tiles) (first revision) 3.4 IS 1130 : 1969 Marble (blocks, slabs and tiles) 3.5 IS 3316 : 1974 Structural granite (first revision) 3.6 IS 3620 : 1979 Laterite stone block for masonry (first revision) 3.7 IS 3622 : 1977 Sand stones (Slabs and tiles) (first revision) 3.8 IS 6250 : 1981 Roofing slate tiles (first revision) 3.9 IS 6579 : 1981 Coarse aggregate for water bound macadom (first revision) 3.10 IS 9394 : 1979 Stone lintels 3.11 IS   14223 (Part 1) : 1995 Polished building stones : Part 1 Granite 3.12",
+      "clause_id": "IS 12894:2002#5.4",
+      "family": "IS 12894",
+      "year": 2002,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "references",
+      "page_start": 109,
+      "page_end": 112,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:2"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12894:2002",
+    "record_id": 4363,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      108,
+      112
+    ],
+    "n_clauses": 17,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "pages_without_text:2"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

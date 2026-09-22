@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7193:1974",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for  self finished glass fibre bitumen felts used for waterproofing and damp proofing. Note — Glass fibre base bitumen felts are suitable for waterproofing and damp-proofing in buildings and other situations where penetration of moisture is to be stopped.",
+      "clause_id": "IS 7193:1974#1",
+      "family": "IS 7193",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 262,
+      "page_end": 262,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 7193:1974",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification a) Grade 1 — Talcum, mica or sand surface glass fibre base bitumen felts for water-proofing b) Grade 2 — Talcum, mica or sand surfaced glass fibre base bitumen felts for damp-proofing.",
+      "clause_id": "IS 7193:1974#2",
+      "family": "IS 7193",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 262,
+      "page_end": 262,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 7193:1974",
+      "clause": "3",
+      "title": "Dimensions",
+      "text": "3. Dimensions — Bitumen felts in width of one metre and generally in lengths of 1,10 and 20m.",
+      "clause_id": "IS 7193:1974#3",
+      "family": "IS 7193",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 262,
+      "page_end": 262,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 7193:1974",
+      "clause": "4",
+      "title": "Weight",
+      "text": "4. Weight — The weight of ingredients used in manufacture of glass fibre felts for 10 m2 shall be not less than those specified in Table 1",
+      "clause_id": "IS 7193:1974#4",
+      "family": "IS 7193",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 262,
+      "page_end": 262,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 7193:1974",
+      "clause": "5",
+      "title": "Other Requirements",
+      "text": "5. Other Requirements — See Table 2. TABLE 1 MINIMUM WEIGHT OF GLASS FIBRE BASE BITUMEN FELTS FOR 10 m 2 Sl. Type of Felt Untreated Coatant Total Weight in No. Base Dry Condition Including Surfacing (1) (2) (3) (4) (5) kg kg kg ii) Grade I 0.4 15.3 18.0 iii) Grade II 0.4 22.0 25.0 For detailed information, refer to IS 7193 : 1974 Specification for glass fibre base  bitumen felts. TABLE 2 REQUIREMENTS OF GLASS FIBRE FELTS Sl. No. Properties Requirements i) Breaking strength, Min kg. a) Warp 50 b) Weft  30 ii) Pliability test a) Roll shall not cracks on unrolling b) Consider any surface rupture exceeding 5 mm in length as failure iii) Storage The test pieces shall be examined after cooling.After release of load, the layers of felt be capabe of being separated without damaging iv) Pressure head The test pieces shall show no sign of leakeage v) Heat resistance The test prices shall show no sign of melting of bitumen compound vi) Water absorption 2 percent Note— For test procedures, refer to IS 13826 : 1993 Methods of test for bitumen based felts: (Part 1)   Breaking strength test. (Part 2)   Pliability test. (Part 3)   Storage sticking test. (Part 4)   Pressure head test. (Part 5)   Heat resistance test. (Part 6)   Water absorption test.",
+      "clause_id": "IS 7193:1974#5",
+      "family": "IS 7193",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 262,
+      "page_end": 262,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7193:1974",
+    "record_id": 17817,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      262,
+      262
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.999,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

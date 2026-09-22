@@ -1,0 +1,346 @@
+{
+  "clauses": [
+    {
+      "is": "IS 12427:2001",
+      "clause": "1",
+      "title": "Scope – Covers the",
+      "text": "1. Scope - Covers the requirements for hot-dip galvanized hexagon head transmission tower bolts in the size range M12 to 24 for use  in the  construction of transmission towers, sub-stations and similar steel structures",
+      "clause_id": "IS 12427:2001#1",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "1.1",
+      "title": "The bolts covered in",
+      "text": "1.1 The bolts covered in this standard are not suitable for applications requiring improved low  temperatures characteristics.",
+      "clause_id": "IS 12427:2001#1.1",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "2",
+      "title": "Dimensions",
+      "text": "2. Dimensions",
+      "clause_id": "IS 12427:2001#2",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "2.1",
+      "title": "The dimensions of the",
+      "text": "2.1 The dimensions of the bolts shall be as given in Table 1 when read with  Fig 1. of the standard.",
+      "clause_id": "IS 12427:2001#2.1",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "2.2",
+      "title": "The length",
+      "text": "2.2 The length-size combinations as well as grip ranges shall be as given in Table 2 of the standard.",
+      "clause_id": "IS 12427:2001#2.2",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "3",
+      "title": "Grades – Unless otherwise",
+      "text": "3. Grades - Unless  otherwise specified, the bolts shall be of product grade 'C'  as specified in IS  1367 (Part 2) *",
+      "clause_id": "IS 12427:2001#3",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "4",
+      "title": "Mating Nuts and Washers",
+      "text": "4. Mating Nuts and Washers",
+      "clause_id": "IS 12427:2001#4",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "4.1",
+      "title": "Nuts",
+      "text": "4.1 Nuts—The hexagon nuts used with these bolts shall conform to the requirements given in IS 14394.",
+      "clause_id": "IS 12427:2001#4.1",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "4.2",
+      "title": "Washers",
+      "text": "4.2 Washers",
+      "clause_id": "IS 12427:2001#4.2",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "4.2.1",
+      "title": "The plain washers used with these",
+      "text": "4.2.1 The plain washers used with these  bolts shall be  of type A, punched washer type and shall conform to the requirements of  the prescribed standard to except the thickness of the washer which shall be 5 ± 1 m m. The washers supplied along with these  bolts shall be hot-dip galvanised.",
+      "clause_id": "IS 12427:2001#4.2.1",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 3,
+      "parent_clause": "4.2",
+      "role": "requirements",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "5",
+      "title": "Mechanical Properties",
+      "text": "5. Mechanical Properties",
+      "clause_id": "IS 12427:2001#5",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "5.1",
+      "title": "The bolts shall be",
+      "text": "5.1 The bolts shall be of property class 5.6, 5.8 or 8.8 as specified in IS : 1367 (Part 3)* and shall be tested full size.",
+      "clause_id": "IS 12427:2001#5.1",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "5.2",
+      "title": "Shear Strength",
+      "text": "5.2 Shear Strength",
+      "clause_id": "IS 12427:2001#5.2",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "5.2.1",
+      "title": "The",
+      "text": "5.2.1 The  Bolts  with shank lengths ls more than the nominal diameter  shall withstand a  minimum shear stress as given below- Property Class                        Minimum Shear Stress (MPa) 5.6 310 5.8 322 8.8 515",
+      "clause_id": "IS 12427:2001#5.2.1",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 3,
+      "parent_clause": "5.2",
+      "role": "other",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "6",
+      "title": "Finish",
+      "text": "6. Finish",
+      "clause_id": "IS 12427:2001#6",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "6.1",
+      "title": "The bolts",
+      "text": "6.1 The bolts  and nuts shall be hot-dip galvanized in accordance with the requirements of  IS  1367 (Part13)*",
+      "clause_id": "IS 12427:2001#6.1",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "requirements",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "7",
+      "title": "General Requirements – The permissible   surface",
+      "text": "7. General Requirements - The permissible   surface discontinuities of the bolts shall conform to IS  1367 (Part 9/sec 1)  *",
+      "clause_id": "IS 12427:2001#7",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 807,
+      "page_end": 807,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 12427:2001",
+      "clause": "8",
+      "title": "Designation – The bolts",
+      "text": "8. Designation - The bolts shall be designated by nomenclature, thread size, nominal length,  number of this standard and  property class.. The letters N and W shall be added to the designation to indicate supply with nut and plain wsher respectively. Example - A transmission tower bolt of thread size M16 and nominal length 50mm with nut and property class 5.6 shall be designated as—Transmission Tower Bolts M16 × 50 N-  5.6  IS 12427. A transmission tower bolt of thread size M16, nominal length 50mm, property class 5.6  with  nut and plain washers shall be designated as: Transmission Tower Bolt M16× 50NW—5.6 IS 12427. For detailed information, refer to IS 12427 :  2001 Specification for fasteners - Threaded steel fasteners hexagon head transmissiom tower bolts (first revision). *Technical supply conditions for  threaded steel fasteners SECTION 20 WIRES ROPES AND WIRE PRODUCTS CONTENTS Title Page IS 278 : 1978 Galvanized steel barbed wire for fencing (third revision) 20.3 IS 2140 : 1978 Stranded galvanized steel wire for fencing (first revision) 20.4 IS 2365 : 1977 Steel wire suspension ropes for lifts, elevators, and hoist (first revision) 20.5 IS 2721 : 2003 Galvanized steel chain link fence fabric  (first revision) 20.6",
+      "clause_id": "IS 12427:2001#8",
+      "family": "IS 12427",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 807,
+      "page_end": 810,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 12427:2001",
+    "record_id": 3764,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      807,
+      810
+    ],
+    "n_clauses": 18,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.986,
+    "flags": [
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

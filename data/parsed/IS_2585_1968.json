@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2585:1968",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for black square bolts and nuts in the diameter range 6 to 39 mm and black square screws in the diameter range 6 to 24 mm.",
+      "clause_id": "IS 2585:1968#1",
+      "family": "IS 2585",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 780,
+      "page_end": 780,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2585:1968",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 2585:1968#2",
+      "family": "IS 2585",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 780,
+      "page_end": 780,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2585:1968",
+      "clause": "3",
+      "title": "Designation",
+      "text": "3. Designation 2.1 Mechanical Properties - Bolts and screws shalll conform to the property class 4.6 and those for nuts to property class as specified in the prescribed standard. 2.2 Grade - Shall conform to the black grade B as specified in prescribed Fastener Thread Length Designation Size (mm) Square bolt with square nut M10 30 Square bolt    M10×30N  —   IS   2585 Square bolt only M10 30 Square bolt    M10×30      — IS   2585 Square screw M10 30 Square screw  M10×30     —  IS   2585 Square nut M10 - Square nut     M10           —  IS   2585 Square bolt with hexagon nut M10 30 Square bolt   M10×30HN —  IS   2585",
+      "clause_id": "IS 2585:1968#3",
+      "family": "IS 2585",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "references",
+      "page_start": 780,
+      "page_end": 780,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2585:1968",
+      "clause": "4",
+      "title": "Dimensions (in mm)",
+      "text": "4. Dimensions (in mm) Size Nominal            Maximum           Minimum Thickness Length of Length of Diameter          Diameter Diameter        of Head of Head Bolt* Screw† M6 6 6.48 5.7 4 25-100 16-40 M8 8 8.9 7.64 5.5 30-120 16-50 M10 10 10.9 9.64 7 35-150 16-60 M12 12 13.1 11.57 8 40-300 20-80 (M14) 14 15.1 13.57 9 45-300 25-80 M16 16 17.1 15.57 10 50-300 25-80 (M18) 18 19.1 17.57 12 55.300 40-80 M20 20 21.5 19.48 13 60-400 45-80 (M22) 22 23.3 21.48 14 65-400 50-80 M24 24 25.3 23.48 15 70-400 55-80 (M27) 27 28.3 26.48 17 80-400 - M30 30 31.3 29.48 19 90-400 - (M33) 33 34.6 32.38 21 100-400 - M36 36 37.6 35.38 23 110-400 - (M39) 39 40.6 38.38 25 110-400 - Note 1— Preferred lengths for bolts - 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, and 400. Note 2— Preferred lengths for screws - 16, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75 and 80 Note 3— Sizes shown in brackets are of second preference. Note 4— For detailed dimensions, refer to Tables 2 and 3 of the standard. SUMMARY OF IS  2585 : 1968 BLACK SQUARE BOLTS AND NUTS (DIAMETER RANGE 6 TO 39 mm) AND BLACK SQUARE SCREWS (DIAMETER RANGE 6 TO 24 mm) (First Revision) For detailed information, refer to IS 2585 : 1968  Specification for black square bolts and nuts (diameter range 6 to 39 mm) and black square screws (diameter  range 6 to 24 mm) (first revision). *  Range of preferred lengths for bolts (bolts with lengths less than the minimum preferred lengths are to  be  treated as  screws). †   Range of preferred lengths for screws.",
+      "clause_id": "IS 2585:1968#4",
+      "family": "IS 2585",
+      "year": 1968,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 780,
+      "page_end": 780,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2585:1968",
+    "record_id": 9107,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      780,
+      780
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

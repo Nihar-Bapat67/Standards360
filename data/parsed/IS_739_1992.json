@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 739:1992",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope -  Requirements of wrought aluminium and aluminium alloy wire for general engineering purposes.",
+      "clause_id": "IS 739:1992#1",
+      "family": "IS 739",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 700,
+      "page_end": 700,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 739:1992",
+      "clause": "2",
+      "title": "Freedom from Defects –",
+      "text": "2. Freedom from Defects -  Wire  shall be sound and free from harmful defects.",
+      "clause_id": "IS 739:1992#2",
+      "family": "IS 739",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 700,
+      "page_end": 700,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 739:1992",
+      "clause": "3",
+      "title": "Dimensions and Tolerances –",
+      "text": "3. Dimensions and Tolerances -  Shall given in IS  2525 : 1982.*",
+      "clause_id": "IS 739:1992#3",
+      "family": "IS 739",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 700,
+      "page_end": 700,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 739:1992",
+      "clause": "4",
+      "title": "Designation and Typical uses of Alloys",
+      "text": "4. Designation and Typical uses of Alloys Designation Typical Uses 19000 Panelling and moulding; equipments for food, chemical  and brewing industries; architectural and builder's hardwares, fasteners, welding wire, electrical appliances, rivet wires, spray gun wires. 19500 Food, chemical, brewing and processing equipments, marine fittings, pressed and anodized utility items, jewellery, rivet for aircraft purpose, filler rods for inert gas are welding. 24345 Structures where high mechanical properties are of utmost imprtance, screw machine products, fasteners and rivets for aircraft purposes. 31000 General purpose alloy for moderate strength applications, pressure vessels, builders hardware, vehicle panelling, rivet wires, fasteners, filler rods for inert gas arc welding. * Dimension of wrought aluminium and aluminium alloys, wire (first revision) SUMMARY OF IS 739 : 1992 WROUGHT ALUMINIUM AND ALUMINIUM ALLOYS-WIRE  FOR GENERAL ENGINEERING PURPOSES (Third Revision) Designation Typical Uses 43000 Filler wires for brazing and soldering, welding rods, sprays gun wires. 46000 Filler wires for brazing, welding rods, spray gun wires. 52000 Panelling and structures, rivet wires, zippers, grills, fasteners, filler rods for inert gas arc welding. 53000 Shipbuilding, rivets, pressure vessels, welding rods, zippers, screen wires, grills fasteners. 55000 Shipbuilding and other applications demanding moderately high strength with good corrosion resistance; rivets, zippers, welding wire,  screen wires, grills, fasteners. 55380 Filler wires for welding rivets, screen wires. 63400 Architectural uses and other similar applications where surface finish is important and medium strength would suffice, builders hardware. 64430 Structural applications of all kinds, such as, road and rail transport vehicles, bridges, cranes, roof trusses, rivets, etc. Cargo containers, milk containers, deep drawn containers and flooring. 65032 Structural applications of all kinds rivets, builders hardwares and fastener rods Note - For chemical composition and mechanical properties see 8 (Table 1) and 9 (Table 2) of the standard. For detailed information, refer to IS  739 : 1992  Specifications for wrought aluminium and aluminium alloyswire for general engineering purpose (third revision).",
+      "clause_id": "IS 739:1992#4",
+      "family": "IS 739",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 700,
+      "page_end": 700,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 739:1992",
+    "record_id": 14323,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      700,
+      700
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

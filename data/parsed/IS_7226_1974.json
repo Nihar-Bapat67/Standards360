@@ -1,0 +1,130 @@
+{
+  "clauses": [
+    {
+      "is": "IS 7226:1974",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for cold-rolled medium, and high carbon and low alloy steel strips of thickness up to 3 mm and width up to 330 mm intended for general engineering purposes.",
+      "clause_id": "IS 7226:1974#1",
+      "family": "IS 7226",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 681,
+      "page_end": 681,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7226:1974",
+      "clause": "2",
+      "title": "Chemical Analysis",
+      "text": "2. Chemical Analysis — Carbon content (percent) on ladle analysis shall be as follows :",
+      "clause_id": "IS 7226:1974#2",
+      "family": "IS 7226",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 681,
+      "page_end": 681,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7226:1974",
+      "clause": "3",
+      "title": "Hardness Test – When",
+      "text": "3. Hardness Test - When subjected to Rockwell hardness test in accordance with IS 1586 : 1988* or IS 5072 : 1988+ shall conform to the requie ments given below :",
+      "clause_id": "IS 7226:1974#3",
+      "family": "IS 7226",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 681,
+      "page_end": 681,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7226:1974",
+      "clause": "4",
+      "title": "Freedom From Defects –",
+      "text": "4. Freedom From Defects -   Shall be free from scales, rust, blisters, laminations, pitting and cracked edges.",
+      "clause_id": "IS 7226:1974#4",
+      "family": "IS 7226",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 681,
+      "page_end": 681,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7226:1974",
+      "clause": "5",
+      "title": "Edge Condition – Shall",
+      "text": "5. Edge Condition - Shall  be supplied with mill, trimmed or slit edges. Medium Carbon High Carbon High Carbon Low Alloy C40 C55 C70 C80 C85 C98 120Cr35                110Cr35W2 0.35-0.45   0.50-0.60 0.65-0.75   0.75-0.85    0.80-0.90  0.90 - 1.05    1.10- 1.30              1.0 -1.20 Note —  For manganese, silicon, sulphur, phosphorus,  chromium and tungsten contents, refer to 4 of  the standard. DESIGNATION ANNEALED HARDNESS, MAX ANNEALED AND RE-ROLLED HARDNESS,  MAX HRB Equivalent HV HRC              Equivalent HV C40 83.4                   160 28 290 C55 85.0                   165 35 350 C70 87.9                   175 35 350 C80 91.6                   190 35 350 C85 91.6                   190 35 350 C98 94.8                   205 35 350 120 Cr 35 97.5                   220 35 350 110 Cr 35W2 97.5                       220 35 350 SUMMARY OF IS 7226 : 1974 COLD-ROLLED MEDIUM, HIGH CARBON AND LOW ALLOY STEEL STRIP FOR GENERAL ENGINEERING PURPOSES For  detailed information, refer to  IS   7226 : 1974  Specification for cold-rolled medium, high carbon and low alloy steel strip for general engineering purposes.",
+      "clause_id": "IS 7226:1974#5",
+      "family": "IS 7226",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 681,
+      "page_end": 681,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 7226:1974",
+      "clause": "6",
+      "title": "Surface Finish",
+      "text": "6. Surface Finish  -  Bright Finish. Note - For   rolling tolerances see 9 of the standard. *  Methods for rockwell hardness tes for metallic material (second revision). + Method for rockwell superficial hardness test  (first revision)",
+      "clause_id": "IS 7226:1974#6",
+      "family": "IS 7226",
+      "year": 1974,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 681,
+      "page_end": 681,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 7226:1974",
+    "record_id": 14152,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      681,
+      681
+    ],
+    "n_clauses": 6,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

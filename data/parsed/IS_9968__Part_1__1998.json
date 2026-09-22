@@ -1,0 +1,669 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "1",
+      "title": "Scope – Requirements of elastomeric insulated",
+      "text": "1. Scope - Requirements of elastomeric insulated cables for fixed wiring, flexible cables and flexible cords for electric power and lighting for operation at voltages up to and including 1100 volts.",
+      "clause_id": "IS 9968 (Part 1):1998#1",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "1.1",
+      "title": "The following types of",
+      "text": "1.1 The following types of cables and cords are covered in this standard.",
+      "clause_id": "IS 9968 (Part 1):1998#1.1",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "1.1.1",
+      "title": "Cables for fixed wiring",
+      "text": "1.1.1 Cables for fixed wiring a) Braided and compounded/varnished, b) Elastomer sheathed (normal duty), and c) Elastomer sheathed (normal duty) with earth continuity conductor.",
+      "clause_id": "IS 9968 (Part 1):1998#1.1.1",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "1.1",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "1.1.2",
+      "title": "Flexible cables",
+      "text": "1.1.2 Flexible cables a) Braided and varnished, and b) Elastomer sheathed (heavy duty).",
+      "clause_id": "IS 9968 (Part 1):1998#1.1.2",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "1.1",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "1.1.3",
+      "title": "Flexible cords",
+      "text": "1.1.3 Flexible cords a) Braided b) Elastomer sheathed (normal duty), c) Unkinkable flexible cords - braided and compounded (workshop type), and d) Unkinkable flexible cords - braided and compounded.",
+      "clause_id": "IS 9968 (Part 1):1998#1.1.3",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "1.1",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "1.2",
+      "title": "The cables covered in",
+      "text": "1.2 The cables covered in this standard are suitable for use on single-phase or three-phase (earthed or unearthed) system for rated voltages up to and including 1 100 volts. These cables may be used on dc system for rated voltages up to and  including 1500 volts to earth.",
+      "clause_id": "IS 9968 (Part 1):1998#1.2",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "1.3",
+      "title": "The cables covered in",
+      "text": "1.3 The cables covered in this standard are suitable for use where the combination of ambient temperature and temperature rise due to load results in conductor temperature not exceeding the following. Type of Insulation Normal Short-Circuit Continuous Condition Operation Insulation for general 60ºC 200ºC service Heat resisting  insulation 90ºC 250ºC Silicone rubber insulation 150ºC 350ºC",
+      "clause_id": "IS 9968 (Part 1):1998#1.3",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2. Materials",
+      "clause_id": "IS 9968 (Part 1):1998#2",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.1",
+      "title": "Conductor",
+      "text": "2.1 Conductor",
+      "clause_id": "IS 9968 (Part 1):1998#2.1",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.1.1",
+      "title": "Copper conductor – Shall",
+      "text": "2.1.1 Copper conductor - Shall be tinned annealed copper wires complying with the requirement of  IS   8130 : 1984*.",
+      "clause_id": "IS 9968 (Part 1):1998#2.1.1",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "requirements",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.1.2",
+      "title": "Aluminium Conductor – The",
+      "text": "2.1.2 Aluminium Conductor - The conductor shall be composed of aluminium wires complying with the requirements of IS  8130: 1984*.",
+      "clause_id": "IS 9968 (Part 1):1998#2.1.2",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "requirements",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.2",
+      "title": "Insulation",
+      "text": "2.2. Insulation",
+      "clause_id": "IS 9968 (Part 1):1998#2.2",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.2.1",
+      "title": "Insulation for general services",
+      "text": "2.2.1 Insulation for general services -  The insulation shall be of elastomer compound conforming to Type IE 2 of IS 6380 : 1984†.",
+      "clause_id": "IS 9968 (Part 1):1998#2.2.1",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.2.2",
+      "title": "Heat resisting insulation –",
+      "text": "2.2.2 Heat resisting insulation -  Shall be of elastomer compound conforming to Type IE 2 of   IS  6380 : 1984.",
+      "clause_id": "IS 9968 (Part 1):1998#2.2.2",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.2.3",
+      "title": "Silicone Rubber Insulation –",
+      "text": "2.2.3 Silicone Rubber Insulation - The insulation shall be of silicone rubber conforming to Type IE 5 of IS  6380 : 1984.",
+      "clause_id": "IS 9968 (Part 1):1998#2.2.3",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.3",
+      "title": "Tape",
+      "text": "2.3 Tape a) Proofed tape. b) Polyethylene terephthalate (PETP)  tape or Plastic tape or any other suitable tape, and c) Glass tape.",
+      "clause_id": "IS 9968 (Part 1):1998#2.3",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.4",
+      "title": "Fillers – Shall be",
+      "text": "2.4 Fillers -  Shall be of natural or synthetic fibres or elastomer.",
+      "clause_id": "IS 9968 (Part 1):1998#2.4",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.5",
+      "title": "Braid",
+      "text": "2.5 Braid a) Textile Braid, and b) Grass braid",
+      "clause_id": "IS 9968 (Part 1):1998#2.5",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.6",
+      "title": "Sheath",
+      "text": "2.6 Sheath *Condutors for insulated electric cables and flexible cords (first revision). † Elastomeric insulation and sheath of electric cables (first revision).",
+      "clause_id": "IS 9968 (Part 1):1998#2.6",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 888,
+      "page_end": 888,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.6.1",
+      "title": "General service insulated cables and flexible",
+      "text": "2.6.1 General service insulated cables and flexible cords -  Cables for fixed wiring and flexible cords shall cosists sheath of  elastomeric compounds of type  SE1 of IS 6380 : 1984   Flexible cables sheath shall also be of elastomeric compound of type SE2 of  IS 6380 : 1984.",
+      "clause_id": "IS 9968 (Part 1):1998#2.6.1",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "2.6",
+      "role": "other",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "2.6.2",
+      "title": "Heat resisting insulated cables",
+      "text": "2.6.2 Heat resisting insulated cables  -  Cables for fixed wiring and flexible cords  shall consist sheath of elastromeric compounds of Type SE3 of IS 6380 : 1984. Flexible cables sheath shall also be of elastomeric compound of Type SE4 of IS 6380: 1984.",
+      "clause_id": "IS 9968 (Part 1):1998#2.6.2",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "2.6",
+      "role": "other",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "3",
+      "title": "Construction",
+      "text": "3. Construction",
+      "clause_id": "IS 9968 (Part 1):1998#3",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "3.1",
+      "title": "Conductors",
+      "text": "3.1 Conductors",
+      "clause_id": "IS 9968 (Part 1):1998#3.1",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "3.1.1",
+      "title": "Cables for fixed wiring",
+      "text": "3.1.1 Cables for fixed wiring - Shall be as follows: Nominal Cross Sectional          Solid /              Flexiblitity Area ,mm2 Stranded class Copper        Alluminium 1and 1.5               1.5                 solid Class 1 2.5 to 6         2.5 to 10    solid/ stranded     Class1 for solid Class2 for stranded 10 and above  16 and above     stranded                Class 2",
+      "clause_id": "IS 9968 (Part 1):1998#3.1.1",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "3.1.2",
+      "title": "Flexible cables and cords",
+      "text": "3.1.2 Flexible cables and cords - Shall be according to class 5 of  IS   8130 : 1984.",
+      "clause_id": "IS 9968 (Part 1):1998#3.1.2",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "3.2",
+      "title": "Insulation – Shall have",
+      "text": "3.2 Insulation - Shall  have the average thickness not less than nominal value specified in respective tables of the standard.",
+      "clause_id": "IS 9968 (Part 1):1998#3.2",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "3.3",
+      "title": "Core identfication – Shall",
+      "text": "3.3 Core identfication - Shall be identified either by colours or numbers using any one of the following methods: a)    Numbered tapes, b)   Coloured  insulation, c)   Coloured  tape, and d)   Numbered printed on cores. Note— For details see 13 of the standard.",
+      "clause_id": "IS 9968 (Part 1):1998#3.3",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "3.4",
+      "title": "Laying Up of Cores",
+      "text": "3.4 Laying Up of Cores - Shall be laid  together  with a suitable right hand lay. The value of lay for flexible cables and cords shall be maximum 18 times the pitch circle diameter. Note - For method of test refer to IS 6380 : 1984 Elastomeric insulation and sheath of electric cables (first revision) and IS 8130 : 1984 Conductors for insulated electric cables and flexible cords (first revision) For detailed information, refer to IS 9968 (Part I) : 1988  Specification  for elastomer  insulated cables  Part I - For working voltages up to and including 1 100 volts  (first revision).",
+      "clause_id": "IS 9968 (Part 1):1998#3.4",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "3.5",
+      "title": "Sheath",
+      "text": "3.5 Sheath  -  Shall be applied by extrusion. The average thickness shall be not less than the nominal value specified in the respective tables in the standard.",
+      "clause_id": "IS 9968 (Part 1):1998#3.5",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "4",
+      "title": "Tests",
+      "text": "4. Tests",
+      "clause_id": "IS 9968 (Part 1):1998#4",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "4.1",
+      "title": "Type Tests",
+      "text": "4.1 Type Tests a)     Tensile strength and elongation at break, b)     Ageing in air oven , c)     Ageing in air  bomb, d)    Ageing in oxygen bomb, e)    Hot set, f) Oil resistance, and h)    Tear resistance, Insulation resistance High voltage (water immersion)   test Flammability test (applicable to cables finished with SE 3 and SE 4 sheaths only) Water absorption test (for insulation as applicable) Persulphate test (for copper) Annealing test (for copper) Tensile test (for aluminium) Wrapping test (for aluminium) Conductor resistance test Test for thickness of insulation and sheath and overall diameter  (where specified) Note - For acceptance, routine and optional tests, refer to the standard.",
+      "clause_id": "IS 9968 (Part 1):1998#4.1",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "test_methods",
+      "page_start": 889,
+      "page_end": 889,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "5",
+      "title": "Identification – Cables or",
+      "text": "5.   Identification - Cables or cords shall be identified throughout the length of the cable or cords by the legends shown below, either printed or indented or embossed on the cable. Type of Cable Insulation Legend Heat resisting rubber HR 90 Silicon rubber HR 150 The following code shall be used for designating the cable : Constituent Code Letter Aluminium conductor A Elastomer insulation R Braiding, compounding or B varnishing Elastomer sheath R Earth continuity conductor ECC SECTION 26 WIRING ACCESSORIES CONTENTS Title Page IS 371 : 1999 Ceiling Roses (third revision) 26.3 IS 1293 : 1988 Plugs and Socket Outlets of Rated Voltage upto and Including 250 Volts and Rated Current upto and Including 16 Amperes (second revision) 26.5 IS 2086 : 1993 Carriers and Bases Used in Rewirable Type Electric Fuses for Voltages upto 650 Volts (third revision) 26.7 IS 2412 : 1975 Link Clips for Electrical Wiring (first revision) 26.9 IS 2667 : 1988 Fittings for Rigid Steel Conduits for Electrical Wiring (first revision) 26.10 IS 3419 : 1989 Fittings for Rigid Non-Metallic Conduits (third revision) 26.12 IS 3480 : 1966 Flexible Steel Conduits for Electrical Wiring 26.13 IS 3837 : 1976 Accessories for Rigid Steel Conduits for Electrical Wiring (first revision) 26.14 IS 3854 : 1997 Switches for Domestic and Similar Purposes (second revision) 26.15 IS 4160 : 1967 Interlocking Switch Socket Outlet 26.17 IS 4615 : 1968 Switch Socket Outlets (Non-Inter Locking Type) 26.19 IS 4649 : 1968 Adaptors for Flexible Steel Conduits 26.21 IS 6538 : 1971 Three Pin Plugs Made of Resilient Material 26.22 IS 8828 : 1996 IEC   898 (1995) Circuit Breakers for Over Current Protection for House-Hold and Similar Installations (second revision) 26.24 IS 9537 Conduits for Electrical Installations (Part I) -  1980   General Requirements 26.27 (Part 2) -  1981   Rigid Steel Conduits 26.29 (Part 3) - 1983    Rigid Plain Conduits of Insulating Materials 26.30 (Part 4) - 1983    Pliable Self-Recovering Conduits of Insulating Materials 26.31 (Part 5) - 2000  Pliable conducts of Insulating material 26.32 IS 14772 : 2000 General requirements for enclosure for accessories for household 26.33 and similar fixed electrical installation. 1. Scope 1.1 This standard covers ceiling roses of surface and semi-recessed types for use with simple or multiple pendant lighting fitting and for the  use in circuits in which the nominal voltage does not exceed 250V and the  current does not exceed 6A and intended to be used in final circuits with rated current 16A maximum for ceiling roses with screw type supply terminals.or 10 A maximum for ceiling roses with screwless supply terminals. The requirements specified in this standard have particular reference to safety in use. 1.2 The  ceiling roses are intended for use with cables complying with IS 694 : 1990. 1.3 The  ceiling roses incorporating means other than rewirable terminals to facilitate the connection and disconnection of lampholders or luminaries, are not covered by this standard. 2. Conditions of Use -  Shall be suitable for use under the following  conditions: a) An ambient temperature having a peak value not exceeding 45ºC with an average value not exceeding 40ºC  in a period of 24 h, but not subject to exposure to direct radiation from the sun or any other source of heat likely to raise the temperature above the specified ambient temperature. b) An ambient temperature having a value not less than - 5ºC; and c) An atmposphere not subject to excessive pollution by smoke chemical fumes, salt laden spray, prolonged periods of high humidity or other abnormal conditions. 3.   General requiremnts - Shall be so design and and constructed that  when installed in the proper manner and in normal use they function  reliable and cause no danger to person or surrounding ceiling roses shall be capable of meeting all the relevard requirements and tests specified in the standard. SU MMARY OF IS 371: 1999 CEILING ROSES (Third Revision) * Pvc insulated cables for working voltages up to and including 1100V  (third revision). 4.    Ratings - Shall have a rated voltage of  not exceeding 250 V and rated current not exceeding 6A. 5. Classification a)  According to the  method of mounting : i) Surface  type, and ii) Semi-recessed or flush  type b) According to load support : i) Intended to support mechanical load  by  means or a flexible cord complying widh IS 694, and ii) Intended to support mechanical loads  as nominated by the manufacturer in addition to those  specified in 5 (b) (i), by means other than a flexible cord. c)  According to current carrying terminal arrangement : i) Having provision for the connection of switch wiring, and ii) Having  no provision for the connection  of switch wiring. d) According to  terminal type : i) Having screw type terminals, ii) Having  screw-less terminals, and iii) Having  a combination of both terminals",
+      "clause_id": "IS 9968 (Part 1):1998#5",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 889,
+      "page_end": 893,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "7",
+      "title": "Construction – Where protection against electric",
+      "text": "7.  Construction - Where protection against electric shock is provided by a cover screwing on to  a base or by similar  attachments, such parts shall withstand the forces likely to be applied in normal use. Provision shall be made for entry and connection of a circular flexible cord having three conductors of 1.0 mm2. A device or means of unsultating materials, shall be provided to prevent strain upon flexible conductors connected to the ceiling rose, being transmitted to the terminal.",
+      "clause_id": "IS 9968 (Part 1):1998#7",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 893,
+      "page_end": 893,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    },
+    {
+      "is": "IS 9968 (Part 1):1998",
+      "clause": "8",
+      "title": "Tests",
+      "text": "8. Tests a) Marking, b) Dimensions, c) Accessibility of live parts, d) Provision of earthing, e) Terminals, Note - For detailed requirements and methods of tests refer to the standard For detailed information, refer to  IS 371 : 1999 Specification for ceiling roses (third revision). f) Construction, g) Resistance to moisture and humidity, insulation resistance and  electric  strength, h) Temperature rise, j) Mechanical strength, k) Resistance to heat, l) Resistance to abnormal heat fire and  tracking, m) Screws, current carrying parts and connector, n) Creepage distances and  clearances, and o) Ressistance to excessive residual stress and to rusting.",
+      "clause_id": "IS 9968 (Part 1):1998#8",
+      "family": "IS 9968 (Part 1)",
+      "year": 1998,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 893,
+      "page_end": 894,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "pages_without_text:2"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9968 (Part 1):1998",
+    "record_id": 33944,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      888,
+      894
+    ],
+    "n_clauses": 34,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current",
+      "pages_without_text:2"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

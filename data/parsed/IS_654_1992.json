@@ -1,0 +1,274 @@
+{
+  "clauses": [
+    {
+      "is": "IS 654:1992",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Covers the machine-pressed clay interlocking roofing tiles of the 'Mangalore Pattern.'",
+      "clause_id": "IS 654:1992#1",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification —  Class AA and Class A with characteristics given in Table 1. TABLE 1 CLASSIFICATION OF ROOFING TILES Sl.no. Characteristic Requirement Class AA Class A i) Water absorption percent, Max 18 20 ii) Breaking load, kN, Min a)Average 1.0 (for 410 × 235 mm) 0.80(for 410 × 235 mm) 1.10 (for 420 × 250 mm 0.90 (for 420 × 250 mm and 425 × 260 mm) and 425 × 260 mm) b) Individual  0.90 (for 410 × 235 mm) 0.68 (for 410 × 235 mm) 1.00 (for 420 × 250 mm 0.78 (for 420 × 250 mm and 425 × 260 mm) and 425 × 260 mm)",
+      "clause_id": "IS 654:1992#2",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "3",
+      "title": "General Quality.",
+      "text": "3. General Quality.",
+      "clause_id": "IS 654:1992#3",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "3.1",
+      "title": "Shall be free from",
+      "text": "3.1. Shall be free from irregularities, such as twists, bends, cracks and laminations. The roofing tile shall be free from impurities like particles of stone, lime or other foreign materials. When struck, the tile shall give a characteristic ringing soud and when broken the fracture shall be clean and sharp at the edges. The Class AA tile shall be of uniform colour.",
+      "clause_id": "IS 654:1992#3.1",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "3.2",
+      "title": "Shape",
+      "text": "3.2. Shape —  Placed  on either face on a plane surface, gap at corners shall not exceed 6 mm.",
+      "clause_id": "IS 654:1992#3.2",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "3.3",
+      "title": "Lugs",
+      "text": "3.3. Lugs —   At least 2 batten lugs and 2 eave lugs of thickness not less than 15 mm at bottom and 10 mm at top shall be provided. Projection shall be 7 to 12 mm for batten lugs and not less than 10 mm for eave lugs.",
+      "clause_id": "IS 654:1992#3.3",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "3.4",
+      "title": "Tie",
+      "text": "3.4. Tie-down hole — 1.6 to 2 mm diameter.",
+      "clause_id": "IS 654:1992#3.4",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4. Dimensions Overall Length Overall Width mm mm 410 235 420 250 425 260 Minimum overlap shall be 60 mm length wise and 25 mm widthwise Note— For typical details of Manglaore tile see Fig 1of the standard. SUMMARY OF IS  654 : 1992 CLAY ROOFING TILES, MANGALORE PATTERN (Third Revision)",
+      "clause_id": "IS 654:1992#4",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "4.1",
+      "title": "For measurement of variations in length/width",
+      "text": "4.1. For measurement of variations in length/width  of tiles the difference between— a) The overall length/width of three tiles and b) The length/width of a tile  is calculated and this value shall be within the limits mentioned below— For Tile Value for Value for Sizes Length Width mm mm mm 410 × 235 630 to 650 410 to 430 420 × 250 670 to 690 420 to 440 425 × 260 690 to 710 430 to 450 Note — For tolerances, refer 6.2 of the standard.",
+      "clause_id": "IS 654:1992#4.1",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "5",
+      "title": "Weight",
+      "text": "5. Weight —  Average of 6 tiles shall not be less than 2 kg and not more than 3 kg",
+      "clause_id": "IS 654:1992#5",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "6",
+      "title": "Strength Requirement",
+      "text": "6. Strength Requirement",
+      "clause_id": "IS 654:1992#6",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "6.1",
+      "title": "Water Absorption",
+      "text": "6.1. Water Absorption — See Table 1.",
+      "clause_id": "IS 654:1992#6.1",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "6.2",
+      "title": "Permealibility",
+      "text": "6.2. Permealibility — Water shall not drip at the bottom when tested as per Annex B of the stanard.",
+      "clause_id": "IS 654:1992#6.2",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 654:1992",
+      "clause": "6.3",
+      "title": "Breaking load test",
+      "text": "6.3. Breaking load test —  Shall conform to Table 1 when tested as per annex C of the standard. Note — For the methods of tests, refer to Appendices A to B of the standard. For detailed information, refer to IS 654:1992 Specification for clay roofing tiles, Mangalore pattern (third revision).",
+      "clause_id": "IS 654:1992#6.3",
+      "family": "IS 654",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "requirements",
+      "page_start": 136,
+      "page_end": 136,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 654:1992",
+    "record_id": 13402,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      136,
+      136
+    ],
+    "n_clauses": 14,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

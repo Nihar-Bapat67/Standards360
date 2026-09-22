@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3921:1985",
+      "clause": "1",
+      "title": "Scope – Cover the",
+      "text": "1. Scope - Cover the material, dimensions and sectional properties of aluminium channels  for structural use and other  applications.",
+      "clause_id": "IS 3921:1985#1",
+      "family": "IS 3921",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 713,
+      "page_end": 713,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3921:1985",
+      "clause": "2",
+      "title": "Designation –  Aluminium channels shall be",
+      "text": "2. Designation -  Aluminium channels shall be designated as ALC followed by the depth of channel in mm, flange width in mm and mass of the section in kg/m, Example : ALC 80 × 40 - 3. 21",
+      "clause_id": "IS 3921:1985#2",
+      "family": "IS 3921",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 713,
+      "page_end": 713,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3921:1985",
+      "clause": "3",
+      "title": "Material",
+      "text": "3. Material",
+      "clause_id": "IS 3921:1985#3",
+      "family": "IS 3921",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 713,
+      "page_end": 713,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3921:1985",
+      "clause": "3.1",
+      "title": "Aluminium sections covered in",
+      "text": "3.1 Aluminium sections covered in this standard shall be manufactured from the following alloys in appropriate temper : 19000,  24345,  24534,  52000,  53000,  63400,  64423, 64430, 65032 and 74530.",
+      "clause_id": "IS 3921:1985#3.1",
+      "family": "IS 3921",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 713,
+      "page_end": 713,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3921:1985",
+      "clause": "3.2",
+      "title": "Aluminium",
+      "text": "3.2 Aluminium  alloys   and temper  selected shall conform to the provisions of  IS 733 : 1983* * Wrought aluminium  and aluminium alloy  bars rods and  sections for general engineering purposes  (third revision)",
+      "clause_id": "IS 3921:1985#3.2",
+      "family": "IS 3921",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 713,
+      "page_end": 713,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3921:1985",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4. Dimensions",
+      "clause_id": "IS 3921:1985#4",
+      "family": "IS 3921",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 713,
+      "page_end": 713,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3921:1985",
+      "clause": "4.1",
+      "title": "Designation and size",
+      "text": "4.1 Designation and size Note — For  sectional properties, refer to Table of the standard, Dimensional tolerances for the sections shall be as specified in IS 3965 :1981+ + Dimensions for wrought aluminium and aluminium  alloy bars rods and section (first revision). SUMMARY OF IS 3921 : 1985 ALUMINIUM CHANNELS (First Revision) For detailed information, refer to IS  3921 : 1985  Specifications for aluminium channels (first revision). ALC 40 × 20 - 0.63 ALC 40 × 20 - 0.44 ALC 50 × 30 - 1.55 ALC 50 × 30 - 0.88 ALC 50 × 30 - 1.14 ALC 60 × 30 - 1.13 ALC 60 × 30 - 1.55 ALC 60 × 30 - 1.95 ALC 60 × 40 - 1.87 ALC 60 × 40 - 2.38 ALC 80 × 40 - 2.10 ALC 80 × 40 - 2.67 ALC 80 × 40 - 3.21 ALC 100 × 40 - 2.95 ALC 100 × 40 - 3.55 ALC 100 × 50 - 4.98 ALC 100 × 50 - 3.39 ALC 100 × 50 - 4.09 ALC 120 × 50 - 4.43 ALC 120 × 50 - 3.68 ALC 120 × 60 - 4.98 ALC 120 × 60 - 6.08 ALC 150 × 60 - 5.51 ALC 150 × 60 - 6.77 ALC 150 × 80 - 6.59 ALC 150 × 80 - 6.59 ALC 150 × 80 - 8.07 ALC 150 × 80 - 0.26 ALC 200 × 80 - 9.28 ALC 200 × 80 - 11.74 ALC 200 × 100 - 15.33 ALC 200 × 100 -3.47",
+      "clause_id": "IS 3921:1985#4.1",
+      "family": "IS 3921",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "references",
+      "page_start": 713,
+      "page_end": 713,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3921:1985",
+    "record_id": 10511,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      713,
+      713
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

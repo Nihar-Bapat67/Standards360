@@ -1,0 +1,100 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9537 (Part 4):1983",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and methods of tests for pliable self-recovering plain and corrugated conduits of insulating materials.",
+      "clause_id": "IS 9537 (Part 4):1983#1",
+      "family": "IS 9537 (Part 4)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 921,
+      "page_end": 921,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9537 (Part 4):1983",
+      "clause": "2",
+      "title": "General Requirements – Provision s of",
+      "text": "2. General Requirements - Provision s of IS 9537 (Part 1):1980 shall apply. TABLE 1 DIMENSIONS OF THE CONDUITS Nominal size Outside Diameter Tolerance on Inside Diameter, Preferred of Conduit of the Conduit Outside Diameter Min Length when Delivered as Coil (1) (2) (3) (4) (5) mm mm mm mm mm 16 16 - 0.3 10.7 50 and 100 20 20 - 0.3 14.1 25 25 - 0.4 18.3 32 32 - 0.4 24.3 50 40 40 - 0.4 31.2 50 50 - 0.5 39.6 25 63 63 - 0.6 52.6",
+      "clause_id": "IS 9537 (Part 4):1983#2",
+      "family": "IS 9537 (Part 4)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 921,
+      "page_end": 921,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9537 (Part 4):1983",
+      "clause": "3",
+      "title": "Classification – According to mechanical",
+      "text": "3. Classification - According to mechanical properties: a) Conduits for very light mechanical stresses, b) Conduits for light mechanical stresses, and c) Conduits for medium mechanical stresses.",
+      "clause_id": "IS 9537 (Part 4):1983#3",
+      "family": "IS 9537 (Part 4)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 921,
+      "page_end": 921,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9537 (Part 4):1983",
+      "clause": "4",
+      "title": "Dimensions –  See Table 1.",
+      "text": "4. Dimensions -  See Table 1.",
+      "clause_id": "IS 9537 (Part 4):1983#4",
+      "family": "IS 9537 (Part 4)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 921,
+      "page_end": 921,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 9537 (Part 4):1983",
+      "clause": "5",
+      "title": "Tests",
+      "text": "5. Tests a) Bending Test - After the test, the samples shall show no cracks visible to normal or corrected vision without magnification. b) Compression Test - After the test, the samples shall show no cracks visible to normal or corrected vision  without magnification: c) Impact test - As given in  IS 9537 ( Part  1) : 1980 d) Collapse Test - It shall be possible to pass  the appropriate gauge, through theconduit  fixed to support under its own weight and without any initial speed. e) Resistance to Heat. f) Resistance to Burning. g) Electrical Characteristics. h) External Influences. SUMMARY OF IS 9537 (PART 4) : 1983 CONDUITS FOR ELECTRICAL INSTALLATIONS PART 4 - PLIABLE SELF  RECOVERING CONDUITS OF INSULATING MATERIALS Note - For  details requirements refer to the standard For detailed information, refer to  IS 9537 (Part 4) : 1983  Specification for conduits for electrical installations :Part 4   Pliable self- recovering conduits of insulating materials.",
+      "clause_id": "IS 9537 (Part 4):1983#5",
+      "family": "IS 9537 (Part 4)",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 921,
+      "page_end": 921,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9537 (Part 4):1983",
+    "record_id": 16931,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      921,
+      921
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

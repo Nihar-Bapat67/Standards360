@@ -1,0 +1,175 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8112:1989",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Manufacture, chemical and physical requirements of 43 grade ordinary Portland cement. Note—This specification covers the requirements of ordinary Portland Cement for uses such as manufacture of prestressed concrete railway sleepers and precast products.",
+      "clause_id": "IS 8112:1989#1",
+      "family": "IS 8112",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 32,
+      "page_end": 32,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8112:1989",
+      "clause": "2",
+      "title": "Chemical Requirements",
+      "text": "2. Chemical Requirements — See Table 1.",
+      "clause_id": "IS 8112:1989#2",
+      "family": "IS 8112",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 32,
+      "page_end": 32,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8112:1989",
+      "clause": "3",
+      "title": "Physical Requirement",
+      "text": "3. Physical Requirement",
+      "clause_id": "IS 8112:1989#3",
+      "family": "IS 8112",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 32,
+      "page_end": 32,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8112:1989",
+      "clause": "3.1",
+      "title": "Fineness",
+      "text": "3.1 Fineness — Specific surface not less than 225 m2/kg",
+      "clause_id": "IS 8112:1989#3.1",
+      "family": "IS 8112",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 32,
+      "page_end": 32,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8112:1989",
+      "clause": "3.2",
+      "title": "Soundness",
+      "text": "3.2 Soundness — Unaerated cement not more the 10 mm by 'Le  Chatelier' method and not more than 0.8 percent by autoclave method. SUMMARY OF IS  8112 : 1989  43 GRADE ORDINARY PORTLAND CEMENT (First Revision)",
+      "clause_id": "IS 8112:1989#3.2",
+      "family": "IS 8112",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 32,
+      "page_end": 32,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8112:1989",
+      "clause": "3.3",
+      "title": "Setting Time",
+      "text": "3.3 Setting Time — a)  Initial setting time in minutes —not less than 30. b) Final setting time in minutes — not more than 600.",
+      "clause_id": "IS 8112:1989#3.3",
+      "family": "IS 8112",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 32,
+      "page_end": 32,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8112:1989",
+      "clause": "3.4",
+      "title": "Compressive strength",
+      "text": "3.4 Compressive strength — a)  72 1 hour not less than 23 MPa b)  168 2 hour not less than 33 MPa c)  672 4 hour not less than  43 MPa",
+      "clause_id": "IS 8112:1989#3.4",
+      "family": "IS 8112",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 32,
+      "page_end": 32,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8112:1989",
+      "clause": "4",
+      "title": "Delivery",
+      "text": "4. Delivery — Packed in specified bags of  50 kg , 25 kg, 10 kg, 5 kg, 2 kg or 1 kg net or in bulk with tolerances specified in the standard. TABLE 1 CHEMICAL REQUIREMENTS FOR HIGH STRENGTH PORTLAND CEMENT Sl No.                         Characteristic Requirement (1)                                     (2) (3) i) Ratio of percentage of lime to percentages of silica, Not greater than 1.02 and not alumina and iron oxide, when calculated by the formula less than 0.66 ii) Ratio of percentage of alumina to that of iron oxide Not less than 0.66 iii) Insoluble residue, percent by mass Not more than 3.0 iv) Magnesia, percent by mass Not more than 6.0 v) Total sulphur content calculated as sulphuric Not more than 2.5 and 3.0  when tricalcium anhydride (SO3), percent by mass greater than aluminate percent by mass is 5 or  less and 5 respectively vi) Total  loss on ignition Not more than 5 percent For detailed information, refer to IS 8112:1989 Specification for  43 Grade ordinary portland cement (first revision). Note 1 —  For specific chemical and physical requirements of cement used for railway sleepers, refer to the standard. Note 2 — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement and IS 4032:1985 Methods of chemical analysis of hydraulic cement. (first revision) ± ± ± 3 2 Cao - 0.7SO 2.8SiO 2 3 2 3 + 1.2AI O + 0.65Fe O",
+      "clause_id": "IS 8112:1989#4",
+      "family": "IS 8112",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "packing",
+      "page_start": 32,
+      "page_end": 32,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8112:1989",
+    "record_id": 175,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      32,
+      32
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current",
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

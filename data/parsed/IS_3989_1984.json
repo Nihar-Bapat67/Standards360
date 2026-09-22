@@ -1,0 +1,562 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3989:1984",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements for centrifugally cast (spun) iron spigot and socket soil, waste and ventilating pipes together  with the details of the fittings and accessories. These pipes and fittings are suitable for use above ground only.",
+      "clause_id": "IS 3989:1984#1",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements",
+      "clause_id": "IS 3989:1984#2",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "2.1",
+      "title": "Shall be capable of",
+      "text": "2.1 Shall be capable of being cut with the tools normally used for installation.",
+      "clause_id": "IS 3989:1984#2.1",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "3",
+      "title": "Tests",
+      "text": "3. Tests",
+      "clause_id": "IS 3989:1984#3",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "3.1",
+      "title": "Hardness",
+      "text": "3.1 Hardness — not greater than 230 HBS.",
+      "clause_id": "IS 3989:1984#3.1",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "3.2",
+      "title": "Soundness",
+      "text": "3.2 Soundness  — When tested for soundness by striking with a light hand hammer, shall emit a clear ringing sound.",
+      "clause_id": "IS 3989:1984#3.2",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "3.3",
+      "title": "Hydrostatic Test",
+      "text": "3.3 Hydrostatic Test— When hydrostatically tested at a pressure of 0.07 MPa (N/mm2) for 15 seconds the pipes and fittings shall not show any sign of leakage, sweating or other defects of any kind. The test shall be conducted after surface coating.",
+      "clause_id": "IS 3989:1984#3.3",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4",
+      "title": "Sizes (in mm)",
+      "text": "4. Sizes (in mm) — Nominal Diameter DN, of pipes and fittings are 50, 75, 100 and 150.",
+      "clause_id": "IS 3989:1984#4",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.1",
+      "title": "Socket and Spigot Pipes",
+      "text": "4.1 Socket and Spigot Pipes Nominal Diameter 50 75 100 150 Barrel Ext. Dia 57 83 109 161 Internal Dia. of Socket73 99 126 179 Joint thickness 8 8 8.5 9 Length of pipes 1,000 1,500 1,800 2,000 2,500 3,000",
+      "clause_id": "IS 3989:1984#4.1",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.2",
+      "title": "Bends With and Without Access Doors",
+      "text": "4.2 Bends With and Without Access Doors Nominal Dia Angle of Bend 50 75 100 92½°, 112½° and 135°. 150",
+      "clause_id": "IS 3989:1984#4.2",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.3",
+      "title": "Equal and Unequal Branches",
+      "text": "4.3 Equal and Unequal Branches With and Without Access door a) Equal Branch Angle  θ Nominal Dia 50 75 100 92½°, 112½° and 135°. 150 b) Unequal Branches Nominal Dia Angle Body Branch 75 50 100 50 100 75 92½°, 112½° and 135°. 150 100",
+      "clause_id": "IS 3989:1984#4.3",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.4",
+      "title": "Nominal Dia",
+      "text": "4.4 Nominal Dia Offsets 50 75 100 75, 115 and 150. 150",
+      "clause_id": "IS 3989:1984#4.4",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.5",
+      "title": "Taper",
+      "text": "4.5 Taper Nominal Diameter Spigot Socket DN dn 75 50 100 50 100 75 150 100",
+      "clause_id": "IS 3989:1984#4.5",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.6",
+      "title": "Access Door",
+      "text": "4.6 Access Door — See Table 8 of the Standard.",
+      "clause_id": "IS 3989:1984#4.6",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.7",
+      "title": "Collars",
+      "text": "4.7 Collars Nominal L Diameter 50 140 75 150 100 160 150 170 SUMMARY OF IS 3989 :1984 CENTRIFUGALLY CAST (SPUN) IRON SPIGOT AND SOCKET SOIL WASTE AND VENTILATING PIPES FITTINGS AND ACCESSORIES (Second Revision) { θ",
+      "clause_id": "IS 3989:1984#4.7",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 310,
+      "page_end": 310,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.8",
+      "title": "Connectors (C.I. to Stoneware)",
+      "text": "4.8 Connectors (C.I. to Stoneware) Nominal Dia 100 and 150.",
+      "clause_id": "IS 3989:1984#4.8",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.9",
+      "title": "Connectors",
+      "text": "4.9 Connectors— Plug (Stopper) Nominal Dia  50, 75, 100 and 150.",
+      "clause_id": "IS 3989:1984#4.9",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.10",
+      "title": "Larger Radius Bends–",
+      "text": "4.10  Larger Radius Bends- Nominal Dia Angle of Bend 75 100 92½°, 112½°, 36° 150",
+      "clause_id": "IS 3989:1984#4.10",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.11",
+      "title": "Equal and unequal single parallel branches–",
+      "text": "4.11 Equal and unequal single parallel branches- Body Branch Nominal dia dn 100 100 100 50 100 50",
+      "clause_id": "IS 3989:1984#4.11",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.12",
+      "title": "Equal and unequal inverted branches socket",
+      "text": "4.12 Equal and unequal inverted branches socket type Nominal Diameter Angle θ Body Branches 50 50 100 100 95°, 112½°, 1800 100 50 4.1 3 Traps Nominal Angle Diameter DN 50 75 100 95°, 135°, 1800 150",
+      "clause_id": "IS 3989:1984#4.12",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.14",
+      "title": "Straight inspection piece",
+      "text": "4.14 Straight inspection piece Nominal Dia. 50, 75, 100 and 150.",
+      "clause_id": "IS 3989:1984#4.14",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.15",
+      "title": "Floor Traps",
+      "text": "4.15 Floor Traps Nominal Dia. 50, 75 and 100.",
+      "clause_id": "IS 3989:1984#4.15",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.16",
+      "title": "Traps with Vent",
+      "text": "4.16 Traps with Vent Diameter Body Angle Vent DN dn 100 95° 50 100 135° 50 100 180° 50",
+      "clause_id": "IS 3989:1984#4.16",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.17",
+      "title": "Floor Trap (Nahani)",
+      "text": "4.17 Floor Trap (Nahani) Nominal Dia.  50,  75, 100 and 150",
+      "clause_id": "IS 3989:1984#4.17",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "4.18",
+      "title": "Shoe bends and cowls",
+      "text": "4.18 Shoe bends and cowls Nominal Dia. 50, 75, 100 and 150",
+      "clause_id": "IS 3989:1984#4.18",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "5",
+      "title": "Tolerances",
+      "text": "5. Tolerances — Tolerances on external diameter of the barrel, internal diameter of the socket and the depth of the socket shall be as follows - (see figures of Table 1 of the Standard). Dimensions               Nominal Tolerance Tolerance Diameter Lead Rubber DN Joint Joint (mm) (mm) (mm) i) External diameter 50, 75 3.0 + 3.0 of barrel, DE - 0 100 3.5 + 3.5 - 0 150 4.0 + 4.0 - 0 ii) Internal diameter All diameters 3.0 + 3.0 of socket, DI - 0 iii) Depth of socket, P All diameters 10 10 The tolerance on length of pipes shall be    20 mm. The tolerances on dimensioins of fittings shall be as given below Note-For details on tolerances, refer 7 of the standard.",
+      "clause_id": "IS 3989:1984#5",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "6",
+      "title": "Mass – Specific mass",
+      "text": "6. Mass - Specific mass of cast iron is taken as 7.15 kg/dm3. Toterance on mass -10 prercent.",
+      "clause_id": "IS 3989:1984#6",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "7",
+      "title": "Coating",
+      "text": "7. Coating",
+      "clause_id": "IS 3989:1984#7",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "7.1",
+      "title": "In all cases where",
+      "text": "7.1 In all cases where the coating material has a tar or similar base, it shall be smooth, tenacious and hard enough not to flow when exposed to a temperature of 65°C but not so brittle at a temperature of 0°C as to chip off when scribed lightly with a penknife.",
+      "clause_id": "IS 3989:1984#7.1",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3989:1984",
+      "clause": "7.2",
+      "title": "Coating shall not be",
+      "text": "7.2 Coating shall not be applied to any pipe or fitting unless its surface is clean, dry and free from rust. Note— For detailed dimensions and body sketches refer to the standard. For detailed information, refer to  IS 3989 : 1984  Specification for centrifugally cast (spun) iron spigot and socket soil, waste and ventilating pipes, fittings and accessories (second revision). θ θ ± ± ± ± ± ± ±",
+      "clause_id": "IS 3989:1984#7.2",
+      "family": "IS 3989",
+      "year": 1984,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 311,
+      "page_end": 311,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3989:1984",
+    "record_id": 25348,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      310,
+      311
+    ],
+    "n_clauses": 30,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirements for dimensions, quality and strength requirements of hollow clay filler tiles having perforations parallel to their length and intended for use in floors and roofs.",
+      "clause_id": "IS 3951 (Part 1):1975#1",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements — Shall be free from cracks, flaws and nodules of free lime. Shall be of uniform colour and shall have plane rectangular faces with parallel sides and straight right angled edges.",
+      "clause_id": "IS 3951 (Part 1):1975#2",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "2.1",
+      "title": "Winding or Bowing",
+      "text": "2.1 Winding or Bowing —  Shall be not more than 5 mm per 30 cm length or width.",
+      "clause_id": "IS 3951 (Part 1):1975#2.1",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "2.2",
+      "title": "Concavity or Convexity",
+      "text": "2.2 Concavity or Convexity — Shall be not more than 5 mm per 30 cm  run at any point on either diagonal.",
+      "clause_id": "IS 3951 (Part 1):1975#2.2",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "2.3",
+      "title": "Angles between Sides and",
+      "text": "2.3 Angles between Sides and  Joining  Edges — Shall be not more than 5 mm per 30 cm run. Note — Tests for trueness of shape are illustrated in Fig 1 to 3 on the standard.",
+      "clause_id": "IS 3951 (Part 1):1975#2.3",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "3",
+      "title": "Dimensions and Tolerances",
+      "text": "3. Dimensions and Tolerances",
+      "clause_id": "IS 3951 (Part 1):1975#3",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "3.1",
+      "title": "Dimensions",
+      "text": "3.1 Dimensions Length Width Height mm mm mm 340, 390, 440, 490 350, 300    80,  90 540, 590, 640, 690 250, 200    100, 110 740",
+      "clause_id": "IS 3951 (Part 1):1975#3.1",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "3.2",
+      "title": "Tolerances",
+      "text": "3.2 Tolerances —  ± 5 percent",
+      "clause_id": "IS 3951 (Part 1):1975#3.2",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "3.3",
+      "title": "Thickness",
+      "text": "3.3 Thickness — Shall be not less than 11 mm for shell and not less than 8 mm for web.",
+      "clause_id": "IS 3951 (Part 1):1975#3.3",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "4",
+      "title": "Breaking Strength",
+      "text": "4. Breaking Strength —  Shall be not less than 10 kgf/cm2 length.",
+      "clause_id": "IS 3951 (Part 1):1975#4",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3951 (Part 1):1975",
+      "clause": "5",
+      "title": "Water Absorption",
+      "text": "5. Water Absorption —  Shall not more than  20 percent. Note 1 —  Typical shapes of hollow clay filter tiles are shown  in Fig. 4 of the standard. Note 2 —  For  methods of tests, refer to  Appendices A and B of the standard. For detailed information, refer to IS 3951 (Part 1):1975 Specification for hollow clay tiles for floors and roofs:Part 1 Filler type (first revision). SUMMARY OF IS 3951 (PART 1) : 1975 HOLLOW CLAY TILES FOR FLOORS AND ROOFS PART 1 FILLER TYPE (First Revision)",
+      "clause_id": "IS 3951 (Part 1):1975#5",
+      "family": "IS 3951 (Part 1)",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 142,
+      "page_end": 142,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3951 (Part 1):1975",
+    "record_id": 28504,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      142,
+      142
+    ],
+    "n_clauses": 11,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,181 @@
+{
+ "coverage_main": {
+  "ids": 34300,
+  "valid": 34000,
+  "blank": 300,
+  "never_resolved": 0
+ },
+ "coverage_recent": {
+  "ids": 1901,
+  "valid": 1553,
+  "blank": 348,
+  "never_resolved": 0
+ },
+ "outside_ranges_collected": 0,
+ "total_valid": 35553,
+ "duplicate_lines": 0,
+ "is_number_nonstandard_prefix": 45,
+ "is_number_nonstandard_examples": [
+  [
+   "SI",
+   22
+  ],
+  [
+   "Is",
+   12
+  ],
+  [
+   "IEC",
+   2
+  ],
+  [
+   "ISO/SAE",
+   1
+  ],
+  [
+   "ISO",
+   1
+  ],
+  [
+   "10558",
+   1
+  ],
+  [
+   "ISIHB",
+   1
+  ],
+  [
+   "16324",
+   1
+  ]
+ ],
+ "is_number_without_year": 2,
+ "is_number_without_year_examples": [
+  "IS 16910 (Part 2/Sec 11):0",
+  "IS 16910 (Part 2/Sec 33):0"
+ ],
+ "same_is_number_on_multiple_records": 169,
+ "same_is_number_examples": [
+  "IS/ISO105:1994",
+  "IS/ISO105:1993",
+  "SP7:2005",
+  "IS/ISO105:2009",
+  "IS17550:2021"
+ ],
+ "field_filled_pct": {
+  "title": 100.0,
+  "aspect": 89.4,
+  "department": 99.6,
+  "committee": 99.6,
+  "group": 89.3,
+  "sub_group": 89.3,
+  "sub_sub_group": 89.3,
+  "certification": 2.0,
+  "superseding_is": 16.3,
+  "equivalence": 100.0,
+  "revisions": 100.0,
+  "language": 95.5,
+  "reaffirmation_year": 5.7
+ },
+ "certification_values": [
+  [
+   "(blank)",
+   31110
+  ],
+  [
+   "None",
+   3718
+  ],
+  [
+   "Mandatory Certification",
+   725
+  ]
+ ],
+ "aspect_values": [
+  [
+   "Product Specification",
+   15193
+  ],
+  [
+   "Methods of tests",
+   6733
+  ],
+  [
+   "Code of Practice",
+   3882
+  ],
+  [
+   "N/A",
+   3763
+  ],
+  [
+   "Others",
+   2738
+  ],
+  [
+   "Terminology",
+   1207
+  ],
+  [
+   "Dimensions",
+   948
+  ],
+  [
+   "Safety Standard",
+   499
+  ],
+  [
+   "System Standard",
+   263
+  ],
+  [
+   "Service Specification",
+   203
+  ],
+  [
+   "Process Specification",
+   124
+  ]
+ ],
+ "enrich_labs": {
+  "standards_with_count>0": 1913,
+  "list_missing": 0,
+  "length_differs_from_count": 0
+ },
+ "enrich_product_manuals": {
+  "standards_with_count>0": 1636,
+  "list_missing": 0,
+  "length_differs_from_count": 0
+ },
+ "enrich_gazette": {
+  "standards_with_count>0": 18752,
+  "list_missing": 5278,
+  "length_differs_from_count": 2167
+ },
+ "enrich_amendments": {
+  "standards_with_count>0": 2993,
+  "list_missing": 0,
+  "length_differs_from_count": 0
+ },
+ "xref_links_total": 165657,
+ "xref_links_both_ends_collected": 165657,
+ "xref_dangling_targets": 0,
+ "xref_symmetry_A_cites_B_and_B_lists_A": "96517/130250",
+ "xref_self_references": 24,
+ "xref_label_vs_target_number_mismatch": "16/130250",
+ "reparse_sample": 300,
+ "reparse_raw_missing": 0,
+ "reparse_field_differences": {},
+ "title_text_absent_from_raw": 0,
+ "category_pairs_number_agrees_with_detail_page": "776/777",
+ "category_pairs_disagree_examples": [],
+ "db_standards": 35553,
+ "db_tables": {
+  "xrefs": 165657,
+  "labs": 12105,
+  "product_manuals": 1636,
+  "gazette": 28144,
+  "amendments": 4545,
+  "categories": 777
+ }
+}

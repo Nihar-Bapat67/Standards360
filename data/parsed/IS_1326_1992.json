@@ -1,0 +1,436 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1326:1992",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Covers the requirements of nonconiferous sawn timber in the form of baulks and scantling.",
+      "clause_id": "IS 1326:1992#1",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "2",
+      "title": "Species",
+      "text": "2. Species— Refer to Annex A and Annex B of the standard for the species of timber covered.",
+      "clause_id": "IS 1326:1992#2",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "3",
+      "title": "Dimensions and Measurements",
+      "text": "3. Dimensions and Measurements",
+      "clause_id": "IS 1326:1992#3",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "3.1",
+      "title": "The sawn timber is",
+      "text": "3.1 The sawn timber is generally available in the following lengths and cross sections: Length— 1 m, 1.5 m, 2.0 m, 2.5 m, 3.0 m, and 3.5 m Cross Section- 200 mm × 100 mm,    200 mm × 125 mm 200 mm ×150 mm,    200 mm × 200 mm 250 mm × 125 mm,    250 mm × 150 mm, and 300 mm × 150 mm.",
+      "clause_id": "IS 1326:1992#3.1",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "3.2",
+      "title": "Length",
+      "text": "3.2 Length — The length shall be measured from end to end in metres correct to 0.01 m. Any end portion of sawn timber that has become rounded or damaged shall be excluded from length measurement. Width and Thickness — The width and thickness shall be measured at the narrowest place in millimetre correct to 10 mm. Volume —  The volume shall be computed in cubic metres correct to three places of decimal by the product of length, width and thickness on the basis of accepted sizes.",
+      "clause_id": "IS 1326:1992#3.2",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "4",
+      "title": "Requirements and Grading",
+      "text": "4. Requirements and Grading",
+      "clause_id": "IS 1326:1992#4",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "4.1",
+      "title": "Requirements",
+      "text": "4.1 Requirements — Timber shall be air-seasoned to a moisture content not exceeing 20 percent within  a depth SUMMARY OF IS 1326 : 1992  NON-CONIFEROUS  SAWN TIMBER (BAULKS AND SCANTLING) (Second Revision) of 13 mm from the surface, excluding 300 mm from each end. Timber shall be either sawn or  axe-hewn. Any axe-hewn timber shall be reasonably even. All pieces shall have fairly straight and parallel sides and rectangular cross sections.",
+      "clause_id": "IS 1326:1992#4.1",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "4.2",
+      "title": "Grading",
+      "text": "4.2 Grading — The non-coniferous sawn timber shall be of three grades, that is, special grade, Grade 1 and Grade 2, depending upon prohibited and permissible defects.",
+      "clause_id": "IS 1326:1992#4.2",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "5",
+      "title": "Prohibited and Permissible Defects",
+      "text": "5. Prohibited and Permissible Defects",
+      "clause_id": "IS 1326:1992#5",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "5.1",
+      "title": "Prohibited Defects",
+      "text": "5.1 Prohibited Defects — The sawn timber of all the three grades shall be free from spiral or twisted grain, warp, anykind of decay or live insect attack. Special grade sawn timber shall be free from centre heart, wane, cup shakes, borer holes (dead infestation), sapstain (blue stain) and knots also. Grade 1 shall be free from cup shakes also.",
+      "clause_id": "IS 1326:1992#5.1",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "5.2",
+      "title": "Permissible Defects",
+      "text": "5.2 Permissible Defects —Refer to Table 1 of the standard",
+      "clause_id": "IS 1326:1992#5.2",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "6",
+      "title": "Treatment",
+      "text": "6. Treatment — Prophylactic treatment is optional.",
+      "clause_id": "IS 1326:1992#6",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 166,
+      "page_end": 166,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "7",
+      "title": "End Coatings",
+      "text": "7. End Coatings — To prevent and to minimize end cracking splitting, etc, the ends of each baulk and scantling, up to a distance of 150 mm, or at least 25 mm more than the length of larger split (whichever is more) shall be adequately coated with any of the  materials mentioned in IS 1141 : 1993*. * Code of practice for seasoning of timber (second revision). Note — For  method of measurement of defects in timber refer to IS 3364 (Part 2) : 1976 Method of measurement  and evaluation of defects in timber. Part 2 Converted timber ( first revision). For detailed informtion, refer to IS 1326 : 1992 Non-coniferous sawn timber (baulks and scantlings) (Second Revision). 1. Scope — Covers specification of converted timber normally stocked in timber depot both for structural and non-structural purposes. It refers to cut sizes of timber as stocked and does not take into considertion any reductiion or allowance relating to subsequent use. 2. Dimensions and Tolerances 2.1 Cut sizes of  timber shall be grouped in terms of width and  thickness or sectional area into four groups, namely, (a) batten, (b) plank, (c) scantling, and (d) baulk. The nominal sizes of width and thickness of cut sizes of timber shall be as given in Table 1. The sizes of cut timber specified in Table 1 are at a moisture content of 20 percent. A method for adjustment of dimensions at different moisture contents is given in",
+      "clause_id": "IS 1326:1992#7",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 166,
+      "page_end": 167,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "APPENDIX A",
+      "title": "of the standard.",
+      "text": "Appendix A of the standard.",
+      "clause_id": "IS 1326:1992#APPENDIX A",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "annex",
+      "page_start": 167,
+      "page_end": 167,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "2.2",
+      "title": "Length",
+      "text": "2.2 Length — The preferred length of cut sizes of timber shall be 50 cm  and upwards in steps of 10 cm.",
+      "clause_id": "IS 1326:1992#2.2",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 167,
+      "page_end": 167,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "2.3",
+      "title": "The measurement of length,",
+      "text": "2.3 The measurement of length, with and thickness of cut sizes of timber shall be made on mid line of the surface on which it is measured.",
+      "clause_id": "IS 1326:1992#2.3",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 167,
+      "page_end": 167,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "2.4",
+      "title": "Tolerence",
+      "text": "2.4 Tolerence — Permissible tolerances on cut sizes of timber shall be as follows: a) For width and thickness 1)    Up to and including 100 mm ±0 3  mm 2)    Above 100 mm ±3 6  mm b) For length ±0 25 mm",
+      "clause_id": "IS 1326:1992#2.4",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 167,
+      "page_end": 167,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "3",
+      "title": "Grading of Cut Sizes of Timber",
+      "text": "3. Grading of Cut Sizes of Timber — Cut size of timber shall be graded after seasoning at a moisture content not less than 12 percent.",
+      "clause_id": "IS 1326:1992#3",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 167,
+      "page_end": 167,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "3.1",
+      "title": "Grading for Structural Use",
+      "text": "3.1 Grading for Structural Use — Based on permissible and prohibited defects the cut sizes of timber for  structural  use a) Grade1 — The estimated effect in reduction of the basic strength of timber is not more than 12.5 percent. b) Grade 2 — The estimated effect in reductiion of the basic strength of timber is not more than 25 percent. c) Grade 3 — The estimated effect in reduction of the basic strength of timber is not more than 37.5 percent. SUMMRY OF IS  1331 : 1971   CUT SIZES OF TIMBERS (Second Revision) TABLE 1 SIZES OF CUT TIMBER FOR STOCKING PURPOSES All measurements in centimetres. Thickness Width 1.0 4.0 5.0 6.0 8.0 10.0 12.0 - - - - - - - - - 1.5 x x x x x x 14.0 16.0 18.0 - - - - - - 2 x x x x x x x x x 20.0 22.0 24.0 - - - 2.5 x x x x x x x x x x x x 26.0 28.0 30.0 3 x x x x x x x x x x x x x x x 4 x x x x x x x x x x x x x x x 5 - x x x x x x x x x x x x x x 6 - - - x x x x x x x x x x x x 8 - - - x x x x x x x x x x x x 10 - - - - x x x x x x x x x x x 12 - - - - - x x x x x x x x x x 14 - - - - - - - x x x x x x x x 16 - - - - - - - x x x x x x x x 18 - - - - - - - - x x x x x x x 20 - - - - - - - - - x - - - - - x = preferred size of the width For detailed information, refer to IS 1331 : 1971 Specification for cut sizes of timbers (second revision).",
+      "clause_id": "IS 1326:1992#3.1",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 167,
+      "page_end": 168,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "3.2",
+      "title": "Grading for Non",
+      "text": "3.2 Grading for Non-Structural Use —  Based on permissible and prohibited defects cut sizes of timber for non-structural use shall be of two grades, namely, Grade 1 and Grade 2.",
+      "clause_id": "IS 1326:1992#3.2",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 168,
+      "page_end": 168,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "4",
+      "title": "Defects",
+      "text": "4. Defects",
+      "clause_id": "IS 1326:1992#4",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 168,
+      "page_end": 168,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "4.1",
+      "title": "Structural Use",
+      "text": "4.1 Structural Use Defects Prohibited — Loose grains, splits, compressive wood in coniferous timber, heart wood rot, sap rot, warp, worm holes made by power post beetles and pitch pockets shall not be permitted. Permissible Defects - Defects to teh extent specified in Table 2 of the standard shall be permissible",
+      "clause_id": "IS 1326:1992#4.1",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 168,
+      "page_end": 168,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1326:1992",
+      "clause": "4.2",
+      "title": "Non",
+      "text": "4.2 Non-Structural Use Defect Prohibited - Heart wood rot, sap rot, brashness, shankes, insect attack shall not be permitted. Permissible Defect - Defects to the extent specified in Table 3 of the standrd shall be permissible.",
+      "clause_id": "IS 1326:1992#4.2",
+      "family": "IS 1326",
+      "year": 1992,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 168,
+      "page_end": 168,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1326:1992",
+    "record_id": 4790,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      166,
+      168
+    ],
+    "n_clauses": 23,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

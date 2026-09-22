@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8360 (Part 1):1977",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — General requirements for material, sizes, performance requirements, sampling and marking of all types of fabricated HDPE fittings intended for connection to HDPE pipes covered by IS  4984 :1995* for potable water supplies.",
+      "clause_id": "IS 8360 (Part 1):1977#1",
+      "family": "IS 8360 (Part 1)",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 358,
+      "page_end": 358,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8360 (Part 1):1977",
+      "clause": "2",
+      "title": "Material",
+      "text": "2. Material",
+      "clause_id": "IS 8360 (Part 1):1977#2",
+      "family": "IS 8360 (Part 1)",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 358,
+      "page_end": 358,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8360 (Part 1):1977",
+      "clause": "2.1",
+      "title": "Pipes used for the",
+      "text": "2.1 Pipes used for the fabrication of HDPE fittings for potable water supplies shall conform to IS  4984 : 1995.",
+      "clause_id": "IS 8360 (Part 1):1977#2.1",
+      "family": "IS 8360 (Part 1)",
+      "year": 1977,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 358,
+      "page_end": 358,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8360 (Part 1):1977",
+      "clause": "3",
+      "title": "Sizes and Dimensions of Fittings",
+      "text": "3. Sizes and Dimensions of Fittings",
+      "clause_id": "IS 8360 (Part 1):1977#3",
+      "family": "IS 8360 (Part 1)",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 358,
+      "page_end": 358,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8360 (Part 1):1977",
+      "clause": "3.1",
+      "title": "Sizes of fittings shall",
+      "text": "3.1 Sizes of fittings shall be designated by their outside diameters at  the free end, which shall correspond to For  detailed information, refer to IS  8360 (Part I ) :1977 Specification for  fabricated high density polyethylene (HDPE) fittings for potable water supplies : Part  1 General requirements. SUMMARY OF IS  8360 (PART 1)  : 1977 FABRICATED HIGH DENSITY POLYETHYLENE (HDPE) FITTINGS FOR POTABLE WATER SUPPLIES PART 1 GENERAL REQUIREMENTS outside diameters of pipes given in IS 4984 : 1995. Outside diameters and corresponding wall thickness of fittings at free ends for weld shall comply with those given in Table 1 of  IS  4984 : 1995",
+      "clause_id": "IS 8360 (Part 1):1977#3.1",
+      "family": "IS 8360 (Part 1)",
+      "year": 1977,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 358,
+      "page_end": 358,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8360 (Part 1):1977",
+      "clause": "4",
+      "title": "Performance Requirements",
+      "text": "4. Performance Requirements",
+      "clause_id": "IS 8360 (Part 1):1977#4",
+      "family": "IS 8360 (Part 1)",
+      "year": 1977,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 358,
+      "page_end": 358,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8360 (Part 1):1977",
+      "clause": "4.1",
+      "title": "Hydraulic Proof Test",
+      "text": "4.1 Hydraulic Proof Test  — Fitting duly plugged, when subjected to a hydraulic proof test of twice the recommended working pressure at ambient temperature and for a period of 1 hour shall not show any sign of localized swelling, leakage or creeping, and shall not burst. * Injection moulded high density polyethylene pipes   for potable water supplies, sewage and industrial effluents (fourth revision)",
+      "clause_id": "IS 8360 (Part 1):1977#4.1",
+      "family": "IS 8360 (Part 1)",
+      "year": 1977,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 358,
+      "page_end": 358,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8360 (Part 1):1977",
+    "record_id": 15523,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      358,
+      358
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

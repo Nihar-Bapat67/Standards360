@@ -1,0 +1,436 @@
+{
+  "clauses": [
+    {
+      "is": "IS 808:1989",
+      "clause": "1",
+      "title": "Scope – Covers the",
+      "text": "1. Scope - Covers the nominal  dimensions, and sectional properties of hot rolled sloping flange beam and column sections, sloping and parallel flange channel sections and equal and unequal leg angle sections.",
+      "clause_id": "IS 808:1989#1",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification",
+      "clause_id": "IS 808:1989#2",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "2.1",
+      "title": "Beams",
+      "text": "2.1 Beams a)Indian Standard junior beams (ISJB), b)Indian Standard light beams (ISLB), c)Indian Standard medium weight beams (ISMB) and d)Indian Standard wide flange beams  (ISWB)",
+      "clause_id": "IS 808:1989#2.1",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "2.2",
+      "title": "Columns / Heavy Weight Beams",
+      "text": "2.2   Columns / Heavy Weight Beams a)Indian Standard column sections (ISSC) and b)Indian Standard heavy weight beam (ISHB)",
+      "clause_id": "IS 808:1989#2.2",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "2.3",
+      "title": "Channels",
+      "text": "2.3 Channels a) Indian Standard junior  channels (ISJC) b) Indian Standard light weight channels (ISLC) c) Indian Standard medium  weight  channels (ISMC)  and d) Indian Standard medium weight parallel  flange channels (ISMCP)",
+      "clause_id": "IS 808:1989#2.3",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "2.4",
+      "title": "Angles",
+      "text": "2.4 Angles a)Indian Standard equal  angles (ISA) b)Indian Standard unequal  angles (ISA)",
+      "clause_id": "IS 808:1989#2.4",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "3",
+      "title": "Designation – Beam, columns",
+      "text": "3. Designation - Beam, columns and channel sections shall be designated by the respective abbreviated reference symbols followed by the depth of the section, for example: a) MB 200 -  for a medium weight beam of  depth 200  mm b) SC 200 - for a column section of  depth 200 mm c) MC 200 -  for a medium weight channel of depth 200 mm  and d) MCP 200 -  for a medium weight parallel flange channel of  depth  200 mm",
+      "clause_id": "IS 808:1989#3",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4. Dimensions",
+      "clause_id": "IS 808:1989#4",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.1",
+      "title": "Beams",
+      "text": "4.1 Beams",
+      "clause_id": "IS 808:1989#4.1",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.1.1",
+      "title": "Medium flange beams –",
+      "text": "4.1.1 Medium flange beams - MB100      MB225      MB450 MB125      MB250        MB500 MB150      MB300        MB550 MB175      MB350        MB600 MB200      MB400",
+      "clause_id": "IS 808:1989#4.1.1",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.1.2",
+      "title": "Junior beams",
+      "text": "4.1.2 Junior beams JB 150 JB200 JB175 JB225",
+      "clause_id": "IS 808:1989#4.1.2",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.1.3",
+      "title": "Light weight beams –",
+      "text": "4.1.3 Light weight beams - LB  75 LB275 LB100 LB300 LB(P)100 LB(P)300 LB125 LB325 LB150 LB350 LB175 LB400 LB(P)175 LB450 LB200 LB500 LB(P)200 LB550 LB225 LB600 LB250 Note -  (P) stands for  Provisional Section.",
+      "clause_id": "IS 808:1989#4.1.3",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.1.4",
+      "title": "Wide flange beams",
+      "text": "4.1.4 Wide flange beams WB150 WB350 WB175 WB400 WB200 WB450 WB200* WB500 WB225 WB550 WB250 WB600 WB300 WB600 Note - WB200* (RSJ sections) is mainly used for railway electrification.",
+      "clause_id": "IS 808:1989#4.1.4",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 716,
+      "page_end": 716,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.1.5",
+      "title": "Column heavy weight beams –",
+      "text": "4.1.5 Column heavy weight beams -",
+      "clause_id": "IS 808:1989#4.1.5",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 717,
+      "page_end": 717,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.1.5.1",
+      "title": "Column Sections",
+      "text": "4.1.5.1 Column Sections SC100 SC180 SC120 SC200 SC140 SC220 SC150* SC250 SC160 Note —  SC150* (BFB sections) is mainly used for railway electrification. 4.1.5.1.2 Heavy weight beams  columns HB150 HB300 HB150* HB300* HB150* HB350 HB200 HB350* HB200* HB400 HB225 HB400* HB225* HB450 HB250 HB450* HB250* Note:  Heavy section.",
+      "clause_id": "IS 808:1989#4.1.5.1",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 4,
+      "parent_clause": "4.1.5",
+      "role": "other",
+      "page_start": 717,
+      "page_end": 717,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.2",
+      "title": "Channels",
+      "text": "4.2  Channels",
+      "clause_id": "IS 808:1989#4.2",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 717,
+      "page_end": 717,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.2.1",
+      "title": "Medium weight channels",
+      "text": "4.2.1 Medium weight channels MC  75 MC225 MC100 MC225* MC125 MC250 MC125* MC250* MC150 MC250* MC150* MC300 MC175 MC300* MC175* MC300* MC200 MC350 MC200* MC400 Note:  * Heavy sections.",
+      "clause_id": "IS 808:1989#4.2.1",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 3,
+      "parent_clause": "4.2",
+      "role": "other",
+      "page_start": 717,
+      "page_end": 717,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.2.2",
+      "title": "Junior channels",
+      "text": "4.2.2 Junior channels JC100 JC175 JC125 JC200 JC150",
+      "clause_id": "IS 808:1989#4.2.2",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 3,
+      "parent_clause": "4.2",
+      "role": "other",
+      "page_start": 717,
+      "page_end": 717,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.2.3",
+      "title": "Light",
+      "text": "4.2.3 Light  weight channels LC  75 LC(P)200 LC100 LC225 LC125 LC250 LC(P)125 LC300 LC150 LC(P)300 LC(P)150 LC350 LC175 LC400 LC200 Note - (P) stands for provisional section.",
+      "clause_id": "IS 808:1989#4.2.3",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 3,
+      "parent_clause": "4.2",
+      "role": "other",
+      "page_start": 717,
+      "page_end": 717,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.2.4",
+      "title": "Parallel Flange –",
+      "text": "4.2.4 Parallel Flange - MCP  75 MCP225 MCP100 MCP225* MCP125 MCP250 MCP125* MCP250* MCP150 MCP300 MCP150* MCP300* MCP175 MCP300* MCP175* MCP350 MCP200` MCP400 MCP200* Note. - *Heavier section ∠   20   20 × 3 ×  4 ∠  25   25 ×  3 ×  4 ×  5 ∠  30  30 ×  3 ×  4 ×  5 ∠  35   35 ×  3 ×  4 ×  5 ×  6 ∠  40   40 ×  3 ×  4 ×  5 ×   6 ∠ 65   65 ×  4 ×  5 ×  6 ×  8 ∠ 70  70  ×  5 ×  6 ×  8 × 10 ∠ 75   75 ×  5 ×  6 ×  8 ×  10 ∠ 80   80 ×  6 ×  8 × 10 × 12 ∠ 90   90 ×  6 ×  8 × 10 × 12 ∠  45   45 × 3 × 4 × 5 × 6 ∠  50  50 × 3 × 4 × 5 × 6 ∠ 55   55 × 4 × 5 × 6 × 8 ∠ 60   60 × 4 × 5 × 6 × 8 ∠ 100   100  × 6 × 8 × 10 × 12 ∠ 110   110 ×  8 × 10 × 12 × 16 ∠ 130   130×8 10 × 12 × 16 ∠ 150   150 × 10 × 12 × 16 × 20 ∠ 200  200 × 12 × 16 × 20 × 25 ∠ 50   50   ×   7 ×   8 ∠ 55   55   × 10 ∠ 60   60   ×   4 × 10 ∠ 65   65   × 10 ∠ 100  100 ×  7 × 15 ∠ 130  130 ×  9 ∠ 150   150 × 15 × 18 ∠ 180  180   × 15 × 18 × 20 ∠ 200  200  × 24",
+      "clause_id": "IS 808:1989#4.2.4",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 3,
+      "parent_clause": "4.2",
+      "role": "other",
+      "page_start": 717,
+      "page_end": 717,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.3",
+      "title": "Equal",
+      "text": "4.3 Equal  leg  angles",
+      "clause_id": "IS 808:1989#4.3",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 717,
+      "page_end": 717,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.3.1",
+      "title": "Supplementary list of equal",
+      "text": "4.3.1 Supplementary list of equal leg angles - ∠ 120  120 ×  8 × 10 × 12 × 15 4.4.1 Supplementary  list of unequal leg angles ∠  150  75 ×  8 × 10 × 12 ∠  40  20 ×  3 ×  4 ×  5 ∠  60  30 ×  5 ×  6 ∠ 60  40  ×  7 ∠ 65   50 ×  5 ×  6 ×  7 ×  8 ∠ 70   50 ×  5 ×  6 ×  7 ×  8 ∠ 75   50 ×  7 ∠ 80   40 ×  5 ×  6 ×  7 ×  8 ∠ 80   60 ×  6 ×  7 ×  8 ∠  200   150 × 10 × 12 × 16 × 20 ∠ 90   65  × 6 × 7 × 8 × 10 ∠ 100  50 ×  6 ×  7 ×  8 × 10 ∠ 100  65 ×  7 ∠ 120  80 ×  8 × 10 × 12 ∠ 125   75 × 12 ∠ 135  65× 8 × 10 × 12 ∠ 150  75 ×  9 × 15 ∠ 150  90  × 10 ×  12 ×  15 ∠ 200  100 ×  15 × 18 For detailed information, refer  to IS  808 :1989  Dimensions for hot rolled steel beam, columns, channel and angle sections (third revision).",
+      "clause_id": "IS 808:1989#4.3.1",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 3,
+      "parent_clause": "4.3",
+      "role": "other",
+      "page_start": 717,
+      "page_end": 718,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 808:1989",
+      "clause": "4.4",
+      "title": "Unequal Leg Angles",
+      "text": "4.4 Unequal Leg Angles ∠ 30   20 ×   3 ×   4 ×   5 ∠ 40  25 ×   3 ×   4 ×   5 ×   6 ∠ 45  30 ×   3 ×   4 ×   5 ×   6 ∠ 50  30 ×   3 ×   4 ×   5 ×  6 ∠ 60  40 ×  5 ×  6 ×  8 ∠ 100  75 ×  6 ×  8 × 10 × 12 ∠  125   75 ×  6 ×  8 × 10 ∠  125   95 ×  6 ×  8 × 10 × 12 ∠  70   45 ×    5 ×    6 ×    8 ×  10 ∠  75   50 ×   5 ×   6 ×   8 × 10 ∠  80  50  ×   5 ×   6 ×   8 × 10 ∠ 90   60  ×   6 ×   8 × 10 × 12 ∠ 100  65 × 6 × 8 × 10 ∠  150   115 ×  8 × 10 × 12 × 16 ∠  200  100 × 10 × 12 × 16",
+      "clause_id": "IS 808:1989#4.4",
+      "family": "IS 808",
+      "year": 1989,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 718,
+      "page_end": 718,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 808:1989",
+    "record_id": 15144,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      716,
+      718
+    ],
+    "n_clauses": 23,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

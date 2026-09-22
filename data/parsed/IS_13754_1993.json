@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 13754:1993",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Specifies the sizes, dimensional tolerances, mechanical, physical and chemical requirements, surface quality requirements and marking of ceramic tiles. It is applicable only to dust-pressed ceramic tiles of first quality, including tiles premounted on sheets, with a water absorption of 6%<E ≤10% according to Group B- IIb of IS 13712:1993* for interior and exterior use on both floors and walls.",
+      "clause_id": "IS 13754:1993#1",
+      "family": "IS 13754",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 213,
+      "page_end": 213,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 13754:1993",
+      "clause": "2",
+      "title": "Description",
+      "text": "2. Description — The surface of tiles and components belonging to this group can be smooth, profiled, wavy, decorated or finished in some other way. It can be unglazed (UGL), glossy, matt or semi-matt (GL). Although tiles have visible surface and usually a surface which is intended to be adhered and bears a back panel, they may have identical surface without a panel or marking. Tiles may have spacer lugs.",
+      "clause_id": "IS 13754:1993#2",
+      "family": "IS 13754",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 213,
+      "page_end": 213,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 13754:1993",
+      "clause": "3",
+      "title": "Shapes and Sizes",
+      "text": "3. Shapes and Sizes",
+      "clause_id": "IS 13754:1993#3",
+      "family": "IS 13754",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 213,
+      "page_end": 213,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 13754:1993",
+      "clause": "3.1",
+      "title": "The modular preferred coordinating sizes (work",
+      "text": "3.1 The modular preferred coordinating sizes (work size+joint width) in cm are M10×10, M15×15, M20×10, M20×15, M20×20 and M30×30. The manufacturer shall choose the work size (dimensions of the visible faces, length and width) in order to allow a nominal joint width between 2 and 5 mm. * Ceramic tiles— defination, classification, characteristics and marking",
+      "clause_id": "IS 13754:1993#3.1",
+      "family": "IS 13754",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 213,
+      "page_end": 213,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 13754:1993",
+      "clause": "3.2",
+      "title": "The most common non",
+      "text": "3.2 The most common non-modular nominal sizes in cm are 10×10, 15×7.5, 15×10, 15×15, 15.2×7.6, 15.2×15.2, 20×10, 20×20, 25×25, 30×15, 30×20, 30×30 and 40×30. The manfacturer shall choose the work size in such a way that the difference between the work size and the nominal size is not more than ± 2 percent and 5 mm.",
+      "clause_id": "IS 13754:1993#3.2",
+      "family": "IS 13754",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 213,
+      "page_end": 213,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 13754:1993",
+      "clause": "3.3",
+      "title": "The thickness including profile",
+      "text": "3.3 The thickness including profile on the visible face and on the rear  side shall be specified by the manufacturer. Note:   For details of shape, refer to Fig 1 and 2 of the standard.",
+      "clause_id": "IS 13754:1993#3.3",
+      "family": "IS 13754",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 213,
+      "page_end": 213,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 13754:1993",
+      "clause": "4",
+      "title": "Spacer Lug Tiles",
+      "text": "4. Spacer Lug Tiles—Spacer lugs are projections, which are located along certain edges of tiles so that when two tiles are placed together, in line, the lugs on adjacent edges separate the tiles by a distance not less than the specified width of joint. Lugs are positioned so that the joint between the tiles may be filled with grout without the lugs remaining exposed. Dust-pressed tiles— may be made with other spacer lug systems and in such cases the manufacturer's work size shall apply. Note   —  Some tiles have one  or more manufacturing  projections part way along certain edges and smaller than 0.3 mm. These are not intended as  spacer lugs and lugs  and  should not be used to space joints.",
+      "clause_id": "IS 13754:1993#4",
+      "family": "IS 13754",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 213,
+      "page_end": 213,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 13754:1993",
+      "clause": "5",
+      "title": "Requirements",
+      "text": "5.   Requirements— See Table 1 SUMMARY OF IS 13754 : 1993 DUST - PRESSED CERAMIC TILES WITH WATER ABSORPTION OF 6% < E ≤ 10% (GROUP B II B ) Characteristics A)        Dimensions and Surface Quality i)    Length and width— The deviation in % of the average size of each tile (2 to 4 sides) from the work size. The deviation in % of the average size of each tile(2or 4 sides) from the average size of 10 test specimens (20 or 40 sides) ii)   Thickness— The  deviation in % of the average thickness of each tile from the work size thickness iii)   Straightness of sides1)  (facial sides)— The maximum  deviation from  straightness in % related to the corresponding work size. iv)    Rectangularity1) The maximum deviation from rectangularity in % related to the corresponding work size TABLE 1 REQUIREMENTS Surface S of the Product (cm2) S ≤ 90 90 < S ≤190 190 < S ≤410 S > 410 ± 1.2 ± 1.0 ± 0.75 ± 0.6 ± 0.75 ± 0.5 ± 0.5 ± 05 ± 10 ± 10 ± 5 ± 5 ± 0.75 ± 0.5 ± 0.5 ± 0.5 Characteristics Surface S of the Product (cm2) Test According to IS 13630 S ≤ 90 90 < S  ≤ 190 190 < S ≤ 410 s > 410 (A) Dimensions and surface Quality i) Lenght and width Part 1 e The deviation in % of the ± 1.2 ± 1.0 ± 0.75 ± 0.6 average size of each tile (2 or 4 sides) from the work size (W) f The deviation in % of the ±0.75 ±0.5 ±0.5 ±0.5 average size of each tile (2 or 4 sides) from the average size of the 10 test specimens (20 or 40 sides) ii) Thickness Part 1 The deviation in % of the ±10 ±10 ±5 ±5 average thickness of each tile from the work size thickness iii) Straightness of sides1 (facial sides) Part 1 The maximum deviation from ± 0.75 ± 0.5 ±0.5 ±0.5 straightness in % related to the corresponding work sizes iv) Rectangularity1) Part 1 The maximum deviation from rectangularity in % related to the corresponding work sizes v) Surface flatness Part 1 The maximum deviation from flatness in: a) centre curvature, related to ± 1.0 ± 0.5 ±0.5 ±0.5 diagonal calculated from the work sizes b) Edge curvature, related to the ±1.0 ±0.5 ±0.5 ±0.5 corresponding work size c) Warpage, related to diagonal ± 1.0 ± 0.5 ± 0.5 ± 0.5 calculated from the work sizes vi) Surface quality2) Min 95% of tiles shall be free from visible defects that would Part 1 impair the appearance of a major area of tiles B Physical Properties i) Water absorption % by weight Average 6 <E ≤ 10  Individual Max 11.0 Part 2 ii) Modulus of rupture in N/mm2 Average ≤ 18, Individual  Min 16 Part 6 iii) Scratch hardness of surface (Mohs' scale) a) Glazed tiles Min 5 b) Unglazed tiles Min 6 iv) Abrasion resistance: a) Resistance to deep abrasion Max 540 Part 12 of unglazed tiles, removed volume in mm3 b) Resistance of abrasion of Average to the abrasion class indicated by Part 11 glazed tiles Class I-IV The manufacturer v) co-efficient of linear thermal Max  9 × 10-6 Part 4 expansion from ambient temperature to 1000ºC (K-1) vi) Thermal shock resistance Required Part 5 vii) Crazing resistance3) glazed tiles Required Part 9 viii) Frost resistance Required, if agreed Part 10 ix) Moisture expansion unglazed Max 0.6 Part 3 tiles mm/m 1)    Not applicable for  tiles having curved shapes 2)      Because of firing slight vartiations from the standard colour are unavoidable. This does not apply to intentional irregulari ties of  colour variation of  the face of dust-pressed tiles of low water absorption(which can be   unglazed,glazed, or partly glazed)or to the colour  variation over a  tile  areas which is characteristic for this   type of tile and desirable.Spots or coloured dots which are  introduced for decorative purposes are not consid ered a defect. 3)    Certain decorative effects may have a tendency to craze. These shall be identified by the manufacturer in  which case the crazing   test is not applicable. 4)    If the hue becomes slightly different this is not considered to be chemical attack. Note1— For   details  regarding classification and characteristics, refer to IS 13712:1993 Ceramic tiles- definitions, classifications, characteristics and marking. Note 2—For methods of tests, refer to various parts of IS 13630 Methods of tests for ceramic tiles. For detailed information refer to IS 13754:1993 Specification for Dust-pressed ceramic tiles with water absorption of 6%<E≤    10% (Group-BII b). C) Chemical Properties i) Resistance to staining of glazed Min Class2 Part 8 tiles Class 1 - 3 ii) REsistance to household chemicals and swimming pool water cleansers, except to cleansing agents containing hydrofluoric acid and its compounds a) Glazed tiles Class AA-D Min Class B Part 8 b) Unglazed tiles Required Part 7 iii) Resistance to acids and alkalis (with the exception of hydrofluoric acid its comounds) a) Glazed tiles Class AA-D Required if agreed according to the chemical ersistance class indicated by the manufacturer Part 8 b) Unglazed tiles Required 4) part 7",
+      "clause_id": "IS 13754:1993#5",
+      "family": "IS 13754",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 213,
+      "page_end": 215,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 13754:1993",
+    "record_id": 18333,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      213,
+      215
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "1",
+      "title": "Scope – Requirements regarding types, sizes,",
+      "text": "1. Scope - Requirements regarding types, sizes, material, consttruction, workmanship and finish, and tests, of solid core wooden flush door shutters with face panels of plywood or cross-band and face veneers.",
+      "clause_id": "IS 2202 (Part 1):1999#1",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 620,
+      "page_end": 620,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "2",
+      "title": "Type and Construction",
+      "text": "2. Type and Construction Sl.No. Core Type Abbreviation (1) (2) (3) (4) i)      Blockboard Decorative BD Non-decorative BN ii)    Particle board Decorative PD with or without Non-decorative PN blockboard iii)   Medium density Decorative MD fibreboard with Non-decorative MN or without blockboard",
+      "clause_id": "IS 2202 (Part 1):1999#2",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 620,
+      "page_end": 620,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "3",
+      "title": "Sizes",
+      "text": "3. Sizes Sl. Designation of Width Height No. doors mm mm i)         8 DS 20 700 1905  (1945) ii) 8 DS 21 700 2005 ( 2045) iii) 9 DS 20 800 1905  (1945) iv)        9 DS 21 800 2005 ( 2045) v) 10 DS 20 900 1905  (1945) vi) 10 DS 21 900 2005 ( 2045) vii) 12 DT 20 1100* 1905  (1945) viii) 12 DT 21 1100* 2005 ( 2045) Note 1 - D-Doors, S - Single shutter, and T- Double leaf shutter. Note 2 —The designation indicates the size of door openings. the   first number referring to width in modules of 100 mm and the last number, the height in modules of 100 mm. *Combined width of two shutters in closed position.",
+      "clause_id": "IS 2202 (Part 1):1999#3",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 620,
+      "page_end": 620,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "3.1",
+      "title": "Thickness – Nominal thickness",
+      "text": "3.1 Thickness -  Nominal thickness shall be 25 mm, 30 mm and 35 mm.",
+      "clause_id": "IS 2202 (Part 1):1999#3.1",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 620,
+      "page_end": 620,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "4",
+      "title": "Material",
+      "text": "4. Material",
+      "clause_id": "IS 2202 (Part 1):1999#4",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 620,
+      "page_end": 620,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "4.1",
+      "title": "Timber – Moisture content",
+      "text": "4.1 Timber - Moisture content shall not exceed 12 percent. Timber shall be free from decay and insect attack. Knots and knot holes less than half the width of cross section of the members in which they occur may be permitted. Pitch pockets, pitch streaks and harmless pin holes shall be permissible except in the exposed edges of the core members where they shall be cut out and filled in with carefully fitted glued pieces of wood of similar species and character with their grain running in the same direction. Note 1 - For species of timber see Annex B of the standard. Note 2 - For details of materials see 6 of the standard. Note 3 - In arriving at the standard width and heights for flush door shutters an allowance of 60 mm has been made for door frames 40 mm for floor finish, 5 mm for clearance all round and 15 mm  for rebate all round  for shutter in to the frame. Note 4 - If modular height of door opening is taken from finished floor level. The height of flush door shall be the one given in the brackets.",
+      "clause_id": "IS 2202 (Part 1):1999#4.1",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 620,
+      "page_end": 620,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "5",
+      "title": "Construction",
+      "text": "5. Construction",
+      "clause_id": "IS 2202 (Part 1):1999#5",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 620,
+      "page_end": 620,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "5.1",
+      "title": "Face Panels – Thickness",
+      "text": "5.1 Face Panels - Thickness of crossbands shall be between 1 mm and 3 mm. Thickness of face veneers shall be between 0.4 mm to 1.5 mm for commercial veneer and 0.35  mm  to 1.0 mm for decorative veneers provided the combined thickness of both is not less than 2.2 mm.",
+      "clause_id": "IS 2202 (Part 1):1999#5.1",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 620,
+      "page_end": 620,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "5.2",
+      "title": "Stiles and Rails –",
+      "text": "5.2 Stiles and Rails - Stiles shall be made with maximum one finger or scarftype joint as per 7.3 of the standard The rails Shall be made without any joint.",
+      "clause_id": "IS 2202 (Part 1):1999#5.2",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 620,
+      "page_end": 620,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "5.3",
+      "title": "Rebating – Shall be",
+      "text": "5.3 Rebating -  Shall be 8 mm to 10 mm in case of double leaved shutters. Note - for details of materials see 7 of the standard.",
+      "clause_id": "IS 2202 (Part 1):1999#5.3",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 620,
+      "page_end": 620,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "6",
+      "title": "Workmanship and Finish –",
+      "text": "6. Workmanship and Finish -  All the four edges of the door shutter shall be square. Both faces of the door shutter shall be sanded to a smooth even texture.",
+      "clause_id": "IS 2202 (Part 1):1999#6",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 621,
+      "page_end": 621,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2202 (Part 1):1999",
+      "clause": "7",
+      "title": "Tests",
+      "text": "7. Tests  -  Flush door shutters shall be subjected to the following tests - i) Dimensions and squareness test ii) General flatness test iii) Local planeness test iv) Impact indentation test v) Flexure test vi) Edge loading test vii) Shock resistance test viii) Buckling test ix) Slamming test x) Misuse test xi) Varying humidity test xii) End immersion test xiii) Knife test xiv) Glue adhesion test xv) Screw withdrawal test. Note - For details of requirements please refer 11 of the standard. Note — For methods of test, refer to IS 4020 (Part 1 to 16) : 1998 Door shutters - methods  of test. For detailed information, refer to IS 2202 : 1999  Specification for wooden flush door shutters (solid core type) Part 1  Plywood face panels (sixth revision).",
+      "clause_id": "IS 2202 (Part 1):1999#7",
+      "family": "IS 2202 (Part 1)",
+      "year": 1999,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 621,
+      "page_end": 621,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2202 (Part 1):1999",
+    "record_id": 8735,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      620,
+      621
+    ],
+    "n_clauses": 12,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

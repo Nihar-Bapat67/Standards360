@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1230:1979",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope",
+      "clause_id": "IS 1230:1979#1",
+      "family": "IS 1230",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 296,
+      "page_end": 296,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1230:1979",
+      "clause": "1.1",
+      "title": "Requirements for cast iron rainwater pipes, half",
+      "text": "1.1 Requirements for cast iron rainwater pipes, halfround gutters, their fittings and accessories.",
+      "clause_id": "IS 1230:1979#1.1",
+      "family": "IS 1230",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 296,
+      "page_end": 296,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1230:1979",
+      "clause": "1.2",
+      "title": "The requirements of O.G.",
+      "text": "1.2 The requirements of O.G. gutters and fittings are covered in Appendix A of the standard. SUMMARY OF IS 1230 : 1979  CAST IRON RAINWATER PIPES AND FITTINGS (Second Revision) Note 1 — For dimens of bends, shoes, branches, offsets, union sockets, holderbats, rainwater heads, refer to the standard. Note 2 — For test details, refer to the standard and IS 1500:1983 Methods for brinell hardness test for mettallic materials (second revision). For detailed information, refer to IS 1230 : 1979 Specification for  cast iron rainwater pipes and fittings (second revision). Note — Unless otherwise specified, pipes and fittings shall be supplied without ears. For details refer to the standard. 2.1.1. Tolerances External dia of barrel : ± 3 mm for 50 and 75 mm pipes ± 3.5 mm for 100 and 125 mm pipes ± 4 mm for 150 mm pipes Internal dia of socket : ±3mm Depth of socket : ±10m Thickness : ±1mm Thickness of guttersfittings : - 1.0 mm Length of pipe : ±13.0 mm Length of fittings : ± 3 mm Mass : -10 percent 2.2. Half-round Gutters and Fittings: Nominal size, mm 75 100 125 150 Width, mm 75 100 125 150 Radius, mm 40 50 65 75 Thickness, mm 3 3 3 3 Length of gutters :    +13.0 mm Length of gutter fittings :    + 3.0 mm Mass :   10  percent 3. Freedom from Defects — Pipes and fittings shall be sound and free from surface and other defects. 4. Tests 4.1 Brinell Hardness Test — The hardness of external unmachined surface shall not exceed 230 HB. 4.2 Hydrostatic Test — Shall withstand pressure test without showing any leakage, sweating or other defect of any kind. 4.3 Hammer Test— When tested for soundness pipe shall emit a clear ringing sound.",
+      "clause_id": "IS 1230:1979#1.2",
+      "family": "IS 1230",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "references",
+      "page_start": 296,
+      "page_end": 296,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1230:1979",
+      "clause": "2",
+      "title": "Dimensions and Mass",
+      "text": "2. Dimensions and Mass",
+      "clause_id": "IS 1230:1979#2",
+      "family": "IS 1230",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 296,
+      "page_end": 296,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1230:1979",
+      "clause": "2.1",
+      "title": "Pipes and Fittings",
+      "text": "2.1 Pipes and Fittings Length, mm 1800 1800    1800     1800 Minimum weight for 1800 mm length, kg.                     5              5.9       7.5         9.1 Nominal Size, mm                                50 75 100 125 150 External dia, mm                                  53 79 104 130 156 Thickness,                                              3",
+      "clause_id": "IS 1230:1979#2.1",
+      "family": "IS 1230",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 296,
+      "page_end": 296,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1230:1979",
+      "clause": "3",
+      "title": "3",
+      "text": "3 3 3",
+      "clause_id": "IS 1230:1979#3",
+      "family": "IS 1230",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 296,
+      "page_end": 296,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1230:1979",
+      "clause": "4",
+      "title": "Pipes",
+      "text": "4 Pipes Projection of spigot bead, mm                1 1 1 1 1 Width of spigot bead, mm                    20 20 20 20 20 Length  of Width of spigot bead, mm 1 800 1 800 1 800 1 800 1 800 Internal dia, mm                                   63 89 114 139 167 Thickness, Min, mm                              4 4 4 4 4 Sockets         Internal depth, mm                              60 65 65 75 75 Thickness of beads, mm                        7 7 7 9 9 Mass Nominal mass of 1800 mm pipe         7.5 11 14 20 26 without ears, kg.",
+      "clause_id": "IS 1230:1979#4",
+      "family": "IS 1230",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 296,
+      "page_end": 296,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1230:1979",
+    "record_id": 18178,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      296,
+      296
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

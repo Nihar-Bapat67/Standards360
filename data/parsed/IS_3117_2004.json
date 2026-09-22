@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3117:2004",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1.  Scope  —  Physical and chemical requirements of grades of bitumen emulsion (anionic type) for roads and allied applcations.",
+      "clause_id": "IS 3117:2004#1",
+      "family": "IS 3117",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 194,
+      "page_end": 194,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3117:2004",
+      "clause": "2",
+      "title": "Materials",
+      "text": "2.  Materials",
+      "clause_id": "IS 3117:2004#2",
+      "family": "IS 3117",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 194,
+      "page_end": 194,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3117:2004",
+      "clause": "2.1",
+      "title": "Bitumen",
+      "text": "2.1 Bitumen —  The bitumen straight or fluxed, used for the manufacture of the emulsion, shall comply with the following requirements. a) The penetration shall be between 100 and 350; b) Softening point  (Ring and Ball) shall not  be higher   than 48°C; c) Solubility in carbon disulphide shall not be less than  99.0 percent; and d) The loss of weight after heating for five hours at 163° shall not exceed two percent of the original weight. After carrying out this test the penetration of bitumen shall not be less than 60 percent of its original value.",
+      "clause_id": "IS 3117:2004#2.1",
+      "family": "IS 3117",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 194,
+      "page_end": 194,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3117:2004",
+      "clause": "2.1.1",
+      "title": "If it is desired",
+      "text": "2.1.1 If it is desired to modify the performance of the emulsion during periods of low temperature, fluxing the bitumen with the addition of a quantity of fluxing agent not exceeding five percent by weight of bitumen shall be permitted. Unless otherwise agreed to between the manufacturer and the purchaser, the fluxing agents shall comply with the following requirements: a)     Intial boiling point  not less than 140°C; and b)    Distillate at 350°C not less than 90 percent by volume.",
+      "clause_id": "IS 3117:2004#2.1.1",
+      "family": "IS 3117",
+      "year": 2004,
+      "level": 3,
+      "parent_clause": "2.1",
+      "role": "requirements",
+      "page_start": 194,
+      "page_end": 194,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3117:2004",
+      "clause": "2.2",
+      "title": "Emulsifying Agent",
+      "text": "2.2 Emulsifying Agent  — The emulsifying agent, in the proportion in which it is present in the bitumen deposited by the emulsion, shall not have any deleterious effect upon the properties of that bitumen.",
+      "clause_id": "IS 3117:2004#2.2",
+      "family": "IS 3117",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 194,
+      "page_end": 194,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3117:2004",
+      "clause": "3",
+      "title": "Types",
+      "text": "3. Types 3.1 a)   Rapid Setting -  Type RS b)   Medium Setting - Type MS c) Slow Setting -  Type SS 3.2 Applications a) Type  RS   — A quick setting, emulsified  bitumen used for penetration and surface treatments; b) Type  MS — A medium setting emulsified bitumen used for plant mixes with coarse aggregate, substantially all of which is retained on 2.80-mm IS Sieve with practically no material passing a 75- micron IS Sieve c) Type  SS — A slow setting emulsified bitumen used for fine aggregate mixes in which a substantial quantity of aggregate passes a 2.80-mm IS Sieve and a portion may passing a 75 micron IS Sieve. Note — These types are to be used only down to a emperature of 5°C. Below 5° C the utility of the  bitumen emulsion is likely to be impaired  because of freezing as such they shorted be preferally be stored above 4 0C.",
+      "clause_id": "IS 3117:2004#3",
+      "family": "IS 3117",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 194,
+      "page_end": 194,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3117:2004",
+      "clause": "4",
+      "title": "Requirements",
+      "text": "4. Requirements",
+      "clause_id": "IS 3117:2004#4",
+      "family": "IS 3117",
+      "year": 2004,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 194,
+      "page_end": 194,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3117:2004",
+      "clause": "4.1",
+      "title": "Bitumen emulsion shall be homogeneous",
+      "text": "4.1 Bitumen emulsion shall be homogeneous. Within 90 days after manufacture it shall show no undispersed bitumen after thorough mixing.",
+      "clause_id": "IS 3117:2004#4.1",
+      "family": "IS 3117",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 194,
+      "page_end": 194,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 3117:2004",
+      "clause": "4.2",
+      "title": "Physical and chemical requirements",
+      "text": "4.2 Physical and chemical requirements shall be as given in Table 1. Note -Can shall be exercised to the that materials used in the manufacture of butiurn shall not have any time effects on the plant or animl life. Note —  The emulsified bitumen shall not show an a preciable separation of bituminous base from the  water of the  emulsion and shall coat the aggragate thoroughly. Note —  For methods of tests, refer to IS 1211:1978 Methods for testing tar and bitumen: Determination of water content (Dean and Stark method) (first revision) and Appendices A to J of the stand. For detailed  information, refer  to IS 3117 : 2004  Specifications for Bitumen emulsion for roads  and allied application.  (Anionic type) TABLE 1 REQUIREMENTS OF BITUMEN EMULSION Sl. No. Characteristic Rapid Medium Stow Method of Test, Setting Setting Setting Ref to Annex (1) (2) (3) (4) (5) (6) i) Viscosity by Sabybolt Furol 20-100 20-100 20-100 A viscometer, in second at 25ºC ii) Bitumen content, percent by mass, Min 65 65 57 B iii) Settlement, 5 days, percent, Max 3 3 3 C iv) Demulsibility, 35 ml of 0.02 N 60 _ _ D calcium chloride, percent Min v) Miscibility1 in water, coagulation in 2 h _ Nil _ E vi) Modified miscibility with water _ _ 4.5 F difference of bitumen content, Max vii) Cement mixing test, percent, Max _ _ 2.0 G viii) Coating ability and water resistance a) Coating dry aggregate _ Good _ b) Coating after spraying _ Fair _ c) Coating wet aggregate _ Fair _ H d) Coating after spraying _ Fair _ ix) Sieve test, percent, Max 0.10 0.10 0.5 J x) Particle charge Negative Negativ Negative K 1If the sample of emulsified bitumen being tested fails to conform to the requirement, the sample  shall be tested for 5-day settlement and for miscibility and if the numerical difference between the average percentage of residue in the 5-day settlement test is less than 3, and if the miscibility test shows no appreciable coagulation in 2h, then the emulsified bitumen shall be considered conforming to this standard.",
+      "clause_id": "IS 3117:2004#4.2",
+      "family": "IS 3117",
+      "year": 2004,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "requirements",
+      "page_start": 194,
+      "page_end": 195,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3117:2004",
+    "record_id": 9686,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      194,
+      195
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

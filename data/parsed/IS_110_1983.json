@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 110:1983",
+      "clause": "1",
+      "title": "Scope – Requirements, and",
+      "text": "1. Scope -  Requirements, and the methods of sampling and test for ready mixed paint, brushing, grey filler, for enamels, for use over primers. The material is used as a filler over the primer in the painting system normally followed by enamels.",
+      "clause_id": "IS 110:1983#1",
+      "family": "IS 110",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 827,
+      "page_end": 827,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 110:1983",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 110:1983#2",
+      "family": "IS 110",
+      "year": 1983,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 827,
+      "page_end": 827,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 110:1983",
+      "clause": "2.1",
+      "title": "Composition – The material",
+      "text": "2.1 Composition - The material shall be of such a composition as to satisfy the requirements of this standard. In order to obtain satisfactory flattening properties, use of slate powder along with suitable extenders and pigments, as may be necessary, is recommended.",
+      "clause_id": "IS 110:1983#2.1",
+      "family": "IS 110",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 827,
+      "page_end": 827,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 110:1983",
+      "clause": "2.2",
+      "title": "Flattening Properties – The",
+      "text": "2.2 Flattening Properties - The material shall not be inferior to the approved sample.",
+      "clause_id": "IS 110:1983#2.2",
+      "family": "IS 110",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 827,
+      "page_end": 827,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 110:1983",
+      "clause": "2.3",
+      "title": "Hold Out Property –",
+      "text": "2.3 Hold Out Property - The material shall pass the test as prescribed in Appendix B of the standard.",
+      "clause_id": "IS 110:1983#2.3",
+      "family": "IS 110",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 827,
+      "page_end": 827,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 110:1983",
+      "clause": "2.4",
+      "title": "The material shall also",
+      "text": "2.4 The material shall also comply with the requirements given in Table 1.",
+      "clause_id": "IS 110:1983#2.4",
+      "family": "IS 110",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 827,
+      "page_end": 827,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 110:1983",
+      "clause": "2.5",
+      "title": "Water Content",
+      "text": "2.5 Water Content  - If  water is suspected to be present in the material, it shall not exceed 0.5 percent.",
+      "clause_id": "IS 110:1983#2.5",
+      "family": "IS 110",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 827,
+      "page_end": 827,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 110:1983",
+      "clause": "2.6",
+      "title": "Mass in kg/10 litres",
+      "text": "2.6 Mass in kg/10 litres - The minimum mass in kg /10 litres of this  material shall be 14. It shall be, however within  ± 3  percent of the sample approved against this specification.",
+      "clause_id": "IS 110:1983#2.6",
+      "family": "IS 110",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 827,
+      "page_end": 827,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 110:1983",
+      "clause": "2.7",
+      "title": "Opacity – The paint,",
+      "text": "2.7 Opacity - The paint, after  having been thinned to a consisency of  35 seconds (Ford cup viscometer No. 4) with petroleum hydrocarbon solvent 145/205, low aromatic grade, when applied by a brush on a chequer board surface having alternate black and white squares shall satisfactorily obscure the lines of demarcation between the  black and white squares.",
+      "clause_id": "IS 110:1983#2.7",
+      "family": "IS 110",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 827,
+      "page_end": 827,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 110:1983",
+      "clause": "2.8",
+      "title": "Dry Film Thichness –",
+      "text": "2.8 Dry Film Thichness - The paint, thinned with petroleum hydrocarbon solvent, to a consistency of 35 seconds (Ford cup viscometer No. 4), when applied by a  brush, shall give a minimum dry film - thickness of 20 micro metres in one  coat. TABLE  1   REQUIREMENTS FOR READY MIXED PAINT,BRUSHING, GREY FILLER, FOR ENAMELS, FOR USE OVER PRIMERS SL Characteristic Requirement (1) (2) (3) i) Drying Time a) Surface dry Not more than 20 minutes b) Hard  dry Not more than 8 hours ii) Consistency Smooth, uniform and suitable for brushing without appreciable drag on the brush iii) Viscosity by flow cup method Not less than 80 seconds iv) Finish Smooth and matt to semi- glossy v) Colour Grey vi) Residue on sieve, 2.0 percent by weight, Max vii) Flexibility and adhesion No visible damage or detachment of film (after 48 hours air-drying) viii) Flash point Not below 30ºC ix) Keeping properties Not less than six months Note - For test procedures, refer to the standard and IS 101: 1964 Methods of test for ready mixed paints and  enamels (second revision). For detailed information, refer to IS 110 : 1983  Specifications  for ready mixed paint, brushing, grey filler, for enamels, for use over primers (second revision).",
+      "clause_id": "IS 110:1983#2.8",
+      "family": "IS 110",
+      "year": 1983,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 827,
+      "page_end": 827,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 110:1983",
+    "record_id": 1996,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      827,
+      827
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.983,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

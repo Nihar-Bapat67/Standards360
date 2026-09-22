@@ -1,0 +1,220 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope— Requirements for gypsum plaster board intended to be used as a vertical or horizontal lining in building. It includes boards manufactured to receive either direct surface decoration or gypsum plaster finishes.",
+      "clause_id": "IS 2095 (Part 1):1996#1",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 147,
+      "page_end": 147,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types— Gypsum plaster boards are classified according to their use— a) Gypsum wallboards b) Gypsum Board with reduced water Absorption Rate, c) Gypsum wallboard with improved core Cohesion at high temperatures d) Gypsum plaster baseboard, and e) Gypsum plaster baseboard with improved core cohesion at high temperatures",
+      "clause_id": "IS 2095 (Part 1):1996#2",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 147,
+      "page_end": 147,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "3",
+      "title": "Material",
+      "text": "3. Material — Gypsum plaster shall conform to IS 2547 (Part 1) : 1976*. By product gypsum conforming to IS 12679:1987+ shall be used for the preparation of plaster. SUMMARY OF IS 2095 (PART 1) : 1996 GYPSUM PLASTER BOARDS PART 1 PLAIN GYPSUM PLASTER BOARDS (Second Revision)",
+      "clause_id": "IS 2095 (Part 1):1996#3",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 147,
+      "page_end": 147,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "4",
+      "title": "General",
+      "text": "4. General— Gypsum plaster boards consist of a gypsum plaster core with or without fibre encased in and firmly bonded to strong durable paper liners to form rectangular boards. Core shall be dried across full width. The face and back papers shall be securely bonded to the core. The paper surfaces may vary according to the use of the particular type of board, and the  core may contain additive to impart additional properties. The longitudinal edges are paper covered and profiled to suit the application. The paper covered edges of gypsum wall boards are square, tapered, bevelled or rounded. The paper covered edges of gypsum baseboard are square or rounded. The ends of gypsum plaster board are square-cut.",
+      "clause_id": "IS 2095 (Part 1):1996#4",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 147,
+      "page_end": 147,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "5",
+      "title": "Requirements",
+      "text": "5. Requirements",
+      "clause_id": "IS 2095 (Part 1):1996#5",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 147,
+      "page_end": 147,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "5.1",
+      "title": "Dimensions",
+      "text": "5.1Dimensions — See Table 1. *Gypsum plaster boards : Part 1Plain gypsum plaster boards (second revision) +  Specification for by product gypsum for use in plaster block and board. TABLE  1  DIMENSIONS OF GYPSUM PLASTER  BOARDS Type of                             Width                                    Length Thickness Board mm mm mm (1) (2) (3) (4) Wallboard 600, 900 and 1 200              1 800 to 3 600 in steps of 100 mm         9.5, 12.5, 15, 19, 23 and 25 Baseboard 400 and 900 1 200, 1 500 and 1 800 9.5 and 12.5",
+      "clause_id": "IS 2095 (Part 1):1996#5.1",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "requirements",
+      "page_start": 147,
+      "page_end": 147,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "5.2",
+      "title": "Tolerance",
+      "text": "5.2 Tolerance —  Shall  be as given below— Type Tolerance in mm Width    Length  Thickness Gypsum Wallboard 0 0 ± 0.6 - 5 - 6 Gypsum Baseboard— a)  Non-Perforated 0 0 ± 0.6 - 8 - 6 b)  Perforated 0 0 ± 0.6 - 8 -16",
+      "clause_id": "IS 2095 (Part 1):1996#5.2",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 147,
+      "page_end": 147,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "5.3",
+      "title": "Breaking Load (Transverse Strength)",
+      "text": "5.3Breaking Load (Transverse Strength) — See Table 2. TABLE 2  BREAKING LOAD OF GYPSUM PLASTER BOARDS. Type of Board    Thickness   Breaking    Load, Min Transverse  Longitudinal Direction Direction mm                      N                  N (1)                             (2)                      (3)              (4) Plaster board 9.5                       140            360 12.5                       180            500 15.0 220           650 19.0 250           750 23.0 300           850 25.0 380        1,000 Base board                9.5 125           180 12.5                        165           235 Note — For methods  of tests, refer to IS 2542 (Part 2/Sec 1 to 8) : 1981 Methods of test for gypsum plaster, concrete and product: PART 2   Gypsum products (first revision). For detailed information, refer to IS 2095 (Part 1) : 1996 Specification for gypsum plaster boards: Part 1 Plain gypsum plaster boards (second revision).",
+      "clause_id": "IS 2095 (Part 1):1996#5.3",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 147,
+      "page_end": 148,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "5.4",
+      "title": "Water Absorption",
+      "text": "5.4 Water Absorption — Shall be subject to mutual agreement between purchaser and manufacturer.",
+      "clause_id": "IS 2095 (Part 1):1996#5.4",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 148,
+      "page_end": 148,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "5.5",
+      "title": "Mass of Plaster",
+      "text": "5.5 Mass of Plaster —   minimum quantity of mass of plaster per sq. m of board of 12 mm thickness shall not be less than 9.4 kg.",
+      "clause_id": "IS 2095 (Part 1):1996#5.5",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 148,
+      "page_end": 148,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 2095 (Part 1):1996",
+      "clause": "5.6",
+      "title": "Taper Profile",
+      "text": "5.6 Taper Profile — Taper width shall be 50 to 65 mm, and depth 0.8 to 2.0 mm.",
+      "clause_id": "IS 2095 (Part 1):1996#5.6",
+      "family": "IS 2095 (Part 1)",
+      "year": 1996,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 148,
+      "page_end": 148,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2095 (Part 1):1996",
+    "record_id": 29299,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      147,
+      148
+    ],
+    "n_clauses": 11,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5382:1985",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope — Requirements  for materials used for vulcanized solid rubber sealing rings for water supply and drainage systems, drain pipes, sewers and rainwater pipes, all at ambient temerature including gas connections. It covers joint rings for all pipeling materials including iron, steel, stonewares, asbestos-cement, concrete, pitch fibre, plastics and glass reinforced plastics. This standard does not cover dimensional and joint design requirements.",
+      "clause_id": "IS 5382:1985#1",
+      "family": "IS 5382",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 312,
+      "page_end": 312,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5382:1985",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types —  Six types, 1 to 6 corresponding to the respective nominal hardness of 40,50,60,70,80 and 88 IRHD.",
+      "clause_id": "IS 5382:1985#2",
+      "family": "IS 5382",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 312,
+      "page_end": 312,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5382:1985",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 5382:1985#3",
+      "family": "IS 5382",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 312,
+      "page_end": 312,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5382:1985",
+      "clause": "3.1",
+      "title": "Material",
+      "text": "3.1 Material — The rubber shall be free from extractable substances which impart taste, odour or toxicity to water. If the pipe is to convey drinking water. SUMMARY OF IS  5382 : 1985 RUBBER SEALIG RINGS FOR GAS MAINS, WATER MAINS AND SEWERS (First Revision)",
+      "clause_id": "IS 5382:1985#3.1",
+      "family": "IS 5382",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 312,
+      "page_end": 312,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5382:1985",
+      "clause": "3.2",
+      "title": "Finish",
+      "text": "3.2 Finish — The rings shall be homogeneous; free from porosity, grit, excessive blooms, blisters or other visible surface imperfections. The fin or flash shall be reduced as much as possible and in any case the thickness of it shall be reduced as much as possible and in any case the thickness of it shall not exceed 0.4 mm and the width 0.8 mm.",
+      "clause_id": "IS 5382:1985#3.2",
+      "family": "IS 5382",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 312,
+      "page_end": 312,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5382:1985",
+      "clause": "3.3",
+      "title": "Stretch Test",
+      "text": "3.3 Stretch Test — Stretch gaskets till the circumference is increased by 50 percent, then visually inspect for the following. The surface  of the gasket  shall be smooth, free from pitting, cracks, blisters, air marks and any other inperfection that may affect its behaviour in  service. The body of the gasket shall be free from porosity and air pockets.",
+      "clause_id": "IS 5382:1985#3.3",
+      "family": "IS 5382",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 312,
+      "page_end": 312,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5382:1985",
+      "clause": "3.4",
+      "title": "Physical Requirements",
+      "text": "3.4 Physical Requirements— See Tables 1 and 2 TABLE 1 GENERAL REQUIREMENTS SL. NO. CHARACTERISTICS REQUIREMENTS Type 1 Type 2 Type 3 Type 4 Type 5 Type 6 (1) (2) (3) (4) (5) (6) (7) (8) i) Hardness in IRHD 40 ± 5 50 ± 5 60 ± 5 70 ± 5 80 ± 4 88 ± 3 ii) Compression set, percent, Max for  24     h at 70 ± 1°C 25 25 25 25 25 25 - 2 for 72 +0 h at 70 ± 1°C 12 12 12 12 15 15 - 2 iii) Ageing, maximum change for unaged values after 7 days in air at 70oC a)  Hardness in IRHD -5 to+ 8 -5 to + 8 -5 to + 8 -5 to + 8 -5 to + 8 -5to + 8 b)  Tensile strength, percent 20 20 20 20 20 20 c) Elongation at break,  percent -30 to +10 -30 to +10 -30 to +10 -30 to +10 -30 to +10 -30 to +10 iv) Water immersion change in volume -0 to+ 8 - 0 to + 8 -0 to + 8 -0 to + 8 -0 to + 8 -0 to + 8 after immersion in neutral water for 7 days at 70oC v) Cold resistance, increase in hardness +5 +5 +5 +5 +5 +5 after 72 hours at 0oC, Max vi) Splice strength, elongation imposed, 100 100 100 100 100 100 percent, Max TABLE 2 TENSILE STRENGTH AND ELONGATION FOR DIFFERENT TYPES SL. NO. POLYMER USED REQUIREMENTS Type 1 Type 2 Type 3 Type 4 Type 5 Type 6 (1) (2) (3) (4) (5) (6) (7) (8) i) Natural rubber (NR) and Isoprene rubber (IR) a) Tensile strength, MPa, percent, Min 18 18 17 15 11 6 b) Elongation at  break, percent, Min 450 450 375 250 175 100 ii) Butadiene-styrene rubber (SBR) a)   Tensile strength, MPa, percent, Min 12 13 14 13 11 8 b)   Elongation at break, percent, Min 450 425 400 300 250 150 iii) Ethylene propyiene rubber (EPM) a)   Tensile strength, MPa, percent, Min 11 11 11 11 9 8 b)     Elogngation at break, percent Min. 450 400 325 200 125 100 Note — For methods of tests refer to the relevant parts of  IS 3400 Methods of test for vulcanised rubber and Appendices B and C of the standard. For detailed information, refer to  IS 5382 :1985  Specification for rubber sealing rings for gas mains, water mains and sewers (first revision).",
+      "clause_id": "IS 5382:1985#3.4",
+      "family": "IS 5382",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 312,
+      "page_end": 313,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5382:1985",
+      "clause": "3.5",
+      "title": "Water Absorption",
+      "text": "3.5Water Absorption — shall not absorb more than 10 percent.",
+      "clause_id": "IS 5382:1985#3.5",
+      "family": "IS 5382",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 313,
+      "page_end": 313,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5382:1985",
+      "clause": "3.6",
+      "title": "Optional Requirements",
+      "text": "3.6 Optional Requirements a) Low temperature Applications b) Streess relaxation in compressions",
+      "clause_id": "IS 5382:1985#3.6",
+      "family": "IS 5382",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 313,
+      "page_end": 313,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5382:1985",
+    "record_id": 25492,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      312,
+      313
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

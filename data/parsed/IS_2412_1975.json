@@ -1,0 +1,292 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2412:1975",
+      "clause": "1",
+      "title": "Scope – Requirements and",
+      "text": "1. Scope - Requirements and tests for link clips (both joint link clips and link clips with separate linking eyes) for general wiring purpose.",
+      "clause_id": "IS 2412:1975#1",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements",
+      "clause_id": "IS 2412:1975#2",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "2.1",
+      "title": "Material – Aluminium sheet",
+      "text": "2.1 Material - Aluminium sheet or strip in the annealed condition.",
+      "clause_id": "IS 2412:1975#2.1",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "2.2",
+      "title": "Construction – Shall be",
+      "text": "2.2 Construction - Shall be smooth, free from dents or burrs, and shall have corners rounded off smoothly.",
+      "clause_id": "IS 2412:1975#2.2",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "2.2.1",
+      "title": "One fixing hole for",
+      "text": "2.2.1  One fixing hole for sizes up to 40 mm and two for size over 40 mm. Size of hole 2.6 mm clear diameter and tolerance on hole +0.25,- 0 mm.",
+      "clause_id": "IS 2412:1975#2.2.1",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 3,
+      "parent_clause": "2.2",
+      "role": "other",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "2.3",
+      "title": "Finish – Shall be",
+      "text": "2.3 Finish - Shall be free from any mark of corrosion.",
+      "clause_id": "IS 2412:1975#2.3",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "requirements",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "3",
+      "title": "Dimensions (in mm)",
+      "text": "3. Dimensions (in mm)",
+      "clause_id": "IS 2412:1975#3",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "3.1",
+      "title": "Link Clip with Separate Eyes",
+      "text": "3.1 Link Clip with Separate Eyes Size (Length) 25 32 40 50 63 80 Thickness 0.32 0.32 0.32 0.40 0.40 0.40 Width 8 8 8 8 8 8 Note - Values of thickness are minimum values. Tolerance on other dimensions shall be ± 5 percent",
+      "clause_id": "IS 2412:1975#3.1",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "3.1.1",
+      "title": "Linking Eye – Size",
+      "text": "3.1.1  Linking Eye - Size 15 ×  6.5 mm and hole 10 × 2 mm.",
+      "clause_id": "IS 2412:1975#3.1.1",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 3,
+      "parent_clause": "3.1",
+      "role": "other",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "3.2",
+      "title": "Joint Link Clips",
+      "text": "3.2  Joint Link Clips Size (Length) 16 25 32 40 50 63 80 Thickness 0.32 0.32 0.32 0.32 0.4 0.4 0.4 Width 8 8 8 8 8 8 8 Distance of 5 10 10 12.5 12.5 20 25 fixing hole Spacing of — — — — 12.5 12.5 12.5 fixing hole Note 1 - For details, see Fig. 1 and 2 of the standard. Note 2 - Values of thickness are minium values. Tolerance on other dimensions shall be + 5 percent.",
+      "clause_id": "IS 2412:1975#3.2",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "4",
+      "title": "Tests",
+      "text": "4. Tests",
+      "clause_id": "IS 2412:1975#4",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "4.1",
+      "title": "Type Tests",
+      "text": "4.1 Type Tests",
+      "clause_id": "IS 2412:1975#4.1",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "test_methods",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "4.1.1",
+      "title": "General examination",
+      "text": "4.1.1 General examination",
+      "clause_id": "IS 2412:1975#4.1.1",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "other",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "4.1.2",
+      "title": "Dimensions",
+      "text": "4.1.2 Dimensions",
+      "clause_id": "IS 2412:1975#4.1.2",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "requirements",
+      "page_start": 899,
+      "page_end": 899,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2412:1975",
+      "clause": "4.1.3",
+      "title": "Flexibility – Clips shall",
+      "text": "4.1.3 Flexibility - Clips shall be wound round a mandrel 5 mm dia, and fixed with linking eye. It shall then be opened out, flattened by hand and again wound and fixed. At the end of 5 such operations, clip shall retain its flexibility and shall be fit for use. For detailed  information, Refer to  IS  2412 : 1975 Specification for link clips for electrical wiring (first revision). 1.   Scope - Material, dimensions and other requirements of screwed type fittings for use with rigid steel conduits for electrical wiring purposes conforming to IS 9537 (Part 2) : 1981* 1.2 The fittings covered by this standard are - (a) couplers, (b) elbows, (c) tees, (d) bends, and (e) boxes. Note - Screw reducers which are generally tailor-made items are not covered by this standard. 2. Requirements 2.1 Material - Shall be made of steel, cast iron or malleable cast iron. 2.2 Fittings shall be fabricated or cast to shape.  The interior and the ends of fittings shall be free from burrs, dents, fins sharp edges or  projection and the like which may cause damage to the cables. 2.3 Screwed  couples shall be screwed inside throughout their entire length. 2.4     Elbow - The axis of any elbow shall be a quadrant of a circle plus a straight portion at each end (tangential to the arc at the end). 2.5 Bend 2.5.1 Normal bend - Shall be large sweep bend giving a diversion of 90º (degrees) in turn of the conduit. 2.5.2 Half-normal bend - Shall be  similar to normal bend except that the diversion in the run of conduit shall be 450 (degrees). 2.6 Circular Boxes - Small cicular boxes shall be provided with two lugs of thickness not less than 2.8 mm for fixing the covers. Large circular boxes shall have four lugs of thickness not less than 4 mm for fixing the covers. 2.7 Rectangular Boxes - Those used in conjuction with 16 and 20 mm conduits are recognised  as standard and shall  be provided with two lugs of thickness not less than 2.8 mm. SUMMAY OF IS 2667 : 1988 FITTINGS FOR RIGID STEEL CONDUITS FOR ELECTRICAL WIRING (First Revision) 2.8 Covers for Boxes - Shall be steel, malleable cast iron or other suitable material.Thickness shall not be less than 1,2 mm for steel covers; and not less than minimum thickness of box for malleable cast iron. 2.9 Protection Against Corrosion - Shall be treated both outside and inside excluding machined surfaces and screw threads. Each fitting shall be  supplied with a medium or heavy protective coating as agreed. Example of protection are: a)  Medium Protection - Stove enamelling, Air drying paint and  electrolytic deposits. b)  Heavy protection - Hot -dip galvanized coating 2.10 Screw Threads - ISO metric threads. 3. Dimensions - The nominal sizes of outlets of the fittings shall correspond to the  nominal outside diameter of the conduits covered by IS  9537 (Part 2) : 1981 3.1 For all cast fittings (other than boxes), the minimum thickness of the machined part measured at the root of the thread shall be as follows : Thickness mm For sizes equal to 16, 20, and 25 mm dia 1.5 For sizes equal to 32, 40, and 50 mm dia 2.5 For sizes equal to 63 mm dia 3.0 3.2 All dimensions except those for which tolerance are specifically stated herein or which are definitely stated as being maximum or minimum, shall be taken as nominal dimensions and subject to a tolerance of ±5 percent. 3.3 Couplers - Sizes (Min) Nominal 16, 20, 25, 32, 40,50 and 63. 3.4 Elbows - Nominal Size in mm 16, 20, 25, 32, 40, 50 and 63 3.5 Normal Bends and Half Normal Bends - Nominal size in mm16, 20, 25, 32, 40, 50 and 63. *Conduits for electrical installations, Part 2.Rigid steel coduits. Note - For method of tests refer to 4 and Appendix C of the standard and IS  9537 (Part 2) : 1981  Condiuts for  electrical in stallations Part 2 Rigid steel conduits. For detailed  information,  refer to  IS 2667 : 1988  Specification for fitting for rigid  steel conduits for  electrical wiring (second revision). 3.6 Tees -  Nominal Size in mm 16, 20, 25, 32, 40, 50 and 63. 3.7 Circular Boxes -  Size of conduits a) Small circular - 16, 20, 25mm b) Large circular boxes - 20, 25, 32mm 3.8 RectangularBoxes - Preferred internal dimensions: Height Length Breadth 37.5 75 75 100 75 100 100 150 75 150 100 150 150 50.0 75 75 100 75 100 100 150 75 150 100 150 150 75.0 100 100 150 75 150 100 150 150 100.0 100 100 150 150 150.0 100 100 3.9 Circular Looping Boxes - Nominal size16 and 20 mm. Note - For detailed dimensions refer to Tables1 to 7 of the standard. 4. Tests a) Tests for visual examination, b) Dimensional check, c) Test for protective coatings, and d) Test for resistance to impact.",
+      "clause_id": "IS 2412:1975#4.1.3",
+      "family": "IS 2412",
+      "year": 1975,
+      "level": 3,
+      "parent_clause": "4.1",
+      "role": "requirements",
+      "page_start": 899,
+      "page_end": 901,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2412:1975",
+    "record_id": 8930,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      899,
+      901
+    ],
+    "n_clauses": 15,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

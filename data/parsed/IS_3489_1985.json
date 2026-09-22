@@ -1,0 +1,58 @@
+{
+  "clauses": [
+    {
+      "is": "IS 3489:1985",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope—Requirements for material, construction and workmanship, patterns, dimensions, tolerances and maintenance for vitreous enamelled steel bath tubs.",
+      "clause_id": "IS 3489:1985#1",
+      "family": "IS 3489",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 277,
+      "page_end": 277,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 3489:1985",
+      "clause": "2",
+      "title": "Pattens",
+      "text": "2. Pattens— See Fig 1 and Fig. 2. Fig. 1 Bath Tub - Pattern 1 Fig. 2 Bath Tub - Pattern 2 Size1 Size 2 Size 3 Length overall, A 1525 1700 1850 1700 Width overall, B 700 700 700 730 Depth inside (at waste hole), C 440 440 440 430 Roll (at sides), D (see Note) 60-80 60-80 60-80 60-80 Roll (at tap end), E 60-80 60-80 60-80 60-80 Roll (at tap end), F 75-100 75-100 75-100 75-100 Distance of tap holes, centre to centre,G 180 Min 180 Min 180 Min 180 Min Height Overall, H with 35 mm Min seal trap 580 580 580 570 with 70 mm Min seal trap 620 620 620 610 Wast hole - horizontal distance 250 Min 250 Min 250 Min 250 Min from outside edge of roll at tap end to centre of waste hole, J Overflow centre- vertical 90-105 90-105 90-105 90-105 distance below top edge, K Note— In case of bath tubs pressed from one sheet the dimension may be increased to 100 mm maximum, whilst the slope of the sides and ends will be steeper than that shown in Fig. and 2. TABLE 1 DIMENSIONS OF BATH TUBS Particulars Dimension of Tubs Pattern 1 Pattern 2 Note:  For method of tests refer to the standard. For detailed information, refer to IS 3489 : 1985 Specification for enamelled steel bath tubs (first revision). 5. Tolerances 5.1 Overall width and length ± 1 percent. 5.2 For other values specified in Table 1, ± 4 percent 6. Surface Coating 6.1 Finish - Gloss, colour and opacity shall be uniform and visually satisfactory. 6.2 Chemical resistance— a) Alkali resistance test—There shall be no loss in weight after the  prescribed test b) Acid resistance test— There shall be no loss in weight after the prescribed test. 6.3 Defects — shall be liable to rejection if the finish shows any of the following defects: a)    Crazin~g b)    Dimples, rundown, sagging c)    Blisters d)    Pinholes e)    Specks 6.4 Thickness of Enamel— shall be between 0.2 mm to 0.5 mm. 6.5 Warpage— Shall not exceed 5 mm/m for edges set against wall or  floor and shall not exceed 1.5 mm/m for other  edges.",
+      "clause_id": "IS 3489:1985#2",
+      "family": "IS 3489",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 277,
+      "page_end": 279,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 3489:1985",
+    "record_id": 19246,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      277,
+      279
+    ],
+    "n_clauses": 2,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.933,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "is": "IS 14276:1995",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1.  Scope - Requirements of cement bonded wood particle boards.This standard does not cover particle boards bonded with synthetic resin adhesives.",
+      "clause_id": "IS 14276:1995#1",
+      "family": "IS 14276",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 587,
+      "page_end": 587,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14276:1995",
+      "clause": "2",
+      "title": "Materials – Species of",
+      "text": "2. Materials - Species of wood which do not hinder the process of setting of cement shall be used. Suitable additives such as sodium silicate conforming to IS  381 : 1995* and aluminium sulphate conforming to IS 260 : 1969  +shall be used to prevent inhibitive effect of setting of cement when other species are used. Cement conforming to IS   8112 : 1989++   shall be used.",
+      "clause_id": "IS 14276:1995#2",
+      "family": "IS 14276",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 587,
+      "page_end": 587,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14276:1995",
+      "clause": "3",
+      "title": "Finish",
+      "text": "3. Finish The particle boards shall be of uniform thickness and density throughout the length and width of the boards. All particle boards.  shall be flat and smooth.",
+      "clause_id": "IS 14276:1995#3",
+      "family": "IS 14276",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 587,
+      "page_end": 587,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14276:1995",
+      "clause": "4",
+      "title": "Dimensions and Tolerances –",
+      "text": "4. Dimensions and Tolerances - The sizes of cement bonded particle boards shall be as follows : Length 3050 mm and 2440 mm Width 1220 mm Thickness—The thickness of cement bonded particle boards shall be as given below 6, 8, 10, 12, 16, 20, 25, 30 and 40 mm. Tolerances - The following tolerances for the dimensions shall be permitted: Length ± 5 mm Width ± 5 mm Thickness i) Unsanded boards 6 mm to 12 mm ± 1 mm 12 mm to 20 mm ± 1.5 mm 20 mm and more ±  2 mm ii) Sanded boards For all thickness ) ± 0.3 mm Edge straightness 2  mm per1000  mm Squareness 2 mm per1000  mm",
+      "clause_id": "IS 14276:1995#4",
+      "family": "IS 14276",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 587,
+      "page_end": 587,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 14276:1995",
+      "clause": "5",
+      "title": "Physical characteristics",
+      "text": "5. Physical characteristics  : See Table 1 TABLE1REQUIREMENT OF PHYSICAL AND MECHANICAL PROPERTIES FOR CEMENT BONDED PARTICLE BOARDS SL. NO PROPERTY REQUIREMENT i) Density  Min  kg/ m3 1250 ii) Moisture content,percent 6 to12 iii) Water absorption,  Max , percent 2 h Soaking 13 24 h  Soaking 25 iv) Swelling in Water Max, percent (after 2 h soaking) a)   Thickness 2.0 b)   Length 0.5 c)   Width 0.5 v) Modulus of rupture,  Min, N/mm2 Dry condition 9 Wet condition 5.5 vi) Modulus of elasticity,  Min, N/mm2 3 000 vii) Tensile strength Prpendicular to surface,  Min, N/mm2 a)  Dry 0.4 b)  Accelerated ageing 0.25 viii) Screw withdrawal strength,  Min, N Face 1250 Edge 850 ix) pH 11to13 +    Aluminium sulphate, non-ferric (first revision) *    Sodium silicate (second  revision). ++   43 Grade ordinary portland cement (first revision). For detailed information, refer to IS 14276 : 1995 Specification for cement bonded particle board.",
+      "clause_id": "IS 14276:1995#5",
+      "family": "IS 14276",
+      "year": 1995,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 587,
+      "page_end": 587,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 14276:1995",
+    "record_id": 25229,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      587,
+      587
+    ],
+    "n_clauses": 5,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

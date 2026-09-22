@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9394:1979",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirement for dimensions, physical properties, and workmanship of lintels made out of natural stone.",
+      "clause_id": "IS 9394:1979#1",
+      "family": "IS 9394",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 121,
+      "page_end": 121,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9394:1979",
+      "clause": "2",
+      "title": "General Requirements",
+      "text": "2. General Requirements  — The stone for  lintels shall be reasonably fine grained, hard and shall have a uniform texture and colour. They shall be free from weathering and decay. The stone shall be without any cracks, vents, fissures, clayholes or other similar source of weakness. The lintel shall be so cut that when set in the building, the stone is laid on its natural bed or with the bed in the same direction as it was when the test for transverse strength was carried out.",
+      "clause_id": "IS 9394:1979#2",
+      "family": "IS 9394",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 121,
+      "page_end": 121,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9394:1979",
+      "clause": "3",
+      "title": "Physical Properties",
+      "text": "3. Physical Properties — See Table 1. TABLE 1 PHYSICAL PROPERTIES OF THE STONE USED FOR LINTELS Sl.No      Characteristics              Requirements (1) (2)                           (3) i) Specific gravity                             2.6 Min ii) Water absorption, percent           1.0 Max iii) Transverse strength, N/mm2      11.0 Min iv) Durability                                    Shall not develop spalling or cracks",
+      "clause_id": "IS 9394:1979#3",
+      "family": "IS 9394",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 121,
+      "page_end": 121,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9394:1979",
+      "clause": "4",
+      "title": "Dimensions and Tolerance",
+      "text": "4. Dimensions and Tolerance",
+      "clause_id": "IS 9394:1979#4",
+      "family": "IS 9394",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 121,
+      "page_end": 121,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9394:1979",
+      "clause": "4.1",
+      "title": "Stone Lintels",
+      "text": "4.1 Stone Lintels—Shall be of rectangular crosssection. The width shall be equal to the thickness of the wall and the depth shall not be less than 100 mm. The length shall be limited to a maximum clear span of 2.65 m. A tolerance of ±1.5 mm shall be allowed on all dimensions of 1.2 m. or less and ± 3 mm on all dimension more than 1.2 m.",
+      "clause_id": "IS 9394:1979#4.1",
+      "family": "IS 9394",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 121,
+      "page_end": 121,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9394:1979",
+      "clause": "4.2",
+      "title": "Throating",
+      "text": "4.2 Throating — A 16mm × 8 mm throating shall be provided to the soffit of the external lintel.",
+      "clause_id": "IS 9394:1979#4.2",
+      "family": "IS 9394",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 121,
+      "page_end": 121,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9394:1979",
+      "clause": "4.3",
+      "title": "Lintel Bearing",
+      "text": "4.3 Lintel Bearing — Stone lintels shall be well bonded into the masonry on either side of the opening. The bearing length on either side shall not be less than the depth of the lintel or half the width of the supporting masonry whichever is more. The bearing length shall be increased for exceptionally heavy loads and for long spans. Bed blocks shall be provided if the clear span exceeds 2 m.",
+      "clause_id": "IS 9394:1979#4.3",
+      "family": "IS 9394",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 121,
+      "page_end": 121,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9394:1979",
+      "clause": "5",
+      "title": "Workmanship",
+      "text": "5. Workmanship — The edges of the stone lintels shall be dressed as per IS 1129:1972*. The exposed surface of the lintel shall be finished as specified. Note — For design details of stone lintels, 5 of the standard may be refered to. Note — For methods of tests, refer to IS 1121(Part 2):1972 Methods of test for determination of strength  properties of natural building stones :Part 2 Transverse strength (first revision),  IS 1124:1974  Method of test for determination of water absorption, apparent specific gravity and porosity  of  natural building stones (first revision) and IS 1126:1974 Method of test for determination of durability of natural building stones (first revision). For detailed information, refer to IS 9394:1979 Specification for stone lintels. SUMMARY OF IS 9394 : 1979 STONE LINTELS *Recommendation for dressing of natural building stones (first revision).",
+      "clause_id": "IS 9394:1979#5",
+      "family": "IS 9394",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 121,
+      "page_end": 121,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9394:1979",
+    "record_id": 16741,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      121,
+      121
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

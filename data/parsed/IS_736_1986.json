@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 736:1986",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements  for  wrought aluminium  and aluminium alloy plates for  general engineering  purpose.",
+      "clause_id": "IS 736:1986#1",
+      "family": "IS 736",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 696,
+      "page_end": 696,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 736:1986",
+      "clause": "2",
+      "title": "Freedom from Defects –",
+      "text": "2. Freedom from Defects - The material  shall be sound and free from harmful  defects.",
+      "clause_id": "IS 736:1986#2",
+      "family": "IS 736",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 696,
+      "page_end": 696,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 736:1986",
+      "clause": "3",
+      "title": "Dimensions and Tolerances –",
+      "text": "3. Dimensions and Tolerances -   Shall be as specified in IS   2677 : 1979.*",
+      "clause_id": "IS 736:1986#3",
+      "family": "IS 736",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 696,
+      "page_end": 696,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 736:1986",
+      "clause": "4",
+      "title": "Designation and Typical Uses of Alloys",
+      "text": "4. Designation and Typical Uses of Alloys Designation Typical uses 19800 Jewellery, decorative and novelty anodized items, auto trim, reflectors, breweries and some chemical plants. 19700 Similar to 19800 19600 Corrosion resistant cladding on stronger alloys, impact extruded containters; food, chemical brewing and processing equipment, tanks and pipes, marine fitting, reflectors, pressed and anodized utilityitems, jewellery and cable sheathing 19500 Similar to 19600 19000 Panelling and moulding; refrigeration tubing equipment for chemical, food and brewing industries; packaging; cooking utensils. Sheet metal work, architectural and builder's hardware spun/pressed holloware, deep drawn parts, cladding, welding wire, electrical appliances. 24345 Heavy duty forgings, structures where high mechanical properties are of utmost importance,aircraft application of clad sheets, extrusions and armaments. 31000 General purpose alloy for moderate strength applications, pressure SUMMARY OF IS 736 : 1986  WROUGHT ALUMINIUM AND ALUMINIUM ALLOY PLATE FOR GENERAL ENGINEERING PURPOSES (Third Revision) Designation Typical uses vessels, irrigation tubing, heat exchangers, utensils and pressure cookers, roffing sheets, airconditioning ducting, fan blades and vehicle panelling. 51000-A Appliances and utensils, architectural trims, consumers durable with attractive anodized finishes. 51000-B Architectural applications; high anodizing quality kitchen ware and cooking utensils, consumer durables; bathroom fittings, auto-trim, airconditioner and TV housing; chemical equipment, marine applications and refrigerator trim. 52000 Panelling and structures, sheet metal work, domestic appliances. 53000 Welded structures, cryogenic applications, structural marine applications, rail and road tank cars, rivets and missile components. 54300 Similar to 53000 55000 Shipbuilding and other applications demanding moderately high strength with good corrosion resistance; rivets, zippers, welding wire, etc. 64430 Structural applications of all kinds, such as, road and rail transport vehicles, bridges, cranes, roof trusses, rivets, etc., cargo  containers, milk containers, deep drawn containers and flooring. 65032 Similar to 64430 74530 Stressed structural applications requiring welding such as bridges, chequered plates, dump-truck bodies, pressure vessels, rail coaches, etc. Note - For chemical composition and mechanical properties, see 5 (Table 1) and 6 (Table 2) of the standard. For detailed information, refer to IS  736 : 1989  Specifications for wrought aluminium and aluminium alloys, plate for general engineering purposes  (third revision). * Dimensions for wrought aluminium and aluminium alloys, plates and hot rolled sheets (first revision).",
+      "clause_id": "IS 736:1986#4",
+      "family": "IS 736",
+      "year": 1986,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 696,
+      "page_end": 696,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 736:1986",
+    "record_id": 14294,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      696,
+      696
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

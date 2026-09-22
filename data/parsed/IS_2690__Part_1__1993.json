@@ -1,0 +1,202 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2690 (Part 1):1993",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —  Requirements for  machine-made burnt clay flat terracing tiles.",
+      "clause_id": "IS 2690 (Part 1):1993#1",
+      "family": "IS 2690 (Part 1)",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 139,
+      "page_end": 139,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2690 (Part 1):1993",
+      "clause": "2",
+      "title": "General Quality",
+      "text": "2. General Quality — Shall be uniform in shape and sizes and shall be free from irregularities, such as twists, bends, cracks and particles of stones.",
+      "clause_id": "IS 2690 (Part 1):1993#2",
+      "family": "IS 2690 (Part 1)",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 139,
+      "page_end": 139,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2690 (Part 1):1993",
+      "clause": "3",
+      "title": "Dimensions and Toleranes",
+      "text": "3. Dimensions and Toleranes",
+      "clause_id": "IS 2690 (Part 1):1993#3",
+      "family": "IS 2690 (Part 1)",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 139,
+      "page_end": 139,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2690 (Part 1):1993",
+      "clause": "3.1",
+      "title": "Length",
+      "text": "3.1 Length  —  250 to 150 mm in stages of 25 mm.",
+      "clause_id": "IS 2690 (Part 1):1993#3.1",
+      "family": "IS 2690 (Part 1)",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 139,
+      "page_end": 139,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2690 (Part 1):1993",
+      "clause": "3.2",
+      "title": "Width",
+      "text": "3.2 Width —     200 to 100 mm in stages of 25 mm.",
+      "clause_id": "IS 2690 (Part 1):1993#3.2",
+      "family": "IS 2690 (Part 1)",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 139,
+      "page_end": 139,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2690 (Part 1):1993",
+      "clause": "3.3",
+      "title": "Thickness",
+      "text": "3.3 Thickness —20 and 15 mm.",
+      "clause_id": "IS 2690 (Part 1):1993#3.3",
+      "family": "IS 2690 (Part 1)",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 139,
+      "page_end": 139,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2690 (Part 1):1993",
+      "clause": "3.4",
+      "title": "Tolerances",
+      "text": "3.4 Tolerances —  ± 2 percent on all dimensions in case of machine pressed tiles and ± 3 percent in case of machine exturded tiles.",
+      "clause_id": "IS 2690 (Part 1):1993#3.4",
+      "family": "IS 2690 (Part 1)",
+      "year": 1993,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 139,
+      "page_end": 139,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2690 (Part 1):1993",
+      "clause": "4",
+      "title": "Warpage",
+      "text": "4. Warpage — Shall not exceed 1 percent in any direction.",
+      "clause_id": "IS 2690 (Part 1):1993#4",
+      "family": "IS 2690 (Part 1)",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 139,
+      "page_end": 139,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2690 (Part 1):1993",
+      "clause": "5",
+      "title": "Water Absorption",
+      "text": "5. Water Absorption — Average of 6 tiles shall not exceed 15 percent.",
+      "clause_id": "IS 2690 (Part 1):1993#5",
+      "family": "IS 2690 (Part 1)",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 139,
+      "page_end": 139,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 2690 (Part 1):1993",
+      "clause": "6",
+      "title": "Flexural Strength",
+      "text": "6. Flexural Strength — Shall not be less than 2N/mm2. Note — For methods of tests, refer to Appendices A and B of the standard. For detailed information, refer to IS 2690 (Part 1):1993 Specification for burnt clay flat terracing tiles: Part 1 Machine-made (second revision). SUMMARY OF IS  2690 (PART 1) : 1993 BURNT CLAY-FLAT TERRACING TILES PART 1 MACHINE-MADE (Second Revision)",
+      "clause_id": "IS 2690 (Part 1):1993#6",
+      "family": "IS 2690 (Part 1)",
+      "year": 1993,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 139,
+      "page_end": 139,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2690 (Part 1):1993",
+    "record_id": 9201,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      139,
+      139
+    ],
+    "n_clauses": 10,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

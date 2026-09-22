@@ -1,0 +1,346 @@
+{
+  "clauses": [
+    {
+      "is": "IS 513:1994",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope - Requirements of cold rolled low carbon steel sheets and strips for bending and drawing purpose and where the surface is of prime importance. It covers sheets and strips up to 4 mm  thick both in coil form and cut lengths.",
+      "clause_id": "IS 513:1994#1",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 677,
+      "page_end": 677,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "2",
+      "title": "Classification of Grades –",
+      "text": "2. Classification of Grades -  Sheets and strips shall be classified in the following grades - O -  Ordinary quality D - Drawing quality DD - Deep drawing quality, and EDD - Extra deep drawing quality",
+      "clause_id": "IS 513:1994#2",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 677,
+      "page_end": 677,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "3",
+      "title": "Chemical Composition",
+      "text": "3. Chemical Composition",
+      "clause_id": "IS 513:1994#3",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 677,
+      "page_end": 677,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "3.1",
+      "title": "Ladle Analysis",
+      "text": "3.1 Ladle Analysis  -  The ladle analysis of steel, shall be as given in Table 1.",
+      "clause_id": "IS 513:1994#3.1",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 677,
+      "page_end": 677,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "3.2",
+      "title": "Product Analysis – Permissible",
+      "text": "3.2 Product Analysis -  Permissible variation in the case of product analysis from the limits specified in Table 1 shall be as given in Table 2. TABLE 1 CHEMICAL COMPOSITION Grade                    Constituent, percent, Max Carbon    Manganese    Sulphur Phosphorus (1) (2) (3) (4) (5) Ordinary (O) 0.15 0.60 0.055 0.055 Drawing  (D) 0.12 0.50 0.040 0.040 Deep drawing (DD) 0.10 0.45 0.035 0.035 Extra deep 0.08 0.40 0.030 0.030 drawing (EDD) TABLE 2   PERMISSIBLE VARIATION FOR PRODUCT ANALYSIS Constituent            Variation Over Specified Limit, Percent,Max Carbon 0.02 Manganese 0.03 Sulphur 0.005 Phosphorus 0.005 Note  — Product analysis shall not be applicable  to rimming steel.",
+      "clause_id": "IS 513:1994#3.2",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 677,
+      "page_end": 677,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "4",
+      "title": "Mechanical and Physical Properties",
+      "text": "4. Mechanical and Physical Properties",
+      "clause_id": "IS 513:1994#4",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 677,
+      "page_end": 677,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "4.1",
+      "title": "Tensile Test – Mechanical",
+      "text": "4.1 Tensile Test -  Mechanical  properties  at room temperature in  as delivered condition for annealed / skin passed sheets and strips ( cut lengths  and  coils) shall be as follows - Grade       Tensile       Yield     Elongation    Hardness strength     Stress   Percent          (Max) MPa Max ,    on Gauge Max    Length             HRB   HR 80 mm and (30T) Width 20 mm, Min O -- -- -- See 4.3 D 270-410    280 28 65        60 DD 270-370    250 32 57       55 EDD 270-350    220              36 50       50",
+      "clause_id": "IS 513:1994#4.1",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 677,
+      "page_end": 677,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "4.2",
+      "title": "Cupping Test – It",
+      "text": "4.2 Cupping Test - It shall be applicable only for sheets, strips and   coils of  D,DD  and EDD grades having thickness from  0.5 mm upto 2.00 mm. See Fig.1 of the standard.",
+      "clause_id": "IS 513:1994#4.2",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 677,
+      "page_end": 677,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "4.3",
+      "title": "Hardness Test – Hardness",
+      "text": "4.3 Hardness Test -  Hardness of different tempers at room temperature for ' O' grade shall be as fallows—: Temper Hardness HRB. Min. Max. Hard (H) 85 -- Half Hard ( ½H) 75 85 Quater Hard (¼H) 60 75 Skin Passed (SP) -- 70 Annealed     (A) -- 60",
+      "clause_id": "IS 513:1994#4.3",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 677,
+      "page_end": 677,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "4.4",
+      "title": "Bend Test – The",
+      "text": "4.4 Bend Test -  The angle of bend  and internal diameter of bend for different grades of  material shall be as follows : Note -  For  dimensional  tolerances applicable  to cold  rolled sheets and strips  See Tables 6 to 16 of  the standard. Note 1 — For supply conditions including surface finish refer to the standard. Note 2 - For test procedures, refer to IS 1501 (Part) - 1984 Method for Vickers Hardness test for metallic materials : Part 1 HV 5 to HV 100 (second revision), IS 1586 :  2000 Method of Rockwell Hardness test for metallic materials (A-B-C-D-E-G-H-K 15 N, 30 N, 45N. 15 T, 30 T, 45 T) (third revision). IS 1599 : 1985 Method of bend test (second revision), IS 1608 : 1995 Mechanical testing of metals - Tensile testing (second revision) ; and IS 10175 (Part 1) : 1993  Mechanical testing of metals - Modified erichsen cupping test - Sheet and strip :  Part 1  Thickness upto 2 mm (first revision). For detailed  information, refer to   IS  513 :1994  Specification for cold rolled low carbon steel sheets and strips (fourth revision).",
+      "clause_id": "IS 513:1994#4.4",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 677,
+      "page_end": 678,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "4.4.1",
+      "title": "For",
+      "text": "4.4.1 For   sheets / strips in cut lengths and coils in Annealed and Skin Pass  condition : Steel Grade Angle of Internal Bend of  Bend Diameter O 180º t D 180º Close DD 180º Close EDD 180º Close",
+      "clause_id": "IS 513:1994#4.4.1",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 3,
+      "parent_clause": "4.4",
+      "role": "other",
+      "page_start": 678,
+      "page_end": 678,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "4.4.2",
+      "title": "For",
+      "text": "4.4.2  For  Sheets / Strips of ' O' grade Temper Angle  of Bend Internal Diameter of  Bend H -- -- ½H 180º 3t ¼H 180º 2t SP 1800 t A 1800 t Note -  t   is   thickness  of  test piece.",
+      "clause_id": "IS 513:1994#4.4.2",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 3,
+      "parent_clause": "4.4",
+      "role": "other",
+      "page_start": 678,
+      "page_end": 678,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "4.4.3",
+      "title": "The test",
+      "text": "4.4.3 The test  pieces shall be  deemed to have passed the test if the outer convex surface is free from   cracks.",
+      "clause_id": "IS 513:1994#4.4.3",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 3,
+      "parent_clause": "4.4",
+      "role": "other",
+      "page_start": 678,
+      "page_end": 678,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "5",
+      "title": "Freedom",
+      "text": "5.   Freedom  from  Defects - The finished sheets and strips shall be  free from  harmful defects, such as scale rust, blisters lamination, pitting, porosity, cracked or torn edges  any   other defects which are  harmful to the intended use.",
+      "clause_id": "IS 513:1994#5",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 678,
+      "page_end": 678,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "6",
+      "title": "Dimensions",
+      "text": "6. Dimensions",
+      "clause_id": "IS 513:1994#6",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 678,
+      "page_end": 678,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "6.1",
+      "title": "Thickness",
+      "text": "6.1 Thickness  - Dimensions of cold rolled sheets and strips shall be as given  below - Thickness, mm 0.18, 0.20,0.22,0.25,0.28 0.30, 0.32, 0.35, 0.40, 0.45, 0.50 0.55, 0.63, 0.80, 0.90, 1.00, 1.20, 1.25, 1.40, 1.50, 1.60, 1.80, 2.00, mm",
+      "clause_id": "IS 513:1994#6.1",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 678,
+      "page_end": 678,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 513:1994",
+      "clause": "6.1.1",
+      "title": "The following are the preferred",
+      "text": "6.1.1 The following are the preferred  thickness for sheets above 2.00 mm, 2.50 mm, 2.65 mm, 3.00 mm, 3.25 mm, 3.50 mm and 4.00 mm",
+      "clause_id": "IS 513:1994#6.1.1",
+      "family": "IS 513",
+      "year": 1994,
+      "level": 3,
+      "parent_clause": "6.1",
+      "role": "other",
+      "page_start": 678,
+      "page_end": 678,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current",
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 513:1994",
+    "record_id": 25272,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      677,
+      678
+    ],
+    "n_clauses": 17,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current",
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

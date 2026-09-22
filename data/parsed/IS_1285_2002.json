@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1285:2002",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope - Requirements of extruded round tube and hollow sections made from  wrought  aluminium and aluminium alloys for general engineering purposes.",
+      "clause_id": "IS 1285:2002#1",
+      "family": "IS 1285",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 703,
+      "page_end": 703,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1285:2002",
+      "clause": "2",
+      "title": "Freedom from Defects –",
+      "text": "2. Freedom from Defects - The extruded round tube and hollow sections shall be sound and free from harmful defects.",
+      "clause_id": "IS 1285:2002#2",
+      "family": "IS 1285",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 703,
+      "page_end": 703,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1285:2002",
+      "clause": "3",
+      "title": "Dimensions and Tolerances –",
+      "text": "3. Dimensions and Tolerances -  The dimensions of extruded round tube and hollow sections and the tolerance shall be as laid down in IS 2673 : 2002* and IS 6477 : 1983 ** respectively.",
+      "clause_id": "IS 1285:2002#3",
+      "family": "IS 1285",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 703,
+      "page_end": 703,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1285:2002",
+      "clause": "4",
+      "title": "Designation and Typical uses",
+      "text": "4. Designation and Typical uses of Alloys - Designation Typical use 19000 Panelling and moulding, equipment for food, chemical and brewing industries, architectural and builders hardwares, fasteners, welding wires and electrical guide tubes. 19500 Food, chemical, brewing and processing equipment, marine fittings, pressed and anodized utility items, heat exchanger tubes, condenser tubes, gas and oil transmission pipeline. 24345 Stressed parts in aircrafts and other structures where high strength is of primary  consdieration, hydraulic tubes air-conditioning ducting fan blades and vehicle panelling. 31000 General purpose alloy for moderate strength applications for chemical equipment, irrigation tubing, heat exchangers furniture, condenser, air- Designation Typical use conditioning, utensils, detonator caps, pressure vessles, fan blades and vehicle panelling. 52000 Panelling and structures, hydraulic tube appliances, refrigeration tubing condenser and heat exchanger tubes, gas and oil transmissino pipelines. 53000 Ship building; rivets; pressure vessels and other processing tanks; cryogenics, and welded structures. 54300 Welded structures, cryogenic applications, structural marine applications, rail and road tank cars, rivets and missile components. 62400 Further where appearance and bending characteristics are important, such as furniture applications. 63400 Architectural uses and other similar applications where surface finish is important and medium strength would suffice. Electrical conduits, tubes for wave guides, gas and oil transmission pipelines. 64423 Applications requiring good strength and machinability such as textile machinery components. 64430 Structural applications of all kinds, such as road and rail transport vehicles, bridges, cranes, roof trusses, rivets, etc. Cargo containers, milk containers, deep drawn containers and flooring. 65032 Similar to 64430 74530 Stressed structural applications requiring welding, such as bridges, chequered plates, dump-truck bodies, pressure vessels and rail coaches. Note— For chemical composition and mechanical properties, see 5 (Table 1 and 2) of the standard. For detailed information, refer to IS 1285 : 2002  Specifications for wrought aluminium and aluminium alloy extruded round tube and hollow sections for general engineering purposes (third revision). *  Dimension for wrought aluminium and aluminium alloys, extruded round tube (first revision) ** Dimensions for wrought aluminium and aluminium alloys, extruded hollow sections (first revision)",
+      "clause_id": "IS 1285:2002#4",
+      "family": "IS 1285",
+      "year": 2002,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 703,
+      "page_end": 703,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1285:2002",
+    "record_id": 4308,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      703,
+      703
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.981,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

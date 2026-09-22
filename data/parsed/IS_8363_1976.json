@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8363:1976",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1.   Scope - Requirements of solid bare wire electrodes for electroslag welding of carbon and low alloy steels. Note. - This standard is intended to serve as a guide for the manufacturer and selection of bare wire electrodes for electroslag welding of carbon manganese and low alloy steels.",
+      "clause_id": "IS 8363:1976#1",
+      "family": "IS 8363",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 755,
+      "page_end": 755,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 8363:1976",
+      "clause": "2",
+      "title": "Dimensions and Tolerances",
+      "text": "2. Dimensions and Tolerances",
+      "clause_id": "IS 8363:1976#2",
+      "family": "IS 8363",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 755,
+      "page_end": 755,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 8363:1976",
+      "clause": "2.1",
+      "title": "The diameters of wires",
+      "text": "2.1 The diameters of wires shall be 2.0,  3.15, 4.0, 5.0 and 6.3 mm.",
+      "clause_id": "IS 8363:1976#2.1",
+      "family": "IS 8363",
+      "year": 1976,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 755,
+      "page_end": 755,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 8363:1976",
+      "clause": "2.2",
+      "title": "Tolerance on dia on",
+      "text": "2.2 Tolerance on dia on wire shall be 0 05 .0 + − mm",
+      "clause_id": "IS 8363:1976#2.2",
+      "family": "IS 8363",
+      "year": 1976,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 755,
+      "page_end": 755,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 8363:1976",
+      "clause": "2.3",
+      "title": "Ovality of wire shall",
+      "text": "2.3 Ovality of wire shall not exceed 50 percent of tolerance on dia.",
+      "clause_id": "IS 8363:1976#2.3",
+      "family": "IS 8363",
+      "year": 1976,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 755,
+      "page_end": 755,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 8363:1976",
+      "clause": "3",
+      "title": "Conditions of Wires –",
+      "text": "3.   Conditions of Wires - Filler wires shall have smooth finish and they shall be free from surface imperfections, corrosion products, grease, excessive oxide or other foreign matter. Temper and surface conditions shall be suitable for uniform uninterrupted feeding on automatic or semi-automatic welding equipment. The copper content of the coated wire  expressed as a percentage of the wire and the coating shall not exceed 0.4 percent by weight.",
+      "clause_id": "IS 8363:1976#3",
+      "family": "IS 8363",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 755,
+      "page_end": 755,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 8363:1976",
+      "clause": "4",
+      "title": "Classification – ES-2, ES-2Si,",
+      "text": "4.   Classification - ES-2, ES-2Si, ES-3, ES-3Mo, ES-3 MO Ni, ES-4,  ES-4 Mo, ELS-4, ELS-4 Mo, ELS -2 Mo and ELS-2 Mo Cr based on their chemical composition. Note 1- For requirements of coils for wires and reeling conditions, refer to 5 and 6 of the  standard. Note 2- For chemical composition details, refer to 9 of the standard. For detailed information, refer to  IS  8363 : 1976  Specifications for bare wire electrodes for electroslag welding of steels. SECTION  19 THREADED FASTENERS AND RIVETS CONTENTS Title Page IS 207 : 1964 Gate and shutter hooks  eyes (first revision) 19.4 IS 723 : 1972 Steel countersunk head wire nails (second revision) 19.5 IS 724 : 1964 Mild steel and brass cup ruler and square hooks and screw eyes (first revision) 19.6 IS 725 : 1961 Copper wire nails (revised) 19.7 IS 730 : 1978 Hook bolts for corrugated sheet roofing (second revision) 19.8 IS 1120 : 1975 Coach screws (first revision) 19.9 IS 1363 : 2002 Hexagon head bolts screws and nuts of product grade C Part 1 hexagon head bolts (size range M5 to M64) (third revision) 19.10 Part 2 Hexagon head screws (size range M5 to M64) (third revision) 19.11 Part 3 Hexagon head nuts (size range M5 to M64) (third revision) 19.12 IS 1364 : 2002 Hexagon head bolts, screws and nuts of product grades A and B Part 1 hexagon head bolts, (size range M1.6 to M64)(third revision) 19.13 Part 2 Hexagon head screws (size range M1.6 to M64)(third revision) 19.14 Part 3 Hexagon head nuts (size range M1.6 to M64)(third revision) 19.15 Part 4 Hexagon thin nuts (chamfered) (size range M1.6 to M64) (third revision) 19.16 Part 5 Hexagon thin nuts (unchamfered) (size range M1.6 to M64) (third revision) 19.17 IS 1365 : 1978 Slotted countersunk head screws (third revision) 19.18 IS 1366 : 2002 Slotted cheese head screws (third revision) 19.19 IS 1929 : 1982 Hot forged steel rivets for hot closing (12 to 36 mm diameter)(first revision) 19.20 IS 2016 : 1967 Plain washers (first revision) 19.21 IS   2155 : 1982 Cold forged solid steel rivets for hot closing (6 to 16 mm diameter) (first revision) 19.23 IS 2585 : 1968 Black square bolts and nuts (dia range 6 to 39 mm) and black square screws (dia range 6 to 24 mm) (first revision) 19.24 IS 2687 : 1991 Cap nuts (second revision) 19.25 IS 2907 : 1998 Non-Ferrous rivets (1.6 to 10 mm) 19.26 IS 2998 : 1982 Cold forged steel rivets for cold closing (1 to 16 mm diameter) (first revision) 19.27 IS 3063 : 1994 Fasteners-single coil rectangular section spring lock washers(second revision) 19.28 IS 3121 : 1989 Rigging screws and stretching screws (first revision) 19.29 IS 3468 : 1991 Pipe nuts (second revision) 19.30 IS 3757 : 1985 High strength structural bolts (Second revision) 19.31 IS 4762 : 1984 Worm drive hose clamps for general purposes (first revision) 19.32 IS 5369 : 1975 General requirements for plain washers and lock washers (first revision) 19.33 Title Page IS 5372 : 1975 Taper washers for channels (ISMC) (first revision) 19.34 IS 5373 : 1969 Square washers for wood fastening 19.35 IS 5374 : 1975 Taper washers for I-Beams (ISMB) (first revision) 19.36 IS 5624 : 1993 Foundation bolts (first revision) 19.37 IS   6113 : 1970 Aluminium fasteners for building purposes 19.38 IS 6610 : 1972 Heavy washers for steel structures 19.39 IS 6623 : 2004 High strength structural nuts (first revision) 19.40 IS 6639 : 1972 Hexagonal bolts for steel structures 19.41 IS 6649 : 1985 Hardened and tempered washers for high strength structural bolts and nuts (first revision) 19.42 IS     6733 : 1972 Wall and roofing nails 19.43 IS 6736 : 1972 Slotted raised countersunk head wood screws 19.44 IS 6739 : 1972 Slotted round head wood screws 19.45 IS 6760 : 1972 Slotted countersunk head wood screws 19.46 IS 8033 : 1976 Round washers with square hole for wood fastenings 19.47 IS 8412 : 1977 Slotted countersunk head bolts for steel structures 19.48 IS 8869 : 1978 Washers for corrugated sheet roofing 19.49 IS 10238 : 2001 Step bolts for steel structures 19.50 IS 12427 : 2001 Transmission tower bolts 19.51",
+      "clause_id": "IS 8363:1976#4",
+      "family": "IS 8363",
+      "year": 1976,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 755,
+      "page_end": 759,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8363:1976",
+    "record_id": 15527,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      755,
+      759
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

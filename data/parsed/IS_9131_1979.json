@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 9131:1979",
+      "clause": "1",
+      "title": "Scope – Requirements for materials, construction,",
+      "text": "1. Scope - Requirements for materials, construction, dimensions and finish of rim locks of two types commonly fixed to single and double-leaf doors in buildings.",
+      "clause_id": "IS 9131:1979#1",
+      "family": "IS 9131",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 542,
+      "page_end": 542,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9131:1979",
+      "clause": "2",
+      "title": "Types",
+      "text": "2. Types Type 1 -  Left hand or right-hand, and Type 2 -  Reversible",
+      "clause_id": "IS 9131:1979#2",
+      "family": "IS 9131",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 542,
+      "page_end": 542,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9131:1979",
+      "clause": "3",
+      "title": "Size",
+      "text": "3. Size  - 100 and 150 mm The size of the rim lock shall be denoted by the length of face over the body in millimetres. The measured length shall not vary by more than 3 mm, from the length specified for the sizes.",
+      "clause_id": "IS 9131:1979#3",
+      "family": "IS 9131",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 542,
+      "page_end": 542,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9131:1979",
+      "clause": "4",
+      "title": "Materials",
+      "text": "4. Materials — Shall  comply with the requirements given in Tables 1 and 2 of the standard.",
+      "clause_id": "IS 9131:1979#4",
+      "family": "IS 9131",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 542,
+      "page_end": 542,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9131:1979",
+      "clause": "5",
+      "title": "Non–Interchangeability — The rim",
+      "text": "5. Non-Interchangeability — The rim locks shall be manufactured to have non-interchangeable keys in a batch consisting of a minimum of 24 locks.",
+      "clause_id": "IS 9131:1979#5",
+      "family": "IS 9131",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 542,
+      "page_end": 542,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9131:1979",
+      "clause": "6",
+      "title": "Construction",
+      "text": "6. Construction a) Body - Overall depth of the body shall be not more than 15 mm. b) Locking bolt — Section not less than 8×22 mm c) Mechanism — Shall be of ordinary lever type or any other type approved by the purchaser. d) Latch Bolt — Section not less than 8×14 mm",
+      "clause_id": "IS 9131:1979#6",
+      "family": "IS 9131",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 542,
+      "page_end": 542,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9131:1979",
+      "clause": "7",
+      "title": "Finish – Brass rim",
+      "text": "7. Finish - Brass rim locks shall have bright or satin finish, and aluminium locks anodized finish. The steel locks shall be japanned, stove eamelled black or   copper oxidized as specified by the purchaser.",
+      "clause_id": "IS 9131:1979#7",
+      "family": "IS 9131",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 542,
+      "page_end": 542,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 9131:1979",
+      "clause": "8",
+      "title": "Tests",
+      "text": "8. Tests —  The finally assembled block shall with stand the tests given in 12.1.1 to 12.1.6 of the standard. For detailed information, refer to  IS  9131 : 1979  Specification for  rim locks. SUMMARY OF IS 9131 : 1979 RIM LOCKS",
+      "clause_id": "IS 9131:1979#8",
+      "family": "IS 9131",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "test_methods",
+      "page_start": 542,
+      "page_end": 542,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 9131:1979",
+    "record_id": 16401,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      542,
+      542
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

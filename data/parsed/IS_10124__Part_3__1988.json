@@ -1,0 +1,94 @@
+{
+  "clauses": [
+    {
+      "is": "IS 10124 (Part 3):1988",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope—Requirements of manufacture, dimensions and marking for fabricated PVC straight reducers for portable water supplies.",
+      "clause_id": "IS 10124 (Part 3):1988#1",
+      "family": "IS 10124 (Part 3)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 363,
+      "page_end": 363,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 3):1988",
+      "clause": "2",
+      "title": "Requirements",
+      "text": "2. Requirements — The general requirements for material, sizes, methods of test, sampling and criteria for conformity shall conform to IS 10124 (Part 1)  :1988. SUMMARY OF IS  10124 (PART 3) : 1988 FABRICATED PVC FITTINGS FOR PORTABLE WATER SUPPLIES PART 3 SPECIFIC REQUIREMENTS FOR STRAIGHT REDUCER (First Revision)",
+      "clause_id": "IS 10124 (Part 3):1988#2",
+      "family": "IS 10124 (Part 3)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 363,
+      "page_end": 363,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 3):1988",
+      "clause": "3",
+      "title": "Dimensions",
+      "text": "3. Dimensions — See  Table 1",
+      "clause_id": "IS 10124 (Part 3):1988#3",
+      "family": "IS 10124 (Part 3)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 363,
+      "page_end": 363,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 10124 (Part 3):1988",
+      "clause": "4",
+      "title": "Marking",
+      "text": "4. Marking —The straight reducers shall be marked in colour as indicated below for different classes of fittings Class of Fitting Colour Class  2  (0.4 MPa) Blue Class  3  (0.6 MPa) Green Class  4  (1.0 MPa) Yellow D— Mean socket internal diameter at mid-point of  socket length  as specified in IS 10124 (Part 1) : 1988*. d— mean outside diameter of a spigot portion, that is  mean outside diameter of pipe used for making  reducer. L—minimum socket length in accordance with IS 10124 (Part 1) : 1988*. C—minimum length of spigot portion (plain end) calculated from 0.5 dnom +10mm where dnom is nominal outside diameter of pipe from which the reducer is fabricated. * Specification for fabricated PVC fittings for potable water supplies. T—minimum wall thickness of spigot portion (corresponds to minimum  wall thickness of pipe of  the same nominal size as that of the socket and the  corresponding pressure class). t—minimum wall thickness of socket portion calculated on the basis of 90 percent of the minimum wall thickness at spigot portion rounded off to the next   higher 0.1 mm. Note—This figure is only intended to define the terms used in Table 1 and is not intended to illustrate specific design features. FIG. 1 STRAIGHT REDUCER TABLE 1 DIMENSIONS  OF  STRAIGHT  REDUCERS All dimensions in millimetres Size                 d B C Minimum  Wall Thickness (t) For Working Pressure Min Max Min Min 0.4 MPa (Class 2) 0.6 MPa (Class 3)1.0 MPa (Class 4) T t T t T t (1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) 20-15 16.0 16.3 10 18 - - - - 1.1 1.0 25-20 20.0 20.3 10 20 - - - - 1.1 1.0 32-25 25.0 25.3 10 23 - - - - 1.4 1.3 40-32 32.0 32.3 10 26 - - - - 1.8 1.6 50-40 40.0 40.3 15 30 - - 1.4 1.3 2.2 2.0 63-50 50.0 50.3 15 35 - - 1.7 1.5 2.8 2.5 75-63 63.0 63.3 20 42 1.5 1.4 2.2 2.0 3.5 3.2 90-75 75.0 75.3 35 48 1.8 1.7 2.6 2.4 4.2 3.8 110-90 90.0 90.3 35 55 2.1 1.9 3.1 2.8 5.0 4.5 125-110 110.0 110.4 35 65 2.5 2.3 3.7 3.4 6.1 5.5 140-125 125.0 125.4 45 73 2.9 2.7 4.3 3.9 6.9 6.3 160-140 140.0 140.5 45 80 3.2 2.9 4.8 4.4 7.7 7.0 180-160 160.0 160.5 45 90 3.7 3.4 5.4 4.9 8.8 8.0 200-180 180.0 180.6 45 100 4.2 3.8 6.1 5.5 9.9 9.0 225-200 200.0 200.6 55 110 4.6 4.2 6.8 6.2 11.0 10.0 250-225 225.0 225.7 55 123 5.2 4.7 7.6 6.9 12.4 11.2 280-250 250.0 250.8 55 135 5.7 5.2 8.5 7.7 13.8 12.5 315-280 280.0 280.9 55 150 6.4 5.8 9.5 8.6 15.4 13.9 355-315 315.0 316.0 65 168 7.2 6.5 10.7 9.7 17.3 15.6 400-355 355.0 356.1 65 188 8.1 7.3 12.0 10.8 19.6 17.7 450-400 400.0 401.2 65 210 9.1 8.2 13.5 12.2 22.0 19.8 500-450 450.0 451.4 65 235 10.3 9.3 15.2 13.7 24.8 22.4 560-500 500.0 501.5 75 260 11.4 10.3 16.9 15.5 27.5 24.8 630-560 560.0 561.7 75 290 12.8 11.6 18.9 17.2 30.8 27.8 For detailed information,refer to IS 10124(Part 3): 1988  Specification for Fabricated PVC fittings for potable water supplies: Part 3 Specific requirements for straight reducers (first revision).",
+      "clause_id": "IS 10124 (Part 3):1988#4",
+      "family": "IS 10124 (Part 3)",
+      "year": 1988,
+      "level": 1,
+      "parent_clause": null,
+      "role": "marking",
+      "page_start": 363,
+      "page_end": 364,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 10124 (Part 3):1988",
+    "record_id": 892,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      363,
+      364
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

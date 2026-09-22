@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    {
+      "is": "IS 2373:1981",
+      "clause": "1",
+      "title": "Scope – Covers bulk",
+      "text": "1. Scope - Covers bulk type water meters of the following types : a) Vane-wheel (impeller) type water meters from 50 to 300 mm ; and b) Helical type water meters from 50 to 500 mm",
+      "clause_id": "IS 2373:1981#1",
+      "family": "IS 2373",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 500,
+      "page_end": 500,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2373:1981",
+      "clause": "2",
+      "title": "Nominal size",
+      "text": "2. Nominal size : (Bore of inlet)  50, 80, 100, 150, 200, 250, 300, 350, 400 and 500 mm.",
+      "clause_id": "IS 2373:1981#2",
+      "family": "IS 2373",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 500,
+      "page_end": 500,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2373:1981",
+      "clause": "3",
+      "title": "Ranges of Registration",
+      "text": "3. Ranges of Registration : Nominal                   Ranges of Registration of Water Size Meters in Litres Minimum Resistration               Maximum in Dial Division Not              Registration tobe More Than                    Not to be Less than 50 10 100 000 000 80 10 100 000 000 100 100 100 000 000 150 100 100 000 000 200 100 1000000000 250 100 1000  000 000 300 100 1000  000 000 350 100 1000  000 000 400 1 000 10  000 000 000 450 1 000 10  000 000 000",
+      "clause_id": "IS 2373:1981#3",
+      "family": "IS 2373",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 500,
+      "page_end": 500,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2373:1981",
+      "clause": "4",
+      "title": "Performance Requirementst",
+      "text": "4. Performance Requirementst",
+      "clause_id": "IS 2373:1981#4",
+      "family": "IS 2373",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 500,
+      "page_end": 500,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2373:1981",
+      "clause": "4.1",
+      "title": "Temperature",
+      "text": "4.1. Temperature : Up to 45oC.",
+      "clause_id": "IS 2373:1981#4.1",
+      "family": "IS 2373",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 500,
+      "page_end": 500,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2373:1981",
+      "clause": "4.2",
+      "title": "Hydrostatic Test",
+      "text": "4.2. Hydrostatic Test : Shall satisfactorily withstand a pressure of 1.6 MPa (16 kgf/cm2).",
+      "clause_id": "IS 2373:1981#4.2",
+      "family": "IS 2373",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 500,
+      "page_end": 500,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2373:1981",
+      "clause": "4.3",
+      "title": "Capacity Ratings",
+      "text": "4.3. Capacity Ratings : Nomininal Capacity Ratings Nominal                       Capacity Ratings of Water Meters Size in Litres per hour mm                    Vane-Wheel Type Helical Type 50 30 000 50 000 80 50 000 125 000 100 70 000 200 000 150 150 000 500 000 200 250 000 800 000 250 400 000 1 100 000 300 500 000 1 500 000 350 - 2 000 000 400 - 3 000 000 500 - 5 000 000 4.6 Metering Accuracy :  ± 2  percent.",
+      "clause_id": "IS 2373:1981#4.3",
+      "family": "IS 2373",
+      "year": 1981,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 500,
+      "page_end": 500,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    },
+    {
+      "is": "IS 2373:1981",
+      "clause": "5",
+      "title": "Frost Protection",
+      "text": "5. Frost Protection :Metres liable to be damaged by frost shall be protected with suitable frost protection devices. Note: For materials and manufacturing details, refer to the standard. SECTION 11 BUILDERS HARDWARE CONTENTS Title Page IS 204 (Part 1)  : 1991 Tower bolts : Part 1  Ferrous metal (fifth revision) 11.4 IS 204 (Part 2)  : 1992 Tower bolts : Part 2  Non - Ferrous metals (fifth revision) 11.5 IS 205 : 1992 Non-ferrous metal butt  hinges (fourth revision) 11.6 IS 206 : 1992 Tee and strap hinges (fourth revision) 11.7 IS 208 : 1996 Door handles  (first revision) 11.8 IS 281 : 1991 Mild steel sliding door bolts for  use with padlocks (third revision) 11.9 IS 362 : 1991 Parliament hinges (fifth revision) 11.10 IS 363 : 1993 Hasps and staples  (fourth revision) 11.11 IS 364 : 1993 Fan light catch (third revision) 11.12 IS 452 : 1973 Door  springs, Rat-tail type (second revision) 11.13 IS 453 : 1993 Double acting spring hinges (third revision) 11.14 IS 1019 : 1974 Rim latches (second revision) 11.15 IS 1341 : 1992 Steel  butt hinges  (sixth revision) 11.16 IS 1823 : 1980 Floor  door stoppers (third revision) 11.17 IS 1837 : 1966 Fan light pivots  (first revision) 11.18 IS 2209 : 1976 Mortice locks (vertical type)  (third  revision) 11.19 IS: 2681 : 1993 Non-ferrous metal sliding door bolts (aldrops) for use with pad locks (third revision) 11.20 IS 3564 : 1995 Hydraulically regulated door closers (fourth revision) 11.21 IS 3818 : 1992 Continuous (piano) hinges (third revision) 11.22 IS 3828 : 1966 Ventilator  chains 11.23 IS 3843 : 1995 Steel back flap hinges (Second revision) 11.24 IS 3847 :  1992 Mortice night latches (first revision) 11.25 IS 4621 : 1975 Indicating bolts for use in public  baths and lavatories  (first revision) 11.26 IS 4948  :  2002 Welded steel wire fabric for  general use  (first revision) 11.27 IS 4992  : 1975 Door handles for mortice locks  (vertical type) (first revision) 11.28 IS 5187  : 1972 Flush bolts (first revision) 11.29 IS 5899  : 1970 Bathroom latches 11.30 IS 5930  : 1970 Mortice latch (vertical type) 11.31 IS 6315  :  1992 Floor springs (hydraulically regulated) for heavy doors (second revision) 11.32 IS 6318  :  1971 Plastic window stays and fasteners. 11.33 Title Page IS 6343  :  1982 Door  closers (pneumatically regulated) for light doors  weighing up to 40 kg (first revision) 11.34 IS 6607  :  1972 Rebated mortice locks (vertical type) 11.35 IS 7196  :  1974 Hold fast 11.36 IS 7197  : 1974 Double action floor  springs (without oil check) for heavy doors 11.37 IS 7534  : 1985 Sliding locking bolts for use with padlocks (first revision) 11.38 IS 7540  : 1974 Mortice dead locks 11.39 IS 8760  :  1978 Mortice sliding door locks, with lever mechanism 11.40 IS 9106  :  1979 Rising butt  hinges 11.41 IS 9131 : 1979 Rim locks 11.42 IS 10019 : 1981 Mild steel stays and fasteners. 11.43 IS 10090 : 1982 Numericals 11.44 IS 10342  :  1982 Curtain rail system 11.45 IS 12817 :  1997 Stainless steel butt hinges (first revision) 11.46 IS 12867 :  1989 PVC hand  rail  covers 11.47 IS 14912 :  2001 Door  closers, concealed type (hydraulically operated) 11.48",
+      "clause_id": "IS 2373:1981#5",
+      "family": "IS 2373",
+      "year": 1981,
+      "level": 1,
+      "parent_clause": null,
+      "role": "references",
+      "page_start": 500,
+      "page_end": 503,
+      "has_table": false,
+      "flags": [
+        "pages_without_text:1"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 2373:1981",
+    "record_id": 8893,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      500,
+      503
+    ],
+    "n_clauses": 8,
+    "has_scope": true,
+    "has_references": true,
+    "text_coverage_ratio": 0.929,
+    "flags": [
+      "pages_without_text:1"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "is": "IS 738:1994",
+      "clause": "1",
+      "title": "Scope – Requirements of",
+      "text": "1. Scope -  Requirements of wrought aluminium and aluminium alloy drawn tubes of round cross-section for general engineering purposes.",
+      "clause_id": "IS 738:1994#1",
+      "family": "IS 738",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 699,
+      "page_end": 699,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 738:1994",
+      "clause": "2",
+      "title": "Freedom from Defects –",
+      "text": "2. Freedom from Defects -  The drawn tubes shall be sound and free from harmful defects.",
+      "clause_id": "IS 738:1994#2",
+      "family": "IS 738",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 699,
+      "page_end": 699,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 738:1994",
+      "clause": "3",
+      "title": "Dimensions and Tolerances –",
+      "text": "3. Dimensions and Tolerances - As given in IS  2678 : 1987.*",
+      "clause_id": "IS 738:1994#3",
+      "family": "IS 738",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 699,
+      "page_end": 699,
+      "has_table": false,
+      "flags": []
+    },
+    {
+      "is": "IS 738:1994",
+      "clause": "4",
+      "title": "Designation and Typical uses of Alloys",
+      "text": "4. Designation and Typical uses of Alloys Designation Typical uses 19000 Panelling and moulding; equipments for food, chemical  and brewing industries; architectural and builder's hardwares,fasteners, welding wire, electrical appliances, refrigeration tubes and wave guide tubes. 19500 Food, chemical, brewing and processing equipments, marine fittings, pressed and anodized utility items, heat exchanger tubes, condenser tubes, gas and oil transmission pipeline. 24345 Stressed parts in aircraft and other structures where high strength is of primary consideration, hydraulic tubes. * Dimension and tolerances for wrought aluminium and alluminium alloy round tubes (second revision) SUMMARY OF IS 738 : 1994 WROUGHT ALUMINIUM AND ITS ALLOYS-DRAWN TUBES FOR GENERAL ENGINEERING PURPOSES (Third Revision) Designation Typical uses 31000 General purpose alloy for moderate strength applications, pressure vessels, irrigation tubing, heat exchangers, utensils and pressure cookers, roofing sheets, pilferproof and detonator caps, airconditioning ducting, fan blades and vehicle panelling. 52000 Panelling and structures, hydraulic tube, appliances, refrigeration tubing, condenser and heat exchanger tubes, gas and oil transmission pipelines. 63400 Architectural uses and other similar applications where surface finish is important and medium strength would suffice. Electrical conduits, tubes for wave guides, gas and oil transmission pipelines. 64430 Structural applications of all kinds, such as, road and rail transport vehicles, bridges, cranes, roof trusses, rivets, etc. Cargo containers, milk containers, deep drawn containers and flooring. 65028 Structural applications of all kinds such road and rail transport vehicles, bridges, cranes, roof trusses, furniture, gas and oil transmission pipelines, condenser and heat exchanger tubes, hydraulic tubes. 65032 Similar to 65028 Note — For chemical composition and mechanical properties see 8 (Table 1) and 9 (Table 2) of the standard. For detailed information, refer to IS  738 : 1994  Specifications for  wrought aluminium and its alloys-drawn tubes for general engineering purpose (third revision).",
+      "clause_id": "IS 738:1994#4",
+      "family": "IS 738",
+      "year": 1994,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 699,
+      "page_end": 699,
+      "has_table": false,
+      "flags": []
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 738:1994",
+    "record_id": 14313,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      699,
+      699
+    ],
+    "n_clauses": 4,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

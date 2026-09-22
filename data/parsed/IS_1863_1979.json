@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1863:1979",
+      "clause": "1",
+      "title": "Scope –  Specifies dimenions, sectional  properties",
+      "text": "1. Scope -  Specifies dimenions, sectional  properties and dimensional tolerances of hot-rolled steel bulb flats",
+      "clause_id": "IS 1863:1979#1",
+      "family": "IS 1863",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 727,
+      "page_end": 727,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1863:1979",
+      "clause": "2",
+      "title": "Material – The bulb",
+      "text": "2. Material - The bulb flats may be manufactured from steel conforing to IS 2062 : 1992. IS 3039 : 1988  or  IS 8500 : 1991‡ as appropriate.",
+      "clause_id": "IS 1863:1979#2",
+      "family": "IS 1863",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 727,
+      "page_end": 727,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1863:1979",
+      "clause": "3",
+      "title": "Designation – The bulb",
+      "text": "3. Designation - The bulb flats shall be designated by the width (b) and thickness (t) Example: 200 × 10",
+      "clause_id": "IS 1863:1979#3",
+      "family": "IS 1863",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 727,
+      "page_end": 727,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1863:1979",
+      "clause": "4",
+      "title": "Dimensions – See Table",
+      "text": "4. Dimensions - See Table 1 and 1A TABLE 1  BULB FLATS - DIMENSIONS Designation 80 × 6 200 x 9 300 x 11 7 10 12 100 × 7                           11.5 13 8 220 × 10 320 × 12 120 × 7                               11.5 13 8 240 × 10 340 × 12 140 × 7 11 14 8 12 370 x 13 160 × 7 260 × 10 15 811 400 × 14 9 12 × 16 180 × 8 280 × 11 430 × 15 9 12 17 10 *  Steel for general structural purposes (fourth revision) † Structural steel for construction of hulls of ships (second revision) ‡ Structural steel microalloyed - (medium & high strength  qualities) (first revision) For detailed information, refer to IS 1863 : 1979  Specifications for rolled steel bulb flats (first revision) TABLE 1  A SUPPLEMENTARY  LIST  OF BULB  FLATS Designation 120 ×   6 320 × 14 140 × 10 340 × 13 160 × 10 15 180 × 11 370 × 16 220 ×   9 400 × 15 280 × 10 430 × 14 13 20 Note - For sectional properties of bulb flats, refer to the standard.",
+      "clause_id": "IS 1863:1979#4",
+      "family": "IS 1863",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 727,
+      "page_end": 727,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1863:1979",
+      "clause": "5",
+      "title": "Tolerances –",
+      "text": "5.   Tolerances -",
+      "clause_id": "IS 1863:1979#5",
+      "family": "IS 1863",
+      "year": 1979,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 727,
+      "page_end": 727,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1863:1979",
+      "clause": "5.1",
+      "title": "Straightness –  The maximum permissible variation",
+      "text": "5.1  Straightness -  The maximum permissible variation in straigntness when measured over the entire length shall be 0.0035 x length.",
+      "clause_id": "IS 1863:1979#5.1",
+      "family": "IS 1863",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 727,
+      "page_end": 727,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1863:1979",
+      "clause": "5.2",
+      "title": "Length – The cutting",
+      "text": "5.2   Length - The cutting tolerance on length shall    be 100 mm, - 0 mm Note—For tolerance on width thickness and weight, refer to the standard.",
+      "clause_id": "IS 1863:1979#5.2",
+      "family": "IS 1863",
+      "year": 1979,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 727,
+      "page_end": 727,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1863:1979",
+    "record_id": 8259,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      727,
+      727
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

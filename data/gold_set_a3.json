@@ -1,0 +1,184 @@
+[
+  {
+    "from_is": "IS 12269:1987",
+    "clause_id": "IS 12269:1987#1",
+    "to_is": "IS 269",
+    "ground_truth_relation": "related_product",
+    "evidence": "y Portland cement having the compressive strength much higher than the minimum compressive strength limits specified in IS 269:1989*and IS 8112:1991+"
+  },
+  {
+    "from_is": "IS 12269:1987",
+    "clause_id": "IS 12269:1987#4",
+    "to_is": "IS 4031",
+    "ground_truth_relation": "test_method",
+    "evidence": "Note 2 — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement and IS 4032:1985 Methods of chemical analysis of hydraulic cement."
+  },
+  {
+    "from_is": "IS 12269:1987",
+    "clause_id": "IS 12269:1987#4",
+    "to_is": "IS 4032",
+    "ground_truth_relation": "test_method",
+    "evidence": "Note 2 — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement and IS 4032:1985 Methods of chemical analysis of hydraulic cement."
+  },
+  {
+    "from_is": "IS 12269:1987",
+    "clause_id": "IS 12269:1987#1",
+    "to_is": "IS 8112",
+    "ground_truth_relation": "related_product",
+    "evidence": "t having the compressive strength much higher than the minimum compressive strength limits specified in IS 269:1989*and IS 8112:1991+"
+  },
+  {
+    "from_is": "IS 12330:1988",
+    "clause_id": "IS 12330:1988#4",
+    "to_is": "IS 4031",
+    "ground_truth_relation": "test_method",
+    "evidence": "Note — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement and IS 4032 : 1985 Method of chemical analysis of hydraulic cement."
+  },
+  {
+    "from_is": "IS 12330:1988",
+    "clause_id": "IS 12330:1988#4",
+    "to_is": "IS 4032",
+    "ground_truth_relation": "test_method",
+    "evidence": "Note — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement and IS 4032 : 1985 Method of chemical analysis of hydraulic cement."
+  },
+  {
+    "from_is": "IS 6072:1971",
+    "clause_id": "IS 6072:1971#7.5",
+    "to_is": "IS 3809",
+    "ground_truth_relation": "test_method",
+    "evidence": "18 Note 1 — For methods of tests, refer to IS 3809 1979 Specification for fire resistance test for structures (first revision) and relevant partsof IS 6441 Methods of t"
+  },
+  {
+    "from_is": "IS 6072:1971",
+    "clause_id": "IS 6072:1971#7.5",
+    "to_is": "IS 6441",
+    "ground_truth_relation": "test_method",
+    "evidence": "s, refer to IS 3809 1979 Specification for fire resistance test for structures (first revision) and relevant partsof IS 6441 Methods of test for autoclaved cellular concrete products ."
+  },
+  {
+    "from_is": "IS 6073:1971",
+    "clause_id": "IS 6073:1971#7.5",
+    "to_is": "IS 3809",
+    "ground_truth_relation": "test_method",
+    "evidence": "18 Note 1 — For methods of tests, refer to IS 3809 : 1979 Specification for fire resistance test for structures (first revision), and relevant parts of IS 6441 Part 1 to 9 Meth"
+  },
+  {
+    "from_is": "IS 6073:1971",
+    "clause_id": "IS 6073:1971#7.5",
+    "to_is": "IS 6441",
+    "ground_truth_relation": "test_method",
+    "evidence": "refer to IS 3809 : 1979 Specification for fire resistance test for structures (first revision), and relevant parts of IS 6441 Part 1 to 9 Methods of test for autoclaved cellular concrete products."
+  },
+  {
+    "from_is": "IS 6452:1989",
+    "clause_id": "IS 6452:1989#3",
+    "to_is": "IS 4031",
+    "ground_truth_relation": "test_method",
+    "evidence": "Note — For methods of tests, refer to relevant parts of IS 4031 : Methods of physical tests for hydraulic cement and IS 4032 :1985 Method of chemical analysis of hydraulic cement (fi"
+  },
+  {
+    "from_is": "IS 6452:1989",
+    "clause_id": "IS 6452:1989#3",
+    "to_is": "IS 4032",
+    "ground_truth_relation": "test_method",
+    "evidence": "Note — For methods of tests, refer to relevant parts of IS 4031 : Methods of physical tests for hydraulic cement and IS 4032 :1985 Method of chemical analysis of hydraulic cement (first revision) For detailed information, refer to IS 6452:1989 Specif"
+  },
+  {
+    "from_is": "IS 6523:1983",
+    "clause_id": "IS 6523:1983#2",
+    "to_is": "IS 4021",
+    "ground_truth_relation": "normative_reference",
+    "evidence": "Overall sizes (width and height) of frames shall conform to IS 4021:1995 * Note 1 — Suitable adjustments in cross-sectional shape may be made by agreement between the purchaser and the supplie"
+  },
+  {
+    "from_is": "IS 6523:1983",
+    "clause_id": "IS 6523:1983#3.1.3",
+    "to_is": "IS 456",
+    "ground_truth_relation": "installation",
+    "evidence": "3 Concrete — Not weaker than M 20 (see IS 456 : 2000) *"
+  },
+  {
+    "from_is": "IS 6909:1990",
+    "clause_id": "IS 6909:1990#5",
+    "to_is": "IS 4031",
+    "ground_truth_relation": "test_method",
+    "evidence": "SUMMARY OF IS 6909 : 1990 SUPERSULPHATED CEMENT (First Revision) Note — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement, and IS 4032:1985 Method of chemical analysis of hydraulic cement (first"
+  },
+  {
+    "from_is": "IS 6909:1990",
+    "clause_id": "IS 6909:1990#5",
+    "to_is": "IS 4032",
+    "ground_truth_relation": "test_method",
+    "evidence": "on) Note — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement, and IS 4032:1985 Method of chemical analysis of hydraulic cement (first revision) For detailed information, refer to IS 6909:1990 Specif"
+  },
+  {
+    "from_is": "IS 8041:1990",
+    "clause_id": "IS 8041:1990#2",
+    "to_is": "IS 269",
+    "ground_truth_relation": "related_product",
+    "evidence": "Chemical Requirment — Shall be as laid down in IS 269:1989*."
+  },
+  {
+    "from_is": "IS 8041:1990",
+    "clause_id": "IS 8041:1990#4",
+    "to_is": "IS 4031",
+    "ground_truth_relation": "test_method",
+    "evidence": "Note — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement, and IS 4032:1985 Method of chemical analysis of hydraulic cement."
+  },
+  {
+    "from_is": "IS 8041:1990",
+    "clause_id": "IS 8041:1990#4",
+    "to_is": "IS 4032",
+    "ground_truth_relation": "test_method",
+    "evidence": "Note — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement, and IS 4032:1985 Method of chemical analysis of hydraulic cement."
+  },
+  {
+    "from_is": "IS 8042:1989",
+    "clause_id": "IS 8042:1989#3",
+    "to_is": "IS 269",
+    "ground_truth_relation": "related_product",
+    "evidence": "Physical Requirements — Physical requirements of white portland cement shall be as laid down in IS 269: 1989* except that compressive strength of mortar SUMMARY OF IS 8042 : 1989 WHITE PORTLAND CEMENT (Second Revision) prepare"
+  },
+  {
+    "from_is": "IS 8042:1989",
+    "clause_id": "IS 8042:1989#5",
+    "to_is": "IS 4031",
+    "ground_truth_relation": "test_method",
+    "evidence": "5 percent sulphuric anhydride (SO3), percent by mass Note —For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement and IS 4032:1985 Methods of chemical analysis of hydraulic cement."
+  },
+  {
+    "from_is": "IS 8042:1989",
+    "clause_id": "IS 8042:1989#5",
+    "to_is": "IS 4032",
+    "ground_truth_relation": "test_method",
+    "evidence": "mass Note —For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement and IS 4032:1985 Methods of chemical analysis of hydraulic cement."
+  },
+  {
+    "from_is": "IS 8043:1991",
+    "clause_id": "IS 8043:1991#2",
+    "to_is": "IS 269",
+    "ground_truth_relation": "related_product",
+    "evidence": "Chemical Requirements—The chemical requirements hydrophobic cement shall be as laid in IS 269:1989*."
+  },
+  {
+    "from_is": "IS 8043:1991",
+    "clause_id": "IS 8043:1991#3.2",
+    "to_is": "IS 269",
+    "ground_truth_relation": "related_product",
+    "evidence": "2Soundness and Setting Time — Shall be as laid down IS 269:1989."
+  },
+  {
+    "from_is": "IS 8112:1989",
+    "clause_id": "IS 8112:1989#4",
+    "to_is": "IS 4031",
+    "ground_truth_relation": "test_method",
+    "evidence": "Note 2 — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement and IS 4032:1985 Methods of chemical analysis of hydraulic cement."
+  },
+  {
+    "from_is": "IS 8112:1989",
+    "clause_id": "IS 8112:1989#4",
+    "to_is": "IS 4032",
+    "ground_truth_relation": "test_method",
+    "evidence": "Note 2 — For methods of tests, refer to relevant parts of IS 4031 Methods of physical tests for hydraulic cement and IS 4032:1985 Methods of chemical analysis of hydraulic cement."
+  }
+]

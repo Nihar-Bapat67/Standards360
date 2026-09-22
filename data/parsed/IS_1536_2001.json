@@ -1,0 +1,400 @@
+{
+  "clauses": [
+    {
+      "is": "IS 1536:2001",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope",
+      "clause_id": "IS 1536:2001#1",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "1.1",
+      "title": "Requirements for centrifugally cast",
+      "text": "1.1 Requirements for centrifugally cast (spun iron pipes for pressure main lines for water,gas and sewage, maufactured in metal (lined or unlined) or  sand lined moulds.",
+      "clause_id": "IS 1536:2001#1.1",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "requirements",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "1.2",
+      "title": "This standard is applicable",
+      "text": "1.2 This standard is applicable to cast iron pipes having socket/spigot (both lead caulked or push on flexible) or flanges as specified in this standard.  On casr of pushon joints the inner profile of socket end and spigot end of the pipe shall  depend on the type of rubber gasket ensuring that the overall dimensions aremaintained for reasons of safety and interchangeabillty.",
+      "clause_id": "IS 1536:2001#1.2",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "1",
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "2",
+      "title": "Classification",
+      "text": "2. Classification",
+      "clause_id": "IS 1536:2001#2",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "2.1",
+      "title": "Classified as LA and",
+      "text": "2.1 Classified as LA and B acccording to their thicknessess.  Class LA pipes have been taken as the basis for envolving the series of pipes. Class a allows a 10 percent increase in thickness over class LA. Class B allows a 20 percent increases in thickness over Class LA",
+      "clause_id": "IS 1536:2001#2.1",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "2.2",
+      "title": "For special uses, Classes, C, D",
+      "text": "2.2 For special uses, Classes, C, D  or E may be derived after allowing corresponding increases of thinckness of 30, 40 or 50 percent respectively.",
+      "clause_id": "IS 1536:2001#2.2",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "3",
+      "title": "Mechanical tests",
+      "text": "3. Mechanical tests: a) Ring Test (for pipes centrifugally cast in metal moulds) Nominal Diameter Modulus of Ruputure, Min MPa Upto and including 300 mm       390 b)    Tensile Test for pipes over 300 mm Type of Nominal Tensile Moulding Diameter Strength Min,MPa i) For pipes centrifugally Over 300 mm cast in metal moulds and up to and including  600 mm    200 over 600 mm 180 ii) For pipes centrifugally All diameters 180 cast in sand linedmoulds. c) Brinell Hardness— shall not exceed 230",
+      "clause_id": "IS 1536:2001#3",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "4",
+      "title": "HydrostaticTest",
+      "text": "4. HydrostaticTest —Hydrostatic testpressure for Centrifugally Cast Socket and Spigot Pipes Class       Hydrostatic Test Pressure atWorks,MPa Upto 600 DN* Above 600 DN* (1) (2) (3) LA 3.5 1.5 A 3.5 2.0 B 3.5 2.5 Note— *DN : Nominal diameter. Hydrostatic Test Pressure for Centrifugally Cast  Screwed on flanges Class Hydrostatic Test pressure at Works,MPa Upto 300 DN* 350 to 600 DN* (1) (2) (3) B 2.5 1.6 Note— *DN : Nominal Diameter.",
+      "clause_id": "IS 1536:2001#4",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "5",
+      "title": "Sizes and Mass",
+      "text": "5. Sizes and Mass",
+      "clause_id": "IS 1536:2001#5",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "5.1",
+      "title": "Nominal",
+      "text": "5.1 Nominal   Diameter 80, 100, 125, 150, 200, 250, 300, 350, 400, 450, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 1000 and 1050 mm.",
+      "clause_id": "IS 1536:2001#5.1",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "5.2",
+      "title": "Working Length",
+      "text": "5.2 Working Length a) Socket and spigot pipes — 3.0, 3.5, 3.66, 4, 4.5 5, 5.5, and 6.0 m. b) Flanged pipes—2.75, 3, 4, 4.5, 5 , 5.25  and 5.5 m. Note — For dimensions of sockets spigots and flanges etc and for mass refer to the standard.",
+      "clause_id": "IS 1536:2001#5.2",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "5",
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "6",
+      "title": "Tolerances",
+      "text": "6. Tolerances",
+      "clause_id": "IS 1536:2001#6",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "6.1",
+      "title": "Tolerances on barrel diameter and socket",
+      "text": "6.1 Tolerances on barrel diameter and socket dimensions (lead joint) (refer to Table below) and Fig. of the standard. SUMMARY OF IS 1536 : 2001 CENTRIFUGALLY CAST (SPUN) IRON PRESSURE PIPES FOR WATER, GAS AND SEWAGE (Fourth Revision)",
+      "clause_id": "IS 1536:2001#6.1",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 297,
+      "page_end": 297,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "6.2",
+      "title": "Tolerance on ovality (push",
+      "text": "6.2 Tolerance on ovality (push-on-joint). Nominal diameter Allowable Difference DN Between Mionor Axis and DE, Min  mm 80 -  300 1.0 350 -  600 1.75 700 2.00 750 -  800 2.4 900 -1050 3.5 Note—  For tolerance on barrel diameter and socket dimensions for push-on - joint refer to the standard.",
+      "clause_id": "IS 1536:2001#6.2",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 298,
+      "page_end": 298,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "6.3",
+      "title": "Tolerance on Thickness",
+      "text": "6.3 Tolerance on Thickness Dimensions Tolerance in mm a)    Wall thickness         -- (1+0.05 e) b)    Flange thickness       ±(2+0.05 Where e is the thickness of the wall in mm and b is the thickness of the flange in mm.",
+      "clause_id": "IS 1536:2001#6.3",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 298,
+      "page_end": 298,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "6.4",
+      "title": "Tolerance on Length",
+      "text": "6.4 Tolerance on Length: Typing of Casting Tolerance in mm a)    Socket and spigot ±  100 and plain ended pipes. b)     Flanged pipes ± 10",
+      "clause_id": "IS 1536:2001#6.4",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 298,
+      "page_end": 298,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "6.5",
+      "title": "Deviation from a Stright Line",
+      "text": "6.5 Deviation from a Stright Line — The maxmimum deviation from a straight line in mm shall not be  greater than 1.25 times the length L in meters of standard.",
+      "clause_id": "IS 1536:2001#6.5",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 298,
+      "page_end": 298,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "6.6",
+      "title": "Tolerance on Dimensions of",
+      "text": "6.6 Tolerance on Dimensions of  Flanges —  See 11.6 of the standard.",
+      "clause_id": "IS 1536:2001#6.6",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 298,
+      "page_end": 298,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "6.7",
+      "title": "Tolerance on Mass",
+      "text": "6.7 Tolerance on Mass —  ±   5 percent.",
+      "clause_id": "IS 1536:2001#6.7",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "6",
+      "role": "other",
+      "page_start": 298,
+      "page_end": 298,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "7",
+      "title": "Coating",
+      "text": "7. Coating",
+      "clause_id": "IS 1536:2001#7",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 298,
+      "page_end": 298,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 1536:2001",
+      "clause": "7.1",
+      "title": "All pipes shall be",
+      "text": "7.1 All pipes shall be coated externally and internally with the same material by dip ping in a tar or suitable base bath.  The pipes may be either preheated before dipping or the bath may be uniformly heated. The coating material shall set rapidly with good adherance and shall not scale. Dimensions Nominal Diameter Tolerances DN mm a) External   diameter of barrel    (DE) All diameters ± f= ±(4.5+0.0015 DN) b) Internal diameter of socket      (DI)          All diameters ±  3 1 f = ±(3+0.001 DN) c ) Depth of socket (P) Up to and including ± 5 DN 600 Over DN 600 upto ±10 and including 1050 Note — \"f\" is the caulking sace of the joint in mm and  us equal to (9+0.003 DN). Note— For methods of test refer to the standard and IS 1500 : 1983 Method for Brinell hardness test for smetallic materials (second revision). For  detailed information, refer to IS 1536 : 1989  Specification for centrifugally cast (spun) iron pressure pipes for water, gas and sewage (third revision). 2 1",
+      "clause_id": "IS 1536:2001#7.1",
+      "family": "IS 1536",
+      "year": 2001,
+      "level": 2,
+      "parent_clause": "7",
+      "role": "other",
+      "page_start": 298,
+      "page_end": 298,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 1536:2001",
+    "record_id": 7445,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      297,
+      298
+    ],
+    "n_clauses": 21,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

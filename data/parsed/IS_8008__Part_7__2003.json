@@ -1,0 +1,76 @@
+{
+  "clauses": [
+    {
+      "is": "IS 8008 (Part 7):2003",
+      "clause": "1",
+      "title": "Scope",
+      "text": "1. Scope —Requirements for manufacture, dimensions and tolerances, and marking for injection moulded and machine moulded HDFE  sandwich flanges Note — For general requirements regarding material, manufacture, methods of test, etc,  refer to IS  8008 (Part I ) :2003 Injection moulded high density polyethylene (HDPE) fittings for potable water supplies : Part 1 General requirements, for fittings. For detailed information, refer to IS 8008 (Part 7 ) : 2003 Specification for injection moulded high density polyethylene (HDPE) fittings for portable water supplies : Part 7 Specific requirements for sandwich flanges. SUMMARY OF IS  8008 (PART 7) : 2003 INJECTION MOULDED HIGH DENSITY POLYETHYLENE (HDPE) FITTINGS FOR POTABLE WATER SUPPLIES PART 7 SPECIFIC REQUIREMENTS FOR  SANDWITCH  FLANGES (First Revision) TABLE 1 DIMENSIONS OF SANDWICH FLANGES Sl. Nominal Pipe Inside Pitch Circle Outside Thickness Thickness Diameter Number No. Flange Outside Diameter Diameter Diameter of Flange of Mild of Hole of Hole size Diameter D D3 D4 Z T d (1) (2) (3) (4) (5) (6) (7) (8) (9) (10) i) 15 20 32 65 95 20 6 ± 0.3 14 4 ii) 20 25 38 75 105 20 6 ± 0.3 14 4 iii) 25 32 44 85 115 20 6 ± 0.3 14 4 iv) 32 40 53 100 140 20 6±0.3 18 4 v) 40 50 64 110 150 20 6±0.3 18 4 vi) 50 63 76 125 165 20 6±0.3 18 4 vii) 65 75 88 145 185 20 6±0.3 18 4 viii) 80 90 103 160 200 20 9±0.5 18 8 ix) 100 110 123 180 220 20 9±0.5 18 8 x) 100 125 138 210 250 20 9±0.5 18 8 xi) 125 140 154 210 250 20 9±0.5 18 8 xii) 150 160 174 240 285 20 9±0.5 22 8 xiii) 200 180 194 240 285 20 9±0.5 22 8 xiv) 200 200 214 295 340 25 12±0.5 22 8 xv) 200 225 239 295 340 25 12±0.5 22 8 xvi) 250 250 265 350 395 30 16±0.5 22 12 xvii) 250 280 295 350 395 30 16±0.5 22 12 xviii) 300 315 331 400 445 30 19±0.5 22 12 xix) 350 355 376 460 505 30 19±0.5 22 16 xx) 400 400 430 515 565 35 22±0.5 26 16 xxi) 500 450 517 620 670 35 22±0.5 26 26 xxii) 500 500 533 620 670 35 22±0.5 26 20 xxiii) 600 560 618 725 780 35 22 ±0.5 30 20 xxiv) 600 630 645 725 780 35 22±0.5 30 24 Note - Tolerance on various dimensions are given below: 1",
+      "clause_id": "IS 8008 (Part 7):2003#1",
+      "family": "IS 8008 (Part 7)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 357,
+      "page_end": 357,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 7):2003",
+      "clause": "2",
+      "title": "Dimensino",
+      "text": "2 Dimensino Tolerance Inside Diameter, D1 ± 1mm Pitch circle diameter, D2 ± 1mm Outside diameter, D3 ± 1mm Thickness of flange, Z ± 1mm 2. Dimensions and Tolerances",
+      "clause_id": "IS 8008 (Part 7):2003#2",
+      "family": "IS 8008 (Part 7)",
+      "year": 2003,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 357,
+      "page_end": 357,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 8008 (Part 7):2003",
+      "clause": "2.1",
+      "title": "Overall dimensions of sandwich flanges and",
+      "text": "2.1 Overall dimensions of sandwich flanges and tolerances thereon shall be as follows :",
+      "clause_id": "IS 8008 (Part 7):2003#2.1",
+      "family": "IS 8008 (Part 7)",
+      "year": 2003,
+      "level": 2,
+      "parent_clause": "2",
+      "role": "other",
+      "page_start": 357,
+      "page_end": 357,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 8008 (Part 7):2003",
+    "record_id": 15066,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      357,
+      357
+    ],
+    "n_clauses": 3,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

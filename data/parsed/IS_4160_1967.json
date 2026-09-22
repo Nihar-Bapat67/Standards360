@@ -1,0 +1,184 @@
+{
+  "clauses": [
+    {
+      "is": "IS 4160:1967",
+      "clause": "1",
+      "title": "Scope – Requirements for",
+      "text": "1. Scope - Requirements for interlocking type switch socket outlets, rating up to 30A, suitable for use in ac and dc circuits at rated voltages up to 250 V.",
+      "clause_id": "IS 4160:1967#1",
+      "family": "IS 4160",
+      "year": 1967,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 907,
+      "page_end": 907,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4160:1967",
+      "clause": "2",
+      "title": "Standard Current Ratings –",
+      "text": "2. Standard Current Ratings - 5, 15 and 30 A",
+      "clause_id": "IS 4160:1967#2",
+      "family": "IS 4160",
+      "year": 1967,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 907,
+      "page_end": 907,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4160:1967",
+      "clause": "3",
+      "title": "Requirements",
+      "text": "3. Requirements",
+      "clause_id": "IS 4160:1967#3",
+      "family": "IS 4160",
+      "year": 1967,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 907,
+      "page_end": 907,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4160:1967",
+      "clause": "3.1",
+      "title": "Material – Part manufactured with following",
+      "text": "3.1 Material - Part manufactured with following materials : a) Base - of vitrified ceramic material or tough  nonignitable moulded insulating  material. b) Cover, cover plates and actuating  member- of tough, non-ignitable insulating material. c) Current carrying parts - of brass, copper, phosphor, bronze, aluminium alloy, or other suitable material. d) Springs - of corrosion resistant metal. e) Attachment fittings, screws, noncurrent carrying parts - of mild steel, aluminium alloy or insulating material.",
+      "clause_id": "IS 4160:1967#3.1",
+      "family": "IS 4160",
+      "year": 1967,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 907,
+      "page_end": 907,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4160:1967",
+      "clause": "3.2",
+      "title": "Terminals – Shall allow",
+      "text": "3.2 Terminals - Shall allow a conductor to be connected without special preparation such as soldering of strands, use of cable lugs and formation of eyelets. Shall be designed to clamp the conductor between metal surfaces with sufficient contact pressure and without damage to conductor.",
+      "clause_id": "IS 4160:1967#3.2",
+      "family": "IS 4160",
+      "year": 1967,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 907,
+      "page_end": 907,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4160:1967",
+      "clause": "3.2.1",
+      "title": "Dimensions of pillar type terminals (in mm)",
+      "text": "3.2.1 Dimensions of pillar type terminals (in mm): Rated current , A 5 15   30 Nominal thread dia, Min 3.5",
+      "clause_id": "IS 4160:1967#3.2.1",
+      "family": "IS 4160",
+      "year": 1967,
+      "level": 3,
+      "parent_clause": "3.2",
+      "role": "requirements",
+      "page_start": 907,
+      "page_end": 907,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4160:1967",
+      "clause": "4",
+      "title": "6",
+      "text": "4",
+      "clause_id": "IS 4160:1967#4",
+      "family": "IS 4160",
+      "year": 1967,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 907,
+      "page_end": 907,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4160:1967",
+      "clause": "6",
+      "title": "Dia of hole for",
+      "text": "6 Dia of hole for conductor , Min 3.5 4.5",
+      "clause_id": "IS 4160:1967#6",
+      "family": "IS 4160",
+      "year": 1967,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 907,
+      "page_end": 907,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    },
+    {
+      "is": "IS 4160:1967",
+      "clause": "7",
+      "title": "Length of thread in pillar, Min",
+      "text": "7 Length of thread in pillar, Min 2.5 3 4 Difference between dia of hole 0.6 0.6 1.2 and nominal dia of screw; Max 3.2.2 Dimensions of screw type terminals (in mm): Rated current, A 5 15 30 Nominal thread dia, Min 3.5 5 5 Length of screw under head, Min 4 7 8.5 Length of thread in nut, Min 1.5 3 3 Nominal difference between 3.5 5 5 dia of head and thread part, Min Height of head, Min 2 3 3.5 3.3 Interlocking Mechanism - Moving member which locks the plug into the socket outlet shall not be more than 2 mm thick and shall not protrude more than 1.5 mm into the earthing pin of the plug. 3.4 Creepage Distance and Clearance - Not less than 3 mm Note 1 - For constructional details in respect of  enclosures, covers and cover plates, mounting of switch socket outlet, carrying parts, precaution against electrical contact,  socket contacts, prevention against charring  of base, sealing and holes, refer to 5 of the standard. Note 2 - For requirements regarding  terminals and  screws, and switch actuating mechanism, refer to 6 and 7 of the standard. 4. Tests 4.1 Type Tests a)  Visual Examination b)  Dimensional Check c)  Interlocking Action d) Insulation resistance (dry)—Shall not be less than 100 megohms. e) High voltage - Shall withstand AC voltage of 1500 V  rms for a period of one minute under the specified test. f) Moisture resistance - Insulation resistance shall not be less than 2 megohms. g) Contact resistance and temperature raise - Shall be capable of carrying rated current for half an hour without voltage drop  in a switched pole of switch socket outlet measured from the terminal of the switch to the corresponding plug pin exceeding 0.1 volt and without temperature rise exceeding 25ºC. h) Overvoltage and overcurrent capacity -130 percent of rated current at 110 percent of rated voltage 10 times in succession at intervals of 30 seconds. j) Endurance -15 000  witch cycles for 5 and 15 A and 10 000 for 30 A. k) Test for switch socket outlets for AC inductive SUMMARY OF IS 4160 : 1967 INTERLOCKING SWITCH SOCKET OUTLET Note 1-Test for tracking shall be applicable to mould insulating materials only and be carried out by manufacturer for proper selection of raw materials. Note 2 - For detailed requirements and methods of test, refer to 11 of  the standard. For detailed information, refer to IS 4160 : 1967 Specification for interlocking switch socket outlet. circuits l) Screws and connections. m)Mechanical strength n) Water absorption - Shall not exceed 0.5 percent for ceramic material and 1 percentfor moulded insulating material. o) Resistance to heat p) Resistance to rusting - Shall show no sign of rust after the prescribed ammonium  chloride test. 4.2 Acceptance Tests - Tests specifiedin 4.1 (a) 4.1 (k) and 4.1 (n) 4.3 Routine Tests - Tests specified in 4.1 (a) to 4.1 (e).",
+      "clause_id": "IS 4160:1967#7",
+      "family": "IS 4160",
+      "year": 1967,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 907,
+      "page_end": 908,
+      "has_table": false,
+      "flags": [
+        "text_version_differs_from_current"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 4160:1967",
+    "record_id": 10799,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      907,
+      908
+    ],
+    "n_clauses": 9,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 1.0,
+    "flags": [
+      "text_version_differs_from_current"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}

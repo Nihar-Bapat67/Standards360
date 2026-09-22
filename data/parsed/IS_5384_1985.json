@@ -1,0 +1,148 @@
+{
+  "clauses": [
+    {
+      "is": "IS 5384:1985",
+      "clause": "1",
+      "title": "Scope – Covers the",
+      "text": "1. Scope - Covers the material, dimensions and sectional properties of aluminium I- beam sections for structural use and other applications.",
+      "clause_id": "IS 5384:1985#1",
+      "family": "IS 5384",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "scope",
+      "page_start": 714,
+      "page_end": 714,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5384:1985",
+      "clause": "2",
+      "title": "Designation – Aluminium I-",
+      "text": "2. Designation - Aluminium I- beam sections shall be designated as ALB followed  by the depth of section, width of flange in mm and mass in kilograms per metre of the section. Example : ALB 120 x 60 - 4.7",
+      "clause_id": "IS 5384:1985#2",
+      "family": "IS 5384",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 714,
+      "page_end": 714,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5384:1985",
+      "clause": "3",
+      "title": "Materials –",
+      "text": "3. Materials -",
+      "clause_id": "IS 5384:1985#3",
+      "family": "IS 5384",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "other",
+      "page_start": 714,
+      "page_end": 714,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5384:1985",
+      "clause": "3.1",
+      "title": "Aluminium sections covered in",
+      "text": "3.1 Aluminium sections covered in this standard shall be manufactured from the following alloys in appropriate temper : 19000, 24345, 24534, 52000, 53000, 54300, 63400, 64423, 64430, 65032 and 74530.",
+      "clause_id": "IS 5384:1985#3.1",
+      "family": "IS 5384",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "other",
+      "page_start": 714,
+      "page_end": 714,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5384:1985",
+      "clause": "3.2",
+      "title": "Aluminium alloys and temper",
+      "text": "3.2 Aluminium alloys and temper selected shall conform to the proviions of  IS 733 : 1983+ + Wrought  aluminium and aluminium  alloy, bars, rods and sections for general engineering purposes (third revision) For detailed information, refer  to IS  5384 : 1985  Specifications for aluminium  I-beam (first revision).",
+      "clause_id": "IS 5384:1985#3.2",
+      "family": "IS 5384",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "3",
+      "role": "requirements",
+      "page_start": 714,
+      "page_end": 714,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5384:1985",
+      "clause": "4",
+      "title": "Dimensions",
+      "text": "4.   Dimensions —",
+      "clause_id": "IS 5384:1985#4",
+      "family": "IS 5384",
+      "year": 1985,
+      "level": 1,
+      "parent_clause": null,
+      "role": "requirements",
+      "page_start": 714,
+      "page_end": 714,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    },
+    {
+      "is": "IS 5384:1985",
+      "clause": "4.1",
+      "title": "Designation",
+      "text": "4.1   Designation ALB 40 × 20 - 0.4 ALB 100 × 60 - 4.7 ALB 40 × 20 - 0.6 ALB 50 × 30 - 0.9 ALB 120 × 60 - 4.7 ALB 50 × 30 - 1.2 ALB 120 × 60 - 5.0 ALB 60 × 30 - 1.1 ALB 120 × 70 - 5.6 ALB 60 × 30 - 1.5 ALB 120 × 80 - 6.1 ALB 60 × 30 - 1.9 ALB 120 × 80 - 7.4 ALB 60 × 40 - 1.9 ALB 150 × 80 - 6.6 ALB 60 × 40 - 2.4 ALB 150 × 80 - 8.1 ALB 80 × 40 - 2.1 ALB 150 × 100 - 7.7 ALB 80 × 40 - 2.7 ALB 150 × 100 - 9.4 ALB 80 × 40 - 3.2 ALB 150 × 100 - 12.1 ALB 100 x 50 - 3.4 ALB 200 × 100 - 10.5 ALB 100 x 50 - 3.9 ALB 200 × 100 - 13.4 ALB 100 x 60 - 3.9 ALB 200 × 100 - 12.9 ALB 100 x 60 - 4.1 ALB 200 × 120 - 16.1 Note- For sectional properties, refer to the standard dimensional tolerances for the sections shall be as specified in IS  3965:1981* * Dimensions for wrought aluminium and aluminium alloy bar, rod and sections (first revision)",
+      "clause_id": "IS 5384:1985#4.1",
+      "family": "IS 5384",
+      "year": 1985,
+      "level": 2,
+      "parent_clause": "4",
+      "role": "other",
+      "page_start": 714,
+      "page_end": 714,
+      "has_table": false,
+      "flags": [
+        "standard_withdrawn"
+      ]
+    }
+  ],
+  "manifest": {
+    "is_number": "IS 5384:1985",
+    "record_id": 12147,
+    "status": "parsed",
+    "reason": null,
+    "page_range": [
+      714,
+      714
+    ],
+    "n_clauses": 7,
+    "has_scope": true,
+    "has_references": false,
+    "text_coverage_ratio": 0.995,
+    "flags": [
+      "standard_withdrawn"
+    ],
+    "sha256": "20bfd1e02f9d32a0f81c49c21a85e69ce59fefd5cfc2798741634684ab29ade2"
+  }
+}
