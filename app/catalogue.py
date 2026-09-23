@@ -46,6 +46,7 @@ class Catalogue:
         self.con = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True, check_same_thread=False)
         self.con.row_factory = sqlite3.Row
         self._by_family: Dict[str, List[sqlite3.Row]] = {}
+        self._by_base: Dict[str, List[sqlite3.Row]] = {}
         self._by_record: Dict[int, sqlite3.Row] = {}
         self._known_keys = set()
         for row in self.con.execute("SELECT * FROM standards"):
@@ -53,6 +54,7 @@ class Catalogue:
             parsed = parse_any_is(row["is_number"] or "")
             if parsed:
                 self._by_family.setdefault(norm_is_lookup_key(parsed.family), []).append(row)
+                self._by_base.setdefault(parsed.base_number, []).append(row)
                 self._known_keys.add(norm_is_lookup_key(parsed.family))
                 self._known_keys.add(norm_is_lookup_key(parsed.canonical))
 
@@ -68,6 +70,15 @@ class Catalogue:
         """Every edition of a standard family, newest first, current editions before withdrawn ones."""
         rows = self._by_family.get(norm_is_lookup_key(parsed.family), [])
         return sorted(rows, key=lambda r: (r["withdrawn"], -(self.year_of(r) or 0)))
+
+    def same_number(self, parsed: NormalizedIS) -> List[sqlite3.Row]:
+        """Every record sharing the base number, including other parts.
+
+        A standard is sometimes republished in parts: IS 2062:2011 was withdrawn and the subject now
+        appears as IS 2062 (Part 1):2025, which is a different family but the same number.
+        """
+        rows = self._by_base.get(parsed.base_number, [])
+        return sorted(rows, key=lambda r: (r["withdrawn"], (r["is_number"] or "")))
 
     def record(self, record_id: int) -> Optional[sqlite3.Row]:
         return self._by_record.get(record_id)

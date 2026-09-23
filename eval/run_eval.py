@@ -25,7 +25,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from ingest.build_index import load_index, search  # noqa: E402
+from app.core.retrieval import RetrievalEngine  # noqa: E402
+from ingest.build_index import load_index  # noqa: E402
 
 GOLD = ROOT / "eval" / "gold_set.json"
 META = ROOT / "eval" / "gold_set_meta.json"
@@ -63,6 +64,7 @@ def difficulty_of(gold):
 def evaluate(top_k, show_misses):
     gold = json.loads(GOLD.read_text(encoding="utf-8"))
     _, _, id_map, meta = load_index()
+    engine = RetrievalEngine()          # C1 itself, reranker included, warmed at construction
     indexed = {key(r["is_number"]) for r in id_map} | {key(r["catalogue_is_number"]) for r in id_map}
     sectors = sector_of({r["correct_is"] for r in gold})
     difficulty = difficulty_of(gold)
@@ -71,8 +73,8 @@ def evaluate(top_k, show_misses):
     started = time.time()
     for i, record in enumerate(gold, 1):
         target = key(record["correct_is"])
-        hits = search(record["product_description"], top_k=top_k)
-        ranked = [key(entry["is_number"]) for _, entry in hits]
+        hits = engine.search(record["product_description"], top_k=top_k).standards
+        ranked = [key(hit.is_number) for hit in hits]
         rank = ranked.index(target) + 1 if target in ranked else None
         rows.append({
             "id": record["id"],
@@ -83,8 +85,10 @@ def evaluate(top_k, show_misses):
             "in_index": target in indexed,
             "rank": rank,
             "returned": [
-                {"is_number": e["is_number"], "clause": e["clause"], "role": e["role"], "score": round(s, 5)}
-                for s, e in hits
+                {"is_number": h.is_number, "score": h.score,
+                 "clause": h.evidence.clause if h.evidence else None,
+                 "role": h.evidence.role if h.evidence else None}
+                for h in hits
             ],
         })
         print(f"  {i}/{len(gold)} evaluated", end="\r", flush=True)

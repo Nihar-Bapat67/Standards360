@@ -1,5 +1,5 @@
 {
-  "evaluated_at": "2026-09-23 17:19:18",
+  "evaluated_at": "2026-09-23 18:36:33",
   "index": {
     "model": "BAAI/bge-m3",
     "rows_indexed": 4130,
@@ -62,7 +62,7 @@
       "mrr@5": 0.312
     }
   },
-  "seconds": 96.1,
+  "seconds": 33.6,
   "records": [
     {
       "id": 1,
@@ -75,33 +75,33 @@
       "returned": [
         {
           "is_number": "IS 1237:2012",
+          "score": 0.032,
           "clause": "5.1",
-          "role": "other",
-          "score": 0.032
+          "role": "other"
         },
         {
           "is_number": "IS 16993:2018",
+          "score": 0.0307,
           "clause": "9.3",
-          "role": "packing",
-          "score": 0.03068
+          "role": "packing"
         },
         {
           "is_number": "IS 1489 (Part 2):2015",
+          "score": 0.03,
           "clause": "4.3",
-          "role": "requirements",
-          "score": 0.03002
+          "role": "requirements"
         },
         {
           "is_number": "IS 2098:1997",
+          "score": 0.03,
           "clause": "3",
-          "role": "other",
-          "score": 0.03
+          "role": "other"
         },
         {
           "is_number": "IS 8043:1991",
+          "score": 0.029,
           "clause": "3",
-          "role": "terminology",
-          "score": 0.02901
+          "role": "terminology"
         }
       ]
     },
@@ -116,33 +116,27 @@
       "returned": [
         {
           "is_number": "IS 1489 (Part 1):2015",
+          "score": 0.0331,
           "clause": "10.2",
-          "role": "packing",
-          "score": 0.03306
+          "role": "packing"
         },
         {
           "is_number": "IS 14862:2000",
+          "score": 0.0284,
           "clause": "3",
-          "role": "other",
-          "score": 0.02837
+          "role": "other"
         },
         {
           "is_number": "IS 1489 (Part 2):2015",
+          "score": 0.0276,
           "clause": "4.1",
-          "role": "requirements",
-          "score": 0.0276
+          "role": "requirements"
         },
         {
           "is_number": "IS 14871:2000",
+          "score": 0.0125,
           "clause": "ANNEX B",
-          "role": "annex",
-          "score": 0.0125
-        },
-        {
-          "is_number": "IS 15658:2021",
-          "clause": "5.1.1",
-          "role": "requirements",
-          "score": 0.01235
+          "role": "annex"
         }
       ]
     },
@@ -157,33 +151,33 @@
       "returned": [
         {
           "is_number": "IS 13008:1990",
+          "score": 0.0294,
           "clause": "3",
-          "role": "other",
-          "score": 0.02944
+          "role": "other"
         },
         {
           "is_number": "IS 459:1992",
+          "score": 0.0289,
           "clause": "2",
-          "role": "references",
-          "score": 0.02885
+          "role": "references"
         },
         {
           "is_number": "IS 2098:1997",
+          "score": 0.0287,
           "clause": "3",
-          "role": "other",
-          "score": 0.02872
+          "role": "other"
         },
         {
           "is_number": "IS 14871:2000",
+          "score": 0.0268,
           "clause": "6",
-          "role": "other",
-          "score": 0.02679
+          "role": "other"
         },
         {
           "is_number": "IS 16993:2018",
+          "score": 0.0259,
           "clause": "9.1.1",
-          "role": "requirements",
-          "score": 0.02594
+          "role": "requirements"
         }
       ]
     },
@@ -198,33 +192,33 @@
       "returned": [
         {
           "is_number": "IS 12330:1988",
+          "score": 0.0328,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.03279
+          "role": "requirements"
         },
         {
           "is_number": "IS 16993:2018",
+          "score": 0.0323,
           "clause": "1.2",
-          "role": "requirements",
-          "score": 0.03229
+          "role": "requirements"
         },
         {
           "is_number": "IS 8229:1986",
+          "score": 0.0286,
           "clause": "1.1",
-          "role": "scope",
-          "score": 0.02857
+          "role": "scope"
         },
         {
           "is_number": "IS 8041:1990",
+          "score": 0.0283,
           "clause": "3",
-          "role": "other",
-          "score": 0.02832
+          "role": "other"
         },
         {
           "is_number": "IS 6909:1990",
+          "score": 0.0278,
           "clause": "ANNEX B",
-          "role": "annex",
-          "score": 0.0278
+          "role": "annex"
         }
       ]
     },
@@ -239,33 +233,33 @@
       "returned": [
         {
           "is_number": "IS 6452",
+          "score": 0.0323,
           "clause": "3",
-          "role": "requirements",
-          "score": 0.03229
+          "role": "requirements"
         },
         {
           "is_number": "IS 8043:1991",
+          "score": 0.032,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.03202
+          "role": "requirements"
         },
         {
           "is_number": "IS 8041:1990",
+          "score": 0.0318,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.03182
+          "role": "requirements"
         },
         {
           "is_number": "IS 15895:2018",
+          "score": 0.0318,
           "clause": "4.4",
-          "role": "test_methods",
-          "score": 0.03178
+          "role": "test_methods"
         },
         {
           "is_number": "IS 6909:1990",
+          "score": 0.0304,
           "clause": "3",
-          "role": "terminology",
-          "score": 0.03041
+          "role": "terminology"
         }
       ]
     },
@@ -280,33 +274,33 @@
       "returned": [
         {
           "is_number": "IS 8042:2015",
+          "score": 0.0333,
           "clause": "4.1",
-          "role": "requirements",
-          "score": 0.03333
+          "role": "requirements"
         },
         {
           "is_number": "IS 1237:2012",
+          "score": 0.0296,
           "clause": "6.1",
-          "role": "requirements",
-          "score": 0.02964
+          "role": "requirements"
         },
         {
           "is_number": "IS 6452",
+          "score": 0.0156,
           "clause": "3",
-          "role": "requirements",
-          "score": 0.01562
+          "role": "requirements"
         },
         {
           "is_number": "IS 1659:2004",
+          "score": 0.0154,
           "clause": "6.3.1",
-          "role": "requirements",
-          "score": 0.01538
+          "role": "requirements"
         },
         {
           "is_number": "IS 9627:1980",
+          "score": 0.0152,
           "clause": "2",
-          "role": "requirements",
-          "score": 0.01515
+          "role": "requirements"
         }
       ]
     },
@@ -321,33 +315,33 @@
       "returned": [
         {
           "is_number": "IS 1489 (Part 1):2015",
+          "score": 0.0328,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.03279
+          "role": "requirements"
         },
         {
           "is_number": "IS 1489 (Part 2):2015",
+          "score": 0.0318,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.03182
+          "role": "requirements"
         },
         {
           "is_number": "IS 16993:2018",
+          "score": 0.0315,
           "clause": "4",
-          "role": "requirements",
-          "score": 0.03151
+          "role": "requirements"
         },
         {
           "is_number": "IS 14862:2000",
+          "score": 0.0308,
           "clause": "3",
-          "role": "other",
-          "score": 0.03083
+          "role": "other"
         },
         {
           "is_number": "IS 14871:2000",
+          "score": 0.0285,
           "clause": "5.1",
-          "role": "other",
-          "score": 0.02853
+          "role": "other"
         }
       ]
     },
@@ -362,33 +356,33 @@
       "returned": [
         {
           "is_number": "IS 383:2016",
+          "score": 0.0331,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03306
+          "role": "scope"
         },
         {
           "is_number": "IS 15658:2021",
+          "score": 0.0308,
           "clause": "5.4.1.2",
-          "role": "requirements",
-          "score": 0.03077
+          "role": "requirements"
         },
         {
           "is_number": "IS 2572:2005",
+          "score": 0.0301,
           "clause": "6.6",
-          "role": "requirements",
-          "score": 0.03008
+          "role": "requirements"
         },
         {
           "is_number": "IS 16993:2018",
+          "score": 0.0272,
           "clause": "9.1.1",
-          "role": "requirements",
-          "score": 0.02724
+          "role": "requirements"
         },
         {
           "is_number": "IS 16651:2017",
+          "score": 0.0259,
           "clause": "6.1",
-          "role": "other",
-          "score": 0.02589
+          "role": "other"
         }
       ]
     },
@@ -403,33 +397,33 @@
       "returned": [
         {
           "is_number": "IS 1489 (Part 1):2015",
+          "score": 0.0333,
           "clause": "4.1",
-          "role": "requirements",
-          "score": 0.03333
+          "role": "requirements"
         },
         {
           "is_number": "IS 1489 (Part 2):2015",
+          "score": 0.0301,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.03009
+          "role": "requirements"
         },
         {
           "is_number": "IS 14862:2000",
+          "score": 0.0273,
           "clause": "3",
-          "role": "other",
-          "score": 0.02727
+          "role": "other"
         },
         {
           "is_number": "IS 1592:2003",
+          "score": 0.0139,
           "clause": "7",
-          "role": "other",
-          "score": 0.01389
+          "role": "other"
         },
         {
           "is_number": "IS 16720:2018",
+          "score": 0.0132,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.01316
+          "role": "requirements"
         }
       ]
     },
@@ -444,33 +438,33 @@
       "returned": [
         {
           "is_number": "IS 1786:2008",
+          "score": 0.0331,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.03306
+          "role": "requirements"
         },
         {
           "is_number": "IS 16651:2017",
+          "score": 0.032,
           "clause": "6.1",
-          "role": "other",
-          "score": 0.032
+          "role": "other"
         },
         {
           "is_number": "IS 7283:1992",
+          "score": 0.0275,
           "clause": "6.3",
-          "role": "other",
-          "score": 0.02753
+          "role": "other"
         },
         {
           "is_number": "IS 13620:1993",
+          "score": 0.0156,
           "clause": "5",
-          "role": "other",
-          "score": 0.01562
+          "role": "other"
         },
         {
           "is_number": "IS 15962:2012",
+          "score": 0.0154,
           "clause": "9.5",
-          "role": "other",
-          "score": 0.01538
+          "role": "other"
         }
       ]
     },
@@ -485,33 +479,33 @@
       "returned": [
         {
           "is_number": "IS 16651:2017",
+          "score": 0.0321,
           "clause": "3.5",
-          "role": "terminology",
-          "score": 0.03205
+          "role": "terminology"
         },
         {
           "is_number": "IS 280:2006",
+          "score": 0.0164,
           "clause": "1",
-          "role": "scope",
-          "score": 0.01639
+          "role": "scope"
         },
         {
           "is_number": "IS 10794:1984",
+          "score": 0.0161,
           "clause": "7.3",
-          "role": "test_methods",
-          "score": 0.01613
+          "role": "test_methods"
         },
         {
           "is_number": "IS 15647:2006",
+          "score": 0.0156,
           "clause": "3.1",
-          "role": "terminology",
-          "score": 0.01562
+          "role": "terminology"
         },
         {
           "is_number": "IS 281:2009",
+          "score": 0.0156,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.01562
+          "role": "requirements"
         }
       ]
     },
@@ -526,33 +520,27 @@
       "returned": [
         {
           "is_number": "IS 15658:2021",
+          "score": 0.0321,
           "clause": "5.5.2",
-          "role": "requirements",
-          "score": 0.03205
+          "role": "requirements"
         },
         {
           "is_number": "IS 1726:1991",
+          "score": 0.0145,
           "clause": "3",
-          "role": "other",
-          "score": 0.01449
+          "role": "other"
         },
         {
           "is_number": "IS 1237:2012",
+          "score": 0.0137,
           "clause": "4",
-          "role": "other",
-          "score": 0.0137
+          "role": "other"
         },
         {
           "is_number": "IS 7283:1992",
+          "score": 0.0133,
           "clause": "6.3",
-          "role": "other",
-          "score": 0.01333
-        },
-        {
-          "is_number": "IS 17682:2021",
-          "clause": "4",
-          "role": "other",
-          "score": 0.01316
+          "role": "other"
         }
       ]
     },
@@ -567,33 +555,33 @@
       "returned": [
         {
           "is_number": "IS 2572:2005",
+          "score": 0.031,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03095
+          "role": "scope"
         },
         {
           "is_number": "IS 15658:2021",
+          "score": 0.0275,
           "clause": "5.4.1.2",
-          "role": "requirements",
-          "score": 0.02753
+          "role": "requirements"
         },
         {
           "is_number": "IS 15155:2020",
+          "score": 0.025,
           "clause": "5.2.2",
-          "role": "requirements",
-          "score": 0.025
+          "role": "requirements"
         },
         {
           "is_number": "IS 8870:1978",
+          "score": 0.0167,
           "clause": "1.1",
-          "role": "scope",
-          "score": 0.01667
+          "role": "scope"
         },
         {
           "is_number": "IS 13349:1992",
+          "score": 0.0164,
           "clause": "6",
-          "role": "requirements",
-          "score": 0.01639
+          "role": "requirements"
         }
       ]
     },
@@ -608,33 +596,33 @@
       "returned": [
         {
           "is_number": "IS 1726:1991",
+          "score": 0.0333,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.03333
+          "role": "requirements"
         },
         {
           "is_number": "IS 2572:2005",
+          "score": 0.0295,
           "clause": "1",
-          "role": "scope",
-          "score": 0.02947
+          "role": "scope"
         },
         {
           "is_number": "IS 15658:2021",
+          "score": 0.0275,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.02753
+          "role": "requirements"
         },
         {
           "is_number": "IS 1237:2012",
+          "score": 0.0154,
           "clause": "4",
-          "role": "other",
-          "score": 0.01538
+          "role": "other"
         },
         {
           "is_number": "IS 774:2021",
+          "score": 0.0152,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.01515
+          "role": "requirements"
         }
       ]
     },
@@ -649,33 +637,33 @@
       "returned": [
         {
           "is_number": "IS 13592:2013",
+          "score": 0.0333,
           "clause": "4.2",
-          "role": "other",
-          "score": 0.03333
+          "role": "other"
         },
         {
           "is_number": "IS 4985:2021",
+          "score": 0.0294,
           "clause": "3.3",
-          "role": "terminology",
-          "score": 0.02941
+          "role": "terminology"
         },
         {
           "is_number": "IS 15450:2022",
+          "score": 0.0291,
           "clause": "9.2.1",
-          "role": "requirements",
-          "score": 0.02908
+          "role": "requirements"
         },
         {
           "is_number": "IS 15778:2007",
+          "score": 0.028,
           "clause": "3",
-          "role": "terminology",
-          "score": 0.02798
+          "role": "terminology"
         },
         {
           "is_number": "IS 13593:1992",
+          "score": 0.0278,
           "clause": "5",
-          "role": "other",
-          "score": 0.02781
+          "role": "other"
         }
       ]
     },
@@ -690,33 +678,33 @@
       "returned": [
         {
           "is_number": "IS 13593:1992",
+          "score": 0.0331,
           "clause": "5",
-          "role": "other",
-          "score": 0.03306
+          "role": "other"
         },
         {
           "is_number": "IS 13592:2013",
+          "score": 0.0311,
           "clause": "4.2",
-          "role": "other",
-          "score": 0.03105
+          "role": "other"
         },
         {
           "is_number": "IS 15450:2022",
+          "score": 0.0292,
           "clause": "7",
-          "role": "other",
-          "score": 0.0292
+          "role": "other"
         },
         {
           "is_number": "IS 12231:1987",
+          "score": 0.0289,
           "clause": "2.1",
-          "role": "terminology",
-          "score": 0.02889
+          "role": "terminology"
         },
         {
           "is_number": "IS 15778:2007",
+          "score": 0.0276,
           "clause": "5",
-          "role": "other",
-          "score": 0.0276
+          "role": "other"
         }
       ]
     },
@@ -731,33 +719,33 @@
       "returned": [
         {
           "is_number": "IS 15778:2007",
+          "score": 0.0331,
           "clause": "7.1.2",
-          "role": "requirements",
-          "score": 0.03306
+          "role": "requirements"
         },
         {
           "is_number": "IS 15450:2022",
+          "score": 0.0309,
           "clause": "1.1",
-          "role": "scope",
-          "score": 0.03089
+          "role": "scope"
         },
         {
           "is_number": "IS 15801:2008",
+          "score": 0.0297,
           "clause": "ANNEX A",
-          "role": "annex",
-          "score": 0.02967
+          "role": "annex"
         },
         {
           "is_number": "IS 13592:2013",
+          "score": 0.0284,
           "clause": "1",
-          "role": "scope",
-          "score": 0.02844
+          "role": "scope"
         },
         {
           "is_number": "IS 2692:1989",
+          "score": 0.0147,
           "clause": "4.1",
-          "role": "other",
-          "score": 0.01471
+          "role": "other"
         }
       ]
     },
@@ -772,33 +760,33 @@
       "returned": [
         {
           "is_number": "IS 13592:2013",
+          "score": 0.0333,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03333
+          "role": "scope"
         },
         {
           "is_number": "IS 12231:1987",
+          "score": 0.0245,
           "clause": "8",
-          "role": "other",
-          "score": 0.02455
+          "role": "other"
         },
         {
           "is_number": "IS 4985:2021",
+          "score": 0.0141,
           "clause": "3.19",
-          "role": "terminology",
-          "score": 0.01408
+          "role": "terminology"
         },
         {
           "is_number": "IS 12818:2010",
+          "score": 0.0137,
           "clause": "8",
-          "role": "other",
-          "score": 0.0137
+          "role": "other"
         },
         {
           "is_number": "IS 1729:2023",
+          "score": 0.0137,
           "clause": "1",
-          "role": "scope",
-          "score": 0.0137
+          "role": "scope"
         }
       ]
     },
@@ -813,33 +801,33 @@
       "returned": [
         {
           "is_number": "IS 1237:2012",
+          "score": 0.0328,
           "clause": "1",
-          "role": "scope",
-          "score": 0.0328
+          "role": "scope"
         },
         {
           "is_number": "IS 8870:1978",
+          "score": 0.0167,
           "clause": "1.1",
-          "role": "scope",
-          "score": 0.01667
+          "role": "scope"
         },
         {
           "is_number": "IS 15834:2020",
+          "score": 0.0152,
           "clause": "3",
-          "role": "requirements",
-          "score": 0.01515
+          "role": "requirements"
         },
         {
           "is_number": "IS 13349:1992",
+          "score": 0.0147,
           "clause": "6",
-          "role": "requirements",
-          "score": 0.01471
+          "role": "requirements"
         },
         {
           "is_number": "IS 9523:2000",
+          "score": 0.0137,
           "clause": "10.1",
-          "role": "other",
-          "score": 0.0137
+          "role": "other"
         }
       ]
     },
@@ -854,33 +842,33 @@
       "returned": [
         {
           "is_number": "IS 10701:2012",
+          "score": 0.0331,
           "clause": "11.8",
-          "role": "test_methods",
-          "score": 0.03306
+          "role": "test_methods"
         },
         {
           "is_number": "IS 2202 (Part 1):2023",
+          "score": 0.0275,
           "clause": "3.2",
-          "role": "test_methods",
-          "score": 0.0275
+          "role": "test_methods"
         },
         {
           "is_number": "IS 2191 (Part 2):2022",
+          "score": 0.0262,
           "clause": "3.2",
-          "role": "test_methods",
-          "score": 0.0262
+          "role": "test_methods"
         },
         {
           "is_number": "IS 4835:1979",
+          "score": 0.0241,
           "clause": "0.2",
-          "role": "requirements",
-          "score": 0.0241
+          "role": "requirements"
         },
         {
           "is_number": "IS 1659:2004",
+          "score": 0.0164,
           "clause": "4",
-          "role": "other",
-          "score": 0.01639
+          "role": "other"
         }
       ]
     },
@@ -895,33 +883,33 @@
       "returned": [
         {
           "is_number": "IS 10701:2012",
+          "score": 0.0328,
           "clause": "8.2",
-          "role": "requirements",
-          "score": 0.03279
+          "role": "requirements"
         },
         {
           "is_number": "IS 5509:2021",
+          "score": 0.0289,
           "clause": "5.2",
-          "role": "requirements",
-          "score": 0.02885
+          "role": "requirements"
         },
         {
           "is_number": "IS 2202 (Part 1):2023",
+          "score": 0.0279,
           "clause": "6.1.5.1",
-          "role": "other",
-          "score": 0.02791
+          "role": "other"
         },
         {
           "is_number": "IS 2191 (Part 1):2022",
+          "score": 0.0156,
           "clause": "3.2",
-          "role": "test_methods",
-          "score": 0.01562
+          "role": "test_methods"
         },
         {
           "is_number": "IS 15931:2012",
+          "score": 0.0154,
           "clause": "4.3",
-          "role": "requirements",
-          "score": 0.01538
+          "role": "requirements"
         }
       ]
     },
@@ -936,33 +924,33 @@
       "returned": [
         {
           "is_number": "IS 10701:2012",
+          "score": 0.0318,
           "clause": "8.2",
-          "role": "requirements",
-          "score": 0.03175
+          "role": "requirements"
         },
         {
           "is_number": "IS 9523:2000",
+          "score": 0.0167,
           "clause": "ANNEX D",
-          "role": "annex",
-          "score": 0.01667
+          "role": "annex"
         },
         {
           "is_number": "IS 14268:2022",
+          "score": 0.0164,
           "clause": "6.2.1.1",
-          "role": "test_methods",
-          "score": 0.01639
+          "role": "test_methods"
         },
         {
           "is_number": "IS 2202 (Part 1):2023",
+          "score": 0.0161,
           "clause": "6.1.5.1",
-          "role": "other",
-          "score": 0.01613
+          "role": "other"
         },
         {
           "is_number": "IS 17634:2022",
+          "score": 0.0156,
           "clause": "ANNEX B",
-          "role": "annex",
-          "score": 0.01562
+          "role": "annex"
         }
       ]
     },
@@ -977,33 +965,33 @@
       "returned": [
         {
           "is_number": "IS 5509:2021",
+          "score": 0.0331,
           "clause": "5.3",
-          "role": "requirements",
-          "score": 0.03306
+          "role": "requirements"
         },
         {
           "is_number": "IS 2095 (Part 2):2022",
+          "score": 0.0262,
           "clause": "6.4",
-          "role": "requirements",
-          "score": 0.02615
+          "role": "requirements"
         },
         {
           "is_number": "IS 17682:2021",
+          "score": 0.0253,
           "clause": "1",
-          "role": "scope",
-          "score": 0.02533
+          "role": "scope"
         },
         {
           "is_number": "IS 2202 (Part 1):2023",
+          "score": 0.0152,
           "clause": "6.1.5.1",
-          "role": "other",
-          "score": 0.01515
+          "role": "other"
         },
         {
           "is_number": "IS 2925:1984",
+          "score": 0.0141,
           "clause": "8.2",
-          "role": "requirements",
-          "score": 0.01408
+          "role": "requirements"
         }
       ]
     },
@@ -1018,33 +1006,33 @@
       "returned": [
         {
           "is_number": "IS 2202 (Part 1):2023",
+          "score": 0.0328,
           "clause": "3.2",
-          "role": "test_methods",
-          "score": 0.0328
+          "role": "test_methods"
         },
         {
           "is_number": "IS 2191 (Part 1):2022",
+          "score": 0.0323,
           "clause": "3.2",
-          "role": "test_methods",
-          "score": 0.03227
+          "role": "test_methods"
         },
         {
           "is_number": "IS 2202 (Part 2):2022",
+          "score": 0.0303,
           "clause": "1",
-          "role": "scope",
-          "score": 0.0303
+          "role": "scope"
         },
         {
           "is_number": "IS 2191 (Part 2):2022",
+          "score": 0.0274,
           "clause": "3.2",
-          "role": "test_methods",
-          "score": 0.02743
+          "role": "test_methods"
         },
         {
           "is_number": "IS 15931:2012",
+          "score": 0.0139,
           "clause": "7.2",
-          "role": "requirements",
-          "score": 0.01389
+          "role": "requirements"
         }
       ]
     },
@@ -1059,33 +1047,33 @@
       "returned": [
         {
           "is_number": "IS 1341:2018",
+          "score": 0.032,
           "clause": "6.4.2",
-          "role": "requirements",
-          "score": 0.032
+          "role": "requirements"
         },
         {
           "is_number": "IS 12817:2020",
+          "score": 0.0314,
           "clause": "8",
-          "role": "requirements",
-          "score": 0.03137
+          "role": "requirements"
         },
         {
           "is_number": "IS 15931:2012",
+          "score": 0.0281,
           "clause": "4.3",
-          "role": "requirements",
-          "score": 0.02814
+          "role": "requirements"
         },
         {
           "is_number": "IS 3843:1995",
+          "score": 0.025,
           "clause": "7",
-          "role": "requirements",
-          "score": 0.02504
+          "role": "requirements"
         },
         {
           "is_number": "IS 13349:1992",
+          "score": 0.0156,
           "clause": "35",
-          "role": "other",
-          "score": 0.01562
+          "role": "other"
         }
       ]
     },
@@ -1100,33 +1088,33 @@
       "returned": [
         {
           "is_number": "IS 1237:2012",
+          "score": 0.0323,
           "clause": "4",
-          "role": "other",
-          "score": 0.03229
+          "role": "other"
         },
         {
           "is_number": "IS 15931:2012",
+          "score": 0.0291,
           "clause": "4.4",
-          "role": "requirements",
-          "score": 0.02905
+          "role": "requirements"
         },
         {
           "is_number": "IS 4835:1979",
+          "score": 0.0277,
           "clause": "1.1",
-          "role": "scope",
-          "score": 0.02769
+          "role": "scope"
         },
         {
           "is_number": "IS 14862:2000",
+          "score": 0.0164,
           "clause": "1.1",
-          "role": "scope",
-          "score": 0.01639
+          "role": "scope"
         },
         {
           "is_number": "IS 2572:2005",
+          "score": 0.0147,
           "clause": "5.2",
-          "role": "other",
-          "score": 0.01471
+          "role": "other"
         }
       ]
     },
@@ -1141,33 +1129,33 @@
       "returned": [
         {
           "is_number": "IS 12701:1996",
+          "score": 0.0333,
           "clause": "3.1",
-          "role": "terminology",
-          "score": 0.03333
+          "role": "terminology"
         },
         {
           "is_number": "IS 774:2021",
+          "score": 0.0147,
           "clause": "8.2",
-          "role": "other",
-          "score": 0.01471
+          "role": "other"
         },
         {
           "is_number": "IS 15450:2022",
+          "score": 0.0139,
           "clause": "9.1",
-          "role": "requirements",
-          "score": 0.01389
+          "role": "requirements"
         },
         {
           "is_number": "IS 12231:1987",
+          "score": 0.0133,
           "clause": "6.3",
-          "role": "other",
-          "score": 0.01333
+          "role": "other"
         },
         {
           "is_number": "IS 2501:1995",
+          "score": 0.013,
           "clause": "12",
-          "role": "packing",
-          "score": 0.01299
+          "role": "packing"
         }
       ]
     },
@@ -1182,33 +1170,33 @@
       "returned": [
         {
           "is_number": "IS 1161:2014",
+          "score": 0.0331,
           "clause": "3",
-          "role": "requirements",
-          "score": 0.03306
+          "role": "requirements"
         },
         {
           "is_number": "IS 277:2018",
+          "score": 0.0156,
           "clause": "7.6",
-          "role": "requirements",
-          "score": 0.01562
+          "role": "requirements"
         },
         {
           "is_number": "IS 15658:2021",
+          "score": 0.0152,
           "clause": "5.5.2",
-          "role": "requirements",
-          "score": 0.01515
+          "role": "requirements"
         },
         {
           "is_number": "IS 15911:2010",
+          "score": 0.0147,
           "clause": "1",
-          "role": "scope",
-          "score": 0.01471
+          "role": "scope"
         },
         {
           "is_number": "IS 1141:1993",
+          "score": 0.0141,
           "clause": "8",
-          "role": "other",
-          "score": 0.01408
+          "role": "other"
         }
       ]
     },
@@ -1223,33 +1211,33 @@
       "returned": [
         {
           "is_number": "IS 1161:2014",
+          "score": 0.0323,
           "clause": "3",
-          "role": "requirements",
-          "score": 0.03229
+          "role": "requirements"
         },
         {
           "is_number": "IS 15450:2022",
+          "score": 0.0301,
           "clause": "1.1",
-          "role": "scope",
-          "score": 0.03009
+          "role": "scope"
         },
         {
           "is_number": "IS 15931:2012",
+          "score": 0.0293,
           "clause": "4.3",
-          "role": "requirements",
-          "score": 0.02932
+          "role": "requirements"
         },
         {
           "is_number": "IS 15647:2006",
+          "score": 0.0289,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.02886
+          "role": "requirements"
         },
         {
           "is_number": "IS 8329:2000",
+          "score": 0.0284,
           "clause": "4",
-          "role": "other",
-          "score": 0.02844
+          "role": "other"
         }
       ]
     },
@@ -1264,33 +1252,33 @@
       "returned": [
         {
           "is_number": "IS 15911:2010",
+          "score": 0.0321,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03205
+          "role": "scope"
         },
         {
           "is_number": "IS 1726:1991",
+          "score": 0.0302,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.03016
+          "role": "requirements"
         },
         {
           "is_number": "IS 281:2009",
+          "score": 0.0288,
           "clause": "11",
-          "role": "sampling",
-          "score": 0.02879
+          "role": "sampling"
         },
         {
           "is_number": "IS 13349:1992",
+          "score": 0.028,
           "clause": "6",
-          "role": "requirements",
-          "score": 0.02803
+          "role": "requirements"
         },
         {
           "is_number": "IS 10701:2012",
+          "score": 0.028,
           "clause": "8.1",
-          "role": "requirements",
-          "score": 0.02797
+          "role": "requirements"
         }
       ]
     },
@@ -1305,33 +1293,33 @@
       "returned": [
         {
           "is_number": "IS 1161:2014",
+          "score": 0.0333,
           "clause": "6.2",
-          "role": "requirements",
-          "score": 0.03333
+          "role": "requirements"
         },
         {
           "is_number": "IS 1545:1994",
+          "score": 0.0328,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03279
+          "role": "scope"
         },
         {
           "is_number": "IS 2501:1995",
+          "score": 0.0298,
           "clause": "8.1",
-          "role": "requirements",
-          "score": 0.02983
+          "role": "requirements"
         },
         {
           "is_number": "IS 739:1992",
+          "score": 0.0276,
           "clause": "1",
-          "role": "scope",
-          "score": 0.02758
+          "role": "scope"
         },
         {
           "is_number": "IS 280:2006",
+          "score": 0.0247,
           "clause": "7",
-          "role": "requirements",
-          "score": 0.02471
+          "role": "requirements"
         }
       ]
     },
@@ -1346,33 +1334,33 @@
       "returned": [
         {
           "is_number": "IS 280:2006",
+          "score": 0.0331,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03306
+          "role": "scope"
         },
         {
           "is_number": "IS 739:1992",
+          "score": 0.03,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03002
+          "role": "scope"
         },
         {
           "is_number": "IS 453:1993",
+          "score": 0.0277,
           "clause": "4.2",
-          "role": "requirements",
-          "score": 0.02769
+          "role": "requirements"
         },
         {
           "is_number": "IS 10794:1984",
+          "score": 0.0249,
           "clause": "1",
-          "role": "scope",
-          "score": 0.02489
+          "role": "scope"
         },
         {
           "is_number": "IS 362:1991",
+          "score": 0.0149,
           "clause": "10",
-          "role": "sampling",
-          "score": 0.01493
+          "role": "sampling"
         }
       ]
     },
@@ -1387,33 +1375,33 @@
       "returned": [
         {
           "is_number": "IS 6003:2010",
+          "score": 0.0328,
           "clause": "4.2",
-          "role": "requirements",
-          "score": 0.0328
+          "role": "requirements"
         },
         {
           "is_number": "IS 16644:2018",
+          "score": 0.0328,
           "clause": "5.2",
-          "role": "requirements",
-          "score": 0.03279
+          "role": "requirements"
         },
         {
           "is_number": "IS 280:2006",
+          "score": 0.031,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03102
+          "role": "scope"
         },
         {
           "is_number": "IS 1673:1984",
+          "score": 0.031,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.03101
+          "role": "requirements"
         },
         {
           "is_number": "IS 12444:2020",
+          "score": 0.0288,
           "clause": "6.1",
-          "role": "other",
-          "score": 0.02881
+          "role": "other"
         }
       ]
     },
@@ -1428,33 +1416,33 @@
       "returned": [
         {
           "is_number": "IS 210:2009",
+          "score": 0.0333,
           "clause": "2",
-          "role": "references",
-          "score": 0.03333
+          "role": "references"
         },
         {
           "is_number": "IS 1729:2023",
+          "score": 0.0315,
           "clause": "5.1",
-          "role": "requirements",
-          "score": 0.0315
+          "role": "requirements"
         },
         {
           "is_number": "IS 1726:1991",
+          "score": 0.0311,
           "clause": "4",
-          "role": "requirements",
-          "score": 0.03105
+          "role": "requirements"
         },
         {
           "is_number": "IS 208:2020",
+          "score": 0.0149,
           "clause": "5.1",
-          "role": "requirements",
-          "score": 0.01493
+          "role": "requirements"
         },
         {
           "is_number": "IS 3564:1995",
+          "score": 0.0145,
           "clause": "14.3.2",
-          "role": "sampling",
-          "score": 0.01449
+          "role": "sampling"
         }
       ]
     },
@@ -1469,33 +1457,33 @@
       "returned": [
         {
           "is_number": "IS 277:2018",
+          "score": 0.0331,
           "clause": "1.2",
-          "role": "scope",
-          "score": 0.03306
+          "role": "scope"
         },
         {
           "is_number": "IS 18385:2023",
+          "score": 0.032,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03202
+          "role": "scope"
         },
         {
           "is_number": "IS 14871:2000",
+          "score": 0.0152,
           "clause": "5.3.2",
-          "role": "other",
-          "score": 0.01515
+          "role": "other"
         },
         {
           "is_number": "IS 17404:2020",
+          "score": 0.0145,
           "clause": "6.3",
-          "role": "requirements",
-          "score": 0.01449
+          "role": "requirements"
         },
         {
           "is_number": "IS 12866:2021",
+          "score": 0.0141,
           "clause": "1.1",
-          "role": "scope",
-          "score": 0.01408
+          "role": "scope"
         }
       ]
     },
@@ -1510,33 +1498,33 @@
       "returned": [
         {
           "is_number": "IS 513 (Part 1):2016",
+          "score": 0.0321,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03205
+          "role": "scope"
         },
         {
           "is_number": "IS 513 (Part 2):2016",
+          "score": 0.0263,
           "clause": "8.5.1",
-          "role": "other",
-          "score": 0.02633
+          "role": "other"
         },
         {
           "is_number": "IS 4397:1999",
+          "score": 0.0263,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.02632
+          "role": "requirements"
         },
         {
           "is_number": "IS 11513:2017",
+          "score": 0.0161,
           "clause": "4",
-          "role": "other",
-          "score": 0.01613
+          "role": "other"
         },
         {
           "is_number": "IS 9485:1980",
+          "score": 0.0152,
           "clause": "4",
-          "role": "other",
-          "score": 0.01515
+          "role": "other"
         }
       ]
     },
@@ -1551,33 +1539,33 @@
       "returned": [
         {
           "is_number": "IS 1079:2017",
+          "score": 0.0331,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.03306
+          "role": "requirements"
         },
         {
           "is_number": "IS 15914:2011",
+          "score": 0.032,
           "clause": "1",
-          "role": "scope",
-          "score": 0.032
+          "role": "scope"
         },
         {
           "is_number": "IS 11513:2017",
+          "score": 0.0273,
           "clause": "1",
-          "role": "scope",
-          "score": 0.02729
+          "role": "scope"
         },
         {
           "is_number": "IS 18385:2023",
+          "score": 0.0258,
           "clause": "3.5",
-          "role": "terminology",
-          "score": 0.02583
+          "role": "terminology"
         },
         {
           "is_number": "IS 5986:2017",
+          "score": 0.0256,
           "clause": "1",
-          "role": "scope",
-          "score": 0.02556
+          "role": "scope"
         }
       ]
     },
@@ -1592,33 +1580,33 @@
       "returned": [
         {
           "is_number": "IS 15647:2006",
+          "score": 0.0328,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.0328
+          "role": "requirements"
         },
         {
           "is_number": "IS 15155:2020",
+          "score": 0.028,
           "clause": "6.1",
-          "role": "other",
-          "score": 0.02797
+          "role": "other"
         },
         {
           "is_number": "IS 15450:2022",
+          "score": 0.0258,
           "clause": "7",
-          "role": "other",
-          "score": 0.02583
+          "role": "other"
         },
         {
           "is_number": "IS 4985:2021",
+          "score": 0.0167,
           "clause": "3.3",
-          "role": "terminology",
-          "score": 0.01667
+          "role": "terminology"
         },
         {
           "is_number": "IS 280:2006",
+          "score": 0.0164,
           "clause": "7",
-          "role": "requirements",
-          "score": 0.01639
+          "role": "requirements"
         }
       ]
     },
@@ -1633,33 +1621,21 @@
       "returned": [
         {
           "is_number": "IS 8329:2000",
+          "score": 0.0331,
           "clause": "4",
-          "role": "other",
-          "score": 0.03306
+          "role": "other"
         },
         {
           "is_number": "IS 9523:2000",
+          "score": 0.0276,
           "clause": "2",
-          "role": "references",
-          "score": 0.02758
+          "role": "references"
         },
         {
           "is_number": "IS 1729:2023",
+          "score": 0.013,
           "clause": "5.1",
-          "role": "requirements",
-          "score": 0.01299
-        },
-        {
-          "is_number": "IS 13593:1992",
-          "clause": "2",
-          "role": "references",
-          "score": 0.01235
-        },
-        {
-          "is_number": "IS 6908:1991",
-          "clause": "2",
-          "role": "references",
-          "score": 0.0122
+          "role": "requirements"
         }
       ]
     },
@@ -1674,33 +1650,27 @@
       "returned": [
         {
           "is_number": "IS 9523:2000",
+          "score": 0.0325,
           "clause": "12.5",
-          "role": "requirements",
-          "score": 0.03254
+          "role": "requirements"
         },
         {
           "is_number": "IS 8329:2000",
+          "score": 0.0306,
           "clause": "6",
-          "role": "other",
-          "score": 0.03062
+          "role": "other"
         },
         {
           "is_number": "IS 1879:2010",
+          "score": 0.0164,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.01639
+          "role": "requirements"
         },
         {
           "is_number": "IS 9294:2023",
+          "score": 0.0141,
           "clause": "13.2.2",
-          "role": "requirements",
-          "score": 0.01408
-        },
-        {
-          "is_number": "IS 1729:2023",
-          "clause": "5.1",
-          "role": "requirements",
-          "score": 0.01235
+          "role": "requirements"
         }
       ]
     },
@@ -1715,33 +1685,33 @@
       "returned": [
         {
           "is_number": "IS 15911:2010",
+          "score": 0.0318,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03182
+          "role": "scope"
         },
         {
           "is_number": "IS 15647:2006",
+          "score": 0.0167,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.01667
+          "role": "requirements"
         },
         {
           "is_number": "IS 513 (Part 1):2016",
+          "score": 0.0159,
           "clause": "3.2.3",
-          "role": "terminology",
-          "score": 0.01587
+          "role": "terminology"
         },
         {
           "is_number": "IS 15962:2012",
+          "score": 0.0156,
           "clause": "1.2",
-          "role": "scope",
-          "score": 0.01562
+          "role": "scope"
         },
         {
           "is_number": "IS 18384:2023",
+          "score": 0.0156,
           "clause": "7.3",
-          "role": "requirements",
-          "score": 0.01562
+          "role": "requirements"
         }
       ]
     },
@@ -1756,33 +1726,33 @@
       "returned": [
         {
           "is_number": "IS 15914:2011",
+          "score": 0.0328,
           "clause": "4.2",
-          "role": "requirements",
-          "score": 0.0328
+          "role": "requirements"
         },
         {
           "is_number": "IS 1079:2017",
+          "score": 0.0306,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.03055
+          "role": "requirements"
         },
         {
           "is_number": "IS 18384:2023",
+          "score": 0.0276,
           "clause": "7.3",
-          "role": "requirements",
-          "score": 0.02758
+          "role": "requirements"
         },
         {
           "is_number": "IS 15647:2006",
+          "score": 0.0256,
           "clause": "5",
-          "role": "other",
-          "score": 0.02556
+          "role": "other"
         },
         {
           "is_number": "IS 3502:2009",
+          "score": 0.0167,
           "clause": "2",
-          "role": "references",
-          "score": 0.01667
+          "role": "references"
         }
       ]
     },
@@ -1797,33 +1767,33 @@
       "returned": [
         {
           "is_number": "IS 5522:2014",
+          "score": 0.0331,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03306
+          "role": "scope"
         },
         {
           "is_number": "IS 15997:2012",
+          "score": 0.0331,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03306
+          "role": "scope"
         },
         {
           "is_number": "IS 13983:1994",
+          "score": 0.0154,
           "clause": "6.1.1",
-          "role": "requirements",
-          "score": 0.01538
+          "role": "requirements"
         },
         {
           "is_number": "IS 9442:1980",
+          "score": 0.0143,
           "clause": "10.1",
-          "role": "requirements",
-          "score": 0.01429
+          "role": "requirements"
         },
         {
           "is_number": "IS 15833:2009",
+          "score": 0.0135,
           "clause": "4",
-          "role": "requirements",
-          "score": 0.01351
+          "role": "requirements"
         }
       ]
     },
@@ -1838,33 +1808,33 @@
       "returned": [
         {
           "is_number": "IS 1161:2014",
+          "score": 0.0325,
           "clause": "5",
-          "role": "requirements",
-          "score": 0.03254
+          "role": "requirements"
         },
         {
           "is_number": "IS 1545:1994",
+          "score": 0.0325,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03252
+          "role": "scope"
         },
         {
           "is_number": "IS 15450:2022",
+          "score": 0.026,
           "clause": "9.2.1",
-          "role": "requirements",
-          "score": 0.02599
+          "role": "requirements"
         },
         {
           "is_number": "IS 6392:2020",
+          "score": 0.0164,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.01639
+          "role": "requirements"
         },
         {
           "is_number": "IS 2501:1995",
+          "score": 0.0161,
           "clause": "8.1",
-          "role": "requirements",
-          "score": 0.01613
+          "role": "requirements"
         }
       ]
     },
@@ -1879,33 +1849,33 @@
       "returned": [
         {
           "is_number": "IS 8329:2000",
+          "score": 0.0306,
           "clause": "12",
-          "role": "requirements",
-          "score": 0.03058
+          "role": "requirements"
         },
         {
           "is_number": "IS 15647:2006",
+          "score": 0.0303,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.03028
+          "role": "requirements"
         },
         {
           "is_number": "IS 1161:2014",
+          "score": 0.0284,
           "clause": "3",
-          "role": "requirements",
-          "score": 0.02837
+          "role": "requirements"
         },
         {
           "is_number": "IS 15833:2009",
+          "score": 0.028,
           "clause": "3",
-          "role": "requirements",
-          "score": 0.02801
+          "role": "requirements"
         },
         {
           "is_number": "IS 6392:2020",
+          "score": 0.0167,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.01667
+          "role": "requirements"
         }
       ]
     },
@@ -1920,33 +1890,33 @@
       "returned": [
         {
           "is_number": "IS 816:1969",
+          "score": 0.0331,
           "clause": "3",
-          "role": "requirements",
-          "score": 0.03306
+          "role": "requirements"
         },
         {
           "is_number": "IS 15769:2008",
+          "score": 0.0328,
           "clause": "1",
-          "role": "scope",
-          "score": 0.0328
+          "role": "scope"
         },
         {
           "is_number": "IS 2879:1998",
+          "score": 0.0161,
           "clause": "1",
-          "role": "other",
-          "score": 0.01613
+          "role": "other"
         },
         {
           "is_number": "IS 6419:1996",
+          "score": 0.0156,
           "clause": "1",
-          "role": "other",
-          "score": 0.01562
+          "role": "other"
         },
         {
           "is_number": "IS 739:1992",
+          "score": 0.0145,
           "clause": "1",
-          "role": "scope",
-          "score": 0.01449
+          "role": "scope"
         }
       ]
     },
@@ -1961,33 +1931,33 @@
       "returned": [
         {
           "is_number": "IS 15965:2012",
+          "score": 0.0314,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.03137
+          "role": "requirements"
         },
         {
           "is_number": "IS 734:1975",
+          "score": 0.031,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.03102
+          "role": "requirements"
         },
         {
           "is_number": "IS 739:1992",
+          "score": 0.03,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03002
+          "role": "scope"
         },
         {
           "is_number": "IS 16011:2012",
+          "score": 0.0273,
           "clause": "7.1",
-          "role": "requirements",
-          "score": 0.02729
+          "role": "requirements"
         },
         {
           "is_number": "IS 362:1991",
+          "score": 0.0167,
           "clause": "10",
-          "role": "sampling",
-          "score": 0.01667
+          "role": "sampling"
         }
       ]
     },
@@ -2002,33 +1972,33 @@
       "returned": [
         {
           "is_number": "IS 5484:2023",
+          "score": 0.0333,
           "clause": "1",
-          "role": "scope",
-          "score": 0.03333
+          "role": "scope"
         },
         {
           "is_number": "IS 16644:2018",
+          "score": 0.0277,
           "clause": "5.2",
-          "role": "requirements",
-          "score": 0.02769
+          "role": "requirements"
         },
         {
           "is_number": "IS 6003:2010",
+          "score": 0.0277,
           "clause": "4.2",
-          "role": "requirements",
-          "score": 0.02765
+          "role": "requirements"
         },
         {
           "is_number": "IS 739:1992",
+          "score": 0.0143,
           "clause": "1",
-          "role": "scope",
-          "score": 0.01429
+          "role": "scope"
         },
         {
           "is_number": "IS 11513:2017",
+          "score": 0.0139,
           "clause": "9.1",
-          "role": "requirements",
-          "score": 0.01389
+          "role": "requirements"
         }
       ]
     },
@@ -2043,33 +2013,33 @@
       "returned": [
         {
           "is_number": "IS 11169 (Part 1):2022",
+          "score": 0.0301,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.03012
+          "role": "requirements"
         },
         {
           "is_number": "IS 16644:2018",
+          "score": 0.0296,
           "clause": "3.13",
-          "role": "terminology",
-          "score": 0.02964
+          "role": "terminology"
         },
         {
           "is_number": "IS 9962:1981",
+          "score": 0.0288,
           "clause": "4.1",
-          "role": "requirements",
-          "score": 0.02878
+          "role": "requirements"
         },
         {
           "is_number": "IS 6003:2010",
+          "score": 0.0281,
           "clause": "4.1",
-          "role": "requirements",
-          "score": 0.02807
+          "role": "requirements"
         },
         {
           "is_number": "IS 1673:1984",
+          "score": 0.0278,
           "clause": "1.1",
-          "role": "requirements",
-          "score": 0.02778
+          "role": "requirements"
         }
       ]
     },
@@ -2084,33 +2054,33 @@
       "returned": [
         {
           "is_number": "IS 3502:2009",
+          "score": 0.0325,
           "clause": "6",
-          "role": "other",
-          "score": 0.03252
+          "role": "other"
         },
         {
           "is_number": "IS 9442:1980",
+          "score": 0.0295,
           "clause": "10.1",
-          "role": "requirements",
-          "score": 0.02947
+          "role": "requirements"
         },
         {
           "is_number": "IS 15914:2011",
+          "score": 0.0276,
           "clause": "4.2",
-          "role": "requirements",
-          "score": 0.0276
+          "role": "requirements"
         },
         {
           "is_number": "IS 1079:2017",
+          "score": 0.0159,
           "clause": "9.1.1",
-          "role": "test_methods",
-          "score": 0.01587
+          "role": "test_methods"
         },
         {
           "is_number": "IS 5986:2017",
+          "score": 0.0156,
           "clause": "8.1.1",
-          "role": "test_methods",
-          "score": 0.01562
+          "role": "test_methods"
         }
       ]
     }

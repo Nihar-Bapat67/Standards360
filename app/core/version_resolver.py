@@ -50,16 +50,39 @@ class VersionResolver:
                                          action="Remove the citation or verify it on the BIS portal.")])
 
         cited_row = self._edition_for_year(editions, parsed.year)
-        current_row = next((r for r in editions if not r["withdrawn"]), None)
+        family_current = next((r for r in editions if not r["withdrawn"]), None)
         chain: List[str] = []
+        chained = None
 
-        # A cited standard may be withdrawn with its successor named; follow that to the end.
-        if current_row is None or (cited_row is not None and cited_row["withdrawn"]):
-            start = cited_row or editions[0]
-            current_row, chain = self._follow_chain(start)
+        # A withdrawn edition may name its successor, which can sit in another family entirely
+        # (IS 8112 was merged into IS 269). Follow that chain, but never let a failed chain throw
+        # away a current edition of the same family: IS 10748:2004 is withdrawn and names nobody,
+        # while IS 10748:2025 is in force.
+        if cited_row is not None and cited_row["withdrawn"]:
+            chained, chain = self._follow_chain(cited_row)
+        elif family_current is None:
+            chained, chain = self._follow_chain(editions[0])
+        current_row = chained or family_current
+        if chained is None:
+            chain = []
+
+        # Republished in parts: no current edition of this exact family, but the same number is in
+        # force as a part. IS 2062:2011 is withdrawn; IS 2062 (Part 1):2025 carries the subject now.
+        split_into = None
+        if current_row is None:
+            siblings = [r for r in self.cat.same_number(parsed) if not r["withdrawn"]]
+            if siblings:
+                split_into = siblings[0]
+                current_row = split_into
 
         warnings = self._warnings(citation, parsed, cited_row, current_row, chain)
-        status = self._status(cited_row, current_row, chain)
+        if split_into is not None:
+            warnings = [VersionWarning(
+                severity=Severity.HIGH, cited=citation,
+                message=f"{parsed.family} has been withdrawn; the subject is now published as "
+                        f"{split_into['is_number']}.",
+                action=f"Replace the citation with {split_into['is_number']}.")]
+        status = self._status(parsed, cited_row, current_row, chain)
         amendments = self.cat.amendments(current_row["record_id"]) if current_row is not None else []
         if amendments:
             latest = amendments[-1]
@@ -119,14 +142,20 @@ class VersionResolver:
             current = nxt
         return (current if not current["withdrawn"] else None), chain
 
-    def _status(self, cited_row, current_row, chain) -> CitationStatus:
+    def _status(self, parsed, cited_row, current_row, chain) -> CitationStatus:
         if cited_row is not None and not cited_row["withdrawn"]:
             return CitationStatus.CURRENT
-        if current_row is not None and len(chain) > 1:
-            return CitationStatus.SUPERSEDED
         if cited_row is not None and cited_row["withdrawn"]:
+            # A replacement exists, whether it was named explicitly or is simply the newer edition.
+            return CitationStatus.SUPERSEDED if current_row is not None else CitationStatus.WITHDRAWN
+        if current_row is None:
             return CitationStatus.WITHDRAWN
-        return CitationStatus.CURRENT if current_row is not None else CitationStatus.WITHDRAWN
+        # The cited year is not in the catalogue. If what is in force carries a different number,
+        # the standard was superseded rather than merely re-dated: IS 8112:1989 to IS 269:2015.
+        current_parsed = parse_any_is(current_row["is_number"] or "")
+        if current_parsed and current_parsed.base_number != parsed.base_number:
+            return CitationStatus.SUPERSEDED
+        return CitationStatus.CURRENT
 
     def _warnings(self, citation, parsed, cited_row, current_row, chain) -> List[VersionWarning]:
         out: List[VersionWarning] = []
