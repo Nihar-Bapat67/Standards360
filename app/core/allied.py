@@ -146,11 +146,14 @@ class AlliedExpander:
             current = target.current or cited_as
             a3 = a3_by_target.pop(norm_is_lookup_key(cited_as), None) \
                 or a3_by_target.pop(norm_is_lookup_key(current), None)
+            # The title must describe the edition we are recommending, not the withdrawn one that
+            # was cited: showing "IS 228 (Part 1):2025 — ... (Withdrawn)" reads as a contradiction.
+            current_row = self.cat.record(target.current_record_id) if target.current_record_id else None
             out.append({
                 "cited_as": cited_as,
                 "current": current,
                 "record_id": target.current_record_id or row["record_id"],
-                "title": row["title"] or "",
+                "title": (current_row["title"] if current_row is not None else row["title"]) or "",
                 "relation": (a3 or {}).get("relation") or self._relation_from_aspect(row["aspect"]),
                 "evidence": (a3 or {}).get("evidence_text"),
                 "superseded": bool(row["withdrawn"]),

@@ -75,8 +75,12 @@ class Composer:
         allowed = [primary] + [s for option in options for s in option.standards]
         allowed += [v.replacement for v in (verdicts or []) if v.replacement]
 
+        # The paragraph speaks about the recommended standard, so only its own warnings go into the
+        # prompt. Warnings about what the tender cited belong in the citation-review table, and
+        # mixing them produced sentences implying the recommended standard had been withdrawn.
+        own_warnings = [w for w in (warnings or []) if w.cited in (primary, top.is_number)]
         explanation, removed = self._explain(requirement, primary, resolved.title or top.title,
-                                             options, warnings or resolved.warnings, allowed)
+                                             options, own_warnings or resolved.warnings, allowed)
 
         return Recommendation(
             primary=primary,

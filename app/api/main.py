@@ -20,12 +20,13 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from fastapi import FastAPI, File, Form, HTTPException, UploadFile
+from fastapi import FastAPI, File, Form, HTTPException, Response, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, ConfigDict, Field
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
+from app.deliver.document import DocumentGenerator  # noqa: E402
 from app.pipeline import AnalysisResult, Pipeline  # noqa: E402
 from contracts.analysis import CertificationAnswer  # noqa: E402
 from contracts.answer import CitationVerdict  # noqa: E402
@@ -163,6 +164,53 @@ async def analyze_upload(file: UploadFile = File(...), persona: str = Form("proc
         Path(temporary).unlink(missing_ok=True)
 
 
+class DocumentRequest(AnalyzeRequest):
+    option_id: str = Field(default="B", description="Citation depth: A, B or C")
+    mode: str = Field(default="report", description="annexure | report")
+    reference: Optional[str] = Field(default=None, description="Tender reference printed on the document")
+
+
+@app.post("/v1/document", response_class=Response)
+def document(request: DocumentRequest):
+    """Generate the PDF for pasted text: a standalone report, or a bare annexure."""
+    if not request.text.strip():
+        raise HTTPException(status_code=422, detail="text must not be empty")
+    pipeline: Pipeline = app.state.pipeline
+    result = pipeline.analyze(text=request.text, persona=request.persona,
+                              language="en" if request.lang == "auto" else request.lang,
+                              answers=request.answers, state=request.state)
+    return _pdf_response(result, request.option_id, request.mode, request.persona,
+                         request.reference, original=None)
+
+
+@app.post("/v1/document/upload", response_class=Response)
+async def document_upload(file: UploadFile = File(...), persona: str = Form("procurement"),
+                          option_id: str = Form("B"), mode: str = Form("annexure"),
+                          reference: Optional[str] = Form(None), state: Optional[str] = Form(None)):
+    """Analyse an uploaded tender and return it with the annexure appended.
+
+    Output mode 1 from the manual: the officer's own document comes back complete, which is how a
+    tender actually carries this information.
+    """
+    suffix = Path(file.filename or "").suffix.lower()
+    if suffix not in ALLOWED_SUFFIXES:
+        raise HTTPException(status_code=415, detail=f"Unsupported file type '{suffix}'")
+    content = await file.read()
+    if len(content) > MAX_UPLOAD_BYTES:
+        raise HTTPException(status_code=413, detail="File larger than 25 MB")
+
+    with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as handle:
+        handle.write(content)
+        temporary = handle.name
+    try:
+        pipeline: Pipeline = app.state.pipeline
+        result = pipeline.analyze(file_path=temporary, persona=persona, state=state)
+        original = temporary if (mode == "annexure" and suffix == ".pdf") else None
+        return _pdf_response(result, option_id, mode, persona, reference, original=original)
+    finally:
+        Path(temporary).unlink(missing_ok=True)
+
+
 @app.get("/v1/standard/{is_number:path}")
 def standard(is_number: str):
     """Everything the catalogue holds about one standard, for a details panel in the interface."""
@@ -180,6 +228,26 @@ def standard(is_number: str):
 
 
 # ---------------------------------------------------------------- shaping
+
+def _pdf_response(result: AnalysisResult, option_id: str, mode: str, persona: str,
+                  reference: Optional[str], original: Optional[str]) -> Response:
+    """Render the document and return it as bytes, leaving nothing on disk."""
+    if result.recommendation.status == "no_match":
+        raise HTTPException(status_code=422,
+                            detail="No standard matched this description, so there is nothing to "
+                                   "put in a document. Add detail or answer the questions first.")
+    with tempfile.TemporaryDirectory() as folder:
+        target = Path(folder) / "standards360.pdf"
+        DocumentGenerator().generate(result, str(target), option_id=option_id, mode=mode,
+                                     original_pdf=original, persona=persona, reference=reference)
+        content = target.read_bytes()
+    name = ("completed_tender.pdf" if mode == "annexure" and original
+            else f"standards_{'annexure' if mode == 'annexure' else 'report'}.pdf")
+    return Response(content=content, media_type="application/pdf",
+                    headers={"Content-Disposition": f'attachment; filename="{name}"',
+                             "X-Primary-Standard": result.recommendation.primary or "",
+                             "X-Confidence": str(result.recommendation.confidence)})
+
 
 def _shape(result: AnalysisResult) -> AnalyzeResponse:
     """Turn the pipeline's internal result into the published contract."""
