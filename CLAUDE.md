@@ -88,7 +88,24 @@ Current phase (23 Sep 2026): **Stage A complete for A1–A3; A4 is next**.
   MTD: IS 1161:2014, IS 280:2006): all four match the right `record_id`, and all four yield a scope
   clause and a references clause. A3 produced no false edges for IS 1161 and found seven genuine
   references that BIS's own cross-reference list omits for IS 1786.
-- Next: freeze the two sectors (CED and MTD proposed), then A4 (index builder), then C1.
+- **A4 done.** `data/index/` holds a bge-m3 index of 4,130 clauses from 261 standards (1024
+  dimensions, 3h58m to build on CPU), plus the BM25 index and the row map.
+- **Gold set frozen.** `eval/gold_set.json` holds 50 validated records (27 CED, 23 MTD), and
+  `eval/run_eval.py` reports Hit@1/3/5 and MRR@5 by sector and difficulty. First measurement:
+  raw Hit@3 0.500, but on the 27 gold standards whose text is in the index, Hit@1 0.889,
+  Hit@3 0.926, MRR@5 0.901. Coverage, not retrieval, is the limit.
+- **C3, C4 and D1 done.** Version and supersession resolution, certification with QCO dates and
+  labs, and the validity guard. All three are catalogue lookups with no model, and are covered by
+  tests that run against the real database.
+- Next: C1 as a service over the A4 index, C2 allied expansion, C5 confidence, then Stage B and D.
+
+### Measured limits of this laptop (i5-1334U, 7.7 GB RAM, no GPU)
+- A2 parsing: about 35 s per standard with 4 workers.
+- A4 embedding with bge-m3: 0.29 clauses/s, so 4,130 clauses take about 4 hours. Index rebuilds
+  must run overnight, and A4 needs an append mode before the corpus grows further.
+- One search query, embed plus BM25 plus fusion: 1.92 s.
+- The manual's `bge-reranker-v2-m3` is not usable here; scoring 25 candidates would take over a
+  minute. C1 should use a small cross-encoder such as `ms-marco-MiniLM-L-6-v2` instead.
 
 Run `python ingest/collect.py stats` for live progress. Update this section when the phase changes.
 
