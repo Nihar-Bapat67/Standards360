@@ -23,9 +23,9 @@ from typing import List, Optional
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
-from app.catalogue import Catalogue  # noqa: E402
+from app.catalogue import Catalogue, parse_any_is  # noqa: E402
 from contracts.retrieval import Evidence, RetrievalResult, RetrievedStandard  # noqa: E402
-from ingest.build_index import load_index, load_model, tokenize  # noqa: E402
+from ingest.build_index import TITLES_FILE, load_index, load_model, tokenize  # noqa: E402
 
 DEFAULT_RERANKER = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 RRF_K = 60          # the constant from the literature; not a tuning knob
@@ -43,6 +43,9 @@ MAX_ATTRIBUTES = 6   # a long attribute list dilutes the query rather than sharp
 MIN_MATCH = 0.02
 IS_NUMBER = re.compile(r"\bIS\s*[:\s\-]?\s*\d{2,5}", re.IGNORECASE)
 DROP_FIELDS = ("quantity", "delivery", "rate", "price")
+CITED_FROM_TOP = 3        # only the best clauses are trusted to name the authority
+CITED_RANK_PENALTY = 4    # a citation counts as a weaker vote than a clause or a title match
+CITED_LIMIT = 3
 
 
 class RetrievalEngine:
@@ -53,6 +56,7 @@ class RetrievalEngine:
         self.cat = catalogue or Catalogue.shared()
         self._reranker_name = reranker
         self._reranker = None
+        self._title_index = None
         if warm:
             self.warm_up()
 
@@ -126,6 +130,7 @@ class RetrievalEngine:
         rows = [row for row, _ in fused[:POOL]]
         scores = self._rerank(query, rows) if (rerank and rows) else None
         result = self._roll_up(query, fused, rows, scores, top_k)
+        result.standards = self._merge_titles(query, result.standards, top_k)
         result.considered_clauses = len(fused)
         result.reranked = scores is not None
         result.seconds = round(time.time() - started, 2)
@@ -164,16 +169,116 @@ class RetrievalEngine:
             fused[row] = fused.get(row, 0.0) + 1 / (RRF_K + rank)
         return sorted(fused.items(), key=lambda kv: -kv[1])
 
-    def _rerank(self, query: str, rows: List[int]) -> Optional[List[float]]:
+    def _rerank(self, query: str, rows: Optional[List[int]],
+                texts: Optional[List[str]] = None) -> Optional[List[float]]:
+        """Absolute 0..1 scores for candidate rows, or for texts supplied directly (title matches)."""
         if not self._reranker_name:
             return None
         if self._reranker is None:
             from sentence_transformers import CrossEncoder
             self._reranker = CrossEncoder(self._reranker_name)
-        pairs = [(query, self._text_of(row)[:RERANK_CHARS]) for row in rows]
+        candidates = texts if texts is not None else [self._text_of(row) for row in rows or []]
+        if not candidates:
+            return []
+        pairs = [(query, text[:RERANK_CHARS]) for text in candidates]
         raw = self._reranker.predict(pairs)
         # Cross-encoder output is a logit; map it to 0..1 so thresholds elsewhere are meaningful.
         return [1 / (1 + math.exp(-float(s))) for s in raw]
+
+    def _cited_by(self, standards: List[RetrievedStandard]) -> List[str]:
+        """Current editions of the standards cited inside the best clauses, most cited first."""
+        counts = {}
+        for standard in standards:
+            text = standard.evidence.quote if standard.evidence else ""
+            for match in IS_NUMBER.finditer(text or ""):
+                resolved = self.cat.family(parse_any_is(match.group(0))) if parse_any_is(match.group(0)) else []
+                current = next((row for row in resolved if not row["withdrawn"]), None)
+                if current is not None and current["is_number"] != standard.is_number:
+                    counts[current["is_number"]] = counts.get(current["is_number"], 0) + 1
+        return [number for number, _ in sorted(counts.items(), key=lambda kv: -kv[1])][:CITED_LIMIT]
+
+    def _titles(self):
+        """The BM25 index over every current standard's title, loaded once."""
+        if self._title_index is None and TITLES_FILE.exists():
+            import pickle
+            self._title_index = pickle.loads(TITLES_FILE.read_bytes())
+        return self._title_index
+
+    def _merge_titles(self, query: str, standards: List[RetrievedStandard],
+                      top_k: int) -> List[RetrievedStandard]:
+        """Merge title matches with the clause matches, by rank.
+
+        The clause index covers 266 standards; the catalogue holds 24,101 current ones. Without this
+        step a query about anything outside the indexed text lands on whichever clause happens to
+        mention the product, which is how "43 grade ordinary Portland cement" returned a flooring
+        tile standard. A title match has no clause to quote, so it is marked `source="title"` and
+        C5 treats it as weaker evidence.
+        """
+        import numpy as np
+
+        index = self._titles()
+        if not index:
+            return standards
+
+        scores = index["bm25"].get_scores(tokenize(query))
+        order = [int(i) for i in np.argsort(scores)[::-1][:POOL] if scores[i] > 0]
+        if not order:
+            return standards
+
+        fused = {}
+        for rank, standard in enumerate(standards):
+            fused[standard.is_number] = fused.get(standard.is_number, 0.0) + 1 / (RRF_K + rank)
+
+        # A third signal: the standards that the best-matching clauses point at. When a clause says
+        # "ordinary Portland cement conforming to IS 269", the corpus is naming the authority for the
+        # product even though we hold no text for it. Counted as a weak vote, below the clause and
+        # title lists, because a clause cites many standards for many reasons.
+        for rank, cited in enumerate(self._cited_by(standards[:CITED_FROM_TOP])):
+            fused[cited] = fused.get(cited, 0.0) + 1 / (RRF_K + rank + CITED_RANK_PENALTY)
+        title_rows = {}
+        for rank, position in enumerate(order):
+            row = index["rows"][position]
+            fused[row["is_number"]] = fused.get(row["is_number"], 0.0) + 1 / (RRF_K + rank)
+            title_rows.setdefault(row["is_number"], row)
+
+        by_number = {s.is_number: s for s in standards}
+        extras = []
+        for number in fused:
+            if number in by_number:
+                continue
+            row = title_rows.get(number)
+            if row is None:
+                # Reached through a citation inside a matching clause rather than the title index.
+                catalogue_row = next((r for r in self.cat.family(parse_any_is(number) or "")
+                                      if r["is_number"] == number), None)
+                if catalogue_row is None:
+                    continue
+                row = {"record_id": catalogue_row["record_id"], "is_number": number,
+                       "title": catalogue_row["title"] or "",
+                       "department": (catalogue_row["department"] or "")[:3], "context": ""}
+                extras.append((number, row, "cited"))
+            else:
+                extras.append((number, row, "title"))
+
+        matches = self._rerank(query, None, texts=[
+            f"{row['is_number']} {row['title']} {row.get('context', '')}" for _, row, _ in extras
+        ]) if extras else []
+
+        for (number, row, source), match in zip(extras, matches or [None] * len(extras)):
+            by_number[number] = RetrievedStandard(
+                is_number=number, record_id=row["record_id"], title=row["title"],
+                department=row["department"], source=source,
+                score=round(fused[number], 5), fusion_score=round(fused[number], 5),
+                match=round(float(match), 4) if match is not None else None,
+                evidence=None)
+
+        # The minimum-match rule belongs to clause hits only. A cross-encoder scores a short title
+        # far lower than a paragraph, so applying the same bar would discard the right answer:
+        # IS 269:2015 ranks second in the title index for "ordinary Portland cement 43 grade" and
+        # would otherwise be dropped. BM25 having ranked the title at all is the relevance gate here.
+        merged = sorted(by_number.values(), key=lambda s: -fused.get(s.is_number, 0.0))
+        return [s for s in merged
+                if s.source != "clause" or s.match is None or s.match >= MIN_MATCH][:top_k]
 
     def _text_of(self, row: int) -> str:
         entry = self.id_map[row]

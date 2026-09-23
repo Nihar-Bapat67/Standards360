@@ -97,7 +97,16 @@ Current phase (23 Sep 2026): **Stage A complete for A1–A3; A4 is next**.
 - **C3, C4 and D1 done.** Version and supersession resolution, certification with QCO dates and
   labs, and the validity guard. All three are catalogue lookups with no model, and are covered by
   tests that run against the real database.
-- Next: C1 as a service over the A4 index, C2 allied expansion, C5 confidence, then Stage B and D.
+- **Stage B, C and D built** except B2, D3 and D5: B1, B3, B4, B5, C1–C5, D1, D2 and the D4 API all
+  work and are covered by 85 tests. `app/pipeline.py` wires them in the manual's order and the API
+  exposes one contract at `POST /v1/analyze`.
+- **Retrieval has three signals, not two.** Besides the clause index, C1 searches a BM25 index over
+  the titles of all 24,101 current standards, and counts the standards cited inside the best-matching
+  clauses. That matters because the clause index covers 266 standards: without it, a query about
+  anything else landed on whichever clause happened to mention the product. Measured on the gold set,
+  raw Hit@3 rose from 0.58 to 0.82 and MRR@5 from 0.58 to 0.72. A title or citation match carries no
+  clause to quote, so it is labelled and C5 caps its confidence below "high".
+- Next: D3 (annexure PDF), D5 (interface), B2 (multilingual).
 
 ### Measured limits of this laptop (i5-1334U, 7.7 GB RAM, no GPU)
 - A2 parsing: about 35 s per standard with 4 workers.

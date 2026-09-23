@@ -35,6 +35,7 @@ FAISS_FILE = INDEX_DIR / "faiss.index"
 BM25_FILE = INDEX_DIR / "bm25.pkl"
 ID_MAP_FILE = INDEX_DIR / "id_map.json"
 META_FILE = INDEX_DIR / "meta.json"
+TITLES_FILE = INDEX_DIR / "titles.pkl"
 
 # The manual's model. A smaller multilingual model can be passed with --model on a laptop.
 DEFAULT_MODEL = "BAAI/bge-m3"
@@ -45,6 +46,44 @@ TOKEN = re.compile(r"[a-z0-9]+(?:\.[0-9]+)?")
 def tokenize(text):
     """Lowercase word tokens, keeping IS numbers and ratings like 'is1786', '43', 'ip66' intact."""
     return TOKEN.findall(text.lower())
+
+
+def build_title_index():
+    """A keyword index over the title of every current standard.
+
+    The clause index only covers standards whose text we hold, which is a minority of the catalogue,
+    and a query about anything else lands on whichever clause happens to mention the product. BIS's
+    own titles are short, precise and cover all 24,101 current standards, so they give the engine
+    something correct to find when the text is missing. A title match carries no clause evidence and
+    is labelled as such downstream.
+
+    Titles alone are indexed with BM25 rather than embedded: embedding 24,101 titles would take a
+    day on this laptop, while BM25 builds in seconds and matches product names well.
+    """
+    import pickle
+
+    from rank_bm25 import BM25Okapi
+
+    con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+    rows = []
+    for record_id, is_number, title, department, group, sub_group in con.execute(
+            "SELECT record_id, is_number, title, department, group_name, sub_group "
+            "FROM standards WHERE withdrawn = 0 AND title <> ''"):
+        rows.append({"record_id": record_id, "is_number": is_number, "title": title,
+                     "department": (department or "")[:3],
+                     # The group names carry vocabulary the title omits ("Cement and its Testing"),
+                     # which helps a plain-language query find the right family.
+                     "context": " ".join(x for x in (group, sub_group) if x)})
+    con.close()
+    if not rows:
+        raise SystemExit("No current standards in the catalogue; run `python ingest/collect.py load`.")
+
+    corpus = [tokenize(f"{r['is_number']} {r['title']} {r['context']}") for r in rows]
+    INDEX_DIR.mkdir(parents=True, exist_ok=True)
+    TITLES_FILE.write_bytes(pickle.dumps({"bm25": BM25Okapi(corpus), "rows": rows}))
+    print(f"Title index: {len(rows)} current standards -> {TITLES_FILE} "
+          f"({TITLES_FILE.stat().st_size / 1e6:.1f} MB)")
+    return len(rows)
 
 
 def standard_titles():
@@ -277,11 +316,17 @@ def main():
     p.add_argument("--min-chars", type=int, default=40, help="skip clauses shorter than this")
     p.add_argument("--include-foreword", action="store_true",
                    help="index foreword clauses as well (they describe revision history, not requirements)")
+    p.add_argument("--titles-only", action="store_true",
+                   help="rebuild only the title index over every current standard (seconds, no embedding)")
     p.add_argument("--append", action="store_true",
                    help="keep the existing vectors and embed only clauses that are not yet indexed")
     p.add_argument("--query", help="search the existing index instead of building it")
     p.add_argument("--top", type=int, default=5, help="results to show with --query")
     args = p.parse_args()
+
+    if args.titles_only:
+        build_title_index()
+        return
 
     if args.query:
         for i, (score, e) in enumerate(search(args.query, args.top), 1):

@@ -25,6 +25,11 @@ class RetrievedStandard(BaseModel):
     record_id: Optional[int] = None
     title: str = ""
     department: str = ""
+    source: str = Field(default="clause",
+                        description="clause: matched on indexed text, with a clause as evidence. "
+                                    "title: matched on the standard's catalogue title only, because "
+                                    "no text is held for it. cited: named as the authority inside a "
+                                    "clause that matched. Only 'clause' carries quotable evidence")
     score: float = Field(..., description="Ranking score: reranker probability, or the fusion score")
     fusion_score: float = 0.0
     match: Optional[float] = Field(default=None,

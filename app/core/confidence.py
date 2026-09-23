@@ -36,6 +36,7 @@ W_MATCH, W_MARGIN, W_FIELDS, W_GRAPH = 0.45, 0.20, 0.25, 0.10
 MARGIN_FULL = 0.30      # a lead of this much over the runner-up counts as decisive
 HIGH, MEDIUM = 0.75, 0.50
 ASK_BELOW = 0.60        # B5 asks a question below this, or when a required field is missing
+TITLE_ONLY_CEILING = 0.74   # matched on the catalogue title, with no clause to quote: never "high"
 
 
 class ConfidenceResult(BaseModel):
@@ -82,6 +83,14 @@ class ConfidenceScorer:
         s4 = float(self._graph_agrees(standards, allied))
 
         score = round(W_MATCH * s1 + W_MARGIN * s2 + W_FIELDS * s3 + W_GRAPH * s4, 3)
+
+        # A standard matched only on its catalogue title has no clause behind it, so the recommended
+        # number may be right while nothing can be quoted to show why. That is worth less than a
+        # clause match and must never read as high confidence.
+        title_only = getattr(top, "source", "clause") == "title"
+        if title_only:
+            score = round(min(score, TITLE_ONLY_CEILING), 3)
+
         band = "high" if score >= HIGH else ("medium" if score >= MEDIUM else "low")
         missing = [f for f in required if f not in present]
         return ConfidenceResult(
@@ -89,7 +98,7 @@ class ConfidenceScorer:
             band=band,
             should_ask=score < ASK_BELOW or bool(missing),
             signals={"s1": round(s1, 3), "s2": round(s2, 3), "s3": round(s3, 3), "s4": s4},
-            drivers=self._drivers(top, s1, s2, s3, s4, missing),
+            drivers=self._drivers(top, s1, s2, s3, s4, missing, title_only),
         )
 
     # ---------------------------------------------------------------- internals
@@ -114,8 +123,11 @@ class ConfidenceScorer:
         return bool(expanded & others)
 
     @staticmethod
-    def _drivers(top, s1, s2, s3, s4, missing) -> List[str]:
+    def _drivers(top, s1, s2, s3, s4, missing, title_only=False) -> List[str]:
         drivers = []
+        if title_only:
+            drivers.append(f"matched on the catalogue title of {top.is_number}; we hold no text for "
+                           f"it, so no clause can be quoted")
         role = top.evidence.role if top.evidence else ""
         if s1 >= 0.9:
             drivers.append(f"the {role or 'matched'} clause of {top.is_number} matches the description closely")
