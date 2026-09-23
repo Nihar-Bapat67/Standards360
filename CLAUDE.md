@@ -134,6 +134,20 @@ Run `python ingest/collect.py stats` for live progress. Update this section when
 - Data (`data/parsed/`, `clauses.json`, `edges.csv`) is never committed. `.gitignore` also blocks
   `catalogue/`, `pylib/`, `*.pdf` and `*.db`.
 
+### A2 text acquisition and A4 index
+- `ingest/fetch_texts.py` selects the current-edition standards of the frozen sectors and downloads
+  their PDFs from the archive.org `gov.in.is.*` collection into `data/raw/bis_pdf/`, writing
+  `data/text_manifest.json`. It never downloads an older edition. Coverage for the two sectors:
+  2,698 standards have a current-edition text (CED 1,536, MTD 1,162) and 961 do not.
+  `--priority` limits it to gold-set members, QCO products and standards cited five or more times.
+- `ingest/build_index.py` is A4. It reads A2's `clauses.json` and writes `data/index/`:
+  `faiss.index` (cosine over normalised vectors), `bm25.pkl`, `id_map.json` (row → record_id,
+  IS number, clause, role, pages, text) and `meta.json` (model, filters, counts). Clauses flagged
+  `standard_withdrawn` or `text_version_differs_from_current` are never indexed, foreword clauses
+  are excluded by default, and what was skipped is reported. `--query` runs a dense + BM25 + RRF
+  smoke test so the index can be checked on its own; the real retrieval is C1's job.
+- Embedding model: `BAAI/bge-m3` as the manual specifies, overridable with `--model`.
+
 ### A3 — mostly replaced by BIS data
 - BIS publishes each standard's cross-references as structured links, so relationships come from
   the `xrefs` table rather than Clause 2 extraction. The edge type comes from the **cited
@@ -168,6 +182,18 @@ Run `python ingest/collect.py stats` for live progress. Update this section when
   standards that cite the collected ones. The full crawl fills these in.
 - Certification is blank or "None" for most standards; only 186 of 2,808 say "Mandatory
   Certification". Blank means "not stated", not "not required".
+
+### Sector freeze (decided by the user, 23 Sep 2026)
+- The two sectors are **CED (Civil Engineering)** and **MTD (Metallurgical Engineering)**. This
+  supersedes manual §11, which named cement and construction materials plus one electrical category.
+- Reason, measured on our own catalogue: CED has the best data (79% of its current standards are
+  usable, 94 QCO standards, 8.9 references each, the richest allied-standard network) and MTD is
+  second (69% usable) while holding the most compulsory-certification standards of any department
+  (154, of which 145 have text and labs). ETD was rejected at 36% usable.
+- The two sectors interlock, which is the point: a real construction tender needs cement and
+  aggregates from CED together with reinforcement bars, structural steel and tubes from MTD, so one
+  tender demonstrates retrieval, allied expansion, version checking and certification across both.
+- MTD has no BIS category page, so its share of the gold set must be written by hand.
 
 ### Trust over coverage (decided by the user, 19 Sep 2026)
 - The prototype recommends only standards whose information is accurate and current. Where
@@ -209,9 +235,17 @@ Run `python ingest/collect.py stats` for live progress. Update this section when
 ## Repo layout
 
 ```
-docs/               SE lifecycle artifacts, numbered by phase
-docs/artifacts/     HTML versions: build manual, concept prerequisites, team walkthrough, architecture
-ingest/collect.py   A1 collector
-data/               collected data and catalogue.db (git-ignored)
+docs/                     SE lifecycle artifacts, numbered by phase
+docs/artifacts/           HTML versions: build manual, concept prerequisites, team walkthrough
+contracts/                Pydantic models for clauses and edges
+common/is_normalizer.py   IS-number normalisation shared by A2, A3 and C3
+ingest/collect.py         A1 collector
+ingest/fetch_texts.py     current-edition PDFs for the frozen sectors (A2 input)
+ingest/parse_clauses.py   A2 parser and clause splitter
+ingest/parsing/           A2 internals: segmenter, heading detector, splitter, roles, tables
+ingest/extract_refs.py    A3 cross-reference extractor
+ingest/build_index.py     A4 index builder
+tests/                    A2 and A3 tests
+data/                     collected data, catalogue.db and data/index (git-ignored)
 requirements.txt
 ```

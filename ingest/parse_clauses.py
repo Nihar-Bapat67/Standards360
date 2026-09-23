@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.abspath("."))
 import argparse
 import json
 import logging
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
@@ -76,8 +77,9 @@ def parse_individual_pdf(
     canon_is, family, year = parse_is_identifier(sample_text)
     if not canon_is or not family:
         # Fallback to filename (e.g. is269_2013.pdf)
+        # File names come in as 'is.1786.2008' or 'is_1786_2008'; both separators become spaces.
         fname = pdf_path.stem
-        m_fn = parse_is_identifier(fname.replace("_", " "))
+        m_fn = parse_is_identifier(re.sub(r"[._]", " ", fname))
         if m_fn[0]:
             canon_is, family, year = m_fn
 

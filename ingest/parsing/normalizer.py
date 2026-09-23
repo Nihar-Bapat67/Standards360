@@ -104,7 +104,7 @@ def parse_is_identifier(text: str) -> Tuple[Optional[str], Optional[str], Option
     pattern = re.compile(
         r"(?:SUMMARY\s+OF\s+)?\bIS\b\s*[:\s]?\s*(\d+)"
         r"(\s*\(\s*(?:PART|SEC|SECTION)\b[^\)]*\))?"
-        r"(?:\s*[:\-]\s*(\d{4})|\s*\(\s*(\d{4})\s*\))?",
+        r"(?:\s*[:\-]\s*(\d{4})|\s*\(\s*(\d{4})\s*\)|\s+(\d{4})\b)?",
         re.IGNORECASE
     )
     m = pattern.search(text)
@@ -119,7 +119,7 @@ def parse_is_identifier(text: str) -> Tuple[Optional[str], Optional[str], Option
     raw_family = re.sub(r"\(\s*SEC(?:TION)?\s*([\w/]+)\s*\)", lambda match: f"(Sec {match.group(1).upper()})", raw_family, flags=re.IGNORECASE)
     raw_family = re.sub(r"\s+", " ", raw_family).strip()
 
-    year_str = m.group(3) or m.group(4)
+    year_str = m.group(3) or m.group(4) or m.group(5)
     year = int(year_str) if year_str else None
 
     if year:
