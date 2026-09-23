@@ -110,9 +110,30 @@ def build(args):
     for reason, n in skipped.most_common():
         print(f"  skipped {n:>6}  {reason}")
 
-    texts = [searchable_text(c, t[1]) for c, t in selected]
+    # Appending keeps the existing vectors and embeds only what is new. Embedding is the whole cost
+    # of this module, about 0.29 clauses a second on a CPU, so adding 300 clauses to an index of
+    # 4,130 takes under twenty minutes instead of four hours.
+    existing_map, existing_index = [], None
+    if args.append and FAISS_FILE.exists() and ID_MAP_FILE.exists():
+        existing_map = json.loads(ID_MAP_FILE.read_text(encoding="utf-8"))
+        existing_index = faiss.read_index(str(FAISS_FILE))
+        known = {row.get("clause_id") for row in existing_map}
+        fresh = [(c, t) for c, t in selected if c.get("clause_id") not in known]
+        print(f"Append mode: {len(existing_map)} clauses already indexed, {len(fresh)} new to embed.")
+        if not fresh:
+            print("Nothing new to add; the index already covers every clause.")
+            return json.loads(META_FILE.read_text(encoding="utf-8"))
+        # The ordering contract: existing rows keep their positions, new rows are appended after.
+        by_clause = {c.get("clause_id"): (c, t) for c, t in selected}
+        selected = [by_clause.get(row.get("clause_id"), (row, (row.get("catalogue_is_number"),
+                                                              row.get("standard_title"), "")))
+                    for row in existing_map] + fresh
+        texts_all = [searchable_text(c, t[1]) for c, t in selected]
+        texts = [searchable_text(c, t[1]) for c, t in fresh]
+    else:
+        texts = texts_all = [searchable_text(c, t[1]) for c, t in selected]
 
-    print(f"Loading embedding model {args.model} ...", flush=True)
+    print(f"Loading embedding model {args.model} to embed {len(texts)} clauses ...", flush=True)
     started = time.time()
     model = SentenceTransformer(args.model)
 
@@ -134,10 +155,15 @@ def build(args):
 
     # Inner product on normalised vectors is cosine similarity. Flat index: exact, and fast enough
     # well past this corpus size; swap for IVF only when the corpus stops fitting in memory.
-    index = faiss.IndexFlatIP(dim)
-    index.add(vectors)
+    if existing_index is not None:
+        index = existing_index
+        index.add(vectors)
+    else:
+        index = faiss.IndexFlatIP(dim)
+        index.add(vectors)
 
-    bm25 = BM25Okapi([tokenize(t) for t in texts])
+    # BM25 is cheap to rebuild and must cover every row in the same order as the vectors.
+    bm25 = BM25Okapi([tokenize(t) for t in texts_all])
 
     id_map = []
     for row, (c, (is_number, title, dept)) in enumerate(selected):
@@ -251,6 +277,8 @@ def main():
     p.add_argument("--min-chars", type=int, default=40, help="skip clauses shorter than this")
     p.add_argument("--include-foreword", action="store_true",
                    help="index foreword clauses as well (they describe revision history, not requirements)")
+    p.add_argument("--append", action="store_true",
+                   help="keep the existing vectors and embed only clauses that are not yet indexed")
     p.add_argument("--query", help="search the existing index instead of building it")
     p.add_argument("--top", type=int, default=5, help="results to show with --query")
     args = p.parse_args()

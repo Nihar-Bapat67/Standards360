@@ -36,7 +36,11 @@ QUOTE_CHARS = 300   # short extract only: BIS text is never redistributed in ful
 # is about in its opening sentence.
 RERANK_CHARS = 400
 MAX_ATTRIBUTES = 6   # a long attribute list dilutes the query rather than sharpening it
-MIN_MATCH = 0.10     # below this the clause does not answer the query; say nothing rather than guess
+# Only absurd matches are dropped here. A higher bar loses correct answers: IS 8041:1990 is the
+# right standard for "quick setting high early strength cement" and scores 0.055, while the next
+# candidate scores 0.011. What protects the user from a weak answer is C5's confidence and B5's
+# question, not a hard cut-off in retrieval.
+MIN_MATCH = 0.02
 IS_NUMBER = re.compile(r"\bIS\s*[:\s\-]?\s*\d{2,5}", re.IGNORECASE)
 DROP_FIELDS = ("quantity", "delivery", "rate", "price")
 
