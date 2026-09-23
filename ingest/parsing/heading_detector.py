@@ -133,6 +133,20 @@ def detect_heading_line(line_text: str, is_bold: bool, font_size: float, page_nu
     if remainder.startswith((")", "]", "/", ":")):
         return None
 
+    # Gate 3b: a clause heading is words, not figures. Table rows ('12 16 20 25 28 32 36 40 12.6')
+    # and amendment banners ('1S0 No. NO, i) Mechanical testing') otherwise pass as headings.
+    head = remainder[:60]
+    letters = sum(c.isalpha() for c in head)
+    digits = sum(c.isdigit() for c in head)
+    if not remainder or letters < 3 or digits > letters:
+        return None
+
+    # The first word of a heading is a word. This rejects OCR artefacts such as '1S0 No.'
+    # (a misread 'ISO No.' inside the foreword) being read as clause 1 titled 'S0 No.'.
+    first_word = re.sub(r"[^A-Za-z0-9]", "", remainder.split()[0])
+    if any(ch.isdigit() for ch in first_word) or sum(ch.isalpha() for ch in first_word) < 2:
+        return None
+
     # Gate 4: Typography
     has_caps = remainder.isupper() if remainder else False
     if not is_bold and not has_caps and font_size < 10.5 and not consumed_next_line:

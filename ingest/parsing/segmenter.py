@@ -71,8 +71,12 @@ def load_catalogue_lookup(db_path: str) -> Tuple[Dict[str, Dict[str, Any]], Dict
             "year": year,
         }
         
-        # Key 1: exact normalized number with year
-        exact_lookup[is_lookup_key(num)] = entry
+        # Key 1: exact normalized number with year. BIS publishes the same number on more than one
+        # record, so never let a withdrawn record displace the current one for the same key.
+        key = is_lookup_key(num)
+        existing = exact_lookup.get(key)
+        if existing is None or (existing["withdrawn"] and not entry["withdrawn"]):
+            exact_lookup[key] = entry
         
         # Key 2: family only without year
         if m:

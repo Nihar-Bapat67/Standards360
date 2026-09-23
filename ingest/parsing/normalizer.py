@@ -98,24 +98,28 @@ def parse_is_identifier(text: str) -> Tuple[Optional[str], Optional[str], Option
       'IS 269 : 1989 ORDINARY PORTLAND CEMENT' -> ('IS 269:1989', 'IS 269', 1989)
       'IS 1489 (PART 1) : 1991 PORTLAND...' -> ('IS 1489 (Part 1):1991', 'IS 1489 (Part 1)', 1991)
     """
-    # Pattern for IS number with word boundary on IS so 'BIS' is not matched
+    # Pattern for IS number with word boundary on IS so 'BIS' is not matched.
+    # Only a Part/Section group belongs to the family; a bare '(2015)' is the year, not a part,
+    # otherwise 'IS 1786 (2008)' would canonicalise as the family 'IS 1786 (2008)'.
     pattern = re.compile(
-        r"(?:SUMMARY\s+OF\s+)?(?:\bIS\b\s*[:\s]?\s*(\d+(?:\s*\([^\)]+\))?))(?:\s*[:\-]\s*(\d{4}))?",
+        r"(?:SUMMARY\s+OF\s+)?\bIS\b\s*[:\s]?\s*(\d+)"
+        r"(\s*\(\s*(?:PART|SEC|SECTION)\b[^\)]*\))?"
+        r"(?:\s*[:\-]\s*(\d{4})|\s*\(\s*(\d{4})\s*\))?",
         re.IGNORECASE
     )
     m = pattern.search(text)
     if not m:
         return None, None, None
 
-    num_part = m.group(1).strip()
-    raw_family = f"IS {num_part}"
-    
+    raw_family = f"IS {m.group(1).strip()}{m.group(2) or ''}"
+
     # Normalize Part notation
-    raw_family = re.sub(r"\(PART\s*(\w+)\)", lambda match: f"(Part {match.group(1).upper()})", raw_family, flags=re.IGNORECASE)
-    raw_family = re.sub(r"\(PART\s*(\w+)\s+AND\s+(\w+)\)", lambda match: f"(Part {match.group(1).upper()} and {match.group(2).upper()})", raw_family, flags=re.IGNORECASE)
+    raw_family = re.sub(r"\(\s*PART\s*(\w+)\s+AND\s+(\w+)\s*\)", lambda match: f"(Part {match.group(1).upper()} and {match.group(2).upper()})", raw_family, flags=re.IGNORECASE)
+    raw_family = re.sub(r"\(\s*PART\s*([\w/]+)\s*\)", lambda match: f"(Part {match.group(1).upper()})", raw_family, flags=re.IGNORECASE)
+    raw_family = re.sub(r"\(\s*SEC(?:TION)?\s*([\w/]+)\s*\)", lambda match: f"(Sec {match.group(1).upper()})", raw_family, flags=re.IGNORECASE)
     raw_family = re.sub(r"\s+", " ", raw_family).strip()
 
-    year_str = m.group(2)
+    year_str = m.group(3) or m.group(4)
     year = int(year_str) if year_str else None
 
     if year:

@@ -321,6 +321,17 @@ def run_a3_pipeline(
             if not e.to_in_catalogue:
                 m["n_target_not_in_catalogue"] += 1
 
+    # One edge per (source, target, relation). A citation repeated across table rows or restated
+    # in several sentences is the same relationship; keep the best-evidenced occurrence.
+    best: Dict[Tuple[str, str, str], EdgeRecord] = {}
+    for e in all_edges:
+        key = (e.from_is, e.to_is, e.relation.value)
+        kept = best.get(key)
+        if kept is None or (e.confidence, len(e.evidence_text)) > (kept.confidence, len(kept.evidence_text)):
+            best[key] = e
+    n_duplicates = len(all_edges) - len(best)
+    all_edges = list(best.values())
+
     # Deterministic sorting: sorted by (from_is, to_is, clause_id)
     all_edges.sort(key=lambda e: (e.from_is, e.to_is, e.clause_id))
 
@@ -347,12 +358,15 @@ def run_a3_pipeline(
     # Output 3: data/a3_manifest.json
     manifest_file = out_p / "a3_manifest.json"
     manifest_rows = []
+    kept_by_standard: Dict[str, int] = defaultdict(int)
+    for e in all_edges:
+        kept_by_standard[e.from_is] += 1
     for std_num in sorted(manifest_by_standard.keys()):
         stats = manifest_by_standard[std_num]
         manifest_rows.append(A3ManifestEntry(
             is_number=std_num,
             n_citations_found=stats["n_citations_found"],
-            n_edges_emitted=stats["n_edges_emitted"],
+            n_edges_emitted=kept_by_standard.get(std_num, 0),
             n_rejected_false_positive=stats["n_rejected_false_positive"],
             n_target_not_in_catalogue=stats["n_target_not_in_catalogue"],
         ).model_dump())
@@ -361,7 +375,7 @@ def run_a3_pipeline(
         json.dump(manifest_rows, f, indent=2, ensure_ascii=False)
 
     logger.info("A3 Cross-Reference Extraction Complete.")
-    logger.info(f"Total Edges Emitted: {len(all_edges)}")
+    logger.info(f"Total Edges Emitted: {len(all_edges)} ({n_duplicates} duplicate citations merged)")
     logger.info(f"Edges JSON: {edges_json_file}")
     logger.info(f"Edges CSV:  {edges_csv_file}")
     logger.info(f"Manifest:   {manifest_file}")

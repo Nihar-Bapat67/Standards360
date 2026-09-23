@@ -17,6 +17,11 @@ from ingest.parsing.role_classifier import classify_clause_role
 from ingest.parsing.segmenter import StandardSegment
 
 
+# The first amendment page is titled 'AMENDMENT NO. 1 ...'; its continuation pages carry a
+# running header such as 'Amend No. 1 to IS 1786 : 2008'. Both must be skipped.
+AMENDMENT_BANNER = re.compile(r"AMENDMENT\s+NO\.?\s*\d+|AMEND\.?\s*NO\.?\s*\d+\s+TO\s+IS\b", re.IGNORECASE)
+
+
 def compute_sha256(file_path: str) -> str:
     """Calculate SHA-256 hash of the source document."""
     hasher = hashlib.sha256()
@@ -51,7 +56,8 @@ def parse_standard_pages(
 
     total_cleaned_text_chars = 0
     scanned_pages = []
-    
+    amendment_pages = []
+
     # Collect clean text lines and table markdown across the page range
     page_blocks_data = []
 
@@ -60,6 +66,12 @@ def parse_standard_pages(
         raw_text = page.get_text().strip()
         if len(raw_text) < 40:
             scanned_pages.append(pno + 1)
+
+        # Amendment sheets are often bound into the same PDF. They restate clause numbers
+        # of their own, which would otherwise be parsed as clauses of the standard.
+        if AMENDMENT_BANNER.search(raw_text[:400]):
+            amendment_pages.append(pno + 1)
+            continue
 
         # 1. Extract tables on this page
         tables = extract_tables_from_page(page)
@@ -157,6 +169,7 @@ def parse_standard_pages(
             title=segment.title or "General",
             text=norm_text,
             clause_id=f"{segment.is_canonical}#1",
+            record_id=segment.record_id,
             family=segment.family,
             year=segment.year or 2005,
             level=1,
@@ -214,20 +227,35 @@ def parse_standard_pages(
         flags.append("standard_withdrawn")
     if scanned_pages:
         flags.append(f"pages_without_text:{len(scanned_pages)}")
+    if amendment_pages:
+        flags.append(f"amendment_pages_skipped:{len(amendment_pages)}")
 
     # Granularity & Sub-clause splitting
     final_clauses: List[ClauseRecord] = []
     
     # Organize into top-level and sub-clauses
+    role_by_clause: Dict[str, ClauseRole] = {}
     for rc in raw_clauses:
         role = classify_clause_role(rc.title, rc.text, rc.clause_num)
-        
+
         # Inviolable rule: scope and references are always standalone records
         is_protected_role = (role in (ClauseRole.SCOPE, ClauseRole.REFERENCES))
-        
+
         is_subclause = ("." in rc.clause_num and not rc.clause_num.startswith("ANNEX"))
         parent = rc.clause_num.rsplit(".", 1)[0] if is_subclause else None
         level = len(rc.clause_num.split(".")) if not rc.clause_num.startswith("ANNEX") else 1
+
+        # A sub-clause with no role of its own belongs to the same role as its parent:
+        # '11 MECHANICAL TESTS' makes '11.2 Tensile Test' a test method too.
+        if role == ClauseRole.OTHER and parent:
+            ancestor = parent
+            while ancestor:
+                inherited = role_by_clause.get(ancestor)
+                if inherited and inherited != ClauseRole.OTHER:
+                    role = inherited
+                    break
+                ancestor = ancestor.rsplit(".", 1)[0] if "." in ancestor else None
+        role_by_clause[rc.clause_num] = role
 
         rec = ClauseRecord(
             is_standard=segment.is_canonical,
@@ -235,6 +263,7 @@ def parse_standard_pages(
             title=rc.title or f"Clause {rc.clause_num}",
             text=rc.text,
             clause_id=f"{segment.is_canonical}#{rc.clause_num}",
+            record_id=segment.record_id,
             family=segment.family,
             year=segment.year or 2005,
             level=level,

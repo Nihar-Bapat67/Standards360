@@ -38,6 +38,7 @@ class ClauseRecord(BaseModel):
     text: str = Field(..., description="Cleaned, normalized text content of the clause")
     
     clause_id: str = Field(..., description="Unique, stable ID: '<is>#<clause>'")
+    record_id: Optional[int] = Field(default=None, description="A1 catalogue record_id of the standard this clause belongs to")
     family: str = Field(..., description="Standard family without year or section, e.g. 'IS 269'")
     year: int = Field(..., description="Year of publication/edition from which text was parsed")
     level: int = Field(default=1, description="Nesting level (1 for top-level, 2 for sub-clause)")

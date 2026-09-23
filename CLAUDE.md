@@ -74,18 +74,21 @@ Rules for using it:
 
 ## Where we are
 
-Current phase (17 Sep 2026): **Stage A, module A1 (Standards Data Collector)**.
+Current phase (23 Sep 2026): **Stage A complete for A1–A3; A4 is next**.
 
-- Done: priority crawl. `data/catalogue.db` holds 2,808 standards (724 of 725 category standards plus
-  all 2,065 standards they cite), 55,100 cross-reference links, 4,516 lab rows, 433 product manuals,
-  1,978 gazette notices, 961 amendments. Every standard cited by a category standard is collected.
-- Done: recent crawl. All 1,901 IDs in 65,500–67,400 visited: 1,553 valid (1,147 are 2026 editions,
-  266 are 2025), 348 blank, 0 failed. Collected total 4,269 standards in `standards.jsonl`.
-- In progress: `crawl --all`. Interrupted by a shutdown at about 02:24 on 18 Sep with 18,589 standards
-  saved in `standards.jsonl` (no broken lines); the main block had reached record ~15,585. Re-running
-  `crawl --all` resumes from there (~17,000 main-block IDs left). `catalogue.db` still holds only the
-  4,269 from the last `load`; it changes only when `load` is run.
-- After A1: choose the document-text source for A2, then A2 and A4.
+- **A1 done.** The full crawl finished and `load` rebuilt the database. `data/catalogue.db` holds
+  35,553 records: 24,101 current and 11,452 withdrawn, of which 6,822 name their replacement.
+  Also 165,657 cross-reference links, 12,105 lab rows (502 distinct labs across 28 states),
+  28,144 gazette notices, 4,545 amendments, 1,636 product manuals, 777 category pairs.
+  725 standards carry a QCO; 1,405 have a summary-PDF link.
+- **A2 and A3 merged** from the `vishwajeet_dev` branch (commit `fec411d`), code only. The branch
+  shared no history with `main` and carried data, BIS PDFs, a vendored PyMuPDF and a nested
+  repository; none of that was merged. Data is regenerated locally and stays git-ignored.
+- **Verified on four current-edition standards** (CED: IS 1786:2008, IS 1489 Part 1:2015;
+  MTD: IS 1161:2014, IS 280:2006): all four match the right `record_id`, and all four yield a scope
+  clause and a references clause. A3 produced no false edges for IS 1161 and found seven genuine
+  references that BIS's own cross-reference list omits for IS 1786.
+- Next: freeze the two sectors (CED and MTD proposed), then A4 (index builder), then C1.
 
 Run `python ingest/collect.py stats` for live progress. Update this section when the phase changes.
 
@@ -113,6 +116,23 @@ Run `python ingest/collect.py stats` for live progress. Update this section when
 - Present in the saved raw pages but **not yet parsed**: "QCO Notified & Implemented" with its
   implementation date (needed by C4.4), and the link to a one-page summary PDF (possible source of
   scope text). Add to the parser and re-parse saved pages; no re-crawl needed.
+
+### A2 and A3 — parser and cross-reference extractor
+- `ingest/parse_clauses.py` takes a single standard PDF, a directory of PDFs, or a compilation such
+  as SP 21, and writes `clauses.json`, `parse_manifest.json` and `quarantine.json`. Every clause
+  carries `record_id`, so it joins to the catalogue directly; `clause_id` is `<is>#<clause>`.
+- `ingest/extract_refs.py` reads those clauses and writes `edges.csv`, `edges.json` and
+  `a3_manifest.json`: from, relation, to, clause, confidence and the evidence sentence.
+- Defects fixed after the merge: `(2008)` was being read as a family part rather than a year;
+  table figures and amendment pages were parsed as clause headings; clauses lacked `record_id`;
+  named tests were not classified as test methods and sub-clauses did not inherit a parent's role;
+  repeated citations produced duplicate edges; clauses sorted as text so "10" preceded "2"; and a
+  withdrawn record could displace the current one for the same IS number in the lookup.
+- A3 is complementary to the BIS links, not a replacement: for IS 1786:2008 the BIS page lists one
+  cross-reference while A3 extracted eight, all genuine. Relation typing is still imperfect, so
+  treat the relation as a hint and the evidence sentence as the proof.
+- Data (`data/parsed/`, `clauses.json`, `edges.csv`) is never committed. `.gitignore` also blocks
+  `catalogue/`, `pylib/`, `*.pdf` and `*.db`.
 
 ### A3 — mostly replaced by BIS data
 - BIS publishes each standard's cross-references as structured links, so relationships come from

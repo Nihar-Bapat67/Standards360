@@ -47,6 +47,17 @@ logging.basicConfig(
 logger = logging.getLogger("Standards360.A2")
 
 
+def clause_sort_key(clause: str) -> Tuple[int, Tuple[int, ...], str]:
+    """Order clauses the way they are printed: '2' before '10', annexes last."""
+    c = (clause or "").strip()
+    if c.upper().startswith(("ANNEX", "APPENDIX")):
+        return (2, (), c.upper())
+    try:
+        return (1, tuple(int(p) for p in c.split(".")), "")
+    except ValueError:
+        return (3, (), c)
+
+
 def parse_individual_pdf(
     pdf_path: Path,
     exact_lookup: Dict[str, Any],
@@ -296,8 +307,9 @@ def run_pipeline(
             "sha256": "N/A",
         })
 
-    # Sort deterministically
-    all_clauses.sort(key=lambda x: (x.get("is", ""), x.get("clause", "")))
+    # Sort deterministically, in reading order: foreword, then numbered clauses by value
+    # ('2' before '10'), then annexes.
+    all_clauses.sort(key=lambda x: (x.get("is", ""), clause_sort_key(x.get("clause", ""))))
     manifest_rows.sort(key=lambda x: x.get("is_number", ""))
     quarantined_records.sort(key=lambda x: x.get("is_number", ""))
 
