@@ -1,0 +1,26 @@
+{
+  "note": "Companion labels for eval/gold_set.json. Kept in a separate file so the gold set itself stays exactly in the agreed four-field format and remains frozen. Difficulty was assigned when the record was written, from how much interpretation the description needs, never from what any model retrieved.",
+  "difficulty": {
+    "easy": [3, 6, 12, 14, 19, 21, 23, 26, 27, 34, 35, 39, 40, 46, 48, 50],
+    "medium": [2, 4, 5, 7, 8, 9, 13, 15, 17, 20, 22, 24, 25, 32, 37, 43, 47, 49],
+    "hard": [1, 10, 11, 16, 18, 28, 29, 30, 31, 33, 36, 38, 41, 42, 44, 45]
+  },
+  "hard_case_reason": {
+    "1": "the older 43 grade cement standard was merged into IS 269, so a literal reading points at a withdrawn standard",
+    "10": "competes with the mild steel bar standard for the same words 'reinforcement bars'",
+    "11": "plain mild steel bars against high strength deformed bars; both are reinforcement",
+    "16": "pressure pipes for potable water against non-pressure soil and waste pipes, both uPVC",
+    "18": "the same material as record 16, different application and standard",
+    "28": "structural tubes against GI tubes for water and against hollow sections",
+    "29": "nominal bore tubes for water against structural tubes of the same sizes",
+    "30": "hollow sections against structural tubes and against the newer cold formed square and rectangular section standard",
+    "31": "mechanical and general engineering tubes against structural and water tubes",
+    "33": "wire rod as feedstock against drawn wire as product",
+    "36": "cold reduced sheet Part 1 forming qualities against Part 2 high tensile qualities",
+    "38": "large diameter welded water pipes against nominal bore tube standards",
+    "41": "ordinary quality structural steel against standard quality structural steel",
+    "42": "E250 structural steel plate against ordinary quality structural steel and against general hot rolled plate",
+    "44": "seamless against welded stainless pipes for the same service",
+    "45": "welded against seamless stainless pipes for the same service"
+  }
+}

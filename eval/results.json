@@ -1,0 +1,2118 @@
+{
+  "evaluated_at": "2026-09-23 17:19:18",
+  "index": {
+    "model": "BAAI/bge-m3",
+    "rows_indexed": 4130,
+    "standards_indexed": 261,
+    "built_at": "2026-09-23 16:50:01"
+  },
+  "gold_records": 50,
+  "targets_in_index": 27,
+  "targets_missing_from_index": 23,
+  "overall_raw": {
+    "n": 50,
+    "hit@1": 0.48,
+    "hit@3": 0.5,
+    "hit@5": 0.5,
+    "mrr@5": 0.487
+  },
+  "overall_retrievable_only": {
+    "n": 27,
+    "hit@1": 0.889,
+    "hit@3": 0.926,
+    "hit@5": 0.926,
+    "mrr@5": 0.901
+  },
+  "by_sector": {
+    "CED": {
+      "n": 27,
+      "hit@1": 0.444,
+      "hit@3": 0.481,
+      "hit@5": 0.481,
+      "mrr@5": 0.457
+    },
+    "MTD": {
+      "n": 23,
+      "hit@1": 0.522,
+      "hit@3": 0.522,
+      "hit@5": 0.522,
+      "mrr@5": 0.522
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "n": 16,
+      "hit@1": 0.625,
+      "hit@3": 0.625,
+      "hit@5": 0.625,
+      "mrr@5": 0.625
+    },
+    "medium": {
+      "n": 18,
+      "hit@1": 0.5,
+      "hit@3": 0.556,
+      "hit@5": 0.556,
+      "mrr@5": 0.519
+    },
+    "hard": {
+      "n": 16,
+      "hit@1": 0.312,
+      "hit@3": 0.312,
+      "hit@5": 0.312,
+      "mrr@5": 0.312
+    }
+  },
+  "seconds": 96.1,
+  "records": [
+    {
+      "id": 1,
+      "query": "Supply of 500 MT ordinary Portland cement, 43 grade, for RCC structural work of the proposed office building",
+      "expected": "IS 269:2015",
+      "sector": "CED",
+      "difficulty": "hard",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 1237:2012",
+          "clause": "5.1",
+          "role": "other",
+          "score": 0.032
+        },
+        {
+          "is_number": "IS 16993:2018",
+          "clause": "9.3",
+          "role": "packing",
+          "score": 0.03068
+        },
+        {
+          "is_number": "IS 1489 (Part 2):2015",
+          "clause": "4.3",
+          "role": "requirements",
+          "score": 0.03002
+        },
+        {
+          "is_number": "IS 2098:1997",
+          "clause": "3",
+          "role": "other",
+          "score": 0.03
+        },
+        {
+          "is_number": "IS 8043:1991",
+          "clause": "3",
+          "role": "terminology",
+          "score": 0.02901
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "query": "Portland pozzolana cement (fly ash based) in 50 kg bags for mass concreting of raft foundation",
+      "expected": "IS 1489 (Part 1):2015",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 1489 (Part 1):2015",
+          "clause": "10.2",
+          "role": "packing",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 14862:2000",
+          "clause": "3",
+          "role": "other",
+          "score": 0.02837
+        },
+        {
+          "is_number": "IS 1489 (Part 2):2015",
+          "clause": "4.1",
+          "role": "requirements",
+          "score": 0.0276
+        },
+        {
+          "is_number": "IS 14871:2000",
+          "clause": "ANNEX B",
+          "role": "annex",
+          "score": 0.0125
+        },
+        {
+          "is_number": "IS 15658:2021",
+          "clause": "5.1.1",
+          "role": "requirements",
+          "score": 0.01235
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "query": "Portland slag cement conforming to relevant BIS standard for marine jetty substructure, slag content 50 percent",
+      "expected": "IS 455:2015",
+      "sector": "CED",
+      "difficulty": "easy",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 13008:1990",
+          "clause": "3",
+          "role": "other",
+          "score": 0.02944
+        },
+        {
+          "is_number": "IS 459:1992",
+          "clause": "2",
+          "role": "references",
+          "score": 0.02885
+        },
+        {
+          "is_number": "IS 2098:1997",
+          "clause": "3",
+          "role": "other",
+          "score": 0.02872
+        },
+        {
+          "is_number": "IS 14871:2000",
+          "clause": "6",
+          "role": "other",
+          "score": 0.02679
+        },
+        {
+          "is_number": "IS 16993:2018",
+          "clause": "9.1.1",
+          "role": "requirements",
+          "score": 0.02594
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "query": "Cement resistant to sulphate attack for foundation concrete in soil having sulphate concentration above 0.5 percent",
+      "expected": "IS 12330:1988",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 12330:1988",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.03279
+        },
+        {
+          "is_number": "IS 16993:2018",
+          "clause": "1.2",
+          "role": "requirements",
+          "score": 0.03229
+        },
+        {
+          "is_number": "IS 8229:1986",
+          "clause": "1.1",
+          "role": "scope",
+          "score": 0.02857
+        },
+        {
+          "is_number": "IS 8041:1990",
+          "clause": "3",
+          "role": "other",
+          "score": 0.02832
+        },
+        {
+          "is_number": "IS 6909:1990",
+          "clause": "ANNEX B",
+          "role": "annex",
+          "score": 0.0278
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "query": "Quick setting high early strength cement for precast elements requiring demoulding within 24 hours",
+      "expected": "IS 8041:1990",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": 3,
+      "returned": [
+        {
+          "is_number": "IS 6452",
+          "clause": "3",
+          "role": "requirements",
+          "score": 0.03229
+        },
+        {
+          "is_number": "IS 8043:1991",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.03202
+        },
+        {
+          "is_number": "IS 8041:1990",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.03182
+        },
+        {
+          "is_number": "IS 15895:2018",
+          "clause": "4.4",
+          "role": "test_methods",
+          "score": 0.03178
+        },
+        {
+          "is_number": "IS 6909:1990",
+          "clause": "3",
+          "role": "terminology",
+          "score": 0.03041
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "query": "White cement for flooring, decorative plaster and terrazzo work, whiteness not less than 70 percent",
+      "expected": "IS 8042:2015",
+      "sector": "CED",
+      "difficulty": "easy",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 8042:2015",
+          "clause": "4.1",
+          "role": "requirements",
+          "score": 0.03333
+        },
+        {
+          "is_number": "IS 1237:2012",
+          "clause": "6.1",
+          "role": "requirements",
+          "score": 0.02964
+        },
+        {
+          "is_number": "IS 6452",
+          "clause": "3",
+          "role": "requirements",
+          "score": 0.01562
+        },
+        {
+          "is_number": "IS 1659:2004",
+          "clause": "6.3.1",
+          "role": "requirements",
+          "score": 0.01538
+        },
+        {
+          "is_number": "IS 9627:1980",
+          "clause": "2",
+          "role": "requirements",
+          "score": 0.01515
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "query": "Composite cement manufactured by inter-grinding clinker with fly ash and granulated slag, supplied in bulk tankers",
+      "expected": "IS 16415:2015",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 1489 (Part 1):2015",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.03279
+        },
+        {
+          "is_number": "IS 1489 (Part 2):2015",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.03182
+        },
+        {
+          "is_number": "IS 16993:2018",
+          "clause": "4",
+          "role": "requirements",
+          "score": 0.03151
+        },
+        {
+          "is_number": "IS 14862:2000",
+          "clause": "3",
+          "role": "other",
+          "score": 0.03083
+        },
+        {
+          "is_number": "IS 14871:2000",
+          "clause": "5.1",
+          "role": "other",
+          "score": 0.02853
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "query": "Crushed stone coarse aggregate of 20 mm nominal size and river sand as fine aggregate for M25 concrete",
+      "expected": "IS 383:2016",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 383:2016",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 15658:2021",
+          "clause": "5.4.1.2",
+          "role": "requirements",
+          "score": 0.03077
+        },
+        {
+          "is_number": "IS 2572:2005",
+          "clause": "6.6",
+          "role": "requirements",
+          "score": 0.03008
+        },
+        {
+          "is_number": "IS 16993:2018",
+          "clause": "9.1.1",
+          "role": "requirements",
+          "score": 0.02724
+        },
+        {
+          "is_number": "IS 16651:2017",
+          "clause": "6.1",
+          "role": "other",
+          "score": 0.02589
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "query": "Fly ash from thermal power station for use as pozzolana in manufacture of blended cement, fineness 320 m2/kg",
+      "expected": "IS 3812 (Part 1):2013",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 1489 (Part 1):2015",
+          "clause": "4.1",
+          "role": "requirements",
+          "score": 0.03333
+        },
+        {
+          "is_number": "IS 1489 (Part 2):2015",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.03009
+        },
+        {
+          "is_number": "IS 14862:2000",
+          "clause": "3",
+          "role": "other",
+          "score": 0.02727
+        },
+        {
+          "is_number": "IS 1592:2003",
+          "clause": "7",
+          "role": "other",
+          "score": 0.01389
+        },
+        {
+          "is_number": "IS 16720:2018",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.01316
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "query": "Thermo-mechanically treated reinforcement bars of grade Fe 500D, 8 mm to 32 mm diameter, for RCC slabs and columns",
+      "expected": "IS 1786:2008",
+      "sector": "CED",
+      "difficulty": "hard",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 1786:2008",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 16651:2017",
+          "clause": "6.1",
+          "role": "other",
+          "score": 0.032
+        },
+        {
+          "is_number": "IS 7283:1992",
+          "clause": "6.3",
+          "role": "other",
+          "score": 0.02753
+        },
+        {
+          "is_number": "IS 13620:1993",
+          "clause": "5",
+          "role": "other",
+          "score": 0.01562
+        },
+        {
+          "is_number": "IS 15962:2012",
+          "clause": "9.5",
+          "role": "other",
+          "score": 0.01538
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "query": "Plain round mild steel bars of 6 mm diameter for use as distribution steel and stirrups in reinforced concrete",
+      "expected": "IS 432 (Part 1):1982",
+      "sector": "CED",
+      "difficulty": "hard",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 16651:2017",
+          "clause": "3.5",
+          "role": "terminology",
+          "score": 0.03205
+        },
+        {
+          "is_number": "IS 280:2006",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.01639
+        },
+        {
+          "is_number": "IS 10794:1984",
+          "clause": "7.3",
+          "role": "test_methods",
+          "score": 0.01613
+        },
+        {
+          "is_number": "IS 15647:2006",
+          "clause": "3.1",
+          "role": "terminology",
+          "score": 0.01562
+        },
+        {
+          "is_number": "IS 281:2009",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.01562
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "query": "Interlocking concrete paving blocks of 80 mm thickness, M40 grade, for parking area and internal roads",
+      "expected": "IS 15658:2021",
+      "sector": "CED",
+      "difficulty": "easy",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 15658:2021",
+          "clause": "5.5.2",
+          "role": "requirements",
+          "score": 0.03205
+        },
+        {
+          "is_number": "IS 1726:1991",
+          "clause": "3",
+          "role": "other",
+          "score": 0.01449
+        },
+        {
+          "is_number": "IS 1237:2012",
+          "clause": "4",
+          "role": "other",
+          "score": 0.0137
+        },
+        {
+          "is_number": "IS 7283:1992",
+          "clause": "6.3",
+          "role": "other",
+          "score": 0.01333
+        },
+        {
+          "is_number": "IS 17682:2021",
+          "clause": "4",
+          "role": "other",
+          "score": 0.01316
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "query": "Autoclaved aerated concrete blocks of size 600 x 200 x 150 mm for internal partition walls",
+      "expected": "IS 2185 (Part 3):1984",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 2572:2005",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03095
+        },
+        {
+          "is_number": "IS 15658:2021",
+          "clause": "5.4.1.2",
+          "role": "requirements",
+          "score": 0.02753
+        },
+        {
+          "is_number": "IS 15155:2020",
+          "clause": "5.2.2",
+          "role": "requirements",
+          "score": 0.025
+        },
+        {
+          "is_number": "IS 8870:1978",
+          "clause": "1.1",
+          "role": "scope",
+          "score": 0.01667
+        },
+        {
+          "is_number": "IS 13349:1992",
+          "clause": "6",
+          "role": "requirements",
+          "score": 0.01639
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "query": "Precast concrete manhole cover and frame, heavy duty, 560 mm clear opening, for municipal sewer chambers",
+      "expected": "IS 12592:2002",
+      "sector": "CED",
+      "difficulty": "easy",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 1726:1991",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.03333
+        },
+        {
+          "is_number": "IS 2572:2005",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.02947
+        },
+        {
+          "is_number": "IS 15658:2021",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.02753
+        },
+        {
+          "is_number": "IS 1237:2012",
+          "clause": "4",
+          "role": "other",
+          "score": 0.01538
+        },
+        {
+          "is_number": "IS 774:2021",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.01515
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "query": "HDPE pipes of 110 mm outside diameter, PN 6, for rural drinking water distribution network",
+      "expected": "IS 4984:2016",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 13592:2013",
+          "clause": "4.2",
+          "role": "other",
+          "score": 0.03333
+        },
+        {
+          "is_number": "IS 4985:2021",
+          "clause": "3.3",
+          "role": "terminology",
+          "score": 0.02941
+        },
+        {
+          "is_number": "IS 15450:2022",
+          "clause": "9.2.1",
+          "role": "requirements",
+          "score": 0.02908
+        },
+        {
+          "is_number": "IS 15778:2007",
+          "clause": "3",
+          "role": "terminology",
+          "score": 0.02798
+        },
+        {
+          "is_number": "IS 13593:1992",
+          "clause": "5",
+          "role": "other",
+          "score": 0.02781
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "query": "uPVC pressure pipes, 90 mm nominal diameter, 6 kgf/cm2, for potable water supply line",
+      "expected": "IS 4985:2021",
+      "sector": "CED",
+      "difficulty": "hard",
+      "in_index": true,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 13593:1992",
+          "clause": "5",
+          "role": "other",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 13592:2013",
+          "clause": "4.2",
+          "role": "other",
+          "score": 0.03105
+        },
+        {
+          "is_number": "IS 15450:2022",
+          "clause": "7",
+          "role": "other",
+          "score": 0.0292
+        },
+        {
+          "is_number": "IS 12231:1987",
+          "clause": "2.1",
+          "role": "terminology",
+          "score": 0.02889
+        },
+        {
+          "is_number": "IS 15778:2007",
+          "clause": "5",
+          "role": "other",
+          "score": 0.0276
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "query": "CPVC piping for hot and cold water plumbing inside hospital building, SDR 11, sizes 15 mm to 50 mm",
+      "expected": "IS 15778:2007",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 15778:2007",
+          "clause": "7.1.2",
+          "role": "requirements",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 15450:2022",
+          "clause": "1.1",
+          "role": "scope",
+          "score": 0.03089
+        },
+        {
+          "is_number": "IS 15801:2008",
+          "clause": "ANNEX A",
+          "role": "annex",
+          "score": 0.02967
+        },
+        {
+          "is_number": "IS 13592:2013",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.02844
+        },
+        {
+          "is_number": "IS 2692:1989",
+          "clause": "4.1",
+          "role": "other",
+          "score": 0.01471
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "query": "PVC-U pipes for soil and waste discharge inside buildings, 110 mm, single socketed, non-pressure",
+      "expected": "IS 13592:2013",
+      "sector": "CED",
+      "difficulty": "hard",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 13592:2013",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03333
+        },
+        {
+          "is_number": "IS 12231:1987",
+          "clause": "8",
+          "role": "other",
+          "score": 0.02455
+        },
+        {
+          "is_number": "IS 4985:2021",
+          "clause": "3.19",
+          "role": "terminology",
+          "score": 0.01408
+        },
+        {
+          "is_number": "IS 12818:2010",
+          "clause": "8",
+          "role": "other",
+          "score": 0.0137
+        },
+        {
+          "is_number": "IS 1729:2023",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.0137
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "query": "Chequered cement concrete tiles, 300 x 300 mm, for footpath and staircase landing",
+      "expected": "IS 13801:2013",
+      "sector": "CED",
+      "difficulty": "easy",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 1237:2012",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.0328
+        },
+        {
+          "is_number": "IS 8870:1978",
+          "clause": "1.1",
+          "role": "scope",
+          "score": 0.01667
+        },
+        {
+          "is_number": "IS 15834:2020",
+          "clause": "3",
+          "role": "requirements",
+          "score": 0.01515
+        },
+        {
+          "is_number": "IS 13349:1992",
+          "clause": "6",
+          "role": "requirements",
+          "score": 0.01471
+        },
+        {
+          "is_number": "IS 9523:2000",
+          "clause": "10.1",
+          "role": "other",
+          "score": 0.0137
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "query": "Boiling water resistant plywood, 12 mm thick, for general purpose furniture and partitions in office fit-out",
+      "expected": "IS 303:2024",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 10701:2012",
+          "clause": "11.8",
+          "role": "test_methods",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 2202 (Part 1):2023",
+          "clause": "3.2",
+          "role": "test_methods",
+          "score": 0.0275
+        },
+        {
+          "is_number": "IS 2191 (Part 2):2022",
+          "clause": "3.2",
+          "role": "test_methods",
+          "score": 0.0262
+        },
+        {
+          "is_number": "IS 4835:1979",
+          "clause": "0.2",
+          "role": "requirements",
+          "score": 0.0241
+        },
+        {
+          "is_number": "IS 1659:2004",
+          "clause": "4",
+          "role": "other",
+          "score": 0.01639
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "query": "Marine grade plywood, 19 mm, for boat building and permanently damp locations",
+      "expected": "IS 710:2024",
+      "sector": "CED",
+      "difficulty": "easy",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 10701:2012",
+          "clause": "8.2",
+          "role": "requirements",
+          "score": 0.03279
+        },
+        {
+          "is_number": "IS 5509:2021",
+          "clause": "5.2",
+          "role": "requirements",
+          "score": 0.02885
+        },
+        {
+          "is_number": "IS 2202 (Part 1):2023",
+          "clause": "6.1.5.1",
+          "role": "other",
+          "score": 0.02791
+        },
+        {
+          "is_number": "IS 2191 (Part 1):2022",
+          "clause": "3.2",
+          "role": "test_methods",
+          "score": 0.01562
+        },
+        {
+          "is_number": "IS 15931:2012",
+          "clause": "4.3",
+          "role": "requirements",
+          "score": 0.01538
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "query": "Film faced shuttering plywood, 12 mm, for repeated use as concrete formwork",
+      "expected": "IS 4990:2024",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 10701:2012",
+          "clause": "8.2",
+          "role": "requirements",
+          "score": 0.03175
+        },
+        {
+          "is_number": "IS 9523:2000",
+          "clause": "ANNEX D",
+          "role": "annex",
+          "score": 0.01667
+        },
+        {
+          "is_number": "IS 14268:2022",
+          "clause": "6.2.1.1",
+          "role": "test_methods",
+          "score": 0.01639
+        },
+        {
+          "is_number": "IS 2202 (Part 1):2023",
+          "clause": "6.1.5.1",
+          "role": "other",
+          "score": 0.01613
+        },
+        {
+          "is_number": "IS 17634:2022",
+          "clause": "ANNEX B",
+          "role": "annex",
+          "score": 0.01562
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "query": "Fire retardant plywood with flame penetration resistance for auditorium wall panelling",
+      "expected": "IS 5509:2021",
+      "sector": "CED",
+      "difficulty": "easy",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 5509:2021",
+          "clause": "5.3",
+          "role": "requirements",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 2095 (Part 2):2022",
+          "clause": "6.4",
+          "role": "requirements",
+          "score": 0.02615
+        },
+        {
+          "is_number": "IS 17682:2021",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.02533
+        },
+        {
+          "is_number": "IS 2202 (Part 1):2023",
+          "clause": "6.1.5.1",
+          "role": "other",
+          "score": 0.01515
+        },
+        {
+          "is_number": "IS 2925:1984",
+          "clause": "8.2",
+          "role": "requirements",
+          "score": 0.01408
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "query": "Solid core wooden flush door shutters, 35 mm thick, decorative type, for residential quarters",
+      "expected": "IS 2202 (Part 1):2023",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 2202 (Part 1):2023",
+          "clause": "3.2",
+          "role": "test_methods",
+          "score": 0.0328
+        },
+        {
+          "is_number": "IS 2191 (Part 1):2022",
+          "clause": "3.2",
+          "role": "test_methods",
+          "score": 0.03227
+        },
+        {
+          "is_number": "IS 2202 (Part 2):2022",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.0303
+        },
+        {
+          "is_number": "IS 2191 (Part 2):2022",
+          "clause": "3.2",
+          "role": "test_methods",
+          "score": 0.02743
+        },
+        {
+          "is_number": "IS 15931:2012",
+          "clause": "7.2",
+          "role": "requirements",
+          "score": 0.01389
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "query": "Mild steel butt hinges, 100 x 75 x 3 mm, bright finish, for wooden door shutters",
+      "expected": "IS 1341:2018",
+      "sector": "CED",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 1341:2018",
+          "clause": "6.4.2",
+          "role": "requirements",
+          "score": 0.032
+        },
+        {
+          "is_number": "IS 12817:2020",
+          "clause": "8",
+          "role": "requirements",
+          "score": 0.03137
+        },
+        {
+          "is_number": "IS 15931:2012",
+          "clause": "4.3",
+          "role": "requirements",
+          "score": 0.02814
+        },
+        {
+          "is_number": "IS 3843:1995",
+          "clause": "7",
+          "role": "requirements",
+          "score": 0.02504
+        },
+        {
+          "is_number": "IS 13349:1992",
+          "clause": "35",
+          "role": "other",
+          "score": 0.01562
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "query": "Cement based tile adhesive for fixing vitrified tiles on internal floors and walls",
+      "expected": "IS 15477:2019",
+      "sector": "CED",
+      "difficulty": "easy",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 1237:2012",
+          "clause": "4",
+          "role": "other",
+          "score": 0.03229
+        },
+        {
+          "is_number": "IS 15931:2012",
+          "clause": "4.4",
+          "role": "requirements",
+          "score": 0.02905
+        },
+        {
+          "is_number": "IS 4835:1979",
+          "clause": "1.1",
+          "role": "scope",
+          "score": 0.02769
+        },
+        {
+          "is_number": "IS 14862:2000",
+          "clause": "1.1",
+          "role": "scope",
+          "score": 0.01639
+        },
+        {
+          "is_number": "IS 2572:2005",
+          "clause": "5.2",
+          "role": "other",
+          "score": 0.01471
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "query": "Rotomoulded three layer polyethylene overhead water storage tank of 1000 litre capacity",
+      "expected": "IS 12701:1996",
+      "sector": "CED",
+      "difficulty": "easy",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 12701:1996",
+          "clause": "3.1",
+          "role": "terminology",
+          "score": 0.03333
+        },
+        {
+          "is_number": "IS 774:2021",
+          "clause": "8.2",
+          "role": "other",
+          "score": 0.01471
+        },
+        {
+          "is_number": "IS 15450:2022",
+          "clause": "9.1",
+          "role": "requirements",
+          "score": 0.01389
+        },
+        {
+          "is_number": "IS 12231:1987",
+          "clause": "6.3",
+          "role": "other",
+          "score": 0.01333
+        },
+        {
+          "is_number": "IS 2501:1995",
+          "clause": "12",
+          "role": "packing",
+          "score": 0.01299
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "query": "Structural steel tubes, YSt 240 grade, 50 NB medium class, for pipe truss of an industrial shed",
+      "expected": "IS 1161:2014",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 1161:2014",
+          "clause": "3",
+          "role": "requirements",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 277:2018",
+          "clause": "7.6",
+          "role": "requirements",
+          "score": 0.01562
+        },
+        {
+          "is_number": "IS 15658:2021",
+          "clause": "5.5.2",
+          "role": "requirements",
+          "score": 0.01515
+        },
+        {
+          "is_number": "IS 15911:2010",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.01471
+        },
+        {
+          "is_number": "IS 1141:1993",
+          "clause": "8",
+          "role": "other",
+          "score": 0.01408
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "query": "Galvanized mild steel tubes, medium class, 25 mm nominal bore, screwed and socketed, for internal water supply lines",
+      "expected": "IS 1239 (Part 1):2004",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 1161:2014",
+          "clause": "3",
+          "role": "requirements",
+          "score": 0.03229
+        },
+        {
+          "is_number": "IS 15450:2022",
+          "clause": "1.1",
+          "role": "scope",
+          "score": 0.03009
+        },
+        {
+          "is_number": "IS 15931:2012",
+          "clause": "4.3",
+          "role": "requirements",
+          "score": 0.02932
+        },
+        {
+          "is_number": "IS 15647:2006",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.02886
+        },
+        {
+          "is_number": "IS 8329:2000",
+          "clause": "4",
+          "role": "other",
+          "score": 0.02844
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "query": "Square hollow structural sections 100 x 100 x 4 mm for architectural canopy framework",
+      "expected": "IS 4923:2017",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 15911:2010",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03205
+        },
+        {
+          "is_number": "IS 1726:1991",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.03016
+        },
+        {
+          "is_number": "IS 281:2009",
+          "clause": "11",
+          "role": "sampling",
+          "score": 0.02879
+        },
+        {
+          "is_number": "IS 13349:1992",
+          "clause": "6",
+          "role": "requirements",
+          "score": 0.02803
+        },
+        {
+          "is_number": "IS 10701:2012",
+          "clause": "8.1",
+          "role": "requirements",
+          "score": 0.02797
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "query": "Seamless steel tubes for mechanical and general engineering purposes, outside diameter 60 mm, for machine components",
+      "expected": "IS 3601:2006",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 1161:2014",
+          "clause": "6.2",
+          "role": "requirements",
+          "score": 0.03333
+        },
+        {
+          "is_number": "IS 1545:1994",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03279
+        },
+        {
+          "is_number": "IS 2501:1995",
+          "clause": "8.1",
+          "role": "requirements",
+          "score": 0.02983
+        },
+        {
+          "is_number": "IS 739:1992",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.02758
+        },
+        {
+          "is_number": "IS 280:2006",
+          "clause": "7",
+          "role": "requirements",
+          "score": 0.02471
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "query": "Mild steel wire, 4 mm diameter, annealed, for general engineering fabrication and binding",
+      "expected": "IS 280:2006",
+      "sector": "MTD",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 280:2006",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 739:1992",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03002
+        },
+        {
+          "is_number": "IS 453:1993",
+          "clause": "4.2",
+          "role": "requirements",
+          "score": 0.02769
+        },
+        {
+          "is_number": "IS 10794:1984",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.02489
+        },
+        {
+          "is_number": "IS 362:1991",
+          "clause": "10",
+          "role": "sampling",
+          "score": 0.01493
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "query": "Mild steel wire rod, 5.5 mm diameter coils, for drawing into wire at fabrication works",
+      "expected": "IS 7887:1992",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 6003:2010",
+          "clause": "4.2",
+          "role": "requirements",
+          "score": 0.0328
+        },
+        {
+          "is_number": "IS 16644:2018",
+          "clause": "5.2",
+          "role": "requirements",
+          "score": 0.03279
+        },
+        {
+          "is_number": "IS 280:2006",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03102
+        },
+        {
+          "is_number": "IS 1673:1984",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.03101
+        },
+        {
+          "is_number": "IS 12444:2020",
+          "clause": "6.1",
+          "role": "other",
+          "score": 0.02881
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "query": "Grey cast iron castings of grade FG 200 for pump housings and valve bodies",
+      "expected": "IS 210:2009",
+      "sector": "MTD",
+      "difficulty": "easy",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 210:2009",
+          "clause": "2",
+          "role": "references",
+          "score": 0.03333
+        },
+        {
+          "is_number": "IS 1729:2023",
+          "clause": "5.1",
+          "role": "requirements",
+          "score": 0.0315
+        },
+        {
+          "is_number": "IS 1726:1991",
+          "clause": "4",
+          "role": "requirements",
+          "score": 0.03105
+        },
+        {
+          "is_number": "IS 208:2020",
+          "clause": "5.1",
+          "role": "requirements",
+          "score": 0.01493
+        },
+        {
+          "is_number": "IS 3564:1995",
+          "clause": "14.3.2",
+          "role": "sampling",
+          "score": 0.01449
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "query": "Galvanized corrugated steel sheets, 0.50 mm thickness, 120 gsm zinc coating, for factory roofing",
+      "expected": "IS 277:2018",
+      "sector": "MTD",
+      "difficulty": "easy",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 277:2018",
+          "clause": "1.2",
+          "role": "scope",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 18385:2023",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03202
+        },
+        {
+          "is_number": "IS 14871:2000",
+          "clause": "5.3.2",
+          "role": "other",
+          "score": 0.01515
+        },
+        {
+          "is_number": "IS 17404:2020",
+          "clause": "6.3",
+          "role": "requirements",
+          "score": 0.01449
+        },
+        {
+          "is_number": "IS 12866:2021",
+          "clause": "1.1",
+          "role": "scope",
+          "score": 0.01408
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "query": "Cold reduced carbon steel sheet in coils, 1.0 mm, deep drawing quality, for pressed components",
+      "expected": "IS 513 (Part 1):2016",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 513 (Part 1):2016",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03205
+        },
+        {
+          "is_number": "IS 513 (Part 2):2016",
+          "clause": "8.5.1",
+          "role": "other",
+          "score": 0.02633
+        },
+        {
+          "is_number": "IS 4397:1999",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.02632
+        },
+        {
+          "is_number": "IS 11513:2017",
+          "clause": "4",
+          "role": "other",
+          "score": 0.01613
+        },
+        {
+          "is_number": "IS 9485:1980",
+          "clause": "4",
+          "role": "other",
+          "score": 0.01515
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "query": "Hot rolled carbon steel plate 8 mm thick for fabrication of storage tank shell",
+      "expected": "IS 1079:2017",
+      "sector": "MTD",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 1079:2017",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 15914:2011",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.032
+        },
+        {
+          "is_number": "IS 11513:2017",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.02729
+        },
+        {
+          "is_number": "IS 18385:2023",
+          "clause": "3.5",
+          "role": "terminology",
+          "score": 0.02583
+        },
+        {
+          "is_number": "IS 5986:2017",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.02556
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "query": "Mild steel welded pipes of 600 mm outside diameter for raw water transmission main",
+      "expected": "IS 3589:2001",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 15647:2006",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.0328
+        },
+        {
+          "is_number": "IS 15155:2020",
+          "clause": "6.1",
+          "role": "other",
+          "score": 0.02797
+        },
+        {
+          "is_number": "IS 15450:2022",
+          "clause": "7",
+          "role": "other",
+          "score": 0.02583
+        },
+        {
+          "is_number": "IS 4985:2021",
+          "clause": "3.3",
+          "role": "terminology",
+          "score": 0.01667
+        },
+        {
+          "is_number": "IS 280:2006",
+          "clause": "7",
+          "role": "requirements",
+          "score": 0.01639
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "query": "Centrifugally cast ductile iron pipes, DN 300, class K9, for water distribution mains",
+      "expected": "IS 8329:2000",
+      "sector": "MTD",
+      "difficulty": "easy",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 8329:2000",
+          "clause": "4",
+          "role": "other",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 9523:2000",
+          "clause": "2",
+          "role": "references",
+          "score": 0.02758
+        },
+        {
+          "is_number": "IS 1729:2023",
+          "clause": "5.1",
+          "role": "requirements",
+          "score": 0.01299
+        },
+        {
+          "is_number": "IS 13593:1992",
+          "clause": "2",
+          "role": "references",
+          "score": 0.01235
+        },
+        {
+          "is_number": "IS 6908:1991",
+          "clause": "2",
+          "role": "references",
+          "score": 0.0122
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "query": "Ductile iron double flanged bends and tees, DN 200, PN 10, for pumping station pipework",
+      "expected": "IS 9523:2000",
+      "sector": "MTD",
+      "difficulty": "easy",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 9523:2000",
+          "clause": "12.5",
+          "role": "requirements",
+          "score": 0.03254
+        },
+        {
+          "is_number": "IS 8329:2000",
+          "clause": "6",
+          "role": "other",
+          "score": 0.03062
+        },
+        {
+          "is_number": "IS 1879:2010",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.01639
+        },
+        {
+          "is_number": "IS 9294:2023",
+          "clause": "13.2.2",
+          "role": "requirements",
+          "score": 0.01408
+        },
+        {
+          "is_number": "IS 1729:2023",
+          "clause": "5.1",
+          "role": "requirements",
+          "score": 0.01235
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "query": "Structural steel of ordinary quality for non-critical fabricated supports and gratings",
+      "expected": "IS 15911:2010",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 15911:2010",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03182
+        },
+        {
+          "is_number": "IS 15647:2006",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.01667
+        },
+        {
+          "is_number": "IS 513 (Part 1):2016",
+          "clause": "3.2.3",
+          "role": "terminology",
+          "score": 0.01587
+        },
+        {
+          "is_number": "IS 15962:2012",
+          "clause": "1.2",
+          "role": "scope",
+          "score": 0.01562
+        },
+        {
+          "is_number": "IS 18384:2023",
+          "clause": "7.3",
+          "role": "requirements",
+          "score": 0.01562
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "query": "Hot rolled medium tensile structural steel plates of grade E250 for bridge girder fabrication",
+      "expected": "IS 2062 (Part 1):2025",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 15914:2011",
+          "clause": "4.2",
+          "role": "requirements",
+          "score": 0.0328
+        },
+        {
+          "is_number": "IS 1079:2017",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.03055
+        },
+        {
+          "is_number": "IS 18384:2023",
+          "clause": "7.3",
+          "role": "requirements",
+          "score": 0.02758
+        },
+        {
+          "is_number": "IS 15647:2006",
+          "clause": "5",
+          "role": "other",
+          "score": 0.02556
+        },
+        {
+          "is_number": "IS 3502:2009",
+          "clause": "2",
+          "role": "references",
+          "score": 0.01667
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "query": "Stainless steel sheets of grade 304, 0.8 mm, for manufacture of kitchen utensils",
+      "expected": "IS 5522:2014",
+      "sector": "MTD",
+      "difficulty": "medium",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 5522:2014",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 15997:2012",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 13983:1994",
+          "clause": "6.1.1",
+          "role": "requirements",
+          "score": 0.01538
+        },
+        {
+          "is_number": "IS 9442:1980",
+          "clause": "10.1",
+          "role": "requirements",
+          "score": 0.01429
+        },
+        {
+          "is_number": "IS 15833:2009",
+          "clause": "4",
+          "role": "requirements",
+          "score": 0.01351
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "query": "Stainless steel seamless tubes, 50 mm outside diameter, grade 316L, for general service piping in a process plant",
+      "expected": "IS 17875:2022",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 1161:2014",
+          "clause": "5",
+          "role": "requirements",
+          "score": 0.03254
+        },
+        {
+          "is_number": "IS 1545:1994",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03252
+        },
+        {
+          "is_number": "IS 15450:2022",
+          "clause": "9.2.1",
+          "role": "requirements",
+          "score": 0.02599
+        },
+        {
+          "is_number": "IS 6392:2020",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.01639
+        },
+        {
+          "is_number": "IS 2501:1995",
+          "clause": "8.1",
+          "role": "requirements",
+          "score": 0.01613
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "query": "Welded stainless steel pipes, 100 mm nominal bore, grade 304, for general service water lines",
+      "expected": "IS 17876:2022",
+      "sector": "MTD",
+      "difficulty": "hard",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 8329:2000",
+          "clause": "12",
+          "role": "requirements",
+          "score": 0.03058
+        },
+        {
+          "is_number": "IS 15647:2006",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.03028
+        },
+        {
+          "is_number": "IS 1161:2014",
+          "clause": "3",
+          "role": "requirements",
+          "score": 0.02837
+        },
+        {
+          "is_number": "IS 15833:2009",
+          "clause": "3",
+          "role": "requirements",
+          "score": 0.02801
+        },
+        {
+          "is_number": "IS 6392:2020",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.01667
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "query": "Covered electrodes of 3.15 mm for manual metal arc welding of mild steel structural joints",
+      "expected": "IS 814:2004",
+      "sector": "MTD",
+      "difficulty": "easy",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 816:1969",
+          "clause": "3",
+          "role": "requirements",
+          "score": 0.03306
+        },
+        {
+          "is_number": "IS 15769:2008",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.0328
+        },
+        {
+          "is_number": "IS 2879:1998",
+          "clause": "1",
+          "role": "other",
+          "score": 0.01613
+        },
+        {
+          "is_number": "IS 6419:1996",
+          "clause": "1",
+          "role": "other",
+          "score": 0.01562
+        },
+        {
+          "is_number": "IS 739:1992",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.01449
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "query": "Aluminium sheet and strip of alloy 19000, 2 mm thick, for general engineering fabrication",
+      "expected": "IS 737:2024",
+      "sector": "MTD",
+      "difficulty": "medium",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 15965:2012",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.03137
+        },
+        {
+          "is_number": "IS 734:1975",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.03102
+        },
+        {
+          "is_number": "IS 739:1992",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03002
+        },
+        {
+          "is_number": "IS 16011:2012",
+          "clause": "7.1",
+          "role": "requirements",
+          "score": 0.02729
+        },
+        {
+          "is_number": "IS 362:1991",
+          "clause": "10",
+          "role": "sampling",
+          "score": 0.01667
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "query": "EC grade aluminium rod of 9.5 mm produced by continuous casting and rolling, for drawing conductor wire",
+      "expected": "IS 5484:2023",
+      "sector": "MTD",
+      "difficulty": "easy",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 5484:2023",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.03333
+        },
+        {
+          "is_number": "IS 16644:2018",
+          "clause": "5.2",
+          "role": "requirements",
+          "score": 0.02769
+        },
+        {
+          "is_number": "IS 6003:2010",
+          "clause": "4.2",
+          "role": "requirements",
+          "score": 0.02765
+        },
+        {
+          "is_number": "IS 739:1992",
+          "clause": "1",
+          "role": "scope",
+          "score": 0.01429
+        },
+        {
+          "is_number": "IS 11513:2017",
+          "clause": "9.1",
+          "role": "requirements",
+          "score": 0.01389
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "query": "Steel wire, cold drawn, for mechanical springs used in valve assemblies, 3 mm diameter, unalloyed",
+      "expected": "IS 4454 (Part 1):2001",
+      "sector": "MTD",
+      "difficulty": "medium",
+      "in_index": false,
+      "rank": null,
+      "returned": [
+        {
+          "is_number": "IS 11169 (Part 1):2022",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.03012
+        },
+        {
+          "is_number": "IS 16644:2018",
+          "clause": "3.13",
+          "role": "terminology",
+          "score": 0.02964
+        },
+        {
+          "is_number": "IS 9962:1981",
+          "clause": "4.1",
+          "role": "requirements",
+          "score": 0.02878
+        },
+        {
+          "is_number": "IS 6003:2010",
+          "clause": "4.1",
+          "role": "requirements",
+          "score": 0.02807
+        },
+        {
+          "is_number": "IS 1673:1984",
+          "clause": "1.1",
+          "role": "requirements",
+          "score": 0.02778
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "query": "Steel chequered plates, 6 mm thickness, for walkway platforms and stair treads in a pump house",
+      "expected": "IS 3502:2009",
+      "sector": "MTD",
+      "difficulty": "easy",
+      "in_index": true,
+      "rank": 1,
+      "returned": [
+        {
+          "is_number": "IS 3502:2009",
+          "clause": "6",
+          "role": "other",
+          "score": 0.03252
+        },
+        {
+          "is_number": "IS 9442:1980",
+          "clause": "10.1",
+          "role": "requirements",
+          "score": 0.02947
+        },
+        {
+          "is_number": "IS 15914:2011",
+          "clause": "4.2",
+          "role": "requirements",
+          "score": 0.0276
+        },
+        {
+          "is_number": "IS 1079:2017",
+          "clause": "9.1.1",
+          "role": "test_methods",
+          "score": 0.01587
+        },
+        {
+          "is_number": "IS 5986:2017",
+          "clause": "8.1.1",
+          "role": "test_methods",
+          "score": 0.01562
+        }
+      ]
+    }
+  ]
+}

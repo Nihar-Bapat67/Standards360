@@ -186,15 +186,30 @@ def build(args):
     return meta
 
 
+_LOADED = {}
+
+
 def load_index():
+    """Load the index once per process. Loading the model costs about a minute, so an evaluation
+    run over fifty queries must not repeat it."""
     import faiss
-    if not FAISS_FILE.exists():
-        raise SystemExit("No index yet. Run `python ingest/build_index.py` first.")
-    meta = json.loads(META_FILE.read_text(encoding="utf-8"))
-    index = faiss.read_index(str(FAISS_FILE))
-    bm25 = pickle.loads(BM25_FILE.read_bytes())["bm25"]
-    id_map = json.loads(ID_MAP_FILE.read_text(encoding="utf-8"))
-    return index, bm25, id_map, meta
+    if "index" not in _LOADED:
+        if not FAISS_FILE.exists():
+            raise SystemExit("No index yet. Run `python ingest/build_index.py` first.")
+        meta = json.loads(META_FILE.read_text(encoding="utf-8"))
+        _LOADED["index"] = faiss.read_index(str(FAISS_FILE))
+        _LOADED["bm25"] = pickle.loads(BM25_FILE.read_bytes())["bm25"]
+        _LOADED["id_map"] = json.loads(ID_MAP_FILE.read_text(encoding="utf-8"))
+        _LOADED["meta"] = meta
+    return _LOADED["index"], _LOADED["bm25"], _LOADED["id_map"], _LOADED["meta"]
+
+
+def load_model(name):
+    from sentence_transformers import SentenceTransformer
+    if _LOADED.get("model_name") != name:
+        _LOADED["model"] = SentenceTransformer(name)
+        _LOADED["model_name"] = name
+    return _LOADED["model"]
 
 
 def search(query, top_k=5, pool=25):
@@ -204,10 +219,9 @@ def search(query, top_k=5, pool=25):
     and the roll-up from clauses to standards. This exists so A4's output can be verified on its own.
     """
     import numpy as np
-    from sentence_transformers import SentenceTransformer
 
     index, bm25, id_map, meta = load_index()
-    model = SentenceTransformer(meta["model"])
+    model = load_model(meta["model"])
     qv = np.asarray(model.encode([query], normalize_embeddings=True), dtype="float32")
     _, dense_rows = index.search(qv, min(pool, index.ntotal))
     dense_rows = list(dense_rows[0])
