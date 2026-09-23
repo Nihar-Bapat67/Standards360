@@ -25,8 +25,12 @@ class RetrievedStandard(BaseModel):
     record_id: Optional[int] = None
     title: str = ""
     department: str = ""
-    score: float = Field(..., description="Reranker score mapped to 0..1, or the fusion score when not reranked")
+    score: float = Field(..., description="Ranking score: reranker probability, or the fusion score")
     fusion_score: float = 0.0
+    match: Optional[float] = Field(default=None,
+                                   description="Absolute 0..1 match of the evidence clause to the query, "
+                                               "from the cross-encoder. Comparable across queries, "
+                                               "unlike the fusion score, so C5 uses it as signal s1")
     evidence: Optional[Evidence] = None
 
 

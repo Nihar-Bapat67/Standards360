@@ -1,0 +1,90 @@
+# Fields a procurement description must give before a confident answer is possible (B5, and the
+# `not_specified` list in B3). One small hand-written table per product category, which is what
+# turns "I am not sure" into a specific, answerable question.
+#
+# Categories cover the two frozen sectors, CED and MTD. Keys are matched by B3's category resolver.
+
+cement:
+  required: [grade, application]
+  ask:
+    grade: "Which grade of cement, 33, 43 or 53?"
+    application: "What is it for: RCC structural work, plastering, or precast?"
+
+aggregate:
+  required: [nominal_size, application]
+  ask:
+    nominal_size: "What nominal size of aggregate, for example 10 mm, 20 mm or 40 mm?"
+    application: "Is it for concrete, or for a road sub-base?"
+
+reinforcement_steel:
+  required: [grade, diameter]
+  ask:
+    grade: "Which grade, Fe 415, Fe 500, Fe 500D or Fe 550?"
+    diameter: "Which bar diameters are needed?"
+
+structural_steel:
+  required: [grade, product_form]
+  ask:
+    grade: "Which grade, for example E250 or E350?"
+    product_form: "Plate, section, or hollow section?"
+
+steel_tubes:
+  required: [type, application]
+  ask:
+    type: "Seamless, electric resistance welded, or galvanized?"
+    application: "Structural use, or conveying water or gas?"
+
+steel_sheet:
+  required: [thickness, coating]
+  ask:
+    thickness: "What thickness, in millimetres?"
+    coating: "Galvanized, cold rolled, or hot rolled without coating?"
+
+steel_wire:
+  required: [diameter, application]
+  ask:
+    diameter: "What wire diameter?"
+    application: "General engineering, springs, or reinforcement?"
+
+pipes_plastic:
+  required: [material, diameter, pressure_class]
+  ask:
+    material: "HDPE, uPVC, CPVC or PPR?"
+    diameter: "What outside diameter or nominal bore?"
+    pressure_class: "What pressure rating, for example PN 6 or PN 10?"
+
+pipes_iron:
+  required: [material, diameter]
+  ask:
+    material: "Ductile iron, cast iron, or mild steel?"
+    diameter: "What nominal diameter, and which class?"
+
+plywood:
+  required: [grade, thickness]
+  ask:
+    grade: "General purpose, marine, shuttering, or fire retardant?"
+    thickness: "What thickness, in millimetres?"
+
+concrete_products:
+  required: [product_form, grade]
+  ask:
+    product_form: "Blocks, paving blocks, tiles, or precast units?"
+    grade: "What strength grade is required?"
+
+aluminium:
+  required: [alloy, product_form]
+  ask:
+    alloy: "Which alloy designation?"
+    product_form: "Sheet, strip, rod, or extrusion?"
+
+castings:
+  required: [grade, application]
+  ask:
+    grade: "Which grade, for example FG 200 or FG 260?"
+    application: "What component is being cast?"
+
+welding_consumables:
+  required: [process, size]
+  ask:
+    process: "Manual metal arc, or gas shielded?"
+    size: "Which electrode or wire diameter?"

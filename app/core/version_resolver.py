@@ -42,6 +42,16 @@ class VersionResolver:
                                          action="Check the number against the BIS portal.")])
 
         editions = self.cat.family(parsed)
+        parts_only = False
+        if not editions:
+            # A tender writes 'IS 1239:2004' for a standard BIS publishes as 'IS 1239 (Part 1):2004'.
+            # Fall back to the same number in its parts rather than declaring the citation unknown.
+            editions = self.cat.same_number(parsed)
+            parts_only = bool(editions)
+            if parts_only and parsed.year is not None:
+                dated = [r for r in editions if self.cat.year_of(r) == parsed.year]
+                editions = dated or editions
+
         if not editions:
             return ResolvedStandard(
                 cited=citation, status=CitationStatus.NOT_FOUND, exists=False,
@@ -76,6 +86,12 @@ class VersionResolver:
                 current_row = split_into
 
         warnings = self._warnings(citation, parsed, cited_row, current_row, chain)
+        if parts_only and current_row is not None:
+            warnings.insert(0, VersionWarning(
+                severity=Severity.MEDIUM, cited=citation,
+                message=f"{parsed.family} is published in parts; {current_row['is_number']} is the "
+                        f"matching part in force.",
+                action=f"Cite {current_row['is_number']}, and add the other parts if they apply."))
         if split_into is not None:
             warnings = [VersionWarning(
                 severity=Severity.HIGH, cited=citation,

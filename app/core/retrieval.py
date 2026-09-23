@@ -15,6 +15,7 @@ Pass `reranker="BAAI/bge-reranker-v2-m3"` on a machine with a GPU.
 """
 
 import math
+import re
 import sys
 import time
 from pathlib import Path
@@ -34,6 +35,9 @@ QUOTE_CHARS = 300   # short extract only: BIS text is never redistributed in ful
 # truncated to 400 characters costs 0.57 s, and the ranking does not change. A clause says what it
 # is about in its opening sentence.
 RERANK_CHARS = 400
+MAX_ATTRIBUTES = 6   # a long attribute list dilutes the query rather than sharpening it
+MIN_MATCH = 0.10     # below this the clause does not answer the query; say nothing rather than guess
+IS_NUMBER = re.compile(r"\bIS\s*[:\s\-]?\s*\d{2,5}", re.IGNORECASE)
 DROP_FIELDS = ("quantity", "delivery", "rate", "price")
 
 
@@ -73,10 +77,14 @@ class RetrievalEngine:
         attributes = requirement.get("attributes") or {}
         application = attributes.get("application") or requirement.get("application") or ""
         parts = [requirement.get("product") or ""]
-        for key, value in attributes.items():
+        for key, value in list(attributes.items())[:MAX_ATTRIBUTES]:
             if key.lower() in DROP_FIELDS or key.lower() == "application" or not value:
                 continue
             value = str(value)
+            # A standard number in the query pulls retrieval toward whatever clause happens to cite
+            # it. The numbers the tender gave are B4's business, not the search engine's.
+            if IS_NUMBER.search(value):
+                continue
             parts.append(value if key.lower() in value.lower() else f"{value} {key}")
         parts.append(application)
         seen, ordered = set(), []
@@ -185,8 +193,25 @@ class RetrievalEngine:
             if key not in best or score > best[key][0]:
                 best[key] = (score, row)
 
+        chosen = sorted(best.items(), key=lambda kv: -kv[1][0])[:top_k]
+
+        # An absolute match score for the shortlist. Fusion scores are ranks in disguise and mean
+        # nothing across queries, so C5 cannot build an honest confidence from them. Scoring a few
+        # pairs with the cross-encoder costs about 0.05 s and gives a comparable 0..1 number.
+        matches = {}
+        if scores is None and self._reranker_name and chosen:
+            rows_to_score = [row for _, (_, row) in chosen]
+            absolute = self._rerank(query, rows_to_score)
+            if absolute:
+                matches = dict(zip(rows_to_score, absolute))
+
         standards = []
-        for key, (score, row) in sorted(best.items(), key=lambda kv: -kv[1][0])[:top_k]:
+        for key, (score, row) in chosen:
+            match = matches.get(row, score if scores is not None else None)
+            if match is not None and match < MIN_MATCH:
+                # Returning a standard whose clause plainly does not answer the query is worse than
+                # returning nothing: C5 would score it low, but D2 would still print it.
+                continue
             entry = self.id_map[row]
             quote = " ".join((entry.get("text") or "").split())[:QUOTE_CHARS]
             standards.append(RetrievedStandard(
@@ -196,6 +221,8 @@ class RetrievalEngine:
                 department=entry.get("department") or "",
                 score=round(float(score), 4),
                 fusion_score=round(float(fusion_by_row.get(row, 0.0)), 5),
+                match=round(float(matches[row]), 4) if row in matches else (
+                    round(float(score), 4) if scores is not None else None),
                 evidence=Evidence(
                     clause=str(entry.get("clause")),
                     clause_id=str(entry.get("clause_id")),
