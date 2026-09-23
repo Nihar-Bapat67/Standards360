@@ -10,6 +10,8 @@ detail pages (services.bis.gov.in), plus the curated product categories.
     python ingest/collect.py crawl --all         every record ID (runs for hours, resumable)
     python ingest/collect.py crawl --closure     any cross-referenced record not yet collected
     python ingest/collect.py crawl --ids 111 100 specific record IDs, for testing
+    python ingest/collect.py reparse --check 111 re-read chosen saved pages and print the result; writes nothing
+    python ingest/collect.py reparse             re-read every saved page after a parser change (no crawling)
     python ingest/collect.py load                build data/catalogue.db from the collected files
     python ingest/collect.py stats               progress summary
     python ingest/collect.py show "IS 269:2015"  one standard and the standards it cites
@@ -22,11 +24,16 @@ import json
 import os
 import random
 import re
+import shutil
 import sqlite3
 import threading
 import time
+import zlib
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 from pathlib import Path
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -51,7 +58,8 @@ TOTAL_IDS = (MAIN_RANGE[1] - MAIN_RANGE[0] + 1) + (RECENT_RANGE[1] - RECENT_RANG
 BASIC = {
     "IS Number": "is_number",
     "IS Title": "title",
-    "Superseding IS": "superseding_is",
+    "Superseding IS": "superseding_is",   # current standards: the older standard(s) this one replaced
+    "Superseded by IS": "superseded_by",  # withdrawn standards: the standard that replaced this one
     "Degree of Equivalence": "equivalence",
     "Number of Revisions": "revisions",
     "Number of Amendments": "amendments_text",
@@ -70,6 +78,11 @@ XREF_HEADINGS = [("references", "Indian Standards Referred In"),
                  ("international", "International Standards Referred In"),
                  ("referenced_by", "is Referred in following Indian Standards")]
 XREF_LINK = re.compile(r'<a[^>]+href="[^"]*/isdetails/([A-Za-z0-9+/=]+)"[^>]*>(.*?)</a>', re.S)
+QCO_DATE = re.compile(r"\d{2}-\d{2}-\d{4}")
+QCO_SPLIT = re.compile(r"Implement(?:ed On|ation Date)\s*:*")
+PDF_SRC = re.compile(r"\.pdf(?:[?#]|$)", re.I)
+EMPTY_VALUES = {"", "none", "-", "na", "n/a", "nil"}
+STATUS_FIELDS = ("withdrawn", "superseded_by", "superseding_is", "qco_status", "qco_date", "summary_pdf")
 
 _local = threading.local()
 _write_lock = threading.Lock()
@@ -135,6 +148,45 @@ def flatten_html(fragment):
 
 # ---------------------------------------------------------------- parsing
 
+def page_url(record_id):
+    return KYS + "Indian_standards/isdetails/" + b64(record_id)
+
+
+def parse_status(soup, rec):
+    """Withdrawn status, replacement, QCO notice and summary link. Always sets every key in STATUS_FIELDS."""
+    # Withdrawn standards carry a "Superseded by IS" row instead of the "Superseding IS" row of current ones.
+    replaced_by = rec.get("superseded_by", "")
+    rec["superseded_by"] = "" if replaced_by.strip().lower() in EMPTY_VALUES else replaced_by
+    rec.setdefault("superseding_is", "")
+    rec["withdrawn"] = bool(rec["superseded_by"]) or "(withdrawn)" in (rec.get("title") or "").lower()
+
+    # The first qco_file_details link on a page can be empty; the notice text is in a later one.
+    notice = next((clean(a.get_text(" ")) for a in soup.select("a.qco_file_details")
+                   if clean(a.get_text(" "))), "")
+    status = date = ""
+    if notice:
+        status = clean(QCO_SPLIT.split(notice)[0])
+        found = QCO_DATE.search(notice)
+        if found:
+            try:
+                date = datetime.strptime(found.group(0), "%d-%m-%Y").date().isoformat()
+            except ValueError:
+                date = ""
+    rec["qco_status"], rec["qco_date"] = status, date
+
+    src = ""
+    for label in soup.select("label.qs"):
+        if clean(label.get_text(" ")).split("/")[0].strip().lower() == "summary":
+            frame = label.find_next("iframe")
+            src = (frame.get("src") or "") if frame else ""
+            break
+    if not src:
+        frame = soup.select_one("iframe#myiframe")
+        src = (frame.get("src") or "") if frame else ""
+    src = src.strip()
+    rec["summary_pdf"] = urljoin(page_url(rec["record_id"]), src) if src and PDF_SRC.search(src) else ""
+
+
 def parse_detail(html, record_id):
     soup = BeautifulSoup(html, "html.parser")
     rec = {"record_id": record_id}
@@ -153,6 +205,8 @@ def parse_detail(html, record_id):
 
     if not rec.get("is_number"):
         return None
+
+    parse_status(soup, rec)
 
     for tr in soup.find_all("tr"):
         cells = [clean(td.get_text(" ")) for td in tr.find_all(["td", "th"], recursive=False)]
@@ -260,7 +314,8 @@ def fetch_one(rid):
 
 
 def run(ids, workers, label):
-    todo = [i for i in dict.fromkeys(ids) if i not in done_ids()]
+    done = done_ids()
+    todo = [i for i in dict.fromkeys(ids) if i not in done]
     print(f"{label}: {len(todo)} records to fetch with {workers} workers")
     t0, n, found, cited = time.time(), 0, 0, set()
     with ThreadPoolExecutor(workers) as pool:
@@ -323,6 +378,120 @@ def cmd_crawl(args):
         raise SystemExit("Choose one of --priority, --recent, --all, --closure or --ids.")
 
 
+ENRICHED = ("labs", "product_manuals", "gazette", "amendments")
+
+
+BACKUPS = BIS / "backups"
+
+
+def read_saved_page(record_id):
+    """Return the saved HTML for a record, or raise OSError/ValueError if it is missing or damaged."""
+    path = RAW / f"{record_id}.html.gz"
+    if not path.exists():
+        raise FileNotFoundError(f"no saved page {path.name}")
+    try:
+        return gzip.decompress(path.read_bytes()).decode("utf-8", "replace")
+    except (OSError, EOFError, zlib.error) as e:
+        raise ValueError(f"saved page {path.name} is damaged: {e}") from e
+
+
+def reparse_record(old):
+    """Parse the saved page again and keep the data that came from the JSON endpoints."""
+    new = parse_detail(read_saved_page(old["record_id"]), old["record_id"])
+    if new is None:
+        raise ValueError("saved page has no IS number")
+    for k in ENRICHED:
+        if k in old:
+            new[k] = old[k]
+    return new
+
+
+def print_status(rec):
+    print(f"record {rec['record_id']}  {rec.get('is_number', '')}  {(rec.get('title') or '')[:70]}")
+    for k in STATUS_FIELDS:
+        print(f"    {k:<15} {rec.get(k)!r}")
+
+
+def cmd_reparse(args):
+    """Re-read saved pages with the current parser, keeping the JSON-endpoint data already fetched."""
+    if args.check:
+        wanted = set(args.check)
+        found = {}
+        with STANDARDS.open(encoding="utf-8") as f:
+            for line in f:
+                try:
+                    rec = json.loads(line)
+                except ValueError:
+                    continue
+                if rec.get("record_id") in wanted:
+                    found[rec["record_id"]] = rec
+        for rid in args.check:
+            if rid not in found:
+                print(f"record {rid}: not in {STANDARDS.name}, nothing to check\n")
+                continue
+            try:
+                print_status(reparse_record(found[rid]))
+            except (OSError, ValueError) as e:
+                print(f"record {rid}: {e}")
+            print()
+        print("Check only: nothing was written.")
+        return
+
+    size_before = STANDARDS.stat().st_size
+    BACKUPS.mkdir(parents=True, exist_ok=True)
+    backup = BACKUPS / f"standards-{datetime.now():%Y%m%d-%H%M%S}.jsonl"
+    shutil.copy2(STANDARDS, backup)
+    print(f"Backup written to {backup}")
+
+    tmp = STANDARDS.with_suffix(".jsonl.tmp")
+    n = changed = 0
+    problems = []
+    tally = Counter()
+    with STANDARDS.open(encoding="utf-8") as src, tmp.open("w", encoding="utf-8", newline="\n") as dst:
+        for lineno, line in enumerate(src, 1):
+            if not line.strip():
+                continue
+            try:
+                old = json.loads(line)
+            except ValueError as e:
+                problems.append(f"line {lineno}: not valid JSON ({e}); kept as it was")
+                dst.write(line if line.endswith("\n") else line + "\n")
+                continue
+            try:
+                new = reparse_record(old)
+            except (OSError, ValueError) as e:
+                problems.append(f"record {old.get('record_id')}: {e}; kept as it was")
+                new = old
+            n += 1
+            changed += new != old
+            tally["withdrawn"] += bool(new.get("withdrawn"))
+            tally["replacement named"] += bool(new.get("superseded_by"))
+            tally["summary link"] += bool(new.get("summary_pdf"))
+            if new.get("qco_status"):
+                tally[f"QCO: {new['qco_status']}"] += 1
+                tally["QCO without a readable date"] += not new.get("qco_date")
+            dst.write(json.dumps(new, ensure_ascii=False) + "\n")
+        dst.flush()
+        os.fsync(dst.fileno())
+
+    if STANDARDS.stat().st_size != size_before:
+        tmp.unlink()
+        raise SystemExit("standards.jsonl changed while re-parsing (is a crawl running?). "
+                         "Nothing was replaced. Stop the crawl and run reparse again.")
+    tmp.replace(STANDARDS)
+
+    print(f"Re-parsed {n} records; {changed} gained or changed fields.")
+    for k, v in sorted(tally.items()):
+        print(f"  {k:<45} {v}")
+    if problems:
+        print(f"{len(problems)} records could not be re-parsed and were kept unchanged:")
+        for p in problems[:20]:
+            print("  " + p)
+        if len(problems) > 20:
+            print(f"  ... and {len(problems) - 20} more")
+    print("Run `load` next to rebuild data/catalogue.db.")
+
+
 def cmd_categories(_args):
     BIS.mkdir(parents=True, exist_ok=True)
     index = BeautifulSoup(get(SITE + "get_is_list_by_category/") or "", "html.parser")
@@ -354,17 +523,46 @@ def cmd_categories(_args):
 
 # ---------------------------------------------------------------- loading
 
+# Each standards column: (column name, SQL type, how to read it from a standards.jsonl record).
+STANDARD_COLUMNS = [
+    ("record_id", "INTEGER PRIMARY KEY", lambda r: r["record_id"]),
+    ("is_number", "TEXT", lambda r: r.get("is_number")),
+    ("title", "TEXT", lambda r: r.get("title")),
+    ("withdrawn", "INTEGER", lambda r: int(bool(r.get("withdrawn")))),
+    ("superseded_by", "TEXT", lambda r: r.get("superseded_by") or ""),
+    ("superseding_is", "TEXT", lambda r: r.get("superseding_is") or ""),
+    ("qco_status", "TEXT", lambda r: r.get("qco_status") or ""),
+    ("qco_date", "TEXT", lambda r: r.get("qco_date") or ""),
+    ("summary_pdf", "TEXT", lambda r: r.get("summary_pdf") or ""),
+    ("equivalence", "TEXT", lambda r: r.get("equivalence")),
+    ("revisions", "TEXT", lambda r: r.get("revisions")),
+    ("amendments_text", "TEXT", lambda r: r.get("amendments_text")),
+    ("aspect", "TEXT", lambda r: r.get("aspect")),
+    ("language", "TEXT", lambda r: r.get("language")),
+    ("reaffirmation_year", "TEXT", lambda r: r.get("reaffirmation_year")),
+    ("department", "TEXT", lambda r: r.get("department")),
+    ("committee", "TEXT", lambda r: r.get("committee")),
+    ("group_name", "TEXT", lambda r: r.get("group")),
+    ("sub_group", "TEXT", lambda r: r.get("sub_group")),
+    ("sub_sub_group", "TEXT", lambda r: r.get("sub_sub_group")),
+    ("certification", "TEXT", lambda r: r.get("certification") or ""),
+    ("n_amendments", "INTEGER", lambda r: r.get("n_amendments")),
+    ("n_gazette", "INTEGER", lambda r: r.get("n_gazette")),
+    ("n_licences", "INTEGER", lambda r: r.get("n_licences")),
+    ("n_product_manuals", "INTEGER", lambda r: r.get("n_product_manuals")),
+    ("n_labs", "INTEGER", lambda r: r.get("n_labs")),
+    ("n_corrigenda", "INTEGER", lambda r: r.get("n_corrigenda")),
+    ("also_numbered", "TEXT", lambda r: json.dumps(r.get("also_numbered", []), ensure_ascii=False)),
+    ("international_refs_text", "TEXT", lambda r: r.get("international_refs_text")),
+]
+INSERT_STANDARD = "INSERT OR REPLACE INTO standards ({}) VALUES ({})".format(
+    ", ".join(c for c, _, _ in STANDARD_COLUMNS), ", ".join("?" for _ in STANDARD_COLUMNS))
+
 SCHEMA = """
 DROP TABLE IF EXISTS standards; DROP TABLE IF EXISTS xrefs; DROP TABLE IF EXISTS labs;
 DROP TABLE IF EXISTS product_manuals; DROP TABLE IF EXISTS gazette;
 DROP TABLE IF EXISTS amendments; DROP TABLE IF EXISTS categories;
-CREATE TABLE standards (
-  record_id INTEGER PRIMARY KEY, is_number TEXT, title TEXT, superseding_is TEXT,
-  equivalence TEXT, revisions TEXT, amendments_text TEXT, aspect TEXT, language TEXT,
-  reaffirmation_year TEXT, department TEXT, committee TEXT, group_name TEXT, sub_group TEXT,
-  sub_sub_group TEXT, certification TEXT, n_amendments INTEGER, n_gazette INTEGER,
-  n_licences INTEGER, n_product_manuals INTEGER, n_labs INTEGER, n_corrigenda INTEGER,
-  also_numbered TEXT, international_refs_text TEXT);
+CREATE TABLE standards (""" + ", ".join(f"{c} {t}" for c, t, _ in STANDARD_COLUMNS) + """);
 CREATE TABLE xrefs (citing_record INTEGER, cited_record INTEGER, PRIMARY KEY (citing_record, cited_record));
 CREATE TABLE labs (record_id INTEGER, name TEXT, city TEXT, state TEXT);
 CREATE TABLE product_manuals (record_id INTEGER, type TEXT, doc TEXT);
@@ -374,25 +572,56 @@ CREATE TABLE categories (category_id INTEGER, category TEXT, record_id INTEGER,
   is_number TEXT, product TEXT, features TEXT);
 CREATE INDEX ix_standards_is ON standards(is_number);
 CREATE INDEX ix_xrefs_cited ON xrefs(cited_record);
+CREATE INDEX ix_standards_superseded_by ON standards(superseded_by);
 """
 
 
 def cmd_load(_args):
-    con = sqlite3.connect(DB)
+    """Build the database in a temporary file and swap it in only when the whole load succeeded."""
+    tmp_db = DB.with_suffix(".db.tmp")
+    if tmp_db.exists():
+        tmp_db.unlink()
+    con = sqlite3.connect(tmp_db)
+    try:
+        n, skipped = load_into(con)
+        counts = {t: con.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
+                  for t in ("standards", "xrefs", "labs", "product_manuals", "gazette", "amendments", "categories")}
+        status = con.execute("SELECT SUM(withdrawn), SUM(superseded_by <> ''), SUM(qco_status <> ''), "
+                             "SUM(summary_pdf <> '') FROM standards").fetchone()
+    except Exception:
+        con.close()
+        tmp_db.unlink(missing_ok=True)
+        raise
+    con.close()
+    try:
+        tmp_db.replace(DB)
+    except PermissionError:
+        raise SystemExit(f"Could not replace {DB}: it is open in another program (a database viewer or "
+                         f"another terminal). Close it and run load again. The new database is at {tmp_db}.")
+    print(f"Loaded {n} standards into {DB}")
+    for t, c in counts.items():
+        print(f"  {t:<16} {c}")
+    print(f"  withdrawn {status[0] or 0}   replacement named {status[1] or 0}   "
+          f"with QCO {status[2] or 0}   summary link {status[3] or 0}")
+    if skipped:
+        print(f"Skipped {len(skipped)} unreadable lines in {STANDARDS.name}: {skipped[:10]}")
+
+
+def load_into(con):
     con.executescript(SCHEMA)
     n = 0
+    skipped = []
     with STANDARDS.open(encoding="utf-8") as f:
-        for line in f:
-            r = json.loads(line)
+        for lineno, line in enumerate(f, 1):
+            if not line.strip():
+                continue
+            try:
+                r = json.loads(line)
+            except ValueError:
+                skipped.append(lineno)
+                continue
             n += 1
-            con.execute("INSERT OR REPLACE INTO standards VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
-                r["record_id"], r.get("is_number"), r.get("title"), r.get("superseding_is"),
-                r.get("equivalence"), r.get("revisions"), r.get("amendments_text"), r.get("aspect"),
-                r.get("language"), r.get("reaffirmation_year"), r.get("department"), r.get("committee"),
-                r.get("group"), r.get("sub_group"), r.get("sub_sub_group"), r.get("certification") or "",
-                r.get("n_amendments"), r.get("n_gazette"), r.get("n_licences"),
-                r.get("n_product_manuals"), r.get("n_labs"), r.get("n_corrigenda"),
-                json.dumps(r.get("also_numbered", []), ensure_ascii=False), r.get("international_refs_text")))
+            con.execute(INSERT_STANDARD, tuple(read(r) for _, _, read in STANDARD_COLUMNS))
             for x in r.get("references", []):
                 con.execute("INSERT OR IGNORE INTO xrefs VALUES (?,?)", (r["record_id"], x["record_id"]))
             for x in r.get("referenced_by", []):
@@ -409,28 +638,33 @@ def cmd_load(_args):
         with CATEGORIES.open(encoding="utf-8") as f:
             con.executemany("INSERT INTO categories VALUES (?,?,?,?,?,?)",
                             [tuple(json.loads(l)[k] for k in ("category_id", "category", "record_id",
-                                                              "is_number", "product", "features")) for l in f])
+                                                              "is_number", "product", "features"))
+                             for l in f if l.strip()])
     con.commit()
-    counts = {t: con.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
-              for t in ("standards", "xrefs", "labs", "product_manuals", "gazette", "amendments", "categories")}
-    con.close()
-    print(f"Loaded {n} standards into {DB}")
-    for t, c in counts.items():
-        print(f"  {t:<16} {c}")
+    return n, skipped
 
 
 def cmd_show(args):
     con = sqlite3.connect(DB)
     wanted = args.is_number.replace(" ", "").upper()
-    sql = ("SELECT record_id, is_number, title, aspect, certification, superseding_is, n_labs FROM standards "
+    sql = ("SELECT record_id, is_number, title, aspect, certification, superseding_is, n_labs, "
+           "withdrawn, superseded_by, qco_status, qco_date, summary_pdf FROM standards "
            "WHERE upper(replace(is_number,' ','')) {} ? ORDER BY record_id LIMIT 1")
-    row = (con.execute(sql.format("="), (wanted,)).fetchone()
-           or con.execute(sql.format("LIKE"), (wanted + "%",)).fetchone())
+    try:
+        row = (con.execute(sql.format("="), (wanted,)).fetchone()
+               or con.execute(sql.format("LIKE"), (wanted + "%",)).fetchone())
+    except sqlite3.OperationalError:
+        raise SystemExit("data/catalogue.db was built by an older version of this script. Run `load` first.")
     if not row:
         raise SystemExit(f"{args.is_number} is not in data/catalogue.db yet. Crawl it, then run `load`.")
-    rid, num, title, aspect, cert, sup, n_labs = row
-    print(f"{num}  {title}")
-    print(f"  aspect: {aspect}   certification: {cert or 'not listed'}   superseding IS: {sup}   labs: {n_labs}")
+    rid, num, title, aspect, cert, sup, n_labs, withdrawn, replaced_by, qco, qco_date, summary = row
+    print(f"{num}  {title}   (record {rid})")
+    print(f"  aspect: {aspect}   certification: {cert or 'not listed'}   superseding IS: {sup or 'none'}   "
+          f"labs: {n_labs}")
+    print(f"  status: {'WITHDRAWN' if withdrawn else 'current'}"
+          + (f", replaced by IS {replaced_by}" if replaced_by else ""))
+    print(f"  QCO: {qco + (', ' + qco_date if qco_date else '') if qco else 'none listed'}")
+    print(f"  summary PDF: {summary or 'none'}")
     print("  cites:")
     for a, n, t in con.execute("SELECT s.aspect, s.is_number, s.title FROM xrefs x JOIN standards s "
                                "ON s.record_id = x.cited_record WHERE x.citing_record = ? "
@@ -464,6 +698,10 @@ def main():
     c.add_argument("--workers", type=int, default=4)
     c.set_defaults(fn=cmd_crawl)
     sub.add_parser("load").set_defaults(fn=cmd_load)
+    r = sub.add_parser("reparse")
+    r.add_argument("--check", type=int, nargs="+", metavar="ID",
+                   help="print the re-parsed status fields for these record IDs and write nothing")
+    r.set_defaults(fn=cmd_reparse)
     sub.add_parser("stats").set_defaults(fn=cmd_stats)
     s = sub.add_parser("show")
     s.add_argument("is_number")

@@ -79,7 +79,12 @@ Current phase (17 Sep 2026): **Stage A, module A1 (Standards Data Collector)**.
 - Done: priority crawl. `data/catalogue.db` holds 2,808 standards (724 of 725 category standards plus
   all 2,065 standards they cite), 55,100 cross-reference links, 4,516 lab rows, 433 product manuals,
   1,978 gazette notices, 961 amendments. Every standard cited by a category standard is collected.
-- Next: `crawl --recent` (2026-era block), then `crawl --all` overnight, then `load`.
+- Done: recent crawl. All 1,901 IDs in 65,500–67,400 visited: 1,553 valid (1,147 are 2026 editions,
+  266 are 2025), 348 blank, 0 failed. Collected total 4,269 standards in `standards.jsonl`.
+- In progress: `crawl --all`. Interrupted by a shutdown at about 02:24 on 18 Sep with 18,589 standards
+  saved in `standards.jsonl` (no broken lines); the main block had reached record ~15,585. Re-running
+  `crawl --all` resumes from there (~17,000 main-block IDs left). `catalogue.db` still holds only the
+  4,269 from the last `load`; it changes only when `load` is run.
 - After A1: choose the document-text source for A2, then A2 and A4.
 
 Run `python ingest/collect.py stats` for live progress. Update this section when the phase changes.
@@ -144,10 +149,26 @@ Run `python ingest/collect.py stats` for live progress. Update this section when
 - Certification is blank or "None" for most standards; only 186 of 2,808 say "Mandatory
   Certification". Blank means "not stated", not "not required".
 
+### Trust over coverage (decided by the user, 19 Sep 2026)
+- The prototype recommends only standards whose information is accurate and current. Where
+  information is missing, the output says so explicitly; it never fills a gap with older or guessed data.
+- Clause text (A2) is used only when it is the **current edition** of the standard. Older-edition text
+  is not indexed and never quoted. Verified reason: archive.org has IS 269 only as 1989 and 2013; the
+  2013 text covers grade 33 only, while IS 269:2015 covers 33, 43 and 53 grades, and 9 references on the
+  2015 page are absent from the 2013 text.
+- Text sources, in order: archive.org `gov.in.is.<number>[.<part>].<year>` items whose year equals the
+  catalogue's current year (12,180 of 21,160 current standards; CED 1,536 of 1,883, ETD 664 of 1,568);
+  BIS one-page summary PDFs from `summary_pdf` (1,204 current standards; always current edition);
+  current editions downloaded **by hand** from the BIS store for gold-set and demo standards.
+- The BIS store (`standardsbis.bsbedge.com`) is not scraped: its robots.txt disallows all automated
+  access and downloads are tied to a logged-in account.
+- Open: which fields must be complete for a standard to count as "accurate". BIS itself leaves
+  certification and gazette lists blank for many standards, so those should be shown as
+  "not stated by BIS" rather than excluding the standard. The full catalogue is still needed for
+  validation (D1 existence check, C3/B4 withdrawn-citation check) even for standards not recommended.
+
 ### Open questions
-- Document text for A2/A4 is not on the detail pages (no full text, no scope). Source not chosen yet.
-  Proposed: archive.org items `gov.in.is*` (22,022 items, plain `.txt` per item, about 950 MB total),
-  joined to the catalogue on IS number, part and year.
+- None for the A2 text source; see "Trust over coverage" above.
 
 ### Verified data (safe to cite)
 - IS 269:2015 is record 111: Product Specification, Mandatory Certification, 48 labs, QCO implemented
