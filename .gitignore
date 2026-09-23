@@ -2,3 +2,9 @@ data/
 __pycache__/
 *.pyc
 .env
+
+# Never commit collected or vendored material
+catalogue/
+pylib/
+*.pdf
+*.db

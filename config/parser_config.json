@@ -1,0 +1,11 @@
+{
+  "parser_version": "1.0.0",
+  "max_clause_chars": 3000,
+  "min_text_coverage_ratio": 0.97,
+  "top_margin_max_y": 95.0,
+  "bottom_margin_min_y": 750.0,
+  "catalogue_db_path": "catalogue/catalogue.db",
+  "data_dir": "data",
+  "parsed_dir": "data/parsed"
+}
+
