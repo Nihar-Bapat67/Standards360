@@ -253,8 +253,14 @@ Run `python ingest/collect.py stats` for live progress. Update this section when
 ## Environment
 
 - Project folder: `D:\Standards360` (moved out of OneDrive to avoid sync locks on many small files).
-- The user's terminal runs Miniconda `(base)` Python 3.14. Install dependencies with
-  `python -m pip install -r requirements.txt`.
+- **Two interpreters exist on this machine, and that has already caused confusion.** Everything is
+  installed in `C:\Users\DELL\AppData\Local\Programs\Python\Python311\python.exe` (Python 3.11.9):
+  faiss, torch, sentence-transformers, pymupdf, fastapi, pytest. The terminal's `python` is
+  Miniconda `(base)` Python 3.14.6, which has none of them, so a command run there fails with
+  `ModuleNotFoundError: No module named 'faiss'` even though the module is installed.
+  Either call the 3.11 interpreter by its full path, or install the requirements into the conda
+  base with `python -m pip install -r requirements.txt` (faiss-cpu and torch do publish 3.14 wheels,
+  and the Hugging Face model cache is shared between interpreters, so bge-m3 is not downloaded again).
 - Collector commands: `python ingest/collect.py categories | crawl --priority | crawl --recent |
   crawl --all | crawl --closure | load | stats | show "IS 269:2015"`.
 
