@@ -20,6 +20,16 @@ from ingest.parsing.segmenter import StandardSegment
 # The first amendment page is titled 'AMENDMENT NO. 1 ...'; its continuation pages carry a
 # running header such as 'Amend No. 1 to IS 1786 : 2008'. Both must be skipped.
 AMENDMENT_BANNER = re.compile(r"AMENDMENT\s+NO\.?\s*\d+|AMEND\.?\s*NO\.?\s*\d+\s+TO\s+IS\b", re.IGNORECASE)
+# Some BIS PDFs embed subset fonts with no character map. Text is present but extracts as symbols,
+# so the parser would produce clauses full of nonsense. Such a file needs OCR, not parsing.
+READABLE_RATIO = 0.55
+LETTERS = re.compile(r"[A-Za-z]")
+
+
+def readability(text: str) -> float:
+    """Share of letters among the non-space characters, as a check that text extracted sensibly."""
+    body = "".join(text.split())
+    return (len(LETTERS.findall(body)) / len(body)) if body else 0.0
 
 
 def compute_sha256(file_path: str) -> str:
@@ -125,6 +135,13 @@ def parse_standard_pages(
             })
 
         page_blocks_data.append((pno + 1, page_lines))
+
+    # Refuse a document whose text layer cannot be read, rather than filling the index with symbols.
+    sample = " ".join(l["text"] for _, lines in page_blocks_data for l in lines[:40])[:4000]
+    if sample and readability(sample) < READABLE_RATIO:
+        raise ValueError(
+            f"text layer is not readable ({readability(sample):.0%} letters); the PDF embeds fonts "
+            f"without a character map and needs OCR")
 
     # Identify clause boundaries across the stream of lines
     headings_found = []

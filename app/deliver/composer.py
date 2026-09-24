@@ -91,7 +91,9 @@ class Composer:
             options=options,
             allied=groups,
             verdicts=verdicts or [],
-            warnings=(warnings or []) + resolved.warnings,
+            # The pipeline collects warnings from the primary and from every cited standard, so the
+            # same sentence can arrive twice. A tender annexure must not repeat itself.
+            warnings=self._unique(list(warnings or []) + resolved.warnings),
             certification=certification,
             explanation=explanation,
             removed_by_guard=removed,
@@ -149,6 +151,16 @@ class Composer:
             fallback = self.guard.check(deterministic, allowed=allowed)
             return fallback.text, checked.removed
         return checked.text, checked.removed
+
+    @staticmethod
+    def _unique(warnings: List[VersionWarning]) -> List[VersionWarning]:
+        seen, out = set(), []
+        for warning in warnings:
+            key = (warning.severity, warning.message)
+            if key not in seen:
+                seen.add(key)
+                out.append(warning)
+        return out
 
     @staticmethod
     def _plain_sentence(primary, title, allied, warnings) -> str:
