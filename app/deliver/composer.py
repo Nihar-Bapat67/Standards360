@@ -85,6 +85,8 @@ class Composer:
         return Recommendation(
             primary=primary,
             primary_title=resolved.title or top.title,
+            amendments=resolved.amendments,
+            primary_as_cited=self._as_cited(primary, resolved.amendments),
             confidence=confidence.score if confidence else 0.0,
             band=confidence.band if confidence else "low",
             evidence=top.evidence,
@@ -151,6 +153,22 @@ class Composer:
             fallback = self.guard.check(deterministic, allowed=allowed)
             return fallback.text, checked.removed
         return checked.text, checked.removed
+
+    @staticmethod
+    def _as_cited(primary: str, amendments: List[dict]) -> str:
+        """How the standard should be written in a tender.
+
+        'IS 1161:2014' alone invites the reader to think the 2023 amendment is a newer edition that
+        was missed. Writing it as amended removes the ambiguity and is how a tender should cite it.
+        """
+        if not primary:
+            return ""
+        if not amendments:
+            return primary
+        latest = amendments[-1]
+        number = (latest.get("number") or "amendment").strip()
+        year = (latest.get("year") or "").strip()
+        return f"{primary} (as amended; {number}{', ' + year if year else ''})"
 
     @staticmethod
     def _unique(warnings: List[VersionWarning]) -> List[VersionWarning]:

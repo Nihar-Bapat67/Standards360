@@ -61,6 +61,14 @@ class Recommendation(BaseModel):
 
     primary: Optional[str] = None
     primary_title: str = ""
+    amendments: List[Dict[str, str]] = Field(
+        default_factory=list,
+        description="Amendments in force on the primary standard. An amendment modifies a standard "
+                    "without replacing it, so the edition year stays the same and the citation must "
+                    "read 'as amended'. Carried here so no reader mistakes an amendment year for a "
+                    "newer edition")
+    primary_as_cited: str = Field(
+        default="", description="How the primary should appear in a tender, amendments included")
     confidence: float = 0.0
     band: str = "low"
     evidence: Optional[Evidence] = None

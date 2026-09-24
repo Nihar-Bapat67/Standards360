@@ -90,7 +90,14 @@ def main() -> None:
     if not recommendation.primary:
         print("no standard matched closely enough to recommend one")
     else:
-        print(f"primary: {recommendation.primary} — {recommendation.primary_title}")
+        print(f"primary: {recommendation.primary_as_cited or recommendation.primary} — "
+              f"{recommendation.primary_title}")
+        if recommendation.amendments:
+            listed = "; ".join(f"{a.get('number','').strip()} ({a.get('year','')})"
+                               for a in recommendation.amendments)
+            print(f"amendments in force: {listed}")
+            print(f"  (an amendment modifies {recommendation.primary} without replacing it, so the "
+                  f"edition year does not change; cite it as amended)")
         if recommendation.evidence:
             evidence = recommendation.evidence
             print(f"evidence: clause {evidence.clause} ({evidence.role}), page {evidence.page_start}")

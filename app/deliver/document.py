@@ -140,8 +140,8 @@ class DocumentGenerator:
                     "suitable standard; its text has not been ingested.</p>")
         band = recommendation.band
         parts = [f"<h2>2. Recommended standard</h2>",
-                 f"<p><span class='num'>{self._e(recommendation.primary)}</span> — "
-                 f"{self._e(recommendation.primary_title)}</p>",
+                 f"<p><span class='num'>{self._e(recommendation.primary_as_cited or recommendation.primary)}"
+                 f"</span> — {self._e(recommendation.primary_title)}</p>",
                  f"<p class='{band}'>{BAND_WORDS.get(band, band)} ({recommendation.confidence:.2f})</p>"]
         if recommendation.evidence and recommendation.evidence.quote:
             evidence = recommendation.evidence
@@ -151,6 +151,11 @@ class DocumentGenerator:
         else:
             parts.append("<p class='small'>Matched on the catalogue entry for this standard. No "
                          "clause text is held for it, so no extract can be quoted here.</p>")
+        if recommendation.amendments:
+            listed = "; ".join(f"{a.get('number', '').strip()} ({a.get('year', '')})"
+                               for a in recommendation.amendments)
+            parts.append(f"<p class='small'>Amendments in force: {self._e(listed)}. The edition year "
+                         f"does not change when a standard is amended, so cite it as amended.</p>")
         if recommendation.explanation:
             parts.append(f"<p>{self._e(recommendation.explanation)}</p>")
         if option:

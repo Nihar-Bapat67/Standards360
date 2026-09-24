@@ -80,6 +80,8 @@ class AnalyzeResponse(BaseModel):
     confidence_drivers: List[str] = Field(default_factory=list)
     primary: Optional[str] = None
     primary_title: str = ""
+    primary_as_cited: str = ""
+    amendments: List[Dict[str, str]] = Field(default_factory=list)
     options: List[OptionOut] = Field(default_factory=list)
     allied: Dict[str, List[dict]] = Field(default_factory=dict)
     warnings: List[dict] = Field(default_factory=list)
@@ -269,6 +271,8 @@ def _shape(result: AnalysisResult) -> AnalyzeResponse:
         confidence_drivers=result.sufficiency.drivers,
         primary=recommendation.primary,
         primary_title=recommendation.primary_title,
+        primary_as_cited=recommendation.primary_as_cited,
+        amendments=recommendation.amendments,
         options=[OptionOut(id=o.id, label=o.label, confidence=recommendation.confidence,
                            band=recommendation.band, standards=o.standards, default=o.default,
                            rationale=o.rationale) for o in recommendation.options],
