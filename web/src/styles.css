@@ -1,0 +1,340 @@
+@import 'tailwindcss';
+
+/* ══════════════════════════════════════════════════════════════════════════
+   Standards360 — the design system.
+
+   One premium engineering surface, not a dashboard. The rules that keep it
+   that way, and that every component below obeys:
+
+     · the ground is near-black, never #000, so the translucent cards that sit
+       on it have something to be translucent against;
+     · ambient light is warm and radial, and always under 20% opacity — the
+       moment it reads as neon the product stops looking like instrumentation;
+     · gradients appear on the primary action, on display headings and nowhere
+       else, so they still mean something when they appear;
+     · technical metadata is monospace and small, prose is Inter;
+     · borders are one hairline of white at 8%, occasionally 14% on hover.
+
+   Contrast, measured against the --ink-1 card ground #0B0C11:
+     text 17.2 · secondary 7.4 · muted 4.6 (large or non-essential only)
+     amber 9.1 · rose 6.2 · blue 6.4 · green 10.1 · red 6.6 — all AA at 14px.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+@theme {
+  --color-ink-0: #050507;
+  --color-ink-1: #07080b;
+  --color-ink-2: #0b0c11;
+  --color-ink-3: #121217;
+
+  --color-text: #f5f5f7;
+  --color-secondary: #a1a1aa;
+  --color-muted: #71717a;
+
+  --color-amber: #ff8a5b;
+  --color-coral: #ff5f7a;
+  --color-pink: #e95d9c;
+  --color-blue: #5b8cff;
+  --color-green: #72d6a5;
+  --color-red: #ff6b6b;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --radius-card: 20px;
+  --radius-panel: 24px;
+
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  * {
+    border-color: rgb(255 255 255 / 0.08);
+  }
+
+  html {
+    /* Deliberately not `scroll-behavior: smooth`. It animates every scroll, including the keyboard
+       and the wheel, and with a blurred sticky header over a fixed gradient that keeps the
+       compositor busy long after the gesture ends. Anchor jumps can opt in where they need it. */
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-ink-0);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'ss01';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    /* A phone must never scroll sideways, whatever a long IS title does. */
+    overflow-x: hidden;
+  }
+
+  /* Focus is visible everywhere, because a procurement officer may be on a
+     keyboard all day and the dark ground hides a default outline. */
+  :focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  ::selection {
+    background: rgb(255 138 91 / 0.28);
+    color: var(--color-text);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255 255 255 / 0.09);
+    border-radius: 99px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255 255 255 / 0.16);
+    background-clip: content-box;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* ── the ground ─────────────────────────────────────────────────────────
+     A technical grid that you should have to look for to see. 72px cells,
+     white at 2.5%, masked so it fades out rather than ending at an edge. */
+  .grid-ground {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.025) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.025) 1px, transparent 1px);
+    background-size: 72px 72px;
+    mask-image: radial-gradient(ellipse 100% 70% at 50% 0%, #000 35%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 100% 70% at 50% 0%, #000 35%, transparent 100%);
+  }
+
+  .grid-ground-flat {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.02) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.02) 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+
+  /* ── surfaces ───────────────────────────────────────────────────────────
+     A card is a translucent pane with one hairline border and a highlight
+     along its top edge, which is what makes it read as lit from above rather
+     than as a grey rectangle. */
+  .card {
+    position: relative;
+    background: rgb(18 18 23 / 0.72);
+    border: 1px solid rgb(255 255 255 / 0.08);
+    border-radius: var(--radius-card);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow:
+      0 1px 0 0 rgb(255 255 255 / 0.04) inset,
+      0 24px 48px -24px rgb(0 0 0 / 0.8);
+  }
+
+  .card-quiet {
+    background: rgb(255 255 255 / 0.028);
+    border: 1px solid rgb(255 255 255 / 0.07);
+    border-radius: 14px;
+  }
+
+  .card-hover {
+    transition:
+      border-color 0.35s var(--ease-out-soft),
+      background-color 0.35s var(--ease-out-soft),
+      transform 0.35s var(--ease-out-soft);
+  }
+  .card-hover:hover {
+    border-color: rgb(255 255 255 / 0.14);
+    background: rgb(255 255 255 / 0.045);
+    transform: translateY(-2px);
+  }
+
+  /* ── type ───────────────────────────────────────────────────────────────
+     The one gradient that is allowed on text, and only at display sizes:
+     below about 24px the pink end drops under AA. */
+  .text-ember {
+    background: linear-gradient(100deg, #ff8a5b 0%, #ff5f7a 52%, #e95d9c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Engineering instrumentation: STAGE 04, BM25, BGE-M3, RRF. */
+  .label {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  .mono {
+    font-family: var(--font-mono);
+    font-variant-ligatures: none;
+  }
+
+  /* ── actions ────────────────────────────────────────────────────────────
+     The primary action carries near-black text on the warm gradient, which
+     reads 9.4 on the amber end and 5.1 on the pink end. */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 44px;
+    padding: 0 20px;
+    border-radius: 13px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s var(--ease-out-soft);
+  }
+  .btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+
+  .btn-primary {
+    background: linear-gradient(100deg, #ff8a5b 0%, #ff5f7a 55%, #e95d9c 100%);
+    color: #0a0508;
+    font-weight: 600;
+    border: 1px solid rgb(255 255 255 / 0.12);
+    box-shadow: 0 0 0 0 rgb(255 122 106 / 0);
+  }
+  .btn-primary:hover:not(:disabled) {
+    box-shadow: 0 8px 32px -8px rgb(255 122 106 / 0.55);
+    transform: translateY(-1px);
+  }
+
+  .btn-ghost {
+    background: rgb(255 255 255 / 0.045);
+    border: 1px solid rgb(255 255 255 / 0.09);
+    color: var(--color-text);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    background: rgb(255 255 255 / 0.075);
+    border-color: rgb(255 255 255 / 0.16);
+  }
+
+  /* ── chips ──────────────────────────────────────────────────────────────
+     The small monospace pills that carry a measured figure. */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 27px;
+    padding: 0 11px;
+    border-radius: 99px;
+    border: 1px solid rgb(255 255 255 / 0.09);
+    background: rgb(255 255 255 / 0.035);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--color-secondary);
+    white-space: nowrap;
+  }
+  .chip-warm {
+    border-color: rgb(255 138 91 / 0.32);
+    background: rgb(255 138 91 / 0.09);
+    color: #ffb894;
+  }
+
+  /* ── ambient light ──────────────────────────────────────────────────────
+     Kept in one place so no component invents its own glow. */
+  /* No `filter: blur()` here, deliberately. These layers are fixed and very large, so a blur
+     forces the compositor to re-rasterise them against fresh content on every scroll — enough to
+     drop frames on an integrated GPU. A radial gradient with soft stops is already diffuse, and
+     side by side the difference is not visible. */
+  .ambient {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 9999px;
+  }
+
+  .scroll-fade {
+    mask-image: linear-gradient(to bottom, transparent 0, #000 18px, #000 calc(100% - 18px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 18px, #000 calc(100% - 18px), transparent 100%);
+  }
+}
+
+@layer utilities {
+  .animate-drift {
+    animation: drift 22s ease-in-out infinite alternate;
+  }
+  @keyframes drift {
+    from {
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+    to {
+      transform: translate3d(3%, -4%, 0) scale(1.08);
+    }
+  }
+
+  .animate-shimmer {
+    background: linear-gradient(
+      90deg,
+      rgb(255 255 255 / 0.04) 0%,
+      rgb(255 255 255 / 0.09) 50%,
+      rgb(255 255 255 / 0.04) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.6s linear infinite;
+  }
+  @keyframes shimmer {
+    from {
+      background-position: 200% 0;
+    }
+    to {
+      background-position: -200% 0;
+    }
+  }
+
+  /* A seamless marquee, used by the figure strip in the landing hero. The track carries its
+     content twice and travels exactly half its own width, so the restart is invisible. Slow on
+     purpose: this is a proof strip to be read, not a ticker. */
+  .animate-marquee {
+    animation: marquee 48s linear infinite;
+  }
+  @keyframes marquee {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+  .animate-pulse-dot {
+    animation: pulse-dot 1.7s ease-in-out infinite;
+  }
+  @keyframes pulse-dot {
+    0%,
+    100% {
+      opacity: 0.35;
+      transform: scale(0.85);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}

@@ -145,8 +145,14 @@ class DocumentGenerator:
                  f"<p class='{band}'>{BAND_WORDS.get(band, band)} ({recommendation.confidence:.2f})</p>"]
         if recommendation.evidence and recommendation.evidence.quote:
             evidence = recommendation.evidence
-            parts.append(f"<p class='small'>Evidence — clause {self._e(evidence.clause)} "
-                         f"({self._e(evidence.role)}), page {evidence.page_start}: "
+            # A summary match carries BIS's own one-page description of the standard rather than a
+            # numbered clause. Saying "clause SUMMARY" would imply a clause that does not exist.
+            if evidence.role == "summary":
+                where = "BIS one-page summary of this standard"
+            else:
+                where = (f"clause {self._e(evidence.clause)} ({self._e(evidence.role)}), "
+                         f"page {evidence.page_start}")
+            parts.append(f"<p class='small'>Evidence — {where}: "
                          f"&ldquo;{self._e(evidence.quote[:QUOTE_CHARS])}&hellip;&rdquo;</p>")
         else:
             parts.append("<p class='small'>Matched on the catalogue entry for this standard. No "

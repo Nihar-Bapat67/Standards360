@@ -1,0 +1,726 @@
+{
+  "status": "need_more_info",
+  "query": "structural steel tubes YSt 240 grade 50 NB diameter medium class thickness steel material pipe truss of industrial shed",
+  "requirement": {
+    "product": "structural steel tubes",
+    "category": "steel_tubes",
+    "attributes": {
+      "quantity": "200 MT",
+      "grade": "YSt 240",
+      "application": "pipe truss of industrial shed",
+      "diameter": "50 NB",
+      "thickness": "medium class",
+      "material": "steel"
+    },
+    "cited_standards": [
+      "IS 1161:1998",
+      "IS 2062:2011"
+    ],
+    "not_specified": [
+      "type"
+    ],
+    "language": "en",
+    "source": "text",
+    "richness": "spec_only",
+    "extracted_by": "llm+rules"
+  },
+  "questions": [
+    {
+      "field": "type",
+      "ask": "Seamless, electric resistance welded, or galvanized?"
+    }
+  ],
+  "confidence": 0.865,
+  "band": "high",
+  "confidence_drivers": [
+    "the requirements clause of IS 1161:2014 matches the description closely",
+    "it is clearly ahead of the next candidate",
+    "missing from the description: type",
+    "the allied-standards map agrees with the search result"
+  ],
+  "primary": "IS 1161:2014",
+  "primary_title": "Steel tubes for structural purposes - Specification (Fifth Revision)",
+  "primary_as_cited": "IS 1161:2014 (as amended; Second Amendment, 2023)",
+  "amendments": [
+    {
+      "number": "First Amendment",
+      "year": "2019",
+      "file": "1161A1"
+    },
+    {
+      "number": "Second Amendment",
+      "year": "2023",
+      "file": "1161A2"
+    }
+  ],
+  "options": [
+    {
+      "id": "A",
+      "label": "Mandatory only",
+      "confidence": 0.865,
+      "band": "high",
+      "standards": [
+        "IS 1161:2014"
+      ],
+      "default": false,
+      "rationale": "The product standard alone. Use for low-value purchases."
+    },
+    {
+      "id": "B",
+      "label": "Recommended",
+      "confidence": 0.865,
+      "band": "high",
+      "standards": [
+        "IS 1161:2014",
+        "IS 1387:1993",
+        "IS 228 (Part 1):2025",
+        "IS 2328:2018",
+        "IS 4711:2008",
+        "IS 4736:1986",
+        "IS 4740:1979"
+      ],
+      "default": true,
+      "rationale": "The product standard with its normative references, test methods and terminology. This is what a complete tender normally cites."
+    },
+    {
+      "id": "C",
+      "label": "Comprehensive",
+      "confidence": 0.865,
+      "band": "high",
+      "standards": [
+        "IS 1161:2014",
+        "IS 1387:1993",
+        "IS 228 (Part 1):2025",
+        "IS 2328:2018",
+        "IS 4711:2008",
+        "IS 4736:1986",
+        "IS 4740:1979",
+        "IS 4030:1973",
+        "IS 8910:2022",
+        "IS 10748:2025",
+        "IS 1608 (Part 1):2022",
+        "IS 2329:2005",
+        "IS 4905:2015"
+      ],
+      "default": false,
+      "rationale": "Adds installation and related product standards, for high-value or high-risk work."
+    }
+  ],
+  "allied": {
+    "normative_reference": [
+      {
+        "is_number": "IS 1387:1993",
+        "cited_as": "IS 1387:1993",
+        "record_id": 5659,
+        "title": "General requirements for the supply of metallurgical materials (Second Revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 1387:1993"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 228 (Part 1):2025",
+        "cited_as": "IS 228:1959",
+        "record_id": 33071,
+        "title": "Methods for Chemical Analysis of Steels Part 1 Determination of Carbon by Volumetric Method (For Carbon 0.05 to 2.50 Percent) (Fourth Revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 228 (Part 1):2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 2328:2018",
+        "cited_as": "IS 2328:2018",
+        "record_id": 8859,
+        "title": "Metallic materials - Tube - Flattening test (Third Revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 2328:2018"
+        ],
+        "evidence": "shall be flattened between parallel plates with the weld, if any, at 90° (point of maximum bending) in accordance with IS 2328.",
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4711:2008",
+        "cited_as": "IS 4711:2008",
+        "record_id": 11457,
+        "title": "Methods for sampling of steel pipes, tubes and fittings (Second Revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 4711:2008"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4736:1986",
+        "cited_as": "IS 4736:1986",
+        "record_id": 11474,
+        "title": "Specification for hot - Dip zinc coatings on mild steel tubes (Fist Revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 4736:1986"
+        ],
+        "evidence": "condition the zinc coating on the tubes shall be conforming to the requirements and tested as per methods, specified in IS 4736.",
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4740:1979",
+        "cited_as": "IS 4740:1979",
+        "record_id": 11478,
+        "title": "Code of Practice for Packaging of Steel Tubes",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 4740:1979"
+        ],
+        "evidence": "ACKING Where tubes are to be bundled for transport, they shall unless otherwise specified, be packed in accordance with IS 4740.",
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4030:1973",
+        "cited_as": "IS 4030:1973",
+        "record_id": 19408,
+        "title": "Cold rolled carbon steel strip for general engineering purposes (Withdrawn)",
+        "relation": "normative_reference",
+        "weight": 0.35,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 4740:1979 -> IS 4030:1973"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 8910:2022",
+        "cited_as": "IS 8910:2010",
+        "record_id": 27290,
+        "title": "General technical delivery requirements for steel and steel products",
+        "relation": "normative_reference",
+        "weight": 0.3,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 10748:2025 -> IS 8910:2022"
+        ],
+        "evidence": null,
+        "superseded": true
+      }
+    ],
+    "test_method": [
+      {
+        "is_number": "IS 10748:2025",
+        "cited_as": "IS 10748:2004",
+        "record_id": 65755,
+        "title": "Hot-Rolled Steel Strip for Welded Tubes and Pipes - Specification ( Third Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 10748:2025"
+        ],
+        "evidence": "mical composition as YSt 240, per IS 10748 to achieve YSt 310 or mechanical for respective YSt 355 grades iii) ERW/HFIW IS 10748 YSt 210, YSt 240, YSt 310 or YSt 355 as welded, heat treated or cold drawn and normalized NOTE — If required the copper",
+        "superseded": true
+      },
+      {
+        "is_number": "IS 1608 (Part 1):2022",
+        "cited_as": "IS 1608:2005",
+        "record_id": 26998,
+        "title": "Metallic materials - Tensile testing - Part 1 : Method of test at room temperature ( Fifth Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 1608 (Part 1):2022"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 2329:2005",
+        "cited_as": "IS 2329:2005",
+        "record_id": 8860,
+        "title": "Metallic materials - Tube (In Full Section) - Bend test (Second Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 2329:2005"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4905:2015",
+        "cited_as": "IS 4905:2015",
+        "record_id": 11627,
+        "title": "Random sampling and randomization procedures (First Revision)",
+        "relation": "test_method",
+        "weight": 0.475,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 4711:2008 -> IS 4905:2015"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 17570 (Part 3):2021",
+        "cited_as": "IS 17570 (Part 3):2021",
+        "record_id": 26011,
+        "title": "Air Filters for general ventilation Part 3 Determination of the gravimetric efficiency and the air flow resistance versus the mass of test dust captured",
+        "relation": "test_method",
+        "weight": 0.451,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 1608 (Part 1):2022 -> IS 17570 (Part 3):2021"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1828 (Part 1):2022",
+        "cited_as": "IS 1828 (Part 1):2015",
+        "record_id": 27000,
+        "title": "METALLIC MATERIALS - CALIBRATION AND VERIFICATION OF STATIC UNIAXIAL TESTING MACHINES - PART 1: TENSION/COMPRESSION TESTING MACHINES - CALIBRATION AND VERIFICATION OF THE FORCE-MEASURING SYSTEM",
+        "relation": "test_method",
+        "weight": 0.451,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 1608 (Part 1):2022 -> IS 1828 (Part 1):2022"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 1599:2023",
+        "cited_as": "IS 1599:2019",
+        "record_id": 29584,
+        "title": "Metallic materials Bend test",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 10748:2025 -> IS 1599:2023"
+        ],
+        "evidence": null,
+        "superseded": true
+      }
+    ],
+    "terminology": [
+      {
+        "is_number": "IS 1956 (Part 4):2013",
+        "cited_as": "IS 1956 (Part 4):2013",
+        "record_id": 413,
+        "title": "Glossary of terms relating to iron and steel: Part 4 flat products (Second Revision)",
+        "relation": "terminology",
+        "weight": 0.24,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 10748:2025 -> IS 1956 (Part 4):2013"
+        ],
+        "evidence": null,
+        "superseded": false
+      }
+    ],
+    "installation": [
+      {
+        "is_number": "IS 6226 (Part 1):2025",
+        "cited_as": "IS 6226 (Part 1):1994",
+        "record_id": 33467,
+        "title": "Recommendations of Apparatus for Chemical Analysis of Metals Part 1 Apparatus for Determination of Carbon by Direct Combustion (Second Revision)",
+        "relation": "installation",
+        "weight": 0.35,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 228 (Part 1):2025 -> IS 6226 (Part 1):2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 2629 (Part 1):2025",
+        "cited_as": "IS 2629 (Part 1):1985",
+        "record_id": 33967,
+        "title": "Process, Design, Testing and Application of Hot Dip Galvanizing of Iron and Steel - Code of Practice Part 1 Batch Process ( Second Revision )",
+        "relation": "installation",
+        "weight": 0.21,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 4736:1986 -> IS 2629 (Part 1):2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      }
+    ],
+    "related_product": [
+      {
+        "is_number": "IS 1239 (Part 1):2004",
+        "cited_as": "IS 1239 (Part 1):2004",
+        "record_id": 3713,
+        "title": "Steel tubes, tubulars and other wrought steel fittings - Specification: Part 1 steel tubes (Sixth Revision)",
+        "relation": "related_product",
+        "weight": 0.6,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 1239 (Part 1):2004"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 2062 (Part 1):2025",
+        "cited_as": "IS 2062:2011",
+        "record_id": 65763,
+        "title": "Structural Steel - Part 1 - Hot Rolled Medium and High tensile Steel",
+        "relation": "related_product",
+        "weight": 0.6,
+        "hops": 1,
+        "paths": [
+          "IS 1161:2014 -> IS 2062 (Part 1):2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 264:2005",
+        "cited_as": "IS 264:2005",
+        "record_id": 9164,
+        "title": "Nitric acid - Specification (Third Revision)",
+        "relation": "related_product",
+        "weight": 0.3,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 228 (Part 1):2025 -> IS 264:2005"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS/IEC 60603-4:1987",
+        "cited_as": "IS/IEC 60603-4:1987",
+        "record_id": 26309,
+        "title": "Connectors for frequencies below 3 MHz for use with printed boards Part 4: Two-part connectors for printed boards having contacts spaced at 1.91 mm ( 0.075 in )centres and staggered terminations at that same spacing",
+        "relation": "related_product",
+        "weight": 0.3,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 228 (Part 1):2025 -> IS/IEC 60603-4:1987"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 280:2006",
+        "cited_as": "IS 280:2006",
+        "record_id": 9330,
+        "title": "Mild steel wire for general engineering purposes (Fourth Revision)",
+        "relation": "related_product",
+        "weight": 0.21,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 4740:1979 -> IS 280:2006"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1079:2017",
+        "cited_as": "IS 1079:2017",
+        "record_id": 1683,
+        "title": "Hot rolled carbon steel sheet, plate and strip - Specification (Seventh Revision)",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 10748:2025 -> IS 1079:2017"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1173:2025",
+        "cited_as": "IS 1173:1978",
+        "record_id": 33077,
+        "title": "Hot Rolled and Slit Steel Tee Bars Dimensions and Properties",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 2062 (Part 1):2025 -> IS 1173:2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 1252:2025",
+        "cited_as": "IS 1252:1991",
+        "record_id": 33078,
+        "title": "Hot Rolled Steel Sections for Shipbuilding ï¿½ Dimensions and Tolerances",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 2062 (Part 1):2025 -> IS 1252:2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 1730:1989",
+        "cited_as": "IS 1730:1989",
+        "record_id": 8140,
+        "title": "Steel Plates, Sheets Strips and Flats for Structural and General Engineering Purposes - Dimensions (Second Revision)",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 10748:2025 -> IS 1730:1989"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1852:1985",
+        "cited_as": "IS 1852:1985",
+        "record_id": 8250,
+        "title": "Specification for rolling and cutting tolerances for hot - Rolled steel products (Fourth Revision)",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 10748:2025 -> IS 1852:1985"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 3803 (Part 1):2023",
+        "cited_as": "IS 3803 (Part 1):1989",
+        "record_id": 28392,
+        "title": "Steel - Conversion of elongation values: Part 1 carbon and low alloy steels",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 10748:2025 -> IS 3803 (Part 1):2023"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 554:1999",
+        "cited_as": "IS 554:1999",
+        "record_id": 12314,
+        "title": "Pipe threads where pressure - Tight joints are made on the threads - Dimensions, tolerances and designation (Fourth Revision)",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 1239 (Part 1):2004 -> IS 554:1999"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 808:2021",
+        "cited_as": "IS 808:1989",
+        "record_id": 26044,
+        "title": "Hot Rolled Steel Beam, Column, Channel and Angle Sections - Dimensions and Properties (Fourth Revision)",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 1161:2014 -> IS 2062 (Part 1):2025 -> IS 808:2021"
+        ],
+        "evidence": null,
+        "superseded": true
+      }
+    ]
+  },
+  "warnings": [
+    {
+      "severity": "low",
+      "cited": "IS 1161:2014",
+      "message": "IS 1161:2014 carries 2 amendment(s), the latest being Second Amendment of 2023.",
+      "action": "Cite the standard as amended."
+    },
+    {
+      "severity": "high",
+      "cited": "IS 2062:2011",
+      "message": "IS 2062 has been withdrawn; the subject is now published as IS 2062 (Part 1):2025.",
+      "action": "Replace the citation with IS 2062 (Part 1):2025."
+    }
+  ],
+  "verdicts": [
+    {
+      "citation": "IS 1161:1998",
+      "exists": true,
+      "status": "current",
+      "relevant": true,
+      "relevance_score": 0.9777,
+      "verdict": "replace",
+      "replacement": "IS 1161:2014",
+      "reason": "A later edition is in force: IS 1161:2014.",
+      "severity": "medium",
+      "title": "Steel tubes for structural purposes - Specification (Fifth Revision)"
+    },
+    {
+      "citation": "IS 2062:2011",
+      "exists": true,
+      "status": "superseded",
+      "relevant": false,
+      "relevance_score": 0.0429,
+      "verdict": "replace",
+      "replacement": "IS 2062 (Part 1):2025",
+      "reason": "Withdrawn and replaced by IS 2062 (Part 1):2025.",
+      "severity": "high",
+      "title": "Structural Steel - Part 1 - Hot Rolled Medium and High tensile Steel"
+    }
+  ],
+  "certification": {
+    "certification_required": true,
+    "persona": "procurement",
+    "statement": "Compulsory BIS certification applies to IS 1161:2014. Bidders must hold a valid licence under BIS Product Certification (ISI mark), and this should be stated as an eligibility condition. The Quality Control Order has been in force since 1978-08-01. 35 BIS-recognised laboratories can carry out the testing.",
+    "standards": [
+      {
+        "is_number": "IS 1161:2014",
+        "record_id": 2740,
+        "mandatory": true,
+        "stated": true,
+        "qco_status": "QCO Notified & Implemented",
+        "qco_date": "1978-08-01",
+        "in_force": true,
+        "scheme": "BIS Product Certification (ISI mark)",
+        "scheme_basis": "department MTD, where product certification applies",
+        "labs_available": 35,
+        "nearest_labs": [
+          {
+            "name": "BIS, Patna Branch Laboratory (PBL)",
+            "city": "Patna",
+            "state": "Bihar"
+          },
+          {
+            "name": "QUALITY INTERNATIONAL RESEARCH & LABORATORIES PRIVATE LIMITED",
+            "city": "RAIPUR",
+            "state": "Chhattisgarh"
+          },
+          {
+            "name": "MATERIAL TESTING LABORATORY LLP",
+            "city": "DELHI",
+            "state": "Delhi"
+          },
+          {
+            "name": "DELHI TEST HOUSE, Azadhpur",
+            "city": "Delhi",
+            "state": "Delhi"
+          },
+          {
+            "name": "Standard Testing Laboratory Private Limited",
+            "city": "Delhi",
+            "state": "Delhi"
+          }
+        ]
+      },
+      {
+        "is_number": "IS 1387:1993",
+        "record_id": 5659,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      },
+      {
+        "is_number": "IS 228 (Part 1):2025",
+        "record_id": 33071,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      },
+      {
+        "is_number": "IS 2328:2018",
+        "record_id": 8859,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      }
+    ],
+    "labs_available": 35,
+    "nearest_labs": [
+      {
+        "name": "BIS, Patna Branch Laboratory (PBL)",
+        "city": "Patna",
+        "state": "Bihar"
+      },
+      {
+        "name": "QUALITY INTERNATIONAL RESEARCH & LABORATORIES PRIVATE LIMITED",
+        "city": "RAIPUR",
+        "state": "Chhattisgarh"
+      },
+      {
+        "name": "MATERIAL TESTING LABORATORY LLP",
+        "city": "DELHI",
+        "state": "Delhi"
+      },
+      {
+        "name": "DELHI TEST HOUSE, Azadhpur",
+        "city": "Delhi",
+        "state": "Delhi"
+      },
+      {
+        "name": "Standard Testing Laboratory Private Limited",
+        "city": "Delhi",
+        "state": "Delhi"
+      }
+    ],
+    "not_stated": [
+      "IS 1387:1993",
+      "IS 228 (Part 1):2025",
+      "IS 2328:2018"
+    ]
+  },
+  "evidence": [
+    {
+      "standard": "IS 1161:2014",
+      "clause": "3",
+      "role": "requirements",
+      "page": 3,
+      "quote": "3 DESIGNATION Steel tubes covered by this standard shall be designated by their nominal bore and wall thickness (see Table 1). They shall be further graded as YSt 210, YSt 240, YSt 310 and YSt 355 depending on the yield strength of the material (see Table 2). The designation of the steel tubes shall"
+    }
+  ],
+  "explanation": "The supply of 200 MT of structural steel tubes, grade YSt 240 and diameter 50 NB for the pipe truss of an industrial shed, is governed by IS 1161:2014, which covers the specification for steel tubes for structural purposes. The allied standards IS 1387:1993, IS 228 (Part 1):2025, IS 2328:2018, IS 4711:2008, IS 4736:1986, and IS 4740:1979 are cited to supplement the technical requirements of the primary standard. Note that IS 1161:2014 carries 2 amendment(s), the latest being Second Amendment of 2023.",
+  "removed_by_guard": [],
+  "pdf_url": null,
+  "seconds": 9.99
+}

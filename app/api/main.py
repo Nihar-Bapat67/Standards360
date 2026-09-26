@@ -14,14 +14,21 @@ The models are loaded once while the service starts, because the first embedding
 seconds on a cold process and no user should pay for that.
 """
 
+import asyncio
+import json
+import os
+import queue
 import sys
 import tempfile
+import threading
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Dict, List, Optional
 
 from fastapi import FastAPI, File, Form, HTTPException, Response, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse, StreamingResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, ConfigDict, Field
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
@@ -31,6 +38,9 @@ from app.pipeline import AnalysisResult, Pipeline  # noqa: E402
 from contracts.analysis import CertificationAnswer  # noqa: E402
 from contracts.answer import CitationVerdict  # noqa: E402
 
+ROOT = Path(__file__).resolve().parent.parent.parent
+# One Server-Sent Event: an event name, a JSON body, then the blank line that terminates the frame.
+SSE_FRAME = "event: {name}\ndata: {body}\n\n"
 MAX_UPLOAD_BYTES = 25 * 1024 * 1024
 ALLOWED_SUFFIXES = {".pdf", ".docx", ".txt", ".md", ".png", ".jpg", ".jpeg", ".webp"}
 
@@ -110,8 +120,12 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# The front end is served from a different port in development; a deployment would narrow this.
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+# In development the interface runs on Vite's own port and has to call across origins. In production
+# this process serves the built interface itself, so the two share an origin and CORS is not used at
+# all. `STANDARDS360_ORIGINS` narrows it for the one deployment shape where they are split — a
+# comma-separated list, for example "https://gem.gov.in,https://eprocure.gov.in".
+_origins = [o.strip() for o in os.environ.get("STANDARDS360_ORIGINS", "*").split(",") if o.strip()]
+app.add_middleware(CORSMiddleware, allow_origins=_origins, allow_methods=["*"], allow_headers=["*"])
 
 
 @app.get("/health")
@@ -213,6 +227,101 @@ async def document_upload(file: UploadFile = File(...), persona: str = Form("pro
         Path(temporary).unlink(missing_ok=True)
 
 
+@app.post("/v1/analyze/stream")
+def analyze_stream(request: AnalyzeRequest):
+    """The same analysis, reported stage by stage as Server-Sent Events.
+
+    A full request takes several seconds because retrieval embeds the query and the composer calls a
+    language model. Rather than show the user a spinner for that whole time, the pipeline reports
+    each module as it finishes and this endpoint forwards those reports. The events are real: they
+    come from `Pipeline.analyze`'s own `on_stage` callback, not from a timer in the browser.
+
+    Events: `stage` for each module, then `result` with the identical AnalyzeResponse the plain
+    endpoint returns, or `error` if the run failed.
+    """
+    if not request.text.strip():
+        raise HTTPException(status_code=422, detail="text must not be empty")
+    pipeline: Pipeline = app.state.pipeline
+    events: "queue.Queue" = queue.Queue()
+
+    def run():
+        try:
+            result = pipeline.analyze(
+                text=request.text, persona=request.persona,
+                language="en" if request.lang == "auto" else request.lang,
+                answers=request.answers, state=request.state,
+                on_stage=lambda module, message, detail=None: events.put(
+                    ("stage", {"module": module, "message": message, "detail": detail or {}})))
+            events.put(("result", _shape(result).model_dump()))
+        except Exception as exc:  # the browser must learn that it failed, not hang
+            events.put(("error", {"detail": f"{type(exc).__name__}: {exc}"}))
+        finally:
+            events.put((None, None))
+
+    threading.Thread(target=run, daemon=True).start()
+
+    async def emit():
+        while True:
+            try:
+                name, payload = events.get_nowait()
+            except queue.Empty:
+                await asyncio.sleep(0.05)
+                continue
+            if name is None:
+                return
+            body = json.dumps(payload, default=str)
+            yield SSE_FRAME.format(name=name, body=body)
+
+    return StreamingResponse(emit(), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
+
+
+@app.get("/v1/meta")
+def meta():
+    """Figures the landing page states, read from the live catalogue and the frozen gold set.
+
+    The interface must never print a number we cannot produce on demand, so every headline figure
+    on the marketing page is served from here rather than typed into the markup.
+    """
+    pipeline: Pipeline = app.state.pipeline
+    catalogue = pipeline.resolver.cat
+    index = pipeline.engine.meta
+    con = catalogue.con
+    def one(sql):
+        try:
+            return con.execute(sql).fetchone()[0]
+        except Exception:
+            return None
+
+    results_path = ROOT / "eval" / "results.json"
+    evaluation = {}
+    if results_path.exists():
+        try:
+            raw = json.loads(results_path.read_text(encoding="utf-8"))
+            evaluation = {"gold_records": raw.get("gold_records"),
+                          "evaluated_at": raw.get("evaluated_at"), **raw.get("overall_raw", {})}
+        except Exception:
+            evaluation = {}
+
+    return {
+        "catalogue": {
+            "total": one("SELECT COUNT(*) FROM standards"),
+            "current": one("SELECT COUNT(*) FROM standards WHERE withdrawn = 0"),
+            "withdrawn": one("SELECT COUNT(*) FROM standards WHERE withdrawn = 1"),
+            "with_replacement": one("SELECT COUNT(*) FROM standards WHERE withdrawn = 1 "
+                                    "AND superseded_by IS NOT NULL AND superseded_by <> ''"),
+            "cross_references": one("SELECT COUNT(*) FROM xrefs"),
+            "qco": one("SELECT COUNT(*) FROM standards WHERE qco_status IS NOT NULL AND qco_status <> ''"),
+            "labs": one("SELECT COUNT(DISTINCT name) FROM labs"),
+            "lab_states": one("SELECT COUNT(DISTINCT state) FROM labs"),
+        },
+        "index": {"model": index.get("model"), "clauses": index.get("rows_indexed"),
+                  "standards": index.get("standards_indexed"), "built_at": index.get("built_at")},
+        "evaluation": evaluation,
+        "sectors": ["CED - Civil Engineering", "MTD - Metallurgical Engineering"],
+    }
+
+
 @app.get("/v1/standard/{is_number:path}")
 def standard(is_number: str):
     """Everything the catalogue holds about one standard, for a details panel in the interface."""
@@ -286,3 +395,26 @@ def _shape(result: AnalysisResult) -> AnalyzeResponse:
         removed_by_guard=recommendation.removed_by_guard,
         seconds=result.seconds,
     )
+
+
+# ---------------------------------------------------------------- the built interface
+
+# In production the web interface is served by this same process, so a deployment is one command and
+# one port. In development the front end runs on Vite's own server and calls across via CORS, so the
+# absence of a build is normal rather than an error.
+WEB_DIST = ROOT / "web" / "dist"
+
+if WEB_DIST.is_dir():
+    app.mount("/assets", StaticFiles(directory=WEB_DIST / "assets"), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    def spa(full_path: str):
+        """Serve the single-page app, letting it own client-side routing.
+
+        A request for a real file gets that file; anything else gets index.html so a deep link such
+        as /workspace works on a fresh load rather than 404ing.
+        """
+        candidate = (WEB_DIST / full_path).resolve()
+        if full_path and candidate.is_file() and WEB_DIST.resolve() in candidate.parents:
+            return FileResponse(candidate)
+        return FileResponse(WEB_DIST / "index.html")

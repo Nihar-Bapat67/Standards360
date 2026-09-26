@@ -1,0 +1,463 @@
+{
+  "status": "need_more_info",
+  "query": "steel tubes steel material",
+  "requirement": {
+    "product": "steel tubes",
+    "category": "steel_tubes",
+    "attributes": {
+      "material": "steel"
+    },
+    "cited_standards": [],
+    "not_specified": [
+      "type",
+      "application"
+    ],
+    "language": "en",
+    "source": "product_name",
+    "richness": "name_only",
+    "extracted_by": "llm+rules"
+  },
+  "questions": [
+    {
+      "field": "type",
+      "ask": "Seamless, electric resistance welded, or galvanized?"
+    },
+    {
+      "field": "application",
+      "ask": "Structural use, or conveying water or gas?"
+    }
+  ],
+  "confidence": 0.449,
+  "band": "low",
+  "confidence_drivers": [
+    "matched on the catalogue title of IS 1239 (Part 1):2004; we hold no text for it, so no clause can be quoted",
+    "the matched clause of IS 1239 (Part 1):2004 matches the description closely",
+    "another standard scores almost as highly",
+    "missing from the description: type, application"
+  ],
+  "primary": "IS 1239 (Part 1):2004",
+  "primary_title": "Steel tubes, tubulars and other wrought steel fittings - Specification: Part 1 steel tubes (Sixth Revision)",
+  "primary_as_cited": "IS 1239 (Part 1):2004 (as amended; Sixth Amendment, 2021)",
+  "amendments": [
+    {
+      "number": "First Amendment",
+      "year": "2005",
+      "file": "1239_1A1"
+    },
+    {
+      "number": "Second Amendment",
+      "year": "2007",
+      "file": "1239_1A2"
+    },
+    {
+      "number": "Third Amendment",
+      "year": "2008",
+      "file": "1239_1A3"
+    },
+    {
+      "number": "Fourth Amendment",
+      "year": "2010",
+      "file": "1239_1A4"
+    },
+    {
+      "number": "Fifth Amendment",
+      "year": "2017",
+      "file": "1239_1A5"
+    },
+    {
+      "number": "Sixth Amendment",
+      "year": "2021",
+      "file": "1239_1A6"
+    }
+  ],
+  "options": [
+    {
+      "id": "A",
+      "label": "Mandatory only",
+      "confidence": 0.449,
+      "band": "low",
+      "standards": [
+        "IS 1239 (Part 1):2004"
+      ],
+      "default": false,
+      "rationale": "The product standard alone. Use for low-value purchases."
+    },
+    {
+      "id": "B",
+      "label": "Recommended",
+      "confidence": 0.449,
+      "band": "low",
+      "standards": [
+        "IS 1239 (Part 1):2004",
+        "IS 1387:1993",
+        "IS 228 (Part 1):2025",
+        "IS 1608 (Part 1):2022",
+        "IS 2328:2018",
+        "IS 17570 (Part 3):2021",
+        "IS 1828 (Part 1):2022"
+      ],
+      "default": true,
+      "rationale": "The product standard with its normative references, test methods and terminology. This is what a complete tender normally cites."
+    },
+    {
+      "id": "C",
+      "label": "Comprehensive",
+      "confidence": 0.449,
+      "band": "low",
+      "standards": [
+        "IS 1239 (Part 1):2004",
+        "IS 1387:1993",
+        "IS 228 (Part 1):2025",
+        "IS 1608 (Part 1):2022",
+        "IS 2328:2018",
+        "IS 17570 (Part 3):2021",
+        "IS 1828 (Part 1):2022",
+        "IS 6226 (Part 1):2025",
+        "IS 2:1960",
+        "IS 2:2022",
+        "IS 8999:2003",
+        "IS 554:1999",
+        "IS 264:2005"
+      ],
+      "default": false,
+      "rationale": "Adds installation and related product standards, for high-value or high-risk work."
+    }
+  ],
+  "allied": {
+    "normative_reference": [
+      {
+        "is_number": "IS 1387:1993",
+        "cited_as": "IS 1387:1993",
+        "record_id": 5659,
+        "title": "General requirements for the supply of metallurgical materials (Second Revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 1387:1993"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 228 (Part 1):2025",
+        "cited_as": "IS 228:1959",
+        "record_id": 33071,
+        "title": "Methods for Chemical Analysis of Steels Part 1 Determination of Carbon by Volumetric Method (For Carbon 0.05 to 2.50 Percent) (Fourth Revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 228 (Part 1):2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      }
+    ],
+    "test_method": [
+      {
+        "is_number": "IS 1608 (Part 1):2022",
+        "cited_as": "IS 1608:2005",
+        "record_id": 26998,
+        "title": "Metallic materials - Tensile testing - Part 1 : Method of test at room temperature ( Fifth Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 1608 (Part 1):2022"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 2328:2018",
+        "cited_as": "IS 2328:2018",
+        "record_id": 8859,
+        "title": "Metallic materials - Tube - Flattening test (Third Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 2328:2018"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 17570 (Part 3):2021",
+        "cited_as": "IS 17570 (Part 3):2021",
+        "record_id": 26011,
+        "title": "Air Filters for general ventilation Part 3 Determination of the gravimetric efficiency and the air flow resistance versus the mass of test dust captured",
+        "relation": "test_method",
+        "weight": 0.451,
+        "hops": 2,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 1608 (Part 1):2022 -> IS 17570 (Part 3):2021"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1828 (Part 1):2022",
+        "cited_as": "IS 1828 (Part 1):2015",
+        "record_id": 27000,
+        "title": "METALLIC MATERIALS - CALIBRATION AND VERIFICATION OF STATIC UNIAXIAL TESTING MACHINES - PART 1: TENSION/COMPRESSION TESTING MACHINES - CALIBRATION AND VERIFICATION OF THE FORCE-MEASURING SYSTEM",
+        "relation": "test_method",
+        "weight": 0.451,
+        "hops": 2,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 1608 (Part 1):2022 -> IS 1828 (Part 1):2022"
+        ],
+        "evidence": null,
+        "superseded": true
+      }
+    ],
+    "installation": [
+      {
+        "is_number": "IS 6226 (Part 1):2025",
+        "cited_as": "IS 6226 (Part 1):1994",
+        "record_id": 33467,
+        "title": "Recommendations of Apparatus for Chemical Analysis of Metals Part 1 Apparatus for Determination of Carbon by Direct Combustion (Second Revision)",
+        "relation": "installation",
+        "weight": 0.35,
+        "hops": 2,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 228 (Part 1):2025 -> IS 6226 (Part 1):2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 2:1960",
+        "cited_as": "IS 2:1960",
+        "record_id": 8519,
+        "title": "Rules for Rounding off Numerical Values (Withdrawn)",
+        "relation": "installation",
+        "weight": 0.21,
+        "hops": 2,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 554:1999 -> IS 2:1960"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 2:2022",
+        "cited_as": "IS 2:2022",
+        "record_id": 27256,
+        "title": "RULES FOR ROUNDING OFF NUMERICAL VALUES (Second Revision)",
+        "relation": "installation",
+        "weight": 0.21,
+        "hops": 2,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 554:1999 -> IS 2:2022"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 8999:2003",
+        "cited_as": "IS 8999:2003",
+        "record_id": 16212,
+        "title": "Pipe threads where pressure - Tight joints are made on the threads - Verification by means of limit gauges (First Revision)",
+        "relation": "installation",
+        "weight": 0.21,
+        "hops": 2,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 554:1999 -> IS 8999:2003"
+        ],
+        "evidence": null,
+        "superseded": false
+      }
+    ],
+    "related_product": [
+      {
+        "is_number": "IS 554:1999",
+        "cited_as": "IS 554:1999",
+        "record_id": 12314,
+        "title": "Pipe threads where pressure - Tight joints are made on the threads - Dimensions, tolerances and designation (Fourth Revision)",
+        "relation": "related_product",
+        "weight": 0.6,
+        "hops": 1,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 554:1999"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 264:2005",
+        "cited_as": "IS 264:2005",
+        "record_id": 9164,
+        "title": "Nitric acid - Specification (Third Revision)",
+        "relation": "related_product",
+        "weight": 0.3,
+        "hops": 2,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 228 (Part 1):2025 -> IS 264:2005"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS/IEC 60603-4:1987",
+        "cited_as": "IS/IEC 60603-4:1987",
+        "record_id": 26309,
+        "title": "Connectors for frequencies below 3 MHz for use with printed boards Part 4: Two-part connectors for printed boards having contacts spaced at 1.91 mm ( 0.075 in )centres and staggered terminations at that same spacing",
+        "relation": "related_product",
+        "weight": 0.3,
+        "hops": 2,
+        "paths": [
+          "IS 1239 (Part 1):2004 -> IS 228 (Part 1):2025 -> IS/IEC 60603-4:1987"
+        ],
+        "evidence": null,
+        "superseded": false
+      }
+    ]
+  },
+  "warnings": [
+    {
+      "severity": "low",
+      "cited": "IS 1239 (Part 1):2004",
+      "message": "IS 1239 (Part 1):2004 carries 6 amendment(s), the latest being Sixth Amendment of 2021.",
+      "action": "Cite the standard as amended."
+    }
+  ],
+  "verdicts": [
+    {
+      "citation": "IS 1239 (Part 1):2004",
+      "exists": true,
+      "status": "current",
+      "relevant": true,
+      "relevance_score": null,
+      "verdict": "add",
+      "replacement": null,
+      "reason": "Recommended for this product but not cited in the tender.",
+      "severity": "medium",
+      "title": "Steel tubes, tubulars and other wrought steel fittings - Specification: Part 1 steel tubes (Sixth Revision)"
+    }
+  ],
+  "certification": {
+    "certification_required": true,
+    "persona": "procurement",
+    "statement": "Compulsory BIS certification applies to IS 1239 (Part 1):2004. Bidders must hold a valid licence under BIS Product Certification (ISI mark), and this should be stated as an eligibility condition. The Quality Control Order has been in force since 1978-08-01. 21 BIS-recognised laboratories can carry out the testing.",
+    "standards": [
+      {
+        "is_number": "IS 1239 (Part 1):2004",
+        "record_id": 3713,
+        "mandatory": true,
+        "stated": true,
+        "qco_status": "QCO Notified & Implemented",
+        "qco_date": "1978-08-01",
+        "in_force": true,
+        "scheme": "BIS Product Certification (ISI mark)",
+        "scheme_basis": "department MTD, where product certification applies",
+        "labs_available": 21,
+        "nearest_labs": [
+          {
+            "name": "BIS, Patna Branch Laboratory (PBL)",
+            "city": "Patna",
+            "state": "Bihar"
+          },
+          {
+            "name": "QUALITY INTERNATIONAL RESEARCH & LABORATORIES PRIVATE LIMITED",
+            "city": "RAIPUR",
+            "state": "Chhattisgarh"
+          },
+          {
+            "name": "MATERIAL TESTING LABORATORY LLP",
+            "city": "DELHI",
+            "state": "Delhi"
+          },
+          {
+            "name": "DELHI TEST HOUSE, Azadhpur",
+            "city": "Delhi",
+            "state": "Delhi"
+          },
+          {
+            "name": "Standard Testing Laboratory Private Limited",
+            "city": "Delhi",
+            "state": "Delhi"
+          }
+        ]
+      },
+      {
+        "is_number": "IS 1387:1993",
+        "record_id": 5659,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      },
+      {
+        "is_number": "IS 228 (Part 1):2025",
+        "record_id": 33071,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      },
+      {
+        "is_number": "IS 1608 (Part 1):2022",
+        "record_id": 26998,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      }
+    ],
+    "labs_available": 21,
+    "nearest_labs": [
+      {
+        "name": "BIS, Patna Branch Laboratory (PBL)",
+        "city": "Patna",
+        "state": "Bihar"
+      },
+      {
+        "name": "QUALITY INTERNATIONAL RESEARCH & LABORATORIES PRIVATE LIMITED",
+        "city": "RAIPUR",
+        "state": "Chhattisgarh"
+      },
+      {
+        "name": "MATERIAL TESTING LABORATORY LLP",
+        "city": "DELHI",
+        "state": "Delhi"
+      },
+      {
+        "name": "DELHI TEST HOUSE, Azadhpur",
+        "city": "Delhi",
+        "state": "Delhi"
+      },
+      {
+        "name": "Standard Testing Laboratory Private Limited",
+        "city": "Delhi",
+        "state": "Delhi"
+      }
+    ],
+    "not_stated": [
+      "IS 1387:1993",
+      "IS 228 (Part 1):2025",
+      "IS 1608 (Part 1):2022"
+    ]
+  },
+  "evidence": [],
+  "explanation": "The tender requirements for steel tubes are governed by the primary standard IS 1239 (Part 1):2004, which specifies steel tubes. The allied standards IS 1387:1993, IS 228 (Part 1):2025, IS 1608 (Part 1):2022, IS 2328:2018, IS 17570 (Part 3):2021, and IS 1828 (Part 1):2022 are cited to supplement this core specification. Please note that IS 1239 (Part 1):2004 carries 6 amendment(s), the latest being Sixth Amendment of 2021.",
+  "removed_by_guard": [],
+  "pdf_url": null,
+  "seconds": 3.72
+}

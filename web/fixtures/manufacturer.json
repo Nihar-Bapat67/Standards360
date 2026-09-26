@@ -1,0 +1,557 @@
+{
+  "status": "complete",
+  "query": "wire annealed type mild steel material annealed grade 4 mm diameter general engineering",
+  "requirement": {
+    "product": "wire",
+    "category": "steel_wire",
+    "attributes": {
+      "type": "annealed",
+      "application": "general engineering",
+      "material": "mild steel",
+      "grade": "annealed",
+      "diameter": "4 mm"
+    },
+    "cited_standards": [],
+    "not_specified": [],
+    "language": "en",
+    "source": "text",
+    "richness": "spec_only",
+    "extracted_by": "llm+rules"
+  },
+  "questions": [],
+  "confidence": 0.979,
+  "band": "high",
+  "confidence_drivers": [
+    "the scope clause of IS 280:2006 matches the description closely",
+    "it is clearly ahead of the next candidate",
+    "every field this product category needs was given",
+    "the allied-standards map agrees with the search result"
+  ],
+  "primary": "IS 280:2006",
+  "primary_title": "Mild steel wire for general engineering purposes (Fourth Revision)",
+  "primary_as_cited": "IS 280:2006 (as amended; Second Amendment, 2025)",
+  "amendments": [
+    {
+      "number": "First Amendment",
+      "year": "2009",
+      "file": "280A1"
+    },
+    {
+      "number": "Second Amendment",
+      "year": "2025",
+      "file": "280A2"
+    }
+  ],
+  "options": [
+    {
+      "id": "A",
+      "label": "Mandatory only",
+      "confidence": 0.979,
+      "band": "high",
+      "standards": [
+        "IS 280:2006"
+      ],
+      "default": false,
+      "rationale": "The product standard alone. Use for low-value purchases."
+    },
+    {
+      "id": "B",
+      "label": "Recommended",
+      "confidence": 0.979,
+      "band": "high",
+      "standards": [
+        "IS 280:2006",
+        "IS 1387:1993",
+        "IS 228 (Part 1):2025",
+        "IS 4826:2023",
+        "IS 7887:1992",
+        "IS 7598:1990",
+        "IS 1608 (Part 1):2022"
+      ],
+      "default": true,
+      "rationale": "The product standard with its normative references, test methods and terminology. This is what a complete tender normally cites."
+    },
+    {
+      "id": "C",
+      "label": "Comprehensive",
+      "confidence": 0.979,
+      "band": "high",
+      "standards": [
+        "IS 280:2006",
+        "IS 1387:1993",
+        "IS 228 (Part 1):2025",
+        "IS 4826:2023",
+        "IS 7887:1992",
+        "IS 7598:1990",
+        "IS 1608 (Part 1):2022",
+        "IS 1755:2018",
+        "IS 4905:2015",
+        "IS 17570 (Part 3):2021",
+        "IS 1828 (Part 1):2022",
+        "IS 2633:1986",
+        "IS 1956 (Part 1):1976"
+      ],
+      "default": false,
+      "rationale": "Adds installation and related product standards, for high-value or high-risk work."
+    }
+  ],
+  "allied": {
+    "normative_reference": [
+      {
+        "is_number": "IS 1387:1993",
+        "cited_as": "IS 1387:1993",
+        "record_id": 5659,
+        "title": "General requirements for the supply of metallurgical materials (Second Revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 280:2006 -> IS 1387:1993"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 228 (Part 1):2025",
+        "cited_as": "IS 228:1959",
+        "record_id": 33071,
+        "title": "Methods for Chemical Analysis of Steels Part 1 Determination of Carbon by Volumetric Method (For Carbon 0.05 to 2.50 Percent) (Fourth Revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 280:2006 -> IS 228 (Part 1):2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 4826:2023",
+        "cited_as": "IS 4826:1979",
+        "record_id": 30201,
+        "title": "Hot-Dip Galvanized Coatings on Round Steel Wires ï¿½ Requirements",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 280:2006 -> IS 4826:2023"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 7887:1992",
+        "cited_as": "IS 7887:1992",
+        "record_id": 14930,
+        "title": "Mild steel wire rod for general engineering purposes - Specification (First Revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 280:2006 -> IS 7887:1992"
+        ],
+        "evidence": "5 MANUFACTURE The wire shall be drawn from the wire rods conforming to IS 7887.",
+        "superseded": false
+      },
+      {
+        "is_number": "IS 7598:1990",
+        "cited_as": "IS 7598:1990",
+        "record_id": 14581,
+        "title": "Classification of steels (First Revision)",
+        "relation": "normative_reference",
+        "weight": 0.4,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 1956 (Part 1):1976 -> IS 7598:1990"
+        ],
+        "evidence": null,
+        "superseded": false
+      }
+    ],
+    "test_method": [
+      {
+        "is_number": "IS 1608 (Part 1):2022",
+        "cited_as": "IS 1608:2005",
+        "record_id": 26998,
+        "title": "Metallic materials - Tensile testing - Part 1 : Method of test at room temperature ( Fifth Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 280:2006 -> IS 1608 (Part 1):2022"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 1755:2018",
+        "cited_as": "IS 1755:2018",
+        "record_id": 8161,
+        "title": "Metallic Materials - Wire - Wrapping test (Second Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 280:2006 -> IS 1755:2018"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4905:2015",
+        "cited_as": "IS 4905",
+        "record_id": 11627,
+        "title": "Random sampling and randomization procedures (First Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 280:2006 -> IS 4905:2015"
+        ],
+        "evidence": "These coils shall be chosen at random (see IS 4905).",
+        "superseded": false
+      },
+      {
+        "is_number": "IS 17570 (Part 3):2021",
+        "cited_as": "IS 17570 (Part 3):2021",
+        "record_id": 26011,
+        "title": "Air Filters for general ventilation Part 3 Determination of the gravimetric efficiency and the air flow resistance versus the mass of test dust captured",
+        "relation": "test_method",
+        "weight": 0.451,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 1608 (Part 1):2022 -> IS 17570 (Part 3):2021"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1828 (Part 1):2022",
+        "cited_as": "IS 1828 (Part 1):2015",
+        "record_id": 27000,
+        "title": "METALLIC MATERIALS - CALIBRATION AND VERIFICATION OF STATIC UNIAXIAL TESTING MACHINES - PART 1: TENSION/COMPRESSION TESTING MACHINES - CALIBRATION AND VERIFICATION OF THE FORCE-MEASURING SYSTEM",
+        "relation": "test_method",
+        "weight": 0.451,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 1608 (Part 1):2022 -> IS 1828 (Part 1):2022"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 2633:1986",
+        "cited_as": "IS 2633:1986",
+        "record_id": 9158,
+        "title": "Method for testing uniformity of coating on zinc coated articles (Second Revision)",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 12753:1989 -> IS 2633:1986"
+        ],
+        "evidence": null,
+        "superseded": false
+      }
+    ],
+    "terminology": [
+      {
+        "is_number": "IS 1956 (Part 1):1976",
+        "cited_as": "IS 1956 (Part 5):1976",
+        "record_id": 8463,
+        "title": "Glossary of terms relating to iron and steel: Part 1 general metallurgy, heat treatment and testing (First Revision)",
+        "relation": "terminology",
+        "weight": 0.8,
+        "hops": 1,
+        "paths": [
+          "IS 280:2006 -> IS 1956 (Part 1):1976"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 3554:2017",
+        "cited_as": "IS 3554:2017",
+        "record_id": 10135,
+        "title": "Glossary of terms relating to electroplating (First Revision)",
+        "relation": "terminology",
+        "weight": 0.24,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 12753:1989 -> IS 3554:2017"
+        ],
+        "evidence": null,
+        "superseded": false
+      }
+    ],
+    "installation": [
+      {
+        "is_number": "IS 2629 (Part 1):2025",
+        "cited_as": "IS 2629 (Part 1):1985",
+        "record_id": 33967,
+        "title": "Process, Design, Testing and Application of Hot Dip Galvanizing of Iron and Steel - Code of Practice Part 1 Batch Process ( Second Revision )",
+        "relation": "installation",
+        "weight": 0.35,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 4826:2023 -> IS 2629 (Part 1):2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 6226 (Part 1):2025",
+        "cited_as": "IS 6226 (Part 1):1994",
+        "record_id": 33467,
+        "title": "Recommendations of Apparatus for Chemical Analysis of Metals Part 1 Apparatus for Determination of Carbon by Direct Combustion (Second Revision)",
+        "relation": "installation",
+        "weight": 0.35,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 228 (Part 1):2025 -> IS 6226 (Part 1):2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 6745:1972",
+        "cited_as": "IS 6745:1972",
+        "record_id": 13608,
+        "title": "Methods for determination of mass of zinc coating on zinc coated iron and steel articles",
+        "relation": "installation",
+        "weight": 0.21,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 12753:1989 -> IS 6745:1972"
+        ],
+        "evidence": null,
+        "superseded": false
+      }
+    ],
+    "related_product": [
+      {
+        "is_number": "IS 12753:1989",
+        "cited_as": "IS 12753:1989",
+        "record_id": 4198,
+        "title": "Electrogalvanized coatings on round steel wire - Specification",
+        "relation": "related_product",
+        "weight": 0.6,
+        "hops": 1,
+        "paths": [
+          "IS 280:2006 -> IS 12753:1989"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 209:2024",
+        "cited_as": "IS 13229:1991",
+        "record_id": 30380,
+        "title": "Refined Zinc - Specification (Fifth Revision)",
+        "relation": "related_product",
+        "weight": 0.3,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 4826:2023 -> IS 209:2024"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 264:2005",
+        "cited_as": "IS 264:2005",
+        "record_id": 9164,
+        "title": "Nitric acid - Specification (Third Revision)",
+        "relation": "related_product",
+        "weight": 0.3,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 228 (Part 1):2025 -> IS 264:2005"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS/IEC 60603-4:1987",
+        "cited_as": "IS/IEC 60603-4:1987",
+        "record_id": 26309,
+        "title": "Connectors for frequencies below 3 MHz for use with printed boards Part 4: Two-part connectors for printed boards having contacts spaced at 1.91 mm ( 0.075 in )centres and staggered terminations at that same spacing",
+        "relation": "related_product",
+        "weight": 0.3,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 228 (Part 1):2025 -> IS/IEC 60603-4:1987"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 2605:2023",
+        "cited_as": "IS 2605:1985",
+        "record_id": 29875,
+        "title": "Zinc Anodes For Electroplating ï¿½ Specification (Second Revision)",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 280:2006 -> IS 12753:1989 -> IS 2605:2023"
+        ],
+        "evidence": null,
+        "superseded": true
+      }
+    ]
+  },
+  "warnings": [
+    {
+      "severity": "low",
+      "cited": "IS 280:2006",
+      "message": "IS 280:2006 carries 2 amendment(s), the latest being Second Amendment of 2025.",
+      "action": "Cite the standard as amended."
+    }
+  ],
+  "verdicts": [
+    {
+      "citation": "IS 280:2006",
+      "exists": true,
+      "status": "current",
+      "relevant": true,
+      "relevance_score": null,
+      "verdict": "add",
+      "replacement": null,
+      "reason": "Recommended for this product but not cited in the tender.",
+      "severity": "medium",
+      "title": "Mild steel wire for general engineering purposes (Fourth Revision)"
+    }
+  ],
+  "certification": {
+    "certification_required": true,
+    "persona": "manufacturer",
+    "statement": "You must hold a valid BIS licence under BIS Product Certification (ISI mark) before supplying goods covered by IS 280:2006. The Quality Control Order has been in force since 2018-12-18. 36 BIS-recognised laboratories can carry out the testing.",
+    "standards": [
+      {
+        "is_number": "IS 280:2006",
+        "record_id": 9330,
+        "mandatory": true,
+        "stated": true,
+        "qco_status": "QCO Notified & Implemented",
+        "qco_date": "2018-12-18",
+        "in_force": true,
+        "scheme": "BIS Product Certification (ISI mark)",
+        "scheme_basis": "department MTD, where product certification applies",
+        "labs_available": 36,
+        "nearest_labs": [
+          {
+            "name": "BIS, Western Regional Laboratory (WRL)",
+            "city": "MUMBAI",
+            "state": "Maharashtra"
+          },
+          {
+            "name": "National Test House (WR) - NTH, Mumbai",
+            "city": "Mumbai",
+            "state": "Maharashtra"
+          },
+          {
+            "name": "BIS, Patna Branch Laboratory (PBL)",
+            "city": "Patna",
+            "state": "Bihar"
+          },
+          {
+            "name": "QUALITY INTERNATIONAL RESEARCH & LABORATORIES PRIVATE LIMITED",
+            "city": "RAIPUR",
+            "state": "Chhattisgarh"
+          },
+          {
+            "name": "NBML Building Materials Testing Lab LLP, Raipur",
+            "city": "Raipur",
+            "state": "Chhattisgarh"
+          }
+        ]
+      },
+      {
+        "is_number": "IS 1387:1993",
+        "record_id": 5659,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      },
+      {
+        "is_number": "IS 228 (Part 1):2025",
+        "record_id": 33071,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      },
+      {
+        "is_number": "IS 4826:2023",
+        "record_id": 30201,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      }
+    ],
+    "labs_available": 36,
+    "nearest_labs": [
+      {
+        "name": "BIS, Western Regional Laboratory (WRL)",
+        "city": "MUMBAI",
+        "state": "Maharashtra"
+      },
+      {
+        "name": "National Test House (WR) - NTH, Mumbai",
+        "city": "Mumbai",
+        "state": "Maharashtra"
+      },
+      {
+        "name": "BIS, Patna Branch Laboratory (PBL)",
+        "city": "Patna",
+        "state": "Bihar"
+      },
+      {
+        "name": "QUALITY INTERNATIONAL RESEARCH & LABORATORIES PRIVATE LIMITED",
+        "city": "RAIPUR",
+        "state": "Chhattisgarh"
+      },
+      {
+        "name": "NBML Building Materials Testing Lab LLP, Raipur",
+        "city": "Raipur",
+        "state": "Chhattisgarh"
+      }
+    ],
+    "not_stated": [
+      "IS 1387:1993",
+      "IS 228 (Part 1):2025",
+      "IS 4826:2023"
+    ]
+  },
+  "evidence": [
+    {
+      "standard": "IS 280:2006",
+      "clause": "1",
+      "role": "scope",
+      "page": 6,
+      "quote": "1 SCOPE This standard covers the requirements for mild steel wire of sizes 0.125 mm to 12.5 mm diameter for general engineering purposes."
+    }
+  ],
+  "explanation": "The supply of annealed mild steel wire for general engineering purposes shall comply with the requirements of IS 280:2006, which covers mild steel wire for general engineering purposes. The allied standards IS 1387:1993, IS 228 (Part 1):2025, IS 4826:2023, IS 7887:1992, IS 7598:1990, and IS 1608 (Part 1):2022 are cited for supplementary technical specifications. Note that IS 280:2006 carries 2 amendment(s), the latest being Second Amendment of 2025.",
+  "removed_by_guard": [],
+  "pdf_url": null,
+  "seconds": 3.34
+}

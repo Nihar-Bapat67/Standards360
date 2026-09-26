@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Standards360 — map a procurement specification to the Indian Standards that apply, with the clause that proves it, allied standards by role, certification and an annexure.">
+<title>Standards360 — Workspace</title>
+<style>
+/* ══════════════════════════════════════════════════════════════
+   Ground, ink and ember.
+   Contrast measured against #0D1117: amber 8.6, blue 7.9, green
+   10.7, red 8.3, muted 7.5, dim 5.2 — all pass AA for normal text.
+   Rose is 4.4, so it appears only inside the gradient on large
+   type, never as small text; --rose-lit (6.7) is the text form.
+   The primary action carries near-black, which reads 9.1 on the
+   amber end of the gradient and 4.6 on the rose end.
+   ══════════════════════════════════════════════════════════════ */
+:root{
+  --ink-0:#07090D; --ink-1:#0B0E14; --ink-2:#0D1117;
+  --text:#F2F4F8; --muted:#9AA4B2; --dim:#7C8698;
+  --amber:#E2A33D; --rose:#C2557A; --rose-lit:#D97E9C;
+  --blue:#7FA6FF; --green:#57D9A3; --red:#FF8A7A;
+  --on-accent:#07090D;
+  --panel:rgba(255,255,255,.045);
+  --panel-2:rgba(255,255,255,.06);
+  --edge:rgba(255,255,255,.08);
+  --edge-2:rgba(255,255,255,.14);
+  --ember:linear-gradient(100deg,#E2A33D 0%,#C2557A 100%);
+  --r:16px; --r-sm:11px;
+  --sans:"Avenir Next","Segoe UI Variable Display",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --t:180ms cubic-bezier(.22,.61,.36,1);
+  --col:min(100% - 2.5rem, 62rem);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;min-height:100vh;min-height:100dvh;
+  background:var(--ink-2);color:var(--text);
+  font-family:var(--sans);line-height:1.6;
+  -webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;
+  overflow-x:hidden;
+}
+body::before,body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0}
+body::before{background:
+  radial-gradient(820px 600px at 10% -4%, rgba(226,163,61,.14), transparent 62%),
+  radial-gradient(680px 520px at 2% 22%, rgba(194,85,122,.09), transparent 66%);}
+body::after{
+  background-image:
+    linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:radial-gradient(1400px 1000px at 18% 0%,#000 50%,transparent 100%);
+  -webkit-mask-image:radial-gradient(1400px 1000px at 18% 0%,#000 50%,transparent 100%);
+}
+.page{position:relative;z-index:1}
+
+/* ───────────────────────── type roles ───────────────────────── */
+.mono{font-family:var(--mono)}
+.lbl{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim)}
+.lbl-2{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+h1,h2,h3{margin:0;font-weight:600;letter-spacing:-0.018em}
+p{margin:0}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+:where(button,a,input,textarea,[tabindex]):focus-visible{outline:2px solid var(--amber);outline-offset:2px;border-radius:8px}
+
+/* ───────────────────────── chrome ───────────────────────── */
+.bar{
+  position:sticky;top:0;z-index:20;
+  background:rgba(13,17,23,.82);
+  -webkit-backdrop-filter:blur(18px) saturate(150%);backdrop-filter:blur(18px) saturate(150%);
+  border-bottom:1px solid var(--edge);
+  padding-top:env(safe-area-inset-top);
+}
+.bar .in{width:var(--col);margin-inline:auto;display:flex;align-items:center;gap:1rem;
+         justify-content:space-between;padding:.6875rem 0}
+.mark{font-size:.9375rem;font-weight:700;letter-spacing:-0.02em;text-decoration:none;
+      background:var(--ember);-webkit-background-clip:text;background-clip:text;color:transparent}
+.bar-right{display:flex;align-items:center;gap:.5rem}
+
+.seg{display:inline-flex;padding:2px;background:rgba(255,255,255,.04);border:1px solid var(--edge);border-radius:10px}
+.seg button{
+  appearance:none;border:0;background:none;color:var(--muted);
+  font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;
+  padding:.375rem .5625rem;border-radius:8px;cursor:pointer;
+  transition:background-color var(--t),color var(--t);
+}
+.seg button[aria-pressed="true"]{background:rgba(255,255,255,.1);color:var(--text)}
+.seg.ember button[aria-pressed="true"]{background:var(--ember);color:var(--on-accent)}
+
+.wrap{width:var(--col);margin-inline:auto}
+
+/* ───────────────────────── views ───────────────────────── */
+/* Space is reserved so arriving results never shove the page. */
+.stage{min-height:calc(100vh - 4rem);min-height:calc(100dvh - 4rem);padding:clamp(1.5rem,5vw,3.5rem) 0 8rem}
+.view{display:none}
+.view.on{display:block}
+
+/* ── 1 intake ── */
+.intake{max-width:40rem;margin-inline:auto;text-align:center;padding-top:clamp(1rem,8vh,5rem)}
+.intake .mark-lg{
+  display:inline-block;font-size:clamp(1.75rem,3.4vw,2.25rem);font-weight:700;letter-spacing:-0.024em;
+  background:var(--ember);-webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.intake .line{margin:.875rem auto 0;font-size:clamp(1.5rem,3.2vw,2rem);line-height:1.15;
+              letter-spacing:-0.02em;font-weight:600;max-width:18ch}
+.intake .hint{margin:.875rem auto 0;color:var(--muted);font-size:.9375rem;max-width:40ch}
+
+.composer{
+  margin-top:2rem;text-align:left;
+  background:var(--panel);border:1px solid var(--edge-2);border-radius:18px;
+  transition:border-color var(--t),background-color var(--t);
+}
+.composer.drag{border-color:var(--amber);background:rgba(226,163,61,.07)}
+.composer textarea{
+  display:block;width:100%;appearance:none;border:0;background:none;resize:none;
+  color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.55;
+  padding:1rem 1.125rem .25rem;max-height:11rem;outline:none;
+}
+.composer textarea::placeholder{color:#6F7885}
+.composer .foot{display:flex;align-items:center;gap:.5rem;padding:.5rem .625rem .625rem 1.125rem}
+.composer .foot .lbl{flex:1;min-width:0}
+
+.icon{
+  appearance:none;flex:none;width:2.25rem;height:2.25rem;display:grid;place-items:center;
+  border-radius:10px;border:1px solid var(--edge);background:rgba(255,255,255,.03);color:var(--muted);
+  cursor:pointer;transition:transform 110ms ease-out,color var(--t),border-color var(--t);
+}
+.icon:active{transform:scale(.94)}
+@media (hover:hover){.icon:hover{color:var(--text);border-color:var(--edge-2)}}
+.icon.go{background:var(--ember);border-color:transparent;color:var(--on-accent)}
+.icon.go[disabled]{opacity:.32;cursor:default}
+.icon.go[disabled]:active{transform:none}
+.icon svg{width:1.0625rem;height:1.0625rem;fill:none;stroke:currentColor;stroke-width:1.8;
+          stroke-linecap:round;stroke-linejoin:round}
+
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin-top:1.25rem}
+.chip{
+  appearance:none;background:var(--panel);border:1px solid var(--edge);border-radius:999px;
+  color:var(--muted);font:inherit;font-size:.8125rem;padding:.4375rem .875rem;cursor:pointer;
+  transition:color var(--t),border-color var(--t),transform 110ms ease-out;
+}
+.chip:active{transform:scale(.97)}
+@media (hover:hover){.chip:hover{color:var(--text);border-color:var(--edge-2)}}
+.chip[disabled]{opacity:.4;cursor:default}
+.chip.big{font-size:.9375rem;padding:.6875rem 1.125rem;border-radius:12px;color:var(--text)}
+.chip.big[data-picked="true"]{border-color:var(--amber);background:rgba(226,163,61,.1)}
+
+.metrics{display:flex;flex-wrap:wrap;gap:.4375rem;justify-content:center;margin:2.25rem 0 0;padding:0;list-style:none}
+.metrics li{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--dim);
+            border:1px solid var(--edge);border-radius:999px;padding:.3125rem .5625rem;white-space:nowrap}
+.metrics b{color:var(--muted);font-weight:600}
+
+.note{margin-top:1rem;font-size:.8125rem;color:var(--muted)}
+.note.bad{color:var(--red)}
+
+/* ── 2 working ── */
+.working{max-width:34rem;margin:clamp(2rem,10vh,6rem) auto 0}
+.steps{list-style:none;margin:1.5rem 0 0;padding:0;display:grid;gap:.75rem}
+.steps li{display:flex;align-items:center;gap:.75rem;font-family:var(--mono);font-size:12px;
+          letter-spacing:.03em;color:var(--dim);transition:color var(--t)}
+.steps li[data-state="run"]{color:var(--amber)}
+.steps li[data-state="done"]{color:var(--muted)}
+.dot{width:7px;height:7px;border-radius:50%;background:currentColor;opacity:.35;flex:none}
+.steps li[data-state="run"] .dot{opacity:1;animation:blink 1s ease-in-out infinite}
+.steps li[data-state="done"] .dot{opacity:1}
+@keyframes blink{0%,100%{opacity:.3}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.steps li[data-state="run"] .dot{animation:none}}
+.elapsed{margin-top:1.5rem;font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--dim)}
+
+/* ── 3 question ── */
+.ask{max-width:38rem;margin:clamp(2rem,9vh,5rem) auto 0}
+.ask h2{font-size:clamp(1.375rem,3vw,1.75rem);line-height:1.2;margin-top:.75rem}
+.ask .why{margin-top:.75rem;color:var(--muted);font-size:.9375rem}
+.ask .chips{justify-content:flex-start;margin-top:1.5rem}
+
+/* ── 4 findings ── */
+.panel{background:var(--panel);border:1px solid var(--edge);border-radius:var(--r);padding:clamp(1rem,2.6vw,1.5rem);margin-top:.875rem}
+.panel:first-of-type{margin-top:0}
+.panel > .lbl{display:block;margin-bottom:.875rem}
+
+.hero-no{font-family:var(--mono);font-size:clamp(1.25rem,3.4vw,1.875rem);font-weight:600;
+         letter-spacing:-0.01em;line-height:1.2;word-break:break-word}
+.hero-title{margin-top:.4375rem;color:var(--muted);font-size:.9375rem}
+
+.conf{margin-top:1.125rem;display:grid;gap:.5rem}
+.conf .row{display:flex;align-items:baseline;justify-content:space-between;gap:1rem}
+.conf .word{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+.conf .num{font-family:var(--mono);font-size:11px;color:var(--dim)}
+.track{height:4px;border-radius:2px;background:rgba(255,255,255,.08);overflow:hidden}
+.fill{height:100%;width:0;border-radius:2px;transition:width 200ms cubic-bezier(.22,.61,.36,1)}
+.band-high .word,.band-high{color:var(--green)}
+.band-medium .word,.band-medium{color:var(--amber)}
+.band-low .word,.band-low{color:var(--red)}
+.band-high .fill{background:var(--green)}
+.band-medium .fill{background:var(--amber)}
+.band-low .fill{background:var(--red)}
+
+.drivers{margin:1rem 0 0;padding-left:1.0625rem}
+.drivers li{color:var(--dim);font-size:.8125rem;line-height:1.5}
+
+.quote{
+  margin-top:.75rem;padding:.875rem 1rem;border:1px solid var(--edge);
+  border-left:3px solid var(--amber);border-radius:0 10px 10px 0;
+  background:rgba(255,255,255,.025);color:var(--muted);font-size:.875rem;line-height:1.6;
+}
+.quote mark{background:rgba(226,163,61,.22);color:var(--text);border-radius:3px;padding:0 .1em}
+.explain{margin-top:1rem;font-size:.9375rem;line-height:1.65;color:var(--muted)}
+
+/* depth control with a sliding indicator — the one motion that explains a change of set */
+.depths{position:relative;display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:2px;
+        padding:3px;background:rgba(255,255,255,.04);border:1px solid var(--edge);border-radius:12px}
+.depths .slide{position:absolute;top:3px;bottom:3px;border-radius:9px;background:var(--ember);
+               transition:transform 180ms cubic-bezier(.22,.61,.36,1),width 180ms cubic-bezier(.22,.61,.36,1)}
+.depths button{position:relative;z-index:1;appearance:none;border:0;background:none;color:var(--muted);
+               font-family:var(--mono);font-size:10px;letter-spacing:.07em;text-transform:uppercase;
+               padding:.5rem .375rem;border-radius:9px;cursor:pointer;transition:color var(--t)}
+.depths button[aria-pressed="true"]{color:var(--on-accent)}
+.same{margin-top:.6875rem;font-size:.8125rem;color:var(--dim)}
+
+.rows{display:grid;gap:.0625rem;margin-top:1rem}
+.srow{display:grid;grid-template-columns:auto 1fr auto;gap:.5rem .875rem;align-items:baseline;
+      padding:.6875rem .5rem .6875rem .75rem;border-radius:9px;position:relative;
+      background:none;border:0;color:inherit;font:inherit;text-align:left;width:100%;cursor:pointer;
+      transition:background-color var(--t)}
+@media (hover:hover){.srow:hover{background:rgba(255,255,255,.035)}}
+.srow::before{content:"";position:absolute;left:0;top:.5rem;bottom:.5rem;width:3px;border-radius:2px;background:var(--edge-2)}
+.srow[data-role="primary"]::before{background:var(--ember)}
+.srow[data-role="test_method"]::before{background:var(--blue)}
+.srow[data-role="normative_reference"]::before{background:var(--amber)}
+.srow[data-role="terminology"]::before{background:var(--rose-lit)}
+.srow[data-role="installation"]::before{background:var(--green)}
+.srow[data-role="related_product"]::before{background:var(--muted)}
+.srow .no{font-family:var(--mono);font-size:.8125rem;white-space:nowrap}
+.srow .ti{color:var(--dim);font-size:.8125rem;line-height:1.45;min-width:0}
+.srow .tag{font-family:var(--mono);font-size:9px;letter-spacing:.07em;text-transform:uppercase;color:var(--dim);white-space:nowrap}
+
+.verdict{display:grid;gap:.25rem;padding:.75rem 0;border-top:1px solid var(--edge)}
+.verdict:first-of-type{border-top:0;padding-top:0}
+.verdict .head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem}
+.verdict .old{font-family:var(--mono);font-size:.875rem;text-decoration:line-through;
+              text-decoration-thickness:1.5px;color:var(--dim)}
+.verdict .new{font-family:var(--mono);font-size:.875rem;color:var(--text)}
+.verdict .arrow{color:var(--dim)}
+.verdict .act{font-family:var(--mono);font-size:9px;letter-spacing:.07em;text-transform:uppercase;
+              padding:.1875rem .375rem;border-radius:5px;border:1px solid currentColor}
+.sev-high{color:var(--red)} .sev-medium{color:var(--amber)} .sev-low{color:var(--dim)}
+.verdict .why{color:var(--dim);font-size:.8125rem;line-height:1.5}
+
+.cert{display:grid;gap:.875rem}
+.certgrid{display:grid;gap:.75rem;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr))}
+.stat{border:1px solid var(--edge);border-radius:10px;padding:.75rem}
+.stat .v{font-family:var(--mono);font-size:1.125rem;color:var(--green);line-height:1.2}
+.stat .k{margin-top:.25rem}
+.labs{display:grid;gap:.375rem;margin:0;padding:0;list-style:none}
+.labs li{font-size:.8125rem;color:var(--muted);line-height:1.45}
+.labs .city{color:var(--dim)}
+
+.warn{display:grid;gap:.625rem}
+.warn .w{display:grid;grid-template-columns:auto 1fr;gap:.25rem .75rem;align-items:baseline}
+.warn .lv{font-family:var(--mono);font-size:9px;letter-spacing:.07em;text-transform:uppercase}
+.warn .msg{font-size:.8125rem;line-height:1.55;color:var(--muted)}
+
+/* sticky footer action */
+.dock{
+  position:sticky;bottom:0;z-index:15;margin-top:1.25rem;
+  padding:.875rem 0 calc(.875rem + env(safe-area-inset-bottom));
+  background:linear-gradient(to top,var(--ink-2) 62%,rgba(13,17,23,.92) 82%,rgba(13,17,23,0));
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+}
+/* Reserve the dock's height so the last rows can always be scrolled clear of it. */
+#v-found{padding-bottom:5rem}
+.dock .in{display:flex;flex-wrap:wrap;gap:.625rem;align-items:center}
+.btn{
+  appearance:none;border:1px solid var(--edge-2);border-radius:var(--r-sm);
+  background:rgba(255,255,255,.04);color:var(--text);
+  font:inherit;font-size:.875rem;font-weight:500;padding:.625rem 1rem;min-height:2.625rem;cursor:pointer;
+  transition:transform 110ms ease-out,background-color var(--t),border-color var(--t);
+}
+.btn:active{transform:scale(.98)}
+.btn.primary{background:var(--ember);border-color:transparent;color:var(--on-accent);font-weight:600}
+.btn[disabled]{opacity:.45;cursor:default}
+.btn[disabled]:active{transform:none}
+
+/* ── 5 detail overlay ── */
+.scrim{position:fixed;inset:0;z-index:40;background:rgba(5,7,10,.72);
+       -webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);
+       display:none;align-items:flex-end;justify-content:center}
+.scrim.on{display:flex}
+@media (min-width:48rem){.scrim{align-items:center}}
+.sheet{
+  width:min(100%,38rem);max-height:86vh;overflow-y:auto;overscroll-behavior:contain;
+  background:var(--ink-1);border:1px solid var(--edge-2);
+  border-radius:18px 18px 0 0;padding:clamp(1.125rem,3vw,1.75rem);
+  padding-bottom:calc(1.75rem + env(safe-area-inset-bottom));
+}
+@media (min-width:48rem){.sheet{border-radius:18px}}
+.scrim.on .sheet{animation:rise 200ms cubic-bezier(.22,.61,.36,1)}
+@keyframes rise{from{transform:translateY(14px);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.scrim.on .sheet{animation:none}}
+.sheet .top{display:flex;align-items:flex-start;gap:1rem;justify-content:space-between}
+.sheet h3{font-family:var(--mono);font-size:1.0625rem;letter-spacing:-0.005em}
+.sheet .sub{margin-top:.3125rem;color:var(--muted);font-size:.875rem}
+.sheet section{margin-top:1.25rem}
+.sheet .x{flex:none}
+
+.bare{list-style:none;margin:.5rem 0 0;padding:0;display:grid;gap:.375rem}
+.bare li{font-size:.8125rem;color:var(--muted);line-height:1.5}
+
+a.ext{color:var(--amber);font-size:.8125rem;display:inline-flex;align-items:center;gap:.375rem}
+a.ext svg{width:.875rem;height:.875rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* ───────────────────────── responsive ───────────────────────── */
+@media (max-width:40rem){
+  :root{--col:min(100% - 1.75rem, 62rem)}
+  .bar .in{padding:.5625rem 0}
+  .srow{grid-template-columns:auto 1fr;gap:.25rem .625rem}
+  .srow .tag{grid-column:1 / -1;padding-left:0}
+  .conf .row{flex-wrap:wrap}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition-duration:.01ms !important}
+}
+@media (prefers-contrast:more){
+  :root{--edge:rgba(255,255,255,.3);--edge-2:rgba(255,255,255,.5);--dim:#A7B0BD}
+  body::after{display:none}
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+
+<header class="bar">
+  <div class="in">
+    <a class="mark" href="../landing/index.html">Standards360</a>
+    <div class="bar-right">
+      <div class="seg ember" role="group" aria-label="Who you are">
+        <button type="button" data-persona="procurement" aria-pressed="true">Procurement</button>
+        <button type="button" data-persona="manufacturer" aria-pressed="false">Manufacturer</button>
+      </div>
+      <div class="seg" role="group" aria-label="Data source">
+        <button type="button" data-src="live" aria-pressed="false">Live API</button>
+        <button type="button" data-src="fixtures" aria-pressed="true">Fixtures</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="stage">
+  <div class="wrap">
+
+    <!-- ═══════════ 1 INTAKE ═══════════ -->
+    <section class="view on" id="v-intake" aria-labelledby="i-h">
+      <div class="intake">
+        <span class="mark-lg">Standards360</span>
+        <h1 class="line" id="i-h">Find the Indian Standards your tender must cite.</h1>
+        <p class="hint" id="i-hint">Paste a specification, drop a tender PDF or a screenshot, or
+          type the product.</p>
+
+        <form class="composer" id="composer">
+          <label class="sr" for="q">Describe what is being procured, or paste a specification</label>
+          <textarea id="q" rows="2" placeholder="Supply of 200 MT structural steel tubes YSt 240, 50 NB medium class…"></textarea>
+          <div class="foot">
+            <span class="lbl" id="dropnote">PDF · DOCX · PNG · JPG — up to 25 MB</span>
+            <input type="file" id="file" class="sr" accept=".pdf,.docx,.txt,.md,.png,.jpg,.jpeg,.webp">
+            <button type="button" class="icon" id="attach" aria-label="Attach a tender document or screenshot">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.4 11.05 12.2 20.3a5.5 5.5 0 0 1-7.8-7.8l9.2-9.2a3.7 3.7 0 0 1 5.2 5.2l-9.2 9.2a1.8 1.8 0 0 1-2.6-2.6l8.5-8.5"/></svg>
+            </button>
+            <button type="submit" class="icon go" id="go" disabled aria-label="Analyse">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+            </button>
+          </div>
+        </form>
+        <p class="note" id="i-note" hidden></p>
+
+        <div class="chips" id="examples"></div>
+
+        <ul class="metrics">
+          <li><b>35,553</b> standards · <b>24,101</b> current</li>
+          <li><b>165,657</b> cross-references</li>
+          <li><b>725</b> compulsory certification</li>
+          <li><b>502</b> labs · 28 states</li>
+          <li>Hit@3 <b>0.82</b> · 50-record gold set</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ═══════════ 2 WORKING ═══════════ -->
+    <section class="view" id="v-working" aria-labelledby="w-h">
+      <div class="working">
+        <p class="lbl">Running</p>
+        <h2 id="w-h" style="font-size:1.375rem;margin-top:.5rem">Reading your specification.</h2>
+        <ul class="steps" id="steps" aria-live="polite">
+          <li data-state="wait"><span class="dot"></span>read the document</li>
+          <li data-state="wait"><span class="dot"></span>extract the requirement</li>
+          <li data-state="wait"><span class="dot"></span>search the catalogue</li>
+          <li data-state="wait"><span class="dot"></span>check currency and certification</li>
+        </ul>
+        <p class="elapsed" id="elapsed">0.0 s elapsed</p>
+      </div>
+    </section>
+
+    <!-- ═══════════ 3 QUESTION ═══════════ -->
+    <section class="view" id="v-ask" aria-labelledby="a-h">
+      <div class="ask">
+        <p class="lbl">One thing is missing</p>
+        <h2 id="a-h"></h2>
+        <p class="why">I ask instead of guessing.</p>
+        <div class="chips" id="answers"></div>
+        <p class="note" id="a-conf"></p>
+      </div>
+    </section>
+
+    <!-- ═══════════ 4 FINDINGS ═══════════ -->
+    <section class="view" id="v-found" aria-labelledby="f-h"></section>
+
+    <!-- ═══════════ no match / error ═══════════ -->
+    <section class="view" id="v-empty" aria-labelledby="n-h">
+      <div class="ask">
+        <p class="lbl" id="n-k">No match</p>
+        <h2 id="n-h"></h2>
+        <p class="why" id="n-b"></p>
+        <div class="chips" style="justify-content:flex-start;margin-top:1.5rem">
+          <button type="button" class="chip big" id="n-back">Start again</button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<!-- ═══════════ 5 STANDARD DETAIL ═══════════ -->
+<div class="scrim" id="scrim" role="dialog" aria-modal="true" aria-labelledby="sheet-h" hidden>
+  <div class="sheet" id="sheet"></div>
+</div>
+
+</div>
+
+<script>
+var FIXTURES = {"answered":{"status":"complete","query":"steel tubes steel material electric resistance welded type structural use in a shed","requirement":{"product":"steel tubes","category":"steel_tubes","attributes":{"material":"steel","type":"electric resistance welded","application":"structural use in a shed"},"cited_standards":[],"not_specified":[],"language":"en","source":"product_name","richness":"name_only","extracted_by":"llm+rules"},"questions":[],"confidence":0.998,"band":"high","confidence_drivers":["the scope clause of IS 1161:2014 matches the description closely","it is clearly ahead of the next candidate","every field this product category needs was given","the allied-standards map agrees with the search result"],"primary":"IS 1161:2014","primary_title":"Steel tubes for structural purposes - Specification (Fifth Revision)","primary_as_cited":"IS 1161:2014 (as amended; Second Amendment, 2023)","amendments":[{"number":"First Amendment","year":"2019","file":"1161A1"},{"number":"Second Amendment","year":"2023","file":"1161A2"}],"options":[{"id":"A","label":"Mandatory only","confidence":0.998,"band":"high","standards":["IS 1161:2014"],"default":false,"rationale":"The product standard alone. Use for low-value purchases."},{"id":"B","label":"Recommended","confidence":0.998,"band":"high","standards":["IS 1161:2014","IS 1387:1993","IS 228 (Part 1):2025","IS 2328:2018","IS 4711:2008","IS 4736:1986","IS 4740:1979"],"default":true,"rationale":"The product standard with its normative references, test methods and terminology. This is what a complete tender normally cites."},{"id":"C","label":"Comprehensive","confidence":0.998,"band":"high","standards":["IS 1161:2014","IS 1387:1993","IS 228 (Part 1):2025","IS 2328:2018","IS 4711:2008","IS 4736:1986","IS 4740:1979","IS 4030:1973","IS 8910:2022","IS 10748:2025","IS 1608 (Part 1):2022","IS 2329:2005","IS 4905:2015"],"default":false,"rationale":"Adds installation and related product standards, for high-value or high-risk work."}],"allied":{"normative_reference":[{"is_number":"IS 1387:1993","title":"General requirements for the supply of metallurgical materials (Second Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 228 (Part 1):2025","title":"Methods for Chemical Analysis of Steels Part 1 Determination of Carbon by Volumetric Method (For Carbon 0.05 to 2.50 Percent) (Fourth Revision)","relation":"normative_reference","weight":1.0,"superseded":true},{"is_number":"IS 2328:2018","title":"Metallic materials - Tube - Flattening test (Third Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 4711:2008","title":"Methods for sampling of steel pipes, tubes and fittings (Second Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 4736:1986","title":"Specification for hot - Dip zinc coatings on mild steel tubes (Fist Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 4740:1979","title":"Code of Practice for Packaging of Steel Tubes","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 4030:1973","title":"Cold rolled carbon steel strip for general engineering purposes (Withdrawn)","relation":"normative_reference","weight":0.35,"superseded":true},{"is_number":"IS 8910:2022","title":"General technical delivery requirements for steel and steel products","relation":"normative_reference","weight":0.3,"superseded":true}],"test_method":[{"is_number":"IS 10748:2025","title":"Hot-Rolled Steel Strip for Welded Tubes and Pipes - Specification ( Third Revision)","relation":"test_method","weight":0.95,"superseded":true},{"is_number":"IS 1608 (Part 1):2022","title":"Metallic materials - Tensile testing - Part 1 : Method of test at room temperature ( Fifth Revision)","relation":"test_method","weight":0.95,"superseded":true},{"is_number":"IS 2329:2005","title":"Metallic materials - Tube (In Full Section) - Bend test (Second Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 4905:2015","title":"Random sampling and randomization procedures (First Revision)","relation":"test_method","weight":0.475,"superseded":false},{"is_number":"IS 17570 (Part 3):2021","title":"Air Filters for general ventilation Part 3 Determination of the gravimetric efficiency and the air flow resistance versus the mass of test dust captured","relation":"test_method","weight":0.451,"superseded":false},{"is_number":"IS 1828 (Part 1):2022","title":"METALLIC MATERIALS - CALIBRATION AND VERIFICATION OF STATIC UNIAXIAL TESTING MACHINES - PART 1: TENSION/COMPRESSION TESTING MACHINES - CALIBRATION AND VERIFICATION OF THE FORCE-MEASURING SYSTEM","relation":"test_method","weight":0.451,"superseded":true},{"is_number":"IS 1599:2023","title":"Metallic materials Bend test","relation":"test_method","weight":0.285,"superseded":true}],"terminology":[{"is_number":"IS 1956 (Part 4):2013","title":"Glossary of terms relating to iron and steel: Part 4 flat products (Second Revision)","relation":"terminology","weight":0.24,"superseded":false}],"installation":[{"is_number":"IS 6226 (Part 1):2025","title":"Recommendations of Apparatus for Chemical Analysis of Metals Part 1 Apparatus for Determination of Carbon by Direct Combustion (Second Revision)","relation":"installation","weight":0.35,"superseded":true},{"is_number":"IS 2629 (Part 1):2025","title":"Process, Design, Testing and Application of Hot Dip Galvanizing of Iron and Steel - Code of Practice Part 1 Batch Process ( Second Revision )","relation":"installation","weight":0.21,"superseded":true}],"related_product":[{"is_number":"IS 1239 (Part 1):2004","title":"Steel tubes, tubulars and other wrought steel fittings - Specification: Part 1 steel tubes (Sixth Revision)","relation":"related_product","weight":0.6,"superseded":false},{"is_number":"IS 2062 (Part 1):2025","title":"Structural Steel - Part 1 - Hot Rolled Medium and High tensile Steel","relation":"related_product","weight":0.6,"superseded":true},{"is_number":"IS 264:2005","title":"Nitric acid - Specification (Third Revision)","relation":"related_product","weight":0.3,"superseded":false},{"is_number":"IS/IEC 60603-4:1987","title":"Connectors for frequencies below 3 MHz for use with printed boards Part 4: Two-part connectors for printed boards having contacts spaced at 1.91 mm ( 0.075 in )centres and staggered terminations at that same spacing","relation":"related_product","weight":0.3,"superseded":false},{"is_number":"IS 280:2006","title":"Mild steel wire for general engineering purposes (Fourth Revision)","relation":"related_product","weight":0.21,"superseded":false},{"is_number":"IS 1079:2017","title":"Hot rolled carbon steel sheet, plate and strip - Specification (Seventh Revision)","relation":"related_product","weight":0.18,"superseded":false},{"is_number":"IS 1173:2025","title":"Hot Rolled and Slit Steel Tee Bars Dimensions and Properties","relation":"related_product","weight":0.18,"superseded":true},{"is_number":"IS 1252:2025","title":"Hot Rolled Steel Sections for Shipbuilding ï¿½ Dimensions and Tolerances","relation":"related_product","weight":0.18,"superseded":true},{"is_number":"IS 1730:1989","title":"Steel Plates, Sheets Strips and Flats for Structural and General Engineering Purposes - Dimensions (Second Revision)","relation":"related_product","weight":0.18,"superseded":false},{"is_number":"IS 1852:1985","title":"Specification for rolling and cutting tolerances for hot - Rolled steel products (Fourth Revision)","relation":"related_product","weight":0.18,"superseded":false}]},"warnings":[{"severity":"low","cited":"IS 1161:2014","message":"IS 1161:2014 carries 2 amendment(s), the latest being Second Amendment of 2023.","action":"Cite the standard as amended."}],"verdicts":[{"citation":"IS 1161:2014","exists":true,"status":"current","relevant":true,"relevance_score":null,"verdict":"add","replacement":null,"reason":"Recommended for this product but not cited in the tender.","severity":"medium","title":"Steel tubes for structural purposes - Specification (Fifth Revision)"}],"certification":{"certification_required":true,"persona":"procurement","statement":"Compulsory BIS certification applies to IS 1161:2014. Bidders must hold a valid licence under BIS Product Certification (ISI mark), and this should be stated as an eligibility condition. The Quality Control Order has been in force since 1978-08-01. 35 BIS-recognised laboratories can carry out the testing.","labs_available":35,"nearest_labs":[{"name":"BIS, Patna Branch Laboratory (PBL)","city":"Patna","state":"Bihar"},{"name":"QUALITY INTERNATIONAL RESEARCH & LABORATORIES PRIVATE LIMITED","city":"RAIPUR","state":"Chhattisgarh"},{"name":"MATERIAL TESTING LABORATORY LLP","city":"DELHI","state":"Delhi"},{"name":"DELHI TEST HOUSE, Azadhpur","city":"Delhi","state":"Delhi"}],"not_stated":["IS 1387:1993","IS 228 (Part 1):2025","IS 2328:2018"],"standards":[{"is_number":"IS 1161:2014","scheme":"BIS Product Certification (ISI mark)","qco_date":"1978-08-01","in_force":true,"labs_available":35,"mandatory":true,"stated":true},{"is_number":"IS 1387:1993","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false},{"is_number":"IS 228 (Part 1):2025","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false},{"is_number":"IS 2328:2018","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false}]},"evidence":[{"standard":"IS 1161:2014","clause":"1","role":"scope","page":3,"quote":"1 SCOPE This standard covers the requirements for hot finished seamless (HFS), and electric resistance welded (ERW) or high frequency induction welded (HFIW) steel tubes for structural purposes."}],"explanation":"The tender covers steel electric resistance welded tubes for structural shed use, governed by the primary standard IS 1161:2014 — Steel tubes for structural purposes - Specification (Fifth Revision). The allied standards IS 1387:1993, IS 228 (Part 1):2025, IS 2328:2018, IS 4711:2008, IS 4736:1986, and IS 4740:1979 are cited to address complementary testing and material requirements. Please note that IS 1161:2014 carries 2 amendment(s), the latest being Second Amendment of 2023.","seconds":3.69},"cement_low_confidence":{"status":"complete","query":"Portland cement 43 grade RCC structural work","requirement":{"product":"Portland cement","category":"cement","attributes":{"quantity":"500 MT","grade":"43 grade","application":"RCC structural work","standard":"IS 8112:1989"},"cited_standards":["IS 8112:1989"],"not_specified":[],"language":"en","source":"text","richness":"spec_only","extracted_by":"llm+rules"},"questions":[],"confidence":0.756,"band":"high","confidence_drivers":["only a weak match to IS 8043:1991","it is clearly ahead of the next candidate","every field this product category needs was given","the allied-standards map agrees with the search result"],"primary":"IS 8043:2026","primary_title":"Hydrophobic Portland Cement Specification Third Revision of IS 8043","primary_as_cited":"IS 8043:2026","amendments":[],"options":[{"id":"A","label":"Mandatory only","confidence":0.756,"band":"high","standards":["IS 8043:2026"],"default":false,"rationale":"The product standard alone. Use for low-value purchases."},{"id":"B","label":"Recommended","confidence":0.756,"band":"high","standards":["IS 8043:2026","IS 11652:2017","IS 397 (Part 3):2019","IS 3535:1986","IS 4031 (Part 1):1996","IS 4031 (Part 10):1988","IS 4031 (Part 11):1988"],"default":true,"rationale":"The product standard with its normative references, test methods and terminology. This is what a complete tender normally cites."},{"id":"C","label":"Comprehensive","confidence":0.756,"band":"high","standards":["IS 8043:2026","IS 11652:2017","IS 397 (Part 3):2019","IS 3535:1986","IS 4031 (Part 1):1996","IS 4031 (Part 10):1988","IS 4031 (Part 11):1988","IS 4031 (Part 12):1988","IS 4031 (Part 13):1988","IS 4905:2015","IS 4031 (Part 7):1988","IS 10528:1983","IS 1060 (Part 4/Sec 1):2025"],"default":false,"rationale":"Adds installation and related product standards, for high-value or high-risk work."}],"allied":{"normative_reference":[{"is_number":"IS 11652:2017","title":"Amendment no. 4 to IS 11652 : 2017 Textiles - High density polyethylene (HDPE)/ polypropylene (PP) woven sacks for packaging of 50 kg cement - Specification (third revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 397 (Part 3):2019","title":"Methods for Statistical Quality Control during Production Part 3 Specialized Control Charts ( Second Revision )","relation":"normative_reference","weight":0.475,"superseded":true}],"test_method":[{"is_number":"IS 3535:1986","title":"Methods of Sampling Hydraulic Cement (First revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 4031 (Part 1):1996","title":"Methods of Physical Tests for Hydraulic Cement: Part 1 Determination of Fineness by Dry Sieving (Second Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 4031 (Part 10):1988","title":"Methods of Physical Tests for Hydraulic Cement: Part 10 Determination of Drying Shrinkage (First Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 4031 (Part 11):1988","title":"Methods of Physical Tests for Hydraulic Cement: Part 11 Determination of Density (First Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 4031 (Part 12):1988","title":"Methods of Physical Tests for Hydraulic Cement: Part 12 Determination of Air Content of Hydraulic Cement Mortar (First Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 4031 (Part 13):1988","title":"Methods of Physical Tests for Hydraulic Cement - Part 13 : Measurement of Water Retentivity of Masonry Cement (First Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 4905:2015","title":"Random sampling and randomization procedures (First Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 4031 (Part 7):1988","title":"Methods of Physical Tests for Hydraulic Cement: Part 7 Determination of Compressive Strength of Masonry Cement (First Revision)","relation":"test_method","weight":0.451,"superseded":false},{"is_number":"IS 10528:1983","title":"Method of sampling empty paper sacks for testing","relation":"test_method","weight":0.285,"superseded":false},{"is_number":"IS 1060 (Part 4/Sec 1):2025","title":"Methods of Sampling and Test for Paper and Allied Products Part 4 Methods of Test for Paper, Board and Pulp Section 1 Standard atmosphere for conditioning and testing and procedure for monitoring the atmosphere and conditioning of samples ( First Revision )","relation":"test_method","weight":0.285,"superseded":true}],"terminology":[{"is_number":"IS 4845:2026","title":"Definitions and terminology relating to hydraulic cement First Revision of IS 4845","relation":"terminology","weight":0.8,"superseded":false},{"is_number":"IS 10789:2000","title":"Textiles - Stitch Types - Classification and Terminology","relation":"terminology","weight":0.24,"superseded":false},{"is_number":"IS 9028:2026","title":"Paper Sacks — Glossary of Terms","relation":"terminology","weight":0.24,"superseded":true}],"installation":[{"is_number":"IS 2:1960","title":"Rules for Rounding off Numerical Values (Withdrawn)","relation":"installation","weight":0.332,"superseded":true},{"is_number":"IS 2:2022","title":"RULES FOR ROUNDING OFF NUMERICAL VALUES (Second Revision)","relation":"installation","weight":0.332,"superseded":false},{"is_number":"IS 2873:2026","title":"Textiles — Packaging of Jute Products in Bales — Specification (Third Revision)","relation":"installation","weight":0.21,"superseded":false}],"related_product":[{"is_number":"IS 11761:2024","title":"MULTI-WALL PAPER SACKS FOR CEMENTï¿½ SPECIFICATION ( Second Revision )","relation":"related_product","weight":0.6,"superseded":true},{"is_number":"IS 12089:1987","title":"Specification for Granulated Slag for the Manufacture Portland Slag Cement","relation":"related_product","weight":0.6,"superseded":false},{"is_number":"IS 12154:1987","title":"Specification for light weight jute bags for packing cement (Withdrawn)","relation":"related_product","weight":0.6,"superseded":true},{"is_number":"IS 12174:1987","title":"Specification for jute synthetic union bags for packing cement (Withdrawn)","relation":"related_product","weight":0.6,"superseded":true},{"is_number":"IS 2580:1995","title":"Textiles - Jute sacking bags for packing cement - Specification (Third Revision) (Withdrawn)","relation":"related_product","weight":0.6,"superseded":true},{"is_number":"IS 650:1991","title":"Standard sand for testing cement - Specification (Second Revision)","relation":"related_product","weight":0.6,"superseded":false},{"is_number":"IS 10082:1981","title":"Method of test for determination of tensile strength by indirect tests on rock specimens","relation":"related_product","weight":0.285,"superseded":true},{"is_number":"IS 10086:2021","title":"Moulds for Use in Tests of Cement, Concrete and Pozzolana (First Revision)","relation":"related_product","weight":0.285,"superseded":false},{"is_number":"IS 10089:1981","title":"Specification for metal lasts for knee boots","relation":"related_product","weight":0.285,"superseded":false},{"is_number":"IS 10850:1984","title":"Specification for apparatus for Measurement of Water Retentivity of Masonry Cement","relation":"related_product","weight":0.285,"superseded":false}]},"warnings":[{"severity":"medium","cited":"IS 8043:1991","message":"IS 8043:1991 is not the latest edition; IS 8043:2026 is in force.","action":"Consider citing IS 8043:2026."},{"severity":"high","cited":"IS 8112:1989","message":"IS 8112 has been withdrawn and replaced by IS 269:2015. The cited 1989 edition is not in the catalogue.","action":"Replace the citation with IS 269:2015."}],"verdicts":[{"citation":"IS 8112:1989","exists":true,"status":"superseded","relevant":null,"relevance_score":null,"verdict":"replace","replacement":"IS 269:2015","reason":"Withdrawn and replaced by IS 269:2015.","severity":"high","title":"Ordinary portland cement - Specification (Sixth Revision)"},{"citation":"IS 8043:1991","exists":true,"status":"current","relevant":true,"relevance_score":null,"verdict":"add","replacement":null,"reason":"Recommended for this product but not cited in the tender.","severity":"medium","title":"Hydrophobic Portland Cement Specification Third Revision of IS 8043"}],"certification":{"certification_required":true,"persona":"procurement","statement":"Compulsory BIS certification applies to IS 11652:2017. Bidders must hold a valid licence under BIS Product Certification (ISI mark), and this should be stated as an eligibility condition. The Quality Control Order has been in force since 2025-06-06. 32 BIS-recognised laboratories can carry out the testing.","labs_available":32,"nearest_labs":[{"name":"CIPET, Vijayawada","city":"VIJAYAWADA","state":"Andhra Pradesh"},{"name":"Central Institute of Petrochemical Engineering and Technology (CIPET), Guwahati","city":"Guwahati","state":"Assam"},{"name":"CIPET, Hajipur","city":"Hajipur","state":"Bihar"},{"name":"Central institute of Petrochemicals Engineering & Technology (CIPET), Raipur","city":"Raipur","state":"Chhattisgarh"}],"not_stated":["IS 8043:2026","IS 397 (Part 3):2019","IS 3535:1986"],"standards":[{"is_number":"IS 8043:2026","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false},{"is_number":"IS 11652:2017","scheme":"BIS Product Certification (ISI mark)","qco_date":"2025-06-06","in_force":true,"labs_available":32,"mandatory":true,"stated":true},{"is_number":"IS 397 (Part 3):2019","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false},{"is_number":"IS 3535:1986","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false}]},"evidence":[{"standard":"IS 8043:2026","clause":"3","role":"terminology","page":9,"quote":"3 TERMINOLOGY 3.1 For the purpose of thrs standard, the defi.nilions given III 1S 4845 : 196& and the following shall apply. 3.1.1 Hydrophobic Cement Cement obtained by gnndmg 33 grade ordinary Portland cement clmker with an adduive which. WIll Impart to ground cement, a water repelling property whi"}],"explanation":"The primary standard IS 8043:2026 specifies the requirements for Hydrophobic Portland Cement. The allied standards IS 11652:2017, IS 397 (Part 3):2019, IS 3535:1986, IS 4031 (Part 1):1996, IS 4031 (Part 10):1988, and IS 4031 (Part 11):1988 are cited to supplement testing and application protocols. Buyers are warned that IS 8043:1991 is not the latest edition and IS 8043:2026 is in force.","seconds":2.83},"complete_tubes":{"status":"need_more_info","query":"structural steel tubes YSt 240 grade 50 NB diameter medium class thickness steel material pipe truss of industrial shed","requirement":{"product":"structural steel tubes","category":"steel_tubes","attributes":{"quantity":"200 MT","grade":"YSt 240","application":"pipe truss of industrial shed","diameter":"50 NB","thickness":"medium class","material":"steel"},"cited_standards":["IS 1161:1998","IS 2062:2011"],"not_specified":["type"],"language":"en","source":"text","richness":"spec_only","extracted_by":"llm+rules"},"questions":[{"field":"type","ask":"Seamless, electric resistance welded, or galvanized?"}],"confidence":0.865,"band":"high","confidence_drivers":["the requirements clause of IS 1161:2014 matches the description closely","it is clearly ahead of the next candidate","missing from the description: type","the allied-standards map agrees with the search result"],"primary":"IS 1161:2014","primary_title":"Steel tubes for structural purposes - Specification (Fifth Revision)","primary_as_cited":"IS 1161:2014 (as amended; Second Amendment, 2023)","amendments":[{"number":"First Amendment","year":"2019","file":"1161A1"},{"number":"Second Amendment","year":"2023","file":"1161A2"}],"options":[{"id":"A","label":"Mandatory only","confidence":0.865,"band":"high","standards":["IS 1161:2014"],"default":false,"rationale":"The product standard alone. Use for low-value purchases."},{"id":"B","label":"Recommended","confidence":0.865,"band":"high","standards":["IS 1161:2014","IS 1387:1993","IS 228 (Part 1):2025","IS 2328:2018","IS 4711:2008","IS 4736:1986","IS 4740:1979"],"default":true,"rationale":"The product standard with its normative references, test methods and terminology. This is what a complete tender normally cites."},{"id":"C","label":"Comprehensive","confidence":0.865,"band":"high","standards":["IS 1161:2014","IS 1387:1993","IS 228 (Part 1):2025","IS 2328:2018","IS 4711:2008","IS 4736:1986","IS 4740:1979","IS 4030:1973","IS 8910:2022","IS 10748:2025","IS 1608 (Part 1):2022","IS 2329:2005","IS 4905:2015"],"default":false,"rationale":"Adds installation and related product standards, for high-value or high-risk work."}],"allied":{"normative_reference":[{"is_number":"IS 1387:1993","title":"General requirements for the supply of metallurgical materials (Second Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 228 (Part 1):2025","title":"Methods for Chemical Analysis of Steels Part 1 Determination of Carbon by Volumetric Method (For Carbon 0.05 to 2.50 Percent) (Fourth Revision)","relation":"normative_reference","weight":1.0,"superseded":true},{"is_number":"IS 2328:2018","title":"Metallic materials - Tube - Flattening test (Third Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 4711:2008","title":"Methods for sampling of steel pipes, tubes and fittings (Second Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 4736:1986","title":"Specification for hot - Dip zinc coatings on mild steel tubes (Fist Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 4740:1979","title":"Code of Practice for Packaging of Steel Tubes","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 4030:1973","title":"Cold rolled carbon steel strip for general engineering purposes (Withdrawn)","relation":"normative_reference","weight":0.35,"superseded":true},{"is_number":"IS 8910:2022","title":"General technical delivery requirements for steel and steel products","relation":"normative_reference","weight":0.3,"superseded":true}],"test_method":[{"is_number":"IS 10748:2025","title":"Hot-Rolled Steel Strip for Welded Tubes and Pipes - Specification ( Third Revision)","relation":"test_method","weight":0.95,"superseded":true},{"is_number":"IS 1608 (Part 1):2022","title":"Metallic materials - Tensile testing - Part 1 : Method of test at room temperature ( Fifth Revision)","relation":"test_method","weight":0.95,"superseded":true},{"is_number":"IS 2329:2005","title":"Metallic materials - Tube (In Full Section) - Bend test (Second Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 4905:2015","title":"Random sampling and randomization procedures (First Revision)","relation":"test_method","weight":0.475,"superseded":false},{"is_number":"IS 17570 (Part 3):2021","title":"Air Filters for general ventilation Part 3 Determination of the gravimetric efficiency and the air flow resistance versus the mass of test dust captured","relation":"test_method","weight":0.451,"superseded":false},{"is_number":"IS 1828 (Part 1):2022","title":"METALLIC MATERIALS - CALIBRATION AND VERIFICATION OF STATIC UNIAXIAL TESTING MACHINES - PART 1: TENSION/COMPRESSION TESTING MACHINES - CALIBRATION AND VERIFICATION OF THE FORCE-MEASURING SYSTEM","relation":"test_method","weight":0.451,"superseded":true},{"is_number":"IS 1599:2023","title":"Metallic materials Bend test","relation":"test_method","weight":0.285,"superseded":true}],"terminology":[{"is_number":"IS 1956 (Part 4):2013","title":"Glossary of terms relating to iron and steel: Part 4 flat products (Second Revision)","relation":"terminology","weight":0.24,"superseded":false}],"installation":[{"is_number":"IS 6226 (Part 1):2025","title":"Recommendations of Apparatus for Chemical Analysis of Metals Part 1 Apparatus for Determination of Carbon by Direct Combustion (Second Revision)","relation":"installation","weight":0.35,"superseded":true},{"is_number":"IS 2629 (Part 1):2025","title":"Process, Design, Testing and Application of Hot Dip Galvanizing of Iron and Steel - Code of Practice Part 1 Batch Process ( Second Revision )","relation":"installation","weight":0.21,"superseded":true}],"related_product":[{"is_number":"IS 1239 (Part 1):2004","title":"Steel tubes, tubulars and other wrought steel fittings - Specification: Part 1 steel tubes (Sixth Revision)","relation":"related_product","weight":0.6,"superseded":false},{"is_number":"IS 2062 (Part 1):2025","title":"Structural Steel - Part 1 - Hot Rolled Medium and High tensile Steel","relation":"related_product","weight":0.6,"superseded":true},{"is_number":"IS 264:2005","title":"Nitric acid - Specification (Third Revision)","relation":"related_product","weight":0.3,"superseded":false},{"is_number":"IS/IEC 60603-4:1987","title":"Connectors for frequencies below 3 MHz for use with printed boards Part 4: Two-part connectors for printed boards having contacts spaced at 1.91 mm ( 0.075 in )centres and staggered terminations at that same spacing","relation":"related_product","weight":0.3,"superseded":false},{"is_number":"IS 280:2006","title":"Mild steel wire for general engineering purposes (Fourth Revision)","relation":"related_product","weight":0.21,"superseded":false},{"is_number":"IS 1079:2017","title":"Hot rolled carbon steel sheet, plate and strip - Specification (Seventh Revision)","relation":"related_product","weight":0.18,"superseded":false},{"is_number":"IS 1173:2025","title":"Hot Rolled and Slit Steel Tee Bars Dimensions and Properties","relation":"related_product","weight":0.18,"superseded":true},{"is_number":"IS 1252:2025","title":"Hot Rolled Steel Sections for Shipbuilding ï¿½ Dimensions and Tolerances","relation":"related_product","weight":0.18,"superseded":true},{"is_number":"IS 1730:1989","title":"Steel Plates, Sheets Strips and Flats for Structural and General Engineering Purposes - Dimensions (Second Revision)","relation":"related_product","weight":0.18,"superseded":false},{"is_number":"IS 1852:1985","title":"Specification for rolling and cutting tolerances for hot - Rolled steel products (Fourth Revision)","relation":"related_product","weight":0.18,"superseded":false}]},"warnings":[{"severity":"low","cited":"IS 1161:2014","message":"IS 1161:2014 carries 2 amendment(s), the latest being Second Amendment of 2023.","action":"Cite the standard as amended."},{"severity":"high","cited":"IS 2062:2011","message":"IS 2062 has been withdrawn; the subject is now published as IS 2062 (Part 1):2025.","action":"Replace the citation with IS 2062 (Part 1):2025."}],"verdicts":[{"citation":"IS 1161:1998","exists":true,"status":"current","relevant":true,"relevance_score":0.9777,"verdict":"replace","replacement":"IS 1161:2014","reason":"A later edition is in force: IS 1161:2014.","severity":"medium","title":"Steel tubes for structural purposes - Specification (Fifth Revision)"},{"citation":"IS 2062:2011","exists":true,"status":"superseded","relevant":false,"relevance_score":0.0429,"verdict":"replace","replacement":"IS 2062 (Part 1):2025","reason":"Withdrawn and replaced by IS 2062 (Part 1):2025.","severity":"high","title":"Structural Steel - Part 1 - Hot Rolled Medium and High tensile Steel"}],"certification":{"certification_required":true,"persona":"procurement","statement":"Compulsory BIS certification applies to IS 1161:2014. Bidders must hold a valid licence under BIS Product Certification (ISI mark), and this should be stated as an eligibility condition. The Quality Control Order has been in force since 1978-08-01. 35 BIS-recognised laboratories can carry out the testing.","labs_available":35,"nearest_labs":[{"name":"BIS, Patna Branch Laboratory (PBL)","city":"Patna","state":"Bihar"},{"name":"QUALITY INTERNATIONAL RESEARCH & LABORATORIES PRIVATE LIMITED","city":"RAIPUR","state":"Chhattisgarh"},{"name":"MATERIAL TESTING LABORATORY LLP","city":"DELHI","state":"Delhi"},{"name":"DELHI TEST HOUSE, Azadhpur","city":"Delhi","state":"Delhi"}],"not_stated":["IS 1387:1993","IS 228 (Part 1):2025","IS 2328:2018"],"standards":[{"is_number":"IS 1161:2014","scheme":"BIS Product Certification (ISI mark)","qco_date":"1978-08-01","in_force":true,"labs_available":35,"mandatory":true,"stated":true},{"is_number":"IS 1387:1993","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false},{"is_number":"IS 228 (Part 1):2025","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false},{"is_number":"IS 2328:2018","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false}]},"evidence":[{"standard":"IS 1161:2014","clause":"3","role":"requirements","page":3,"quote":"3 DESIGNATION Steel tubes covered by this standard shall be designated by their nominal bore and wall thickness (see Table 1). They shall be further graded as YSt 210, YSt 240, YSt 310 and YSt 355 depending on the yield strength of the material (see Table 2). The designation of the steel tubes shall"}],"explanation":"The supply of 200 MT of structural steel tubes, grade YSt 240 and diameter 50 NB for the pipe truss of an industrial shed, is governed by IS 1161:2014, which covers the specification for steel tubes for structural purposes. The allied standards IS 1387:1993, IS 228 (Part 1):2025, IS 2328:2018, IS 4711:2008, IS 4736:1986, and IS 4740:1979 are cited to supplement the technical requirements of the primary standard. Note that IS 1161:2014 carries 2 amendment(s), the latest being Second Amendment of 2023.","seconds":9.99},"manufacturer":{"status":"complete","query":"wire annealed type mild steel material annealed grade 4 mm diameter general engineering","requirement":{"product":"wire","category":"steel_wire","attributes":{"type":"annealed","application":"general engineering","material":"mild steel","grade":"annealed","diameter":"4 mm"},"cited_standards":[],"not_specified":[],"language":"en","source":"text","richness":"spec_only","extracted_by":"llm+rules"},"questions":[],"confidence":0.979,"band":"high","confidence_drivers":["the scope clause of IS 280:2006 matches the description closely","it is clearly ahead of the next candidate","every field this product category needs was given","the allied-standards map agrees with the search result"],"primary":"IS 280:2006","primary_title":"Mild steel wire for general engineering purposes (Fourth Revision)","primary_as_cited":"IS 280:2006 (as amended; Second Amendment, 2025)","amendments":[{"number":"First Amendment","year":"2009","file":"280A1"},{"number":"Second Amendment","year":"2025","file":"280A2"}],"options":[{"id":"A","label":"Mandatory only","confidence":0.979,"band":"high","standards":["IS 280:2006"],"default":false,"rationale":"The product standard alone. Use for low-value purchases."},{"id":"B","label":"Recommended","confidence":0.979,"band":"high","standards":["IS 280:2006","IS 1387:1993","IS 228 (Part 1):2025","IS 4826:2023","IS 7887:1992","IS 7598:1990","IS 1608 (Part 1):2022"],"default":true,"rationale":"The product standard with its normative references, test methods and terminology. This is what a complete tender normally cites."},{"id":"C","label":"Comprehensive","confidence":0.979,"band":"high","standards":["IS 280:2006","IS 1387:1993","IS 228 (Part 1):2025","IS 4826:2023","IS 7887:1992","IS 7598:1990","IS 1608 (Part 1):2022","IS 1755:2018","IS 4905:2015","IS 17570 (Part 3):2021","IS 1828 (Part 1):2022","IS 2633:1986","IS 1956 (Part 1):1976"],"default":false,"rationale":"Adds installation and related product standards, for high-value or high-risk work."}],"allied":{"normative_reference":[{"is_number":"IS 1387:1993","title":"General requirements for the supply of metallurgical materials (Second Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 228 (Part 1):2025","title":"Methods for Chemical Analysis of Steels Part 1 Determination of Carbon by Volumetric Method (For Carbon 0.05 to 2.50 Percent) (Fourth Revision)","relation":"normative_reference","weight":1.0,"superseded":true},{"is_number":"IS 4826:2023","title":"Hot-Dip Galvanized Coatings on Round Steel Wires ï¿½ Requirements","relation":"normative_reference","weight":1.0,"superseded":true},{"is_number":"IS 7887:1992","title":"Mild steel wire rod for general engineering purposes - Specification (First Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 7598:1990","title":"Classification of steels (First Revision)","relation":"normative_reference","weight":0.4,"superseded":false}],"test_method":[{"is_number":"IS 1608 (Part 1):2022","title":"Metallic materials - Tensile testing - Part 1 : Method of test at room temperature ( Fifth Revision)","relation":"test_method","weight":0.95,"superseded":true},{"is_number":"IS 1755:2018","title":"Metallic Materials - Wire - Wrapping test (Second Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 4905:2015","title":"Random sampling and randomization procedures (First Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 17570 (Part 3):2021","title":"Air Filters for general ventilation Part 3 Determination of the gravimetric efficiency and the air flow resistance versus the mass of test dust captured","relation":"test_method","weight":0.451,"superseded":false},{"is_number":"IS 1828 (Part 1):2022","title":"METALLIC MATERIALS - CALIBRATION AND VERIFICATION OF STATIC UNIAXIAL TESTING MACHINES - PART 1: TENSION/COMPRESSION TESTING MACHINES - CALIBRATION AND VERIFICATION OF THE FORCE-MEASURING SYSTEM","relation":"test_method","weight":0.451,"superseded":true},{"is_number":"IS 2633:1986","title":"Method for testing uniformity of coating on zinc coated articles (Second Revision)","relation":"test_method","weight":0.285,"superseded":false}],"terminology":[{"is_number":"IS 1956 (Part 1):1976","title":"Glossary of terms relating to iron and steel: Part 1 general metallurgy, heat treatment and testing (First Revision)","relation":"terminology","weight":0.8,"superseded":true},{"is_number":"IS 3554:2017","title":"Glossary of terms relating to electroplating (First Revision)","relation":"terminology","weight":0.24,"superseded":false}],"installation":[{"is_number":"IS 2629 (Part 1):2025","title":"Process, Design, Testing and Application of Hot Dip Galvanizing of Iron and Steel - Code of Practice Part 1 Batch Process ( Second Revision )","relation":"installation","weight":0.35,"superseded":true},{"is_number":"IS 6226 (Part 1):2025","title":"Recommendations of Apparatus for Chemical Analysis of Metals Part 1 Apparatus for Determination of Carbon by Direct Combustion (Second Revision)","relation":"installation","weight":0.35,"superseded":true},{"is_number":"IS 6745:1972","title":"Methods for determination of mass of zinc coating on zinc coated iron and steel articles","relation":"installation","weight":0.21,"superseded":false}],"related_product":[{"is_number":"IS 12753:1989","title":"Electrogalvanized coatings on round steel wire - Specification","relation":"related_product","weight":0.6,"superseded":false},{"is_number":"IS 209:2024","title":"Refined Zinc - Specification (Fifth Revision)","relation":"related_product","weight":0.3,"superseded":true},{"is_number":"IS 264:2005","title":"Nitric acid - Specification (Third Revision)","relation":"related_product","weight":0.3,"superseded":false},{"is_number":"IS/IEC 60603-4:1987","title":"Connectors for frequencies below 3 MHz for use with printed boards Part 4: Two-part connectors for printed boards having contacts spaced at 1.91 mm ( 0.075 in )centres and staggered terminations at that same spacing","relation":"related_product","weight":0.3,"superseded":false},{"is_number":"IS 2605:2023","title":"Zinc Anodes For Electroplating ï¿½ Specification (Second Revision)","relation":"related_product","weight":0.18,"superseded":true}]},"warnings":[{"severity":"low","cited":"IS 280:2006","message":"IS 280:2006 carries 2 amendment(s), the latest being Second Amendment of 2025.","action":"Cite the standard as amended."}],"verdicts":[{"citation":"IS 280:2006","exists":true,"status":"current","relevant":true,"relevance_score":null,"verdict":"add","replacement":null,"reason":"Recommended for this product but not cited in the tender.","severity":"medium","title":"Mild steel wire for general engineering purposes (Fourth Revision)"}],"certification":{"certification_required":true,"persona":"manufacturer","statement":"You must hold a valid BIS licence under BIS Product Certification (ISI mark) before supplying goods covered by IS 280:2006. The Quality Control Order has been in force since 2018-12-18. 36 BIS-recognised laboratories can carry out the testing.","labs_available":36,"nearest_labs":[{"name":"BIS, Western Regional Laboratory (WRL)","city":"MUMBAI","state":"Maharashtra"},{"name":"National Test House (WR) - NTH, Mumbai","city":"Mumbai","state":"Maharashtra"},{"name":"BIS, Patna Branch Laboratory (PBL)","city":"Patna","state":"Bihar"},{"name":"QUALITY INTERNATIONAL RESEARCH & LABORATORIES PRIVATE LIMITED","city":"RAIPUR","state":"Chhattisgarh"}],"not_stated":["IS 1387:1993","IS 228 (Part 1):2025","IS 4826:2023"],"standards":[{"is_number":"IS 280:2006","scheme":"BIS Product Certification (ISI mark)","qco_date":"2018-12-18","in_force":true,"labs_available":36,"mandatory":true,"stated":true},{"is_number":"IS 1387:1993","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false},{"is_number":"IS 228 (Part 1):2025","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false},{"is_number":"IS 4826:2023","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false}]},"evidence":[{"standard":"IS 280:2006","clause":"1","role":"scope","page":6,"quote":"1 SCOPE This standard covers the requirements for mild steel wire of sizes 0.125 mm to 12.5 mm diameter for general engineering purposes."}],"explanation":"The supply of annealed mild steel wire for general engineering purposes shall comply with the requirements of IS 280:2006, which covers mild steel wire for general engineering purposes. The allied standards IS 1387:1993, IS 228 (Part 1):2025, IS 4826:2023, IS 7887:1992, IS 7598:1990, and IS 1608 (Part 1):2022 are cited for supplementary technical specifications. Note that IS 280:2006 carries 2 amendment(s), the latest being Second Amendment of 2025.","seconds":3.34},"needs_questions":{"status":"need_more_info","query":"steel tubes steel material","requirement":{"product":"steel tubes","category":"steel_tubes","attributes":{"material":"steel"},"cited_standards":[],"not_specified":["type","application"],"language":"en","source":"product_name","richness":"name_only","extracted_by":"llm+rules"},"questions":[{"field":"type","ask":"Seamless, electric resistance welded, or galvanized?"},{"field":"application","ask":"Structural use, or conveying water or gas?"}],"confidence":0.449,"band":"low","confidence_drivers":["matched on the catalogue title of IS 1239 (Part 1):2004; we hold no text for it, so no clause can be quoted","the matched clause of IS 1239 (Part 1):2004 matches the description closely","another standard scores almost as highly","missing from the description: type, application"],"primary":"IS 1239 (Part 1):2004","primary_title":"Steel tubes, tubulars and other wrought steel fittings - Specification: Part 1 steel tubes (Sixth Revision)","primary_as_cited":"IS 1239 (Part 1):2004 (as amended; Sixth Amendment, 2021)","amendments":[{"number":"First Amendment","year":"2005","file":"1239_1A1"},{"number":"Second Amendment","year":"2007","file":"1239_1A2"},{"number":"Third Amendment","year":"2008","file":"1239_1A3"},{"number":"Fourth Amendment","year":"2010","file":"1239_1A4"},{"number":"Fifth Amendment","year":"2017","file":"1239_1A5"},{"number":"Sixth Amendment","year":"2021","file":"1239_1A6"}],"options":[{"id":"A","label":"Mandatory only","confidence":0.449,"band":"low","standards":["IS 1239 (Part 1):2004"],"default":false,"rationale":"The product standard alone. Use for low-value purchases."},{"id":"B","label":"Recommended","confidence":0.449,"band":"low","standards":["IS 1239 (Part 1):2004","IS 1387:1993","IS 228 (Part 1):2025","IS 1608 (Part 1):2022","IS 2328:2018","IS 17570 (Part 3):2021","IS 1828 (Part 1):2022"],"default":true,"rationale":"The product standard with its normative references, test methods and terminology. This is what a complete tender normally cites."},{"id":"C","label":"Comprehensive","confidence":0.449,"band":"low","standards":["IS 1239 (Part 1):2004","IS 1387:1993","IS 228 (Part 1):2025","IS 1608 (Part 1):2022","IS 2328:2018","IS 17570 (Part 3):2021","IS 1828 (Part 1):2022","IS 6226 (Part 1):2025","IS 2:1960","IS 2:2022","IS 8999:2003","IS 554:1999","IS 264:2005"],"default":false,"rationale":"Adds installation and related product standards, for high-value or high-risk work."}],"allied":{"normative_reference":[{"is_number":"IS 1387:1993","title":"General requirements for the supply of metallurgical materials (Second Revision)","relation":"normative_reference","weight":1.0,"superseded":false},{"is_number":"IS 228 (Part 1):2025","title":"Methods for Chemical Analysis of Steels Part 1 Determination of Carbon by Volumetric Method (For Carbon 0.05 to 2.50 Percent) (Fourth Revision)","relation":"normative_reference","weight":1.0,"superseded":true}],"test_method":[{"is_number":"IS 1608 (Part 1):2022","title":"Metallic materials - Tensile testing - Part 1 : Method of test at room temperature ( Fifth Revision)","relation":"test_method","weight":0.95,"superseded":true},{"is_number":"IS 2328:2018","title":"Metallic materials - Tube - Flattening test (Third Revision)","relation":"test_method","weight":0.95,"superseded":false},{"is_number":"IS 17570 (Part 3):2021","title":"Air Filters for general ventilation Part 3 Determination of the gravimetric efficiency and the air flow resistance versus the mass of test dust captured","relation":"test_method","weight":0.451,"superseded":false},{"is_number":"IS 1828 (Part 1):2022","title":"METALLIC MATERIALS - CALIBRATION AND VERIFICATION OF STATIC UNIAXIAL TESTING MACHINES - PART 1: TENSION/COMPRESSION TESTING MACHINES - CALIBRATION AND VERIFICATION OF THE FORCE-MEASURING SYSTEM","relation":"test_method","weight":0.451,"superseded":true}],"installation":[{"is_number":"IS 6226 (Part 1):2025","title":"Recommendations of Apparatus for Chemical Analysis of Metals Part 1 Apparatus for Determination of Carbon by Direct Combustion (Second Revision)","relation":"installation","weight":0.35,"superseded":true},{"is_number":"IS 2:1960","title":"Rules for Rounding off Numerical Values (Withdrawn)","relation":"installation","weight":0.21,"superseded":true},{"is_number":"IS 2:2022","title":"RULES FOR ROUNDING OFF NUMERICAL VALUES (Second Revision)","relation":"installation","weight":0.21,"superseded":false},{"is_number":"IS 8999:2003","title":"Pipe threads where pressure - Tight joints are made on the threads - Verification by means of limit gauges (First Revision)","relation":"installation","weight":0.21,"superseded":false}],"related_product":[{"is_number":"IS 554:1999","title":"Pipe threads where pressure - Tight joints are made on the threads - Dimensions, tolerances and designation (Fourth Revision)","relation":"related_product","weight":0.6,"superseded":false},{"is_number":"IS 264:2005","title":"Nitric acid - Specification (Third Revision)","relation":"related_product","weight":0.3,"superseded":false},{"is_number":"IS/IEC 60603-4:1987","title":"Connectors for frequencies below 3 MHz for use with printed boards Part 4: Two-part connectors for printed boards having contacts spaced at 1.91 mm ( 0.075 in )centres and staggered terminations at that same spacing","relation":"related_product","weight":0.3,"superseded":false}]},"warnings":[{"severity":"low","cited":"IS 1239 (Part 1):2004","message":"IS 1239 (Part 1):2004 carries 6 amendment(s), the latest being Sixth Amendment of 2021.","action":"Cite the standard as amended."}],"verdicts":[{"citation":"IS 1239 (Part 1):2004","exists":true,"status":"current","relevant":true,"relevance_score":null,"verdict":"add","replacement":null,"reason":"Recommended for this product but not cited in the tender.","severity":"medium","title":"Steel tubes, tubulars and other wrought steel fittings - Specification: Part 1 steel tubes (Sixth Revision)"}],"certification":{"certification_required":true,"persona":"procurement","statement":"Compulsory BIS certification applies to IS 1239 (Part 1):2004. Bidders must hold a valid licence under BIS Product Certification (ISI mark), and this should be stated as an eligibility condition. The Quality Control Order has been in force since 1978-08-01. 21 BIS-recognised laboratories can carry out the testing.","labs_available":21,"nearest_labs":[{"name":"BIS, Patna Branch Laboratory (PBL)","city":"Patna","state":"Bihar"},{"name":"QUALITY INTERNATIONAL RESEARCH & LABORATORIES PRIVATE LIMITED","city":"RAIPUR","state":"Chhattisgarh"},{"name":"MATERIAL TESTING LABORATORY LLP","city":"DELHI","state":"Delhi"},{"name":"DELHI TEST HOUSE, Azadhpur","city":"Delhi","state":"Delhi"}],"not_stated":["IS 1387:1993","IS 228 (Part 1):2025","IS 1608 (Part 1):2022"],"standards":[{"is_number":"IS 1239 (Part 1):2004","scheme":"BIS Product Certification (ISI mark)","qco_date":"1978-08-01","in_force":true,"labs_available":21,"mandatory":true,"stated":true},{"is_number":"IS 1387:1993","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false},{"is_number":"IS 228 (Part 1):2025","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false},{"is_number":"IS 1608 (Part 1):2022","scheme":null,"qco_date":null,"in_force":null,"labs_available":0,"mandatory":false,"stated":false}]},"evidence":[],"explanation":"The tender requirements for steel tubes are governed by the primary standard IS 1239 (Part 1):2004, which specifies steel tubes. The allied standards IS 1387:1993, IS 228 (Part 1):2025, IS 1608 (Part 1):2022, IS 2328:2018, IS 17570 (Part 3):2021, and IS 1828 (Part 1):2022 are cited to supplement this core specification. Please note that IS 1239 (Part 1):2004 carries 6 amendment(s), the latest being Sixth Amendment of 2021.","seconds":3.72}};
+var API = 'http://localhost:8000';
+
+/* ───────────────────────── state ───────────────────────── */
+var S = {
+  persona: new URLSearchParams(location.search).get('persona') === 'manufacturer'
+             ? 'manufacturer' : 'procurement',
+  source: 'fixtures',      // live | fixtures — flips to fixtures if the API is unreachable
+  liveOK: null,
+  text: '',
+  file: null,
+  answers: {},
+  data: null,
+  depth: 'B',
+  t0: 0,
+  timer: null
+};
+
+var EXAMPLES = {
+  procurement: [
+    ['Steel tubes tender', 'Supply of 200 MT structural steel tubes YSt 240, 50 NB medium class, for pipe truss of industrial shed, as per IS 1161:1998 and IS 2062:2011'],
+    ['Cement tender', 'Supply of 500 MT of 43 grade ordinary Portland cement for RCC structural work, as per IS 8112:1989'],
+    ['Bare product name', 'steel tubes']
+  ],
+  manufacturer: [
+    ['Mild steel wire', 'Mild steel wire, 4 mm diameter, annealed, for general engineering fabrication'],
+    ['ERW steel tubes', 'We manufacture electric resistance welded steel tubes for structural use, 50 NB, YSt 240'],
+    ['Bare product name', 'steel tubes']
+  ]
+};
+
+var ROLE_WORD = {
+  primary:'primary', normative_reference:'normative', test_method:'test method',
+  terminology:'terminology', installation:'installation', related_product:'related product',
+  safety:'safety', same_family_part:'same family'
+};
+var BAND_WORD = { high:'High confidence', medium:'Medium confidence', low:'Low confidence' };
+
+/* A score of 0.998 rounded to two places reads 1.00, and nothing in this system
+   is certain. Above 0.995 the third decimal is shown instead, so the number
+   stays honest rather than becoming a claim of perfection. */
+function confText(v){
+  v = Number(v || 0);
+  return v >= 0.995 ? Math.min(v, 0.999).toFixed(3) : v.toFixed(2);
+}
+function confWidth(v){ return Math.min(Math.round(Number(v || 0) * 100), 99); }
+
+/* ───────────────────────── helpers ───────────────────────── */
+function $(id){ return document.getElementById(id); }
+function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
+                 .replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function show(id){
+  document.querySelectorAll('.view').forEach(function(v){ v.classList.toggle('on', v.id===id); });
+  window.scrollTo({ top:0, behavior: reduced() ? 'auto' : 'smooth' });
+}
+function reduced(){ return matchMedia('(prefers-reduced-motion: reduce)').matches; }
+
+/* ───────────────────────── intake ───────────────────────── */
+function paintExamples(){
+  var wrap = $('examples');
+  wrap.innerHTML = '';
+  EXAMPLES[S.persona].forEach(function(pair){
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'chip'; b.textContent = pair[0];
+    b.addEventListener('click', function(){ $('q').value = pair[1]; resize(); $('q').focus(); });
+    wrap.appendChild(b);
+  });
+  $('i-hint').textContent = S.persona === 'manufacturer'
+    ? 'Describe the product you make. Paste a specification, or drop a datasheet.'
+    : 'Paste a specification, drop a tender PDF or a screenshot, or type the product.';
+}
+
+function resize(){
+  var t = $('q');
+  t.style.height = 'auto';
+  t.style.height = Math.min(t.scrollHeight, 176) + 'px';
+  $('go').disabled = !t.value.trim();
+}
+
+function setNote(msg, bad){
+  var n = $('i-note');
+  n.hidden = !msg;
+  n.textContent = msg || '';
+  n.className = 'note' + (bad ? ' bad' : '');
+}
+
+var OK_EXT = ['.pdf','.docx','.txt','.md','.png','.jpg','.jpeg','.webp'];
+var MAX = 25 * 1024 * 1024;
+
+function takeFile(f){
+  if (!f) return;
+  var dot = f.name.lastIndexOf('.');
+  var ext = dot < 0 ? '' : f.name.slice(dot).toLowerCase();
+  if (OK_EXT.indexOf(ext) < 0){
+    setNote('“' + f.name + '” is a ' + (ext || 'file with no extension') +
+            '. Supported: PDF, DOCX, TXT, MD, PNG, JPG, WEBP.', true);
+    return;
+  }
+  if (f.size > MAX){
+    setNote('“' + f.name + '” is ' + (f.size/1048576).toFixed(1) +
+            ' MB. The limit is 25 MB — send just the specification pages.', true);
+    return;
+  }
+  S.file = f;
+  setNote('Attached ' + f.name + ' (' + (f.size/1024).toFixed(0) + ' KB).', false);
+  $('go').disabled = false;
+}
+
+/* ───────────────────────── the request ───────────────────────── */
+var STEP_AT = [0, 320, 900, 1500];
+
+function runSteps(){
+  var items = $('steps').children;
+  for (var i=0;i<items.length;i++) items[i].dataset.state = 'wait';
+  STEP_AT.forEach(function(ms, i){
+    setTimeout(function(){
+      if (!$('v-working').classList.contains('on')) return;
+      if (i>0) items[i-1].dataset.state = 'done';
+      items[i].dataset.state = 'run';
+    }, ms);
+  });
+  S.t0 = Date.now();
+  clearInterval(S.timer);
+  S.timer = setInterval(function(){
+    $('elapsed').textContent = ((Date.now()-S.t0)/1000).toFixed(1) + ' s elapsed';
+  }, 100);
+}
+
+function stopSteps(){
+  clearInterval(S.timer);
+  var items = $('steps').children;
+  for (var i=0;i<items.length;i++) items[i].dataset.state = 'done';
+}
+
+function chooseFixture(){
+  if (Object.keys(S.answers).length) return FIXTURES.answered;
+  var t = (S.text || '').toLowerCase();
+  if (S.persona === 'manufacturer' && /wire|annealed/.test(t)) return FIXTURES.manufacturer;
+  if (/cement|portland|opc|concrete/.test(t)) return FIXTURES.cement_low_confidence;
+  if (t.trim().split(/\s+/).length <= 3) return FIXTURES.needs_questions;
+  if (S.persona === 'manufacturer') return FIXTURES.manufacturer;
+  return FIXTURES.complete_tubes;
+}
+
+function analyze(){
+  show('v-working');
+  runSteps();
+  var started = Date.now();
+
+  function settle(data, viaFixture){
+    var wait = Math.max(0, 1700 - (Date.now()-started));   // let the steps be readable
+    setTimeout(function(){
+      stopSteps();
+      S.data = data;
+      if (viaFixture && S.liveOK === false)
+        setNote('The API at ' + API + ' is unreachable, so these are saved fixtures.', false);
+      route(data);
+    }, wait);
+  }
+
+  if (S.source === 'fixtures'){ settle(chooseFixture(), true); return; }
+
+  var req, url = API + '/v1/analyze';
+  if (S.file){
+    url = API + '/v1/analyze/upload';
+    var fd = new FormData();
+    fd.append('file', S.file); fd.append('persona', S.persona);
+    req = fetch(url, { method:'POST', body:fd });
+  } else {
+    req = fetch(url, {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ text:S.text, persona:S.persona, lang:'auto',
+                             output_mode:'annexure', answers:S.answers })
+    });
+  }
+  req.then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+     .then(function(d){ S.liveOK = true; setSource('live'); settle(d, false); })
+     .catch(function(){
+        S.liveOK = false; setSource('fixtures');
+        settle(chooseFixture(), true);
+     });
+}
+
+function route(d){
+  if (!d) return fail('Nothing came back', 'The request returned no data. Try again.');
+  if (d.status === 'need_more_info' && (d.questions||[]).length) return askQuestion(d);
+  if (d.status === 'no_match' || !d.primary){
+    return fail('No standard matched',
+      'No Indian Standard in the indexed corpus matches this closely enough to recommend. ' +
+      'The catalogue may still hold one — its text has not been ingested. Adding the material, ' +
+      'the grade and the application usually resolves it.');
+  }
+  paintFindings(d);
+}
+
+function fail(k, body){
+  $('n-k').textContent = k === 'No standard matched' ? 'No match' : 'Problem';
+  $('n-h').textContent = k;
+  $('n-b').textContent = body;
+  show('v-empty');
+}
+
+/* ───────────────────────── question ───────────────────────── */
+var SUGGEST = {
+  type:['Seamless','Electric resistance welded','Galvanized'],
+  application:['Structural use','Conveying water','Conveying gas'],
+  grade:['33','43','53'],
+  material:['HDPE','uPVC','CPVC','Ductile iron'],
+  product_form:['Plate','Section','Hollow section'],
+  coating:['Galvanized','Cold rolled','Hot rolled'],
+  nominal_size:['10 mm','20 mm','40 mm'],
+  diameter:['4 mm','8 mm','12 mm'],
+  thickness:['2 mm','4 mm','6 mm'],
+  pressure_class:['PN 6','PN 10','PN 16']
+};
+
+function askQuestion(d){
+  var q = d.questions.filter(function(x){ return !S.answers[x.field]; })[0] || d.questions[0];
+  $('a-h').textContent = q.ask;
+  $('a-conf').textContent = 'Confidence is ' + confText(d.confidence) +
+                            ' without it' + (d.band ? ' (' + d.band + ' band)' : '') + '.';
+  var wrap = $('answers');
+  wrap.innerHTML = '';
+  (SUGGEST[q.field] || []).forEach(function(v){
+    var b = document.createElement('button');
+    b.type='button'; b.className='chip big'; b.textContent = v;
+    b.addEventListener('click', function(){
+      b.dataset.picked = 'true';
+      S.answers[q.field] = v;
+      setTimeout(analyze, reduced() ? 0 : 140);
+    });
+    wrap.appendChild(b);
+  });
+  var skip = document.createElement('button');
+  skip.type='button'; skip.className='chip'; skip.textContent = 'Answer anyway without this';
+  skip.addEventListener('click', function(){
+    S.answers[q.field] = 'not specified';
+    analyze();
+  });
+  wrap.appendChild(skip);
+  show('v-ask');
+}
+
+/* ───────────────────────── findings ───────────────────────── */
+function highlight(quote, query){
+  var words = (query||'').toLowerCase().match(/[a-z]{4,}/g) || [];
+  var seen = {}, keep = [];
+  words.forEach(function(w){ if(!seen[w]){ seen[w]=1; keep.push(w); } });
+  if (!keep.length) return esc(quote);
+  var re = new RegExp('\\b(' + keep.map(function(w){
+    return w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }).join('|') + ')\\b','gi');
+  return esc(quote).replace(re, '<mark>$1</mark>');
+}
+
+function alliedIndex(d){
+  var by = {};
+  Object.keys(d.allied||{}).forEach(function(rel){
+    (d.allied[rel]||[]).forEach(function(a){ by[a.is_number] = { role:rel, title:a.title||'' }; });
+  });
+  return by;
+}
+
+function paintFindings(d){
+  var by = alliedIndex(d);
+  var band = d.band || 'low';
+  var conf = Number(d.confidence || 0);
+  var opts = d.options || [];
+  var chosen = (opts.filter(function(o){return o.default;})[0] || opts[0] || {id:'B'}).id;
+  S.depth = chosen;
+
+  var h = [];
+
+  /* a — the standard */
+  h.push('<div class="panel band-'+esc(band)+'"><span class="lbl">Recommended standard</span>' +
+    '<h2 class="hero-no" id="f-h">'+esc(d.primary_as_cited || d.primary)+'</h2>' +
+    '<p class="hero-title">'+esc(d.primary_title||'')+'</p>' +
+    '<div class="conf"><div class="row"><span class="word">'+esc(BAND_WORD[band]||band)+'</span>' +
+    '<span class="num">'+confText(conf)+'</span></div>' +
+    '<div class="track"><div class="fill" data-w="'+confWidth(conf)+'"></div></div></div>');
+  if ((d.confidence_drivers||[]).length){
+    h.push('<ul class="drivers">'+d.confidence_drivers.map(function(x){
+      return '<li>'+esc(x)+'</li>'; }).join('')+'</ul>');
+  }
+  h.push('</div>');
+
+  /* b — evidence */
+  var ev = (d.evidence||[])[0];
+  h.push('<div class="panel"><span class="lbl">Evidence</span>');
+  if (ev && ev.quote){
+    h.push('<p class="lbl-2">'+esc(ev.standard)+' · clause '+esc(ev.clause)+' · '+esc(ev.role)+
+           (ev.page ? ' · page '+esc(ev.page) : '')+'</p>' +
+           '<blockquote class="quote">'+highlight(ev.quote, d.query || S.text)+'…</blockquote>');
+  } else {
+    h.push('<p class="explain" style="margin-top:0">This standard was matched on its catalogue ' +
+           'entry. No clause text is held for it, so there is nothing to quote — which is why the ' +
+           'confidence above is capped below the high band.</p>');
+  }
+  if (d.explanation) h.push('<p class="explain">'+esc(d.explanation)+'</p>');
+  h.push('</div>');
+
+  /* c + d — depth and the standards */
+  if (opts.length){
+    h.push('<div class="panel"><span class="lbl">Standards to cite</span>' +
+      '<div class="depths" id="depths" role="group" aria-label="Citation depth">' +
+      '<div class="slide" id="slide"></div>' +
+      opts.map(function(o){
+        return '<button type="button" data-id="'+esc(o.id)+'" aria-pressed="'+(o.id===chosen)+'">' +
+               esc(o.label)+' · '+o.standards.length+'</button>'; }).join('') +
+      '</div><p class="same">All three name the same primary standard. The control changes only ' +
+      'how many allied standards travel with it.</p>' +
+      '<p class="same" id="rationale"></p><div class="rows" id="cite"></div></div>');
+  }
+
+  /* e — citations reviewed */
+  if ((d.verdicts||[]).length){
+    h.push('<div class="panel"><span class="lbl">Your citations, reviewed</span>' +
+      d.verdicts.map(function(v){
+        var sev = 'sev-'+(v.severity||'low');
+        var head = '<span class="act '+sev+'">'+esc(v.verdict)+'</span>';
+        if (v.replacement){
+          head += '<span class="old">'+esc(v.citation)+'</span><span class="arrow">→</span>' +
+                  '<span class="new">'+esc(v.replacement)+'</span>';
+        } else {
+          head += '<span class="new">'+esc(v.citation)+'</span>';
+        }
+        return '<div class="verdict"><div class="head">'+head+'</div>' +
+               '<p class="why">'+esc(v.reason)+'</p></div>';
+      }).join('') + '</div>');
+  }
+
+  /* f — certification */
+  var c = d.certification;
+  if (c){
+    var first = (c.standards||[])[0] || {};
+    h.push('<div class="panel"><span class="lbl">Certification</span><div class="cert">' +
+      '<p class="explain" style="margin-top:0">'+esc(c.statement)+'</p>' +
+      '<div class="certgrid">' +
+        '<div class="stat"><div class="v">'+esc(first.scheme ? (/CRS/i.test(first.scheme)?'CRS':'ISI') : '—')+
+          '</div><div class="k lbl">Scheme</div></div>' +
+        '<div class="stat"><div class="v">'+esc(first.qco_date || '—')+
+          '</div><div class="k lbl">QCO in force</div></div>' +
+        '<div class="stat"><div class="v">'+(c.labs_available||0)+
+          '</div><div class="k lbl">Recognised labs</div></div>' +
+      '</div>' +
+      ((c.nearest_labs||[]).length ? '<div><p class="lbl" style="margin-bottom:.5rem">Nearest</p>' +
+        '<ul class="labs">'+c.nearest_labs.map(function(l){
+          return '<li>'+esc(l.name)+' <span class="city">· '+esc(l.city)+', '+esc(l.state)+'</span></li>';
+        }).join('')+'</ul></div>' : '') +
+      ((c.not_stated||[]).length ? '<p class="why" style="color:var(--dim);font-size:.8125rem">' +
+        'BIS states nothing about compulsory certification for '+esc(c.not_stated.join(', '))+
+        '. That is not a statement that certification is unnecessary.</p>' : '') +
+      '</div></div>');
+  }
+
+  /* g — warnings by severity */
+  var w = (d.warnings||[]).slice();
+  if (w.length){
+    var order = {high:0, medium:1, low:2}, seen = {};
+    w = w.filter(function(x){ if(seen[x.message]) return false; seen[x.message]=1; return true; })
+         .sort(function(a,b){ return (order[a.severity]||3)-(order[b.severity]||3); });
+    h.push('<div class="panel"><span class="lbl">Version and amendment warnings</span><div class="warn">' +
+      w.map(function(x){
+        return '<div class="w"><span class="lv sev-'+esc(x.severity)+'">'+esc(x.severity)+'</span>' +
+               '<span class="msg">'+esc(x.message)+(x.action?' '+esc(x.action):'')+'</span></div>';
+      }).join('') + '</div></div>');
+  }
+
+  /* h — the action */
+  h.push('<div class="dock"><div class="in">' +
+    '<button type="button" class="btn primary" id="dl">Download annexure</button>' +
+    '<button type="button" class="btn" id="restart">Start another</button>' +
+    '<span class="lbl" id="dlnote"></span></div></div>');
+
+  $('v-found').innerHTML = h.join('');
+  show('v-found');
+
+  requestAnimationFrame(function(){
+    var f = $('v-found').querySelector('.fill');
+    if (f) f.style.width = f.dataset.w + '%';
+  });
+
+  if (opts.length) wireDepth(d, by, chosen);
+  $('dl').addEventListener('click', download);
+  $('restart').addEventListener('click', restart);
+}
+
+function wireDepth(d, by, chosen){
+  var bar = $('depths'), slide = $('slide');
+  var buttons = [].slice.call(bar.querySelectorAll('button'));
+
+  function place(id){
+    var b = buttons.filter(function(x){ return x.dataset.id === id; })[0];
+    if (!b) return;
+    slide.style.width = b.offsetWidth + 'px';
+    slide.style.transform = 'translateX(' + (b.offsetLeft - 3) + 'px)';
+  }
+
+  function paint(id){
+    var o = (d.options||[]).filter(function(x){ return x.id === id; })[0];
+    if (!o) return;
+    S.depth = id;
+    buttons.forEach(function(b){ b.setAttribute('aria-pressed', String(b.dataset.id === id)); });
+    place(id);
+    $('rationale').textContent = o.rationale || '';
+    $('cite').innerHTML = o.standards.map(function(n){
+      var meta = n === d.primary ? { role:'primary', title:d.primary_title } : (by[n] || { role:'', title:'' });
+      return '<button type="button" class="srow" data-role="'+esc(meta.role)+'" data-is="'+esc(n)+'">' +
+             '<span class="no">'+esc(n)+'</span>' +
+             '<span class="ti">'+esc(meta.title||'')+'</span>' +
+             '<span class="tag">'+esc(ROLE_WORD[meta.role]||meta.role||'')+'</span></button>';
+    }).join('');
+    $('cite').querySelectorAll('.srow').forEach(function(r){
+      r.addEventListener('click', function(){ openSheet(r.dataset.is, d, by); });
+    });
+  }
+
+  buttons.forEach(function(b){
+    b.addEventListener('click', function(){ paint(b.dataset.id); });
+  });
+  paint(chosen);
+  window.addEventListener('resize', function(){ place(S.depth); });
+}
+
+/* ───────────────────────── detail sheet ───────────────────────── */
+var lastFocus = null;
+
+function openSheet(isNumber, d, by){
+  var meta = isNumber === d.primary ? { role:'primary', title:d.primary_title } : (by[isNumber]||{});
+  var amend = isNumber === d.primary ? (d.amendments||[]) : [];
+  var c = d.certification || {};
+  var cs = (c.standards||[]).filter(function(s){ return s.is_number === isNumber; })[0];
+
+  var h = ['<div class="top"><div><h3 id="sheet-h">'+esc(isNumber)+'</h3>' +
+           '<p class="sub">'+esc(meta.title||'—')+'</p></div>' +
+           '<button type="button" class="icon x" id="closeSheet" aria-label="Close">' +
+           '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>'];
+
+  h.push('<section><p class="lbl">Role in this recommendation</p>' +
+         '<p class="sub">'+esc(ROLE_WORD[meta.role]||meta.role||'allied standard')+'</p></section>');
+
+  h.push('<section><p class="lbl">Amendments in force</p>');
+  if (amend.length){
+    h.push('<ul class="bare">'+amend.map(function(a){
+      return '<li>'+esc((a.number||'').trim())+' ('+esc(a.year||'')+')</li>'; }).join('')+'</ul>');
+    h.push('<p class="sub" style="font-size:.8125rem;color:var(--dim)">An amendment modifies a ' +
+           'standard without replacing it, so the edition year does not change. Cite it as amended.</p>');
+  } else {
+    h.push('<p class="sub">None recorded against this standard.</p>');
+  }
+  h.push('</section>');
+
+  var groups = Object.keys(d.allied||{});
+  if (isNumber === d.primary && groups.length){
+    h.push('<section><p class="lbl">Allied standards, by role</p>');
+    groups.forEach(function(rel){
+      h.push('<p class="lbl-2" style="margin-top:.75rem">'+esc(ROLE_WORD[rel]||rel)+'</p>' +
+             '<ul class="bare">'+(d.allied[rel]||[]).map(function(a){
+               return '<li><span class="mono">'+esc(a.is_number)+'</span> — '+esc(a.title||'—')+'</li>';
+             }).join('')+'</ul>');
+    });
+    h.push('</section>');
+  }
+
+  if (cs || (isNumber === d.primary && (c.nearest_labs||[]).length)){
+    h.push('<section><p class="lbl">Testing laboratories</p>' +
+      '<p class="sub">'+ (cs && cs.labs_available ? cs.labs_available + ' BIS-recognised laboratories'
+                                                  : (c.labs_available||0) + ' BIS-recognised laboratories') +
+      (cs && cs.qco_date ? ' · QCO in force from ' + esc(cs.qco_date) : '') + '</p>' +
+      '<ul class="bare">'+(c.nearest_labs||[]).map(function(l){
+        return '<li>'+esc(l.name)+' · '+esc(l.city)+', '+esc(l.state)+'</li>'; }).join('')+'</ul></section>');
+  }
+
+  h.push('<section><a class="ext" target="_blank" rel="noopener noreferrer" ' +
+    'href="https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails">' +
+    'Look this up on the BIS portal' +
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>' +
+    '<p class="sub" style="font-size:.75rem;color:var(--dim);margin-top:.5rem">Copyright in every ' +
+    'Indian Standard vests in BIS. Extracts here are short quotations for identification only.</p></section>');
+
+  $('sheet').innerHTML = h.join('');
+  lastFocus = document.activeElement;
+  $('scrim').hidden = false;
+  $('scrim').classList.add('on');
+  $('closeSheet').focus();
+  $('closeSheet').addEventListener('click', closeSheet);
+}
+
+function closeSheet(){
+  $('scrim').classList.remove('on');
+  $('scrim').hidden = true;
+  if (lastFocus) lastFocus.focus();
+}
+
+$('scrim').addEventListener('click', function(e){ if (e.target === $('scrim')) closeSheet(); });
+document.addEventListener('keydown', function(e){
+  if (e.key === 'Escape' && $('scrim').classList.contains('on')) closeSheet();
+});
+
+/* ───────────────────────── document ───────────────────────── */
+function download(){
+  var b = $('dl'), note = $('dlnote');
+  if (S.liveOK !== true){
+    b.disabled = true;
+    note.textContent = 'Needs the analysis service running on ' + API;
+    return;
+  }
+  b.disabled = true; b.textContent = 'Preparing…';
+  fetch(API + '/v1/document', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ text:S.text, persona:S.persona, answers:S.answers,
+                           mode:'report', option_id:S.depth })
+  }).then(function(r){ if(!r.ok) throw new Error(r.status); return r.blob(); })
+    .then(function(blob){
+      var u = URL.createObjectURL(blob), a = document.createElement('a');
+      a.href = u; a.download = 'standards360_annexure.pdf'; a.click(); URL.revokeObjectURL(u);
+      b.disabled = false; b.textContent = 'Download annexure';
+    })
+    .catch(function(){ b.disabled=false; b.textContent='Download annexure';
+                       note.textContent='Could not generate the PDF — try again.'; });
+}
+
+function restart(){
+  S.text=''; S.file=null; S.answers={}; S.data=null;
+  $('q').value=''; resize(); setNote('');
+  show('v-intake');
+  $('q').focus();
+}
+
+/* ───────────────────────── wiring ───────────────────────── */
+function setSource(next){
+  S.source = next;
+  document.querySelectorAll('[data-src]').forEach(function(b){
+    b.setAttribute('aria-pressed', String(b.dataset.src === next));
+  });
+}
+function setPersona(next){
+  S.persona = next;
+  document.querySelectorAll('[data-persona]').forEach(function(b){
+    b.setAttribute('aria-pressed', String(b.dataset.persona === next));
+  });
+  paintExamples();
+}
+
+document.querySelectorAll('[data-persona]').forEach(function(b){
+  b.addEventListener('click', function(){ if (S.persona !== b.dataset.persona){ setPersona(b.dataset.persona); restart(); } });
+});
+document.querySelectorAll('[data-src]').forEach(function(b){
+  b.addEventListener('click', function(){ setSource(b.dataset.src); });
+});
+
+$('composer').addEventListener('submit', function(e){
+  e.preventDefault();
+  var t = $('q').value.trim();
+  if (!t && !S.file) return;
+  S.text = t || ($('i-note').textContent || 'attached document');
+  S.answers = {};
+  analyze();
+});
+$('q').addEventListener('input', resize);
+$('q').addEventListener('keydown', function(e){
+  if (e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); $('composer').requestSubmit(); }
+});
+$('attach').addEventListener('click', function(){ $('file').click(); });
+$('file').addEventListener('change', function(){ takeFile(this.files && this.files[0]); this.value=''; });
+$('n-back').addEventListener('click', restart);
+
+['dragenter','dragover'].forEach(function(ev){
+  $('composer').addEventListener(ev, function(e){ e.preventDefault(); $('composer').classList.add('drag'); });
+});
+['dragleave','drop'].forEach(function(ev){
+  $('composer').addEventListener(ev, function(e){ e.preventDefault(); $('composer').classList.remove('drag'); });
+});
+$('composer').addEventListener('drop', function(e){
+  takeFile(e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0]);
+});
+
+/* Probe the API once so the toggle reflects reality rather than a guess. */
+fetch(API + '/health', { method:'GET' })
+  .then(function(r){ return r.ok ? r.json() : Promise.reject(); })
+  .then(function(){ S.liveOK = true; setSource('live'); })
+  .catch(function(){ S.liveOK = false; setSource('fixtures'); });
+
+setPersona(S.persona);
+setSource('fixtures');
+resize();
+</script>
+</body>
+</html>

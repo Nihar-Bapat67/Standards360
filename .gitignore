@@ -8,3 +8,12 @@ catalogue/
 pylib/
 *.pdf
 *.db
+
+# Web interface build output and dependencies
+web/node_modules/
+web/dist/
+
+# Tooling and working material, not project source
+.claude/
+skills-lock.json
+Screenshots/

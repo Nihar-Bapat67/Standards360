@@ -29,7 +29,17 @@ from ingest.build_index import TITLES_FILE, load_index, load_model, tokenize  # 
 
 DEFAULT_RERANKER = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 RRF_K = 60          # the constant from the literature; not a tuning knob
-POOL = 25           # candidates per index, and the most the reranker ever sees
+# Candidates taken from each clause index before fusion.
+#
+# This was 25 while the clause index held 4,293 rows. Adding the BIS summaries took it to 4,856, and
+# a row that used to scrape into the top 25 stopped doing so: IS 8041:1990 is the right standard for
+# "quick setting high early strength cement", it ranked first before the corpus grew, and afterwards
+# it did not appear in the results at all — not demoted, simply never a candidate. The pool is a
+# recall budget and has to grow with the corpus, so it is set from the corpus rather than left as a
+# number that happened to work once.
+POOL = 50
+RERANK_POOL = 25    # the manual's cap: a cross-encoder must never see more than about 25 candidates
+TITLE_POOL = 25     # unchanged; the title index still covers the same 24,101 standards it always did
 QUOTE_CHARS = 300   # short extract only: BIS text is never redistributed in full
 # Measured on this laptop: reranking 25 candidates of 850 characters costs 2.7 s, the same 25
 # truncated to 400 characters costs 0.57 s, and the ranking does not change. A clause says what it
@@ -46,6 +56,46 @@ DROP_FIELDS = ("quantity", "delivery", "rate", "price")
 CITED_FROM_TOP = 3        # only the best clauses are trusted to name the authority
 CITED_RANK_PENALTY = 4    # a citation counts as a weaker vote than a clause or a title match
 CITED_LIMIT = 3
+
+# How much a title match counts for, against a clause or summary match at the same rank.
+#
+# Plain Reciprocal Rank Fusion gives both signals the same vote, and that is wrong here because the
+# two are not the same kind of evidence. A clause or a BIS summary is text out of the standard
+# itself; a title is only its name, which is why C5 already caps a title-only match below the high
+# band. Weighting the vote the same way makes the fusion agree with that judgement.
+#
+# The failure it fixes, from the gold set: for "cement based tile adhesive for fixing vitrified
+# tiles", IS 15477:2019 matched its own scope clause at 0.0333, the best score in the list, and
+# still came third — because IS 13801:2013 ("Chequered Cement Concrete Tiles") shares the words
+# "cement" and "tiles" with the query and collected a title vote worth as much as a clause.
+#
+# 0.5 is a judgement, not a tuned constant: a name is worth something and worth less than evidence.
+# It is deliberately not pushed lower. The title signal is what finds the 23,000-odd standards whose
+# text we do not hold, so suppressing it would flatter the gold set — where every answer now has
+# text — while making the engine worse on everything outside it.
+TITLE_WEIGHT = 0.5
+
+# Units and bare numbers are stripped before the title index is searched. A BIS title says what a
+# standard covers, never what quantity the tender wants, so a measurement in the query can only
+# match a title by accident — and it does. Measured on the 50 gold records, searching titles with
+# the raw query put the correct standard first 48% of the time; stripping these tokens raised it to
+# 52%, and top-5 from 78% to 82%. The failures it fixes are exactly the absurd ones: "whiteness not
+# less than 70 percent" matched a lifeboat standard for "less than 70 persons" and a sorbitol
+# solution "(70 Percent)" above the white cement standard we were looking for.
+# The clause index is left alone: there "43 grade" and "IP66" are real signal, which is why BM25 is
+# in the pipeline at all.
+MEASUREMENT_UNITS = {
+    "mm", "cm", "m", "km", "kg", "mt", "kgf", "cm2", "m2", "mm2", "gsm", "nb", "dn", "pn", "sdr",
+    "litre", "litres", "ltr", "percent", "pct", "mpa", "kn", "kv", "kw", "mtr", "inch", "dia",
+    "thick", "thickness", "no", "nos",
+}
+
+
+def title_query(query: str) -> str:
+    """The query with bare numbers and measurement units removed, for the title index only."""
+    kept = [t for t in tokenize(query)
+            if not t.replace(".", "").isdigit() and t not in MEASUREMENT_UNITS]
+    return " ".join(kept) or query
 
 
 class RetrievalEngine:
@@ -127,7 +177,7 @@ class RetrievalEngine:
         sparse = self._sparse(query)
         fused = self._fuse(dense, sparse)
 
-        rows = [row for row, _ in fused[:POOL]]
+        rows = [row for row, _ in fused[:RERANK_POOL]]
         scores = self._rerank(query, rows) if (rerank and rows) else None
         result = self._roll_up(query, fused, rows, scores, top_k)
         result.standards = self._merge_titles(query, result.standards, top_k)
@@ -213,6 +263,8 @@ class RetrievalEngine:
         mention the product, which is how "43 grade ordinary Portland cement" returned a flooring
         tile standard. A title match has no clause to quote, so it is marked `source="title"` and
         C5 treats it as weaker evidence.
+
+        The query is stripped of measurements first: see `title_query`.
         """
         import numpy as np
 
@@ -220,8 +272,8 @@ class RetrievalEngine:
         if not index:
             return standards
 
-        scores = index["bm25"].get_scores(tokenize(query))
-        order = [int(i) for i in np.argsort(scores)[::-1][:POOL] if scores[i] > 0]
+        scores = index["bm25"].get_scores(tokenize(title_query(query)))
+        order = [int(i) for i in np.argsort(scores)[::-1][:TITLE_POOL] if scores[i] > 0]
         if not order:
             return standards
 
@@ -238,7 +290,8 @@ class RetrievalEngine:
         title_rows = {}
         for rank, position in enumerate(order):
             row = index["rows"][position]
-            fused[row["is_number"]] = fused.get(row["is_number"], 0.0) + 1 / (RRF_K + rank)
+            fused[row["is_number"]] = (fused.get(row["is_number"], 0.0)
+                                       + TITLE_WEIGHT / (RRF_K + rank))
             title_rows.setdefault(row["is_number"], row)
 
         by_number = {s.is_number: s for s in standards}

@@ -100,7 +100,9 @@ def main() -> None:
                   f"edition year does not change; cite it as amended)")
         if recommendation.evidence:
             evidence = recommendation.evidence
-            print(f"evidence: clause {evidence.clause} ({evidence.role}), page {evidence.page_start}")
+            where = ("BIS one-page summary" if evidence.role == "summary"
+                     else f"clause {evidence.clause} ({evidence.role}), page {evidence.page_start}")
+            print(f"evidence: {where}")
             print(f"  “{' '.join(evidence.quote.split())[:160]}…”")
         else:
             print("evidence: matched on the catalogue entry; no clause text is held for it")

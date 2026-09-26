@@ -1,0 +1,999 @@
+{
+  "status": "complete",
+  "query": "Portland cement 43 grade RCC structural work",
+  "requirement": {
+    "product": "Portland cement",
+    "category": "cement",
+    "attributes": {
+      "quantity": "500 MT",
+      "grade": "43 grade",
+      "application": "RCC structural work",
+      "standard": "IS 8112:1989"
+    },
+    "cited_standards": [
+      "IS 8112:1989"
+    ],
+    "not_specified": [],
+    "language": "en",
+    "source": "text",
+    "richness": "spec_only",
+    "extracted_by": "llm+rules"
+  },
+  "questions": [],
+  "confidence": 0.756,
+  "band": "high",
+  "confidence_drivers": [
+    "only a weak match to IS 8043:1991",
+    "it is clearly ahead of the next candidate",
+    "every field this product category needs was given",
+    "the allied-standards map agrees with the search result"
+  ],
+  "primary": "IS 8043:2026",
+  "primary_title": "Hydrophobic Portland Cement Specification Third Revision of IS 8043",
+  "primary_as_cited": "IS 8043:2026",
+  "amendments": [],
+  "options": [
+    {
+      "id": "A",
+      "label": "Mandatory only",
+      "confidence": 0.756,
+      "band": "high",
+      "standards": [
+        "IS 8043:2026"
+      ],
+      "default": false,
+      "rationale": "The product standard alone. Use for low-value purchases."
+    },
+    {
+      "id": "B",
+      "label": "Recommended",
+      "confidence": 0.756,
+      "band": "high",
+      "standards": [
+        "IS 8043:2026",
+        "IS 11652:2017",
+        "IS 397 (Part 3):2019",
+        "IS 3535:1986",
+        "IS 4031 (Part 1):1996",
+        "IS 4031 (Part 10):1988",
+        "IS 4031 (Part 11):1988"
+      ],
+      "default": true,
+      "rationale": "The product standard with its normative references, test methods and terminology. This is what a complete tender normally cites."
+    },
+    {
+      "id": "C",
+      "label": "Comprehensive",
+      "confidence": 0.756,
+      "band": "high",
+      "standards": [
+        "IS 8043:2026",
+        "IS 11652:2017",
+        "IS 397 (Part 3):2019",
+        "IS 3535:1986",
+        "IS 4031 (Part 1):1996",
+        "IS 4031 (Part 10):1988",
+        "IS 4031 (Part 11):1988",
+        "IS 4031 (Part 12):1988",
+        "IS 4031 (Part 13):1988",
+        "IS 4905:2015",
+        "IS 4031 (Part 7):1988",
+        "IS 10528:1983",
+        "IS 1060 (Part 4/Sec 1):2025"
+      ],
+      "default": false,
+      "rationale": "Adds installation and related product standards, for high-value or high-risk work."
+    }
+  ],
+  "allied": {
+    "normative_reference": [
+      {
+        "is_number": "IS 11652:2017",
+        "cited_as": "IS 11652:2017",
+        "record_id": 2794,
+        "title": "Amendment no. 4 to IS 11652 : 2017 Textiles - High density polyethylene (HDPE)/ polypropylene (PP) woven sacks for packaging of 50 kg cement - Specification (third revision)",
+        "relation": "normative_reference",
+        "weight": 1.0,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 11652:2017"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 397 (Part 3):2019",
+        "cited_as": "IS 397 (Part 2):2003",
+        "record_id": 10563,
+        "title": "Methods for Statistical Quality Control during Production Part 3 Specialized Control Charts ( Second Revision )",
+        "relation": "normative_reference",
+        "weight": 0.475,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 3535:1986 -> IS 397 (Part 3):2019"
+        ],
+        "evidence": null,
+        "superseded": true
+      }
+    ],
+    "test_method": [
+      {
+        "is_number": "IS 3535:1986",
+        "cited_as": "IS 3535:1986",
+        "record_id": 10113,
+        "title": "Methods of Sampling Hydraulic Cement (First revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 3535:1986"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4031 (Part 1):1996",
+        "cited_as": "IS 4031 (Part 1):1996",
+        "record_id": 10662,
+        "title": "Methods of Physical Tests for Hydraulic Cement: Part 1 Determination of Fineness by Dry Sieving (Second Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 1):1996"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4031 (Part 10):1988",
+        "cited_as": "IS 4031 (Part 10):1988",
+        "record_id": 358,
+        "title": "Methods of Physical Tests for Hydraulic Cement: Part 10 Determination of Drying Shrinkage (First Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 10):1988"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4031 (Part 11):1988",
+        "cited_as": "IS 4031 (Part 11):1988",
+        "record_id": 10663,
+        "title": "Methods of Physical Tests for Hydraulic Cement: Part 11 Determination of Density (First Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 11):1988"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4031 (Part 12):1988",
+        "cited_as": "IS 4031 (Part 12):1988",
+        "record_id": 10664,
+        "title": "Methods of Physical Tests for Hydraulic Cement: Part 12 Determination of Air Content of Hydraulic Cement Mortar (First Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 12):1988"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4031 (Part 13):1988",
+        "cited_as": "IS 4031 (Part 13):1988",
+        "record_id": 359,
+        "title": "Methods of Physical Tests for Hydraulic Cement - Part 13 : Measurement of Water Retentivity of Masonry Cement (First Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 13):1988"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4905:2015",
+        "cited_as": "IS 4905:2015",
+        "record_id": 11627,
+        "title": "Random sampling and randomization procedures (First Revision)",
+        "relation": "test_method",
+        "weight": 0.95,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 4905:2015"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4031 (Part 7):1988",
+        "cited_as": "IS 4031 (Part 7):1988",
+        "record_id": 256,
+        "title": "Methods of Physical Tests for Hydraulic Cement: Part 7 Determination of Compressive Strength of Masonry Cement (First Revision)",
+        "relation": "test_method",
+        "weight": 0.451,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 10):1988 -> IS 4031 (Part 7):1988"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 10528:1983",
+        "cited_as": "IS 10528:1983",
+        "record_id": 1362,
+        "title": "Method of sampling empty paper sacks for testing",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11761:2024 -> IS 10528:1983"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1060 (Part 4/Sec 1):2025",
+        "cited_as": "IS 1060 (Part 4/Sec 1):2014",
+        "record_id": 33015,
+        "title": "Methods of Sampling and Test for Paper and Allied Products Part 4 Methods of Test for Paper, Board and Pulp Section 1 Standard atmosphere for conditioning and testing and procedure for monitoring the atmosphere and conditioning of samples ( First Revision )",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11761:2024 -> IS 1060 (Part 4/Sec 1):2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 1060 (Part 5/Sec 14):2014",
+        "cited_as": "IS 1060 (Part 5/Sec 14):2014",
+        "record_id": 22018,
+        "title": "Methods of sampling and test for paper and allied products: Part 5 methods of test for paper and board: Sec 14 determination of air permeance and air resistance (Medium Range) - Gurley method",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11761:2024 -> IS 1060 (Part 5/Sec 14):2014"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1060 (Part 5/Sec 6):2014",
+        "cited_as": "IS 1060 (Part 5/Sec 6):2014",
+        "record_id": 22007,
+        "title": "Methods of sampling and test for paper and allied products: Part 5 methods of test for paper and board: Sec 6 determination of tensile properties - Constant rate of elongation method (20 Mm/min)",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11761:2024 -> IS 1060 (Part 5/Sec 6):2014"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1060 (Part 6/Sec 1):2014",
+        "cited_as": "IS 1060 (Part 6/Sec 1):2014",
+        "record_id": 22017,
+        "title": "Methods of sampling and test for paper and allied products: Part 6 methods of test for paper: Sec 1 determination of tearing resistance - Elmendorf method",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11761:2024 -> IS 1060 (Part 6/Sec 1):2014"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 11052:2023",
+        "cited_as": "IS 11052:1984",
+        "record_id": 28237,
+        "title": "METHODS OF DROP TEST FOR SHIPPING PAPER SACKS",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11761:2024 -> IS 11052:2023"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 1963:2025",
+        "cited_as": "IS 1963:1981",
+        "record_id": 33754,
+        "title": "TEXTILES - WOVEN FABRICS - DETERMINATION OF NUMBER OF THREADS PER UNIT LENGTH (third revision)",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 2580:1995 -> IS 1963:2025"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 1964:2025",
+        "cited_as": "IS 1964:2025",
+        "record_id": 33752,
+        "title": "TEXTILES - MASS PER UNIT LENGTH AND MASS PER UNIT AREA OF FABRICS - METHODS OF TEST (third revision)",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11652:2017 -> IS 1964:2025"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1969 (Part 1):2018",
+        "cited_as": "IS 1969:2018",
+        "record_id": 21122,
+        "title": "Textiles – Tensile properties of fabrics – Part 1 Determination of maximum force and elongation at maximum force using the strip method (fourth revision)",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11652:2017 -> IS 1969 (Part 1):2018"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 2969:1974",
+        "cited_as": "IS 2969:1974",
+        "record_id": 9462,
+        "title": "Method for determination of oil content of jute yarn and fabrics (first revision)",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 2580:1995 -> IS 2969:1974"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 4032:1985",
+        "cited_as": "IS 4032:1985",
+        "record_id": 10672,
+        "title": "Method of Chemical Analysis of Hydraulic Cement (First Revision)",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 12089:1987 -> IS 4032:1985"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 6359:2023",
+        "cited_as": "IS 6359:2023",
+        "record_id": 28252,
+        "title": "Method for conditioning of textiles (first revision)",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11652:2017 -> IS 6359:2023"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 9030:2024",
+        "cited_as": "IS 9030:2024",
+        "record_id": 32525,
+        "title": "Textiles - Seam Strength of Jute Fabrics including their Laminates - Methods of Test ( First Revision )",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11652:2017 -> IS 9030:2024"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 9042:1978",
+        "cited_as": "IS 9042:1978",
+        "record_id": 16303,
+        "title": "Method of measurement and expression of the dimensions of paper sacks",
+        "relation": "test_method",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11761:2024 -> IS 9042:1978"
+        ],
+        "evidence": null,
+        "superseded": false
+      }
+    ],
+    "terminology": [
+      {
+        "is_number": "IS 4845:2026",
+        "cited_as": "IS 4845:1968",
+        "record_id": 66544,
+        "title": "Definitions and terminology relating to hydraulic cement First Revision of IS 4845",
+        "relation": "terminology",
+        "weight": 0.8,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 4845:2026"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 10789:2000",
+        "cited_as": "IS 10789:2000",
+        "record_id": 1682,
+        "title": "Textiles - Stitch Types - Classification and Terminology",
+        "relation": "terminology",
+        "weight": 0.24,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11652:2017 -> IS 10789:2000"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 9028:2026",
+        "cited_as": "IS 9028:1978",
+        "record_id": 65875,
+        "title": "Paper Sacks — Glossary of Terms",
+        "relation": "terminology",
+        "weight": 0.24,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11761:2024 -> IS 9028:2026"
+        ],
+        "evidence": null,
+        "superseded": true
+      }
+    ],
+    "installation": [
+      {
+        "is_number": "IS 2:1960",
+        "cited_as": "IS 2:1960",
+        "record_id": 8519,
+        "title": "Rules for Rounding off Numerical Values (Withdrawn)",
+        "relation": "installation",
+        "weight": 0.332,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 10):1988 -> IS 2:1960"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 2:2022",
+        "cited_as": "IS 2:2022",
+        "record_id": 27256,
+        "title": "RULES FOR ROUNDING OFF NUMERICAL VALUES (Second Revision)",
+        "relation": "installation",
+        "weight": 0.332,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 10):1988 -> IS 2:2022"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 2873:2026",
+        "cited_as": "IS 2873:1991",
+        "record_id": 66835,
+        "title": "Textiles — Packaging of Jute Products in Bales — Specification (Third Revision)",
+        "relation": "installation",
+        "weight": 0.21,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 12154:1987 -> IS 2873:2026"
+        ],
+        "evidence": null,
+        "superseded": false
+      }
+    ],
+    "related_product": [
+      {
+        "is_number": "IS 11761:2024",
+        "cited_as": "IS 11761:1997",
+        "record_id": 31571,
+        "title": "MULTI-WALL PAPER SACKS FOR CEMENTï¿½ SPECIFICATION ( Second Revision )",
+        "relation": "related_product",
+        "weight": 0.6,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 11761:2024"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 12089:1987",
+        "cited_as": "IS 12089:1987",
+        "record_id": 3354,
+        "title": "Specification for Granulated Slag for the Manufacture Portland Slag Cement",
+        "relation": "related_product",
+        "weight": 0.6,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 12089:1987"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 12154:1987",
+        "cited_as": "IS 12154:1987",
+        "record_id": 3428,
+        "title": "Specification for light weight jute bags for packing cement (Withdrawn)",
+        "relation": "related_product",
+        "weight": 0.6,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 12154:1987"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 12174:1987",
+        "cited_as": "IS 12174:1987",
+        "record_id": 3447,
+        "title": "Specification for jute synthetic union bags for packing cement (Withdrawn)",
+        "relation": "related_product",
+        "weight": 0.6,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 12174:1987"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 2580:1995",
+        "cited_as": "IS 2580:1995",
+        "record_id": 9101,
+        "title": "Textiles - Jute sacking bags for packing cement - Specification (Third Revision) (Withdrawn)",
+        "relation": "related_product",
+        "weight": 0.6,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 2580:1995"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 650:1991",
+        "cited_as": "IS 650:1991",
+        "record_id": 13361,
+        "title": "Standard sand for testing cement - Specification (Second Revision)",
+        "relation": "related_product",
+        "weight": 0.6,
+        "hops": 1,
+        "paths": [
+          "IS 8043:1991 -> IS 650:1991"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 10082:1981",
+        "cited_as": "IS 10086:1982",
+        "record_id": 701,
+        "title": "Method of test for determination of tensile strength by indirect tests on rock specimens",
+        "relation": "related_product",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 13):1988 -> IS 10082:1981"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 10086:2021",
+        "cited_as": "IS 10086:2021",
+        "record_id": 26785,
+        "title": "Moulds for Use in Tests of Cement, Concrete and Pozzolana (First Revision)",
+        "relation": "related_product",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 13):1988 -> IS 10086:2021"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 10089:1981",
+        "cited_as": "IS 10089:1981",
+        "record_id": 758,
+        "title": "Specification for metal lasts for knee boots",
+        "relation": "related_product",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 10):1988 -> IS 10089:1981"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 10850:1984",
+        "cited_as": "IS 10850:1984",
+        "record_id": 1812,
+        "title": "Specification for apparatus for Measurement of Water Retentivity of Masonry Cement",
+        "relation": "related_product",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 13):1988 -> IS 10850:1984"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 10890:1984",
+        "cited_as": "IS 10890:1984",
+        "record_id": 1862,
+        "title": "Specification for Planetary Mixer used in tests of Cement and Pozzolana",
+        "relation": "related_product",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 13):1988 -> IS 10890:1984"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 11263:1985",
+        "cited_as": "IS 11263:1985",
+        "record_id": 2325,
+        "title": "Specification for Cylinder Measures for Determination of Air Content of Hydraulic Cement Mortar",
+        "relation": "related_product",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 12):1988 -> IS 11263:1985"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 5512:1983",
+        "cited_as": "IS 5512:1983",
+        "record_id": 12287,
+        "title": "Specification for Flow Table for use in Tests of Hydraulic Cements and Pozzolanic Materials (First Revision)",
+        "relation": "related_product",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 10):1988 -> IS 5512:1983"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 9459:1980",
+        "cited_as": "IS 9459:1980",
+        "record_id": 16839,
+        "title": "Specification for apparatus for use in Measurement of Length change of hardened Cement Paste, Mortar and Concrete",
+        "relation": "related_product",
+        "weight": 0.285,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4031 (Part 10):1988 -> IS 9459:1980"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 269:2015",
+        "cited_as": "IS 269:2013",
+        "record_id": 111,
+        "title": "Ordinary portland cement - Specification (Sixth Revision)",
+        "relation": "related_product",
+        "weight": 0.24,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4845:2026 -> IS 269:2015"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 455:2015",
+        "cited_as": "IS 455:2015",
+        "record_id": 11238,
+        "title": "Portland slag cement - Specification (fifth revision)",
+        "relation": "related_product",
+        "weight": 0.24,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 4845:2026 -> IS 455:2015"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 1260 (Part 2):2020",
+        "cited_as": "IS 1260 (Part 2):2020",
+        "record_id": 4009,
+        "title": "Packaging — Distribution Packaging — Graphical Symbols for Handling and Storage of Packages Part 2 General Goods ( Fourth Revision )",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11761:2024 -> IS 1260 (Part 2):2020"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 265:2021",
+        "cited_as": "IS 265:1993",
+        "record_id": 25632,
+        "title": "HYDROCHLORIC ACID SPECIFICATION Fifth Revision",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 650:1991 -> IS 265:2021"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 460 (Part 1):2020",
+        "cited_as": "IS 460 (Part 1):2020",
+        "record_id": 11324,
+        "title": "Test Sieves — Specification Part 1 Wire Cloth Test Sieves ( Fourth Revision )",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 650:1991 -> IS 460 (Part 1):2020"
+        ],
+        "evidence": null,
+        "superseded": false
+      },
+      {
+        "is_number": "IS 5476:2023",
+        "cited_as": "IS 5476:1986",
+        "record_id": 30619,
+        "title": "Jute ï¿½ Glossary of Terms ( Second Revision )",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 12154:1987 -> IS 5476:2023"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 6192:2023",
+        "cited_as": "IS 11197:1985",
+        "record_id": 30228,
+        "title": "Textiles Monoaxially oriented high density polyethylene HDPE and polypropylene PP tapes Specification",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 11652:2017 -> IS 6192:2023"
+        ],
+        "evidence": null,
+        "superseded": true
+      },
+      {
+        "is_number": "IS 9113:2012",
+        "cited_as": "IS 9113:2012",
+        "record_id": 16380,
+        "title": "Textiles – Jute sacking – General requirements (second revision)",
+        "relation": "related_product",
+        "weight": 0.18,
+        "hops": 2,
+        "paths": [
+          "IS 8043:1991 -> IS 12154:1987 -> IS 9113:2012"
+        ],
+        "evidence": null,
+        "superseded": false
+      }
+    ]
+  },
+  "warnings": [
+    {
+      "severity": "medium",
+      "cited": "IS 8043:1991",
+      "message": "IS 8043:1991 is not the latest edition; IS 8043:2026 is in force.",
+      "action": "Consider citing IS 8043:2026."
+    },
+    {
+      "severity": "high",
+      "cited": "IS 8112:1989",
+      "message": "IS 8112 has been withdrawn and replaced by IS 269:2015. The cited 1989 edition is not in the catalogue.",
+      "action": "Replace the citation with IS 269:2015."
+    }
+  ],
+  "verdicts": [
+    {
+      "citation": "IS 8112:1989",
+      "exists": true,
+      "status": "superseded",
+      "relevant": null,
+      "relevance_score": null,
+      "verdict": "replace",
+      "replacement": "IS 269:2015",
+      "reason": "Withdrawn and replaced by IS 269:2015.",
+      "severity": "high",
+      "title": "Ordinary portland cement - Specification (Sixth Revision)"
+    },
+    {
+      "citation": "IS 8043:1991",
+      "exists": true,
+      "status": "current",
+      "relevant": true,
+      "relevance_score": null,
+      "verdict": "add",
+      "replacement": null,
+      "reason": "Recommended for this product but not cited in the tender.",
+      "severity": "medium",
+      "title": "Hydrophobic Portland Cement Specification Third Revision of IS 8043"
+    }
+  ],
+  "certification": {
+    "certification_required": true,
+    "persona": "procurement",
+    "statement": "Compulsory BIS certification applies to IS 11652:2017. Bidders must hold a valid licence under BIS Product Certification (ISI mark), and this should be stated as an eligibility condition. The Quality Control Order has been in force since 2025-06-06. 32 BIS-recognised laboratories can carry out the testing.",
+    "standards": [
+      {
+        "is_number": "IS 8043:2026",
+        "record_id": 66581,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      },
+      {
+        "is_number": "IS 11652:2017",
+        "record_id": 2794,
+        "mandatory": true,
+        "stated": true,
+        "qco_status": "QCO Notified & Under Implementation",
+        "qco_date": "2025-06-06",
+        "in_force": true,
+        "scheme": "BIS Product Certification (ISI mark)",
+        "scheme_basis": "department TXD, where product certification applies",
+        "labs_available": 32,
+        "nearest_labs": [
+          {
+            "name": "CIPET, Vijayawada",
+            "city": "VIJAYAWADA",
+            "state": "Andhra Pradesh"
+          },
+          {
+            "name": "Central Institute of Petrochemical Engineering and Technology (CIPET), Guwahati",
+            "city": "Guwahati",
+            "state": "Assam"
+          },
+          {
+            "name": "CIPET, Hajipur",
+            "city": "Hajipur",
+            "state": "Bihar"
+          },
+          {
+            "name": "Central institute of Petrochemicals Engineering & Technology (CIPET), Raipur",
+            "city": "Raipur",
+            "state": "Chhattisgarh"
+          },
+          {
+            "name": "CIPET, Ahmedabad",
+            "city": "Ahmedabad",
+            "state": "Gujarat"
+          }
+        ]
+      },
+      {
+        "is_number": "IS 397 (Part 3):2019",
+        "record_id": 10563,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      },
+      {
+        "is_number": "IS 3535:1986",
+        "record_id": 10113,
+        "mandatory": false,
+        "stated": false,
+        "qco_status": null,
+        "qco_date": null,
+        "in_force": null,
+        "scheme": null,
+        "scheme_basis": null,
+        "labs_available": 0,
+        "nearest_labs": []
+      }
+    ],
+    "labs_available": 32,
+    "nearest_labs": [
+      {
+        "name": "CIPET, Vijayawada",
+        "city": "VIJAYAWADA",
+        "state": "Andhra Pradesh"
+      },
+      {
+        "name": "Central Institute of Petrochemical Engineering and Technology (CIPET), Guwahati",
+        "city": "Guwahati",
+        "state": "Assam"
+      },
+      {
+        "name": "CIPET, Hajipur",
+        "city": "Hajipur",
+        "state": "Bihar"
+      },
+      {
+        "name": "Central institute of Petrochemicals Engineering & Technology (CIPET), Raipur",
+        "city": "Raipur",
+        "state": "Chhattisgarh"
+      },
+      {
+        "name": "CIPET, Ahmedabad",
+        "city": "Ahmedabad",
+        "state": "Gujarat"
+      }
+    ],
+    "not_stated": [
+      "IS 8043:2026",
+      "IS 397 (Part 3):2019",
+      "IS 3535:1986"
+    ]
+  },
+  "evidence": [
+    {
+      "standard": "IS 8043:2026",
+      "clause": "3",
+      "role": "terminology",
+      "page": 9,
+      "quote": "3 TERMINOLOGY 3.1 For the purpose of thrs standard, the defi.nilions given III 1S 4845 : 196& and the following shall apply. 3.1.1 Hydrophobic Cement Cement obtained by gnndmg 33 grade ordinary Portland cement clmker with an adduive which. WIll Impart to ground cement, a water repelling property whi"
+    }
+  ],
+  "explanation": "The primary standard IS 8043:2026 specifies the requirements for Hydrophobic Portland Cement. The allied standards IS 11652:2017, IS 397 (Part 3):2019, IS 3535:1986, IS 4031 (Part 1):1996, IS 4031 (Part 10):1988, and IS 4031 (Part 11):1988 are cited to supplement testing and application protocols. Buyers are warned that IS 8043:1991 is not the latest edition and IS 8043:2026 is in force.",
+  "removed_by_guard": [],
+  "pdf_url": null,
+  "seconds": 2.83
+}

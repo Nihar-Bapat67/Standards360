@@ -1,0 +1,1021 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Standards360",
+    "summary": "Maps a procurement specification to the applicable Indian Standards, their allied standards, current versions and certification obligations.",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Health",
+        "description": "Whether the service is ready, and what it is serving.",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/analyze": {
+      "post": {
+        "summary": "Analyze",
+        "description": "Analyse pasted text, a specification, or a bare product name.",
+        "operationId": "analyze_v1_analyze_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AnalyzeRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnalyzeResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/analyze/upload": {
+      "post": {
+        "summary": "Analyze Upload",
+        "description": "Analyse an uploaded tender: PDF, DOCX, text file, or a screenshot.",
+        "operationId": "analyze_upload_v1_analyze_upload_post",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_analyze_upload_v1_analyze_upload_post"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnalyzeResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/document": {
+      "post": {
+        "summary": "Document",
+        "description": "Generate the PDF for pasted text: a standalone report, or a bare annexure.",
+        "operationId": "document_v1_document_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocumentRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/document/upload": {
+      "post": {
+        "summary": "Document Upload",
+        "description": "Analyse an uploaded tender and return it with the annexure appended.\n\nOutput mode 1 from the manual: the officer's own document comes back complete, which is how a\ntender actually carries this information.",
+        "operationId": "document_upload_v1_document_upload_post",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_document_upload_v1_document_upload_post"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/standard/{is_number}": {
+      "get": {
+        "summary": "Standard",
+        "description": "Everything the catalogue holds about one standard, for a details panel in the interface.",
+        "operationId": "standard_v1_standard__is_number__get",
+        "parameters": [
+          {
+            "name": "is_number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Is Number"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AnalyzeRequest": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "description": "Tender text, a specification, or a product name"
+          },
+          "lang": {
+            "type": "string",
+            "title": "Lang",
+            "description": "Language of the text; 'auto' for detection",
+            "default": "auto"
+          },
+          "persona": {
+            "type": "string",
+            "title": "Persona",
+            "description": "procurement | manufacturer",
+            "default": "procurement"
+          },
+          "output_mode": {
+            "type": "string",
+            "title": "Output Mode",
+            "description": "annexure | report",
+            "default": "annexure"
+          },
+          "state": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "State",
+            "description": "Used to list the nearest testing laboratories"
+          },
+          "answers": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "type": "string"
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Answers",
+            "description": "Replies to the questions of a previous call"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "title": "AnalyzeRequest"
+      },
+      "AnalyzeResponse": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "description": "complete | need_more_info | no_match"
+          },
+          "query": {
+            "type": "string",
+            "title": "Query",
+            "default": ""
+          },
+          "requirement": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Requirement"
+          },
+          "questions": {
+            "items": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Questions"
+          },
+          "confidence": {
+            "type": "number",
+            "title": "Confidence",
+            "default": 0.0
+          },
+          "band": {
+            "type": "string",
+            "title": "Band",
+            "default": "low"
+          },
+          "confidence_drivers": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Confidence Drivers"
+          },
+          "primary": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Primary"
+          },
+          "primary_title": {
+            "type": "string",
+            "title": "Primary Title",
+            "default": ""
+          },
+          "primary_as_cited": {
+            "type": "string",
+            "title": "Primary As Cited",
+            "default": ""
+          },
+          "amendments": {
+            "items": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Amendments"
+          },
+          "options": {
+            "items": {
+              "$ref": "#/components/schemas/OptionOut"
+            },
+            "type": "array",
+            "title": "Options"
+          },
+          "allied": {
+            "additionalProperties": {
+              "items": {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "type": "object",
+            "title": "Allied"
+          },
+          "warnings": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Warnings"
+          },
+          "verdicts": {
+            "items": {
+              "$ref": "#/components/schemas/CitationVerdict"
+            },
+            "type": "array",
+            "title": "Verdicts"
+          },
+          "certification": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/CertificationAnswer"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evidence": {
+            "items": {
+              "$ref": "#/components/schemas/EvidenceOut"
+            },
+            "type": "array",
+            "title": "Evidence"
+          },
+          "explanation": {
+            "type": "string",
+            "title": "Explanation",
+            "default": ""
+          },
+          "removed_by_guard": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Removed By Guard"
+          },
+          "pdf_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Pdf Url",
+            "description": "Filled once D3 generates the document"
+          },
+          "seconds": {
+            "type": "number",
+            "title": "Seconds",
+            "default": 0.0
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status"
+        ],
+        "title": "AnalyzeResponse",
+        "description": "The only contract the front end and a procurement portal ever see (manual \u00a79)."
+      },
+      "Body_analyze_upload_v1_analyze_upload_post": {
+        "properties": {
+          "file": {
+            "type": "string",
+            "contentMediaType": "application/octet-stream",
+            "title": "File"
+          },
+          "persona": {
+            "type": "string",
+            "title": "Persona",
+            "default": "procurement"
+          },
+          "state": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "State"
+          },
+          "lang": {
+            "type": "string",
+            "title": "Lang",
+            "default": "auto"
+          }
+        },
+        "type": "object",
+        "required": [
+          "file"
+        ],
+        "title": "Body_analyze_upload_v1_analyze_upload_post"
+      },
+      "Body_document_upload_v1_document_upload_post": {
+        "properties": {
+          "file": {
+            "type": "string",
+            "contentMediaType": "application/octet-stream",
+            "title": "File"
+          },
+          "persona": {
+            "type": "string",
+            "title": "Persona",
+            "default": "procurement"
+          },
+          "option_id": {
+            "type": "string",
+            "title": "Option Id",
+            "default": "B"
+          },
+          "mode": {
+            "type": "string",
+            "title": "Mode",
+            "default": "annexure"
+          },
+          "reference": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reference"
+          },
+          "state": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "State"
+          }
+        },
+        "type": "object",
+        "required": [
+          "file"
+        ],
+        "title": "Body_document_upload_v1_document_upload_post"
+      },
+      "CertificationAnswer": {
+        "properties": {
+          "certification_required": {
+            "type": "boolean",
+            "title": "Certification Required"
+          },
+          "persona": {
+            "type": "string",
+            "title": "Persona"
+          },
+          "statement": {
+            "type": "string",
+            "title": "Statement",
+            "description": "The sentence the document should carry"
+          },
+          "standards": {
+            "items": {
+              "$ref": "#/components/schemas/StandardCertification"
+            },
+            "type": "array",
+            "title": "Standards"
+          },
+          "labs_available": {
+            "type": "integer",
+            "title": "Labs Available",
+            "default": 0
+          },
+          "nearest_labs": {
+            "items": {
+              "$ref": "#/components/schemas/LabSuggestion"
+            },
+            "type": "array",
+            "title": "Nearest Labs"
+          },
+          "not_stated": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Not Stated",
+            "description": "Standards where BIS states nothing; never reported as 'not required'"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "certification_required",
+          "persona",
+          "statement"
+        ],
+        "title": "CertificationAnswer",
+        "description": "C4 output for a set of recommended standards, phrased for one persona."
+      },
+      "CitationVerdict": {
+        "properties": {
+          "citation": {
+            "type": "string",
+            "title": "Citation"
+          },
+          "exists": {
+            "type": "boolean",
+            "title": "Exists"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "description": "current | superseded | withdrawn | not_found"
+          },
+          "relevant": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Relevant",
+            "description": "None when relevance could not be judged, which is not the same as judging it irrelevant"
+          },
+          "relevance_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Relevance Score"
+          },
+          "verdict": {
+            "type": "string",
+            "title": "Verdict",
+            "description": "keep | replace | remove | add | verify"
+          },
+          "replacement": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Replacement"
+          },
+          "reason": {
+            "type": "string",
+            "title": "Reason"
+          },
+          "severity": {
+            "$ref": "#/components/schemas/Severity"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Title"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "citation",
+          "exists",
+          "status",
+          "verdict",
+          "reason",
+          "severity"
+        ],
+        "title": "CitationVerdict",
+        "description": "B4 output, one per standard the tender already cites."
+      },
+      "DocumentRequest": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "description": "Tender text, a specification, or a product name"
+          },
+          "lang": {
+            "type": "string",
+            "title": "Lang",
+            "description": "Language of the text; 'auto' for detection",
+            "default": "auto"
+          },
+          "persona": {
+            "type": "string",
+            "title": "Persona",
+            "description": "procurement | manufacturer",
+            "default": "procurement"
+          },
+          "output_mode": {
+            "type": "string",
+            "title": "Output Mode",
+            "description": "annexure | report",
+            "default": "annexure"
+          },
+          "state": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "State",
+            "description": "Used to list the nearest testing laboratories"
+          },
+          "answers": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "type": "string"
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Answers",
+            "description": "Replies to the questions of a previous call"
+          },
+          "option_id": {
+            "type": "string",
+            "title": "Option Id",
+            "description": "Citation depth: A, B or C",
+            "default": "B"
+          },
+          "mode": {
+            "type": "string",
+            "title": "Mode",
+            "description": "annexure | report",
+            "default": "report"
+          },
+          "reference": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reference",
+            "description": "Tender reference printed on the document"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "title": "DocumentRequest"
+      },
+      "EvidenceOut": {
+        "properties": {
+          "standard": {
+            "type": "string",
+            "title": "Standard"
+          },
+          "clause": {
+            "type": "string",
+            "title": "Clause"
+          },
+          "role": {
+            "type": "string",
+            "title": "Role"
+          },
+          "page": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Page"
+          },
+          "quote": {
+            "type": "string",
+            "title": "Quote"
+          }
+        },
+        "type": "object",
+        "required": [
+          "standard",
+          "clause",
+          "role",
+          "quote"
+        ],
+        "title": "EvidenceOut"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "LabSuggestion": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "city": {
+            "type": "string",
+            "title": "City"
+          },
+          "state": {
+            "type": "string",
+            "title": "State"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "name",
+          "city",
+          "state"
+        ],
+        "title": "LabSuggestion"
+      },
+      "OptionOut": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "confidence": {
+            "type": "number",
+            "title": "Confidence"
+          },
+          "band": {
+            "type": "string",
+            "title": "Band"
+          },
+          "standards": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Standards"
+          },
+          "default": {
+            "type": "boolean",
+            "title": "Default",
+            "default": false
+          },
+          "rationale": {
+            "type": "string",
+            "title": "Rationale",
+            "default": ""
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "confidence",
+          "band",
+          "standards"
+        ],
+        "title": "OptionOut"
+      },
+      "Severity": {
+        "type": "string",
+        "enum": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "title": "Severity"
+      },
+      "StandardCertification": {
+        "properties": {
+          "is_number": {
+            "type": "string",
+            "title": "Is Number"
+          },
+          "record_id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Record Id"
+          },
+          "mandatory": {
+            "type": "boolean",
+            "title": "Mandatory",
+            "description": "True only when BIS states Mandatory Certification"
+          },
+          "stated": {
+            "type": "boolean",
+            "title": "Stated",
+            "description": "False when BIS leaves the field blank, which is not the same as 'not required'"
+          },
+          "qco_status": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Qco Status"
+          },
+          "qco_date": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Qco Date"
+          },
+          "in_force": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "In Force",
+            "description": "Whether the QCO date has passed"
+          },
+          "scheme": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Scheme"
+          },
+          "scheme_basis": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Scheme Basis",
+            "description": "Why that scheme was inferred, so it can be checked"
+          },
+          "labs_available": {
+            "type": "integer",
+            "title": "Labs Available",
+            "default": 0
+          },
+          "nearest_labs": {
+            "items": {
+              "$ref": "#/components/schemas/LabSuggestion"
+            },
+            "type": "array",
+            "title": "Nearest Labs"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "is_number",
+          "mandatory",
+          "stated"
+        ],
+        "title": "StandardCertification",
+        "description": "What BIS states about certification for one standard."
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

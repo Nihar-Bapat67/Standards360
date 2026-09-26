@@ -136,10 +136,14 @@ def build(args):
     from rank_bm25 import BM25Okapi
     from sentence_transformers import SentenceTransformer
 
-    clauses_path = Path(args.clauses)
-    if not clauses_path.exists():
-        raise SystemExit(f"{clauses_path} not found. Run `python ingest/parse_clauses.py` (A2) first.")
-    clauses = json.loads(clauses_path.read_text(encoding="utf-8"))
+    paths = [Path(p) for p in ([args.clauses] if isinstance(args.clauses, str) else args.clauses)]
+    clauses = []
+    for path in paths:
+        if not path.exists():
+            raise SystemExit(f"{path} not found. Run `python ingest/parse_clauses.py` (A2) first.")
+        part = json.loads(path.read_text(encoding="utf-8"))
+        print(f"{len(part)} records from {path.name}")
+        clauses += part
     titles = standard_titles()
     selected, skipped = select_clauses(clauses, titles, args.min_chars, args.include_foreword)
     if not selected:
@@ -238,7 +242,7 @@ def build(args):
         "skipped": dict(skipped),
         "filters": {"min_chars": args.min_chars, "include_foreword": args.include_foreword,
                     "skip_flags": list(SKIP_FLAGS)},
-        "source": str(clauses_path),
+        "source": [str(x) for x in paths],
         "build_seconds": round(time.time() - started, 1),
     }
     META_FILE.write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -310,7 +314,9 @@ def search(query, top_k=5, pool=25):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--clauses", default=str(DATA / "a2" / "clauses.json"), help="A2 output to index")
+    p.add_argument("--clauses", nargs="+", default=[str(DATA / "a2" / "clauses.json")],
+                   help="A2 output to index; several files are concatenated, so the parsed clauses "
+                        "and the BIS summaries can be indexed together")
     p.add_argument("--model", default=DEFAULT_MODEL, help="sentence-transformers model name")
     p.add_argument("--batch-size", type=int, default=16)
     p.add_argument("--min-chars", type=int, default=40, help="skip clauses shorter than this")

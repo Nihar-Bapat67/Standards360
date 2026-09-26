@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Sign in to Standards360 — find the Indian Standards your tender must cite.">
+<title>Standards360 — Sign in</title>
+<style>
+:root{
+  --ink-0:#07090D; --ink-1:#0B0E14; --ink-2:#0D1117;
+  --text:#F2F4F8;           /* 17.2:1 */
+  --muted:#9AA4B2;          /*  7.5:1 */
+  --dim:#7C8698;            /*  5.2:1 */
+  --amber:#E2A33D;          /*  8.6:1 */
+  --rose:#C2557A;           /* gradient end only — 4.4:1, never small text */
+  --rose-lit:#D97E9C;       /*  6.7:1 — rose as text */
+  --blue:#7FA6FF; --green:#57D9A3; --red:#FF8A7A;
+  --on-accent:#07090D;      /* 9.1:1 on amber, 4.6:1 on rose */
+  --panel:rgba(255,255,255,.045);
+  --panel-2:rgba(255,255,255,.06);
+  --edge:rgba(255,255,255,.08);
+  --edge-2:rgba(255,255,255,.14);
+  --ember:linear-gradient(100deg,#E2A33D 0%,#C2557A 100%);
+  --r:16px;
+  --sans:"Avenir Next","Segoe UI Variable Display",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; min-height:100dvh;
+  background:var(--ink-2); color:var(--text);
+  font-family:var(--sans); line-height:1.6;
+  -webkit-font-smoothing:antialiased; -webkit-tap-highlight-color:transparent;
+  overflow-x:hidden;
+}
+/* Drafting-paper ground: one warm bloom upper left, a 48px grid over everything. */
+body::before,body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0}
+body::before{
+  background:
+    radial-gradient(760px 560px at 12% 4%, rgba(226,163,61,.13), transparent 62%),
+    radial-gradient(620px 480px at 4% 26%, rgba(194,85,122,.08), transparent 66%);
+}
+body::after{
+  background-image:
+    linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:radial-gradient(1200px 900px at 20% 0%,#000 55%,transparent 100%);
+  -webkit-mask-image:radial-gradient(1200px 900px at 20% 0%,#000 55%,transparent 100%);
+}
+
+.mono{font-family:var(--mono)}
+.lbl{
+  font-family:var(--mono); font-size:10px; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--dim);
+}
+
+.shell{
+  position:relative; z-index:1;
+  min-height:100vh; min-height:100dvh;
+  display:grid; grid-template-columns:1.05fr .95fr;
+  gap:clamp(1.5rem,4vw,4rem);
+  padding:clamp(1.25rem,4vw,3rem);
+  align-items:center;
+  max-width:1440px; margin-inline:auto;
+}
+@media (max-width:60rem){ .shell{grid-template-columns:1fr; align-content:start} }
+
+/* ───────────────────────── brand side ───────────────────────── */
+.brand{max-width:34rem}
+.wordmark{
+  display:inline-block; font-size:clamp(1.5rem,2.6vw,2rem); font-weight:700;
+  letter-spacing:-0.02em;
+  background:var(--ember); -webkit-background-clip:text; background-clip:text;
+  color:transparent;
+}
+.pitch{
+  margin:1.25rem 0 0; font-size:clamp(2rem,4.4vw,3.5rem);
+  line-height:1.05; letter-spacing:-0.022em; font-weight:600;
+}
+.sub{margin:1.125rem 0 0;color:var(--muted);font-size:clamp(.9375rem,1.4vw,1.0625rem);max-width:44ch}
+.metrics{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:2rem;padding:0;list-style:none}
+.metrics li{
+  font-family:var(--mono); font-size:11px; letter-spacing:.04em; color:var(--muted);
+  border:1px solid var(--edge); background:var(--panel);
+  border-radius:999px; padding:.375rem .6875rem; white-space:nowrap;
+}
+.metrics b{color:var(--text);font-weight:600}
+@media (max-width:60rem){ .metrics{display:none} .pitch{font-size:clamp(1.75rem,7vw,2.25rem)} }
+
+/* ───────────────────────── form side ───────────────────────── */
+.card{
+  background:var(--panel); border:1px solid var(--edge); border-radius:18px;
+  padding:clamp(1.25rem,3vw,2rem); max-width:26rem; width:100%; justify-self:end;
+}
+@media (max-width:60rem){ .card{justify-self:stretch;max-width:none;margin-top:.5rem} }
+
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:2px;padding:3px;background:rgba(255,255,255,.04);
+      border:1px solid var(--edge);border-radius:11px;margin-bottom:1.5rem}
+.tabs button{
+  appearance:none;border:0;background:none;color:var(--muted);
+  font:inherit;font-size:.875rem;font-weight:500;padding:.5rem;border-radius:8px;cursor:pointer;
+  transition:background-color 160ms ease,color 160ms ease;
+}
+.tabs button[aria-selected="true"]{background:rgba(255,255,255,.09);color:var(--text)}
+
+.field{margin-bottom:1rem}
+.field label{display:block;margin-bottom:.4375rem}
+.field input{
+  width:100%; appearance:none;
+  background:rgba(255,255,255,.04); color:var(--text);
+  border:1px solid var(--edge-2); border-radius:11px;
+  font-family:var(--sans); font-size:16px; line-height:1.4;
+  padding:.6875rem .8125rem;
+  transition:border-color 160ms ease,background-color 160ms ease;
+}
+.field input::placeholder{color:#6F7885}
+.field input:focus{outline:none;border-color:var(--amber);background:rgba(255,255,255,.06)}
+.field input[aria-invalid="true"]{border-color:var(--red)}
+.err{display:block;margin-top:.375rem;color:var(--red);font-size:.8125rem;min-height:1.1em}
+
+.primary{
+  width:100%; appearance:none; border:0; border-radius:11px;
+  background:var(--ember); color:var(--on-accent);
+  font:inherit; font-size:.9375rem; font-weight:600; letter-spacing:-0.004em;
+  padding:.75rem 1rem; cursor:pointer; min-height:2.875rem;
+  transition:transform 110ms ease-out,filter 160ms ease;
+}
+.primary:active{transform:scale(.985)}
+@media (hover:hover){ .primary:hover{filter:brightness(1.07)} }
+
+.or{display:flex;align-items:center;gap:.75rem;margin:1.25rem 0;color:var(--dim)}
+.or::before,.or::after{content:"";flex:1;height:1px;background:var(--edge)}
+
+.alt{display:grid;gap:.5rem}
+.alt button{
+  display:flex;align-items:center;justify-content:center;gap:.5rem;
+  appearance:none;background:rgba(255,255,255,.03);color:var(--muted);
+  border:1px solid var(--edge);border-radius:11px;
+  font:inherit;font-size:.875rem;padding:.625rem;cursor:not-allowed;min-height:2.625rem;
+}
+.alt svg{width:1.0625rem;height:1.0625rem;fill:none;stroke:currentColor;stroke-width:1.8;
+         stroke-linecap:round;stroke-linejoin:round}
+
+.fineprint{margin:1.25rem 0 0;color:var(--dim);font-size:.75rem;line-height:1.55}
+.fineprint a{color:var(--muted)}
+
+/* ─────────────────── persona step ─────────────────── */
+.step{display:none}
+.step.on{display:block}
+
+.personas{display:grid;gap:.75rem;margin-top:1.5rem}
+.persona{
+  display:grid;gap:.375rem;text-align:left;
+  appearance:none;background:var(--panel);color:var(--text);
+  border:1px solid var(--edge);border-radius:14px;
+  padding:1.125rem; cursor:pointer; font:inherit;
+  transition:border-color 160ms ease,background-color 160ms ease,transform 110ms ease-out;
+}
+.persona:active{transform:scale(.99)}
+@media (hover:hover){ .persona:hover{border-color:var(--edge-2);background:var(--panel-2)} }
+.persona[data-chosen="true"]{border-color:var(--amber);background:rgba(226,163,61,.08)}
+.persona .role{font-size:1.0625rem;font-weight:600;letter-spacing:-0.01em}
+.persona .says{color:var(--muted);font-size:.875rem;line-height:1.5}
+.persona .tagline{margin-top:.25rem}
+
+/* Motion that explains: the unchosen door recedes, the chosen one stays. */
+.personas.deciding .persona{transition:opacity 200ms ease,transform 200ms ease}
+.personas.deciding .persona[data-chosen="false"]{opacity:.25;transform:scale(.98)}
+
+:where(button,a,input):focus-visible{outline:2px solid var(--amber);outline-offset:2px;border-radius:8px}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms !important;transition-duration:.01ms !important}
+}
+@media (prefers-contrast:more){
+  :root{--edge:rgba(255,255,255,.28);--edge-2:rgba(255,255,255,.45);--dim:#A7B0BD}
+}
+</style>
+</head>
+<body>
+
+<main class="shell">
+
+  <!-- ─────────── brand ─────────── -->
+  <section class="brand">
+    <span class="wordmark">Standards360</span>
+    <h1 class="pitch">Find the Indian Standards your tender must cite.</h1>
+    <p class="sub">A specification goes in. The applicable standard comes back with the clause that
+      proves it, the editions in force, and the certification that is compulsory.</p>
+    <ul class="metrics">
+      <li><b>35,553</b> standards</li>
+      <li><b>165,657</b> cross-references</li>
+      <li><b>725</b> under compulsory certification</li>
+      <li><b>502</b> laboratories</li>
+    </ul>
+  </section>
+
+  <!-- ─────────── step 1: account ─────────── -->
+  <section class="card step on" id="step-account" aria-labelledby="auth-h">
+    <h2 class="sr" id="auth-h">Sign in or create an account</h2>
+
+    <div class="tabs" role="tablist" aria-label="Sign in or create an account">
+      <button type="button" role="tab" id="tab-in" aria-selected="true" aria-controls="authform">Sign in</button>
+      <button type="button" role="tab" id="tab-up" aria-selected="false" aria-controls="authform">Create account</button>
+    </div>
+
+    <form id="authform" novalidate>
+      <div class="field" id="f-name" hidden>
+        <label class="lbl" for="name">Full name</label>
+        <input id="name" name="name" type="text" autocomplete="name" placeholder="A. Sharma">
+        <span class="err" id="e-name" aria-live="polite"></span>
+      </div>
+
+      <div class="field">
+        <label class="lbl" for="email">Email or username</label>
+        <input id="email" name="email" type="text" autocomplete="username" placeholder="officer@department.gov.in">
+        <span class="err" id="e-email" aria-live="polite"></span>
+      </div>
+
+      <div class="field">
+        <label class="lbl" for="pw">Password</label>
+        <input id="pw" name="pw" type="password" autocomplete="current-password" placeholder="••••••••">
+        <span class="err" id="e-pw" aria-live="polite"></span>
+      </div>
+
+      <button class="primary" type="submit" id="go">Sign in</button>
+    </form>
+
+    <div class="or lbl">or</div>
+    <div class="alt">
+      <button type="button" disabled aria-label="Continue with Google — not connected in this prototype">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>
+        Continue with Google
+      </button>
+      <button type="button" disabled aria-label="Continue with a National Informatics Centre account — not connected in this prototype">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+        Continue with NIC
+      </button>
+    </div>
+
+    <p class="fineprint">
+      This is a prototype. There is no account server: nothing you type is stored, transmitted or
+      checked against anything, and the password field is ignored entirely. Use any value to
+      continue.
+    </p>
+  </section>
+
+  <!-- ─────────── step 2: persona ─────────── -->
+  <section class="card step" id="step-persona" aria-labelledby="persona-h">
+    <p class="lbl" id="greet">Signed in</p>
+    <h2 id="persona-h" style="margin:.375rem 0 0;font-size:1.375rem;font-weight:600;letter-spacing:-0.015em">
+      Which side of the tender are you on?</h2>
+    <p class="sub" style="font-size:.9375rem;margin-top:.5rem">
+      The engine is the same. The wording, the document and the obligations differ.</p>
+
+    <div class="personas" id="personas">
+      <button type="button" class="persona" data-persona="procurement" data-chosen="false">
+        <span class="role">Procurement official</span>
+        <span class="says">“Which standards must I cite in this tender?”</span>
+        <span class="lbl tagline">Completed tender · standards annexure</span>
+      </button>
+      <button type="button" class="persona" data-persona="manufacturer" data-chosen="false">
+        <span class="role">Manufacturer</span>
+        <span class="says">“Which standards must my product comply with?”</span>
+        <span class="lbl tagline">Compliance checklist · licence route · laboratories</span>
+      </button>
+    </div>
+
+    <p class="fineprint">You can switch at any time from inside the workspace.</p>
+  </section>
+
+</main>
+
+<script>
+(function () {
+  var stepAccount = document.getElementById('step-account');
+  var stepPersona = document.getElementById('step-persona');
+  var tabIn = document.getElementById('tab-in');
+  var tabUp = document.getElementById('tab-up');
+  var fName = document.getElementById('f-name');
+  var form = document.getElementById('authform');
+  var go = document.getElementById('go');
+  var greet = document.getElementById('greet');
+  var mode = 'in';
+
+  function setMode(next) {
+    mode = next;
+    tabIn.setAttribute('aria-selected', String(next === 'in'));
+    tabUp.setAttribute('aria-selected', String(next === 'up'));
+    fName.hidden = next !== 'up';
+    go.textContent = next === 'in' ? 'Sign in' : 'Create account';
+    document.getElementById('pw').setAttribute(
+      'autocomplete', next === 'in' ? 'current-password' : 'new-password');
+  }
+  tabIn.addEventListener('click', function () { setMode('in'); });
+  tabUp.addEventListener('click', function () { setMode('up'); });
+
+  function fail(id, message) {
+    var input = document.getElementById(id);
+    document.getElementById('e-' + id).textContent = message || '';
+    input.setAttribute('aria-invalid', message ? 'true' : 'false');
+    return !message;
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var email = document.getElementById('email').value.trim();
+    var pw = document.getElementById('pw').value;
+    var name = document.getElementById('name').value.trim();
+
+    // Format only. There is nothing to authenticate against, and pretending
+    // otherwise would be dishonest about what this prototype is.
+    var ok = true;
+    ok = fail('email', email ? '' : 'Enter an email address or username.') && ok;
+    ok = fail('pw', pw.length >= 4 ? '' : 'Use at least four characters.') && ok;
+    if (mode === 'up') ok = fail('name', name ? '' : 'Enter your name.') && ok;
+    if (!ok) return;
+
+    var who = (mode === 'up' && name) ? name.split(' ')[0] : (email.split('@')[0] || 'there');
+    try { sessionStorage.setItem('s360_name', who); } catch (err) {}
+    greet.textContent = 'Signed in as ' + who;
+
+    stepAccount.classList.remove('on');
+    stepPersona.classList.add('on');
+    stepPersona.querySelector('.persona').focus();
+  });
+
+  var personas = document.getElementById('personas');
+  personas.addEventListener('click', function (e) {
+    var card = e.target.closest('.persona');
+    if (!card || personas.classList.contains('deciding')) return;
+
+    personas.querySelectorAll('.persona').forEach(function (p) {
+      p.setAttribute('data-chosen', String(p === card));
+    });
+    personas.classList.add('deciding');
+
+    var url = '../app/?persona=' + encodeURIComponent(card.dataset.persona);
+    var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    setTimeout(function () { location.href = url; }, reduced ? 0 : 220);
+  });
+
+  setMode('in');
+})();
+</script>
+</body>
+</html>
