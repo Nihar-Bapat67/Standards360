@@ -45,6 +45,7 @@ BIS = DATA / "bis"
 STANDARDS = BIS / "standards.jsonl"
 EMPTY = BIS / "empty_ids.txt"
 CATEGORIES = BIS / "categories.jsonl"
+LAB_DIRECTORY = BIS / "lab_directory.jsonl"
 DB = DATA / "catalogue.db"
 
 SITE = "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/"
@@ -562,9 +563,15 @@ SCHEMA = """
 DROP TABLE IF EXISTS standards; DROP TABLE IF EXISTS xrefs; DROP TABLE IF EXISTS labs;
 DROP TABLE IF EXISTS product_manuals; DROP TABLE IF EXISTS gazette;
 DROP TABLE IF EXISTS amendments; DROP TABLE IF EXISTS categories;
+DROP TABLE IF EXISTS lab_directory;
 CREATE TABLE standards (""" + ", ".join(f"{c} {t}" for c, t, _ in STANDARD_COLUMNS) + """);
 CREATE TABLE xrefs (citing_record INTEGER, cited_record INTEGER, PRIMARY KEY (citing_record, cited_record));
-CREATE TABLE labs (record_id INTEGER, name TEXT, city TEXT, state TEXT);
+CREATE TABLE labs (record_id INTEGER, lab_key TEXT, name TEXT, city TEXT, state TEXT);
+-- One row per recognised laboratory, from ingest/fetch_labs.py. `labs` says which standards a
+-- laboratory can test; this says where the laboratory is and how to reach it. They join on
+-- lab_key, because BIS spells the same laboratory name with varying case and spacing.
+CREATE TABLE lab_directory (lab_key TEXT PRIMARY KEY, name TEXT, address TEXT, city TEXT,
+  state TEXT, phone TEXT, email TEXT, city_key TEXT);
 CREATE TABLE product_manuals (record_id INTEGER, type TEXT, doc TEXT);
 CREATE TABLE gazette (record_id INTEGER, notice TEXT, so_no TEXT);
 CREATE TABLE amendments (record_id INTEGER, detail TEXT);
@@ -573,6 +580,8 @@ CREATE TABLE categories (category_id INTEGER, category TEXT, record_id INTEGER,
 CREATE INDEX ix_standards_is ON standards(is_number);
 CREATE INDEX ix_xrefs_cited ON xrefs(cited_record);
 CREATE INDEX ix_standards_superseded_by ON standards(superseded_by);
+CREATE INDEX ix_labs_record ON labs(record_id);
+CREATE INDEX ix_labs_key ON labs(lab_key);
 """
 
 
@@ -585,7 +594,8 @@ def cmd_load(_args):
     try:
         n, skipped = load_into(con)
         counts = {t: con.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
-                  for t in ("standards", "xrefs", "labs", "product_manuals", "gazette", "amendments", "categories")}
+                  for t in ("standards", "xrefs", "labs", "lab_directory", "product_manuals", "gazette",
+                            "amendments", "categories")}
         status = con.execute("SELECT SUM(withdrawn), SUM(superseded_by <> ''), SUM(qco_status <> ''), "
                              "SUM(summary_pdf <> '') FROM standards").fetchone()
     except Exception:
@@ -607,6 +617,21 @@ def cmd_load(_args):
         print(f"Skipped {len(skipped)} unreadable lines in {STANDARDS.name}: {skipped[:10]}")
 
 
+def lab_key(name):
+    """A laboratory name reduced to a join key.
+
+    BIS writes the same laboratory as "BIS, Northern Regional  Laboratory (NRL)" in one list and
+    with a single space in another, so the raw name cannot be a key. Case and punctuation are
+    dropped for the same reason.
+    """
+    return re.sub(r"[^a-z0-9]+", " ", (name or "").lower()).strip()
+
+
+def city_key(city, state):
+    """A town reduced to a join key, matching ingest/geocode_cities.py."""
+    return re.sub(r"[^a-z0-9]+", " ", f"{city or ''} {state or ''}".lower()).strip()
+
+
 def load_into(con):
     con.executescript(SCHEMA)
     n = 0
@@ -626,14 +651,23 @@ def load_into(con):
                 con.execute("INSERT OR IGNORE INTO xrefs VALUES (?,?)", (r["record_id"], x["record_id"]))
             for x in r.get("referenced_by", []):
                 con.execute("INSERT OR IGNORE INTO xrefs VALUES (?,?)", (x["record_id"], r["record_id"]))
-            con.executemany("INSERT INTO labs VALUES (?,?,?,?)",
-                            [(r["record_id"], x["name"], x["city"], x["state"]) for x in r.get("labs", [])])
+            con.executemany("INSERT INTO labs VALUES (?,?,?,?,?)",
+                            [(r["record_id"], lab_key(x["name"]), x["name"], x["city"], x["state"])
+                             for x in r.get("labs", [])])
             con.executemany("INSERT INTO product_manuals VALUES (?,?,?)",
                             [(r["record_id"], x["type"], x["doc"]) for x in r.get("product_manuals", [])])
             con.executemany("INSERT INTO gazette VALUES (?,?,?)",
                             [(r["record_id"], x["notice"], x["so_no"]) for x in r.get("gazette", [])])
             con.executemany("INSERT INTO amendments VALUES (?,?)",
                             [(r["record_id"], json.dumps(x, ensure_ascii=False)) for x in r.get("amendments", [])])
+    if LAB_DIRECTORY.exists():
+        with LAB_DIRECTORY.open(encoding="utf-8") as f:
+            con.executemany(
+                "INSERT OR REPLACE INTO lab_directory VALUES (?,?,?,?,?,?,?,?)",
+                [(lab_key(d["name"]), d["name"], d.get("address", ""), d.get("city", ""),
+                  d.get("state", ""), d.get("phone", ""), d.get("email", ""),
+                  city_key(d.get("city"), d.get("state")))
+                 for d in (json.loads(l) for l in f if l.strip())])
     if CATEGORIES.exists():
         with CATEGORIES.open(encoding="utf-8") as f:
             con.executemany("INSERT INTO categories VALUES (?,?,?,?,?,?)",

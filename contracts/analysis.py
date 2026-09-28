@@ -52,11 +52,53 @@ class ResolvedStandard(BaseModel):
 
 
 class LabSuggestion(BaseModel):
+    """One BIS-recognised laboratory, as C4.5 offers it to a manufacturer.
+
+    `address`, `phone` and `email` come from the BIS laboratory directory and are absent for the few
+    laboratories BIS lists without them. `distance_km` is a straight line between two town centres,
+    not a road distance, and is absent whenever the user's location is unknown or either town has no
+    coordinate — see `app/core/labs.py`. `hours` is always absent: BIS does not publish opening times
+    for recognised laboratories, and this project does not fill a gap with a guess.
+    """
     model_config = ConfigDict(extra="forbid")
 
     name: str
     city: str
     state: str
+    address: Optional[str] = None
+    phone: Optional[str] = None
+    email: Optional[str] = None
+    distance_km: Optional[float] = Field(default=None,
+                                         description="Straight-line distance between town centres, in km")
+    same_city: bool = False
+    same_state: bool = False
+    directions_url: Optional[str] = Field(default=None, description="Google Maps directions link")
+    hours: Optional[str] = Field(default=None, description="Not published by BIS; always None")
+    tests: List[str] = Field(default_factory=list,
+                             description="Which of the standards asked about this laboratory is recognised for")
+
+
+class Origin(BaseModel):
+    """Where the user is, as C4.5 resolved it, and how precisely."""
+    model_config = ConfigDict(extra="forbid")
+
+    label: str = Field(..., description="What to show the user, e.g. 'Pune, Maharashtra'")
+    lat: Optional[float] = None
+    lon: Optional[float] = None
+    precision: str = Field(..., description="device | town | state")
+
+
+class LabAnswer(BaseModel):
+    """C4.5 output: where to get a product tested, nearest first."""
+    model_config = ConfigDict(extra="forbid")
+
+    standards: List[str] = Field(default_factory=list, description="The standards the laboratories were matched on")
+    total: int = Field(default=0, description="Recognised laboratories for these standards, before the list was cut")
+    origin: Optional[Origin] = None
+    note: str = Field(default="", description="How the location was read, or why no distance is shown")
+    labs: List[LabSuggestion] = Field(default_factory=list)
+    hours_note: str = Field(default="", description="The honest statement about opening times")
+    attribution: str = ""
 
 
 class StandardCertification(BaseModel):

@@ -4,6 +4,8 @@ import { Chip, Icon, Label, SectionLabel, Skeleton } from '../components/ui'
 import { useMeta } from '../hooks/useMeta'
 import { formatNumber } from '../lib/format'
 import { Wordmark } from '../components/Wordmark'
+import { LanguageSelector } from '../components/LanguageSelector'
+import { useT } from '../i18n'
 
 /**
  * The landing page.
@@ -47,6 +49,7 @@ const STAGES = [
 ]
 
 export function Landing() {
+  const t = useT()
   const { data, loading } = useMeta()
   const c = data?.catalogue
   const e = data?.evaluation
@@ -56,14 +59,17 @@ export function Landing() {
   // engine did not return is left out rather than shown blank.
   const figures = (
     [
-      c?.total != null && { text: `${formatNumber(c.total)} standards catalogued`, warm: false },
-      c?.current != null && { text: `${formatNumber(c.current)} current`, warm: false },
+      c?.total != null && {
+        text: `${formatNumber(c.total)} ${t('landing.stat.catalogued')}`,
+        warm: false,
+      },
+      c?.current != null && { text: `${formatNumber(c.current)} ${t('landing.stat.current')}`, warm: false },
       c?.cross_references != null && {
-        text: `${formatNumber(c.cross_references)} cross-references`,
+        text: `${formatNumber(c.cross_references)} ${t('landing.stat.crossRefs')}`,
         warm: false,
       },
       c?.qco != null && {
-        text: `${formatNumber(c.qco)} under compulsory certification`,
+        text: `${formatNumber(c.qco)} ${t('landing.stat.qco')}`,
         warm: false,
       },
       e?.['hit@3'] != null && { text: `Hit@3 ${e['hit@3'].toFixed(2)}`, warm: true },
@@ -81,19 +87,14 @@ export function Landing() {
           <Wordmark />
           <div className="flex-1" />
           <Link
-            to="/architecture"
-            className="hidden text-[13px] text-secondary transition-colors hover:text-text sm:block"
-          >
-            The engine
-          </Link>
-          <Link
             to="/login"
             className="hidden text-[13px] text-secondary transition-colors hover:text-text sm:block"
           >
-            Sign in
+            {t('nav.signIn')}
           </Link>
+          <LanguageSelector compact />
           <Link to="/workspace" className="btn btn-primary h-10 px-5 text-[13px]">
-            Find the standard
+            {t('nav.findStandard')}
           </Link>
         </nav>
       </header>
@@ -102,28 +103,23 @@ export function Landing() {
         {/* ── hero ───────────────────────────────────────────────────── */}
         <section className="mx-auto max-w-6xl px-5 pb-20 pt-20 sm:px-8 sm:pt-28">
           <div className="flex justify-center">
-            <Label className="text-amber">Department of Consumer Affairs · PS 26108</Label>
+            <Label className="text-amber">{t('landing.eyebrow')}</Label>
           </div>
 
           <h1 className="mx-auto mt-7 max-w-[54rem] text-center text-[clamp(2.4rem,6vw,4.4rem)] font-semibold leading-[1.02] tracking-[-0.035em]">
-            The Indian Standards
+            {t('landing.headline1')}
             <br />
-            <span className="text-ember">your tender actually needs.</span>
+            <span className="text-ember">{t('landing.headline2')}</span>
           </h1>
 
           <p className="mx-auto mt-7 max-w-[41rem] text-center text-[16.5px] leading-relaxed text-secondary">
-            Drop in a specification, a tender, or a product name. Standards360 names the standard that
-            applies, the allied standards that travel with it, the edition in force, and the certification
-            a bidder must hold — with the BIS clause that proves each one.
+            {t('landing.intro')}
           </p>
 
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Link to="/workspace" className="btn btn-primary w-full px-7 sm:w-auto">
-              Find the standard
+              {t('nav.findStandard')}
               <Icon.Arrow />
-            </Link>
-            <Link to="/architecture" className="btn btn-ghost w-full px-7 sm:w-auto">
-              Inside the engine
             </Link>
           </div>
 

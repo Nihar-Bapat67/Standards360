@@ -115,10 +115,22 @@ class Catalogue:
         return sorted(out, key=lambda a: a["year"])
 
     def labs(self, record_id: int) -> List[dict]:
-        return [{"name": r["name"], "city": r["city"], "state": r["state"]}
-                for r in self.con.execute(
-                    "SELECT DISTINCT name, city, state FROM labs WHERE record_id = ? ORDER BY state, city",
-                    (record_id,))]
+        """The BIS-recognised laboratories that can test this standard, with contact detail.
+
+        `labs` records which standards a laboratory is recognised for; `lab_directory`, written by
+        `ingest/fetch_labs.py`, records where it is and how to reach it. The two join on `lab_key`
+        because BIS spells the same laboratory name with varying case and spacing. A laboratory
+        missing from the directory is still returned, with its address and contact fields empty,
+        so a gap in the directory never hides a recognised laboratory.
+        """
+        rows = self.con.execute(
+            "SELECT DISTINCT l.name, l.city, l.state, d.address, d.phone, d.email, d.city_key "
+            "FROM labs l LEFT JOIN lab_directory d ON d.lab_key = l.lab_key "
+            "WHERE l.record_id = ? ORDER BY l.state, l.city, l.name", (record_id,))
+        return [{"name": r["name"], "city": r["city"], "state": r["state"],
+                 "address": r["address"] or None, "phone": r["phone"] or None,
+                 "email": r["email"] or None, "city_key": r["city_key"] or None}
+                for r in rows]
 
     def cited_by_record(self, record_id: int) -> List[sqlite3.Row]:
         """Standards this one cites, as catalogue rows (used by C2 later)."""

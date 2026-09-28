@@ -75,6 +75,45 @@ export interface Lab {
   name: string
   city: string
   state: string
+  address: string | null
+  phone: string | null
+  email: string | null
+  /** Straight line between town centres, in km. Absent when the location is unknown. */
+  distance_km: number | null
+  same_city: boolean
+  same_state: boolean
+  directions_url: string | null
+  /** Always null. BIS publishes no opening times, and the interface says so rather than guessing. */
+  hours: string | null
+  /** Which of the standards asked about this laboratory is recognised for. */
+  tests: string[]
+}
+
+/** Where C4.5 decided the user is, and how precisely. */
+export interface Origin {
+  label: string
+  lat: number | null
+  lon: number | null
+  precision: 'device' | 'town' | 'state'
+}
+
+/** The answer to "where do I get this tested" (module C4.5, POST /v1/labs). */
+export interface LabAnswer {
+  standards: string[]
+  total: number
+  origin: Origin | null
+  note: string
+  labs: Lab[]
+  hours_note: string
+  attribution: string
+}
+
+export interface LabsRequest {
+  standards: string[]
+  lat?: number
+  lon?: number
+  place?: string
+  limit?: number
 }
 
 export interface CertificationStandard {
@@ -137,6 +176,7 @@ export interface AnalyzeResponse {
   removed_by_guard: string[]
   pdf_url: string | null
   seconds: number
+  intent: string
 }
 
 /** One `stage` event from POST /v1/analyze/stream. */
@@ -197,6 +237,8 @@ export interface AnalyzeRequest {
   output_mode?: string
   state?: string | null
   answers?: Record<string, string> | null
+  history?: Array<{ role: 'user' | 'assistant'; text: string }>
+  previous_requirement?: Requirement | null
 }
 
 export interface DocumentRequest extends AnalyzeRequest {

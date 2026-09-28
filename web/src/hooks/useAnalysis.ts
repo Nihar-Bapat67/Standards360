@@ -1,5 +1,6 @@
 import { useCallback, useRef, useState } from 'react'
 import { api, ApiError } from '../services/api'
+import { useI18n } from '../i18n'
 import type { AnalyzeRequest, AnalyzeResponse, Persona, StageEvent } from '../types/api'
 
 export type RunState = 'idle' | 'running' | 'done' | 'error'
@@ -21,6 +22,7 @@ const IDLE: AnalysisState = { state: 'idle', stages: [], result: null, error: nu
  * because there is one contract and the interface is only a client of it.
  */
 export function useAnalysis() {
+  const { language } = useI18n()
   const [analysis, setAnalysis] = useState<AnalysisState>(IDLE)
   const abort = useRef<AbortController | null>(null)
 
@@ -39,7 +41,7 @@ export function useAnalysis() {
 
       try {
         const result = await api.analyzeStream(
-          request,
+          { ...request, lang: request.lang ?? language },
           (stage) => setAnalysis((prev) => ({ ...prev, stages: [...prev.stages, stage] })),
           controller.signal,
         )
@@ -55,11 +57,16 @@ export function useAnalysis() {
         return null
       }
     },
-    [],
+    [language],
   )
 
   const runFile = useCallback(
-    async (file: File, persona: Persona, state?: string | null): Promise<AnalyzeResponse | null> => {
+    async (
+      file: File,
+      persona: Persona,
+      state?: string | null,
+      context?: Pick<AnalyzeRequest, 'history' | 'previous_requirement'>,
+    ): Promise<AnalyzeResponse | null> => {
       abort.current?.abort()
       setAnalysis({
         state: 'running',
@@ -69,7 +76,7 @@ export function useAnalysis() {
       })
 
       try {
-        const result = await api.analyzeUpload(file, persona, state)
+        const result = await api.analyzeUpload(file, persona, state, language, context)
         setAnalysis((prev) => ({ ...prev, state: 'done', result }))
         return result
       } catch (error) {
@@ -81,7 +88,7 @@ export function useAnalysis() {
         return null
       }
     },
-    [],
+    [language],
   )
 
   return { ...analysis, runText, runFile, reset }

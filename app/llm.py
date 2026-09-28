@@ -15,11 +15,10 @@ import sys
 from pathlib import Path
 from typing import Optional
 
-import requests
-
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from app.config import settings  # noqa: E402
+from app.llm_providers import CompatibleChatProvider  # noqa: E402
 
 TIMEOUT = 45
 JSON_BLOCK = re.compile(r"\{.*\}", re.S)
@@ -28,15 +27,17 @@ JSON_BLOCK = re.compile(r"\{.*\}", re.S)
 class LLM:
     def __init__(self, api_key: Optional[str] = None, model: Optional[str] = None,
                  base_url: Optional[str] = None):
-        self.api_key = api_key or settings.sarvam_api_key
-        self.model = model or settings.sarvam_chat_model
-        self.base_url = (base_url or settings.sarvam_base_url).rstrip("/")
+        self.api_key = api_key if api_key is not None else settings.llm_api_key
+        self.model = model or settings.llm_model
+        self.base_url = (base_url or settings.llm_base_url).rstrip("/")
+        self.provider_name = settings.llm_provider
+        self.provider = CompatibleChatProvider(self.provider_name, self.api_key,
+                               self.model, self.base_url)
         self.last_error: Optional[str] = None
-        self._header_style = None      # discovered on the first successful call
 
     @property
     def available(self) -> bool:
-        return bool(self.api_key)
+        return bool(self.provider.api_key and settings.llm_no_retention_confirmed)
 
     def complete(self, system: str, user: str, temperature: float = 0.0,
                  max_tokens: int = 700) -> Optional[str]:
@@ -46,46 +47,12 @@ class LLM:
         endpoint, so both are tried once and the working one is remembered.
         """
         if not self.available:
-            self.last_error = "no api key configured"
+            self.last_error = ("provider no-retention terms not confirmed"
+                               if self.provider.api_key else "no api key configured")
             return None
 
-        payload = {
-            "model": self.model,
-            "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
-            "temperature": temperature,
-            "max_tokens": max_tokens,
-        }
-        styles = [self._header_style] if self._header_style else ["subscription", "bearer"]
-        for style in styles:
-            headers = ({"api-subscription-key": self.api_key} if style == "subscription"
-                       else {"Authorization": f"Bearer {self.api_key}"})
-            headers["Content-Type"] = "application/json"
-            try:
-                response = requests.post(f"{self.base_url}/v1/chat/completions",
-                                         headers=headers, json=payload, timeout=TIMEOUT)
-            except requests.RequestException as e:
-                self.last_error = f"{type(e).__name__}: {e}"
-                continue
-            if response.status_code in (401, 403):
-                self.last_error = f"HTTP {response.status_code} with {style} header"
-                continue
-            if not response.ok:
-                self.last_error = f"HTTP {response.status_code}: {response.text[:200]}"
-                continue
-            try:
-                self._header_style = style
-                message = response.json()["choices"][0]["message"]
-            except (ValueError, KeyError, IndexError) as e:
-                self.last_error = f"unexpected response shape: {type(e).__name__}"
-                return None
-            # A reasoning model leaves `content` null and puts its working in `reasoning_content`
-            # until the token budget allows an answer. Prefer the answer, fall back to the working.
-            content = message.get("content") or message.get("reasoning_content") or ""
-            if not content.strip():
-                self.last_error = "model returned an empty reply; raise max_tokens"
-                return None
-            return content
-        return None
+        content, self.last_error = self.provider.complete(system, user, temperature, max_tokens)
+        return content
 
     def complete_json(self, system: str, user: str, **kwargs) -> Optional[dict]:
         """A completion parsed as JSON, tolerating the fences models like to add."""

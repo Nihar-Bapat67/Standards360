@@ -1,0 +1,289 @@
+/**
+ * The source dictionary. Every other language is a translation of this file.
+ *
+ * Two rules for anything added here. Keys are grouped by where the string appears, so a translator
+ * can see the context. And no key ever contains an IS number, "BIS", "QCO" or any other identifier:
+ * those are interpolated at render time and never pass through a translator, because transliterating
+ * "IS 269:2015" into a native script would produce a citation nobody can use.
+ */
+
+export const en = {
+  // ── shared ────────────────────────────────────────────────────────────
+  'app.name': 'Standards360',
+  'app.tagline': 'The Indian Standards your tender actually needs.',
+  'nav.signIn': 'Sign in',
+  'nav.findStandard': 'Find the standard',
+  'nav.home': 'Home',
+  'nav.newEnquiry': 'New enquiry',
+  'action.back': 'Back',
+  'action.copy': 'Copy',
+  'action.copied': 'Copied',
+  'action.retry': 'Try again',
+  'action.signOut': 'Sign out',
+  'action.close': 'Close',
+  'language.label': 'Language',
+  'language.unavailable': 'Translation is not configured, so answers stay in English.',
+
+  // ── landing ───────────────────────────────────────────────────────────
+  'landing.eyebrow': 'Department of Consumer Affairs · PS 26108',
+  'landing.headline1': 'The Indian Standards',
+  'landing.headline2': 'your tender actually needs.',
+  'landing.intro':
+    'Drop in a specification, a tender, or a product name. Standards360 names the standard that applies, the allied standards that travel with it, the edition in force, and the certification a bidder must hold — with the BIS clause that proves each one.',
+  'landing.stat.catalogued': 'standards catalogued',
+  'landing.stat.current': 'current',
+  'landing.stat.crossRefs': 'cross-references',
+  'landing.stat.qco': 'under compulsory certification',
+  'landing.problem.label': 'The problem',
+  'landing.problem.heading':
+    'An officer drafting a specification has to find the right standard among tens of thousands, in editions that keep changing.',
+  'landing.problem.body':
+    'Scopes overlap. Revisions are frequent. Normative references have to be cited too. So tenders omit standards that apply, cite editions that were withdrawn years ago, or carry requirements that cannot be tested — and the dispute surfaces after the contract is awarded.',
+  'landing.problem.withdrawn': 'withdrawn standards still citable in a document',
+  'landing.problem.replacement': 'of them name their replacement, so the fix is knowable',
+  'landing.problem.labs': 'recognised laboratories',
+  'landing.doors.label': 'Five doors, one engine',
+  'landing.doors.heading': 'Built around how a request actually arrives, not around an ideal query.',
+  'landing.doors.case': 'Case',
+  'landing.doors.arrives': 'What arrives',
+  'landing.doors.response': 'What we do',
+  'landing.doors.s1.arrives': 'A tender with no standards at all',
+  'landing.doors.s1.response': 'Recommend from scratch, each with the BIS clause that supports it',
+  'landing.doors.s2.arrives': 'A tender with standards someone already guessed',
+  'landing.doors.s2.response': 'Judge every citation: keep, replace, remove, or add what is missing',
+  'landing.doors.s3.arrives': 'A screenshot of a specification',
+  'landing.doors.s3.response': 'Read it, then show the extracted text back before acting on it',
+  'landing.doors.s4.arrives': 'Only a product name',
+  'landing.doors.s4.response': 'Ask for the context that decides the answer',
+  'landing.doors.s5.arrives': 'Too little to be confident',
+  'landing.doors.s5.response': 'Stop, say what is missing, and ask rather than guess',
+  'landing.pipeline.label': 'The pipeline',
+  'landing.pipeline.heading': 'Nineteen modules. The search engine is one of them.',
+  'landing.pipeline.body':
+    'Finding a plausible standard is the easy part. The other eighteen modules are what make the answer safe to put inside a government tender.',
+  'landing.stage.understand': 'Understand',
+  'landing.stage.understand.detail':
+    'Read the tender, extract the requirement, note what it never specified',
+  'landing.stage.retrieve': 'Retrieve',
+  'landing.stage.retrieve.detail': 'Dense vectors, BM25, titles and citations, fused by rank',
+  'landing.stage.expand': 'Expand',
+  'landing.stage.expand.detail':
+    'Walk the cross-reference graph two hops, grouped by the role each standard plays',
+  'landing.stage.verify': 'Verify',
+  'landing.stage.verify.detail':
+    'Resolve the edition in force, attach amendments, check the certification order and the labs',
+  'landing.stage.deliver': 'Deliver',
+  'landing.stage.deliver.detail':
+    'Guard every number against the catalogue, then write the annexure',
+  'landing.promise1.title': 'Every number is checked before it is shown',
+  'landing.promise1.body':
+    'The only component that can write a standard number that does not exist is the sentence a language model composes. That sentence is checked against the full catalogue before anyone reads it, and anything not found is deleted rather than softened.',
+  'landing.promise2.title': 'A blank field says so',
+  'landing.promise2.body':
+    'BIS leaves certification unstated for most standards. Where that is the case the answer says so, never that it is not required. The difference matters to a bidder who would otherwise ship without a licence.',
+  'landing.promise3.title': 'It asks rather than guesses',
+  'landing.promise3.body':
+    'When the required facts for a product category are missing, the engine says which ones and asks. A confident answer built on absent information is the one failure this product cannot afford.',
+  'landing.cta.heading1': 'Conversation in,',
+  'landing.cta.heading2': 'document out.',
+  'landing.cta.body':
+    'The intake is a conversation because that is how missing information gets found. The answer is an annexure you can attach to the tender, because that is how a tender carries it.',
+  'landing.footer':
+    'Copyright in every Indian Standard vests in BIS. Standards360 stores short extracts and always cites the source; it never reproduces a standard in full.',
+
+  // ── workspace ─────────────────────────────────────────────────────────
+  'workspace.intake': 'Intake',
+  'workspace.heading.officer': 'Which standards must this tender cite?',
+  'workspace.heading.manufacturer': 'Which standards must this product comply with?',
+  'workspace.intro':
+    'Drop the tender, paste a clause, or just name the item. Where something the answer depends on is missing, the engine will ask rather than guess.',
+  'workspace.tryOne': 'Try one',
+  'workspace.newEnquiry': 'New enquiry',
+  'workspace.search': 'Search',
+  'workspace.emptyHistory': 'Your enquiries appear here. They stay in this browser.',
+  'workspace.noMatchSearch': 'Nothing matched that.',
+  'workspace.answeringAs': 'Answering as',
+  'workspace.officer': 'Officer',
+  'workspace.manufacturer': 'Manufacturer',
+  'workspace.personaOfficer': 'Certification is phrased as a bidder eligibility condition.',
+  'workspace.personaManufacturer': 'Certification is phrased as your own licensing obligation.',
+  'workspace.runsOffline': 'runs offline',
+  'workspace.applicableStandards': 'Applicable standards',
+  'workspace.openResults': 'Open',
+  'workspace.pin': 'Pin this enquiry',
+  'workspace.unpin': 'Unpin this enquiry',
+  'workspace.delete': 'Delete this enquiry',
+  'workspace.openMenu': 'Open your enquiries',
+
+  // ── composer ──────────────────────────────────────────────────────────
+  'composer.placeholder': 'Describe the item, or paste a clause from the tender',
+  'composer.placeholderShort': 'Describe the item',
+  'composer.dropHere': 'Drop the file to read it',
+  'composer.attach': 'Attach a tender, specification or screenshot',
+  'composer.send': 'Send',
+  'composer.hint':
+    'Enter to send, Shift+Enter for a new line. Uploads are read in memory and deleted immediately — a pre-tender document never lands on disk.',
+  'composer.hintShort': 'Uploads are never written to disk.',
+  'composer.badType': 'That file type cannot be read. Use a PDF, DOCX, text file or a screenshot.',
+  'composer.tooBig': 'That file is larger than 25 MB. Try the specification pages on their own.',
+
+  // ── the engine working ────────────────────────────────────────────────
+  'stages.working': 'Working',
+  'stages.loading': 'Loading the models. After a restart this takes a minute.',
+  'stages.B1': 'Read the input',
+  'stages.B2': 'Language',
+  'stages.B3': 'Extract the requirement',
+  'stages.B4': 'Judge existing citations',
+  'stages.B5': 'Check sufficiency',
+  'stages.C1': 'Retrieve',
+  'stages.C2': 'Expand allied standards',
+  'stages.C3': 'Resolve versions',
+  'stages.C4': 'Certification',
+  'stages.D1': 'Guard the prose',
+  'stages.D2': 'Compose the answer',
+
+  // ── clarifying question ───────────────────────────────────────────────
+  'question.label': 'One thing is missing',
+  'question.answer': 'Answer',
+  'question.yourAnswer': 'Your answer',
+  'question.note':
+    'The engine asks instead of guessing. The answer below it is already usable if you would rather press on.',
+  'question.regenerate': 'Regenerate',
+
+  // ── results ───────────────────────────────────────────────────────────
+  'results.conversation': 'Conversation',
+  'results.sharpen': 'This would sharpen the answer',
+  'results.answerIt': 'Answer it',
+  'results.standardApplies': 'The standard that applies',
+  'results.inForce': 'In force',
+  'results.amendment': 'amendment',
+  'results.amendments': 'amendments',
+  'results.isiCompulsory': 'ISI mark compulsory',
+  'results.laboratories': 'laboratories',
+  'results.howToCite': 'How to cite it',
+  'results.amendmentNote':
+    'An amendment changes a standard without replacing it, so the edition year does not move. Cite it as amended.',
+  'results.why': 'Why this standard',
+  'results.whyHint': 'The passage in the standard itself that decides it.',
+  'results.extractNote':
+    'A short extract, quoted with its source. Copyright in the standard vests in BIS.',
+  'results.allied': 'What has to be cited with it',
+  'results.alliedHint':
+    'Reached by following BIS’s own cross-references outward, then grouped by the job each standard does.',
+  'results.alliedNote':
+    'A dot marks a standard the source cited under an older number; the edition in force is shown.',
+  'results.showAll': 'Show all',
+  'results.showFewer': 'Show fewer',
+  'results.certification': 'Testing and certification',
+  'results.certHintOfficer': 'What a bidder must hold, and where the product can be tested.',
+  'results.certHintManufacturer': 'What you must hold before this product may be supplied.',
+  'results.compulsory': 'Compulsory',
+  'results.notStated': 'Not stated by BIS',
+  'results.recognisedLabs': 'Recognised laboratories',
+  'results.labsNote':
+    'BIS-recognised laboratories able to test against this standard, nearest first.',
+  'results.noLabs': 'BIS lists no recognised laboratory against this standard.',
+  'results.inForceSince': 'In force since',
+  'results.citedAlready': 'The standards already cited',
+  'results.citedHint':
+    'Each citation in the tender, judged on whether it exists, whether it is current, and whether it fits this product.',
+  'results.notYetCited': 'Not yet cited',
+  'results.notYetCitedHint': 'Recommended for this product but absent from the tender.',
+  'results.warnings': 'Version warnings',
+  'results.putInTender': 'Put it in the tender',
+  'results.download': 'Download the report',
+  'results.downloading': 'Generating…',
+  'results.annexureOnly': 'Annexure only',
+  'results.refine': 'Refine in the conversation',
+  'results.removed': 'Removed before you saw it',
+  'results.noAnswerTitle': 'There is no answer on this enquiry yet',
+  'results.noAnswerBody':
+    'Ask about an item in the conversation, or drop a tender in, and the applicable standards will appear here.',
+  'results.backToConversation': 'Back to the conversation',
+  'results.noFindings': 'No findings yet',
+  'results.noMatch': 'No match',
+  'results.noMatchBody':
+    'Nothing in the corpus matched this description closely enough to name a standard. That is the honest answer rather than the nearest guess. Adding the product type, the grade or the application usually resolves it.',
+  'verdict.keep': 'Keep',
+  'verdict.replace': 'Replace',
+  'verdict.remove': 'Remove',
+  'verdict.add': 'Add',
+  'verdict.verify': 'Verify',
+  'relation.normative_reference': 'Normative references',
+  'relation.test_method': 'Test methods',
+  'relation.terminology': 'Terminology',
+  'relation.safety': 'Safety',
+  'relation.installation': 'Installation',
+  'relation.related_product': 'Related products',
+
+  // ── standard detail ───────────────────────────────────────────────────
+  'standard.label': 'Standard',
+  'standard.withdrawn': 'Withdrawn',
+  'standard.amendmentsInForce': 'Amendments in force',
+  'standard.alliedByRole': 'Allied standards, by role',
+  'standard.whereTested': 'Where it can be tested',
+  'standard.notAvailable': 'Not available',
+
+  // ── sign in ───────────────────────────────────────────────────────────
+  'auth.startFree': 'Start for free',
+  'auth.welcomeBack': 'Welcome back',
+  'auth.createAccount': 'Create new account',
+  'auth.signIn': 'Sign in',
+  'auth.alreadyMember': 'Already a member?',
+  'auth.noAccount': 'No account yet?',
+  'auth.logIn': 'Log in',
+  'auth.createOne': 'Create one',
+  'auth.google': 'Continue with Google',
+  'auth.or': 'or',
+  'auth.firstName': 'First name',
+  'auth.lastName': 'Last name',
+  'auth.email': 'Email',
+  'auth.officialEmail': 'Official email',
+  'auth.organisation': 'Department or organisation',
+  'auth.role': 'I am drafting or supplying as',
+  'auth.state': 'State',
+  'auth.selectState': 'Select a state',
+  'auth.password': 'Password',
+  'auth.confirmPassword': 'Confirm password',
+  'auth.backHome': 'Back to the home page',
+  'auth.working': 'Working…',
+  'auth.required': 'Required.',
+  'auth.emailRequired': 'An email is required.',
+  'auth.emailInvalid': 'That does not look like an email address.',
+  'auth.passwordRequired': 'A password is required.',
+  'auth.passwordShort': 'Use at least 8 characters.',
+  'auth.passwordMismatch': 'The two passwords do not match.',
+  'auth.stateRequired': 'Required — it decides which laboratories are listed.',
+  'auth.googleUnavailable':
+    'Google sign-in needs credentials and a session endpoint on the API, which are not configured yet. Use the form below in the meantime.',
+  'auth.notice':
+    'Accounts are not issued yet: nothing here is verified and no password is stored or sent. Your role and state are kept in this browser so the engine can word certification correctly and list the nearest laboratories.',
+  'auth.panel.label': 'Why an account helps',
+  'auth.panel.heading': 'The same answer, worded for the person who has to act on it.',
+  'auth.panel.item1': 'Certification in your own terms',
+  'auth.panel.item1body':
+    'An officer is told what to require of bidders. A manufacturer is told what licence to hold before supplying.',
+  'auth.panel.item2': 'Laboratories near you',
+  'auth.panel.item2body':
+    'Your state puts the recognised testing laboratories in your own region at the top of the list.',
+  'auth.panel.item3': 'Your enquiries stay yours',
+  'auth.panel.item3body':
+    'Conversations are kept in this browser. A pre-tender document is read in memory and never written to disk.',
+
+  // ── errors ────────────────────────────────────────────────────────────
+  'error.title': 'That did not work',
+  'error.unreachable':
+    'The engine is not answering. If you are running it yourself, check that the API is up on port 8000.',
+  'error.tooLarge': 'That file is larger than 25 MB. Try the specification pages on their own.',
+  'error.badType': 'That file type cannot be read. Use a PDF, DOCX, text file or a screenshot.',
+  'error.notEnough': 'There was not enough here to analyse.',
+  'error.loading': 'The engine is still loading its models. This takes about a minute after a restart.',
+  'error.server': 'The engine failed while answering. The details are in the server log.',
+  'error.generic': 'Something went wrong.',
+  'error.timeout': 'The request took too long and was stopped.',
+  'error.documentFailed': 'The document could not be generated.',
+  'error.standardMissing': 'is not in the BIS catalogue.',
+} as const
+
+export type TranslationKey = keyof typeof en
+export type Dictionary = Partial<Record<TranslationKey, string>>

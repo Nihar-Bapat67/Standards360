@@ -85,6 +85,35 @@ POST /v1/document/upload      the officer's own PDF with the annexure appended
 GET  /v1/standard/{is}        everything the catalogue holds about one standard
 ```
 
+## Languages
+
+The interface and the answers are available in English, Hindi and Marathi. Module B2
+(`app/understand/language.py`) detects the language a request arrives in, translates it to English
+for retrieval — the clause index, the title index and the cross-encoder are all English — and writes
+the answer back in the reader's language.
+
+Two rules govern it. **Identifiers are never translated.** Left alone a translator transliterates
+them, so "IS 269:2015" comes back as "आई.एस. 269:2015" and BIS as "बी.आई.एस.", and a citation written
+that way cannot be pasted into a tender. Every identifier is masked before translation and restored
+after, and a string that loses one falls back to English rather than shipping a broken citation.
+**Authoritative BIS text is never translated at all** — a quoted clause and an official title stay
+exactly as BIS published them, and only the writing around them is translated.
+
+Interface strings live in `web/src/i18n/`. English is the source of truth in `en.ts`; the other
+dictionaries are generated and committed, and any key missing from one falls back to English:
+
+```
+python ingest/translate_ui.py --only hi mr     regenerate after changing en.ts
+python ingest/translate_ui.py --check          coverage per language
+```
+
+Without a configured LLM key, the whole thing still runs: language detection falls back to a Unicode
+script heuristic, translation is skipped, and answers come back in English. Hosted LLM calls are
+also disabled unless `LLM_NO_RETENTION_CONFIRMED=true` is explicitly set after confirming that the
+selected provider guarantees no retention for tender/specification data. Configure `LLM_PROVIDER`,
+`LLM_MODEL`, `LLM_BASE_URL` and `LLM_API_KEY` for a chat-compatible provider; Sarvam remains the
+default and `SARVAM_API_KEY` continues to supply translation credentials.
+
 ## Configuration
 
 Copy `.env.example` to `.env`. Every value is optional — the engine runs without a language-model
@@ -131,9 +160,13 @@ Eighteen of nineteen modules are built, with 96 tests passing. On the frozen 50-
 engine scores **Hit@1 0.820, Hit@3 0.960, Hit@5 0.960 and MRR@5 0.887**, against a corpus of 467
 standards with full text. Both of the build manual's retrieval targets are met.
 
-What remains is B2, the multilingual path: the intake accepts other languages and B5 returns its
-questions in them, but there is no detection-and-translation step before retrieval, so non-English
-input is unmeasured.
+B2, the multilingual path, is now built: a Hindi tender is detected, translated for retrieval, and
+answered in Hindi with every IS number intact. All nineteen modules exist.
+
+Two honest limits. Interface translation currently covers Hindi and Marathi; the other Indian
+languages need the generator re-run against an account with credits, and until then they would fall
+back to English. And multilingual retrieval accuracy is not measured — the gold set is English, so
+the Hindi path is verified to work but not scored.
 
 See `CLAUDE.md` for the decisions taken during the build and the measurements behind them, and
 `docs/04-build-manual.md` for the plan.

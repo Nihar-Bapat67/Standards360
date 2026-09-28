@@ -6,6 +6,8 @@ import { Atmosphere } from '../components/Atmosphere'
 import { AssistantMessage, Composer, StageStream, UserMessage } from '../components/Chat'
 import { Sidebar } from '../components/Sidebar'
 import { Icon, Label } from '../components/ui'
+import { LanguageSelector } from '../components/LanguageSelector'
+import { useT } from '../i18n'
 import { useAnalysis } from '../hooks/useAnalysis'
 import { type Conversation, type Message, newId, store, titleFor } from '../services/conversations'
 import { profile } from '../services/profile'
@@ -31,6 +33,7 @@ const EXAMPLES = [
 ]
 
 export function Workspace() {
+  const t = useT()
   const navigate = useNavigate()
   const [params, setParams] = useSearchParams()
 
@@ -101,13 +104,8 @@ export function Workspace() {
       }
       persist({ ...conversation, messages: [...conversation.messages, assistant] })
 
-      // The answer is a document, not a chat reply, so it opens on its own page as soon as a
-      // standard has been named. B5 nearly always has one more question to ask, so waiting for it to
-      // run out would mean the results page never opened by itself; the outstanding question is
-      // carried onto that page instead, with a way back to answer it.
-      if (result?.primary) navigate(`/results/${conversation.id}`)
     },
-    [analysis.stages, navigate, persist],
+    [analysis.stages, persist],
   )
 
   const send = useCallback(
@@ -117,9 +115,10 @@ export function Workspace() {
       const withUser = persist({ ...conversation, messages: [...conversation.messages, user] })
 
       const result = await analysis.runText({
-        text: conversationText(withUser),
+        text,
         persona,
         answers: Object.keys(withUser.answers).length ? withUser.answers : null,
+        ...contextFor(withUser),
       })
       finish(withUser, result, result ? null : analysis.error ?? 'The engine failed while answering.')
     },
@@ -138,7 +137,7 @@ export function Workspace() {
       }
       const withUser = persist({ ...conversation, messages: [...conversation.messages, user] })
 
-      const result = await analysis.runFile(file, persona)
+      const result = await analysis.runFile(file, persona, null, contextFor(withUser))
       finish(withUser, result, result ? null : analysis.error ?? 'The engine could not read that file.')
     },
     [analysis, ensureConversation, finish, persist, persona],
@@ -152,7 +151,12 @@ export function Workspace() {
       const user: Message = { id: newId(), role: 'user', text: value, at: Date.now() }
       const withAnswer = persist({ ...active, answers, messages: [...active.messages, user] })
 
-      const result = await analysis.runText({ text: conversationText(withAnswer), persona, answers })
+      const result = await analysis.runText({
+        text: value,
+        persona,
+        answers,
+        ...contextFor(withAnswer),
+      })
       finish(withAnswer, result, result ? null : analysis.error ?? 'The engine failed while answering.')
     },
     [active, analysis, finish, persist, persona],
@@ -169,9 +173,10 @@ export function Workspace() {
     persist(withoutLast)
 
     const result = await analysis.runText({
-      text: conversationText(withoutLast),
+      text: lastUser.text,
       persona,
       answers: Object.keys(withoutLast.answers).length ? withoutLast.answers : null,
+      ...contextFor(withoutLast),
     })
     finish(withoutLast, result, result ? null : analysis.error ?? 'The engine failed while answering.')
   }, [active, analysis, finish, persist, persona])
@@ -262,7 +267,7 @@ export function Workspace() {
           <button
             type="button"
             onClick={() => setSidebarOpen(true)}
-            aria-label="Open your enquiries"
+            aria-label={t('workspace.openMenu')}
             className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/8 bg-white/[0.03] text-secondary lg:hidden"
           >
             <Icon.Menu />
@@ -270,16 +275,19 @@ export function Workspace() {
 
           <div className="min-w-0 flex-1">
             <p className="truncate text-[14px] font-medium text-text">
-              {active ? titleFor(active) : 'New enquiry'}
+              {active ? titleFor(active) : t('workspace.newEnquiry')}
             </p>
             <p className="mono truncate text-[11px] text-muted">
-              {persona === 'procurement' ? 'Procurement officer' : 'Manufacturer'} · runs offline
+              {persona === 'procurement' ? t('workspace.officer') : t('workspace.manufacturer')} ·{' '}
+              {t('workspace.runsOffline')}
             </p>
           </div>
 
+          <LanguageSelector compact />
+
           {answered && activeId && (
             <Link to={`/results/${activeId}`} className="btn btn-ghost h-9 px-3.5 text-[12.5px]">
-              Applicable standards
+              {t('workspace.applicableStandards')}
               <Icon.Arrow />
             </Link>
           )}
@@ -300,6 +308,7 @@ export function Workspace() {
                   message={message}
                   isActive={message.id === messages[messages.length - 1]?.id}
                   onAnswer={answer}
+                  onFollowup={send}
                   onRetry={retry}
                   onOpenFindings={() => activeId && navigate(`/results/${activeId}`)}
                 />
@@ -321,6 +330,7 @@ export function Workspace() {
 /* ── empty state ──────────────────────────────────────────────────────── */
 
 function Welcome({ onPick, persona }: { onPick: (text: string) => void; persona: Persona }) {
+  const t = useT()
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}
@@ -328,19 +338,18 @@ function Welcome({ onPick, persona }: { onPick: (text: string) => void; persona:
       transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
       className="pt-10"
     >
-      <Label className="text-amber">Intake</Label>
+      <Label className="text-amber">{t('workspace.intake')}</Label>
       <h1 className="mt-4 text-[clamp(1.5rem,4vw,2rem)] font-semibold leading-tight tracking-[-0.025em]">
         {persona === 'procurement'
-          ? 'Which standards must this tender cite?'
-          : 'Which standards must this product comply with?'}
+          ? t('workspace.heading.officer')
+          : t('workspace.heading.manufacturer')}
       </h1>
       <p className="mt-4 max-w-lg text-[15px] leading-relaxed text-secondary">
-        Drop the tender, paste a clause, or just name the item. Where something the answer depends on is
-        missing, the engine will ask rather than guess.
+        {t('workspace.intro')}
       </p>
 
       <div className="mt-8">
-        <Label>Try one</Label>
+        <Label>{t('workspace.tryOne')}</Label>
         <div className="mt-3 grid gap-2">
           {EXAMPLES.map((example) => (
             <button
@@ -365,9 +374,10 @@ function Welcome({ onPick, persona }: { onPick: (text: string) => void; persona:
  * own words are joined in order; the answers to clarifying questions travel separately in the
  * `answers` field, which is what B5 merges into the requirement.
  */
-function conversationText(conversation: Conversation): string {
-  return conversation.messages
-    .filter((message) => message.role === 'user' && message.text.trim())
-    .map((message) => message.text.trim())
-    .join('. ')
+function contextFor(conversation: Conversation) {
+  const previous = [...conversation.messages].reverse().find((message) => message.result?.requirement)
+  return {
+    history: conversation.messages.slice(-9, -1).map(({ role, text }) => ({ role, text })),
+    previous_requirement: previous?.result?.requirement ?? null,
+  }
 }

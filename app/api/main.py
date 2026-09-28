@@ -35,7 +35,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from app.deliver.document import DocumentGenerator  # noqa: E402
 from app.pipeline import AnalysisResult, Pipeline  # noqa: E402
-from contracts.analysis import CertificationAnswer  # noqa: E402
+from app.understand.language import supported as supported_languages  # noqa: E402
+from contracts.analysis import CertificationAnswer, LabAnswer  # noqa: E402
 from contracts.answer import CitationVerdict  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent.parent
@@ -57,6 +58,26 @@ class AnalyzeRequest(BaseModel):
     state: Optional[str] = Field(default=None, description="Used to list the nearest testing laboratories")
     answers: Optional[Dict[str, str]] = Field(default=None,
                                               description="Replies to the questions of a previous call")
+    history: List[Dict[str, str]] = Field(default_factory=list, max_length=16,
+                                           description="Recent conversation turns used to resolve follow-ups")
+    previous_requirement: Optional[dict] = Field(default=None,
+                                                  description="Structured requirement from the prior analysis")
+
+
+class LabsRequest(BaseModel):
+    """Where to get a product tested, for the standards an analysis has already recommended.
+
+    The location is optional and may arrive three ways, in decreasing precision: a device coordinate
+    the browser supplied, a town the user typed, or a state. Without any of them the laboratories are
+    still returned, in catalogue order and without distances.
+    """
+    model_config = ConfigDict(extra="forbid")
+
+    standards: List[str] = Field(..., description="IS numbers, as returned by /v1/analyze")
+    lat: Optional[float] = Field(default=None, ge=-90, le=90)
+    lon: Optional[float] = Field(default=None, ge=-180, le=180)
+    place: Optional[str] = Field(default=None, description="A town or state the user typed")
+    limit: int = Field(default=8, ge=1, le=50)
 
 
 class OptionOut(BaseModel):
@@ -100,8 +121,10 @@ class AnalyzeResponse(BaseModel):
     evidence: List[EvidenceOut] = Field(default_factory=list)
     explanation: str = ""
     removed_by_guard: List[str] = Field(default_factory=list)
+    language: str = Field(default="en", description="The language this answer is written in")
     pdf_url: Optional[str] = Field(default=None, description="Filled once D3 generates the document")
     seconds: float = 0.0
+    intent: str = "standards_recommendation"
 
 
 # ---------------------------------------------------------------- application
@@ -149,14 +172,16 @@ def analyze(request: AnalyzeRequest):
         raise HTTPException(status_code=422, detail="text must not be empty")
     pipeline: Pipeline = app.state.pipeline
     result = pipeline.analyze(text=request.text, persona=request.persona,
-                              language="en" if request.lang == "auto" else request.lang,
-                              answers=request.answers, state=request.state)
+                              language=request.lang,
+                              answers=request.answers, state=request.state,
+                              history=request.history, previous_requirement=request.previous_requirement)
     return _shape(result)
 
 
 @app.post("/v1/analyze/upload", response_model=AnalyzeResponse)
 async def analyze_upload(file: UploadFile = File(...), persona: str = Form("procurement"),
-                         state: Optional[str] = Form(None), lang: str = Form("auto")):
+                         state: Optional[str] = Form(None), lang: str = Form("auto"),
+                         history: str = Form("[]"), previous_requirement: str = Form("")):
     """Analyse an uploaded tender: PDF, DOCX, text file, or a screenshot."""
     suffix = Path(file.filename or "").suffix.lower()
     if suffix not in ALLOWED_SUFFIXES:
@@ -172,9 +197,17 @@ async def analyze_upload(file: UploadFile = File(...), persona: str = Form("proc
         handle.write(content)
         temporary = handle.name
     try:
+        try:
+            conversation_history = json.loads(history)
+            prior_requirement = json.loads(previous_requirement) if previous_requirement else None
+        except ValueError as error:
+            raise HTTPException(status_code=422, detail="Conversation context must be valid JSON") from error
+        if not isinstance(conversation_history, list):
+            raise HTTPException(status_code=422, detail="Conversation history must be a list")
         pipeline: Pipeline = app.state.pipeline
         result = pipeline.analyze(file_path=temporary, persona=persona, state=state,
-                                  language="en" if lang == "auto" else lang)
+                                  language=lang, history=conversation_history,
+                                  previous_requirement=prior_requirement)
         return _shape(result)
     finally:
         Path(temporary).unlink(missing_ok=True)
@@ -193,7 +226,7 @@ def document(request: DocumentRequest):
         raise HTTPException(status_code=422, detail="text must not be empty")
     pipeline: Pipeline = app.state.pipeline
     result = pipeline.analyze(text=request.text, persona=request.persona,
-                              language="en" if request.lang == "auto" else request.lang,
+                              language=request.lang,
                               answers=request.answers, state=request.state)
     return _pdf_response(result, request.option_id, request.mode, request.persona,
                          request.reference, original=None)
@@ -248,8 +281,9 @@ def analyze_stream(request: AnalyzeRequest):
         try:
             result = pipeline.analyze(
                 text=request.text, persona=request.persona,
-                language="en" if request.lang == "auto" else request.lang,
+                language=request.lang,
                 answers=request.answers, state=request.state,
+                history=request.history, previous_requirement=request.previous_requirement,
                 on_stage=lambda module, message, detail=None: events.put(
                     ("stage", {"module": module, "message": message, "detail": detail or {}})))
             events.put(("result", _shape(result).model_dump()))
@@ -274,6 +308,42 @@ def analyze_stream(request: AnalyzeRequest):
 
     return StreamingResponse(emit(), media_type="text/event-stream",
                              headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
+
+
+@app.get("/v1/languages")
+def languages():
+    """The languages the interface may offer, and whether translation is actually live.
+
+    `translation` is false when no API key is configured. The product still answers in that state —
+    it simply answers in English — and the interface uses this to say so rather than offering a
+    language switch that silently does nothing.
+    """
+    pipeline: Pipeline = app.state.pipeline
+    return {"languages": supported_languages(), "translation": pipeline.language.available}
+
+
+@app.post("/v1/labs", response_model=LabAnswer)
+def labs(request: LabsRequest):
+    """Module C4.5: the BIS-recognised laboratories that can test these standards, nearest first.
+
+    Separate from /v1/analyze on purpose. The user grants location access after they have seen which
+    standards apply, and re-running the whole pipeline to answer a follow-up question about
+    laboratories would cost seconds for no benefit — this is a catalogue lookup and some arithmetic.
+    """
+    if not [n for n in request.standards if n.strip()]:
+        raise HTTPException(status_code=422, detail="standards must not be empty")
+    pipeline: Pipeline = app.state.pipeline
+    finder = pipeline.certification.finder
+    origin = finder.resolve_origin(lat=request.lat, lon=request.lon, place=request.place)
+    if origin is None and (request.place or "").strip():
+        # The town was not recognised. Say so rather than quietly returning an unordered list that
+        # looks as though the location was understood.
+        answer = finder.find(request.standards, None, limit=request.limit)
+        answer.note = (f"“{request.place.strip()}” was not recognised as a town or state holding a "
+                       f"BIS-recognised laboratory, so no distances are shown. Try a nearby city, or "
+                       f"share your location.")
+        return answer
+    return finder.find(request.standards, origin, limit=request.limit)
 
 
 @app.get("/v1/meta")
@@ -314,6 +384,7 @@ def meta():
             "qco": one("SELECT COUNT(*) FROM standards WHERE qco_status IS NOT NULL AND qco_status <> ''"),
             "labs": one("SELECT COUNT(DISTINCT name) FROM labs"),
             "lab_states": one("SELECT COUNT(DISTINCT state) FROM labs"),
+            "labs_with_contact": one("SELECT COUNT(*) FROM lab_directory WHERE phone <> ''"),
         },
         "index": {"model": index.get("model"), "clauses": index.get("rows_indexed"),
                   "standards": index.get("standards_indexed"), "built_at": index.get("built_at")},
@@ -393,7 +464,9 @@ def _shape(result: AnalysisResult) -> AnalyzeResponse:
         evidence=evidence,
         explanation=recommendation.explanation,
         removed_by_guard=recommendation.removed_by_guard,
+        language=getattr(result, "language", "en"),
         seconds=result.seconds,
+        intent=result.plan.intent,
     )
 
 

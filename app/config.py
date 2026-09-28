@@ -49,29 +49,49 @@ class Settings:
     sarvam_api_key: Optional[str]
     sarvam_chat_model: str
     sarvam_base_url: str
+    llm_provider: str
+    llm_api_key: Optional[str]
+    llm_model: str
+    llm_base_url: str
+    llm_no_retention_confirmed: bool
     bis_contact: Optional[str]
 
     @property
     def has_llm(self) -> bool:
         """Whether a language model is available. Every module must work without one."""
-        return bool(self.sarvam_api_key)
+        return bool(self.llm_api_key)
 
     def describe(self) -> str:
         """Safe to print or log: says whether a key is present, never what it is."""
-        return (f"Sarvam key {'present' if self.has_llm else 'absent'}, "
-                f"model {self.sarvam_chat_model}")
+        return (f"LLM provider {self.llm_provider}, key {'present' if self.has_llm else 'absent'}, "
+            f"model {self.llm_model}")
 
 
 def _build() -> Settings:
     load_env()
+    provider = os.environ.get("LLM_PROVIDER", "sarvam").strip().lower()
+    defaults = {
+        "sarvam": ("sarvam-105b-conversations", "https://api.sarvam.ai"),
+        "openai": ("gpt-4o-mini", "https://api.openai.com/v1"),
+        "gemini": ("gemini-2.5-flash", "https://generativelanguage.googleapis.com/v1beta/openai"),
+        "groq": ("llama-3.3-70b-versatile", "https://api.groq.com/openai/v1"),
+        "openrouter": ("openai/gpt-4o-mini", "https://openrouter.ai/api/v1"),
+    }
+    default_model, default_url = defaults.get(provider, defaults["sarvam"])
+    sarvam_key = os.environ.get("SARVAM_API_KEY") or None
     return Settings(
-        sarvam_api_key=os.environ.get("SARVAM_API_KEY") or None,
+        sarvam_api_key=sarvam_key,
         # sarvam-m was retired. Of the two replacements, measured on this project's prompts:
         # sarvam-105b reasons first and answers in 10 to 17 s, while sarvam-105b-conversations
         # answers the same extraction in 0.5 s. Latency matters more than depth for our prompts,
         # which only structure or phrase text that the pipeline has already established.
         sarvam_chat_model=os.environ.get("SARVAM_CHAT_MODEL", "sarvam-105b-conversations"),
         sarvam_base_url=os.environ.get("SARVAM_BASE_URL", "https://api.sarvam.ai"),
+        llm_provider=provider,
+        llm_api_key=(os.environ.get("LLM_API_KEY") or (sarvam_key if provider == "sarvam" else None)),
+        llm_model=os.environ.get("LLM_MODEL", os.environ.get("SARVAM_CHAT_MODEL", default_model)),
+        llm_base_url=os.environ.get("LLM_BASE_URL", os.environ.get("SARVAM_BASE_URL", default_url)),
+        llm_no_retention_confirmed=os.environ.get("LLM_NO_RETENTION_CONFIRMED", "false").lower() == "true",
         bis_contact=os.environ.get("BIS_CONTACT") or None,
     )
 

@@ -45,6 +45,7 @@ CSS = """
 body { font-family: sans-serif; font-size: 9.5pt; color: #111; }
 h1 { font-size: 15pt; margin: 0 0 2pt 0; }
 h2 { font-size: 11pt; margin: 14pt 0 4pt 0; color: #14304f; }
+h3 { font-size: 9.5pt; margin: 10pt 0 3pt 0; color: #14304f; }
 p  { margin: 3pt 0; line-height: 1.35; }
 .sub { color: #555; font-size: 8.5pt; margin-bottom: 8pt; }
 table { width: 100%; border: 1px solid #b8c4d0; }
@@ -226,9 +227,22 @@ class DocumentGenerator:
                       '<th width="85">In force from</th><th width="130">Testing</th></tr>')
             parts.append(f"<table>{header}{''.join(rows)}</table>")
         if certification.nearest_labs:
-            labs = "; ".join(f"{self._e(lab.name)} ({self._e(lab.city)})"
-                            for lab in certification.nearest_labs[:4])
-            parts.append(f"<p class='small'>Nearest recognised laboratories: {labs}.</p>")
+            # The manufacturer's whole next step is to ring a laboratory, so the document carries the
+            # address and telephone number rather than only the name. Opening times are deliberately
+            # absent: BIS does not publish them, and the note below says so rather than leaving the
+            # reader to assume the column was forgotten.
+            lab_rows = []
+            for lab in certification.nearest_labs[:4]:
+                address = " ".join((lab.address or "").split())
+                where = ", ".join(part for part in [address, lab.city, lab.state] if part)
+                lab_rows.append(f'<tr><td width="150">{self._e(lab.name)}</td>'
+                                f'<td width="210">{self._e(where)}</td>'
+                                f'<td width="110">{self._e(lab.phone or "not stated")}</td></tr>')
+            header = ('<tr><th width="150">Recognised laboratory</th><th width="210">Address</th>'
+                      '<th width="110">Telephone</th></tr>')
+            parts.append(f"<h3>Where the testing can be done</h3><table>{header}{''.join(lab_rows)}</table>")
+            parts.append("<p class='small'>Laboratory details are BIS records. BIS does not publish "
+                         "opening times, so none are given; telephone before travelling.</p>")
         if certification.not_stated:
             parts.append(f"<p class='small'>BIS states nothing about compulsory certification for "
                          f"{self._e(', '.join(certification.not_stated[:6]))}. That is not a "

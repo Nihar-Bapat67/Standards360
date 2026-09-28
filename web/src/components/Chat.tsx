@@ -6,12 +6,14 @@ import type { Message } from '../services/conversations'
 import { CopyButton, ErrorState, Icon, Label } from './ui'
 import { MODULE_NAMES, formatBytes, relativeTime } from '../lib/format'
 import { useMediaQuery } from '../hooks/useMediaQuery'
+import { useT } from '../i18n'
 
 /* ── the engine working, reported by the engine ───────────────────────────
    These stages are real: each one arrives from the pipeline's own callback as
    that module finishes. Nothing here is on a timer. */
 
 export function StageStream({ stages }: { stages: StageEvent[] }) {
+  const t = useT()
   // C5 reports a confidence score. The engine still computes it and the API still returns it — a
   // procurement portal needs it — but it is not shown to a person here, so its progress line is not
   // shown either.
@@ -21,7 +23,7 @@ export function StageStream({ stages }: { stages: StageEvent[] }) {
     <div className="card-quiet max-w-[440px] p-3.5">
       <div className="flex items-center gap-2">
         <span className="h-1.5 w-1.5 animate-pulse-dot rounded-full bg-amber" />
-        <Label>Working</Label>
+        <Label>{t('stages.working')}</Label>
       </div>
       <div className="mt-3 space-y-1.5">
         <AnimatePresence initial={false}>
@@ -41,7 +43,7 @@ export function StageStream({ stages }: { stages: StageEvent[] }) {
           ))}
         </AnimatePresence>
         {shown.length === 0 && (
-          <p className="text-[12.5px] text-muted">Loading the models. After a restart this takes a minute.</p>
+          <p className="text-[12.5px] text-muted">{t('stages.loading')}</p>
         )}
       </div>
       {shown.length > 0 && (
@@ -86,16 +88,20 @@ function UserMessage({ message }: { message: Message }) {
 function AssistantMessage({
   message,
   onAnswer,
+  onFollowup,
   onRetry,
   onOpenFindings,
   isActive,
 }: {
   message: Message
   onAnswer: (field: string, value: string) => void
+  onFollowup: (text: string) => void
   onRetry: () => void
   onOpenFindings: () => void
   isActive: boolean
 }) {
+  const t = useT()
+
   if (message.error) {
     return (
       <div className="max-w-[min(560px,92%)]">
@@ -125,22 +131,112 @@ function AssistantMessage({
         <QuestionCard questions={result.questions} onAnswer={onAnswer} disabled={!isActive} />
       )}
 
-      {result?.primary && (
-        <button
-          type="button"
-          onClick={onOpenFindings}
-          className="card card-hover group w-full p-4 text-left"
-        >
+      {result?.primary && result.intent !== 'general_question' && (
+        <div className="card w-full p-4">
           <div className="flex items-baseline justify-between gap-3">
             <span className="mono text-[17px] font-medium text-text">{result.primary}</span>
-            <span className="text-[12px] text-amber">Open →</span>
+            {result.intent === 'standards_recommendation' && (
+              <button type="button" onClick={onOpenFindings} className="text-[12px] text-amber">
+                {t('workspace.openResults')} →
+              </button>
+            )}
           </div>
           <p className="mt-1.5 line-clamp-2 text-[13px] leading-snug text-secondary">{result.primary_title}</p>
           <div className="mt-3 flex items-center justify-between">
             <span className="text-[11px] text-muted">{summarise(result)}</span>
-            <span className="text-[12px] text-muted">Applicable standards</span>
+            <span className="text-[12px] text-muted">{t('workspace.applicableStandards')}</span>
           </div>
-        </button>
+        </div>
+      )}
+
+      {!!result?.evidence.length && (
+        <details className="card-quiet max-w-[620px] p-4">
+          <summary className="cursor-pointer text-[13px] font-medium text-text">Why this standard applies</summary>
+          <div className="mt-3 space-y-3">
+            {result.evidence.map((item) => (
+              <div key={`${item.standard}-${item.clause}`}>
+                <p className="mono text-[11px] text-amber">{item.standard} · Clause {item.clause}{item.page ? ` · page ${item.page}` : ''}</p>
+                <blockquote className="mt-2 border-l-2 border-amber/40 pl-3 text-[13px] leading-relaxed text-secondary">
+                  {item.quote}
+                </blockquote>
+              </div>
+            ))}
+          </div>
+        </details>
+      )}
+
+      {!!result && (result.intent === 'test_methods'
+        ? (result.allied.test_method?.length ?? 0) > 0
+        : Object.values(result.allied).some((items) => items.length > 0)) && (
+        <details className="card-quiet max-w-[620px] p-4">
+          <summary className="cursor-pointer text-[13px] font-medium text-text">
+            {result.intent === 'test_methods'
+              ? `Test methods · ${result.allied.test_method?.length ?? 0}`
+              : `Related standards · ${Object.values(result.allied).flat().length}`}
+          </summary>
+          <div className="mt-3 space-y-3">
+            {Object.entries(result.allied)
+              .filter(([relation, items]) => items.length > 0
+                && (result.intent !== 'test_methods' || relation === 'test_method'))
+              .map(([relation, items]) => (
+              <section key={relation}>
+                <p className="mono mb-2 text-[10px] uppercase text-muted">{relation.replaceAll('_', ' ')}</p>
+                <ul className="space-y-1.5">
+                  {items.map((item) => (
+                    <li key={`${relation}-${item.is_number}`} className="flex flex-wrap gap-x-2 text-[12.5px]">
+                      <span className="mono text-text">{item.is_number}</span>
+                      <span className="text-secondary">{item.title}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </div>
+        </details>
+      )}
+
+      {!!result?.verdicts.length && (
+        <details className="card-quiet max-w-[620px] p-4">
+          <summary className="cursor-pointer text-[13px] font-medium text-text">
+            Tender citations · {result.verdicts.length} decisions
+          </summary>
+          <ul className="mt-3 space-y-2">
+            {result.verdicts.map((verdict) => (
+              <li key={`${verdict.citation}-${verdict.verdict}`} className="flex flex-wrap gap-x-2 text-[12.5px]">
+                <span className="mono text-text">{verdict.citation}</span>
+                <span className="rounded-md bg-white/[0.06] px-1.5 py-0.5 text-[10px] uppercase text-amber">{verdict.verdict}</span>
+                <span className="text-secondary">{verdict.reason}</span>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+
+      {result?.certification && (
+        <div className="max-w-[620px] border-l-2 border-amber/50 pl-3 text-[12.5px] leading-relaxed text-secondary">
+          {result.certification.statement}
+        </div>
+      )}
+
+      {!!result?.warnings.length && (
+        <ul className="max-w-[620px] space-y-2">
+          {result.warnings.map((warning, index) => (
+            <li key={`${warning.cited}-${index}`} className="rounded-lg border border-amber/20 bg-amber/[0.04] px-3 py-2 text-[12px] text-secondary">
+              {warning.message}{warning.action ? ` ${warning.action}` : ''}
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {result?.primary && ['standards_recommendation', 'standard_lookup'].includes(result.intent) && (
+        <div className="flex flex-wrap gap-2">
+          <button type="button" onClick={() => onFollowup('Show the test methods for this item')} className="btn btn-ghost h-8 px-3 text-[11.5px]">
+            Find test methods
+          </button>
+          <button type="button" onClick={() => onFollowup('Check the certification requirements for this item')} className="btn btn-ghost h-8 px-3 text-[11.5px]">
+            Check certification
+          </button>
+        </div>
       )}
 
       {message.text && (
@@ -152,7 +248,7 @@ function AssistantMessage({
             className="inline-flex h-7 items-center gap-1.5 rounded-lg border border-white/8 bg-white/[0.03] px-2.5 text-[11px] text-secondary transition-colors hover:border-white/16 hover:text-text"
           >
             <Icon.Retry />
-            Regenerate
+            {t('question.regenerate')}
           </button>
           <span className="text-[11px] text-muted">{relativeTime(message.at)}</span>
         </div>
@@ -170,6 +266,7 @@ function QuestionCard({
   onAnswer: (field: string, value: string) => void
   disabled: boolean
 }) {
+  const t = useT()
   const [typed, setTyped] = useState('')
   const question = questions[0]
 
@@ -179,7 +276,7 @@ function QuestionCard({
 
   return (
     <div className="rounded-[20px] border border-[rgb(255_138_91/0.26)] bg-[rgb(255_138_91/0.055)] p-4">
-      <Label className="text-amber">One thing is missing</Label>
+      <Label className="text-amber">{t('question.label')}</Label>
       <p className="mt-2.5 text-[14.5px] leading-relaxed text-text">{question.ask}</p>
 
       {choices.length > 0 ? (
@@ -212,18 +309,17 @@ function QuestionCard({
             value={typed}
             onChange={(event) => setTyped(event.target.value)}
             disabled={disabled}
-            placeholder="Your answer"
+            placeholder={t('question.yourAnswer')}
             className="h-10 flex-1 rounded-xl border border-white/10 bg-black/25 px-3.5 text-[13.5px] text-text placeholder:text-muted focus:border-amber/50 focus:outline-none"
           />
           <button type="submit" disabled={disabled || !typed.trim()} className="btn btn-ghost h-10 px-4 text-[13px]">
-            Answer
+            {t('question.answer')}
           </button>
         </form>
       )}
 
       <p className="mt-3 text-[11.5px] text-muted">
-        The engine asks instead of guessing. The answer below it is already usable if you would rather
-        press on.
+        {t('question.note')}
       </p>
     </div>
   )
@@ -285,13 +381,14 @@ export function Composer({
   onSend,
   onFile,
   busy,
-  placeholder = 'Describe the item, or paste a clause from the tender',
+  placeholder,
 }: {
   onSend: (text: string) => void
   onFile: (file: File) => void
   busy: boolean
   placeholder?: string
 }) {
+  const t = useT()
   const narrow = useMediaQuery('(max-width: 640px)')
   const [text, setText] = useState('')
   const [fileError, setFileError] = useState<string | null>(null)
@@ -328,11 +425,11 @@ export function Composer({
     if (!file) return
     const suffix = `.${file.name.split('.').pop()?.toLowerCase() ?? ''}`
     if (!ACCEPT.includes(suffix)) {
-      setFileError('That file type cannot be read. Use a PDF, DOCX, text file or a screenshot.')
+      setFileError(t('composer.badType'))
       return
     }
     if (file.size > MAX_BYTES) {
-      setFileError('That file is larger than 25 MB. Try the specification pages on their own.')
+      setFileError(t('composer.tooBig'))
       return
     }
     onFile(file)
@@ -379,7 +476,7 @@ export function Composer({
         </button>
 
         <label className="sr-only" htmlFor="composer">
-          Describe the item or paste a clause
+          {t('composer.placeholder')}
         </label>
         <textarea
           ref={area}
@@ -390,7 +487,11 @@ export function Composer({
           onChange={(event) => setText(event.target.value)}
           onKeyDown={keyDown}
           placeholder={
-            dragging ? 'Drop the file to read it' : narrow ? 'Describe the item' : placeholder
+            dragging
+              ? t('composer.dropHere')
+              : narrow
+                ? t('composer.placeholderShort')
+                : (placeholder ?? t('composer.placeholder'))
           }
           className="max-h-[168px] min-h-[44px] flex-1 resize-none bg-transparent px-1 py-3 text-[14.5px] leading-snug text-text placeholder:text-muted focus:outline-none disabled:opacity-50"
         />
@@ -408,10 +509,9 @@ export function Composer({
 
       <p className="mt-2 px-1 text-[11px] leading-snug text-muted">
         <span className="hidden sm:inline">
-          Enter to send, Shift+Enter for a new line. Uploads are read in memory and deleted immediately
-          — a pre-tender document never lands on disk.
+          {t('composer.hint')}
         </span>
-        <span className="sm:hidden">Uploads are never written to disk.</span>
+        <span className="sm:hidden">{t('composer.hintShort')}</span>
       </p>
     </div>
   )

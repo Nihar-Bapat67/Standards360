@@ -23,10 +23,10 @@ from typing import List, Optional
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from app.catalogue import Catalogue, parse_any_is  # noqa: E402
+from app.core.labs import LabFinder  # noqa: E402
 from app.core.version_resolver import VersionResolver  # noqa: E402
 from contracts.analysis import (  # noqa: E402
     CertificationAnswer,
-    LabSuggestion,
     StandardCertification,
 )
 
@@ -37,9 +37,13 @@ CRS = "Compulsory Registration Scheme (CRS), to be confirmed against the notifie
 
 
 class CertificationEngine:
-    def __init__(self, catalogue: Optional[Catalogue] = None, resolver: Optional[VersionResolver] = None):
+    def __init__(self, catalogue: Optional[Catalogue] = None, resolver: Optional[VersionResolver] = None,
+                 finder: Optional[LabFinder] = None):
         self.cat = catalogue or Catalogue.shared()
         self.resolver = resolver or VersionResolver(self.cat)
+        # C4.5 owns everything about laboratories, so the short list in the certification panel and
+        # the full laboratory page describe the same laboratories in the same order.
+        self.finder = finder or LabFinder(self.cat, self.resolver)
 
     # ---------------------------------------------------------------- public
 
@@ -58,7 +62,7 @@ class CertificationEngine:
         stated = bool(certification) and certification.lower() != "none"
 
         labs = self.cat.labs(record_id)
-        nearest = self._nearest(labs, state)
+        nearest = self.finder.rank(labs, self.finder.resolve_origin(place=state))[:5]
         department = (row["department"] or "")[:4].strip()
         scheme = scheme_basis = None
         if mandatory or qco_status:
@@ -78,7 +82,7 @@ class CertificationEngine:
             scheme=scheme,
             scheme_basis=scheme_basis,
             labs_available=len(labs),
-            nearest_labs=[LabSuggestion(**lab) for lab in nearest],
+            nearest_labs=nearest,
         )
 
     def for_standards(self, is_numbers: List[str], persona: str = "procurement",
@@ -115,16 +119,6 @@ class CertificationEngine:
             return date.fromisoformat(qco_date) <= date.today()
         except ValueError:
             return None
-
-    @staticmethod
-    def _nearest(labs: List[dict], state: Optional[str]) -> List[dict]:
-        """Labs in the user's state first, then the rest. Distance is not in the BIS data."""
-        if not state:
-            return labs[:5]
-        target = state.strip().lower()
-        same = [l for l in labs if (l["state"] or "").strip().lower() == target]
-        others = [l for l in labs if l not in same]
-        return (same + others)[:5]
 
     def _statement(self, mandatory: List[StandardCertification],
                    results: List[StandardCertification], persona: str) -> str:

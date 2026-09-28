@@ -3,10 +3,12 @@ import { Link, useNavigate, useParams } from 'react-router-dom'
 
 import { Atmosphere } from '../components/Atmosphere'
 import { StandardDrawer } from '../components/StandardDrawer'
+import { TestingLabs } from '../components/TestingLabs'
 import { Chip, EmptyState, Icon, Label } from '../components/ui'
 import { ApiError, api, saveBlob } from '../services/api'
 import { type Conversation, store, titleFor } from '../services/conversations'
 import { profile } from '../services/profile'
+import { useT } from '../i18n'
 import type { AlliedStandard, AnalyzeResponse, Option } from '../types/api'
 import {
   RELATION_TINTS,
@@ -32,6 +34,7 @@ import {
  */
 
 export function Results() {
+  const t = useT()
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
   const [conversation, setConversation] = useState<Conversation | null>(null)
@@ -54,6 +57,15 @@ export function Results() {
     result?.options.find((o) => o.id === (selected ?? defaultOption?.id)) ?? defaultOption
 
   const persona = conversation?.persona ?? profile.get()?.role ?? 'procurement'
+
+  // Which standards the laboratory search covers: whatever citation depth the user is looking at,
+  // so that changing the depth changes the laboratories too. TestingLabs re-fetches on the
+  // contents of this array rather than its identity, so it does not need memoising here.
+  const labStandards = option?.standards.length
+    ? option.standards
+    : result?.primary
+      ? [result.primary]
+      : []
 
   const download = async (mode: 'annexure' | 'report') => {
     if (!conversation || !option) return
@@ -123,17 +135,17 @@ export function Results() {
         {result.questions.length > 0 && (
           <div className="mt-8 flex flex-col gap-3 rounded-[20px] border border-[rgb(255_138_91/0.26)] bg-[rgb(255_138_91/0.055)] p-5 sm:flex-row sm:items-center">
             <div className="min-w-0 flex-1">
-              <Label className="text-amber">This would sharpen the answer</Label>
+              <Label className="text-amber">{t('results.sharpen')}</Label>
               <p className="mt-2 text-[14.5px] leading-snug text-text">{result.questions[0].ask}</p>
             </div>
             <button type="button" onClick={backToChat} className="btn btn-ghost shrink-0 px-5">
-              Answer it
+              {t('results.answerIt')}
             </button>
           </div>
         )}
 
         <section className="pt-10 sm:pt-14">
-          <Label className="text-amber">The standard that applies</Label>
+          <Label className="text-amber">{t('results.standardApplies')}</Label>
 
           <div className="mt-5 flex flex-wrap items-baseline gap-x-5 gap-y-2">
             <button
@@ -148,7 +160,7 @@ export function Results() {
           <p className="mt-3 max-w-3xl text-[16px] leading-relaxed text-secondary">{result.primary_title}</p>
 
           <div className="mt-5 flex flex-wrap gap-2">
-            <Chip>In force</Chip>
+            <Chip>{t('results.inForce')}</Chip>
             {result.amendments.length > 0 && (
               <Chip tone="warm">
                 {result.amendments.length} amendment{result.amendments.length === 1 ? '' : 's'}
@@ -160,7 +172,7 @@ export function Results() {
 
           {result.amendments.length > 0 && (
             <div className="card mt-7 p-6">
-              <Label>How to cite it</Label>
+              <Label>{t('results.howToCite')}</Label>
               <p className="mt-3 text-[14.5px] leading-relaxed text-secondary">
                 {result.amendments.map((a) => `${a.number} (${a.year})`).join(' · ')}. An amendment changes
                 a standard without replacing it, so the edition year does not move. Cite it as amended.
@@ -179,7 +191,7 @@ export function Results() {
 
         {/* ── 2 · the proof ──────────────────────────────────────────── */}
         {evidence && (
-          <Section title="Why this standard" hint="The passage in the standard itself that decides it.">
+          <Section title={t('results.why')} hint={t('results.whyHint')}>
             <div className="card p-6">
               <p className="mono text-[11px] text-amber">
                 {evidenceWhere(evidence.clause, evidence.role, evidence.page)}
@@ -200,7 +212,7 @@ export function Results() {
         {/* ── 3 · allied standards ───────────────────────────────────── */}
         {alliedGroups.length > 0 && (
           <Section
-            title="What has to be cited with it"
+            title={t('results.allied')}
             count={totalAllied}
             hint="Reached by following BIS's own cross-references outward, then grouped by the job each standard does."
           >
@@ -223,7 +235,7 @@ export function Results() {
         {/* ── 4 · testing and certification ──────────────────────────── */}
         {cert && (
           <Section
-            title="Testing and certification"
+            title={t('results.certification')}
             hint={
               persona === 'manufacturer'
                 ? 'What you must hold before this product may be supplied.'
@@ -233,7 +245,7 @@ export function Results() {
             <div className="grid gap-3 lg:grid-cols-[1.15fr_1fr]">
               <div className="card p-6">
                 <div className="flex items-start justify-between gap-3">
-                  <Label>{cert.certification_required ? 'Compulsory' : 'Not stated by BIS'}</Label>
+                  <Label>{cert.certification_required ? t('results.compulsory') : t('results.notStated')}</Label>
                   <span
                     className={`h-2 w-2 shrink-0 rounded-full ${cert.certification_required ? 'bg-amber' : 'bg-muted'}`}
                   />
@@ -271,16 +283,16 @@ export function Results() {
                 )}
               </div>
 
-              <div className="card p-6">
+              <div className="card flex flex-col p-6">
                 <div className="flex items-baseline justify-between gap-3">
-                  <Label>Recognised laboratories</Label>
+                  <Label>{t('results.recognisedLabs')}</Label>
                   <span className="mono text-[11px] text-muted">{formatNumber(cert.labs_available)}</span>
                 </div>
 
                 {cert.nearest_labs.length > 0 ? (
                   <>
                     <ul className="mt-4 flex flex-col gap-1.5">
-                      {cert.nearest_labs.slice(0, 6).map((lab) => (
+                      {cert.nearest_labs.slice(0, 4).map((lab) => (
                         <li
                           key={`${lab.name}-${lab.city}`}
                           className="card-quiet flex items-center gap-3 px-3.5 py-2.5"
@@ -293,8 +305,8 @@ export function Results() {
                         </li>
                       ))}
                     </ul>
-                    <p className="mt-4 text-[11.5px] leading-relaxed text-muted">
-                      BIS-recognised laboratories able to test against this standard, nearest first.
+                    <p className="mt-auto pt-4 text-[11.5px] leading-relaxed text-muted">
+                      Addresses, contact numbers and distances are below.
                     </p>
                   </>
                 ) : (
@@ -307,7 +319,17 @@ export function Results() {
           </Section>
         )}
 
-        {/* ── 5 · the tender's own citations ─────────────────────────── */}
+        {/* ── 5 · where to get it tested ─────────────────────────────── */}
+        {cert && cert.labs_available > 0 && (
+          <Section
+            title="Where to get it tested"
+            hint="BIS-recognised laboratories for these standards, with the distance from you and a route."
+          >
+            <TestingLabs standards={labStandards} persona={persona} />
+          </Section>
+        )}
+
+        {/* ── 6 · the tender's own citations ─────────────────────────── */}
         {result.verdicts.length > 0 && (
           <Section
             title={wrongCitations.length > 0 ? 'The standards already cited' : 'Not yet cited'}
@@ -363,7 +385,7 @@ export function Results() {
 
         {/* ── 6 · warnings ───────────────────────────────────────────── */}
         {result.warnings.length > 0 && (
-          <Section title="Version warnings">
+          <Section title={t('results.warnings')}>
             <div className="flex flex-col gap-2">
               {result.warnings.map((warning, index) => (
                 <div
@@ -386,7 +408,7 @@ export function Results() {
         {/* ── 7 · put it in the tender ───────────────────────────────── */}
         {result.options.length > 0 && option && (
           <Section
-            title="Put it in the tender"
+            title={t('results.putInTender')}
             hint={`Every depth names ${result.primary} as the primary standard with the same evidence. The choice is only how many allied standards travel with it.`}
           >
             <div
@@ -439,7 +461,7 @@ export function Results() {
                 disabled={downloading}
                 className="btn btn-primary px-7"
               >
-                {downloading ? 'Generating…' : 'Download the report'}
+                {downloading ? t('results.downloading') : t('results.download')}
                 {!downloading && <Icon.Download />}
               </button>
               <button
@@ -448,10 +470,10 @@ export function Results() {
                 disabled={downloading}
                 className="btn btn-ghost px-7"
               >
-                Annexure only
+                {t('results.annexureOnly')}
               </button>
               <button type="button" onClick={backToChat} className="btn btn-ghost px-7">
-                Refine in the conversation
+                {t('results.refine')}
               </button>
             </div>
             {downloadError && <p className="mt-3 text-[13.5px] text-red">{downloadError}</p>}

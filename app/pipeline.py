@@ -34,6 +34,8 @@ from app.deliver.composer import Composer  # noqa: E402
 from app.understand.citation_validator import CitationValidator  # noqa: E402
 from app.understand.extractor import RequirementExtractor  # noqa: E402
 from app.understand.input_handler import InputHandler  # noqa: E402
+from app.understand.language import LanguageHandler  # noqa: E402
+from app.understand.orchestrator import AIQueryOrchestrator, QueryPlan  # noqa: E402
 from app.understand.sufficiency import SufficiencyGate  # noqa: E402
 from contracts.answer import Recommendation, SufficiencyResult  # noqa: E402
 from contracts.requirement import InputPayload, RequirementObject  # noqa: E402
@@ -46,13 +48,16 @@ class AnalysisResult:
 
     def __init__(self, payload: InputPayload, requirement: RequirementObject,
                  sufficiency: SufficiencyResult, recommendation: Recommendation,
-                 query: str, seconds: float):
+                 query: str, seconds: float, language: str = "en",
+                 plan: Optional[QueryPlan] = None):
+        self.language = language
         self.payload = payload
         self.requirement = requirement
         self.sufficiency = sufficiency
         self.recommendation = recommendation
         self.query = query
         self.seconds = seconds
+        self.plan = plan or QueryPlan(retrieval_text=query)
 
     @property
     def needs_more_info(self) -> bool:
@@ -65,11 +70,13 @@ class Pipeline:
     def __init__(self, use_llm: bool = True, warm: bool = True):
         self.input_handler = InputHandler()
         self.extractor = RequirementExtractor(use_llm=use_llm)
+        self.orchestrator = AIQueryOrchestrator(allowed_categories=list(self.extractor.fields))
         self.engine = RetrievalEngine(warm=warm)
         self.allied = AlliedExpander()
         self.resolver = VersionResolver()
         self.certification = CertificationEngine(resolver=self.resolver)
         self.confidence = ConfidenceScorer()
+        self.language = LanguageHandler()
         self.gate = SufficiencyGate(extractor=self.extractor, use_llm=use_llm)
         self.validator = CitationValidator(resolver=self.resolver, engine=self.engine)
         self.composer = Composer(resolver=self.resolver, use_llm=use_llm)
@@ -86,6 +93,8 @@ class Pipeline:
                 persona: str = "procurement", language: str = "en",
                 answers: Optional[Dict[str, str]] = None,
                 state: Optional[str] = None,
+                history: Optional[List[dict]] = None,
+                previous_requirement: Optional[dict] = None,
                 on_stage: Optional[Callable[[str, str, dict], None]] = None) -> AnalysisResult:
         """Run one request all the way through.
 
@@ -109,7 +118,107 @@ class Pipeline:
                if payload.pages else "Read the specification"),
               {"source": payload.source, "pages": payload.pages, "richness": payload.richness})
 
-        requirement = self.extractor.extract(payload, language=language)
+        # B2. The engine is English-only — the clause index, the title index and the cross-encoder
+        # all are — so a request in another language is translated here rather than at every stage.
+        # `language` is what the reader wants back: "auto" means whatever they wrote in.
+        source = self.language.detect(payload.text)
+        reply_in = source if language in ("auto", "", None) else language
+        if source != "en":
+            english, _ = self.language.to_english(payload.text, source)
+            if english and english != payload.text:
+                payload = payload.model_copy(update={"text": english})
+            stage("B2", f"Translated from {source.upper()} for retrieval",
+                  {"detected": source, "reply_in": reply_in})
+        elif reply_in != "en":
+            stage("B2", f"Will answer in {reply_in.upper()}", {"detected": source, "reply_in": reply_in})
+
+        previous = None
+        if previous_requirement:
+            try:
+                previous = RequirementObject.model_validate(previous_requirement)
+            except Exception:
+                previous = None
+        plan = self.orchestrator.resolve(payload.text, history=history, previous=previous)
+        if plan.intent != "general_question" and plan.clarification and plan.missing_information:
+            requirement = RequirementObject(
+                product=plan.product, category=plan.category, attributes=plan.attributes,
+                language=reply_in, source=payload.source, richness=payload.richness,
+            )
+            questions = [{"field": field, "ask": plan.clarification}
+                         for field in plan.missing_information[:3]]
+            sufficiency = SufficiencyResult(
+                status="need_more_info", confidence=0.0, band="low",
+                missing=plan.missing_information[:3], questions=questions,
+                can_proceed_anyway=True,
+                drivers=["a detail that materially changes the applicable standards is missing"],
+            )
+            recommendation = Recommendation(status="need_more_info")
+            stage("B5", "Asked a targeted question before standards retrieval",
+                  {"missing": sufficiency.missing})
+            return AnalysisResult(payload, requirement, sufficiency, recommendation,
+                                  plan.retrieval_text, round(time.time() - started, 2),
+                                  language=reply_in, plan=plan)
+
+        if plan.intent == "general_question":
+            requirement = RequirementObject(language=reply_in, source=payload.source,
+                                           richness=payload.richness)
+            sufficiency = SufficiencyResult(status="ok", confidence=1.0, band="high",
+                                            can_proceed_anyway=True)
+            recommendation = Recommendation(explanation=self.orchestrator.answer_general(
+                payload.text, history=history))
+            if reply_in != "en":
+                self._localise(recommendation, sufficiency, reply_in)
+            stage("OR", "Answered a general question without running standards retrieval", {})
+            return AnalysisResult(payload, requirement, sufficiency, recommendation,
+                                  "", round(time.time() - started, 2), language=reply_in, plan=plan)
+
+        if plan.intent == "standard_lookup":
+            citations = self.extractor._citations(payload.text)
+            if citations:
+                resolved = self.resolver.resolve(citations[0])
+                requirement = RequirementObject(cited_standards=citations, language=reply_in,
+                                                source=payload.source, richness=payload.richness)
+                sufficiency = SufficiencyResult(status="ok", confidence=1.0, band="high",
+                                                can_proceed_anyway=True)
+                if resolved.exists:
+                    primary = resolved.current or resolved.cited_edition or citations[0]
+                    state = (f" It is currently {resolved.current}."
+                             if resolved.current and resolved.current != resolved.cited_edition else
+                             " The catalogue lists this edition as current." if resolved.current else "")
+                    explanation = f"{primary}: {resolved.title or 'The catalogue has no title recorded.'}{state}"
+                    if resolved.warnings:
+                        explanation += " " + " ".join(w.message for w in resolved.warnings)
+                    recommendation = Recommendation(
+                        primary=primary, primary_title=resolved.title or "",
+                        amendments=resolved.amendments, warnings=resolved.warnings,
+                        explanation=explanation)
+                else:
+                    recommendation = Recommendation(
+                        status="no_match",
+                        explanation=f"{citations[0]} was not found in the BIS catalogue. "
+                                    "Please verify the identifier with BIS.")
+                if reply_in != "en":
+                    self._localise(recommendation, sufficiency, reply_in)
+                stage("C3", "Looked up the standard in the BIS catalogue", {
+                    "citation": citations[0], "exists": resolved.exists,
+                    "current": resolved.current,
+                })
+                return AnalysisResult(payload, requirement, sufficiency, recommendation,
+                                      citations[0], round(time.time() - started, 2),
+                                      language=reply_in, plan=plan)
+
+        payload = payload.model_copy(update={"text": plan.retrieval_text or payload.text})
+        requirement = self.extractor.extract(payload, language=reply_in)
+        if plan.product:
+            requirement.product = plan.product
+        if plan.category:
+            requirement.category = plan.category
+        requirement.attributes.update(plan.attributes)
+        if previous and not plan.replace_context:
+            known = set(requirement.cited_standards)
+            requirement.cited_standards.extend(c for c in previous.cited_standards if c not in known)
+        required_fields = self.extractor.fields.get(requirement.category, {}).get("required", [])
+        requirement.not_specified = [field for field in required_fields if field not in requirement.attributes]
         if answers:
             requirement = self.gate.apply_answers(requirement, answers)
         stage("B3", f"Extracted the requirement: {requirement.product or 'unnamed product'}",
@@ -170,8 +279,61 @@ class Pipeline:
         if sufficiency.status == "need_more_info" and recommendation.status == "complete":
             recommendation.status = "need_more_info"
 
+        if reply_in != "en":
+            self._localise(recommendation, sufficiency, reply_in)
+            stage("B2", f"Answer written in {reply_in.upper()}", {"reply_in": reply_in})
+
         return AnalysisResult(payload, requirement, sufficiency, recommendation, query,
-                              round(time.time() - started, 2))
+                      round(time.time() - started, 2), language=reply_in, plan=plan)
+
+    def _localise(self, recommendation, sufficiency, target: str) -> None:
+        """Put the prose of an answer into the reader's language, in place.
+
+        What is translated is only the writing *about* the standards: the explanation, the questions,
+        the certification sentence, the warnings and the depth labels. What is never translated is
+        the authoritative record — the IS numbers, the official BIS titles and the quoted clause —
+        because a tender has to carry those exactly as BIS published them, and a translated title
+        would no longer match the document it names.
+
+        The strings go out together rather than one after another; they are independent, and serially
+        this would add several seconds to every request.
+        """
+        pieces: List[str] = []
+        slots: List[tuple] = []          # (owner, attribute or key) for writing the result back
+
+        def collect(owner, key, value):
+            if isinstance(value, str) and value.strip():
+                pieces.append(value)
+                slots.append((owner, key))
+
+        collect(recommendation, "explanation", recommendation.explanation)
+        for question in sufficiency.questions:
+            collect(question, "ask", question.get("ask"))
+        if recommendation.certification:
+            collect(recommendation.certification, "statement", recommendation.certification.statement)
+        for warning in recommendation.warnings:
+            collect(warning, "message", warning.message)
+            collect(warning, "action", warning.action)
+        for verdict in recommendation.verdicts:
+            collect(verdict, "reason", verdict.reason)
+        for option in recommendation.options:
+            collect(option, "label", option.label)
+            collect(option, "rationale", option.rationale)
+
+        if not pieces:
+            return
+
+        translated = self.language.from_english_many(pieces, target)
+        for (owner, key), value in zip(slots, translated):
+            if not value:
+                continue
+            if isinstance(owner, dict):
+                owner[key] = value
+            else:
+                try:
+                    setattr(owner, key, value)
+                except (AttributeError, ValueError):
+                    pass          # a frozen model keeps its English text rather than failing
 
     def standards_in(self, result: AnalysisResult, option_id: str = "B") -> List[str]:
         """The standards of one citation depth, for the document generator."""

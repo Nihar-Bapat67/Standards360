@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 import { Atmosphere } from '../components/Atmosphere'
 import { Wordmark } from '../components/Wordmark'
+import { LanguageSelector } from '../components/LanguageSelector'
 import { Icon, Label } from '../components/ui'
 import { profile } from '../services/profile'
 
@@ -125,12 +126,8 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
           <Link to="/" className="hidden text-[13px] text-secondary transition-colors hover:text-text sm:block">
             Home
           </Link>
-          <Link
-            to="/architecture"
-            className="hidden text-[13px] text-secondary transition-colors hover:text-text sm:block"
-          >
-            The engine
-          </Link>
+          <div className="flex-1" />
+          <LanguageSelector compact />
         </nav>
       </header>
 

@@ -4,6 +4,7 @@ import { searchConversations, titleFor } from '../services/conversations'
 import type { Persona } from '../types/api'
 import { Icon, Label } from './ui'
 import { profile } from '../services/profile'
+import { useT } from '../i18n'
 import { Wordmark } from './Wordmark'
 import { relativeTime } from '../lib/format'
 
@@ -40,6 +41,7 @@ export function Sidebar({
   onSignOut,
   onClose,
 }: SidebarProps) {
+  const t = useT()
   const who = profile.get()
   const [term, setTerm] = useState('')
   const shown = useMemo(() => searchConversations(conversations, term), [conversations, term])
@@ -64,7 +66,7 @@ export function Sidebar({
       <div className="px-3">
         <button type="button" onClick={onNew} className="btn btn-ghost h-10 w-full justify-start px-3 text-[13px]">
           <Icon.Plus />
-          New enquiry
+          {t('workspace.newEnquiry')}
         </button>
       </div>
 
@@ -80,7 +82,7 @@ export function Sidebar({
             id="search-conversations"
             value={term}
             onChange={(event) => setTerm(event.target.value)}
-            placeholder="Search"
+            placeholder={t('workspace.search')}
             className="h-9 w-full rounded-lg border border-white/8 bg-white/[0.03] pl-9 pr-3 text-[13px] text-text placeholder:text-muted focus:border-white/18 focus:outline-none"
           />
         </div>
@@ -89,7 +91,7 @@ export function Sidebar({
       <nav aria-label="Your enquiries" className="scroll-fade mt-3 flex-1 overflow-y-auto px-3 pb-3">
         {shown.length === 0 ? (
           <p className="px-2 py-6 text-[12.5px] leading-relaxed text-muted">
-            {term ? 'Nothing matched that.' : 'Your enquiries appear here. They stay in this browser.'}
+            {term ? t('workspace.noMatchSearch') : t('workspace.emptyHistory')}
           </p>
         ) : (
           <ul className="space-y-0.5">
@@ -144,7 +146,7 @@ export function Sidebar({
       </nav>
 
       <div className="border-t border-white/6 p-3">
-        <Label>Answering as</Label>
+        <Label>{t('workspace.answeringAs')}</Label>
         <div
           role="radiogroup"
           aria-label="Persona"
@@ -161,14 +163,14 @@ export function Sidebar({
                 persona === value ? 'bg-white/10 text-text' : 'text-secondary hover:text-text'
               }`}
             >
-              {value === 'procurement' ? 'Officer' : 'Manufacturer'}
+              {value === 'procurement' ? t('workspace.officer') : t('workspace.manufacturer')}
             </button>
           ))}
         </div>
         <p className="mt-2 px-0.5 text-[11px] leading-relaxed text-muted">
           {persona === 'procurement'
-            ? 'Certification is phrased as a bidder eligibility condition.'
-            : 'Certification is phrased as your own licensing obligation.'}
+            ? t('workspace.personaOfficer')
+            : t('workspace.personaManufacturer')}
         </p>
 
         {who && (
@@ -185,10 +187,10 @@ export function Sidebar({
             <button
               type="button"
               onClick={onSignOut}
-              aria-label="Sign out"
+              aria-label={t('action.signOut')}
               className="shrink-0 rounded-md px-2 py-1 text-[11px] text-muted transition-colors hover:bg-white/8 hover:text-text"
             >
-              Sign out
+              {t('action.signOut')}
             </button>
           </div>
         )}

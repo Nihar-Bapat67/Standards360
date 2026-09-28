@@ -1,0 +1,1223 @@
+{
+ "attribution": "Coordinates from OpenStreetMap via Nominatim. Data (c) OpenStreetMap contributors, ODbL 1.0.",
+ "places": {
+  "aditypur jharkhand": {
+   "city": "Aditypur",
+   "lat": 22.78971,
+   "lon": 86.15881,
+   "matched": "Adityapur, Adityapur(Gamharia), Seraikela-Kharsawan, Jharkhand, 831013, India",
+   "state": "Jharkhand"
+  },
+  "agartala tripura": {
+   "city": "Agartala",
+   "lat": 23.83124,
+   "lon": 91.28238,
+   "matched": "Agartala, Mohanpur, West Tripura, Tripura, 799001, India",
+   "state": "Tripura"
+  },
+  "agra uttar pradesh": {
+   "city": "Agra",
+   "lat": 27.17526,
+   "lon": 78.00982,
+   "matched": "Agra, Uttar Pradesh, 280001, India",
+   "state": "Uttar Pradesh"
+  },
+  "ahmedabad gujarat": {
+   "city": "Ahmedabad",
+   "lat": 23.02154,
+   "lon": 72.58006,
+   "matched": "Ahmedabad, Gujarat, 380001, India",
+   "state": "Gujarat"
+  },
+  "alappuzha kerala": {
+   "city": "Alappuzha",
+   "lat": 9.49233,
+   "lon": 76.32915,
+   "matched": "Alappuzha, Ambalappuzha, Alappuzha, Kerala, 688001, India",
+   "state": "Kerala"
+  },
+  "ambala cantt haryana": {
+   "city": "Ambala Cantt",
+   "lat": 30.36635,
+   "lon": 76.82005,
+   "matched": "Ambala Cantt, Ambala, Haryana, India",
+   "state": "Haryana"
+  },
+  "ambala city haryana": {
+   "city": "Ambala City",
+   "lat": 30.37807,
+   "lon": 76.76464,
+   "matched": "Ambala City, Manav Chowk, Ambala, Ambala Cantt, Ambala, Haryana, 134002, India",
+   "state": "Haryana"
+  },
+  "amritsar punjab": {
+   "city": "Amritsar",
+   "lat": 31.63567,
+   "lon": 74.87875,
+   "matched": "Amritsar, Amritsar I Tahsil, Amritsar, Punjab, 143001, India",
+   "state": "Punjab"
+  },
+  "anand gujarat": {
+   "city": "Anand",
+   "lat": 22.55866,
+   "lon": 72.96272,
+   "matched": "Anand, Anand City Taluka, Anand, Gujarat, 388001, India",
+   "state": "Gujarat"
+  },
+  "andheri maharashtra": {
+   "city": "Andheri",
+   "lat": 19.11626,
+   "lon": 72.84661,
+   "matched": "Andheri, Andheri East, K/E Ward, Mumbai Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, India",
+   "state": "Maharashtra"
+  },
+  "arakonam tamil nadu": {
+   "city": "Arakonam",
+   "lat": 13.03008,
+   "lon": 79.60878,
+   "matched": "Arakonam, Ranipet, Tamil Nadu, India",
+   "state": "Tamil Nadu"
+  },
+  "baddi himachal pradesh": {
+   "city": "Baddi",
+   "lat": 30.934,
+   "lon": 76.80631,
+   "matched": "Baddi, Solan, Himachal Pradesh, 173205, India",
+   "state": "Himachal Pradesh"
+  },
+  "bahadrabad uttarakhand": {
+   "city": "Bahadrabad",
+   "lat": 29.91973,
+   "lon": 78.04367,
+   "matched": "Bahādrābād, Haridwār, Hardwar, Haridwar, Uttarakhand, 249401, India",
+   "state": "Uttarakhand"
+  },
+  "bahadurgarh haryana": {
+   "city": "Bahadurgarh",
+   "lat": 28.69332,
+   "lon": 76.93324,
+   "matched": "Bahadurgarh, Jhajjar, Haryana, 124507, India",
+   "state": "Haryana"
+  },
+  "baitalpur uttar pradesh": {
+   "city": "Baitalpur",
+   "lat": 26.55488,
+   "lon": 83.73716,
+   "matched": "Baitalpur, Deoria, Uttar Pradesh, 274201, India",
+   "state": "Uttar Pradesh"
+  },
+  "ballabgarh haryana": {
+   "city": "Ballabgarh",
+   "lat": 28.32861,
+   "lon": 77.32389,
+   "matched": "Ballabgarh, Faridabad, Haryana, 121004, India",
+   "state": "Haryana"
+  },
+  "bally west bengal": {
+   "city": "Bally",
+   "lat": 22.64696,
+   "lon": 88.34361,
+   "matched": "Bally, Kolkata Metropolitan Area, Bally Jagachha, Howrah, West Bengal, 712258, India",
+   "state": "West Bengal"
+  },
+  "bangalore karnataka": {
+   "city": "Bangalore",
+   "lat": 12.97679,
+   "lon": 77.59008,
+   "matched": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",
+   "state": "Karnataka"
+  },
+  "bangaluru karnataka": {
+   "city": "Bangaluru",
+   "lat": 12.97679,
+   "lon": 77.59008,
+   "matched": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",
+   "state": "Karnataka"
+  },
+  "banglore karnataka": {
+   "city": "Banglore",
+   "lat": 12.95875,
+   "lon": 77.55735,
+   "matched": "Government Hospital, Banglore, 1st Cross Road, Valmiki Nagar, Azad Nagar, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560026, India",
+   "state": "Karnataka"
+  },
+  "barauni bihar": {
+   "city": "Barauni",
+   "lat": 25.46764,
+   "lon": 85.99041,
+   "matched": "Barauni, Begusarai, Bihar, 851112, India",
+   "state": "Bihar"
+  },
+  "bari brahmana jammu kashmir": {
+   "city": "Bari Brahmana",
+   "lat": 32.63831,
+   "lon": 74.91524,
+   "matched": "Bari Brahmana, Samba, Samba district, Jammu and Kashmir, 181133, India",
+   "state": "Jammu & Kashmir"
+  },
+  "bathinda punjab": {
+   "city": "Bathinda",
+   "lat": 30.20679,
+   "lon": 74.94637,
+   "matched": "Bathinda, Bathinda Tahsil, Bathinda, Punjab, 151001, India",
+   "state": "Punjab"
+  },
+  "bawana delhi": {
+   "city": "Bawana",
+   "lat": 28.79966,
+   "lon": 77.03288,
+   "matched": "Bawana, Narela, Delhi, Outer North Delhi, Delhi, India",
+   "state": "Delhi"
+  },
+  "bengaluru karnataka": {
+   "city": "Bengaluru",
+   "lat": 12.97679,
+   "lon": 77.59008,
+   "matched": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",
+   "state": "Karnataka"
+  },
+  "berhampur odisha": {
+   "city": "Berhampur",
+   "lat": 21.53402,
+   "lon": 86.65388,
+   "matched": "Berhampur, Baleshwar, Odisha, 756058, India",
+   "state": "Odisha"
+  },
+  "bharatpur rajasthan": {
+   "city": "Bharatpur",
+   "lat": 27.21544,
+   "lon": 77.4987,
+   "matched": "Bharatpur, Bharatpur Tehsil, Bharatpur, Rajasthan, 321001, India",
+   "state": "Rajasthan"
+  },
+  "bhavnagar gujarat": {
+   "city": "Bhavnagar",
+   "lat": 21.77188,
+   "lon": 72.14164,
+   "matched": "Bhavnagar, Bhavnagar Taluka, Bhavnagar, Gujarat, 364001, India",
+   "state": "Gujarat"
+  },
+  "bhiwadi rajasthan": {
+   "city": "Bhiwadi",
+   "lat": 28.20394,
+   "lon": 76.83744,
+   "matched": "Bhiwadi, Tijara Tehsil, Khairthal-Tijara, Rajasthan, 301019, India",
+   "state": "Rajasthan"
+  },
+  "bhopal madhya pradesh": {
+   "city": "Bhopal",
+   "lat": 23.25849,
+   "lon": 77.40199,
+   "matched": "Bhopal, Huzur Tahsil, Bhopal, Madhya Pradesh, 462001, India",
+   "state": "Madhya Pradesh"
+  },
+  "bhubaneswar odisha": {
+   "city": "Bhubaneswar",
+   "lat": 20.2603,
+   "lon": 85.83945,
+   "matched": "Bhubaneswar, Bhubaneswar Municipal Corporation, Bhubaneswar (M.Corp.), Khordha, Odisha, 751001, India",
+   "state": "Odisha"
+  },
+  "boisar maharashtra": {
+   "city": "Boisar",
+   "lat": 19.79842,
+   "lon": 72.76066,
+   "matched": "Boisar, Palghar Subdistrict, Palghar, Maharashtra, 401504, India",
+   "state": "Maharashtra"
+  },
+  "chandrapur maharashtra": {
+   "city": "Chandrapur",
+   "lat": 19.95082,
+   "lon": 79.29867,
+   "matched": "Chandrapur, Chandrapur Taluka, Chandrapur, Maharashtra, 442401, India",
+   "state": "Maharashtra"
+  },
+  "changodar gujarat": {
+   "city": "Changodar",
+   "lat": 22.94022,
+   "lon": 72.45671,
+   "matched": "Changodar, NH47, Daskroi Taluka, Ahmedabad, Gujarat, 382213, India",
+   "state": "Gujarat"
+  },
+  "chennai tamil nadu": {
+   "city": "Chennai",
+   "lat": 13.08369,
+   "lon": 80.27019,
+   "matched": "Chennai Corporation, Chennai, Tamil Nadu, India",
+   "state": "Tamil Nadu"
+  },
+  "chhatrapati sambhajinagar maharashtra": {
+   "city": "Chhatrapati Sambhajinagar",
+   "lat": 19.87726,
+   "lon": 75.33902,
+   "matched": "Chhatrapati Sambhajinagar, Maharashtra, 431002, India",
+   "state": "Maharashtra"
+  },
+  "chittoor andhra pradesh": {
+   "city": "Chittoor",
+   "lat": 13.21612,
+   "lon": 79.09728,
+   "matched": "Chittoor, Andhra Pradesh, 517001, India",
+   "state": "Andhra Pradesh"
+  },
+  "chittorgarh rajasthan": {
+   "city": "Chittorgarh",
+   "lat": 24.88372,
+   "lon": 74.62442,
+   "matched": "Chittorgarh, Chittaurgarh Tehsil, Chittorgarh, Rajasthan, 312001, India",
+   "state": "Rajasthan"
+  },
+  "coimbatore tamil nadu": {
+   "city": "Coimbatore",
+   "lat": 11.00181,
+   "lon": 76.96284,
+   "matched": "Coimbatore, Coimbatore North, Coimbatore, Tamil Nadu, 641001, India",
+   "state": "Tamil Nadu"
+  },
+  "cotton green maharashtra": {
+   "city": "Cotton Green",
+   "lat": 18.98567,
+   "lon": 72.84365,
+   "matched": "Cotton Green, F/S Ward, Mumbai Zone 2, Mumbai City District, Maharashtra, 400027, India",
+   "state": "Maharashtra"
+  },
+  "daman daman diu": {
+   "city": "Daman",
+   "lat": 20.41697,
+   "lon": 72.83317,
+   "matched": "Daman, Dadra and Nagar Haveli and Daman and Diu, 396210, India",
+   "state": "Daman & Diu"
+  },
+  "dantali gujarat": {
+   "city": "Dantali",
+   "lat": 22.47652,
+   "lon": 72.81455,
+   "matched": "Dantali, Petlad, Petlad Taluka, Anand, Gujarat, 388400, India",
+   "state": "Gujarat"
+  },
+  "dehradun uttarakhand": {
+   "city": "Dehradun",
+   "lat": 30.32556,
+   "lon": 78.04368,
+   "matched": "Dehradun, Uttarakhand, 248001, India",
+   "state": "Uttarakhand"
+  },
+  "delhi delhi": {
+   "city": "Delhi",
+   "lat": 28.66645,
+   "lon": 77.21698,
+   "matched": "Delhi, Old Delhi, Delhi, India",
+   "state": "Delhi"
+  },
+  "derabassi punjab": {
+   "city": "Derabassi",
+   "lat": 30.58824,
+   "lon": 76.84385,
+   "matched": "Dera Bassi, Dera Bassi Tahsil, Sahibzada Ajit Singh Nagar, Punjab, 140412, India",
+   "state": "Punjab"
+  },
+  "dhanbad jharkhand": {
+   "city": "Dhanbad",
+   "lat": 23.79528,
+   "lon": 86.43096,
+   "matched": "Dhanbad, Dhanbad-Cum-Kenduadih-Cum-Jagata, Dhanbad, Jharkhand, 826001, India",
+   "state": "Jharkhand"
+  },
+  "dhaulana uttar pradesh": {
+   "city": "Dhaulana",
+   "lat": 28.63431,
+   "lon": 77.64903,
+   "matched": "Dhaulana, Hapur, Uttar Pradesh, 245301, India",
+   "state": "Uttar Pradesh"
+  },
+  "durgapur west bengal": {
+   "city": "Durgapur",
+   "lat": 23.53505,
+   "lon": 87.33804,
+   "matched": "Durgapur, Faridpur Durgapur, Paschim Bardhaman, West Bengal, 713200, India",
+   "state": "West Bengal"
+  },
+  "faridabad haryana": {
+   "city": "Faridabad",
+   "lat": 28.40315,
+   "lon": 77.31056,
+   "matched": "Faridabad, Haryana, 121001, India",
+   "state": "Haryana"
+  },
+  "gandhidham gujarat": {
+   "city": "Gandhidham",
+   "lat": 23.07187,
+   "lon": 70.13171,
+   "matched": "ગાંધીધામ, Gandhidham Taluka, Kutch, Gujarat, 370210, India",
+   "state": "Gujarat"
+  },
+  "gandhinagar gujarat": {
+   "city": "Gandhinagar",
+   "lat": 23.22329,
+   "lon": 72.64923,
+   "matched": "Gandhinagar, Gandhinagar Taluka, Gandhinagar, Gujarat, India",
+   "state": "Gujarat"
+  },
+  "gautam buddha nagar uttar pradesh": {
+   "city": "Gautam Buddha Nagar",
+   "lat": 28.36872,
+   "lon": 77.59701,
+   "matched": "Gautam Buddha Nagar, Uttar Pradesh, India",
+   "state": "Uttar Pradesh"
+  },
+  "ghaziabad up uttar pradesh": {
+   "city": "Ghaziabad (Up)",
+   "lat": 28.64902,
+   "lon": 77.36684,
+   "matched": "SG Alpha Tower, UG-08, SG Alpha Tower, Sector 9, Vasundhara, Ghaziabad, 201012, India, Padmana Naidu Marg, Vasundhara, Ghaziabad, Uttar Pradesh, 201012, India",
+   "state": "Uttar Pradesh"
+  },
+  "ghaziabad uttar pradesh": {
+   "city": "Ghaziabad",
+   "lat": 28.67115,
+   "lon": 77.41204,
+   "matched": "Ghaziabad, Uttar Pradesh, 201001, India",
+   "state": "Uttar Pradesh"
+  },
+  "ghevra delhi": {
+   "city": "Ghevra",
+   "lat": 28.69396,
+   "lon": 76.99947,
+   "matched": "Ghevra, Narela, Delhi, Outer North Delhi, Delhi, India",
+   "state": "Delhi"
+  },
+  "greater noida uttar pradesh": {
+   "city": "Greater Noida",
+   "lat": 28.46707,
+   "lon": 77.51376,
+   "matched": "Greater Noida, Gautam Buddha Nagar, Uttar Pradesh, 210310, India",
+   "state": "Uttar Pradesh"
+  },
+  "gulabpura rajasthan": {
+   "city": "Gulabpura",
+   "lat": 25.90605,
+   "lon": 74.6599,
+   "matched": "Gulabpura, Hurda Tehsil, Bhilwara, Rajasthan, 311021, India",
+   "state": "Rajasthan"
+  },
+  "gummidipoondi tamil nadu": {
+   "city": "Gummidipoondi",
+   "lat": 13.41671,
+   "lon": 80.12709,
+   "matched": "Gummidipoondi, Thiruvallur, Tamil Nadu, 601200, India",
+   "state": "Tamil Nadu"
+  },
+  "gurgaon haryana": {
+   "city": "Gurgaon",
+   "lat": 28.46461,
+   "lon": 77.02992,
+   "matched": "Gurugram, Haryana, India",
+   "state": "Haryana"
+  },
+  "gurugram haryana": {
+   "city": "Gurugram",
+   "lat": 28.46461,
+   "lon": 77.02992,
+   "matched": "Gurugram, Haryana, India",
+   "state": "Haryana"
+  },
+  "guruhram haryana": {
+   "city": "Guruhram",
+   "lat": 28.46461,
+   "lon": 77.02992,
+   "matched": "Gurugram, Haryana, India",
+   "state": "Haryana"
+  },
+  "guwahati assam": {
+   "city": "Guwahati",
+   "lat": 26.1806,
+   "lon": 91.75394,
+   "matched": "Guwahati, Kamrup Metropolitan, Assam, 781001, India",
+   "state": "Assam"
+  },
+  "hajipur bihar": {
+   "city": "Hajipur",
+   "lat": 25.69057,
+   "lon": 85.20904,
+   "matched": "Hajipur, Vaishali, Bihar, 844101, India",
+   "state": "Bihar"
+  },
+  "haldia west bengal": {
+   "city": "Haldia",
+   "lat": 22.02812,
+   "lon": 88.06327,
+   "matched": "Haldia, Purba Medinipur, West Bengal, 721604, India",
+   "state": "West Bengal"
+  },
+  "haridwar uttarakhand": {
+   "city": "Haridwar",
+   "lat": 29.93845,
+   "lon": 78.1453,
+   "matched": "Haridwār, Hardwar, Haridwar, Uttarakhand, 249401, India",
+   "state": "Uttarakhand"
+  },
+  "hoshiarpur punjab": {
+   "city": "Hoshiarpur",
+   "lat": 31.53285,
+   "lon": 75.90255,
+   "matched": "Hoshiarpur, Hoshiarpur Tahsil, Hoshiarpur, Punjab, 146001, India",
+   "state": "Punjab"
+  },
+  "hosur tamil nadu": {
+   "city": "Hosur",
+   "lat": 12.73288,
+   "lon": 77.83095,
+   "matched": "Hosur, Krishnagiri, Tamil Nadu, 635109, India",
+   "state": "Tamil Nadu"
+  },
+  "howrah west bengal": {
+   "city": "Howrah",
+   "lat": 22.57363,
+   "lon": 88.3251,
+   "matched": "Haora, Kolkata Metropolitan Area, Howrah, West Bengal, India",
+   "state": "West Bengal"
+  },
+  "hyderabad telangana": {
+   "city": "Hyderabad",
+   "lat": 17.36059,
+   "lon": 78.47406,
+   "matched": "Hyderabad, Bahadurpura mandal, Hyderabad, Telangana, India",
+   "state": "Telangana"
+  },
+  "imt manesar haryana": {
+   "city": "Imt Manesar",
+   "lat": 28.36719,
+   "lon": 76.92067,
+   "matched": "Industrial Modern Township Manesar, Manesar, Gurugram, Haryana, 122052, India",
+   "state": "Haryana"
+  },
+  "indore madhya pradesh": {
+   "city": "Indore",
+   "lat": 22.72036,
+   "lon": 75.8682,
+   "matched": "Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India",
+   "state": "Madhya Pradesh"
+  },
+  "ishnapur telangana": {
+   "city": "Ishnapur",
+   "lat": 17.54413,
+   "lon": 78.19789,
+   "matched": "Isnapur, Patancheruvu mandal, Sangareddy, Telangana, 502019, India",
+   "state": "Telangana"
+  },
+  "jaipur rajasthan": {
+   "city": "Jaipur",
+   "lat": 26.91546,
+   "lon": 75.81898,
+   "matched": "Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India",
+   "state": "Rajasthan"
+  },
+  "jalandhar punjab": {
+   "city": "Jalandhar",
+   "lat": 31.33238,
+   "lon": 75.57689,
+   "matched": "Jalandhar, Jalandhar I Tahsil, Jalandhar, Punjab, 144001, India",
+   "state": "Punjab"
+  },
+  "jalgaon maharashtra": {
+   "city": "Jalgaon",
+   "lat": 21.01007,
+   "lon": 75.5696,
+   "matched": "Jalgaon, Maharashtra, 425001, India",
+   "state": "Maharashtra"
+  },
+  "jammu jammu kashmir": {
+   "city": "Jammu",
+   "lat": 32.71856,
+   "lon": 74.85809,
+   "matched": "Jammu, Jammu district, Jammu and Kashmir, 180001, India",
+   "state": "Jammu & Kashmir"
+  },
+  "jamshedpur jharkhand": {
+   "city": "Jamshedpur",
+   "lat": 22.80152,
+   "lon": 86.20296,
+   "matched": "Jamshedpur, Golmuri-Cum-Jugsalai, East Singhbhum, Jharkhand, 831001, India",
+   "state": "Jharkhand"
+  },
+  "jasidih jharkhand": {
+   "city": "Jasidih",
+   "lat": 24.51379,
+   "lon": 86.64575,
+   "matched": "Jasidih, Deoghar, Jharkhand, 814142, India",
+   "state": "Jharkhand"
+  },
+  "jharsuguda odisha": {
+   "city": "Jharsuguda",
+   "lat": 21.86536,
+   "lon": 84.02397,
+   "matched": "Jharsuguda, Odisha, 768200, India",
+   "state": "Odisha"
+  },
+  "jodhpur rajasthan": {
+   "city": "Jodhpur",
+   "lat": 26.29677,
+   "lon": 73.03514,
+   "matched": "Jodhpur, Jodhpur Tehsil, Jodhpur, Rajasthan, India",
+   "state": "Rajasthan"
+  },
+  "kakinada andhra pradesh": {
+   "city": "Kakinada",
+   "lat": 16.94374,
+   "lon": 82.23506,
+   "matched": "Kakinada, Kakinada Urban, Kakinada, Andhra Pradesh, 533001, India",
+   "state": "Andhra Pradesh"
+  },
+  "kakkalur tamil nadu": {
+   "city": "Kakkalur",
+   "lat": 13.13052,
+   "lon": 79.92438,
+   "matched": "Kakkalur, Tiruvallur, Thiruvallur, Tamil Nadu, 602001, India",
+   "state": "Tamil Nadu"
+  },
+  "kanpur uttar pradesh": {
+   "city": "Kanpur",
+   "lat": 26.46091,
+   "lon": 80.32176,
+   "matched": "Kanpur, Kanpur Nagar, Uttar Pradesh, 208012, India",
+   "state": "Uttar Pradesh"
+  },
+  "karad maharashtra": {
+   "city": "Karad",
+   "lat": 17.28521,
+   "lon": 74.18221,
+   "matched": "Karad, Satara, Maharashtra, 415100, India",
+   "state": "Maharashtra"
+  },
+  "karaikudi tamil nadu": {
+   "city": "Karaikudi",
+   "lat": 10.07284,
+   "lon": 78.77952,
+   "matched": "Karaikudi, Karaikkudi, Sivagangai, Tamil Nadu, 623001, India",
+   "state": "Tamil Nadu"
+  },
+  "khordha odisha": {
+   "city": "Khordha",
+   "lat": 20.17277,
+   "lon": 85.61386,
+   "matched": "Khordha, Odisha, 752055, India",
+   "state": "Odisha"
+  },
+  "khunti jharkhand": {
+   "city": "Khunti",
+   "lat": 23.0771,
+   "lon": 85.28005,
+   "matched": "Khunti, Jharkhand, 835210, India",
+   "state": "Jharkhand"
+  },
+  "kochi kerala": {
+   "city": "Kochi",
+   "lat": 9.9679,
+   "lon": 76.24444,
+   "matched": "Kochi, Ernakulam, Kerala, 682001, India",
+   "state": "Kerala"
+  },
+  "kolhapur maharashtra": {
+   "city": "Kolhapur",
+   "lat": 16.70284,
+   "lon": 74.24053,
+   "matched": "Kolhapur, Karvir, Kolhapur, Maharashtra, 416003, India",
+   "state": "Maharashtra"
+  },
+  "kolkata west bengal": {
+   "city": "Kolkata",
+   "lat": 22.57265,
+   "lon": 88.3639,
+   "matched": "Kolkata, Kolkata Metropolitan Area, Kolkata, West Bengal, India",
+   "state": "West Bengal"
+  },
+  "korba chhattisgarh": {
+   "city": "Korba",
+   "lat": 22.35475,
+   "lon": 82.71109,
+   "matched": "Korba, Korba Tahsil, Korba, Chhattisgarh, 495600, India",
+   "state": "Chhattisgarh"
+  },
+  "kottayam kerala": {
+   "city": "Kottayam",
+   "lat": 9.59156,
+   "lon": 76.52216,
+   "matched": "Kottayam, Kerala, 686001, India",
+   "state": "Kerala"
+  },
+  "leh jammu kashmir": {
+   "city": "Leh",
+   "lat": 34.08804,
+   "lon": 74.82241,
+   "matched": "Srinagar-Leh Highway, Munawar Abad, Srinagar, Jammu and Kashmir, 190003, India",
+   "state": "Jammu & Kashmir"
+  },
+  "lucknow uttar pradesh": {
+   "city": "Lucknow",
+   "lat": 26.8381,
+   "lon": 80.9346,
+   "matched": "Lucknow, Uttar Pradesh, 226027, India",
+   "state": "Uttar Pradesh"
+  },
+  "ludhiana punjab": {
+   "city": "Ludhiana",
+   "lat": 30.90902,
+   "lon": 75.8516,
+   "matched": "Ludhiana, Ludhiana (West) Tahsil, Ludhiana, Punjab, 141001, India",
+   "state": "Punjab"
+  },
+  "luknow uttar pradesh": {
+   "city": "Luknow",
+   "lat": 26.8381,
+   "lon": 80.9346,
+   "matched": "Lucknow, Uttar Pradesh, 226027, India",
+   "state": "Uttar Pradesh"
+  },
+  "madurai tamil nadu": {
+   "city": "Madurai",
+   "lat": 9.92612,
+   "lon": 78.1141,
+   "matched": "Madurai, Madurai South, Madurai, Tamil Nadu, India",
+   "state": "Tamil Nadu"
+  },
+  "mahadevpura karnataka": {
+   "city": "Mahadevpura",
+   "lat": 12.99684,
+   "lon": 77.69284,
+   "matched": "Mahadevpura Police Station, Whitefield Road, Devasandra, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, 560048, India",
+   "state": "Karnataka"
+  },
+  "malkapur telangana": {
+   "city": "Malkapur",
+   "lat": 17.2746,
+   "lon": 78.79692,
+   "matched": "Malkapur, Choutuppal mandal, Yadadri Bhuvanagiri, Telangana, India",
+   "state": "Telangana"
+  },
+  "mandi gobindgarh punjab": {
+   "city": "Mandi Gobindgarh",
+   "lat": 30.65183,
+   "lon": 76.29987,
+   "matched": "Mandi Gobindgarh, Amloh Tahsil, Fatehgarh Sahib, Punjab, 147301, India",
+   "state": "Punjab"
+  },
+  "mangalore karnataka": {
+   "city": "Mangalore",
+   "lat": 12.86981,
+   "lon": 74.84301,
+   "matched": "Mangaluru, Mangaluru taluk, Dakshina Kannada, Karnataka, 575001, India",
+   "state": "Karnataka"
+  },
+  "manmad maharashtra": {
+   "city": "Manmad",
+   "lat": 20.25198,
+   "lon": 74.43923,
+   "matched": "Manmad, Nandgaon Taluka, Nashik, Maharashtra, 423104, India",
+   "state": "Maharashtra"
+  },
+  "mathura uttar pradesh": {
+   "city": "Mathura",
+   "lat": 27.49555,
+   "lon": 77.68556,
+   "matched": "Mathura, Uttar Pradesh, 281001, India",
+   "state": "Uttar Pradesh"
+  },
+  "meerut uttar pradesh": {
+   "city": "Meerut",
+   "lat": 28.99633,
+   "lon": 77.70619,
+   "matched": "Meerut, Uttar Pradesh, 250001, India",
+   "state": "Uttar Pradesh"
+  },
+  "mohali punjab": {
+   "city": "Mohali",
+   "lat": 30.69088,
+   "lon": 76.71149,
+   "matched": "Mohali, S.A.S. Nagar (Mohali) Tahsil, Sahibzada Ajit Singh Nagar, Punjab, 140062, India",
+   "state": "Punjab"
+  },
+  "morbi gujarat": {
+   "city": "Morbi",
+   "lat": 22.81767,
+   "lon": 70.83459,
+   "matched": "Morbi, Morbi Taluka, Morbi, Gujarat, 363641, India",
+   "state": "Gujarat"
+  },
+  "motihari bihar": {
+   "city": "Motihari",
+   "lat": 26.65069,
+   "lon": 84.91147,
+   "matched": "Motihari, East Champaran, Bihar, India",
+   "state": "Bihar"
+  },
+  "mourigram west bengal": {
+   "city": "Mourigram",
+   "lat": 22.58027,
+   "lon": 88.25603,
+   "matched": "Mourigram, Andul Road, Kolkata Metropolitan Area, Sankrail, Howrah, West Bengal, 711109, India",
+   "state": "West Bengal"
+  },
+  "mughalsarai uttar pradesh": {
+   "city": "Mughalsarai",
+   "lat": 25.28073,
+   "lon": 83.12513,
+   "matched": "Mughalsarai, Chandauli, Uttar Pradesh, India",
+   "state": "Uttar Pradesh"
+  },
+  "mumbai maharashtra": {
+   "city": "Mumbai",
+   "lat": 19.055,
+   "lon": 72.8692,
+   "matched": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India",
+   "state": "Maharashtra"
+  },
+  "muradnagar uttar pradesh": {
+   "city": "Muradnagar",
+   "lat": 28.77338,
+   "lon": 77.50336,
+   "matched": "Muradnagar, Modinagar, Ghaziabad, Uttar Pradesh, 201206, India",
+   "state": "Uttar Pradesh"
+  },
+  "murthal haryana": {
+   "city": "Murthal",
+   "lat": 29.03961,
+   "lon": 77.08945,
+   "matched": "Murthal, Sonipat, Haryana, 131039, India",
+   "state": "Haryana"
+  },
+  "mysore karnataka": {
+   "city": "Mysore",
+   "lat": 12.30518,
+   "lon": 76.65536,
+   "matched": "Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+   "state": "Karnataka"
+  },
+  "mysuru karnataka": {
+   "city": "Mysuru",
+   "lat": 12.30518,
+   "lon": 76.65536,
+   "matched": "Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+   "state": "Karnataka"
+  },
+  "nagapur maharashtra": {
+   "city": "Nagapur",
+   "lat": 20.60877,
+   "lon": 76.60249,
+   "matched": "Nagapur, Khamgaon, Buldhana, Maharashtra, India",
+   "state": "Maharashtra"
+  },
+  "nagpur maharashtra": {
+   "city": "Nagpur",
+   "lat": 21.14981,
+   "lon": 79.08206,
+   "matched": "Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, India",
+   "state": "Maharashtra"
+  },
+  "nashik maharashtra": {
+   "city": "Nashik",
+   "lat": 20.01125,
+   "lon": 73.79024,
+   "matched": "Nashik, Nashik Subdistrict, Nashik, Maharashtra, 422001, India",
+   "state": "Maharashtra"
+  },
+  "navi mumbai maharashtra": {
+   "city": "Navi Mumbai",
+   "lat": 19.03083,
+   "lon": 73.01985,
+   "matched": "Navi Mumbai, Thane Subdistrict, Thane, Maharashtra, India",
+   "state": "Maharashtra"
+  },
+  "new delhi 110075 delhi": {
+   "city": "New Delhi-110075",
+   "lat": 28.59746,
+   "lon": 77.04237,
+   "matched": "Aap ka Bazar, 12, Pocket 3, Sector 12, Dwarka, New Delhi, (India) - 110075, Road 201, Dwarka, Najafgarh, Delhi, South West Delhi, Delhi, 110075, India",
+   "state": "Delhi"
+  },
+  "new delhi delhi": {
+   "city": "New Delhi",
+   "lat": 28.6139,
+   "lon": 77.20901,
+   "matched": "New Delhi, Delhi, India",
+   "state": "Delhi"
+  },
+  "nigdol dindori maharashtra": {
+   "city": "Nigdol Dindori",
+   "lat": 20.24993,
+   "lon": 73.75167,
+   "matched": "PHC, Nigdol, MDR71, Vani Khurd, Dindori, Dindori Taluka, Nashik, Maharashtra, 422202, India",
+   "state": "Maharashtra"
+  },
+  "noida uttar pradesh": {
+   "city": "Noida",
+   "lat": 28.57063,
+   "lon": 77.32721,
+   "matched": "Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, India",
+   "state": "Uttar Pradesh"
+  },
+  "palakkad kerala": {
+   "city": "Palakkad",
+   "lat": 10.76819,
+   "lon": 76.65213,
+   "matched": "Palakkad, Kerala, 678001, India",
+   "state": "Kerala"
+  },
+  "palghar maharashtra": {
+   "city": "Palghar",
+   "lat": 19.69672,
+   "lon": 72.76951,
+   "matched": "Palghar, Palghar Subdistrict, Palghar, Maharashtra, 401404, India",
+   "state": "Maharashtra"
+  },
+  "panchkula haryana": {
+   "city": "Panchkula",
+   "lat": 30.69754,
+   "lon": 76.85511,
+   "matched": "Panchkula, Haryana, 134109, India",
+   "state": "Haryana"
+  },
+  "panipat haryana": {
+   "city": "Panipat",
+   "lat": 29.39127,
+   "lon": 76.97717,
+   "matched": "Panipat, Haryana, 132100, India",
+   "state": "Haryana"
+  },
+  "panvel maharashtra": {
+   "city": "Panvel",
+   "lat": 18.98952,
+   "lon": 73.12219,
+   "matched": "Panvel, Panvel Subdistrict, Raigad, Maharashtra, India",
+   "state": "Maharashtra"
+  },
+  "paradip odisha": {
+   "city": "Paradip",
+   "lat": 20.26743,
+   "lon": 86.65974,
+   "matched": "Paradip, Jagatsinghapur, Odisha, 754142, India",
+   "state": "Odisha"
+  },
+  "parwanoo himachal pradesh": {
+   "city": "Parwanoo",
+   "lat": 30.83789,
+   "lon": 76.96017,
+   "matched": "Parwanoo, Kasauli, Solan, Himachal Pradesh, 173220, India",
+   "state": "Himachal Pradesh"
+  },
+  "patiala punjab": {
+   "city": "Patiala",
+   "lat": 30.3302,
+   "lon": 76.40077,
+   "matched": "Patiala, Patiala Tahsil, Patiala, Punjab, India",
+   "state": "Punjab"
+  },
+  "patna bihar": {
+   "city": "Patna",
+   "lat": 25.60932,
+   "lon": 85.12353,
+   "matched": "Patna, Patna Rural, Patna, Bihar, India",
+   "state": "Bihar"
+  },
+  "port blair sri vijaya puram andaman nicobar": {
+   "city": "Port Blair (Sri Vijaya Puram)",
+   "lat": 11.66453,
+   "lon": 92.73904,
+   "matched": "Port Blair, Port Blair Tehsil, South Andaman, Andaman and Nicobar Islands, 744101, India",
+   "state": "Andaman & Nicobar"
+  },
+  "prayagraj uttar pradesh": {
+   "city": "Prayagraj",
+   "lat": 25.43813,
+   "lon": 81.8338,
+   "matched": "Prayagraj, Allahabad, Prayagraj, Uttar Pradesh, 211001, India",
+   "state": "Uttar Pradesh"
+  },
+  "puducherry puducherry": {
+   "city": "Puducherry",
+   "lat": 11.93406,
+   "lon": 79.83064,
+   "matched": "Puducherry, Puducherry Taluk, Puducherry, 605001, India",
+   "state": "Puducherry"
+  },
+  "pune bhosari maharashtra": {
+   "city": "Pune (Bhosari)",
+   "lat": 18.63494,
+   "lon": 73.84914,
+   "matched": "4, Anandrao Lande Rd, Indrayani Nagar, Sector Number 7, Bhosari, Pimpri-Chinchwad, Maharashtra 411026, India, Bhosari, Pimpri-Chinchwad, Haveli Subdistrict, Pune, Maharashtra, 411026, India",
+   "state": "Maharashtra"
+  },
+  "pune maharashtra": {
+   "city": "Pune",
+   "lat": 18.52137,
+   "lon": 73.85451,
+   "matched": "Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+   "state": "Maharashtra"
+  },
+  "rabale maharashtra": {
+   "city": "Rabale",
+   "lat": 19.1425,
+   "lon": 73.01234,
+   "matched": "MIDC - Rabale, Navi Mumbai, Thane Subdistrict, Thane, Maharashtra, 410701, India",
+   "state": "Maharashtra"
+  },
+  "raipur chhattisgarh": {
+   "city": "Raipur",
+   "lat": 21.23809,
+   "lon": 81.6337,
+   "matched": "Raipur, Raipur Tahsil, Raipur, Chhattisgarh, 493332, India",
+   "state": "Chhattisgarh"
+  },
+  "rajkot gujarat": {
+   "city": "Rajkot",
+   "lat": 22.30533,
+   "lon": 70.80284,
+   "matched": "Rajkot, Rajkot East Taluka, Rajkot, Gujarat, 360001, India",
+   "state": "Gujarat"
+  },
+  "rajpura punjab": {
+   "city": "Rajpura",
+   "lat": 30.47769,
+   "lon": 76.59377,
+   "matched": "Rajpura, Rajpura Tahsil, Patiala, Punjab, 140401, India",
+   "state": "Punjab"
+  },
+  "ranchi jharkhand": {
+   "city": "Ranchi",
+   "lat": 23.37005,
+   "lon": 85.32504,
+   "matched": "Ranchi, Kanke, Ranchi, Jharkhand, 834001, India",
+   "state": "Jharkhand"
+  },
+  "ranipet tamil nadu": {
+   "city": "Ranipet",
+   "lat": 12.92925,
+   "lon": 79.33217,
+   "matched": "Ranipet, Wallajah, Ranipet, Tamil Nadu, 632401, India",
+   "state": "Tamil Nadu"
+  },
+  "ratlam madhya pradesh": {
+   "city": "Ratlam",
+   "lat": 23.3311,
+   "lon": 75.03608,
+   "matched": "Ratlam, Ratlam Nagar Tahsil, Ratlam, Madhya Pradesh, 457001, India",
+   "state": "Madhya Pradesh"
+  },
+  "rayagada odisha": {
+   "city": "Rayagada",
+   "lat": 19.1696,
+   "lon": 83.418,
+   "matched": "Rayagada, Odisha, 765001, India",
+   "state": "Odisha"
+  },
+  "rewari haryana": {
+   "city": "Rewari",
+   "lat": 28.19565,
+   "lon": 76.61652,
+   "matched": "Rewari, Haryana, 123110, India",
+   "state": "Haryana"
+  },
+  "rohini delhi": {
+   "city": "Rohini",
+   "lat": 28.70631,
+   "lon": 77.10879,
+   "matched": "Rohini, Delhi, North West Delhi, Delhi, India",
+   "state": "Delhi"
+  },
+  "roorkee uttarakhand": {
+   "city": "Roorkee",
+   "lat": 29.86935,
+   "lon": 77.89021,
+   "matched": "Roorkee, Haridwar, Uttarakhand, 247667, India",
+   "state": "Uttarakhand"
+  },
+  "sahibabad uttar pradesh": {
+   "city": "Sahibabad",
+   "lat": 28.67228,
+   "lon": 77.37001,
+   "matched": "Sahibabad, Ghaziabad, Uttar Pradesh, 201001, India",
+   "state": "Uttar Pradesh"
+  },
+  "sahibzada ajit singh nagar punjab": {
+   "city": "Sahibzada Ajit Singh Nagar",
+   "lat": 30.69088,
+   "lon": 76.71149,
+   "matched": "Mohali, S.A.S. Nagar (Mohali) Tahsil, Sahibzada Ajit Singh Nagar, Punjab, 140062, India",
+   "state": "Punjab"
+  },
+  "salem tamil nadu": {
+   "city": "Salem",
+   "lat": 11.6552,
+   "lon": 78.15818,
+   "matched": "Salem, Tamil Nadu, 636001, India",
+   "state": "Tamil Nadu"
+  },
+  "sampla haryana": {
+   "city": "Sampla",
+   "lat": 28.77707,
+   "lon": 76.77031,
+   "matched": "Kharkhauda, Sampla, Rohtak, Haryana, 124402, India",
+   "state": "Haryana"
+  },
+  "sangrur punjab": {
+   "city": "Sangrur",
+   "lat": 30.2432,
+   "lon": 75.83581,
+   "matched": "Sangrur, Sangrur Tahsil, Sangrur, Punjab, 148001, India",
+   "state": "Punjab"
+  },
+  "sas nagar punjab": {
+   "city": "Sas Nagar",
+   "lat": 30.69044,
+   "lon": 76.71162,
+   "matched": "Sas Nagar, SH12A, Sector 78, Mohali, S.A.S. Nagar (Mohali) Tahsil, Sahibzada Ajit Singh Nagar, Punjab, 140062, India",
+   "state": "Punjab"
+  },
+  "siliguri west bengal": {
+   "city": "Siliguri",
+   "lat": 26.71641,
+   "lon": 88.43099,
+   "matched": "Siliguri, Matigara block, Darjeeling, West Bengal, India",
+   "state": "West Bengal"
+  },
+  "sinnar maharashtra": {
+   "city": "Sinnar",
+   "lat": 19.84531,
+   "lon": 74.00002,
+   "matched": "Sinnar, Sinnar Taluka, Nashik, Maharashtra, 422103, India",
+   "state": "Maharashtra"
+  },
+  "sipara p o lohia nagar patna bihar": {
+   "city": "Sipara, P.O. Lohia Nagar, Patna",
+   "lat": 25.60932,
+   "lon": 85.12353,
+   "matched": "Patna, Patna Rural, Patna, Bihar, India",
+   "state": "Bihar"
+  },
+  "sonipat haryana": {
+   "city": "Sonipat",
+   "lat": 28.99538,
+   "lon": 77.02336,
+   "matched": "Sonipat, Haryana, 131001, India",
+   "state": "Haryana"
+  },
+  "surat gujarat": {
+   "city": "Surat",
+   "lat": 21.20949,
+   "lon": 72.83171,
+   "matched": "Surat, Katargam Taluka, Surat, Gujarat, 395008, India",
+   "state": "Gujarat"
+  },
+  "thane maharashtra": {
+   "city": "Thane",
+   "lat": 19.19433,
+   "lon": 72.97018,
+   "matched": "Thane, Thane Subdistrict, Thane, Maharashtra, India",
+   "state": "Maharashtra"
+  },
+  "thanjavur tamil nadu": {
+   "city": "Thanjavur",
+   "lat": 10.78603,
+   "lon": 79.13815,
+   "matched": "Thanjavur, Tamil Nadu, 613001, India",
+   "state": "Tamil Nadu"
+  },
+  "tiruchirapalli tamil nadu": {
+   "city": "Tiruchirapalli",
+   "lat": 10.76317,
+   "lon": 78.71326,
+   "matched": "Tiruchirapalli International Airport, PudukottaiRoad, Ward 61, Trichy Zone IV, Trichy Corporation Limits, Tiruchirappalli, Tiruchchirāppalli, Tiruchirappalli, Tamil Nadu, 620023, India",
+   "state": "Tamil Nadu"
+  },
+  "tirupati andhra pradesh": {
+   "city": "Tirupati",
+   "lat": 13.63164,
+   "lon": 79.42317,
+   "matched": "Tirupati, Tirupati (Urban), Tirupati, Andhra Pradesh, 517500, India",
+   "state": "Andhra Pradesh"
+  },
+  "tirupur 641602 tamilnadu tamil nadu": {
+   "city": "Tirupur- 641602. Tamilnadu.",
+   "lat": 11.16719,
+   "lon": 77.34727,
+   "matched": "tirupur, Tirupur - Perumanallur - Kunnathur - Perunthurai Road, Mumoorthy Nagar, Boyampalayam, TiruppurNorth, Tiruppur, Tamil Nadu, 641603, India",
+   "state": "Tamil Nadu"
+  },
+  "tiruvallur tamil nadu": {
+   "city": "Tiruvallur",
+   "lat": 13.13942,
+   "lon": 79.90708,
+   "matched": "Tiruvallur, Thiruvallur, Tamil Nadu, 602001, India",
+   "state": "Tamil Nadu"
+  },
+  "turbhe navi mumbai maharashtra": {
+   "city": "Turbhe, Navi Mumbai",
+   "lat": 19.07616,
+   "lon": 73.01766,
+   "matched": "Turbhe, Turbhe Station Road, Turbhe, Navi Mumbai, Thane Subdistrict, Thane, Maharashtra, 400703, India",
+   "state": "Maharashtra"
+  },
+  "udaipur rajasthan": {
+   "city": "Udaipur",
+   "lat": 24.57872,
+   "lon": 73.68626,
+   "matched": "Udaipur, Girwa Tehsil, Udaipur, Rajasthan, 313001, India",
+   "state": "Rajasthan"
+  },
+  "ulundurpettai tamil nadu": {
+   "city": "Ulundurpettai",
+   "lat": 11.69077,
+   "lon": 79.28869,
+   "matched": "Ulundurpettai, Kallakurichi, Tamil Nadu, 606107, India",
+   "state": "Tamil Nadu"
+  },
+  "uttar pradesh uttar pradesh": {
+   "city": "Uttar Pradesh",
+   "lat": 26.84209,
+   "lon": 80.94782,
+   "matched": "लोक निर्माण विभाग, उत्तर प्रदेश, 96, Hazratganj, Lucknow, Uttar Pradesh, 226001, India",
+   "state": "Uttar Pradesh"
+  },
+  "vadodara gujarat": {
+   "city": "Vadodara",
+   "lat": 22.29731,
+   "lon": 73.19426,
+   "matched": "Vadodara, Vadodara Rural Taluka, Vadodara, Gujarat, 390001, India",
+   "state": "Gujarat"
+  },
+  "vasco goa": {
+   "city": "Vasco",
+   "lat": 15.39842,
+   "lon": 73.81288,
+   "matched": "Vasco, Mormugao, South Goa, Goa, 403802, India",
+   "state": "Goa"
+  },
+  "vijayawada andhra pradesh": {
+   "city": "Vijayawada",
+   "lat": 16.51153,
+   "lon": 80.61605,
+   "matched": "Vijayawada, Vijayawada (Urban), NTR, Andhra Pradesh, 520001, India",
+   "state": "Andhra Pradesh"
+  },
+  "visakhapatnam andhra pradesh": {
+   "city": "Visakhapatnam",
+   "lat": 17.69355,
+   "lon": 83.29213,
+   "matched": "Visakhapatnam, Visakhapatnam Urban, Visakhapatnam, Andhra Pradesh, 530001, India",
+   "state": "Andhra Pradesh"
+  },
+  "wagholi maharashtra": {
+   "city": "Wagholi",
+   "lat": 18.58063,
+   "lon": 73.98331,
+   "matched": "Wagholi, Pune City Subdistrict, Pune, Maharashtra, 412207, India",
+   "state": "Maharashtra"
+  },
+  "wazirpur delhi": {
+   "city": "Wazirpur",
+   "lat": 28.68008,
+   "lon": 77.17022,
+   "matched": "Wazirpur, Keshavpuram, Delhi, Central North Delhi, Delhi, India",
+   "state": "Delhi"
+  }
+ }
+}

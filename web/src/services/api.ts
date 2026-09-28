@@ -10,6 +10,8 @@ import type {
   AnalyzeResponse,
   DocumentRequest,
   HealthResponse,
+  LabAnswer,
+  LabsRequest,
   MetaResponse,
   StageEvent,
   StandardDetail,
@@ -82,28 +84,115 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   }
 }
 
+const CONTEXT_FIELDS = ['history', 'previous_requirement'] as const
+
+async function isLegacyContextRejection(response: Response): Promise<boolean> {
+  if (response.status !== 422) return false
+  try {
+    const detail = (await response.clone().json()).detail
+    if (!Array.isArray(detail) || detail.length === 0) return false
+    return detail.every((error: { type?: string; loc?: unknown[] }) =>
+      error.type === 'extra_forbidden'
+      && CONTEXT_FIELDS.includes(error.loc?.[error.loc.length - 1] as typeof CONTEXT_FIELDS[number]),
+    )
+  } catch {
+    return false
+  }
+}
+
+function withoutConversationContext(body: AnalyzeRequest): AnalyzeRequest {
+  const { history: _history, previous_requirement: _requirement, ...legacyBody } = body
+  return legacyBody
+}
+
+async function postAnalyze(path: string, body: AnalyzeRequest, signal?: AbortSignal): Promise<Response> {
+  const send = (requestBody: AnalyzeRequest) => fetch(`${BASE}${path}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(requestBody),
+    signal,
+  })
+  let response = await send(body).catch(() => {
+    throw new ApiError(0, 'Could not reach the engine.')
+  })
+  if (await isLegacyContextRejection(response)) {
+    response = await send(withoutConversationContext(body)).catch(() => {
+      throw new ApiError(0, 'Could not reach the engine.')
+    })
+  }
+  return response
+}
+
+function withDefaultIntent(result: AnalyzeResponse): AnalyzeResponse {
+  return { ...result, intent: result.intent || 'standards_recommendation' }
+}
+
+async function postUpload(form: FormData): Promise<Response> {
+  const send = () => fetch(`${BASE}/v1/analyze/upload`, { method: 'POST', body: form })
+  let response = await send().catch(() => {
+    throw new ApiError(0, 'Could not reach the engine.')
+  })
+  if (form.has('history') || form.has('previous_requirement')) {
+    if (await isLegacyContextRejection(response)) {
+      form.delete('history')
+      form.delete('previous_requirement')
+      response = await send().catch(() => {
+        throw new ApiError(0, 'Could not reach the engine.')
+      })
+    }
+  }
+  return response
+}
+
 export const api = {
   health: () => request<HealthResponse>('/health'),
 
   meta: () => request<MetaResponse>('/v1/meta'),
 
-  analyze: (body: AnalyzeRequest) =>
-    request<AnalyzeResponse>('/v1/analyze', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
-    }),
+  analyze: async (body: AnalyzeRequest) => {
+    const response = await postAnalyze('/v1/analyze', body)
+    if (!response.ok) throw await parseError(response)
+    return withDefaultIntent((await response.json()) as AnalyzeResponse)
+  },
 
-  analyzeUpload: (file: File, persona: string, state?: string | null) => {
+  analyzeUpload: (
+    file: File,
+    persona: string,
+    state?: string | null,
+    lang?: string,
+    context?: Pick<AnalyzeRequest, 'history' | 'previous_requirement'>,
+  ) => {
     const form = new FormData()
     form.append('file', file)
     form.append('persona', persona)
     if (state) form.append('state', state)
-    return request<AnalyzeResponse>('/v1/analyze/upload', { method: 'POST', body: form })
+    if (lang) form.append('lang', lang)
+    if (context?.history) form.append('history', JSON.stringify(context.history))
+    if (context?.previous_requirement) {
+      form.append('previous_requirement', JSON.stringify(context.previous_requirement))
+    }
+    return postUpload(form).then(async (response) => {
+      if (!response.ok) throw await parseError(response)
+      return withDefaultIntent((await response.json()) as AnalyzeResponse)
+    })
   },
 
   standard: (isNumber: string) =>
     request<StandardDetail>(`/v1/standard/${encodeURIComponent(isNumber)}`),
+
+  /**
+   * Module C4.5: the BIS-recognised laboratories that can test these standards.
+   *
+   * Deliberately a separate call from `analyze`. The user decides whether to share their location
+   * after they have seen which standards apply, and answering that follow-up is a catalogue lookup
+   * rather than another run of the pipeline.
+   */
+  labs: (body: LabsRequest) =>
+    request<LabAnswer>('/v1/labs', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    }),
 
   /**
    * The analysis, reported stage by stage.
@@ -118,14 +207,7 @@ export const api = {
     onStage: (stage: StageEvent) => void,
     signal?: AbortSignal,
   ): Promise<AnalyzeResponse> => {
-    const response = await fetch(`${BASE}/v1/analyze/stream`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
-      signal,
-    }).catch(() => {
-      throw new ApiError(0, 'Could not reach the engine.')
-    })
+    const response = await postAnalyze('/v1/analyze/stream', body, signal)
 
     if (!response.ok) throw await parseError(response)
     if (!response.body) throw new ApiError(0, 'The engine returned no data.')
@@ -167,7 +249,7 @@ export const api = {
     }
 
     if (!result) throw new ApiError(0, 'The engine closed the connection before answering.')
-    return result
+    return withDefaultIntent(result)
   },
 
   /** The PDF, returned as a blob so the browser can save it without a round trip through a URL. */
