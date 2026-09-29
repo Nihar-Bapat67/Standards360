@@ -42,6 +42,7 @@ export const en = {
   'landing.problem.withdrawn': 'withdrawn standards still citable in a document',
   'landing.problem.replacement': 'of them name their replacement, so the fix is knowable',
   'landing.problem.labs': 'recognised laboratories',
+  'landing.problem.labsAcross': 'recognised laboratories across {count} states',
   'landing.doors.label': 'Five doors, one engine',
   'landing.doors.heading': 'Built around how a request actually arrives, not around an ideal query.',
   'landing.doors.case': 'Case',
@@ -61,6 +62,8 @@ export const en = {
   'landing.pipeline.heading': 'Nineteen modules. The search engine is one of them.',
   'landing.pipeline.body':
     'Finding a plausible standard is the easy part. The other eighteen modules are what make the answer safe to put inside a government tender.',
+  'landing.pipeline.clausesIndexed': '{count} clauses indexed',
+  'landing.pipeline.standardsIndexed': '{count} standards with full text',
   'landing.stage.understand': 'Understand',
   'landing.stage.understand.detail':
     'Read the tender, extract the requirement, note what it never specified',
@@ -114,6 +117,11 @@ export const en = {
   'workspace.unpin': 'Unpin this enquiry',
   'workspace.delete': 'Delete this enquiry',
   'workspace.openMenu': 'Open your enquiries',
+  'chat.oneCitationToChange': '1 citation to change',
+  'chat.citationsToChange': '{count} citations to change',
+  'chat.citationsToAdd': '{count} to add',
+  'chat.alliedStandards': '{count} allied standards',
+  'chat.viewFindings': 'View the findings',
 
   // ── composer ──────────────────────────────────────────────────────────
   'composer.placeholder': 'Describe the item, or paste a clause from the tender',
@@ -160,6 +168,8 @@ export const en = {
   'results.amendments': 'amendments',
   'results.isiCompulsory': 'ISI mark compulsory',
   'results.laboratories': 'laboratories',
+  'results.labCount': '{count} laboratories',
+  'results.citationDepth': 'Citation depth',
   'results.howToCite': 'How to cite it',
   'results.amendmentNote':
     'An amendment changes a standard without replacing it, so the edition year does not move. Cite it as amended.',
@@ -197,6 +207,7 @@ export const en = {
   'results.refine': 'Refine in the conversation',
   'results.removed': 'Removed before you saw it',
   'results.noAnswerTitle': 'There is no answer on this enquiry yet',
+  'results.noAnswerShort': 'No answer yet',
   'results.noAnswerBody':
     'Ask about an item in the conversation, or drop a tender in, and the applicable standards will appear here.',
   'results.backToConversation': 'Back to the conversation',
@@ -218,11 +229,33 @@ export const en = {
 
   // ── standard detail ───────────────────────────────────────────────────
   'standard.label': 'Standard',
+  'standard.detailsFor': 'Details for {standard}',
+  'standard.labCount': '{count} labs',
+  'standard.editionNotice': 'You asked for {requested}. The edition in force is {current}.',
   'standard.withdrawn': 'Withdrawn',
   'standard.amendmentsInForce': 'Amendments in force',
   'standard.alliedByRole': 'Allied standards, by role',
   'standard.whereTested': 'Where it can be tested',
   'standard.notAvailable': 'Not available',
+  'standard.missing': '{standard} is not in the BIS catalogue.',
+  'standard.loadFailed': 'Could not load that standard.',
+
+  // ── testing laboratories ─────────────────────────────────────────────
+  'labs.locating': 'Locating',
+  'labs.useLocation': 'Use my location',
+  'labs.placePlaceholder': 'or type your town',
+  'labs.placeLabel': 'Your town or state',
+  'labs.finding': 'Finding',
+  'labs.findNearest': 'Find nearest',
+  'labs.directions': 'Directions',
+  'labs.inYourCity': 'In your city',
+  'labs.straightLine': 'straight line',
+  'labs.loadFailed': 'The laboratory list could not be loaded.',
+  'labs.geolocationUnavailable': 'This browser cannot share a location. Type your town instead.',
+  'labs.locationDeclined': 'Location access was declined. Type your town instead; the directions links work either way.',
+  'labs.locationUnreadable': 'Your location could not be read. Type your town instead.',
+  'labs.distanceAttribution': 'Distances use town coordinates from OpenStreetMap.',
+  'labs.recognisedFor': 'Recognised for {tests}',
 
   // ── sign in ───────────────────────────────────────────────────────────
   'auth.startFree': 'Start for free',
@@ -241,9 +274,13 @@ export const en = {
   'auth.officialEmail': 'Official email',
   'auth.organisation': 'Department or organisation',
   'auth.role': 'I am drafting or supplying as',
+    'auth.roleProcurement': 'Procurement officer',
+    'auth.roleManufacturer': 'Manufacturer',
   'auth.state': 'State',
   'auth.selectState': 'Select a state',
   'auth.password': 'Password',
+    'auth.showPassword': 'Show password',
+    'auth.hidePassword': 'Hide password',
   'auth.confirmPassword': 'Confirm password',
   'auth.backHome': 'Back to the home page',
   'auth.working': 'Working…',
@@ -283,6 +320,7 @@ export const en = {
   'error.timeout': 'The request took too long and was stopped.',
   'error.documentFailed': 'The document could not be generated.',
   'error.standardMissing': 'is not in the BIS catalogue.',
+  'error.cannotReadFile': 'The engine could not read that file.',
 } as const
 
 export type TranslationKey = keyof typeof en

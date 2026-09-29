@@ -5,6 +5,7 @@ import { api, ApiError } from '../services/api'
 import type { StandardDetail } from '../types/api'
 import { Chip, ErrorState, Icon, Label, Skeleton } from './ui'
 import { RELATION_TINTS, relationLabel, severityDot, severityStyle } from '../lib/format'
+import { useT } from '../i18n'
 
 /**
  * Everything the catalogue holds about one standard.
@@ -23,6 +24,7 @@ export function StandardDrawer({
   onClose: () => void
   onOpenStandard: (isNumber: string) => void
 }) {
+  const t = useT()
   const [detail, setDetail] = useState<StandardDetail | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
@@ -41,10 +43,10 @@ export function StandardDrawer({
         if (!alive) return
         setError(
           e instanceof ApiError && e.status === 404
-            ? `${isNumber} is not in the BIS catalogue.`
+            ? t('standard.missing', { standard: isNumber })
             : e instanceof ApiError
               ? e.friendly
-              : 'Could not load that standard.',
+              : t('standard.loadFailed'),
         )
       })
       .finally(() => alive && setLoading(false))
@@ -52,7 +54,7 @@ export function StandardDrawer({
     return () => {
       alive = false
     }
-  }, [isNumber])
+  }, [isNumber, t])
 
   // Escape closes, as it must for anything that covers the page.
   useEffect(() => {
@@ -80,7 +82,7 @@ export function StandardDrawer({
           <motion.aside
             role="dialog"
             aria-modal="true"
-            aria-label={`Details for ${isNumber}`}
+            aria-label={t('standard.detailsFor', { standard: isNumber ?? '' })}
             initial={{ x: '100%' }}
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
@@ -88,12 +90,12 @@ export function StandardDrawer({
             className="fixed right-0 top-0 z-50 flex h-full w-full max-w-[460px] flex-col border-l border-white/8 bg-ink-1/95 backdrop-blur-2xl"
           >
             <header className="flex h-16 shrink-0 items-center gap-3 border-b border-white/6 px-5">
-              <Label>Standard</Label>
+              <Label>{t('standard.label')}</Label>
               <div className="flex-1" />
               <button
                 type="button"
                 onClick={onClose}
-                aria-label="Close"
+                aria-label={t('action.close')}
                 autoFocus
                 className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/8 bg-white/[0.03] text-secondary transition-colors hover:text-text"
               >
@@ -111,7 +113,7 @@ export function StandardDrawer({
                 </div>
               )}
 
-              {error && <ErrorState title="Not available" message={error} />}
+              {error && <ErrorState title={t('standard.notAvailable')} message={error} />}
 
               {resolved && (
                 <div className="space-y-5">
@@ -122,11 +124,11 @@ export function StandardDrawer({
                     <p className="mt-2 text-[13.5px] leading-relaxed text-secondary">{resolved.title}</p>
                     <div className="mt-3 flex flex-wrap gap-2">
                       <Chip tone={resolved.withdrawn ? 'plain' : 'warm'}>
-                        {resolved.withdrawn ? 'Withdrawn' : 'In force'}
+                        {resolved.withdrawn ? t('standard.withdrawn') : t('results.inForce')}
                       </Chip>
-                      {detail.certification?.certification_required && <Chip>ISI mark compulsory</Chip>}
+                      {detail.certification?.certification_required && <Chip>{t('results.isiCompulsory')}</Chip>}
                       {detail.certification?.labs_available > 0 && (
-                        <Chip>{detail.certification.labs_available} labs</Chip>
+                        <Chip>{t('standard.labCount', { count: detail.certification.labs_available })}</Chip>
                       )}
                     </div>
                   </div>
@@ -134,15 +136,14 @@ export function StandardDrawer({
                   {resolved.current && resolved.current !== isNumber && (
                     <div className="rounded-xl border border-[rgb(255_138_91/0.28)] bg-[rgb(255_138_91/0.07)] p-4">
                       <p className="text-[13px] leading-relaxed text-secondary">
-                        You asked for <span className="mono text-text">{isNumber}</span>. The edition in
-                        force is <span className="mono text-amber">{resolved.current}</span>.
+                        {t('standard.editionNotice', { requested: isNumber, current: resolved.current })}
                       </p>
                     </div>
                   )}
 
                   {resolved.amendments.length > 0 && (
                     <section>
-                      <Label>Amendments in force</Label>
+                      <Label>{t('standard.amendmentsInForce')}</Label>
                       <div className="mt-3 space-y-1.5">
                         {resolved.amendments.map((amendment) => (
                           <div
@@ -156,15 +157,14 @@ export function StandardDrawer({
                         ))}
                       </div>
                       <p className="mt-3 text-[12px] leading-relaxed text-muted">
-                        An amendment changes the standard without replacing it, so the edition year does not
-                        move. Cite the standard as amended.
+                        {t('results.amendmentNote')}
                       </p>
                     </section>
                   )}
 
                   {resolved.warnings.length > 0 && (
                     <section>
-                      <Label>Warnings</Label>
+                      <Label>{t('results.warnings')}</Label>
                       <div className="mt-3 space-y-2">
                         {resolved.warnings.map((warning, index) => (
                           <div
@@ -181,7 +181,7 @@ export function StandardDrawer({
 
                   {detail.certification && (
                     <section>
-                      <Label>Certification</Label>
+                      <Label>{t('results.certification')}</Label>
                       <p className="mt-3 text-[13.5px] leading-relaxed text-text">
                         {detail.certification.statement}
                       </p>
@@ -206,7 +206,7 @@ export function StandardDrawer({
 
                   {Object.entries(detail.allied).filter(([, items]) => items.length > 0).length > 0 && (
                     <section>
-                      <Label>Allied standards, by role</Label>
+                      <Label>{t('standard.alliedByRole')}</Label>
                       <div className="mt-3 space-y-3">
                         {Object.entries(detail.allied)
                           .filter(([, items]) => items.length > 0)

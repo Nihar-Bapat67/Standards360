@@ -26,6 +26,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { api, ApiError } from '../services/api'
 import type { Lab, LabAnswer } from '../types/api'
 import { Icon, Label } from './ui'
+import { useT } from '../i18n'
 
 type Status = 'idle' | 'loading' | 'locating' | 'error'
 
@@ -33,6 +34,7 @@ type Status = 'idle' | 'loading' | 'locating' | 'error'
 const GEOLOCATION_TIMEOUT_MS = 12_000
 
 export function TestingLabs({ standards, persona }: { standards: string[]; persona: string }) {
+  const t = useT()
   const [answer, setAnswer] = useState<LabAnswer | null>(null)
   const [status, setStatus] = useState<Status>('idle')
   const [error, setError] = useState('')
@@ -57,11 +59,11 @@ export function TestingLabs({ standards, persona }: { standards: string[]; perso
         setStatus('idle')
       } catch (cause) {
         if (ticket !== latest.current) return
-        setError(cause instanceof ApiError ? cause.friendly : 'The laboratory list could not be loaded.')
+        setError(cause instanceof ApiError ? cause.friendly : t('labs.loadFailed'))
         setStatus('error')
       }
     },
-    [key], // eslint-disable-line react-hooks/exhaustive-deps
+    [key, t],
   )
 
   useEffect(() => {
@@ -70,7 +72,7 @@ export function TestingLabs({ standards, persona }: { standards: string[]; perso
 
   function useMyLocation() {
     if (!('geolocation' in navigator)) {
-      setError('This browser cannot share a location. Type your town instead.')
+      setError(t('labs.geolocationUnavailable'))
       setStatus('error')
       return
     }
@@ -85,8 +87,8 @@ export function TestingLabs({ standards, persona }: { standards: string[]; perso
         setStatus('error')
         setError(
           cause.code === cause.PERMISSION_DENIED
-            ? 'Location access was declined. Type your town instead — the directions links work either way.'
-            : 'Your location could not be read. Type your town instead.',
+            ? t('labs.locationDeclined')
+            : t('labs.locationUnreadable'),
         )
       },
       { timeout: GEOLOCATION_TIMEOUT_MS, maximumAge: 300_000 },
@@ -128,7 +130,7 @@ export function TestingLabs({ standards, persona }: { standards: string[]; perso
             className="btn btn-ghost h-9 px-3.5 text-[12.5px]"
           >
             <Icon.Locate />
-            {status === 'locating' ? 'Locating' : 'Use my location'}
+            {status === 'locating' ? t('labs.locating') : t('labs.useLocation')}
           </button>
 
           <div className="flex h-9 items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3">
@@ -138,14 +140,14 @@ export function TestingLabs({ standards, persona }: { standards: string[]; perso
             <input
               value={place}
               onChange={(event) => setPlace(event.target.value)}
-              placeholder="or type your town"
-              aria-label="Your town or state"
+              placeholder={t('labs.placePlaceholder')}
+              aria-label={t('labs.placeLabel')}
               className="w-[9.5rem] bg-transparent text-[13px] text-text outline-none placeholder:text-muted"
             />
           </div>
 
           <button type="submit" disabled={busy} className="btn btn-primary h-9 px-4 text-[12.5px]">
-            {status === 'loading' ? 'Finding' : 'Find nearest'}
+            {status === 'loading' ? t('labs.finding') : t('labs.findNearest')}
           </button>
         </form>
       </div>
@@ -186,7 +188,7 @@ export function TestingLabs({ standards, persona }: { standards: string[]; perso
       {answer && (
         <p className="border-t border-white/8 px-1 pt-4 text-[11.5px] leading-relaxed text-muted">
           {answer.hours_note}
-          {answer.attribution && ` Distances use town coordinates from OpenStreetMap.`}
+          {answer.attribution && ` ${t('labs.distanceAttribution')}`}
         </p>
       )}
     </div>
@@ -198,6 +200,7 @@ export function TestingLabs({ standards, persona }: { standards: string[]; perso
    ────────────────────────────────────────────────────────────────────── */
 
 function LabCard({ lab }: { lab: Lab }) {
+  const t = useT()
   return (
     <li className="card flex flex-col gap-3.5 p-5">
       <div className="flex items-start justify-between gap-3">
@@ -216,7 +219,7 @@ function LabCard({ lab }: { lab: Lab }) {
 
       {lab.tests.length > 0 && (
         <p className="mono text-[11px] leading-relaxed text-muted">
-          Recognised for {lab.tests.join(' · ')}
+          {t('labs.recognisedFor', { tests: lab.tests.join(' · ') })}
         </p>
       )}
 
@@ -250,7 +253,7 @@ function LabCard({ lab }: { lab: Lab }) {
             rel="noreferrer noopener"
             className="ml-auto flex items-center gap-1.5 text-[12.5px] text-amber transition-opacity hover:opacity-75"
           >
-            Directions
+            {t('labs.directions')}
             <Icon.Arrow />
           </a>
         )}
@@ -261,16 +264,17 @@ function LabCard({ lab }: { lab: Lab }) {
 
 /** The distance badge, which says what kind of distance it is rather than only a number. */
 function Distance({ lab }: { lab: Lab }) {
+  const t = useT()
   if (lab.same_city) {
     return (
-      <span className="chip chip-warm shrink-0 whitespace-nowrap">In your city</span>
+      <span className="chip chip-warm shrink-0 whitespace-nowrap">{t('labs.inYourCity')}</span>
     )
   }
   if (lab.distance_km === null) return null
   return (
     <span className="shrink-0 text-right">
       <span className="mono block text-[13px] text-text">{lab.distance_km.toLocaleString('en-US')} km</span>
-      <span className="block text-[10.5px] leading-tight text-muted">straight line</span>
+      <span className="block text-[10.5px] leading-tight text-muted">{t('labs.straightLine')}</span>
     </span>
   )
 }

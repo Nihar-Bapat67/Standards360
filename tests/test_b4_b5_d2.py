@@ -99,7 +99,7 @@ def _requirement(**kwargs):
 
 def _confidence(score):
     return ConfidenceResult(score=score, band="high" if score >= 0.75 else "low",
-                            should_ask=score < 0.60, signals={}, drivers=[])
+                            should_ask=False, signals={}, drivers=[])
 
 
 def test_missing_fields_produce_questions(gate):
@@ -116,11 +116,11 @@ def test_complete_requirement_with_good_confidence_proceeds(gate):
     assert result.questions == []
 
 
-def test_low_confidence_asks_even_when_fields_are_present(gate):
+def test_low_confidence_does_not_ask_when_required_fields_are_present(gate):
     result = gate.check(_requirement(attributes={"type": "seamless", "application": "structural"},
                                      not_specified=[]), _confidence(0.35))
-    assert result.status == "need_more_info"
-    assert result.questions
+    assert result.status == "ok"
+    assert result.questions == []
 
 
 def test_answers_are_merged_and_the_gap_closes(gate):

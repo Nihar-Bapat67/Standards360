@@ -1,12 +1,11 @@
 """Module B5: Sufficiency Gate and Clarifier, for scenario S5 (and it rescues S3 and S4).
 
-Decides whether we know enough to answer confidently. If not, it works out exactly which facts are
-missing and asks for them, one short question at a time, in the user's own language.
+Checks whether required product details are missing. If so, it asks for those facts, one short
+question at a time, in the user's own language. Retrieval confidence still affects the confidence
+band, but low confidence alone does not interrupt the user with a clarification.
 
-Two inputs drive the decision, as the manual specifies: whether the required fields for this product
-category are present, and the confidence C5 produced. The required-field table is hand written per
-category and lives in `config/required_fields.yaml`. Boring, cheap, and it is what turns "I am not
-sure" into a specific, answerable question.
+The required-field table is hand written per category and lives in `config/required_fields.yaml`.
+It turns a missing product detail into a specific, answerable question.
 
 The gate never guesses and never silently proceeds, but it also never blocks: `can_proceed_anyway`
 lets a user accept a weaker answer deliberately.
@@ -29,7 +28,6 @@ from app.understand.extractor import RequirementExtractor  # noqa: E402
 from contracts.answer import SufficiencyResult  # noqa: E402
 from contracts.requirement import RequirementObject  # noqa: E402
 
-ASK_BELOW = 0.60        # the manual's threshold: ask below this, or when a required field is missing
 MAX_QUESTIONS = 3       # two or three short questions, never an interrogation
 TRANSLATE_PROMPT = ("Translate each question into {language}. Keep them short and natural for a "
                     "government procurement officer. Reply with one JSON object mapping the original "
@@ -52,20 +50,12 @@ class SufficiencyGate:
         drivers = confidence.drivers if confidence else []
         missing = list(requirement.not_specified)
 
-        if not missing and score >= ASK_BELOW:
+        if not missing:
             return SufficiencyResult(status="ok", confidence=score, band=band,
                                      missing=[], questions=[], can_proceed_anyway=True,
                                      drivers=drivers)
 
         questions = self.extractor.questions_for(requirement)[:MAX_QUESTIONS]
-        if not questions and score < ASK_BELOW:
-            # Confidence is low but every required field was given, so the gap is the description
-            # itself rather than a specific field.
-            questions = [{"field": "description",
-                          "ask": "Could you describe the item in a little more detail, "
-                                 "including what it will be used for?"}]
-            missing = missing or ["description"]
-
         if requirement.language and requirement.language != "en":
             questions = self._translate(questions, requirement.language)
 

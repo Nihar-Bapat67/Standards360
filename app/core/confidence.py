@@ -35,7 +35,6 @@ from pydantic import BaseModel, ConfigDict, Field  # noqa: E402
 W_MATCH, W_MARGIN, W_FIELDS, W_GRAPH = 0.45, 0.20, 0.25, 0.10
 MARGIN_FULL = 0.30      # a lead of this much over the runner-up counts as decisive
 HIGH, MEDIUM = 0.75, 0.50
-ASK_BELOW = 0.60        # B5 asks a question below this, or when a required field is missing
 TITLE_ONLY_CEILING = 0.74   # matched on the catalogue title, with no clause to quote: never "high"
 
 
@@ -52,8 +51,11 @@ class ConfidenceResult(BaseModel):
 class ConfidenceScorer:
     def score(self, retrieval: RetrievalResult, allied: Optional[AlliedResult] = None,
               required: Optional[List[str]] = None, present: Optional[List[str]] = None) -> ConfidenceResult:
+        required = required or []
+        present = present or []
+        missing = [field for field in required if field not in present]
         if not retrieval or not retrieval.standards:
-            return ConfidenceResult(score=0.0, band="low", should_ask=True,
+            return ConfidenceResult(score=0.0, band="low", should_ask=bool(missing),
                                     signals={"s1": 0.0, "s2": 0.0, "s3": 0.0, "s4": 0.0},
                                     drivers=["no standard matched the description"])
 
@@ -75,8 +77,6 @@ class ConfidenceScorer:
         s2 = min(max(best - second, 0.0) / MARGIN_FULL, 1.0)
 
         # s3: did we know what we needed to know about the product?
-        required = required or []
-        present = present or []
         s3 = 1.0 if not required else len([f for f in required if f in present]) / len(required)
 
         # s4: does the relationship map agree with the search?
@@ -92,11 +92,10 @@ class ConfidenceScorer:
             score = round(min(score, TITLE_ONLY_CEILING), 3)
 
         band = "high" if score >= HIGH else ("medium" if score >= MEDIUM else "low")
-        missing = [f for f in required if f not in present]
         return ConfidenceResult(
             score=score,
             band=band,
-            should_ask=score < ASK_BELOW or bool(missing),
+            should_ask=bool(missing),
             signals={"s1": round(s1, 3), "s2": round(s2, 3), "s3": round(s3, 3), "s4": s4},
             drivers=self._drivers(top, s1, s2, s3, s4, missing, title_only),
         )

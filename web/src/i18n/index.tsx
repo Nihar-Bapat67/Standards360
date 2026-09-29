@@ -11,6 +11,7 @@ import {
 import { en, type Dictionary, type TranslationKey } from './en'
 import { DEFAULT_LANGUAGE, LANGUAGES, isSupported } from './languages'
 import { loaders } from './dictionaries'
+import { api } from '../services/api'
 
 /**
  * Interface translation.
@@ -82,19 +83,26 @@ export function I18nProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     let current = true
-    const load = loaders[language]
-    if (!load) {
-      setDictionary({})
+    setDictionary({})
+    if (language === 'en') {
       return
     }
-    load()
-      .then((module) => {
-        if (!current) return
-        // The generated files export the dictionary under the language code.
-        const found = (module as Record<string, unknown>)[language] ?? module.default
-        setDictionary((found as Dictionary) ?? {})
+    api.uiDictionary(language)
+      .then((translated) => {
+        if (current) setDictionary(translated as Dictionary)
       })
-      .catch(() => current && setDictionary({}))
+      .catch(async () => {
+        const load = loaders[language]
+        if (!load) return
+        try {
+          const module = await load()
+          if (!current) return
+          const found = (module as Record<string, unknown>)[language] ?? module.default
+          setDictionary((found as Dictionary) ?? {})
+        } catch {
+          if (current) setDictionary({})
+        }
+      })
     return () => {
       current = false
     }

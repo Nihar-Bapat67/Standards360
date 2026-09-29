@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 
 import { LANGUAGES, useI18n } from '../i18n'
-import { hasDictionary } from '../i18n/dictionaries'
 
 /**
  * The language switch.
@@ -10,10 +9,8 @@ import { hasDictionary } from '../i18n/dictionaries'
  * Each language is written in its own script, because someone looking for Tamil is looking for
  * "தமிழ்", not for the word "Tamil".
  *
- * A language whose interface dictionary has not been generated yet is still offered and still
- * marked. Choosing it leaves the chrome in English but sends that language to the engine, so the
- * recommendation itself — the part that matters — comes back translated. Saying so on the row is
- * better than either hiding the language or letting someone pick it and wonder why nothing changed.
+ * Every supported language is offered. The dictionary is translated by the API when configured,
+ * with checked-in dictionaries as an offline fallback.
  */
 export function LanguageSelector({ compact = false }: { compact?: boolean }) {
   const { language, setLanguage, t } = useI18n()
@@ -75,7 +72,6 @@ export function LanguageSelector({ compact = false }: { compact?: boolean }) {
         >
           {LANGUAGES.map((option) => {
             const active = option.code === language
-            const translated = option.code === 'en' || hasDictionary(option.code)
             return (
               <li key={option.code}>
                 <button
@@ -92,14 +88,6 @@ export function LanguageSelector({ compact = false }: { compact?: boolean }) {
                 >
                   <span className="flex-1 truncate text-[13.5px]">{option.native}</span>
                   <span className="shrink-0 text-[11px] text-muted">{option.english}</span>
-                  {!translated && (
-                    <span
-                      title="The answer is translated; the interface stays in English for now."
-                      className="shrink-0 text-[10px] text-amber"
-                    >
-                      ●
-                    </span>
-                  )}
                 </button>
               </li>
             )

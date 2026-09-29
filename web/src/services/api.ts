@@ -149,6 +149,8 @@ export const api = {
 
   meta: () => request<MetaResponse>('/v1/meta'),
 
+  uiDictionary: (language: string) => request<Record<string, string>>(`/v1/i18n/${language}`),
+
   analyze: async (body: AnalyzeRequest) => {
     const response = await postAnalyze('/v1/analyze', body)
     if (!response.ok) throw await parseError(response)

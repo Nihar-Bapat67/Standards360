@@ -88,6 +88,17 @@ def test_missing_fields_become_questions(extractor):
     assert all(q["ask"] for q in questions)
 
 
+def test_structural_steel_tube_query_uses_tube_fields(extractor):
+    requirement = extractor.extract(
+        "Supply of 200 MT structural steel tubes YSt 240, 50 NB medium class, "
+        "for pipe truss of an industrial shed")
+
+    assert requirement.category == "steel_tubes"
+    assert requirement.attributes["application"] == "pipe truss of an industrial shed"
+    assert requirement.not_specified == ["type"]
+    assert extractor.questions_for(requirement)[0]["ask"].startswith("Seamless, electric resistance welded")
+
+
 def test_a_type_already_stated_is_not_asked_about(extractor):
     requirement = extractor.extract(
         "Galvanized mild steel tubes, medium class, 25 mm nominal bore, for internal water supply")
@@ -147,4 +158,9 @@ def test_no_results_means_no_confidence():
     result = ConfidenceScorer().score(RetrievalResult(query="q"))
     assert result.score == 0.0
     assert result.band == "low"
+    assert result.should_ask is False
+
+
+def test_no_results_asks_only_when_required_fields_are_missing():
+    result = ConfidenceScorer().score(RetrievalResult(query="q"), required=["application"], present=[])
     assert result.should_ask is True

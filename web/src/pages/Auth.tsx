@@ -2,10 +2,11 @@ import { type FormEvent, type ReactNode, useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 import { Atmosphere } from '../components/Atmosphere'
-import { Wordmark } from '../components/Wordmark'
+import { ProductName } from '../components/ProductName'
 import { LanguageSelector } from '../components/LanguageSelector'
 import { Icon, Label } from '../components/ui'
 import { profile } from '../services/profile'
+import { useT } from '../i18n'
 
 /**
  * Sign in and create an account.
@@ -55,6 +56,7 @@ const EMPTY: Values = {
 
 export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
   const navigate = useNavigate()
+  const t = useT()
   const location = useLocation()
   // Where they were going before the gate sent them here.
   const destination = (location.state as { from?: string } | null)?.from ?? '/workspace'
@@ -74,20 +76,20 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
   const validate = useMemo(
     () => (): Partial<Record<keyof Values, string>> => {
       const found: Partial<Record<keyof Values, string>> = {}
-      if (!values.email.trim()) found.email = 'An email is required.'
+        if (!values.email.trim()) found.email = t('auth.emailRequired')
       else if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(values.email.trim()))
-        found.email = 'That does not look like an email address.'
+          found.email = t('auth.emailInvalid')
 
-      if (!values.password) found.password = 'A password is required.'
+        if (!values.password) found.password = t('auth.passwordRequired')
       else if (signup && values.password.length < 8)
-        found.password = 'Use at least 8 characters.'
+          found.password = t('auth.passwordShort')
 
       if (signup) {
-        if (!values.firstName.trim()) found.firstName = 'Required.'
-        if (!values.lastName.trim()) found.lastName = 'Required.'
-        if (!values.organisation.trim()) found.organisation = 'Required.'
-        if (!values.state) found.state = 'Required — it decides which laboratories are listed.'
-        if (values.confirm !== values.password) found.confirm = 'The two passwords do not match.'
+        if (!values.firstName.trim()) found.firstName = t('auth.required')
+        if (!values.lastName.trim()) found.lastName = t('auth.required')
+        if (!values.organisation.trim()) found.organisation = t('auth.required')
+        if (!values.state) found.state = t('auth.stateRequired')
+        if (values.confirm !== values.password) found.confirm = t('auth.passwordMismatch')
       }
       return found
     },
@@ -122,9 +124,9 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
 
       <header className="relative z-10">
         <nav className="mx-auto flex h-16 max-w-6xl items-center gap-7 px-5 sm:px-8">
-          <Wordmark />
+          <ProductName />
           <Link to="/" className="hidden text-[13px] text-secondary transition-colors hover:text-text sm:block">
-            Home
+            {t('nav.home')}
           </Link>
           <div className="flex-1" />
           <LanguageSelector compact />
@@ -134,15 +136,15 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
       <main className="relative z-10 mx-auto grid max-w-6xl gap-10 px-5 pb-16 pt-6 sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)] lg:gap-14 lg:pt-10">
         {/* ── the form ─────────────────────────────────────────────── */}
         <section className="w-full max-w-[560px]">
-          <Label className="text-amber">{signup ? 'Start for free' : 'Welcome back'}</Label>
+          <Label className="text-amber">{signup ? t('auth.startFree') : t('auth.welcomeBack')}</Label>
 
           <h1 className="mt-4 text-[clamp(2rem,4.6vw,2.9rem)] font-semibold leading-[1.08] tracking-[-0.03em]">
-            {signup ? 'Create new account' : 'Sign in'}
+            {signup ? t('auth.createAccount') : t('auth.signIn')}
             <span className="text-ember">.</span>
           </h1>
 
           <p className="mt-3.5 text-[14px] text-secondary">
-            {signup ? 'Already a member? ' : 'No account yet? '}
+            {signup ? t('auth.alreadyMember') : t('auth.noAccount')}{' '}
             <button
               type="button"
               onClick={() => {
@@ -152,7 +154,7 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
               }}
               className="text-amber underline-offset-4 transition-colors hover:text-coral hover:underline"
             >
-              {signup ? 'Log in' : 'Create one'}
+              {signup ? t('auth.logIn') : t('auth.createOne')}
             </button>
           </p>
 
@@ -160,18 +162,18 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
             type="button"
             onClick={() =>
               setNotice(
-                'Google sign-in needs OAuth credentials and a session endpoint on the API, which are not configured yet. Use the form below in the meantime.',
+                t('auth.googleUnavailable'),
               )
             }
             className="mt-7 flex h-12 w-full items-center justify-center gap-3 rounded-[14px] border border-white/10 bg-white/[0.045] text-[14px] font-medium text-text transition-colors hover:border-white/20 hover:bg-white/[0.07]"
           >
             <GoogleMark />
-            Continue with Google
+            {t('auth.google')}
           </button>
 
           <div className="my-6 flex items-center gap-4">
             <span className="h-px flex-1 bg-white/8" />
-            <span className="mono text-[10.5px] uppercase tracking-[0.14em] text-muted">or</span>
+            <span className="mono text-[10.5px] uppercase tracking-[0.14em] text-muted">{t('auth.or')}</span>
             <span className="h-px flex-1 bg-white/8" />
           </div>
 
@@ -180,7 +182,7 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
               <div className="grid gap-3 sm:grid-cols-2">
                 <Field
                   id="firstName"
-                  label="First name"
+                  label={t('auth.firstName')}
                   value={values.firstName}
                   onChange={set('firstName')}
                   error={errors.firstName}
@@ -189,7 +191,7 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
                 />
                 <Field
                   id="lastName"
-                  label="Last name"
+                  label={t('auth.lastName')}
                   value={values.lastName}
                   onChange={set('lastName')}
                   error={errors.lastName}
@@ -201,7 +203,7 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
 
             <Field
               id="email"
-              label={signup ? 'Official email' : 'Email'}
+              label={signup ? t('auth.officialEmail') : t('auth.email')}
               type="email"
               value={values.email}
               onChange={set('email')}
@@ -214,7 +216,7 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
               <>
                 <Field
                   id="organisation"
-                  label="Department or organisation"
+                  label={t('auth.organisation')}
                   value={values.organisation}
                   onChange={set('organisation')}
                   error={errors.organisation}
@@ -223,14 +225,12 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
                 />
 
                 <fieldset className="rounded-[14px] border border-white/10 bg-white/[0.035] px-4 py-3">
-                  <legend className="px-1 text-[11px] text-muted">I am drafting or supplying as</legend>
+                  <legend className="px-1 text-[11px] text-muted">{t('auth.role')}</legend>
                   <div className="mt-1.5 grid grid-cols-2 gap-1.5">
-                    {(
-                      [
-                        ['procurement', 'Procurement officer'],
-                        ['manufacturer', 'Manufacturer'],
-                      ] as const
-                    ).map(([value, text]) => (
+                    {([
+                      ['procurement', t('auth.roleProcurement')],
+                      ['manufacturer', t('auth.roleManufacturer')],
+                    ] as const).map(([value, text]) => (
                       <button
                         key={value}
                         type="button"
@@ -251,7 +251,7 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
 
                 <SelectField
                   id="state"
-                  label="State"
+                  label={t('auth.state')}
                   value={values.state}
                   onChange={set('state')}
                   error={errors.state}
@@ -262,7 +262,7 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
 
             <Field
               id="password"
-              label="Password"
+              label={t('auth.password')}
               type={showPassword ? 'text' : 'password'}
               value={values.password}
               onChange={set('password')}
@@ -272,7 +272,7 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
                 <button
                   type="button"
                   onClick={() => setShowPassword((v) => !v)}
-                  aria-label={showPassword ? 'Hide password' : 'Show password'}
+                  aria-label={showPassword ? t('auth.hidePassword') : t('auth.showPassword')}
                   className="text-muted transition-colors hover:text-text"
                 >
                   {showPassword ? <EyeOffIcon /> : <EyeIcon />}
@@ -283,7 +283,7 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
             {signup && (
               <Field
                 id="confirm"
-                label="Confirm password"
+                label={t('auth.confirmPassword')}
                 type={showPassword ? 'text' : 'password'}
                 value={values.confirm}
                 onChange={set('confirm')}
@@ -304,19 +304,17 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
 
             <div className="mt-2 flex flex-col gap-2.5 sm:flex-row">
               <Link to="/" className="btn btn-ghost flex-1">
-                Back to the home page
+                {t('auth.backHome')}
               </Link>
               <button type="submit" disabled={busy} className="btn btn-primary flex-1">
-                {busy ? 'Working…' : signup ? 'Create account' : 'Log in'}
+                {busy ? t('auth.working') : signup ? t('auth.createAccount') : t('auth.logIn')}
                 {!busy && <Icon.Arrow />}
               </button>
             </div>
           </form>
 
           <p className="mt-5 text-[11.5px] leading-relaxed text-muted">
-            Accounts are not issued yet: nothing here is verified and no password is stored or sent. Your
-            role and state are kept in this browser so the engine can word certification correctly and
-            list the nearest laboratories.
+            {t('auth.notice')}
           </p>
         </section>
 
@@ -339,31 +337,22 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
 
           <div className="relative flex h-full flex-col justify-between p-9">
             <div>
-              <Label className="text-amber">Why an account helps</Label>
+              <Label className="text-amber">{t('auth.panel.label')}</Label>
               <p className="mt-5 text-[19px] font-medium leading-[1.4] tracking-[-0.01em] text-text">
-                The same answer, worded for the person who has to act on it.
+                {t('auth.panel.heading')}
               </p>
 
               <ul className="mt-8 flex flex-col gap-5">
-                {[
-                  {
-                    head: 'Certification in your own terms',
-                    body: 'An officer is told what to require of bidders. A manufacturer is told what licence to hold before supplying.',
-                  },
-                  {
-                    head: 'Laboratories near you',
-                    body: 'Your state puts the recognised testing laboratories in your own region at the top of the list.',
-                  },
-                  {
-                    head: 'Your enquiries stay yours',
-                    body: 'Conversations are kept in this browser. A pre-tender document is read in memory and never written to disk.',
-                  },
-                ].map((item) => (
+                {([
+                  { head: 'auth.panel.item1', body: 'auth.panel.item1body' },
+                  { head: 'auth.panel.item2', body: 'auth.panel.item2body' },
+                  { head: 'auth.panel.item3', body: 'auth.panel.item3body' },
+                ] as const).map((item) => (
                   <li key={item.head} className="flex gap-3.5">
                     <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-amber" />
                     <div>
-                      <p className="text-[14px] font-medium text-text">{item.head}</p>
-                      <p className="mt-1 text-[13px] leading-relaxed text-secondary">{item.body}</p>
+                      <p className="text-[14px] font-medium text-text">{t(item.head)}</p>
+                      <p className="mt-1 text-[13px] leading-relaxed text-secondary">{t(item.body)}</p>
                     </div>
                   </li>
                 ))}
@@ -374,9 +363,6 @@ export function Auth({ mode: initial = 'signin' }: { mode?: Mode }) {
               <p className="mono text-[10.5px] uppercase tracking-[0.14em] text-muted">
                 PS 26108 · DoCA
               </p>
-              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" aria-hidden className="opacity-[0.08]">
-                <path d="M12 3v18M6 8h12M8 21h8" stroke="#F5F5F7" strokeWidth="2" strokeLinecap="round" />
-              </svg>
             </div>
           </div>
         </aside>

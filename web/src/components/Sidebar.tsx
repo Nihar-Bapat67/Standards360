@@ -3,9 +3,9 @@ import type { Conversation } from '../services/conversations'
 import { searchConversations, titleFor } from '../services/conversations'
 import type { Persona } from '../types/api'
 import { Icon, Label } from './ui'
+import { ProductName } from './ProductName'
 import { profile } from '../services/profile'
 import { useT } from '../i18n'
-import { Wordmark } from './Wordmark'
 import { relativeTime } from '../lib/format'
 
 /**
@@ -49,13 +49,13 @@ export function Sidebar({
   return (
     <div className="flex h-full flex-col border-r border-white/6 bg-ink-1/80 backdrop-blur-xl">
       <div className="flex h-16 items-center gap-2 px-4">
-        <Wordmark small />
+        <ProductName />
         <div className="flex-1" />
         {onClose && (
           <button
             type="button"
             onClick={onClose}
-            aria-label="Close the menu"
+            aria-label={t('action.close')}
             className="flex h-9 w-9 items-center justify-center rounded-lg text-secondary hover:text-text lg:hidden"
           >
             <Icon.Close />
@@ -88,7 +88,7 @@ export function Sidebar({
         </div>
       </div>
 
-      <nav aria-label="Your enquiries" className="scroll-fade mt-3 flex-1 overflow-y-auto px-3 pb-3">
+      <nav aria-label={t('workspace.openMenu')} className="scroll-fade mt-3 flex-1 overflow-y-auto px-3 pb-3">
         {shown.length === 0 ? (
           <p className="px-2 py-6 text-[12.5px] leading-relaxed text-muted">
             {term ? t('workspace.noMatchSearch') : t('workspace.emptyHistory')}
@@ -124,7 +124,7 @@ export function Sidebar({
                     <button
                       type="button"
                       onClick={() => onTogglePin(conversation.id)}
-                      aria-label={conversation.pinned ? 'Unpin this enquiry' : 'Pin this enquiry'}
+                      aria-label={conversation.pinned ? t('workspace.unpin') : t('workspace.pin')}
                       className="flex h-7 w-7 items-center justify-center rounded-md text-muted hover:bg-white/8 hover:text-text"
                     >
                       <Icon.Pin />
@@ -132,7 +132,7 @@ export function Sidebar({
                     <button
                       type="button"
                       onClick={() => onDelete(conversation.id)}
-                      aria-label="Delete this enquiry"
+                      aria-label={t('workspace.delete')}
                       className="flex h-7 w-7 items-center justify-center rounded-md text-muted hover:bg-white/8 hover:text-red"
                     >
                       <Icon.Trash />
@@ -149,7 +149,7 @@ export function Sidebar({
         <Label>{t('workspace.answeringAs')}</Label>
         <div
           role="radiogroup"
-          aria-label="Persona"
+          aria-label={t('workspace.answeringAs')}
           className="mt-2 grid grid-cols-2 gap-1 rounded-lg border border-white/8 bg-black/20 p-1"
         >
           {(['procurement', 'manufacturer'] as const).map((value) => (

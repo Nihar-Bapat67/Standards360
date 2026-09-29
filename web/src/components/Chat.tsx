@@ -143,7 +143,7 @@ function AssistantMessage({
           </div>
           <p className="mt-1.5 line-clamp-2 text-[13px] leading-snug text-secondary">{result.primary_title}</p>
           <div className="mt-3 flex items-center justify-between">
-            <span className="text-[11px] text-muted">{summarise(result)}</span>
+            <span className="text-[11px] text-muted">{summarise(result, t)}</span>
             <span className="text-[12px] text-muted">{t('workspace.applicableStandards')}</span>
           </div>
         </div>
@@ -151,7 +151,7 @@ function AssistantMessage({
 
       {!!result?.evidence.length && (
         <details className="card-quiet max-w-[620px] p-4">
-          <summary className="cursor-pointer text-[13px] font-medium text-text">Why this standard applies</summary>
+          <summary className="cursor-pointer text-[13px] font-medium text-text">{t('results.why')}</summary>
           <div className="mt-3 space-y-3">
             {result.evidence.map((item) => (
               <div key={`${item.standard}-${item.clause}`}>
@@ -332,17 +332,17 @@ function QuestionCard({
  * emits an `add` verdict for a standard that should be cited but is not, which is a different thing
  * from a citation that is wrong, so the two are counted separately and only what happened is said.
  */
-function summarise(result: AnalyzeResponse): string {
+function summarise(result: AnalyzeResponse, t: ReturnType<typeof useT>): string {
   const wrong = result.verdicts.filter((v) => v.verdict === 'replace' || v.verdict === 'remove').length
   const missing = result.verdicts.filter((v) => v.verdict === 'add').length
 
   const parts: string[] = []
-  if (wrong) parts.push(`${wrong} citation${wrong === 1 ? '' : 's'} to change`)
-  if (missing) parts.push(`${missing} to add`)
+  if (wrong) parts.push(t(wrong === 1 ? 'chat.oneCitationToChange' : 'chat.citationsToChange', { count: wrong }))
+  if (missing) parts.push(t('chat.citationsToAdd', { count: missing }))
   if (parts.length) return parts.join(' · ')
 
   const allied = Object.values(result.allied).flat().length
-  return allied ? `${allied} allied standards` : 'View the findings'
+  return allied ? t('chat.alliedStandards', { count: allied }) : t('chat.viewFindings')
 }
 
 /**
@@ -469,7 +469,7 @@ export function Composer({
           type="button"
           onClick={() => picker.current?.click()}
           disabled={busy}
-          aria-label="Attach a tender, specification or screenshot"
+          aria-label={t('composer.attach')}
           className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-white/8 bg-white/[0.03] text-secondary transition-colors hover:border-white/16 hover:text-text disabled:opacity-40"
         >
           <Icon.Paperclip />
@@ -499,7 +499,7 @@ export function Composer({
         <button
           type="submit"
           disabled={busy || !text.trim()}
-          aria-label="Send"
+          aria-label={t('composer.send')}
           className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-[#0A0508] transition-all duration-300 disabled:opacity-35"
           style={{ background: 'linear-gradient(145deg,#FF8A5B 0%,#FF5F7A 55%,#E95D9C 100%)' }}
         >

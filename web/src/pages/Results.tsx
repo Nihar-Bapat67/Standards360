@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 
 import { Atmosphere } from '../components/Atmosphere'
+import { ProductName } from '../components/ProductName'
 import { StandardDrawer } from '../components/StandardDrawer'
 import { TestingLabs } from '../components/TestingLabs'
 import { Chip, EmptyState, Icon, Label } from '../components/ui'
@@ -85,7 +86,7 @@ export function Results() {
       })
       saveBlob(blob, filename)
     } catch (error) {
-      setDownloadError(error instanceof ApiError ? error.friendly : 'The document could not be generated.')
+      setDownloadError(error instanceof ApiError ? error.friendly : t('error.documentFailed'))
     } finally {
       setDownloading(false)
     }
@@ -99,15 +100,14 @@ export function Results() {
     return (
       <div className="relative min-h-dvh">
         <Atmosphere variant="work" />
-        <TopBar onBack={backToChat} title="No answer yet" />
+        <TopBar onBack={backToChat} title={t('results.noAnswerShort')} />
         <main className="mx-auto max-w-2xl px-5 pt-24">
-          <EmptyState icon={<Icon.Doc />} title="There is no answer on this enquiry yet">
-            Ask about an item in the conversation, or drop a tender in, and the applicable standards will
-            appear here.
+          <EmptyState icon={<Icon.Doc />} title={t('results.noAnswerTitle')}>
+            {t('results.noAnswerBody')}
           </EmptyState>
           <div className="mt-6 flex justify-center">
             <button type="button" onClick={backToChat} className="btn btn-primary px-6">
-              Back to the conversation
+              {t('results.backToConversation')}
             </button>
           </div>
         </main>
@@ -166,16 +166,17 @@ export function Results() {
                 {result.amendments.length} amendment{result.amendments.length === 1 ? '' : 's'}
               </Chip>
             )}
-            {cert?.certification_required && <Chip tone="warm">ISI mark compulsory</Chip>}
-            {cert && cert.labs_available > 0 && <Chip>{formatNumber(cert.labs_available)} laboratories</Chip>}
+            {cert?.certification_required && <Chip tone="warm">{t('results.isiCompulsory')}</Chip>}
+            {cert && cert.labs_available > 0 && (
+              <Chip>{t('results.labCount', { count: formatNumber(cert.labs_available) })}</Chip>
+            )}
           </div>
 
           {result.amendments.length > 0 && (
             <div className="card mt-7 p-6">
               <Label>{t('results.howToCite')}</Label>
               <p className="mt-3 text-[14.5px] leading-relaxed text-secondary">
-                {result.amendments.map((a) => `${a.number} (${a.year})`).join(' · ')}. An amendment changes
-                a standard without replacing it, so the edition year does not move. Cite it as amended.
+                {result.amendments.map((a) => `${a.number} (${a.year})`).join(' · ')}. {t('results.amendmentNote')}
               </p>
               {result.primary_as_cited && (
                 <div className="mt-4 flex flex-wrap items-center gap-3">
@@ -322,7 +323,7 @@ export function Results() {
         {/* ── 5 · where to get it tested ─────────────────────────────── */}
         {cert && cert.labs_available > 0 && (
           <Section
-            title="Where to get it tested"
+            title={t('standard.whereTested')}
             hint="BIS-recognised laboratories for these standards, with the distance from you and a route."
           >
             <TestingLabs standards={labStandards} persona={persona} />
@@ -413,7 +414,7 @@ export function Results() {
           >
             <div
               role="radiogroup"
-              aria-label="Citation depth"
+              aria-label={t('results.citationDepth')}
               className="grid gap-2 sm:grid-cols-3"
             >
               {result.options.map((o) => {
@@ -482,7 +483,7 @@ export function Results() {
 
         {/* ── the guard ──────────────────────────────────────────────── */}
         {result.removed_by_guard.length > 0 && (
-          <Section title="Removed before you saw it">
+          <Section title={t('results.removed')}>
             <div className="card border-[rgb(255_107_107/0.25)] p-5">
               <p className="text-[14px] leading-relaxed text-secondary">
                 {result.removed_by_guard.join(', ')} appeared in the written explanation but is not in the
@@ -570,6 +571,7 @@ function TopBar({ onBack, title }: { onBack: () => void; title: string }) {
   return (
     <header className="sticky top-0 z-30 border-b border-white/6 bg-ink-0/75 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-5xl items-center gap-4 px-5 sm:px-8">
+        <ProductName small />
         <button
           type="button"
           onClick={onBack}

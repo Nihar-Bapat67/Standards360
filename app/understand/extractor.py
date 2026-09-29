@@ -97,7 +97,7 @@ class RequirementExtractor:
         attributes = self._attributes(text)
         cited = self._citations(text)
         product = self._product_from_rules(text)
-        category = self._category(product or text)
+        category = self._category(text) or self._category(product)
         used = "rules"
 
         if self.llm and self.llm.available:
@@ -109,7 +109,9 @@ class RequirementExtractor:
                     key = re.sub(r"\W+", "_", key.strip().lower())
                     if value and key not in attributes and key not in ("quantity", "price"):
                         attributes[key] = str(value)[:80]
-                category = self._category(f"{product} {improved.get('category', '')}") or category
+                category = (self._category(text)
+                            or self._category(f"{product} {improved.get('category', '')}")
+                            or category)
 
         required = self.fields.get(category, {}).get("required", [])
         missing = [field for field in required if field not in attributes]

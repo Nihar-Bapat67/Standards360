@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 import { Atmosphere } from '../components/Atmosphere'
+import { ProductName } from '../components/ProductName'
 import { Chip, Icon, Label, SectionLabel, Skeleton } from '../components/ui'
 import { useMeta } from '../hooks/useMeta'
 import { formatNumber } from '../lib/format'
-import { Wordmark } from '../components/Wordmark'
 import { LanguageSelector } from '../components/LanguageSelector'
 import { useT } from '../i18n'
 
@@ -19,34 +19,34 @@ import { useT } from '../i18n'
 const SITUATIONS = [
   {
     id: 'S1',
-    arrives: 'A tender with no standards at all',
-    response: 'Recommend from scratch, each with the BIS clause that supports it',
+    arrives: 'landing.doors.s1.arrives',
+    response: 'landing.doors.s1.response',
   },
   {
     id: 'S2',
-    arrives: 'A tender with standards someone already guessed',
-    response: 'Judge every citation: keep, replace, remove, or add what is missing',
+    arrives: 'landing.doors.s2.arrives',
+    response: 'landing.doors.s2.response',
   },
   {
     id: 'S3',
-    arrives: 'A screenshot of a specification',
-    response: 'Read it, then show the extracted text back before acting on it',
+    arrives: 'landing.doors.s3.arrives',
+    response: 'landing.doors.s3.response',
   },
-  { id: 'S4', arrives: 'Only a product name', response: 'Ask for the context that decides the answer' },
+  { id: 'S4', arrives: 'landing.doors.s4.arrives', response: 'landing.doors.s4.response' },
   {
     id: 'S5',
-    arrives: 'Too little to be confident',
-    response: 'Stop, say what is missing, and ask rather than guess',
+    arrives: 'landing.doors.s5.arrives',
+    response: 'landing.doors.s5.response',
   },
-]
+] as const
 
 const STAGES = [
-  { id: '01', module: 'B1 · B3', name: 'Understand', detail: 'Read the tender, extract the requirement, note what it never specified' },
-  { id: '02', module: 'C1', name: 'Retrieve', detail: 'Dense vectors, BM25, titles and citations, fused by rank' },
-  { id: '03', module: 'C2', name: 'Expand', detail: 'Walk the cross-reference graph two hops, grouped by the role each standard plays' },
-  { id: '04', module: 'C3 · C4', name: 'Verify', detail: 'Resolve the edition in force, attach amendments, check the QCO and the labs' },
-  { id: '05', module: 'D1 · D3', name: 'Deliver', detail: 'Guard every number against the catalogue, then write the annexure' },
-]
+  { id: '01', module: 'B1 · B3', name: 'landing.stage.understand', detail: 'landing.stage.understand.detail' },
+  { id: '02', module: 'C1', name: 'landing.stage.retrieve', detail: 'landing.stage.retrieve.detail' },
+  { id: '03', module: 'C2', name: 'landing.stage.expand', detail: 'landing.stage.expand.detail' },
+  { id: '04', module: 'C3 · C4', name: 'landing.stage.verify', detail: 'landing.stage.verify.detail' },
+  { id: '05', module: 'D1 · D3', name: 'landing.stage.deliver', detail: 'landing.stage.deliver.detail' },
+] as const
 
 export function Landing() {
   const t = useT()
@@ -84,7 +84,7 @@ export function Landing() {
       {/* ── navigation ───────────────────────────────────────────────── */}
       <header className="sticky top-0 z-40 border-b border-white/6 bg-ink-0/70 backdrop-blur-xl">
         <nav className="mx-auto flex h-16 max-w-6xl items-center gap-4 px-5 sm:px-8">
-          <Wordmark />
+          <ProductName />
           <div className="flex-1" />
           <Link
             to="/login"
@@ -170,30 +170,29 @@ export function Landing() {
         {/* ── the problem, stated once ───────────────────────────────── */}
         <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
           <div className="card overflow-hidden p-8 sm:p-11">
-            <SectionLabel index="01">The problem</SectionLabel>
+            <SectionLabel index="01">{t('landing.problem.label')}</SectionLabel>
             <h2 className="mt-5 max-w-3xl text-[clamp(1.6rem,3.4vw,2.4rem)] font-semibold leading-[1.15] tracking-[-0.02em]">
-              An officer drafting a specification has to find the right standard among tens of thousands,
-              in editions that keep changing.
+              {t('landing.problem.heading')}
             </h2>
             <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-secondary">
-              Scopes overlap. Revisions are frequent. Normative references have to be cited too. So tenders
-              omit standards that apply, cite editions that were withdrawn years ago, or carry requirements
-              that cannot be tested — and the dispute surfaces after the contract is awarded.
+              {t('landing.problem.body')}
             </p>
 
             <div className="mt-9 grid gap-3 sm:grid-cols-3">
               {[
                 {
                   figure: c?.withdrawn != null ? formatNumber(c.withdrawn) : '—',
-                  label: 'withdrawn standards still citable in a document',
+                  label: t('landing.problem.withdrawn'),
                 },
                 {
                   figure: c?.with_replacement != null ? formatNumber(c.with_replacement) : '—',
-                  label: 'of them name their replacement, so the fix is knowable',
+                  label: t('landing.problem.replacement'),
                 },
                 {
                   figure: c?.labs != null ? formatNumber(c.labs) : '—',
-                  label: `recognised laboratories${c?.lab_states ? ` across ${c.lab_states} states` : ''}`,
+                  label: c?.lab_states
+                    ? t('landing.problem.labsAcross', { count: c.lab_states })
+                    : t('landing.problem.labs'),
                 },
               ].map((item) => (
                 <div key={item.label} className="card-quiet p-5">
@@ -207,21 +206,21 @@ export function Landing() {
 
         {/* ── five doors ─────────────────────────────────────────────── */}
         <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
-          <SectionLabel index="02">Five doors, one engine</SectionLabel>
+          <SectionLabel index="02">{t('landing.doors.label')}</SectionLabel>
           <h2 className="mt-5 max-w-3xl text-[clamp(1.6rem,3.4vw,2.4rem)] font-semibold leading-[1.15] tracking-[-0.02em]">
-            Built around how a request actually arrives, not around an ideal query.
+            {t('landing.doors.heading')}
           </h2>
 
           <div className="mt-9 overflow-hidden rounded-[20px] border border-white/8">
             <div className="hidden grid-cols-[64px_1fr_1fr] gap-px bg-white/6 sm:grid">
               <div className="bg-ink-1 px-4 py-3">
-                <Label>Case</Label>
+                <Label>{t('landing.doors.case')}</Label>
               </div>
               <div className="bg-ink-1 px-5 py-3">
-                <Label>What arrives</Label>
+                <Label>{t('landing.doors.arrives')}</Label>
               </div>
               <div className="bg-ink-1 px-5 py-3">
-                <Label>What we do</Label>
+                <Label>{t('landing.doors.response')}</Label>
               </div>
             </div>
 
@@ -234,8 +233,8 @@ export function Landing() {
                   <div className="sm:px-4">
                     <span className="mono text-[11px] text-amber">{s.id}</span>
                   </div>
-                  <div className="text-[14px] text-text sm:px-5">{s.arrives}</div>
-                  <div className="text-[14px] leading-snug text-secondary sm:px-5">{s.response}</div>
+                  <div className="text-[14px] text-text sm:px-5">{t(s.arrives)}</div>
+                  <div className="text-[14px] leading-snug text-secondary sm:px-5">{t(s.response)}</div>
                 </div>
               ))}
             </div>
@@ -244,13 +243,12 @@ export function Landing() {
 
         {/* ── the pipeline ───────────────────────────────────────────── */}
         <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
-          <SectionLabel index="03">The pipeline</SectionLabel>
+          <SectionLabel index="03">{t('landing.pipeline.label')}</SectionLabel>
           <h2 className="mt-5 max-w-3xl text-[clamp(1.6rem,3.4vw,2.4rem)] font-semibold leading-[1.15] tracking-[-0.02em]">
-            Nineteen modules. The search engine is one of them.
+            {t('landing.pipeline.heading')}
           </h2>
           <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-secondary">
-            Finding a plausible standard is the easy part. The other eighteen modules are what make the
-            answer safe to put inside a government tender.
+            {t('landing.pipeline.body')}
           </p>
 
           <div className="mt-9 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
@@ -260,17 +258,19 @@ export function Landing() {
                   <span className="mono text-[11px] text-amber">{stage.id}</span>
                   <span className="mono text-[10px] text-muted">{stage.module}</span>
                 </div>
-                <div className="mt-3 text-[15px] font-medium text-text">{stage.name}</div>
-                <p className="mt-2 text-[13px] leading-relaxed text-secondary">{stage.detail}</p>
+                <div className="mt-3 text-[15px] font-medium text-text">{t(stage.name)}</div>
+                <p className="mt-2 text-[13px] leading-relaxed text-secondary">{t(stage.detail)}</p>
               </div>
             ))}
           </div>
 
           <div className="mt-6 flex flex-wrap items-center gap-2.5">
             {data?.index?.model && <Chip>{data.index.model}</Chip>}
-            {data?.index?.clauses != null && <Chip>{formatNumber(data.index.clauses)} clauses indexed</Chip>}
+            {data?.index?.clauses != null && (
+              <Chip>{t('landing.pipeline.clausesIndexed', { count: formatNumber(data.index.clauses) })}</Chip>
+            )}
             {data?.index?.standards != null && (
-              <Chip>{formatNumber(data.index.standards)} standards with full text</Chip>
+              <Chip>{t('landing.pipeline.standardsIndexed', { count: formatNumber(data.index.standards) })}</Chip>
             )}
             {data?.sectors?.map((sector) => <Chip key={sector}>{sector}</Chip>)}
           </div>
@@ -279,23 +279,23 @@ export function Landing() {
         {/* ── the promise ────────────────────────────────────────────── */}
         <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
           <div className="grid gap-3 lg:grid-cols-3">
-            {[
+            {([
               {
-                title: 'Every number is checked before it is shown',
-                body: 'The only component that can write a standard number that does not exist is the sentence a language model composes. That sentence is checked against the full catalogue before anyone reads it, and anything not found is deleted rather than softened.',
+                title: 'landing.promise1.title',
+                body: 'landing.promise1.body',
               },
               {
-                title: 'A blank field says so',
-                body: 'BIS leaves certification unstated for most standards. Where that is the case the answer reads “not stated by BIS”, never “not required”. The difference matters to a bidder who would otherwise ship without a licence.',
+                title: 'landing.promise2.title',
+                body: 'landing.promise2.body',
               },
               {
-                title: 'It asks rather than guesses',
-                body: 'When the required facts for a product category are missing, the engine says which ones and asks. A confident answer built on absent information is the one failure this product cannot afford.',
+                title: 'landing.promise3.title',
+                body: 'landing.promise3.body',
               },
-            ].map((item) => (
+            ] as const).map((item) => (
               <div key={item.title} className="card p-7">
-                <h3 className="text-[16px] font-medium leading-snug text-text">{item.title}</h3>
-                <p className="mt-3 text-[14px] leading-relaxed text-secondary">{item.body}</p>
+                <h3 className="text-[16px] font-medium leading-snug text-text">{t(item.title)}</h3>
+                <p className="mt-3 text-[14px] leading-relaxed text-secondary">{t(item.body)}</p>
               </div>
             ))}
           </div>
@@ -315,15 +315,14 @@ export function Landing() {
               }}
             />
             <h2 className="relative text-[clamp(1.7rem,4vw,2.6rem)] font-semibold leading-tight tracking-[-0.025em]">
-              Conversation in, <span className="text-ember">document out.</span>
+              {t('landing.cta.heading1')} <span className="text-ember">{t('landing.cta.heading2')}</span>
             </h2>
             <p className="relative mx-auto mt-5 max-w-xl text-[15px] leading-relaxed text-secondary">
-              The intake is a conversation because that is how missing information gets found. The answer is
-              an annexure you can attach to the tender, because that is how a tender carries it.
+              {t('landing.cta.body')}
             </p>
             <div className="relative mt-8 flex justify-center">
               <Link to="/workspace" className="btn btn-primary px-8">
-                Find the standard
+                {t('nav.findStandard')}
                 <Icon.Arrow />
               </Link>
             </div>
@@ -333,11 +332,10 @@ export function Landing() {
 
       <footer className="border-t border-white/6">
         <div className="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-9 text-[13px] text-muted sm:flex-row sm:items-center sm:px-8">
-          <Wordmark small />
+          <ProductName small />
           <div className="flex-1" />
           <p className="max-w-xl leading-relaxed sm:text-right">
-            Copyright in every Indian Standard vests in BIS. Standards360 stores short extracts and always
-            cites the source; it never reproduces a standard in full.
+            {t('landing.footer')}
           </p>
         </div>
       </footer>

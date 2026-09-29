@@ -36,6 +36,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 from app.deliver.document import DocumentGenerator  # noqa: E402
 from app.pipeline import AnalysisResult, Pipeline  # noqa: E402
 from app.understand.language import supported as supported_languages  # noqa: E402
+from app.ui_translation import UITranslationUnavailable, translate_ui_dictionary  # noqa: E402
 from contracts.analysis import CertificationAnswer, LabAnswer  # noqa: E402
 from contracts.answer import CitationVerdict  # noqa: E402
 
@@ -163,6 +164,17 @@ def health():
         "catalogue": len(pipeline.resolver.cat._by_record),
         "llm": pipeline.extractor.llm.available if pipeline.extractor.llm else False,
     }
+
+
+@app.get("/v1/i18n/{language}")
+def ui_dictionary(language: str):
+    """Return the Google-translated interface dictionary for a supported language."""
+    try:
+        return translate_ui_dictionary(language)
+    except ValueError as error:
+        raise HTTPException(status_code=404, detail="Unsupported interface language") from error
+    except UITranslationUnavailable as error:
+        raise HTTPException(status_code=503, detail=str(error)) from error
 
 
 @app.post("/v1/analyze", response_model=AnalyzeResponse)

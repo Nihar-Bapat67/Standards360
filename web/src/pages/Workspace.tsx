@@ -5,6 +5,7 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { Atmosphere } from '../components/Atmosphere'
 import { AssistantMessage, Composer, StageStream, UserMessage } from '../components/Chat'
 import { Sidebar } from '../components/Sidebar'
+import { ProductName } from '../components/ProductName'
 import { Icon, Label } from '../components/ui'
 import { LanguageSelector } from '../components/LanguageSelector'
 import { useT } from '../i18n'
@@ -138,9 +139,9 @@ export function Workspace() {
       const withUser = persist({ ...conversation, messages: [...conversation.messages, user] })
 
       const result = await analysis.runFile(file, persona, null, contextFor(withUser))
-      finish(withUser, result, result ? null : analysis.error ?? 'The engine could not read that file.')
+      finish(withUser, result, result ? null : analysis.error ?? t('error.cannotReadFile'))
     },
-    [analysis, ensureConversation, finish, persist, persona],
+    [analysis, ensureConversation, finish, persist, persona, t],
   )
 
   /** B5's loop: the answer is merged into the requirement and the whole request runs again. */
@@ -274,6 +275,7 @@ export function Workspace() {
           </button>
 
           <div className="min-w-0 flex-1">
+            <ProductName small />
             <p className="truncate text-[14px] font-medium text-text">
               {active ? titleFor(active) : t('workspace.newEnquiry')}
             </p>

@@ -4,6 +4,7 @@ Secrets are read from the environment, or from a `.env` file at the project root
 Nothing in this repository ever contains a key: the file is local to each developer's machine.
 
     SARVAM_API_KEY=...        used by B2 (translation) and the phrasing calls in B3, B5 and D2
+    GOOGLE_TRANSLATE_API_KEY=... used for translating the web interface dictionaries
     BIS_CONTACT=...           polite contact header for the A1 crawler
 
     from app.config import settings
@@ -47,6 +48,7 @@ def load_env(path: Path = ENV_FILE) -> None:
 @dataclass(frozen=True)
 class Settings:
     sarvam_api_key: Optional[str]
+    google_translate_api_key: Optional[str]
     sarvam_chat_model: str
     sarvam_base_url: str
     llm_provider: str
@@ -81,6 +83,7 @@ def _build() -> Settings:
     sarvam_key = os.environ.get("SARVAM_API_KEY") or None
     return Settings(
         sarvam_api_key=sarvam_key,
+        google_translate_api_key=os.environ.get("GOOGLE_TRANSLATE_API_KEY") or None,
         # sarvam-m was retired. Of the two replacements, measured on this project's prompts:
         # sarvam-105b reasons first and answers in 10 to 17 s, while sarvam-105b-conversations
         # answers the same extraction in 0.5 s. Latency matters more than depth for our prompts,
