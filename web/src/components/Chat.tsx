@@ -1,4 +1,4 @@
-import { type ChangeEvent, type FormEvent, type KeyboardEvent, useEffect, useRef, useState } from 'react'
+import { type ChangeEvent, type FormEvent, type KeyboardEvent, useCallback, useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 
 import type { AnalyzeResponse, Question, StageEvent } from '../types/api'
@@ -6,7 +6,9 @@ import type { Message } from '../services/conversations'
 import { CopyButton, ErrorState, Icon, Label } from './ui'
 import { MODULE_NAMES, formatBytes, relativeTime } from '../lib/format'
 import { useMediaQuery } from '../hooks/useMediaQuery'
-import { useT } from '../i18n'
+import { useI18n, useT } from '../i18n'
+import { useVoiceInput } from '../hooks/useVoiceInput'
+import { VoiceRecorderBar } from './VoiceRecorderBar'
 
 /* ── the engine working, reported by the engine ───────────────────────────
    These stages are real: each one arrives from the pipeline's own callback as
@@ -389,12 +391,50 @@ export function Composer({
   placeholder?: string
 }) {
   const t = useT()
+  const { language } = useI18n()
   const narrow = useMediaQuery('(max-width: 640px)')
   const [text, setText] = useState('')
   const [fileError, setFileError] = useState<string | null>(null)
   const [dragging, setDragging] = useState(false)
   const area = useRef<HTMLTextAreaElement>(null)
   const picker = useRef<HTMLInputElement>(null)
+
+  // Voice dictation: insert transcribed text at cursor position without auto-sending
+  const handleTranscribed = useCallback((transcript: string) => {
+    const node = area.current
+    if (!node) {
+      setText((prev) => (prev ? `${prev} ${transcript}` : transcript))
+      return
+    }
+
+    const start = node.selectionStart ?? text.length
+    const end = node.selectionEnd ?? text.length
+    const before = text.slice(0, start)
+    const after = text.slice(end)
+
+    const prefix = before.length > 0 && !before.endsWith(' ') ? ' ' : ''
+    const suffix = after.length > 0 && !after.startsWith(' ') ? ' ' : ''
+    const nextText = `${before}${prefix}${transcript}${suffix}${after}`
+    setText(nextText)
+
+    requestAnimationFrame(() => {
+      node.focus()
+      const newCursor = start + prefix.length + transcript.length
+      node.setSelectionRange(newCursor, newCursor)
+      node.style.height = 'auto'
+      node.style.height = `${Math.min(node.scrollHeight, 168)}px`
+    })
+  }, [text])
+
+  const voiceInput = useVoiceInput({
+    lang: language,
+    onTranscribed: handleTranscribed,
+  })
+
+  const isVoiceActive =
+    voiceInput.state === 'recording' ||
+    voiceInput.state === 'requesting' ||
+    voiceInput.state === 'transcribing'
 
   // Grow with the content up to a ceiling, so a pasted clause is readable without the composer
   // swallowing the conversation.
@@ -407,6 +447,7 @@ export function Composer({
 
   const submit = (event?: FormEvent) => {
     event?.preventDefault()
+    if (isVoiceActive) return
     const value = text.trim()
     if (!value || busy) return
     onSend(value)
@@ -421,6 +462,7 @@ export function Composer({
   }
 
   const accept = (file: File | undefined) => {
+    if (isVoiceActive) return
     setFileError(null)
     if (!file) return
     const suffix = `.${file.name.split('.').pop()?.toLowerCase() ?? ''}`
@@ -440,6 +482,17 @@ export function Composer({
     event.target.value = ''
   }
 
+  const voiceErrorMessage =
+    voiceInput.error === 'micDenied'
+      ? t('composer.micDenied')
+      : voiceInput.error === 'micNotFound'
+        ? t('composer.micNotFound')
+        : voiceInput.error === 'noSpeech'
+          ? t('composer.noSpeech')
+          : voiceInput.error === 'transcribeFailed'
+            ? t('composer.transcribeFailed')
+            : null
+
   return (
     <div className="px-4 pb-4 pt-2 sm:px-6 sm:pb-6">
       {fileError && (
@@ -448,17 +501,45 @@ export function Composer({
         </p>
       )}
 
+      {voiceErrorMessage && (
+        <div
+          role="alert"
+          className="mb-2 flex items-center justify-between gap-3 rounded-xl border border-red/25 bg-red/[0.06] px-3.5 py-2 text-[12.5px] text-red"
+        >
+          <span>{voiceErrorMessage}</span>
+          <div className="flex items-center gap-2.5 shrink-0">
+            {voiceInput.canRetry && (
+              <button
+                type="button"
+                onClick={voiceInput.retryTranscription}
+                className="font-medium text-amber underline transition-colors hover:text-[#ffb894]"
+              >
+                {t('composer.retry')}
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={voiceInput.clearError}
+              aria-label={t('action.close')}
+              className="text-secondary hover:text-text"
+            >
+              <Icon.Close />
+            </button>
+          </div>
+        </div>
+      )}
+
       <form
         onSubmit={submit}
         onDragOver={(event) => {
           event.preventDefault()
-          setDragging(true)
+          if (!isVoiceActive) setDragging(true)
         }}
         onDragLeave={() => setDragging(false)}
         onDrop={(event) => {
           event.preventDefault()
           setDragging(false)
-          accept(event.dataTransfer.files?.[0])
+          if (!isVoiceActive) accept(event.dataTransfer.files?.[0])
         }}
         className={`card flex items-end gap-2 p-2 transition-colors duration-300 ${
           dragging ? 'border-amber/50 bg-[rgb(255_138_91/0.06)]' : ''
@@ -468,43 +549,78 @@ export function Composer({
         <button
           type="button"
           onClick={() => picker.current?.click()}
-          disabled={busy}
+          disabled={busy || isVoiceActive}
           aria-label={t('composer.attach')}
           className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-white/8 bg-white/[0.03] text-secondary transition-colors hover:border-white/16 hover:text-text disabled:opacity-40"
         >
           <Icon.Paperclip />
         </button>
 
-        <label className="sr-only" htmlFor="composer">
-          {t('composer.placeholder')}
-        </label>
-        <textarea
-          ref={area}
-          id="composer"
-          rows={1}
-          value={text}
-          disabled={busy}
-          onChange={(event) => setText(event.target.value)}
-          onKeyDown={keyDown}
-          placeholder={
-            dragging
-              ? t('composer.dropHere')
-              : narrow
-                ? t('composer.placeholderShort')
-                : (placeholder ?? t('composer.placeholder'))
-          }
-          className="max-h-[168px] min-h-[44px] flex-1 resize-none bg-transparent px-1 py-3 text-[14.5px] leading-snug text-text placeholder:text-muted focus:outline-none disabled:opacity-50"
-        />
+        <AnimatePresence mode="wait" initial={false}>
+          {isVoiceActive ? (
+            <VoiceRecorderBar
+              key="voice-recorder"
+              state={voiceInput.state}
+              elapsedSeconds={voiceInput.elapsedSeconds}
+              levels={voiceInput.levels}
+              onConfirm={voiceInput.stopAndTranscribe}
+              onCancel={voiceInput.cancelRecording}
+              disabled={busy}
+            />
+          ) : (
+            <motion.div
+              key="text-editor"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
+              className="flex min-w-0 flex-1 items-end gap-2"
+            >
+              <label className="sr-only" htmlFor="composer">
+                {t('composer.placeholder')}
+              </label>
+              <textarea
+                ref={area}
+                id="composer"
+                rows={1}
+                value={text}
+                disabled={busy}
+                onChange={(event) => setText(event.target.value)}
+                onKeyDown={keyDown}
+                placeholder={
+                  dragging
+                    ? t('composer.dropHere')
+                    : narrow
+                      ? t('composer.placeholderShort')
+                      : (placeholder ?? t('composer.placeholder'))
+                }
+                className="max-h-[168px] min-h-[44px] flex-1 resize-none bg-transparent px-1 py-3 text-[14.5px] leading-snug text-text placeholder:text-muted focus:outline-none disabled:opacity-50"
+              />
 
-        <button
-          type="submit"
-          disabled={busy || !text.trim()}
-          aria-label={t('composer.send')}
-          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-[#0A0508] transition-all duration-300 disabled:opacity-35"
-          style={{ background: 'linear-gradient(145deg,#FF8A5B 0%,#FF5F7A 55%,#E95D9C 100%)' }}
-        >
-          <Icon.Send />
-        </button>
+              {voiceInput.isSupported && (
+                <button
+                  type="button"
+                  onClick={voiceInput.startRecording}
+                  disabled={busy}
+                  aria-label={t('composer.mic')}
+                  className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-white/8 bg-white/[0.03] text-secondary transition-colors hover:border-white/16 hover:text-text disabled:opacity-40"
+                >
+                  <Icon.Mic />
+                </button>
+              )}
+
+              <button
+                type="submit"
+                disabled={busy || !text.trim()}
+                aria-label={t('composer.send')}
+                className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-[#0A0508] transition-all duration-300 disabled:opacity-35"
+                style={{ background: 'linear-gradient(145deg,#FF8A5B 0%,#FF5F7A 55%,#E95D9C 100%)' }}
+              >
+                <Icon.Send />
+              </button>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </form>
 
       <p className="mt-2 px-1 text-[11px] leading-snug text-muted">

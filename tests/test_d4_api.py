@@ -176,3 +176,31 @@ def test_labs_endpoint_rejects_an_empty_request(client):
     assert client.post("/v1/labs", json={"standards": []}).status_code == 422
     assert client.post("/v1/labs", json={"standards": ["IS 269:2015"],
                                          "lat": 200, "lon": 0}).status_code == 422
+
+
+# ---------------------------------------------------------------- Voice transcription, POST /v1/transcribe
+
+def test_transcribe_rejects_unsupported_audio(client):
+    response = client.post(
+        "/v1/transcribe",
+        files={"file": ("test.exe", b"invalid audio content", "application/octet-stream")},
+    )
+    assert response.status_code == 415
+
+
+def test_transcribe_rejects_empty_audio(client):
+    response = client.post(
+        "/v1/transcribe",
+        files={"file": ("test.webm", b"", "audio/webm")},
+    )
+    assert response.status_code == 422
+
+
+def test_transcribe_fallback_when_no_provider(client):
+    # When no STT API key is configured in test env, endpoint returns 503 for client-side fallback
+    response = client.post(
+        "/v1/transcribe",
+        files={"file": ("test.webm", b"dummy audio content", "audio/webm")},
+    )
+    assert response.status_code in (200, 503)
+

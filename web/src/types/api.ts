@@ -246,3 +246,8 @@ export interface DocumentRequest extends AnalyzeRequest {
   mode?: 'annexure' | 'report'
   reference?: string | null
 }
+
+export interface TranscribeResponse {
+  text: string
+}
+

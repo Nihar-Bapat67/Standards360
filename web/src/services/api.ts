@@ -15,6 +15,7 @@ import type {
   MetaResponse,
   StageEvent,
   StandardDetail,
+  TranscribeResponse,
 } from '../types/api'
 
 /**
@@ -289,6 +290,21 @@ export const api = {
     const disposition = response.headers.get('Content-Disposition') ?? ''
     const match = /filename="?([^"]+)"?/.exec(disposition)
     return { blob: await response.blob(), filename: match?.[1] ?? 'standards360.pdf' }
+  },
+
+  transcribe: async (file: Blob, lang?: string): Promise<TranscribeResponse> => {
+    const form = new FormData()
+    const ext = file.type.includes('mp4') ? 'mp4' : file.type.includes('wav') ? 'wav' : 'webm'
+    form.append('file', file, `audio.${ext}`)
+    if (lang && lang !== 'auto') form.append('language', lang)
+    const response = await fetch(`${BASE}/v1/transcribe`, {
+      method: 'POST',
+      body: form,
+    }).catch(() => {
+      throw new ApiError(0, 'Could not reach the engine.')
+    })
+    if (!response.ok) throw await parseError(response)
+    return (await response.json()) as TranscribeResponse
   },
 }
 

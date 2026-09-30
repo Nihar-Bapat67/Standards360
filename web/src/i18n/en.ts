@@ -134,6 +134,17 @@ export const en = {
   'composer.hintShort': 'Uploads are never written to disk.',
   'composer.badType': 'That file type cannot be read. Use a PDF, DOCX, text file or a screenshot.',
   'composer.tooBig': 'That file is larger than 25 MB. Try the specification pages on their own.',
+  'composer.mic': 'Dictate with voice',
+  'composer.micStop': 'Stop recording and transcribe',
+  'composer.micCancel': 'Cancel recording',
+  'composer.recording': 'Listening…',
+  'composer.transcribing': 'Transcribing…',
+  'composer.micDenied':
+    'Microphone access was denied. Please allow microphone permissions in your browser settings to dictate.',
+  'composer.micNotFound': 'No microphone was found on this device.',
+  'composer.transcribeFailed': 'Voice transcription could not be completed.',
+  'composer.noSpeech': 'Didn’t catch that, try again.',
+  'composer.retry': 'Retry transcription',
 
   // ── the engine working ────────────────────────────────────────────────
   'stages.working': 'Working',

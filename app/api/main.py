@@ -25,6 +25,7 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Dict, List, Optional
 
+import requests
 from fastapi import FastAPI, File, Form, HTTPException, Response, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, StreamingResponse
@@ -45,9 +46,17 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 SSE_FRAME = "event: {name}\ndata: {body}\n\n"
 MAX_UPLOAD_BYTES = 25 * 1024 * 1024
 ALLOWED_SUFFIXES = {".pdf", ".docx", ".txt", ".md", ".png", ".jpg", ".jpeg", ".webp"}
+MAX_AUDIO_BYTES = 15 * 1024 * 1024
+ALLOWED_AUDIO_SUFFIXES = {".webm", ".mp4", ".m4a", ".ogg", ".wav", ".mp3"}
 
 
 # ---------------------------------------------------------------- request and response shapes
+
+class TranscribeResponse(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    text: str = Field(..., description="Transcribed text from speech audio")
+
 
 class AnalyzeRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
@@ -356,6 +365,86 @@ def labs(request: LabsRequest):
                        f"share your location.")
         return answer
     return finder.find(request.standards, origin, limit=request.limit)
+
+
+@app.post("/v1/transcribe", response_model=TranscribeResponse)
+@app.post("/api/transcribe", response_model=TranscribeResponse)
+async def transcribe(file: UploadFile = File(...), language: Optional[str] = Form(None)):
+    """Transcribe an audio clip using configured STT provider (Sarvam or OpenAI/Groq Whisper).
+
+    Accepts recorded voice audio (WebM, MP4, WAV, etc.) from the frontend dictation feature.
+    A short domain vocabulary hint is supplied to ensure Indian Standard numbers (e.g. 'IS 1239')
+    and procurement terminology are accurately transcribed.
+    """
+    suffix = Path(file.filename or "").suffix.lower()
+    if suffix and suffix not in ALLOWED_AUDIO_SUFFIXES:
+        raise HTTPException(
+            status_code=415,
+            detail=f"Unsupported audio type '{suffix}'. Allowed: {sorted(ALLOWED_AUDIO_SUFFIXES)}",
+        )
+
+    content = await file.read()
+    if len(content) > MAX_AUDIO_BYTES:
+        raise HTTPException(status_code=413, detail="Audio file larger than 15 MB")
+    if not content:
+        raise HTTPException(status_code=422, detail="Audio content is empty")
+
+    from app.config import settings
+
+    domain_prompt = "Indian Standards, IS numbers, IS 1239, IS 456, IS 8112, BIS, specifications, tender, clauses, steel, pipes, cement, PVC"
+
+    # 1. Try Sarvam AI STT if key configured
+    if settings.sarvam_api_key:
+        try:
+            sarvam_lang = "unknown"
+            if language:
+                from app.understand.language import BY_CODE
+                if language in BY_CODE:
+                    sarvam_lang = BY_CODE[language].sarvam
+
+            files = {"file": (file.filename or "recording.webm", content, file.content_type or "audio/webm")}
+            data = {
+                "model": "saaras:v2",
+                "language_code": sarvam_lang,
+                "prompt": domain_prompt,
+            }
+            headers = {"api-subscription-key": settings.sarvam_api_key}
+            resp = requests.post(
+                f"{settings.sarvam_base_url.rstrip('/')}/speech-to-text",
+                files=files,
+                data=data,
+                headers=headers,
+                timeout=30,
+            )
+            if resp.ok:
+                body = resp.json()
+                transcript = body.get("transcript") or body.get("text") or ""
+                return TranscribeResponse(text=transcript.strip())
+        except Exception:
+            pass
+
+    # 2. Try OpenAI / Groq Whisper if configured
+    if settings.llm_api_key and settings.llm_provider in ("openai", "groq"):
+        try:
+            model = "whisper-large-v3" if settings.llm_provider == "groq" else "whisper-1"
+            url = f"{settings.llm_base_url.rstrip('/')}/audio/transcriptions"
+            headers = {"Authorization": f"Bearer {settings.llm_api_key}"}
+            files = {"file": (file.filename or "recording.webm", content, file.content_type or "audio/webm")}
+            data = {"model": model, "prompt": domain_prompt}
+            if language and language != "auto":
+                data["language"] = language
+            resp = requests.post(url, files=files, data=data, headers=headers, timeout=30)
+            if resp.ok:
+                body = resp.json()
+                return TranscribeResponse(text=(body.get("text") or "").strip())
+        except Exception:
+            pass
+
+    # If no backend provider is available, return 503 so client falls back to browser Web Speech API
+    raise HTTPException(
+        status_code=503,
+        detail="Speech-to-text provider not configured on server. Browser fallback may be used.",
+    )
 
 
 @app.get("/v1/meta")
